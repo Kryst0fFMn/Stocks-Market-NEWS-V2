@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T23:33:58.581800+00:00",
+  "updated_at": "2026-11-16T23:56:33.630991+00:00",
   "stocks": [
     {
       "name": "Microsoft",
@@ -102,8 +102,8 @@
       "symbol": "BHP.AX",
       "market": "Austrálie",
       "currency": "AUD",
-      "price": 55.48,
-      "change": -3.02
+      "price": 55.18,
+      "change": -3.55
     },
     {
       "name": "Reliance Industries",
