@@ -1,306 +1,318 @@
 <!DOCTYPE html>
 <html lang="cs">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Market Pulse</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Market Pulse – světové trhy</title>
   <style>
     :root {
-      --bg: #0a1020;
-      --panel: #121b2e;
-      --panel-2: #1a2640;
+      color-scheme: dark;
+      --bg: #0b1220;
+      --panel: #121c30;
+      --panel2: #1a2842;
       --text: #edf3ff;
       --muted: #a9b7d1;
       --green: #34d399;
-      --red: #f87171;
+      --red: #fb7185;
       --yellow: #fbbf24;
-      --blue: #60a5fa;
-      --border: rgba(255,255,255,0.08);
+      --border: rgba(255,255,255,.09);
     }
 
     * { box-sizing: border-box; }
+
     body {
       margin: 0;
-      padding: 30px 18px 60px;
-      background: linear-gradient(180deg, #0a1020, #0d152a);
+      padding: 28px 18px 100px;
+      min-height: 100vh;
       color: var(--text);
+      background: linear-gradient(180deg, #0b1220, #0d172b);
       font-family: Arial, sans-serif;
     }
 
-    .container {
-      max-width: 1100px;
-      margin: 0 auto;
-    }
+    main { max-width: 1150px; margin: auto; }
 
-    .topbar {
+    header {
       display: flex;
-      justify-content: space-between;
       align-items: center;
-      gap: 12px;
-      margin-bottom: 22px;
+      justify-content: space-between;
       flex-wrap: wrap;
-    }
-
-    h1 {
-      margin: 0;
-      font-size: clamp(2rem, 2.5vw, 3rem);
-    }
-
-    .status {
-      background: var(--panel);
-      border: 1px solid var(--border);
-      border-radius: 999px;
-      padding: 8px 14px;
-      color: var(--muted);
-      font-size: 0.9rem;
-    }
-
-    .pulse {
-      display: inline-block;
-      width: 10px;
-      height: 10px;
-      border-radius: 50%;
-      background: var(--green);
-      box-shadow: 0 0 0 0 rgba(52,211,153,0.7);
-      animation: ping 1.7s infinite;
-      margin-right: 8px;
-      vertical-align: middle;
-    }
-
-    @keyframes ping {
-      0% { box-shadow: 0 0 0 0 rgba(52,211,153,0.7); }
-      70% { box-shadow: 0 0 0 12px rgba(52,211,153,0); }
-      100% { box-shadow: 0 0 0 0 rgba(52,211,153,0); }
-    }
-
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 18px;
+      gap: 14px;
       margin-bottom: 22px;
     }
 
-    .card {
+    h1 { margin: 0; font-size: clamp(2rem, 5vw, 3rem); }
+    h2 { margin: 0 0 15px; font-size: 1.2rem; }
+
+    .muted, .status, .meta { color: var(--muted); }
+    .status { font-size: .9rem; }
+
+    .controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 18px;
+    }
+
+    input, select {
+      color: var(--text);
       background: var(--panel);
       border: 1px solid var(--border);
-      border-radius: 18px;
-      padding: 20px;
-      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+      border-radius: 10px;
+      padding: 11px 12px;
+      font: inherit;
     }
 
-    .company {
+    input { flex: 1; min-width: 190px; }
+    select { min-width: 180px; }
+
+    .stock-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(215px, 1fr));
+      gap: 14px;
+      margin-bottom: 22px;
+    }
+
+    .card, .section {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 17px;
+    }
+
+    .stock-top {
       display: flex;
       justify-content: space-between;
-      align-items: center;
-      gap: 12px;
-      margin-bottom: 12px;
+      gap: 10px;
     }
 
-    .company-name {
-      font-weight: 700;
-      font-size: 1.1rem;
-    }
-
-    .ticker {
-      color: var(--muted);
-      font-size: 0.78rem;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-    }
-
-    .price {
-      font-size: 2.1rem;
-      font-weight: 700;
-      margin: 10px 0 8px;
-    }
-
-    .change {
-      font-weight: 700;
-      font-size: 0.95rem;
-    }
-
+    .company { font-weight: 700; font-size: 1.08rem; }
+    .ticker, .market { color: var(--muted); font-size: .82rem; margin-top: 4px; }
+    .price { margin: 16px 0 7px; font-size: 1.8rem; font-weight: 700; }
     .up { color: var(--green); }
     .down { color: var(--red); }
-    .neutral { color: var(--yellow); }
-
-    .news-wrap {
-      display: grid;
-      grid-template-columns: 1.35fr 0.65fr;
-      gap: 18px;
+    .pill {
+      height: fit-content;
+      padding: 5px 8px;
+      border-radius: 999px;
+      background: var(--panel2);
+      color: var(--muted);
+      font-size: .75rem;
     }
 
-    .news, .alerts {
-      background: var(--panel);
-      border: 1px solid var(--border);
-      border-radius: 18px;
-      padding: 20px;
-    }
-
-    .section-title {
-      margin: 0 0 16px;
-      font-size: 1.2rem;
-    }
-
-    .feed, .alert-list {
+    .news-list {
       list-style: none;
       margin: 0;
       padding: 0;
-      display: flex;
-      flex-direction: column;
-      gap: 14px;
+      display: grid;
+      gap: 12px;
     }
 
-    .feed li, .alert-item {
-      background: var(--panel-2);
+    .news-item {
+      padding: 14px;
+      border-radius: 12px;
+      background: var(--panel2);
+      border: 1px solid var(--border);
+    }
+
+    .news-item a { color: var(--text); text-decoration: none; }
+    .news-item a:hover { text-decoration: underline; }
+    .meta { margin-bottom: 7px; font-size: .82rem; }
+    .impact { margin-top: 8px; color: var(--yellow); font-size: .88rem; line-height: 1.4; }
+    .empty { color: var(--muted); padding: 12px 0; }
+
+    .disclaimer {
+      position: fixed;
+      right: 12px;
+      bottom: 12px;
+      z-index: 5;
+      max-width: 360px;
+      padding: 11px 13px;
+      color: #d7dfef;
+      background: #18243a;
       border: 1px solid var(--border);
       border-radius: 12px;
-      padding: 14px 16px;
+      box-shadow: 0 6px 24px #0006;
+      font-size: .78rem;
+      line-height: 1.4;
     }
 
-    .meta {
-      color: var(--muted);
-      font-size: 0.82rem;
-      margin-bottom: 8px;
-    }
-
-    .headline {
-      font-weight: 600;
-      line-height: 1.45;
-    }
-
-    .alert-title {
-      font-weight: 700;
-      margin-bottom: 6px;
-    }
-
-    .alert-time {
-      color: var(--muted);
-      font-size: 0.8rem;
-    }
-
-    .badge {
-      display: inline-block;
-      padding: 5px 8px;
-      font-size: 0.72rem;
-      font-weight: 700;
-      border-radius: 999px;
-      letter-spacing: 0.04em;
-      text-transform: uppercase;
-      margin-right: 8px;
-    }
-
-    .bad-up { background: rgba(52,211,153,0.15); color: var(--green); }
-    .bad-down { background: rgba(248,113,113,0.15); color: var(--red); }
-    .bad-alert { background: rgba(251,191,36,0.15); color: var(--yellow); }
-
-    @media (max-width: 760px) {
-      .news-wrap { grid-template-columns: 1fr; }
+    @media (max-width: 600px) {
+      body { padding: 20px 12px 125px; }
+      .disclaimer { left: 10px; right: 10px; bottom: 8px; max-width: none; }
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <div class="topbar">
-      <h1>Market Pulse</h1>
-      <div class="status"><span class="pulse"></span>Aktualizováno</div>
+  <main>
+    <header>
+      <div>
+        <h1>Market Pulse</h1>
+        <div class="muted">Akcie a zprávy z více světových trhů</div>
+      </div>
+      <div id="updated" class="status">Načítám data…</div>
+    </header>
+
+    <div class="controls">
+      <input id="search" type="search" placeholder="Hledat firmu nebo ticker…">
+      <select id="marketFilter" aria-label="Filtrovat podle trhu">
+        <option value="">Všechny trhy</option>
+      </select>
     </div>
 
-    <div class="grid" id="stocks"></div>
+    <section>
+      <h2>Akcie</h2>
+      <div id="stocks" class="stock-grid">
+        <div class="empty">Načítám kotace…</div>
+      </div>
+    </section>
 
-    <div class="news-wrap">
-      <section class="news">
-        <h2 class="section-title">Poslední zprávy</h2>
-        <ul class="feed" id="newsFeed"></ul>
-      </section>
+    <section class="section">
+      <h2>Firemní zprávy a možné souvislosti</h2>
+      <ul id="news" class="news-list">
+        <li class="empty">Načítám zprávy…</li>
+      </ul>
+    </section>
+  </main>
 
-      <aside class="alerts">
-        <h2 class="section-title">Výpadky a klíčové události</h2>
-        <ul class="alert-list" id="alerts"></ul>
-      </aside>
-    </div>
-  </div>
+  <aside class="disclaimer">
+    Upozornění: Tržní data mohou být zpožděná, chybná nebo neúplná. Odhad dopadu zprávy je automatický a může být nepřesný. Ověřujte informace u původního zdroje. Nejde o investiční doporučení.
+  </aside>
 
   <script>
-    async function loadData() {
-      try {
-        const response = await fetch("data/market.json");
-        if (!response.ok) throw new Error("fail");
-        const data = await response.json();
-        renderStocks(data.stocks || []);
-        renderNews(data.news || []);
-        renderAlerts(data.alerts || []);
-      } catch (e) {
-        document.getElementById("stocks").innerHTML = "<div class='card'>Data se načítají...</div>";
+    let allStocks = [];
+
+    function makeElement(tag, className, text) {
+      const element = document.createElement(tag);
+      if (className) element.className = className;
+      if (text !== undefined) element.textContent = text;
+      return element;
+    }
+
+    function renderStocks() {
+      const root = document.getElementById("stocks");
+      const query = document.getElementById("search").value.trim().toLowerCase();
+      const market = document.getElementById("marketFilter").value;
+
+      root.replaceChildren();
+
+      const shown = allStocks.filter(stock => {
+        const matchesQuery =
+          `${stock.name} ${stock.symbol} ${stock.market}`.toLowerCase().includes(query);
+        return matchesQuery && (!market || stock.market === market);
+      });
+
+      if (!shown.length) {
+        root.append(makeElement("div", "empty", "Žádné odpovídající kotace."));
+        return;
+      }
+
+      for (const stock of shown) {
+        const card = makeElement("article", "card");
+        const top = makeElement("div", "stock-top");
+        const identity = document.createElement("div");
+
+        identity.append(
+          makeElement("div", "company", stock.name),
+          makeElement("div", "ticker", stock.symbol),
+          makeElement("div", "market", stock.market)
+        );
+
+        top.append(identity, makeElement("span", "pill", stock.currency || ""));
+        card.append(top);
+
+        const price = Number(stock.price);
+        const change = Number(stock.change);
+        card.append(makeElement(
+          "div",
+          "price",
+          Number.isFinite(price)
+            ? new Intl.NumberFormat("cs-CZ", {
+                style: "currency",
+                currency: stock.currency || "USD",
+                maximumFractionDigits: 2
+              }).format(price)
+            : "Cena není dostupná"
+        ));
+
+        const changeText = Number.isFinite(change)
+          ? `${change > 0 ? "+" : ""}${change.toFixed(2)} %`
+          : "Změna není dostupná";
+
+        card.append(makeElement(
+          "div",
+          change >= 0 ? "up" : "down",
+          `${changeText} za poslední obchodní den`
+        ));
+
+        root.append(card);
       }
     }
 
-    function renderStocks(stocks) {
-      const root = document.getElementById("stocks");
-      root.innerHTML = "";
+    function renderNews(items) {
+      const root = document.getElementById("news");
+      root.replaceChildren();
 
-      stocks.forEach(stock => {
-        const card = document.createElement("div");
-        card.className = "card";
+      if (!items || !items.length) {
+        root.append(makeElement("li", "empty", "Zprávy se nepodařilo načíst."));
+        return;
+      }
 
-        const changeClass = stock.change >= 0 ? "up" : "down";
-        const sign = stock.change >= 0 ? "+" : "";
+      for (const item of items) {
+        const li = makeElement("li", "news-item");
+        const meta = makeElement(
+          "div",
+          "meta",
+          `${item.company || "Firemní zprávy"} · ${item.time || "Čas neuveden"}`
+        );
 
-        card.innerHTML = `
-          <div class="company">
-            <div>
-              <div class="company-name">${stock.name}</div>
-              <div class="ticker">${stock.ticker}</div>
-            </div>
-            <div class="badge ${stock.change >= 0 ? "bad-up" : "bad-down"}">${stock.category}</div>
-          </div>
-          <div class="price">$${Number(stock.price).toFixed(2)}</div>
-          <div class="change ${changeClass}">${sign}${Number(stock.change).toFixed(2)}%</div>
-        `;
+        const link = document.createElement("a");
+        link.href = item.url || "#";
+        link.target = "_blank";
+        link.rel = "noopener noreferrer";
+        link.textContent = item.title || "Zpráva bez titulku";
 
-        root.appendChild(card);
-      });
+        li.append(meta, link, makeElement("div", "impact", item.impact || ""));
+        root.append(li);
+      }
     }
 
-    function renderNews(news) {
-      const list = document.getElementById("newsFeed");
-      list.innerHTML = "";
+    async function loadData() {
+      const status = document.getElementById("updated");
 
-      news.forEach(item => {
-        const li = document.createElement("li");
-        const badgeMap = {
-          up: { text: "Růst", className: "bad-up" },
-          down: { text: "Pokles", className: "bad-down" },
-          alert: { text: "Alert", className: "bad-alert" }
-        };
+      try {
+        const response = await fetch(`data/market.json?t=${Date.now()}`, {
+          cache: "no-store"
+        });
+        if (!response.ok) throw new Error("Soubor s daty zatím není k dispozici.");
 
-        const badge = badgeMap[item.type] || badgeMap.alert;
-        li.innerHTML = `
-          <div class="meta">
-            <span class="badge ${badge.className}">${badge.text}</span>
-            ${item.time}
-          </div>
-          <div class="headline">${item.text}</div>
-        `;
-        list.appendChild(li);
-      });
+        const data = await response.json();
+        allStocks = Array.isArray(data.stocks) ? data.stocks : [];
+
+        const markets = [...new Set(allStocks.map(stock => stock.market))].sort();
+        const filter = document.getElementById("marketFilter");
+        filter.replaceChildren(new Option("Všechny trhy", ""));
+        markets.forEach(market => filter.add(new Option(market, market)));
+
+        status.textContent = data.updated_at
+          ? `Poslední aktualizace: ${new Date(data.updated_at).toLocaleString("cs-CZ")}`
+          : "Čas aktualizace není uveden";
+
+        renderStocks();
+        renderNews(data.news);
+      } catch (error) {
+        status.textContent = "Data se nepodařilo načíst";
+        document.getElementById("stocks").replaceChildren(
+          makeElement("div", "empty", `${error.message} Zkus to znovu po prvním běhu GitHub Actions.`)
+        );
+        renderNews([]);
+      }
     }
 
-    function renderAlerts(alerts) {
-      const list = document.getElementById("alerts");
-      list.innerHTML = "";
-
-      alerts.forEach(item => {
-        const li = document.createElement("li");
-        li.className = "alert-item";
-        li.innerHTML = `
-          <div class="alert-title">${item.title}</div>
-          <div class="alert-time">${item.time}</div>
-        `;
-        list.appendChild(li);
-      });
-    }
+    document.getElementById("search").addEventListener("input", renderStocks);
+    document.getElementById("marketFilter").addEventListener("change", renderStocks);
 
     loadData();
+    setInterval(loadData, 5 * 60 * 1000);
   </script>
 </body>
 </html>
