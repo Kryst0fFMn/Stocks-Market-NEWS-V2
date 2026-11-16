@@ -1,19 +1,142 @@
 {
+  "updated_at": "2026-11-16T22:57:17.540872+00:00",
   "stocks": [
-    { "name": "Microsoft", "ticker": "MSFT", "price": 434.19, "change": 1.76, "category": "Cloud" },
-    { "name": "NVIDIA", "ticker": "NVDA", "price": 134.72, "change": 2.84, "category": "AI" },
-    { "name": "Apple", "ticker": "AAPL", "price": 214.61, "change": -0.64, "category": "Hardware" },
-    { "name": "Amazon", "ticker": "AMZN", "price": 188.23, "change": 0.92, "category": "E-commerce" },
-    { "name": "Tesla", "ticker": "TSLA", "price": 243.18, "change": -1.31, "category": "EV" }
+    {
+      "name": "Microsoft",
+      "symbol": "MSFT",
+      "market": "USA",
+      "currency": "USD",
+      "price": 517.99,
+      "change": -1.12
+    },
+    {
+      "name": "NVIDIA",
+      "symbol": "NVDA",
+      "market": "USA",
+      "currency": "USD",
+      "price": 156.14,
+      "change": -4.12
+    },
+    {
+      "name": "Amazon",
+      "symbol": "AMZN",
+      "market": "USA",
+      "currency": "USD",
+      "price": 257.75,
+      "change": -3.34
+    },
+    {
+      "name": "HSBC",
+      "symbol": "HSBA.L",
+      "market": "Velká Británie",
+      "currency": "GBp",
+      "price": 1347.0,
+      "change": -0.55
+    },
+    {
+      "name": "AstraZeneca",
+      "symbol": "AZN.L",
+      "market": "Velká Británie",
+      "currency": "GBp",
+      "price": 14034.0,
+      "change": 0.37
+    },
+    {
+      "name": "SAP",
+      "symbol": "SAP.DE",
+      "market": "Německo",
+      "currency": "EUR",
+      "price": 213.4,
+      "change": -0.02
+    },
+    {
+      "name": "Siemens",
+      "symbol": "SIE.DE",
+      "market": "Německo",
+      "currency": "EUR",
+      "price": 272.55,
+      "change": -2.45
+    },
+    {
+      "name": "Toyota",
+      "symbol": "7203.T",
+      "market": "Japonsko",
+      "currency": "JPY",
+      "price": 3428.0,
+      "change": 0.29
+    },
+    {
+      "name": "Sony",
+      "symbol": "6758.T",
+      "market": "Japonsko",
+      "currency": "JPY",
+      "price": 4320.0,
+      "change": -0.76
+    },
+    {
+      "name": "Tencent",
+      "symbol": "0700.HK",
+      "market": "Hongkong",
+      "currency": "HKD",
+      "price": 390.4,
+      "change": 0.98
+    },
+    {
+      "name": "Shopify",
+      "symbol": "SHOP.TO",
+      "market": "Kanada",
+      "currency": "CAD",
+      "price": 211.43,
+      "change": 0.81
+    },
+    {
+      "name": "BHP",
+      "symbol": "BHP.AX",
+      "market": "Austrálie",
+      "currency": "AUD",
+      "price": 57.21,
+      "change": -2.8
+    },
+    {
+      "name": "Reliance Industries",
+      "symbol": "RELIANCE.NS",
+      "market": "Indie",
+      "currency": "INR",
+      "price": 1339.7,
+      "change": 0.0
+    },
+    {
+      "name": "Nestlé",
+      "symbol": "NESN.SW",
+      "market": "Švýcarsko",
+      "currency": "CHF",
+      "price": 88.12,
+      "change": 0.46
+    },
+    {
+      "name": "L'Oréal",
+      "symbol": "OR.PA",
+      "market": "Francie",
+      "currency": "EUR",
+      "price": 450.15,
+      "change": -0.23
+    },
+    {
+      "name": "ASML",
+      "symbol": "ASML.AS",
+      "market": "Nizozemsko",
+      "currency": "EUR",
+      "price": 1306.6,
+      "change": -2.41
+    },
+    {
+      "name": "Petrobras",
+      "symbol": "PETR4.SA",
+      "market": "Brazílie",
+      "currency": "BRL",
+      "price": 44.02,
+      "change": -2.83
+    }
   ],
-  "news": [
-    { "type": "up", "time": "10:42", "text": "Microsoft oznamuje další investici do datových center v Evropě." },
-    { "type": "alert", "time": "09:15", "text": "V některých regionech dočasně trvala výpadka cloudu u velké technologické platformy." },
-    { "type": "down", "time": "08:40", "text": "NVIDIA po silném růstu zaznamenala krátkodobý pokles kvůli výprodejům v sektoru." }
-  ],
-  "alerts": [
-    { "title": "Výpadek cloudové infrastruktury", "time": "Před 14 min" },
-    { "title": "Jensen Huang zůstává ve vedení", "time": "Před 51 min" },
-    { "title": "Analytici upravují cílové ceny", "time": "Před 1 h 12 min" }
-  ]
+  "news": []
 }
