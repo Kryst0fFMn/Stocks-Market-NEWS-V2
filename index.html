@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Market Pulse</title>
+  <style>
+    :root {
+      --bg: #0a1020;
+      --panel: #121b2e;
+      --panel-2: #1a2640;
+      --text: #edf3ff;
+      --muted: #a9b7d1;
+      --green: #34d399;
+      --red: #f87171;
+      --yellow: #fbbf24;
+      --blue: #60a5fa;
+      --border: rgba(255,255,255,0.08);
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 30px 18px 60px;
+      background: linear-gradient(180deg, #0a1020, #0d152a);
+      color: var(--text);
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .topbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 22px;
+      flex-wrap: wrap;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(2rem, 2.5vw, 3rem);
+    }
+
+    .status {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 8px 14px;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    .pulse {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: var(--green);
+      box-shadow: 0 0 0 0 rgba(52,211,153,0.7);
+      animation: ping 1.7s infinite;
+      margin-right: 8px;
+      vertical-align: middle;
+    }
+
+    @keyframes ping {
+      0% { box-shadow: 0 0 0 0 rgba(52,211,153,0.7); }
+      70% { box-shadow: 0 0 0 12px rgba(52,211,153,0); }
+      100% { box-shadow: 0 0 0 0 rgba(52,211,153,0); }
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+      margin-bottom: 22px;
+    }
+
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 20px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    }
+
+    .company {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 12px;
+    }
+
+    .company-name {
+      font-weight: 700;
+      font-size: 1.1rem;
+    }
+
+    .ticker {
+      color: var(--muted);
+      font-size: 0.78rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .price {
+      font-size: 2.1rem;
+      font-weight: 700;
+      margin: 10px 0 8px;
+    }
+
+    .change {
+      font-weight: 700;
+      font-size: 0.95rem;
+    }
+
+    .up { color: var(--green); }
+    .down { color: var(--red); }
+    .neutral { color: var(--yellow); }
+
+    .news-wrap {
+      display: grid;
+      grid-template-columns: 1.35fr 0.65fr;
+      gap: 18px;
+    }
+
+    .news, .alerts {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 20px;
+    }
+
+    .section-title {
+      margin: 0 0 16px;
+      font-size: 1.2rem;
+    }
+
+    .feed, .alert-list {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    .feed li, .alert-item {
+      background: var(--panel-2);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 14px 16px;
+    }
+
+    .meta {
+      color: var(--muted);
+      font-size: 0.82rem;
+      margin-bottom: 8px;
+    }
+
+    .headline {
+      font-weight: 600;
+      line-height: 1.45;
+    }
+
+    .alert-title {
+      font-weight: 700;
+      margin-bottom: 6px;
+    }
+
+    .alert-time {
+      color: var(--muted);
+      font-size: 0.8rem;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 5px 8px;
+      font-size: 0.72rem;
+      font-weight: 700;
+      border-radius: 999px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      margin-right: 8px;
+    }
+
+    .bad-up { background: rgba(52,211,153,0.15); color: var(--green); }
+    .bad-down { background: rgba(248,113,113,0.15); color: var(--red); }
+    .bad-alert { background: rgba(251,191,36,0.15); color: var(--yellow); }
+
+    @media (max-width: 760px) {
+      .news-wrap { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="topbar">
+      <h1>Market Pulse</h1>
+      <div class="status"><span class="pulse"></span>Aktualizováno</div>
+    </div>
+
+    <div class="grid" id="stocks"></div>
+
+    <div class="news-wrap">
+      <section class="news">
+        <h2 class="section-title">Poslední zprávy</h2>
+        <ul class="feed" id="newsFeed"></ul>
+      </section>
+
+      <aside class="alerts">
+        <h2 class="section-title">Výpadky a klíčové události</h2>
+        <ul class="alert-list" id="alerts"></ul>
+      </aside>
+    </div>
+  </div>
+
+  <script>
+    async function loadData() {
+      try {
+        const response = await fetch("data/market.json");
+        if (!response.ok) throw new Error("fail");
+        const data = await response.json();
+        renderStocks(data.stocks || []);
+        renderNews(data.news || []);
+        renderAlerts(data.alerts || []);
+      } catch (e) {
+        document.getElementById("stocks").innerHTML = "<div class='card'>Data se načítají...</div>";
+      }
+    }
+
+    function renderStocks(stocks) {
+      const root = document.getElementById("stocks");
+      root.innerHTML = "";
+
+      stocks.forEach(stock => {
+        const card = document.createElement("div");
+        card.className = "card";
+
+        const changeClass = stock.change >= 0 ? "up" : "down";
+        const sign = stock.change >= 0 ? "+" : "";
+
+        card.innerHTML = `
+          <div class="company">
+            <div>
+              <div class="company-name">${stock.name}</div>
+              <div class="ticker">${stock.ticker}</div>
+            </div>
+            <div class="badge ${stock.change >= 0 ? "bad-up" : "bad-down"}">${stock.category}</div>
+          </div>
+          <div class="price">$${Number(stock.price).toFixed(2)}</div>
+          <div class="change ${changeClass}">${sign}${Number(stock.change).toFixed(2)}%</div>
+        `;
+
+        root.appendChild(card);
+      });
+    }
+
+    function renderNews(news) {
+      const list = document.getElementById("newsFeed");
+      list.innerHTML = "";
+
+      news.forEach(item => {
+        const li = document.createElement("li");
+        const badgeMap = {
+          up: { text: "Růst", className: "bad-up" },
+          down: { text: "Pokles", className: "bad-down" },
+          alert: { text: "Alert", className: "bad-alert" }
+        };
+
+        const badge = badgeMap[item.type] || badgeMap.alert;
+        li.innerHTML = `
+          <div class="meta">
+            <span class="badge ${badge.className}">${badge.text}</span>
+            ${item.time}
+          </div>
+          <div class="headline">${item.text}</div>
+        `;
+        list.appendChild(li);
+      });
+    }
+
+    function renderAlerts(alerts) {
+      const list = document.getElementById("alerts");
+      list.innerHTML = "";
+
+      alerts.forEach(item => {
+        const li = document.createElement("li");
+        li.className = "alert-item";
+        li.innerHTML = `
+          <div class="alert-title">${item.title}</div>
+          <div class="alert-time">${item.time}</div>
+        `;
+        list.appendChild(li);
+      });
+    }
+
+    loadData();
+  </script>
+</body>
+</html>
