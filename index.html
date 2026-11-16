@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Market Pulse – světové trhy</title>
+
   <style>
     :root {
       color-scheme: dark;
@@ -18,7 +19,9 @@
       --border: rgba(255,255,255,.09);
     }
 
-    * { box-sizing: border-box; }
+    * {
+      box-sizing: border-box;
+    }
 
     body {
       margin: 0;
@@ -29,7 +32,10 @@
       font-family: Arial, sans-serif;
     }
 
-    main { max-width: 1150px; margin: auto; }
+    main {
+      max-width: 1150px;
+      margin: 0 auto;
+    }
 
     header {
       display: flex;
@@ -40,11 +46,25 @@
       margin-bottom: 22px;
     }
 
-    h1 { margin: 0; font-size: clamp(2rem, 5vw, 3rem); }
-    h2 { margin: 0 0 15px; font-size: 1.2rem; }
+    h1 {
+      margin: 0;
+      font-size: clamp(2rem, 5vw, 3rem);
+    }
 
-    .muted, .status, .meta { color: var(--muted); }
-    .status { font-size: .9rem; }
+    h2 {
+      margin: 0 0 15px;
+      font-size: 1.2rem;
+    }
+
+    .muted,
+    .status,
+    .meta {
+      color: var(--muted);
+    }
+
+    .status {
+      font-size: .9rem;
+    }
 
     .controls {
       display: flex;
@@ -53,7 +73,8 @@
       margin-bottom: 18px;
     }
 
-    input, select {
+    input,
+    select {
       color: var(--text);
       background: var(--panel);
       border: 1px solid var(--border);
@@ -62,8 +83,14 @@
       font: inherit;
     }
 
-    input { flex: 1; min-width: 190px; }
-    select { min-width: 180px; }
+    input {
+      flex: 1;
+      min-width: 190px;
+    }
+
+    select {
+      min-width: 180px;
+    }
 
     .stock-grid {
       display: grid;
@@ -72,7 +99,8 @@
       margin-bottom: 22px;
     }
 
-    .card, .section {
+    .card,
+    .section {
       background: var(--panel);
       border: 1px solid var(--border);
       border-radius: 16px;
@@ -85,11 +113,32 @@
       gap: 10px;
     }
 
-    .company { font-weight: 700; font-size: 1.08rem; }
-    .ticker, .market { color: var(--muted); font-size: .82rem; margin-top: 4px; }
-    .price { margin: 16px 0 7px; font-size: 1.8rem; font-weight: 700; }
-    .up { color: var(--green); }
-    .down { color: var(--red); }
+    .company {
+      font-weight: 700;
+      font-size: 1.08rem;
+    }
+
+    .ticker,
+    .market {
+      color: var(--muted);
+      font-size: .82rem;
+      margin-top: 4px;
+    }
+
+    .price {
+      margin: 16px 0 7px;
+      font-size: 1.8rem;
+      font-weight: 700;
+    }
+
+    .up {
+      color: var(--green);
+    }
+
+    .down {
+      color: var(--red);
+    }
+
     .pill {
       height: fit-content;
       padding: 5px 8px;
@@ -114,11 +163,31 @@
       border: 1px solid var(--border);
     }
 
-    .news-item a { color: var(--text); text-decoration: none; }
-    .news-item a:hover { text-decoration: underline; }
-    .meta { margin-bottom: 7px; font-size: .82rem; }
-    .impact { margin-top: 8px; color: var(--yellow); font-size: .88rem; line-height: 1.4; }
-    .empty { color: var(--muted); padding: 12px 0; }
+    .news-item a {
+      color: var(--text);
+      text-decoration: none;
+    }
+
+    .news-item a:hover {
+      text-decoration: underline;
+    }
+
+    .meta {
+      margin-bottom: 7px;
+      font-size: .82rem;
+    }
+
+    .impact {
+      margin-top: 8px;
+      color: var(--yellow);
+      font-size: .88rem;
+      line-height: 1.4;
+    }
+
+    .empty {
+      color: var(--muted);
+      padding: 12px 0;
+    }
 
     .disclaimer {
       position: fixed;
@@ -137,11 +206,20 @@
     }
 
     @media (max-width: 600px) {
-      body { padding: 20px 12px 125px; }
-      .disclaimer { left: 10px; right: 10px; bottom: 8px; max-width: none; }
+      body {
+        padding: 20px 12px 125px;
+      }
+
+      .disclaimer {
+        left: 10px;
+        right: 10px;
+        bottom: 8px;
+        max-width: none;
+      }
     }
   </style>
 </head>
+
 <body>
   <main>
     <header>
@@ -153,7 +231,13 @@
     </header>
 
     <div class="controls">
-      <input id="search" type="search" placeholder="Hledat firmu nebo ticker…">
+      <input
+        id="search"
+        type="search"
+        placeholder="Hledat firmu nebo ticker…"
+        aria-label="Hledat firmu nebo ticker"
+      >
+
       <select id="marketFilter" aria-label="Filtrovat podle trhu">
         <option value="">Všechny trhy</option>
       </select>
@@ -175,7 +259,9 @@
   </main>
 
   <aside class="disclaimer">
-    Upozornění: Tržní data mohou být zpožděná, chybná nebo neúplná. Odhad dopadu zprávy je automatický a může být nepřesný. Ověřujte informace u původního zdroje. Nejde o investiční doporučení.
+    Upozornění: Tržní data mohou být zpožděná, chybná nebo neúplná.
+    Odhad dopadu zprávy je automatický a může být nepřesný.
+    Ověřujte informace u původního zdroje. Nejde o investiční doporučení.
   </aside>
 
   <script>
@@ -183,66 +269,103 @@
 
     function makeElement(tag, className, text) {
       const element = document.createElement(tag);
-      if (className) element.className = className;
-      if (text !== undefined) element.textContent = text;
+
+      if (className) {
+        element.className = className;
+      }
+
+      if (text !== undefined) {
+        element.textContent = text;
+      }
+
       return element;
+    }
+
+    function formatPrice(stock) {
+      const rawPrice = Number(stock.price);
+
+      if (!Number.isFinite(rawPrice)) {
+        return "Cena není dostupná";
+      }
+
+      // Yahoo Finance uvádí některé britské akcie v pencích.
+      // Převedeme pence na libry, aby se cena zobrazila správně.
+      const isPence = stock.currency === "GBp";
+      const price = isPence ? rawPrice / 100 : rawPrice;
+      const currency = isPence ? "GBP" : (stock.currency || "USD");
+
+      try {
+        return new Intl.NumberFormat("cs-CZ", {
+          style: "currency",
+          currency,
+          maximumFractionDigits: 2
+        }).format(price);
+      } catch {
+        // Záložní zobrazení, pokud prohlížeč kód měny nepodporuje.
+        return `${price.toFixed(2)} ${currency}`;
+      }
     }
 
     function renderStocks() {
       const root = document.getElementById("stocks");
       const query = document.getElementById("search").value.trim().toLowerCase();
-      const market = document.getElementById("marketFilter").value;
+      const selectedMarket = document.getElementById("marketFilter").value;
 
       root.replaceChildren();
 
-      const shown = allStocks.filter(stock => {
-        const matchesQuery =
-          `${stock.name} ${stock.symbol} ${stock.market}`.toLowerCase().includes(query);
-        return matchesQuery && (!market || stock.market === market);
+      const shownStocks = allStocks.filter(stock => {
+        const searchableText =
+          `${stock.name || ""} ${stock.symbol || ""} ${stock.market || ""}`
+            .toLowerCase();
+
+        return searchableText.includes(query)
+          && (!selectedMarket || stock.market === selectedMarket);
       });
 
-      if (!shown.length) {
+      if (shownStocks.length === 0) {
         root.append(makeElement("div", "empty", "Žádné odpovídající kotace."));
         return;
       }
 
-      for (const stock of shown) {
+      for (const stock of shownStocks) {
         const card = makeElement("article", "card");
         const top = makeElement("div", "stock-top");
         const identity = document.createElement("div");
 
         identity.append(
-          makeElement("div", "company", stock.name),
-          makeElement("div", "ticker", stock.symbol),
-          makeElement("div", "market", stock.market)
+          makeElement("div", "company", stock.name || "Neznámá firma"),
+          makeElement("div", "ticker", stock.symbol || ""),
+          makeElement("div", "market", stock.market || "")
         );
 
-        top.append(identity, makeElement("span", "pill", stock.currency || ""));
-        card.append(top);
+        top.append(
+          identity,
+          makeElement("span", "pill", stock.currency || "")
+        );
 
-        const price = Number(stock.price);
+        card.append(
+          top,
+          makeElement("div", "price", formatPrice(stock))
+        );
+
         const change = Number(stock.change);
-        card.append(makeElement(
-          "div",
-          "price",
-          Number.isFinite(price)
-            ? new Intl.NumberFormat("cs-CZ", {
-                style: "currency",
-                currency: stock.currency || "USD",
-                maximumFractionDigits: 2
-              }).format(price)
-            : "Cena není dostupná"
-        ));
 
-        const changeText = Number.isFinite(change)
-          ? `${change > 0 ? "+" : ""}${change.toFixed(2)} %`
-          : "Změna není dostupná";
+        if (Number.isFinite(change)) {
+          const sign = change > 0 ? "+" : "";
+          const changeClass = change >= 0 ? "up" : "down";
 
-        card.append(makeElement(
-          "div",
-          change >= 0 ? "up" : "down",
-          `${changeText} za poslední obchodní den`
-        ));
+          card.append(
+            makeElement(
+              "div",
+              changeClass,
+              `${sign}${change.toFixed(2)} % za poslední obchodní den`
+            )
+          );
+        } else {
+          card.append(
+            makeElement("div", "muted", "Změna není dostupná")
+          );
+        }
 
         root.append(card);
       }
@@ -252,26 +375,41 @@
       const root = document.getElementById("news");
       root.replaceChildren();
 
-      if (!items || !items.length) {
-        root.append(makeElement("li", "empty", "Zprávy se nepodařilo načíst."));
+      if (!Array.isArray(items) || items.length === 0) {
+        root.append(
+          makeElement("li", "empty", "Momentálně nejsou dostupné žádné zprávy.")
+        );
         return;
       }
 
       for (const item of items) {
         const li = makeElement("li", "news-item");
-        const meta = makeElement(
-          "div",
-          "meta",
-          `${item.company || "Firemní zprávy"} · ${item.time || "Čas neuveden"}`
-        );
+        const company = item.company || "Firemní zprávy";
+        const time = item.time || "Čas neuveden";
+        const title = item.title || "Zpráva bez titulku";
+
+        li.append(makeElement("div", "meta", `${company} · ${time}`));
 
         const link = document.createElement("a");
-        link.href = item.url || "#";
-        link.target = "_blank";
-        link.rel = "noopener noreferrer";
-        link.textContent = item.title || "Zpráva bez titulku";
+        link.textContent = title;
 
-        li.append(meta, link, makeElement("div", "impact", item.impact || ""));
+        try {
+          const url = new URL(item.url);
+          if (url.protocol === "https:" || url.protocol === "http:") {
+            link.href = url.href;
+            link.target = "_blank";
+            link.rel = "noopener noreferrer";
+          }
+        } catch {
+          // Pokud odkaz není platná URL, zobrazíme titulek bez klikacího odkazu.
+        }
+
+        li.append(link);
+
+        if (item.impact) {
+          li.append(makeElement("div", "impact", item.impact));
+        }
+
         root.append(li);
       }
     }
@@ -283,26 +421,51 @@
         const response = await fetch(`data/market.json?t=${Date.now()}`, {
           cache: "no-store"
         });
-        if (!response.ok) throw new Error("Soubor s daty zatím není k dispozici.");
+
+        if (!response.ok) {
+          throw new Error("Soubor s daty zatím není dostupný.");
+        }
 
         const data = await response.json();
+
         allStocks = Array.isArray(data.stocks) ? data.stocks : [];
 
-        const markets = [...new Set(allStocks.map(stock => stock.market))].sort();
-        const filter = document.getElementById("marketFilter");
-        filter.replaceChildren(new Option("Všechny trhy", ""));
-        markets.forEach(market => filter.add(new Option(market, market)));
+        const marketFilter = document.getElementById("marketFilter");
+        const selectedMarket = marketFilter.value;
+        const markets = [...new Set(
+          allStocks.map(stock => stock.market).filter(Boolean)
+        )].sort();
 
-        status.textContent = data.updated_at
-          ? `Poslední aktualizace: ${new Date(data.updated_at).toLocaleString("cs-CZ")}`
-          : "Čas aktualizace není uveden";
+        marketFilter.replaceChildren(new Option("Všechny trhy", ""));
+
+        for (const market of markets) {
+          marketFilter.add(new Option(market, market));
+        }
+
+        // Po opětovném načtení dat zachová vybraný trh, pokud stále existuje.
+        if (markets.includes(selectedMarket)) {
+          marketFilter.value = selectedMarket;
+        }
+
+        if (data.updated_at) {
+          const updatedDate = new Date(data.updated_at);
+          status.textContent = Number.isNaN(updatedDate.getTime())
+            ? "Data jsou načtena"
+            : `Data aktualizována: ${updatedDate.toLocaleString("cs-CZ")}`;
+        } else {
+          status.textContent = "Data jsou načtena";
+        }
 
         renderStocks();
         renderNews(data.news);
       } catch (error) {
         status.textContent = "Data se nepodařilo načíst";
         document.getElementById("stocks").replaceChildren(
-          makeElement("div", "empty", `${error.message} Zkus to znovu po prvním běhu GitHub Actions.`)
+          makeElement(
+            "div",
+            "empty",
+            `${error.message} Zkus stránku obnovit po úspěšném běhu workflow.`
+          )
         );
         renderNews([]);
       }
@@ -312,6 +475,9 @@
     document.getElementById("marketFilter").addEventListener("change", renderStocks);
 
     loadData();
+
+    // Stránka znovu načte JSON každých 5 minut.
+    // Samotný JSON se aktualizuje podle rozvrhu GitHub Actions.
     setInterval(loadData, 5 * 60 * 1000);
   </script>
 </body>
