@@ -1,0 +1,19 @@
+{
+  "stocks": [
+    { "name": "Microsoft", "ticker": "MSFT", "price": 434.19, "change": 1.76, "category": "Cloud" },
+    { "name": "NVIDIA", "ticker": "NVDA", "price": 134.72, "change": 2.84, "category": "AI" },
+    { "name": "Apple", "ticker": "AAPL", "price": 214.61, "change": -0.64, "category": "Hardware" },
+    { "name": "Amazon", "ticker": "AMZN", "price": 188.23, "change": 0.92, "category": "E-commerce" },
+    { "name": "Tesla", "ticker": "TSLA", "price": 243.18, "change": -1.31, "category": "EV" }
+  ],
+  "news": [
+    { "type": "up", "time": "10:42", "text": "Microsoft oznamuje další investici do datových center v Evropě." },
+    { "type": "alert", "time": "09:15", "text": "V některých regionech dočasně trvala výpadka cloudu u velké technologické platformy." },
+    { "type": "down", "time": "08:40", "text": "NVIDIA po silném růstu zaznamenala krátkodobý pokles kvůli výprodejům v sektoru." }
+  ],
+  "alerts": [
+    { "title": "Výpadek cloudové infrastruktury", "time": "Před 14 min" },
+    { "title": "Jensen Huang zůstává ve vedení", "time": "Před 51 min" },
+    { "title": "Analytici upravují cílové ceny", "time": "Před 1 h 12 min" }
+  ]
+}
