@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T21:08:26.042593+00:00",
+  "updated_at": "2026-11-17T22:09:52.486072+00:00",
   "stocks": [
     {
       "name": "Microsoft",
@@ -2105,8 +2105,8 @@
       "symbol": "7203.T",
       "market": "Japonsko",
       "currency": "JPY",
-      "price": 3428.0,
-      "change": 0.29,
+      "price": 3414.0,
+      "change": -0.41,
       "history": [
         ["2025-11-17", 3119.0],
         ["2025-11-18", 3029.0],
@@ -2349,7 +2349,8 @@
         ["2026-11-11", 3435.0],
         ["2026-11-12", 3408.0],
         ["2026-11-13", 3418.0],
-        ["2026-11-16", 3428.0]
+        ["2026-11-16", 3428.0],
+        ["2026-11-17", 3414.0]
       ]
     },
     {
@@ -2357,8 +2358,8 @@
       "symbol": "6758.T",
       "market": "Japonsko",
       "currency": "JPY",
-      "price": 4320.0,
-      "change": -0.76,
+      "price": 4271.0,
+      "change": -1.13,
       "history": [
         ["2025-11-17", 4548.0],
         ["2025-11-18", 4409.0],
@@ -2601,7 +2602,8 @@
         ["2026-11-11", 4200.0],
         ["2026-11-12", 4281.0],
         ["2026-11-13", 4353.0],
-        ["2026-11-16", 4320.0]
+        ["2026-11-16", 4320.0],
+        ["2026-11-17", 4271.0]
       ]
     },
     {
@@ -2609,8 +2611,8 @@
       "symbol": "0700.HK",
       "market": "Hongkong",
       "currency": "HKD",
-      "price": 390.4,
-      "change": 0.98,
+      "price": 376.0,
+      "change": -3.69,
       "history": [
         ["2025-11-17", 636.5],
         ["2025-11-18", 623.5],
@@ -2857,7 +2859,8 @@
         ["2026-11-11", 409.6],
         ["2026-11-12", 398.8],
         ["2026-11-13", 386.6],
-        ["2026-11-16", 390.4]
+        ["2026-11-16", 390.4],
+        ["2026-11-17", 376.0]
       ]
     },
     {
@@ -4442,8 +4445,8 @@
       "symbol": "PETR4.SA",
       "market": "Brazílie",
       "currency": "BRL",
-      "price": 44.08,
-      "change": 0.14,
+      "price": 43.98,
+      "change": -0.09,
       "history": [
         ["2025-11-17", 32.88],
         ["2025-11-18", 32.99],
@@ -4692,26 +4695,74 @@
         ["2026-11-12", 44.7],
         ["2026-11-13", 45.3],
         ["2026-11-16", 44.02],
-        ["2026-11-17", 44.08]
+        ["2026-11-17", 43.98]
       ]
     }
   ],
   "news": [
     {
       "company": "Apple",
-      "title": "Huang pitches Nvidia comeback after sources say board not considering it",
-      "url": "https://finance.yahoo.com/news/nvidia-board-forms-committee-national-102208048.html",
-      "time": "17.11.2026 22:02",
+      "title": "Fund Manager Lists Three Reasons He Still Won’t Buy Tesla Stock",
+      "url": "https://stocktwits.com/news-articles/markets/equity/fund-manager-lists-three-reasons-he-still-won-t-buy-tesla-stock/cNbOJB3R9hQ",
+      "time": "17.11.2026 23:03",
       "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "Reuters"
+      "source": "Stocktwits"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "AMD, Broadcom, and TSMC stocks rise on Nvidia earnings beat",
+      "url": "https://finance.yahoo.com/markets/stocks/article/amd-broadcom-tsmc-stocks-rise-on-nvidia-earnings-coreweave-nebius-shares-also-rally-220159436.html",
+      "time": "17.11.2026 23:01",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "Yahoo Finance"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Nvidia’s Q3 earnings show its advantage as the bank of the AI boom",
+      "url": "https://finance.yahoo.com/video/nvidias-q3-earnings-show-its-advantage-as-the-bank-of-the-ai-boom-215423703.html",
+      "time": "17.11.2026 22:51",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "Yahoo Finance Video"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Ex-Nvidia CEO Jensen Huang signals interest in returning to the company following scandal",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObnhLd21OYlROQnV3Z2ZRc29BZlRubWM4T2tVN3d3ektLVUdiMXNSS1dhclFQNVZrUEVrdG5rUHFUY0ozQWJJRjFFVlFvVjJ0SC15eEdoUm1JUEdwY2FZdTgyNmNDQnozOWRXSGJBRlVHaC13M09mZ0U3em9hYkp2V1BFWHJvR2ViRFZGcEk5RE8yTWNwUmM5dlhBMC1oMGYzYzE3TXl5akNYTGlOb2c?oc=5",
+      "time": "17.11.2026 22:46",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "AP News"
+    },
+    {
+      "company": "Microsoft",
+      "title": "Microsoft AI chief says compute isn't a bottleneck — for now",
+      "url": "https://finance.yahoo.com/video/microsoft-ai-chief-says-compute-isnt-a-bottleneck--for-now-213157737.html",
+      "time": "17.11.2026 22:31",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "Yahoo Finance Video"
+    },
+    {
+      "company": "Amazon",
+      "title": "Cut generative AI costs: Code for rules, models for judgment",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNQVg3V1dEQVNwMUFueGFmczVVUzE2RUd4UUtkNWtBakFoMG9ILVhNU1M3WXVZSXNXdlpYRzFfVWx0X3pKX3NuM1RXckowRzktMUpzWHphbUJZWlJXX2ZOTk9JOE44U1hnNDZudU10dVI2UWhQV3hWcHNWVHpTLU4zV2VUZFAyZkFhYS1BWUVET3h4SHpyNW96aXdYVUxpMHZPeXRUMVc5LWM?oc=5",
+      "time": "17.11.2026 22:14",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "Amazon Web Services (AWS)"
+    },
+    {
+      "company": "Shopify",
+      "title": "The Push to Bring Back Huang as Nvidia CEO",
+      "url": "https://www.wsj.com/livecoverage/nvidia-earnings-stock-market-news-11-17-2026/card/the-push-to-bring-back-huang-as-nvidia-ceo-MCF1B0dsm17PlodGqkvK?siteid=yhoof2&yptr=yahoo",
+      "time": "17.11.2026 21:57",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "The Wall Street Journal"
     },
     {
       "company": "Apple",
-      "title": "Widespread outages hit banks, air travel, the NSA and Apple, disrupting seemingly everything",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBrenZzS2J3U01hMzZWdnc1QUdyQ3NfMnQ1cjZydFF0emRKMzRMeVk2U3Q2TzNMbGtJc010MGV0YUg3ejYwa3VIWjdMY295WGtISm9VdnV1NHc1SVpoc0M3TjlCcG1pNmY1VENUVHhoODhrbjVOZ0VyWm53RUR2d9IBgwFBVV95cUxNd1lWUk5QV2pLblVYcjdTTEVFU21ENnpvT1o1WWlCMi1ZSkxJUmhuekxtQ2ladnlBWkdqeDRQN2lQRUVKY0hOa01CX01RWDZvejY1bWg4M2ZEWnBLUGlUc3d3cVNvQmVUSXh4SEh4UXpwZURLcXBzOHZndlctTG5iWklEMA?oc=5",
-      "time": "17.11.2026 21:35",
+      "title": "Apple works to restore services after outage caused by internal update",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOYVJuYnNwMGtjY1NfY01rbXdSVTVnOFdaak1sd1ZkbXpPZzFuWjlOcTJNVUplNDJZLUVxeGZtaXlGZlg1UjFkY2Z5Um5Td19tS2pUZmZKNFlEb0QxVUwyekt2UnRPRlJUT3hRM3FhQWp2MDJRVGI4U1hfeWlpeGlBdFJyTG1rei1yNXJqbnF5LV9vQ3FwYVloZjVhZ1hfVWUzV0RlQVpRc3I3emJwU1lFZEduaUZSS1k5anRlN2lDQkQ0SFI0QkVz?oc=5",
+      "time": "17.11.2026 21:44",
       "impact": "Možný negativní signál; ověř zprávu u původního zdroje.",
-      "source": "CNBC"
+      "source": "Reuters"
     },
     {
       "company": "Microsoft",
@@ -4720,14 +4771,6 @@
       "time": "17.11.2026 21:34",
       "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
       "source": "Yahoo Finance"
-    },
-    {
-      "company": "Amazon",
-      "title": "Govern and discover records with common metadata in AWS Agent Registry",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdHBaZk13eWl3SUUwUFM5WndlVFlLdmlDc1k2eEd1OUlUTUo1NlNFaF85VUM0dEc2RGlYRlhZdjFHbFRkS3owV0hsV3ZFcUJrblpaR1gyMzFyLVBLWDVKSF9WaW9reHdqcGhET1dCc2RaQW0wTkM3QUptUmUyREljMDlDZ1dscFh3SFNoX05VSFFaV0ZwX1JNT21wQXlpWWZOV0Y5VXJVdDhCSXlwRk9nNWVTZ19uSTFm?oc=5",
-      "time": "17.11.2026 21:31",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "Amazon Web Services (AWS)"
     },
     {
       "company": "Amazon",
@@ -4754,12 +4797,12 @@
       "source": "Simply Wall St."
     },
     {
-      "company": "NVIDIA",
-      "title": "Memo to Nvidia interim CEO Colette Kress: Remind the world why you've been Jensen Huang's CFO for 13-plus years",
-      "url": "https://finance.yahoo.com/markets/stocks/article/memo-to-nvidia-interim-ceo-colette-kress-remind-the-world-why-youve-been-jensen-huangs-cfo-for-13-plus-years-200000740.html",
-      "time": "17.11.2026 21:00",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "Yahoo Finance"
+      "company": "Apple",
+      "title": "Apple Works to Fix Systems After Update Caused Internal, Retail and iCloud Outages",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNX3NQTl9iV3NGVTJLVmZEeDNrQmQ5MDJKZTBPUkgwc1p2MFNqSDNScDJzUXJlZXhJVVV4LXNKaFk0QUFLNl9uZWNhZ3U0ZDBLcHYyNWlIb0w2TGJ3dlY4dGpMdnB4ZlE0ZGpCNnZyRFhkNXh2Tk83LWtpQzh2THRhUmxCekFPdTB1dUlRcEVmN1JHaGJBRDhFbGhMWDFmeHlGZ2t6eUFteE1QaUo2?oc=5",
+      "time": "17.11.2026 21:07",
+      "impact": "Možný negativní signál; ověř zprávu u původního zdroje.",
+      "source": "Bloomberg.com"
     },
     {
       "company": "HSBC",
@@ -4779,26 +4822,10 @@
     },
     {
       "company": "Apple",
-      "title": "Apple Works to Fix Systems After Update Caused Internal, Retail and iCloud Outages",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNX3NQTl9iV3NGVTJLVmZEeDNrQmQ5MDJKZTBPUkgwc1p2MFNqSDNScDJzUXJlZXhJVVV4LXNKaFk0QUFLNl9uZWNhZ3U0ZDBLcHYyNWlIb0w2TGJ3dlY4dGpMdnB4ZlE0ZGpCNnZyRFhkNXh2Tk83LWtpQzh2THRhUmxCekFPdTB1dUlRcEVmN1JHaGJBRDhFbGhMWDFmeHlGZ2t6eUFteE1QaUo2?oc=5",
-      "time": "17.11.2026 20:36",
-      "impact": "Možný negativní signál; ověř zprávu u původního zdroje.",
-      "source": "Bloomberg.com"
-    },
-    {
-      "company": "Apple",
       "title": "Apple outage today: iCloud and App Store down after a week of big outages",
       "url": "https://finance.yahoo.com/markets/article/why-apple-is-down-in-a-week-of-outages-from-microsoft-to-chase-193424335.html",
       "time": "17.11.2026 20:34",
       "impact": "Možný negativní signál; ověř zprávu u původního zdroje.",
-      "source": "Yahoo Finance"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "SpaceX is leasing $47 billion of Nvidia chips like a car — and lenders hold the title",
-      "url": "https://finance.yahoo.com/markets/article/spacex-is-leasing-47-billion-of-nvidia-chips-like-a-car--and-lenders-hold-the-title-192002200.html",
-      "time": "17.11.2026 20:20",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
       "source": "Yahoo Finance"
     },
     {
@@ -4827,19 +4854,19 @@
     },
     {
       "company": "Microsoft",
-      "title": "Is AI to blame for basic IT gaps in Big Tech, airlines, and more?",
-      "url": "https://finance.yahoo.com/video/is-ai-to-blame-for-basic-it-gaps-in-big-tech-airlines-and-more-184504929.html",
-      "time": "17.11.2026 19:45",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "Yahoo Finance Video"
-    },
-    {
-      "company": "Microsoft",
       "title": "Microsoft Ignite 2026: Empowering human ambition, intelligence and trust",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOakRna3VBWlppLWRvYXltZXdkcTRaa19FcE4yb2lqMm5YQkQwd3BVQ1MzamJDaHlXcDN4aGQ3M1VqTnBUMUhtZTJKdGxDaExfelRZTVVwZFJwSVl0cHBYY0NPdVpnOFVJV1paOHhNX3MtLTV1a1BudUtLVFlIVVZBdE9qQ1NWZTluU3BYLVAtS3YwX3E4andhS3ZpcE83dFdDY1lIVS1kazZJYTRPaDNFWXA0TGloOFU?oc=5",
       "time": "17.11.2026 19:43",
       "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
       "source": "Microsoft Source"
+    },
+    {
+      "company": "Microsoft",
+      "title": "Microsoft Ignite 2026: Building Windows for the next era of work",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQYXlycC12TmFMUVBsUlg2aUQtZW15ck12TUJGckh3WWJHa1pwTXByZ0FGX1hTVGN2eF9wZ01uTV9DcXVlQjFLc09XT3pvY0JxNkp4ZDljbW1DbWRYcjJlVThXdFN5aG5OZXYzb000Q2Etd2FYMkh5Zlp1NGNTSWFyaWwzWVBrdGFVbE11Y21rdTg1Ui1wbklZc0RONjYySHhfQjI3Q19Ld0VnTjBoMmlnQXhyT2I4ZzQ1WEg0?oc=5",
+      "time": "17.11.2026 19:33",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "Windows Blog"
     },
     {
       "company": "ASML",
@@ -4858,36 +4885,12 @@
       "source": "Yahoo! Finance Canada"
     },
     {
-      "company": "Microsoft",
-      "title": "Microsoft unveils AI models for coding, cybersecurity as it takes on Anthropic, OpenAI",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPQ05INXRWaGd0ZFhsSkZWMjBZeFNJYU1JOEhkRG9PT1V5SUl6YTNNMzFWblJXZVdjVHJzZW5raFlUbzlHMTNHemFUVWZab28xS0M3RzkyN2c2Ukl6VUR4SUF6RFRpVjRieGRFUWJGZUNsMzkyR1B0bnlxSFFQMHpFT2JCQ09KM0FMcUZWXzlZaEVmanRiMmtuOGxGQnNKbDZkM0hJVGpwNURRN0daX29GX2tHZ0pIU3NrRk5JbVVpZ1d1WGN0cHc?oc=5",
-      "time": "17.11.2026 19:18",
+      "company": "Sony",
+      "title": "Sony Is Updating The PS5 Again, And It Might Have GTA 6 Pirates In Mind",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVXlTWHoxcWl1OUI3OG5Uc21Oc3ctUlZlOVpCa3cwaEcybnRjUi1QaVRHcHpBRUZ3QS0xNHQ2OW5VTDZ3RVNrN01jejBoOXUxYzhKVUkxbThjMFpwRUtaV0ppNFJGcGZ5UnVzRU93MFJMTzI3TjgyZkVUd0R3Mkhkckk0QUNWWUhsRm5wZ19nTzVhb1pkUkhMVzVmUzQ0LVJBS2NiSjRiUnY?oc=5",
+      "time": "17.11.2026 19:22",
       "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "Reuters"
-    },
-    {
-      "company": "Siemens",
-      "title": "Elevated demand for gas turbines could persist through 2035: Siemens Energy",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOLVJrcC1UM2xMLW9DU3I1YmlqYTV0TGNmdjhybV94YTA5Mm5kNUJLemcyQTB0R1dlcFlRUFFxalU0b2oxMjN1U1FFa1JTXzNvSGJTdnZJTHlZSDhQcHJHVEJxZkEtMDF1NFMtZ0V5TFRyZzRyZ3h5QWFjbXY2S0lRa3Z0Z3V2cjlNYTY0ZFhMc0FTMWRQRFotTDZZWS1nUDZVNTZwWDNoSnVpSm1sZng0LVZZOEVxUQ?oc=5",
-      "time": "17.11.2026 18:49",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "Utility Dive"
-    },
-    {
-      "company": "AstraZeneca",
-      "title": "CPI | AstraZeneca Wins Dismissal of Soliris Antitrust Lawsuit",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZVhiMnV5a2d0bVFwbkRtdEZXNGpUQkdDU2EyZVpCSkpEMEhPa21ZRXlaYjFuUE55UFJuaWFDbVhPM19sTGRIQ3YwTHZMeFBVUl9veFpEMFJ1ZjVFWkdpVjRuUGlhU1l1dU9KTkhoaUZVZUdVX3dyN1RYTExTYlFTZGNLczNjeEFULVk4Wjloa2ZLMW8?oc=5",
-      "time": "17.11.2026 18:45",
-      "impact": "Možný negativní signál; ověř zprávu u původního zdroje.",
-      "source": "PYMNTS.com"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "Huang says he'd be \"honored\" to return to Nvidia as he agrees to testify to Congress",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5EalRiWEJJQlhHY1VhazRNalhHZm9tZ2dQdFB0U3VuT2hJa1hQNXpuZEY0YnlOV3J5ajEyczd4N18ycjhDZ1B4RHpiTVhYTjlhWTFrdUdrUEhiMXJndlRzMU95VG9PazdzRGNyMHd4WWdsOGtqSWxrX2NNcG1FZw?oc=5",
-      "time": "17.11.2026 18:36",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "NPR"
+      "source": "GameSpot"
     }
   ]
 }
