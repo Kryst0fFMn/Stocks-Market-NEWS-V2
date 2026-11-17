@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T06:19:17.392562+00:00",
+  "updated_at": "2026-11-17T08:30:06.924588+00:00",
   "stocks": [
     {
       "name": "Microsoft",
@@ -38,32 +38,32 @@
       "symbol": "HSBA.L",
       "market": "Velká Británie",
       "currency": "GBp",
-      "price": 1354.4,
-      "change": 0.03
+      "price": 1336.8,
+      "change": -1.3
     },
     {
       "name": "AstraZeneca",
       "symbol": "AZN.L",
       "market": "Velká Británie",
       "currency": "GBp",
-      "price": 13982.0,
-      "change": 0.37
+      "price": 13908.0,
+      "change": -0.53
     },
     {
       "name": "SAP",
       "symbol": "SAP.DE",
       "market": "Německo",
       "currency": "EUR",
-      "price": 213.45,
-      "change": 0.42
+      "price": 209.15,
+      "change": -2.01
     },
     {
       "name": "Siemens",
       "symbol": "SIE.DE",
       "market": "Německo",
       "currency": "EUR",
-      "price": 279.4,
-      "change": -0.82
+      "price": 271.95,
+      "change": -2.67
     },
     {
       "name": "Toyota",
@@ -78,16 +78,16 @@
       "symbol": "6758.T",
       "market": "Japonsko",
       "currency": "JPY",
-      "price": 4280.0,
-      "change": -0.93
+      "price": 4271.0,
+      "change": -1.13
     },
     {
       "name": "Tencent",
       "symbol": "0700.HK",
       "market": "Hongkong",
       "currency": "HKD",
-      "price": 378.2,
-      "change": -3.12
+      "price": 376.0,
+      "change": -3.69
     },
     {
       "name": "Shopify",
@@ -110,32 +110,32 @@
       "symbol": "RELIANCE.NS",
       "market": "Indie",
       "currency": "INR",
-      "price": 1344.9,
-      "change": 0.01
+      "price": 1364.6,
+      "change": 1.47
     },
     {
       "name": "Nestlé",
       "symbol": "NESN.SW",
       "market": "Švýcarsko",
       "currency": "CHF",
-      "price": 88.12,
-      "change": 0.46
+      "price": 87.93,
+      "change": -0.22
     },
     {
       "name": "L'Oréal",
       "symbol": "OR.PA",
       "market": "Francie",
       "currency": "EUR",
-      "price": 451.2,
-      "change": 0.97
+      "price": 449.85,
+      "change": -0.3
     },
     {
       "name": "ASML",
       "symbol": "ASML.AS",
       "market": "Nizozemsko",
       "currency": "EUR",
-      "price": 1338.8,
-      "change": -2.76
+      "price": 1286.0,
+      "change": -3.94
     },
     {
       "name": "Petrobras",
