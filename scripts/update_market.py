@@ -6,13 +6,24 @@ import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
+from email.utils import parsedate_to_datetime
 from pathlib import Path
 
 import pandas as pd
 import yfinance as yf
 
+try:
+    from zoneinfo import ZoneInfo
+    LOCAL_TZ = ZoneInfo("Europe/Prague")
+except Exception:
+    LOCAL_TZ = timezone.utc
+
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "data" / "market.json"
+
+MAX_PER_SOURCE = 2     # kolik zpráv na firmu z jednoho zdroje
+MAX_PER_COMPANY = 4    # kolik zpráv na firmu celkem
+MAX_TOTAL = 24         # kolik zpráv se uloží celkem
 
 COMPANIES = [
     {"name": "Microsoft", "symbol": "MSFT", "market": "USA", "currency": "USD"},
@@ -135,6 +146,8 @@ def load_quotes():
     return stocks
 
 
+# ---------------------------------------------------------------- zprávy
+
 def fetch_rss(url):
     request = urllib.request.Request(
         url,
@@ -178,81 +191,134 @@ def identify_company(title):
     return "Více firem / neurčeno"
 
 
-def parse_news_item(item):
-    title = (item.findtext("title", default="") or "").strip()
-    link = (item.findtext("link", default="") or "").strip()
-    if not title or not link:
+def parse_any_date(value):
+    """Zvládne RSS datum, ISO datum i unixový čas. Při chybě vrátí None."""
+    if value is None or value == "":
+        return None
+    try:
+        if isinstance(value, (int, float)):
+            return datetime.fromtimestamp(value, tz=timezone.utc)
+
+        text = str(value).strip()
+        if text.isdigit():
+            return datetime.fromtimestamp(int(text), tz=timezone.utc)
+
+        try:
+            dt = parsedate_to_datetime(text)
+        except (TypeError, ValueError):
+            dt = datetime.fromisoformat(text.replace("Z", "+00:00"))
+
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        return dt
+    except (TypeError, ValueError, OverflowError, OSError):
         return None
 
-    published = (item.findtext("pubDate", default="") or "").strip()
-    if published:
-        try:
-            dt = datetime.strptime(published, "%a, %d %b %Y %H:%M:%S %z")
-            display_time = dt.astimezone().strftime("%d.%m.%Y %H:%M")
-        except ValueError:
-            display_time = published
-    else:
-        display_time = "Čas neuveden"
 
-    source_element = item.find("source")
-    source = (
-        (source_element.text or "").strip()
-        if source_element is not None and source_element.text
-        else "Bing News"
-    )
-
+def make_item(company, title, url, dt, source):
     return {
-        "company": identify_company(title),
+        "company": company,
         "title": title,
-        "url": link,
-        "time": display_time,
+        "url": url,
+        "time": dt.astimezone(LOCAL_TZ).strftime("%d.%m.%Y %H:%M") if dt else "Čas neuveden",
         "impact": estimate_impact(title),
         "source": source,
+        "_ts": dt.timestamp() if dt else 0,  # jen pro řazení, před uložením se maže
     }
 
 
 def fetch_yfinance_news(symbol, company_name):
     try:
-        ticker = yf.Ticker(symbol)
-        items = ticker.news or []
+        items = yf.Ticker(symbol).news or []
     except Exception as exc:
         print(f"Nešla načíst Yahoo news pro {symbol}: {exc}")
         return []
 
     news = []
-    seen = set()
 
-    for item in items[:6]:
-        title = (item.get("title") or "").strip()
-        link = (item.get("link") or item.get("url") or "").strip()
+    for item in items:
+        # Nový formát: všechno je v item["content"]. Starý: přímo v item.
+        content = item.get("content") if isinstance(item.get("content"), dict) else item
+
+        title = (content.get("title") or "").strip()
+
+        url = ""
+        for key in ("canonicalUrl", "clickThroughUrl"):
+            value = content.get(key)
+            if isinstance(value, dict):
+                url = value.get("url") or ""
+            elif isinstance(value, str):
+                url = value
+            if url:
+                break
+        url = (url or content.get("link") or content.get("url") or "").strip()
+
+        if not title or not url:
+            continue
+
+        dt = parse_any_date(
+            content.get("pubDate")
+            or content.get("displayTime")
+            or content.get("providerPublishTime")
+            or content.get("publishedAt")
+        )
+
+        provider = content.get("provider")
+        if isinstance(provider, dict):
+            source = provider.get("displayName")
+        else:
+            source = content.get("publisher")
+
+        news.append(make_item(company_name, title, url, dt, source or "Yahoo Finance"))
+
+    print(f"yfinance {symbol}: {len(news)} zpráv (surových položek: {len(items)})")
+    return news
+
+
+def parse_rss(xml_data, company=None, default_source=""):
+    root = ET.fromstring(xml_data)
+    result = []
+
+    for item in root.findall(".//item"):
+        title = (item.findtext("title") or "").strip()
+        link = (item.findtext("link") or "").strip()
         if not title or not link:
             continue
 
-        key = (title.casefold(), link)
-        if key in seen:
-            continue
-        seen.add(key)
-
-        ts = item.get("providerPublishTime") or item.get("publishedAt")
-        if ts is not None:
-            try:
-                dt = datetime.fromtimestamp(int(ts), tz=timezone.utc)
-                display_time = dt.strftime("%d.%m.%Y %H:%M")
-            except (TypeError, ValueError):
-                display_time = "Čas neuveden"
+        source_element = item.find("source")
+        if source_element is not None and source_element.text:
+            source = source_element.text.strip()
         else:
-            display_time = "Čas neuveden"
+            source = default_source
 
-        news.append({
-            "company": company_name,
-            "title": title,
-            "url": link,
-            "time": display_time,
-            "impact": estimate_impact(title),
-            "source": item.get("publisher") or item.get("source") or "Yahoo Finance",
-        })
+        # Google News přidává na konec titulku " - Zdroj"
+        suffix = f" - {source}"
+        if source and title.endswith(suffix):
+            title = title[:-len(suffix)].strip()
 
-    return news
+        dt = parse_any_date(item.findtext("pubDate"))
+        result.append(make_item(company or identify_company(title), title, link, dt, source))
+
+    return result
+
+
+def fetch_google_news(company_name):
+    params = urllib.parse.urlencode({
+        "q": f'"{company_name}" when:3d',
+        "hl": "en-US",
+        "gl": "US",
+        "ceid": "US:en",
+    })
+    url = f"https://news.google.com/rss/search?{params}"
+
+    try:
+        items = parse_rss(fetch_rss(url), company_name, "Google News")
+    except Exception as exc:
+        print(f"Google News pro {company_name} selhalo: {exc}")
+        return []
+
+    print(f"Google News {company_name}: {len(items)} zpráv")
+    return items
 
 
 def fetch_bing_news_batch(batch_names):
@@ -267,58 +333,67 @@ def fetch_bing_news_batch(batch_names):
     url = f"https://www.bing.com/news/search?{params}"
 
     try:
-        xml_data = fetch_rss(url)
-        if not xml_data:
-            return []
-
-        root = ET.fromstring(xml_data)
-        items = []
-        for item in root.findall(".//item"):
-            parsed = parse_news_item(item)
-            if parsed:
-                items.append(parsed)
-        return items
+        items = parse_rss(fetch_rss(url), None, "Bing News")
     except Exception as exc:
-        print(f"Nešel načíst Bing RSS pro {', '.join(batch)}: {exc}")
+        print(f"Bing RSS pro {', '.join(batch)} selhalo: {exc}")
         return []
+
+    print(f"Bing ({', '.join(batch)}): {len(items)} zpráv")
+    return items
+
+
+def add_unique(target, seen, per_company, items):
+    for item in items:
+        company = item["company"]
+        if per_company.get(company, 0) >= MAX_PER_COMPANY:
+            continue
+
+        title_key = re.sub(r"\W+", " ", item["title"].casefold()).strip()
+        if title_key in seen or item["url"] in seen:
+            continue
+
+        seen.add(title_key)
+        seen.add(item["url"])
+        per_company[company] = per_company.get(company, 0) + 1
+        target.append(item)
 
 
 def load_news():
     news = []
     seen = set()
+    per_company = {}
 
-    # 1) primární zdroj: Yahoo Finance news
+    # 1) Yahoo Finance (zprávy ke konkrétnímu tickeru)
     for company in COMPANIES:
-        for item in fetch_yfinance_news(company["symbol"], company["name"]):
-            key = (item["title"].casefold(), item["url"])
-            if key in seen:
-                continue
-            seen.add(key)
-            news.append(item)
-
-        # zkusíme krátkou pauzu kvůli rate limit
+        items = fetch_yfinance_news(company["symbol"], company["name"])
+        add_unique(news, seen, per_company, items[:MAX_PER_SOURCE])
         time.sleep(0.4)
+    print(f"Po Yahoo Finance: {len(news)} zpráv")
 
-        if len(news) >= 20:
-            return news[:20]
+    # 2) Google News RSS (aktuální události kolem firem)
+    for company in COMPANIES:
+        items = fetch_google_news(company["name"])
+        add_unique(news, seen, per_company, items[:MAX_PER_SOURCE])
+        time.sleep(0.4)
+    print(f"Po Google News: {len(news)} zpráv")
 
-    # 2) fallback: Bing RSS (pokud yfinance nic nevrátí)
+    # 3) Bing RSS jen jako poslední záloha
     if len(news) < 12:
-        company_names = list(ALIASES.keys())
-        batch_size = 6
-        for start in range(0, len(company_names), batch_size):
-            batch = company_names[start:start + batch_size]
-            for item in fetch_bing_news_batch(batch):
-                key = (item["title"].casefold(), item["url"])
-                if key in seen:
-                    continue
-                seen.add(key)
-                news.append(item)
+        names = list(ALIASES.keys())
+        for start in range(0, len(names), 6):
+            add_unique(news, seen, per_company, fetch_bing_news_batch(names[start:start + 6]))
+        print(f"Po Bingu: {len(news)} zpráv")
 
-            if len(news) >= 20:
-                break
+    news.sort(key=lambda item: item["_ts"], reverse=True)
+    news = news[:MAX_TOTAL]
 
-    return news[:20]
+    for item in news:
+        item.pop("_ts", None)
+
+    if not news:
+        print("VAROVÁNÍ: žádný zdroj nevrátil zprávy.")
+
+    return news
 
 
 def main():
