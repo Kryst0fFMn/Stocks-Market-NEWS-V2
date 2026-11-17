@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T10:23:25.305244+00:00",
+  "updated_at": "2026-11-17T10:44:02.959720+00:00",
   "stocks": [
     {
       "name": "Microsoft",
@@ -38,32 +38,32 @@
       "symbol": "HSBA.L",
       "market": "Velká Británie",
       "currency": "GBp",
-      "price": 1333.6,
-      "change": -0.99
+      "price": 1335.4,
+      "change": -0.86
     },
     {
       "name": "AstraZeneca",
       "symbol": "AZN.L",
       "market": "Velká Británie",
       "currency": "GBp",
-      "price": 13892.0,
-      "change": -1.01
+      "price": 13928.2002,
+      "change": -0.75
     },
     {
       "name": "SAP",
       "symbol": "SAP.DE",
       "market": "Německo",
       "currency": "EUR",
-      "price": 208.85,
-      "change": -2.13
+      "price": 209.55,
+      "change": -1.8
     },
     {
       "name": "Siemens",
       "symbol": "SIE.DE",
       "market": "Německo",
       "currency": "EUR",
-      "price": 272.0,
-      "change": -0.2
+      "price": 271.95,
+      "change": -0.22
     },
     {
       "name": "Toyota",
@@ -118,24 +118,24 @@
       "symbol": "NESN.SW",
       "market": "Švýcarsko",
       "currency": "CHF",
-      "price": 87.86,
-      "change": -0.3
+      "price": 87.79,
+      "change": -0.37
     },
     {
       "name": "L'Oréal",
       "symbol": "OR.PA",
       "market": "Francie",
       "currency": "EUR",
-      "price": 448.4,
-      "change": -0.39
+      "price": 448.8,
+      "change": -0.3
     },
     {
       "name": "ASML",
       "symbol": "ASML.AS",
       "market": "Nizozemsko",
       "currency": "EUR",
-      "price": 1272.8,
-      "change": -2.59
+      "price": 1272.6,
+      "change": -2.6
     },
     {
       "name": "Petrobras",
