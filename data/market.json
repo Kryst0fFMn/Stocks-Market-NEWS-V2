@@ -1,69 +1,69 @@
 {
-  "updated_at": "2026-11-17T15:09:21.842869+00:00",
+  "updated_at": "2026-11-17T16:14:03.468086+00:00",
   "stocks": [
     {
       "name": "Microsoft",
       "symbol": "MSFT",
       "market": "USA",
       "currency": "USD",
-      "price": 511.5,
-      "change": -1.25
+      "price": 500.62,
+      "change": -3.35
     },
     {
       "name": "NVIDIA",
       "symbol": "NVDA",
       "market": "USA",
       "currency": "USD",
-      "price": 154.675,
-      "change": -0.94
+      "price": 154.96,
+      "change": -0.76
     },
     {
       "name": "Apple",
       "symbol": "AAPL",
       "market": "USA",
       "currency": "USD",
-      "price": 354.72,
-      "change": 0.55
+      "price": 352.2,
+      "change": -0.16
     },
     {
       "name": "Amazon",
       "symbol": "AMZN",
       "market": "USA",
       "currency": "USD",
-      "price": 258.94,
-      "change": 0.46
+      "price": 256.08,
+      "change": -0.65
     },
     {
       "name": "HSBC",
       "symbol": "HSBA.L",
       "market": "Velká Británie",
       "currency": "GBp",
-      "price": 1335.0,
-      "change": -0.89
+      "price": 1320.2,
+      "change": -1.99
     },
     {
       "name": "AstraZeneca",
       "symbol": "AZN.L",
       "market": "Velká Británie",
       "currency": "GBp",
-      "price": 13744.0,
-      "change": -2.07
+      "price": 13784.0,
+      "change": -1.78
     },
     {
       "name": "SAP",
       "symbol": "SAP.DE",
       "market": "Německo",
       "currency": "EUR",
-      "price": 203.75,
-      "change": -4.52
+      "price": 201.8,
+      "change": -5.44
     },
     {
       "name": "Siemens",
       "symbol": "SIE.DE",
       "market": "Německo",
       "currency": "EUR",
-      "price": 273.4,
-      "change": 0.31
+      "price": 270.85,
+      "change": -0.62
     },
     {
       "name": "Toyota",
@@ -86,16 +86,16 @@
       "symbol": "0700.HK",
       "market": "Hongkong",
       "currency": "HKD",
-      "price": 376.0,
-      "change": -3.69
+      "price": 390.4,
+      "change": 0.98
     },
     {
       "name": "Shopify",
       "symbol": "SHOP.TO",
       "market": "Kanada",
       "currency": "CAD",
-      "price": 208.49,
-      "change": -1.39
+      "price": 203.26,
+      "change": -3.86
     },
     {
       "name": "BHP",
@@ -118,58 +118,146 @@
       "symbol": "NESN.SW",
       "market": "Švýcarsko",
       "currency": "CHF",
-      "price": 86.87,
-      "change": -1.42
+      "price": 86.81,
+      "change": -1.49
     },
     {
       "name": "L'Oréal",
       "symbol": "OR.PA",
       "market": "Francie",
       "currency": "EUR",
-      "price": 447.2,
-      "change": -0.66
+      "price": 447.5,
+      "change": -0.59
     },
     {
       "name": "ASML",
       "symbol": "ASML.AS",
       "market": "Nizozemsko",
       "currency": "EUR",
-      "price": 1273.0,
-      "change": -2.57
+      "price": 1242.6,
+      "change": -4.9
     },
     {
       "name": "Petrobras",
       "symbol": "PETR4.SA",
       "market": "Brazílie",
       "currency": "BRL",
-      "price": 44.46,
-      "change": 1.0
+      "price": 44.57,
+      "change": 1.25
     }
   ],
   "news": [
     {
+      "company": "Microsoft",
+      "title": "Exclusive-Trump's China data center curb advances despite Amazon, Google, Meta lobbying",
+      "url": "https://finance.yahoo.com/technology/articles/exclusive-trumps-china-data-center-110205689.html",
+      "time": "17.11.2026 17:06",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "Reuters"
+    },
+    {
+      "company": "Sony",
+      "title": "Sony defeats £2 billion UK claim over PlayStation Store pricing",
+      "url": "https://uk.news.yahoo.com/sony-defeats-2-billion-uk-125646144.html",
+      "time": "17.11.2026 17:05",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "Reuters"
+    },
+    {
+      "company": "Apple",
+      "title": "We found 14 early Black Friday Apple deals: Score AirPods and MacBooks on sale",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5waGV2ZmxadHRfcDVpcFZNeVViUWpFV0R3UkRPNEkzTlllaXdiNDV0emEtdjdlOGhmQlZiLWg2Nlp6OVZGWHhuQ0ZPUU93amVrNXEtT2p4TlJ0Q3d0V1RUZnVmTHZHbnZhUnlsWlA1Y3BXZ18xOWZQbjJxbw?oc=5",
+      "time": "17.11.2026 17:02",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "Mashable"
+    },
+    {
+      "company": "Siemens",
+      "title": "Siemens and Mercedes-Benz employ 60,000-plus Americans. Their U.S. chiefs have one ask: stability",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPbXcwVmYwWnlXZGRyNGtOdzZROWJLWEZTNlk5Q2ZIc2FVUzhmUDBJYmxvQTZ1WVRzZVpfMFFWanlmVGUxQTdSaUhpU3pHT05QQVdzTlVFYURCbnlFeHRuWEZ0RllnbFA2Sm4ydmgwaUFPQl9oLVdrZlFwUVhwQnBnNWxnRnZoT0lmdEE?oc=5",
+      "time": "17.11.2026 16:56",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "Fortune"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Jensen Huang Breaks Silence, Signals Willingness to Return as Nvidia CEO",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5QczVTbUQzdjZ0WHN0QjYwRXJidGl2YmJzeFVVOGhEV0FoZHp3QkJ1dng1REtUS21Qa2lYSGdUejlhbGtfNzlQT1V6Zm45NDltc2hKeEowZ3NtcHdsaUNvN2ttTTJXWUgzNkF3SGZUUjdFX1FiRHc?oc=5",
+      "time": "17.11.2026 16:55",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "WSJ"
+    },
+    {
+      "company": "HSBC",
+      "title": "Hong Kong, Swift and Major Banks Test Blockchain-Based Cross-Border Payments",
+      "url": "https://www.cryptoprowl.com/releases/hong-kong-swift-and-major-banks-test-blockchain-based-cross-border-payments-7951",
+      "time": "17.11.2026 16:49",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "CryptoProwl"
+    },
+    {
+      "company": "Apple",
+      "title": "George Soros and 21 Other Big Funds Sold Apple Last Quarter, While 13 Bought. Who’s Right?",
+      "url": "https://www.tikr.com/blog/george-soros-and-21-other-big-funds-sold-apple-last-quarter-while-13-bought-whos-right?ref=yahoofinance&tlnk=yf-261117-m2jx4cr6",
+      "time": "17.11.2026 16:40",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "TIKR"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Why today's a pivotal test for the AI trade",
+      "url": "https://finance.yahoo.com/video/why-todays-a-pivotal-test-for-the-ai-trade-153316364.html",
+      "time": "17.11.2026 16:33",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "Yahoo Finance Video"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Nvidia's Colette Kress faces some serious pressure ahead of Q3 earnings",
+      "url": "https://finance.yahoo.com/video/nvidias-colette-kress-faces-some-serious-pressure-ahead-of-q3-earnings-153311066.html",
+      "time": "17.11.2026 16:33",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "Yahoo Finance Video"
+    },
+    {
+      "company": "Nestlé",
+      "title": "‘Proof is now the price of entry’: Nestlé on the forces reshaping supplements",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNYmE2bGdVUTd5OHREelBkY0dvTFBXbTctME9NdzZBT29ZRTZNQ2IyNC1wYUZwR240akNMUkZxWTQ0M05pSkoxOVN6aENOZ2NBMkFDZzV6NkN0MzNrb3hWYTdwQWRzMi1kd25HcEctamk3Z3JzOE83RnZieDhfdVRuSFhhNS1uVVVySGc4MU5HU0hucVA1cHA5RzlzR0M2TmEtZ0dTNkJEV3Q5eVlpbHVQbmpWdUNfV0VicnlCR3AydGE1NVYwLXc?oc=5",
+      "time": "17.11.2026 16:28",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "NutraIngredients.com"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Ex-Nvidia CEO Jensen Huang agrees to testify as Congress raises concerns about affair with suspected Chinese spy",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObkdhRVZhSXoxemtBVlFqOUxTWmxpaWYwcHAyWmQ4ajVxTWczNnF2QWo2N1ZZSjlaX3p2emhGMF9nUlhXRklCVzdzUllPczhHbEQ5WXFaN2RUa1hPb3BjVlVOdmE0ajVoRnJhRUpHdGNyeUgzSHp4Y3BiUFJIYmd1dFV0NA?oc=5",
+      "time": "17.11.2026 16:24",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "CBS News"
+    },
+    {
+      "company": "Sony",
+      "title": "Sony's PS-LX3BT turntable is at its best price ahead of Black Friday",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNE9HZ2NtblpXLVZyeDdUTmduN2c0a3B3SVoyZkw4TlluS0xmZW5YUjFFZEY3VkxHUHlWWm1jSTJiZzl2bnFFZEE1YVRFbXlXZGRLR1BRSzdZWXdSeW5ldm0zNDRBSTVqRG5DOXRuLWRmMUlQWG1hU3pFRjV1NWRxRkxBQW5jWXROMGp3eTUyOWY4OFVk?oc=5",
+      "time": "17.11.2026 16:22",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "Mashable"
+    },
+    {
       "company": "Toyota",
       "title": "Corey Heim to drive No. 67 Toyota for 23XI Racing in 2027",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPcEI1OTg4RkVma3NDanJPd2xZTS15QXlSckhsRjVJS2M4Zjd3VGdJcFVVLXlaeXlvNXp4bEloaDNBNWFrQVZoZlgyUzAwakdUYW1qcFV6UjRkVzZobjlQS09SNlJYb2k2RnJWMHJGMFpKNlJuZDJlZlhYY251UGY0RVVnM2xfS2xOWnE3bkk2czJabWMtRU9mdmhiTVZ5WTY5QnRzSWU1Ulp5UQ?oc=5",
-      "time": "17.11.2026 16:07",
+      "time": "17.11.2026 16:11",
       "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
       "source": "NASCAR.com"
     },
     {
-      "company": "Amazon",
-      "title": "Lumentum, Corning and other optical-related stocks jump on Chinese import restrictions",
-      "url": "https://finance.yahoo.com/markets/stocks/article/optical-related-stocks-surge-on-import-restrictions-of-chinese-data-center-equipment-150444937.html",
-      "time": "17.11.2026 16:04",
+      "company": "Apple",
+      "title": "What Does SMCI Stock Offer That HP Does Not?",
+      "url": "https://www.trefis.com/stock/hpq/articles/625639/what-does-smci-stock-offer-that-hp-does-not/2026-11-17",
+      "time": "17.11.2026 16:10",
       "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "Yahoo Finance"
-    },
-    {
-      "company": "Microsoft",
-      "title": "White House Pushes Ahead With Chinese Data-Center Equipment Restrictions",
-      "url": "https://finance.yahoo.com/technology/articles/white-house-pushes-ahead-chinese-150415463.html",
-      "time": "17.11.2026 16:04",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "GuruFocus.com"
+      "source": "Trefis"
     },
     {
       "company": "Petrobras",
@@ -180,12 +268,20 @@
       "source": "Aerospace Global News"
     },
     {
-      "company": "NVIDIA",
-      "title": "Stocks slip ahead of Nvidia earnings, Home Depot shares slide: AlphaCheck",
-      "url": "https://finance.yahoo.com/markets/article/copy-copy-tech-rises-coreweave-results-reignite-ai-trade-alphacheck-145755423.html",
-      "time": "17.11.2026 15:57",
+      "company": "Shopify",
+      "title": "Retail ETFs in Focus as Countdown to 2026 Black Friday Sales Begins",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/retail-etfs-focus-countdown-2026-145900387.html",
+      "time": "17.11.2026 15:59",
       "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "Yahoo Finance"
+      "source": "Zacks"
+    },
+    {
+      "company": "AstraZeneca",
+      "title": "AstraZeneca Stock Up 12% in a Month: Time to Buy, Sell or Hold?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/astrazeneca-stock-12-month-time-145800081.html",
+      "time": "17.11.2026 15:58",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "Zacks"
     },
     {
       "company": "BHP",
@@ -212,36 +308,12 @@
       "source": "Yahoo Finance Video"
     },
     {
-      "company": "Apple",
-      "title": "Stock Market Today: Dow Slides After Surprise Retail Sales; Nvidia Rises With Earnings On Tap (Live Coverage)",
-      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-retail-sales-nvidia-earnings-nvda-stock/?src=A00220&yptr=yahoo",
-      "time": "17.11.2026 15:43",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "Investor's Business Daily"
-    },
-    {
-      "company": "Apple",
-      "title": "Netflix Stock Down 47%: Too Early To Buy?",
-      "url": "https://www.trefis.com/stock/nflx/articles/625752/netflix-stock-down-47-too-early-to-buy/2026-11-17",
-      "time": "17.11.2026 15:40",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "Trefis"
-    },
-    {
       "company": "Shopify",
       "title": "Cathie Wood’s ARK Invest Sells $85 Million of Nvidia, Adds Block, Circle and Coinbase",
       "url": "https://www.cryptoprowl.com/releases/cathie-woods-ark-invest-sells-85-million-of-nvidia-adds-block-circle-and-coinbase-7950",
       "time": "17.11.2026 15:38",
       "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
       "source": "CryptoProwl"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "It's not just AI — the dollar 'wrecking ball' is leveling gold and bitcoin as the debasement trade unravels",
-      "url": "https://finance.yahoo.com/markets/article/its-not-just-ai--the-dollar-wrecking-ball-is-leveling-gold-and-bitcoin-as-the-debasement-trade-unravels-143626482.html",
-      "time": "17.11.2026 15:36",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "Yahoo Finance"
     },
     {
       "company": "Amazon",
@@ -266,78 +338,6 @@
       "time": "17.11.2026 15:10",
       "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
       "source": "Barrons.com"
-    },
-    {
-      "company": "Microsoft",
-      "title": "JPMorgan, Microsoft, United, FAA service outages: What exactly is going on?",
-      "url": "https://finance.yahoo.com/video/jpmorgan-microsoft-united-faa-service-outages-what-exactly-is-going-on-140732645.html",
-      "time": "17.11.2026 15:07",
-      "impact": "Možný negativní signál; ověř zprávu u původního zdroje.",
-      "source": "Yahoo Finance Video"
-    },
-    {
-      "company": "Sony",
-      "title": "Sony defeats £2 billion UK claim over PlayStation Store pricing",
-      "url": "https://uk.news.yahoo.com/sony-defeats-2-billion-uk-125646144.html",
-      "time": "17.11.2026 15:05",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "Reuters"
-    },
-    {
-      "company": "HSBC",
-      "title": "Hackers Plant ‘Crypto-Stealing Code’ On Websites Worldwide",
-      "url": "https://www.cryptoprowl.com/releases/hackers-plant-crypto-stealing-code-on-websites-worldwide-7942",
-      "time": "17.11.2026 14:53",
-      "impact": "Možný negativní signál; ověř zprávu u původního zdroje.",
-      "source": "CryptoProwl"
-    },
-    {
-      "company": "Nestlé",
-      "title": "Food, drinks majors sign regenerative agriculture initiative",
-      "url": "https://www.just-food.com/news/food-drinks-majors-sign-regenerative-agriculture-initiative/",
-      "time": "17.11.2026 14:45",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "Just Food"
-    },
-    {
-      "company": "Microsoft",
-      "title": "FAA, Microsoft, banks: Why it feels like everything keeps breaking",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWGlOa3VFSE1MZnl5dlR1TzE2YnN3TjAzRHgxVWZEMVYtSDV2dmRWZnVuY1doc2JfbnhGRnhoQzBKS1I5VmlRVXRwLU45aGxKNUVaTXdfVGtOcU83T3VxV1NaWWphMWZqbXlya183REctRkFpRksxZmxSTXUyUl9ZV1ZMNGduOEI5Nm9MX3BzR05oZ1g1RlhJdGYwVERDVTk1ZVE?oc=5",
-      "time": "17.11.2026 14:35",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "USA Today"
-    },
-    {
-      "company": "Toyota",
-      "title": "Toyota Motor (TM) Is Considered a Good Investment by Brokers: Is That True?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/toyota-motor-tm-considered-good-133004779.html",
-      "time": "17.11.2026 14:30",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "Zacks"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "Bessent Urges Nvidia to Pick Outsider as Next CEO",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNelVNRDFXQmNHV3JpOFRyaWl2N3h1WnNXNXNXS2FOOHg4dklQNVZfNktCNUdyZ3pNSGtENWRIbE1sYThZZk1QODBNTndERElkRmQ0MHlReHJQU2ZlRDdaYTFqdzA5anBUTXJjVmwwV0hvcW1hS1pPc01zSF9lTXFrTC15RnFzdlJfN2VuYzVuUQ?oc=5",
-      "time": "17.11.2026 14:28",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "WSJ"
-    },
-    {
-      "company": "Apple",
-      "title": "iPhone, iPad targeted by massive website malware attack",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQUU1VdU9lV2hwYU9BLWVqUVJlbWpuQVJXcFFFc003amRaYXZTMEJtSzR5cHplQ2VxU2E3RUZQNUg2cUlzSU1CdkRjbkV3SFJ0YzZmS3p3VGhfc0NOb1A5cXpjeGtGUmFWVHFKTmFMbkhCNmNVUnp0bkV3QUxWS3FFUldOVTdEb1hhM3R1UW9XQk1YVlg1NUFSLWd4QWFBdw?oc=5",
-      "time": "17.11.2026 14:27",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "AppleInsider"
-    },
-    {
-      "company": "Toyota",
-      "title": "Toyota RAV4 Driver Needs New Headlight. Dealership Says It Needs Exclusive $1,400 Procedure—They Take It To Their Mechanic Anyway",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9OUEpJVS1QSW9faXFRellNWWpCLVUzcHF2RVdRTS0xSTQwQURnQUo0djloM2JHTzFXZGZyMFhubElSVUc0UHJpU2l5V2ZKUC11VmdZS1ZyajU3UnNrMWZaaQ?oc=5",
-      "time": "17.11.2026 14:25",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "Motor1.com"
     }
   ]
 }
