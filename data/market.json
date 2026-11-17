@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T11:22:16.780118+00:00",
+  "updated_at": "2026-11-17T12:03:34.220531+00:00",
   "stocks": [
     {
       "name": "Microsoft",
@@ -38,32 +38,32 @@
       "symbol": "HSBA.L",
       "market": "Velká Británie",
       "currency": "GBp",
-      "price": 1337.8,
-      "change": -0.68
+      "price": 1339.8,
+      "change": -0.53
     },
     {
       "name": "AstraZeneca",
       "symbol": "AZN.L",
       "market": "Velká Británie",
       "currency": "GBp",
-      "price": 13886.0,
-      "change": -1.05
+      "price": 13860.0,
+      "change": -1.24
     },
     {
       "name": "SAP",
       "symbol": "SAP.DE",
       "market": "Německo",
       "currency": "EUR",
-      "price": 209.6,
-      "change": -1.78
+      "price": 208.5,
+      "change": -2.3
     },
     {
       "name": "Siemens",
       "symbol": "SIE.DE",
       "market": "Německo",
       "currency": "EUR",
-      "price": 272.05,
-      "change": -0.18
+      "price": 273.65,
+      "change": 0.4
     },
     {
       "name": "Toyota",
@@ -118,24 +118,24 @@
       "symbol": "NESN.SW",
       "market": "Švýcarsko",
       "currency": "CHF",
-      "price": 87.51,
-      "change": -0.69
+      "price": 87.46,
+      "change": -0.75
     },
     {
       "name": "L'Oréal",
       "symbol": "OR.PA",
       "market": "Francie",
       "currency": "EUR",
-      "price": 448.65,
-      "change": -0.33
+      "price": 449.0,
+      "change": -0.26
     },
     {
       "name": "ASML",
       "symbol": "ASML.AS",
       "market": "Nizozemsko",
       "currency": "EUR",
-      "price": 1276.2,
-      "change": -2.33
+      "price": 1286.2,
+      "change": -1.56
     },
     {
       "name": "Petrobras",
@@ -148,12 +148,68 @@
   ],
   "news": [
     {
+      "company": "Amazon",
+      "title": "SpaceX just caught a spaceship out of the sky",
+      "url": "https://finance.yahoo.com/video/spacex-just-caught-spaceship-sky-120000437.html",
+      "time": "17.11.2026 13:00",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "Yahoo Finance Video"
+    },
+    {
+      "company": "ASML",
+      "title": "European chip stocks fall after new U.S. curbs on AI chip access",
+      "url": "https://finance.yahoo.com/technology/ai/articles/european-chip-stocks-fall-u-115309611.html",
+      "time": "17.11.2026 12:53",
+      "impact": "Možný negativní signál; ověř zprávu u původního zdroje.",
+      "source": "Investing.com"
+    },
+    {
+      "company": "Reliance Industries",
+      "title": "RELIANCE: Spending Still Matters, Cash Flow Now Leans More On Consumer Businesses",
+      "url": "https://news.google.com/rss/articles/CBMi8wJBVV95cUxPQWZ1aEphQ0xtMzFJWjUzd1BWOVdoLUJPd0x2LWYwTzhLaGd6S0ZSRHlPNFpqZm5LQ054Ym5BVms4MVUwcDNmNnhJTGk4bWVoSHBkazdOTU40bU0yekFHM0RtSVdDY0E0bVc1V3NydDdvZVpwSFU1VWlMTkZDNkFBWURzR1Z4MWdiX2VyeDhtTUVpUDM0b3F1a1M2UF9ndk1mVTAzQTNPNW1TZG0zaHV1OWZlWV96UjJpVW9NcVdVOGk0dUt4RHZfQTF5OU1tSDQzM1ZxdHdmd0V1Vzd1cUVwVHhSV3JlQk9EZjIwSElJNS1YZXBjRjNydllibFRWUDJYOGd1Nm5NRk9aZmhtdk05S2YwbklTOXlETk9FVVpfbnB5eHR0NGpDU255UDBKVUlRa0pRcWlrVkh6M1ZsUnludDdpQ2p1aEU3Q2dsOC1ZSU9NVWw2anF0Mnltd0V2Mm5HTkVmay1hMkhRc3d6YlBqVE5BMA?oc=5",
+      "time": "17.11.2026 12:50",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "Simply Wall St"
+    },
+    {
+      "company": "Shopify",
+      "title": "Fullestop Launches Personalization Platform for Shopify, Giving Merchants an Edge using Agentic AI Shopping Agents",
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQSjlHN0Z4Tm54Z05admlqVlVaNW93NzlfbzRxYVNNbGlUN25IUFluaWR3cGJNYy1jMGJJZVdFa0dDdWw1WW1GbjhCVWwtdXVjeE9uWUY2Mld3SlNBWGpWcjhjVXpXNDIwMnowdWNYVnF1RUpqN2xob2RCYTJkaGhqNjNacFV5T3EzNV8zeVF6UC12dU5HTTExZm1tamZVaVBDTFdlcDBRUUEtZFI5ZjdTT053WTA0N2ROWnVwZzExNDV3c0lDRW84M3pqdXQ4eUZmRHFFTTlPMDlGTEZXNEU3eTZxTzJ1c3V5NUlvUVVMM2dmZ3ZOVUFZN1gxUmc5dw?oc=5",
+      "time": "17.11.2026 12:27",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "The Detroit News"
+    },
+    {
       "company": "Microsoft",
       "title": "Exclusive-Trump's China data center curb advances despite Amazon, Google, Meta lobbying",
       "url": "https://finance.yahoo.com/technology/articles/exclusive-trumps-china-data-center-110205689.html",
       "time": "17.11.2026 12:18",
       "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
       "source": "Reuters"
+    },
+    {
+      "company": "AstraZeneca",
+      "title": "Summit Therapeutics (SMMT) Stock Sees Modest Fair Value Cut As Analysts Weigh Trial Risks",
+      "url": "https://finance.yahoo.com/healthcare/articles/summit-therapeutics-smmt-stock-sees-111419165.html",
+      "time": "17.11.2026 12:14",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "Simply Wall St."
+    },
+    {
+      "company": "Tencent",
+      "title": "Tencent Holdings (SEHK:700) Rolled Out Its Hy4 Flash AI Model",
+      "url": "https://finance.yahoo.com/technology/ai/articles/tencent-holdings-sehk-700-rolled-111308284.html",
+      "time": "17.11.2026 12:13",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "Simply Wall St."
+    },
+    {
+      "company": "Apple",
+      "title": "Apple Tightens macOS App Permissions to Limit Data Access Amid AI Agent Security Risks",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRUNYMngtOTB5YXQ0SWdaT3lkMUtDSjVTTFkzdjlwcFBfbkFfREptaHJfeG85Z1hhaTYzLUVEUExiVVdRaEFHa20xWTFnRmFRZzVqVG9vVlVWaHVmSHQtSjh5SG1JNnNZSnJnWTBXUjM2OEkxSVFCREFCZExHTXJzNmNYci0?oc=5",
+      "time": "17.11.2026 12:07",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "The Hacker News"
     },
     {
       "company": "Microsoft",
@@ -204,12 +260,12 @@
       "source": "Reuters"
     },
     {
-      "company": "Shopify",
-      "title": "Fullestop Launches Personalization Platform for Shopify, Giving Merchants an Edge using Agentic AI Shopping Agents",
-      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxON3lEcTNFdGxNSWdiVVhiWlotUkdyQkt3N0hqaV9aV2JvQUJqTDZsWG5INWVvbDFYVFk2QXp3eXhSVWk3Y0s5VXVIcUtLTUstNEJEclBNNW92V3VKM0R5eGRzbjZZYkJyaUJxMU5TMUl4MHBOZzlleXd0V20wY1gtUDRnQ0d2U3AwbmFjMHg4OGpUaUJTYVRMOWU3eGNpejNEa09yWWhNWi1wcHhjUEhHZWFrcFVkdWYxMHJVSm9VR0ljQUgyUk5UQU1TNlNvWHZUMFhMOFZLNEs3MXliRXdxWHVuVG1iRHV1dnhQYWdCYWRzZw?oc=5",
-      "time": "17.11.2026 11:28",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "EIN Presswire"
+      "company": "HSBC",
+      "title": "Hackers plant crypto-stealing code on 178 major websites, including HSBC and Ledger",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNWEpvVG5hSUpEMTVCTHdMTEpPT3JPMkNrX0ZLMUxqdE5FbGJKRzRnNnJXTWhjbjUySkgtaE94NnVVUURsZWJjZDdYVlZ4VXBlUlc0MGdEQTFsSHZBRE5nNFZWRWtMVkZ6T2IwRmdLX2MzODZFa2N1UzJxRTd5OTI5VHhBRFdPbkxtM191MG1ibU1WcmFZQkV6T05IbFF4NHdmSUFNT3huOXIxdldkbTUwNHRza1B2dWtxLWhISFdLeG9Mb3pfaEtSVXcwWDNpNkk?oc=5",
+      "time": "17.11.2026 11:22",
+      "impact": "Možný negativní signál; ověř zprávu u původního zdroje.",
+      "source": "CoinDesk"
     },
     {
       "company": "Siemens",
@@ -268,12 +324,12 @@
       "source": "PC Guide"
     },
     {
-      "company": "ASML",
-      "title": "Chinese envoy says chip equipment export curbs threaten EU-China trade thaw",
-      "url": "https://ca.finance.yahoo.com/news/chinese-envoy-says-chip-equipment-092458827.html",
-      "time": "17.11.2026 10:27",
+      "company": "NVIDIA",
+      "title": "Nvidia shares down slightly after days of decline ahead of earnings",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQUDhQMU5rWGhWemtOTG9CLWY2Q0tCWVVJejRxYU50bXo0U3N5cFE1R0JkQWpPN3RvakZtOERpVk5WSmJIbVlfaVlfTGdZY001TWRqV1ZaTk5yME5TdVQyek81TXVza2REZFNfRnJ5LW9rUmNRT21wNy1FVEZBdUlZaGdINXVqdlkzSzlz0gGQAUFVX3lxTE1hOFNxWkE1WDFjYTgzQVNPNE9MUEIwSmwxazl1QXlpaEo5SGlfSUVJdFJFWjZ4eGF6cXVVQkhoRU5pTmpJVF9jMFJEYjVabW9BMU5Fc0lpNGVXbURhVU4zLTlVQ1E4S0ZRX3hubnRDN0l3QThkS3NienJxZm9oT1BYMUk3M25wZ3lNbDZaY1RTSg?oc=5",
+      "time": "17.11.2026 10:18",
       "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "Reuters"
+      "source": "CNBC"
     },
     {
       "company": "NVIDIA",
@@ -282,62 +338,6 @@
       "time": "17.11.2026 10:15",
       "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
       "source": "Yahoo Finance"
-    },
-    {
-      "company": "ASML",
-      "title": "Why is ASML stock sliding today?",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUjUxQVlLLUhQRlhhbDhiazlZempiRGR3ZnNRT2JmWmdsTG9sUWpHN1UyS29rRHVEVGNQUjR4eEpGZ3BpcnFBVmV6Vnp3RDNuS0Y4ZXZCWGVRVEV4Y24wRUtyYmhWemVsRXFRa1JRdVBaRTNYNktHWi1zaVVSTTdSTTFkMUpPUDRnSExpM3hnRDh0bnluZDR2UQ?oc=5",
-      "time": "17.11.2026 10:15",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "Investing.com"
-    },
-    {
-      "company": "HSBC",
-      "title": "Market Chatter: HSBC Sells $300 Million Loan Tied to Project Jupiter Amid Regulatory Challenges",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-hsbc-sells-300-091146582.html",
-      "time": "17.11.2026 10:11",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "MT Newswires"
-    },
-    {
-      "company": "Microsoft",
-      "title": "Microsoft outage cause revealed: It was a perfect storm of problems",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5aOXNncW9QdWVtZ3RXTHF5VnFncFJTcXptUWtGX0V6azdmcXZVQjBienJMdzJydEdseXhVZHZRcExPbS0xUXlCcXhyX2RDOUZOd0h3bEhwU1hiNF9hc0FNdTZLSkJGUVpz?oc=5",
-      "time": "17.11.2026 09:59",
-      "impact": "Možný negativní signál; ověř zprávu u původního zdroje.",
-      "source": "Mashable"
-    },
-    {
-      "company": "Apple",
-      "title": "U.S. companies from Nvidia to Apple face a growing China dilemma",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQUExKd0JqV0cwc1N6Y1pLUkk1X3NWWlpva2pOMTBxLTVDY3VZT3R0VDFVMFBwOHpHa29odmV4NEZrOHNCUU53cmUybjQ1SHJlX2NnT05ORVBvcS1TRnI3ODh2Wm5PZnJOSzBDcVFnZnV2WnFwcTFPdnltRzdERklMenhyR004dknSAYwBQVVfeXFMTWxJUHo0RXpPUHh4ZWRLdkdMSEZ2VExlQnR3MGpadERIUWhodzQtRVJsaDJWS2JJai1wWUZfeVYwU2xHNnR3ekh0RGI2Q1pkam42NG1CWHVwNHJBWl9RVjBVQ2VSTDUxU19rcUVtdzZXaDlvTUJuUk5YOURTbWtQbXAzTGRqMUt4STJjNmc?oc=5",
-      "time": "17.11.2026 09:52",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "CNBC"
-    },
-    {
-      "company": "Amazon",
-      "title": "Amazon MGM has a new 007: Robert Pattinson",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNb0dzcHF3Q05BbWdrZW52aFMxVWszMUNKaXZQRThGczJ3aHZjWnNVYV85S09keGZUcy0zYXJ5YkV0bnliZ0ozbHRnLU16M3lWVTNNRklCbkdkY0ttWnhCVmp2RmtlRjJDWGhzbE80UGFvX1dOWDJoN0RMal82cHJvU19EQQ?oc=5",
-      "time": "17.11.2026 09:26",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "Morning Brew"
-    },
-    {
-      "company": "Nestlé",
-      "title": "Nestlé, Danone, Mars and others sign landmark agreement",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQWXRFcXNKRGJnZXJHd2pUQVZWeWdxa2dIRDRVVGpGUW9RTU5vNDd6VGNqWl9CYV84RkJjbkt4N09UeWc5VWlOT3diUEQ5cWdvTmhWa2pubG5odllCWUg5djV5Z0loR0kzRTRoTmFySUJxdXhBTFlxWTlSRGFPQ25DNUJmZFNQeThxeF9UUlhPUUdGaktMOU5ueHln?oc=5",
-      "time": "17.11.2026 09:14",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "FoodNavigator.com"
-    },
-    {
-      "company": "HSBC",
-      "title": "Ledger, HSBC, Zoom Among 178 Sites Hit by Crypto Address-Swapping Malware",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOa1ItcWszQWN5MVQ0OU11eFBtOU5mbjQxOFg5S3pUUkxSQ0F5ek5xM24tOGZtbl9JOWFZeDNHUW11VndILVN6SHpHQTU2VU9DZXZJTTI2U2hIRzlDMUxBLWhMekhQZWNmYVlIMWU2VVkzVlozU3ozWEFEdUVqV204S2FGLVN3bWFUdWlZU1NUX1k?oc=5",
-      "time": "17.11.2026 09:03",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "Yahoo Tech"
     }
   ]
 }
