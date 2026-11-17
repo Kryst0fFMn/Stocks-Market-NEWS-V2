@@ -95,7 +95,7 @@ def load_quotes():
 
     frame = yf.download(
         tickers=symbols,
-        period="5d",
+        period="1y",
         interval="1d",
         group_by="ticker",
         auto_adjust=False,
@@ -135,6 +135,11 @@ def load_quotes():
                 **company,
                 "price": round(latest, 4),
                 "change": round(change, 2),
+                # historie zavíracích cen pro graf: [["2026-01-02", 123.45], ...]
+                "history": [
+                    [day.strftime("%Y-%m-%d"), round(float(value), 2)]
+                    for day, value in closes.items()
+                ],
             })
 
         except (KeyError, TypeError, ValueError, IndexError) as error:
@@ -407,10 +412,14 @@ def main():
     }
 
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
-    OUTPUT.write_text(
-        json.dumps(payload, ensure_ascii=False, indent=2),
-        encoding="utf-8",
+    text = json.dumps(payload, ensure_ascii=False, indent=2)
+    # každý bod historie na jeden řádek, ať je soubor kratší a čitelný
+    text = re.sub(
+        r'\[\s*("\d{4}-\d{2}-\d{2}"),\s*(-?[\d.eE+-]+)\s*\]',
+        r"[\1, \2]",
+        text,
     )
+    OUTPUT.write_text(text, encoding="utf-8")
 
     print(f"Uloženo {len(stocks)} kotací a {len(news)} zpráv.")
 
