@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T22:09:52.486072+00:00",
+  "updated_at": "2026-11-17T23:09:42.290382+00:00",
   "stocks": [
     {
       "name": "Microsoft",
@@ -1577,8 +1577,8 @@
       "symbol": "SAP.DE",
       "market": "Německo",
       "currency": "EUR",
-      "price": 201.5,
-      "change": -5.58,
+      "price": 213.4,
+      "change": -0.02,
       "history": [
         ["2025-11-17", 207.0],
         ["2025-11-18", 205.35],
@@ -1832,8 +1832,7 @@
         ["2026-11-11", 210.95],
         ["2026-11-12", 212.55],
         ["2026-11-13", 213.45],
-        ["2026-11-16", 213.4],
-        ["2026-11-17", 201.5]
+        ["2026-11-16", 213.4]
       ]
     },
     {
@@ -1841,8 +1840,8 @@
       "symbol": "SIE.DE",
       "market": "Německo",
       "currency": "EUR",
-      "price": 269.8,
-      "change": -1.01,
+      "price": 272.55,
+      "change": -2.45,
       "history": [
         ["2025-11-17", 223.0],
         ["2025-11-18", 218.15],
@@ -2096,8 +2095,7 @@
         ["2026-11-11", 277.0],
         ["2026-11-12", 281.7],
         ["2026-11-13", 279.4],
-        ["2026-11-16", 272.55],
-        ["2026-11-17", 269.8]
+        ["2026-11-16", 272.55]
       ]
     },
     {
@@ -3133,7 +3131,6 @@
       "price": 54.38,
       "change": -4.95,
       "history": [
-        ["2025-11-17", 42.48],
         ["2025-11-18", 40.9],
         ["2025-11-19", 40.95],
         ["2025-11-20", 41.72],
@@ -3652,8 +3649,8 @@
       "symbol": "NESN.SW",
       "market": "Švýcarsko",
       "currency": "CHF",
-      "price": 86.73,
-      "change": -1.58,
+      "price": 88.12,
+      "change": 0.46,
       "history": [
         ["2025-11-17", 79.87],
         ["2025-11-18", 79.26],
@@ -3904,8 +3901,7 @@
         ["2026-11-11", 85.91],
         ["2026-11-12", 86.57],
         ["2026-11-13", 87.72],
-        ["2026-11-16", 88.12],
-        ["2026-11-17", 86.73]
+        ["2026-11-16", 88.12]
       ]
     },
     {
@@ -3913,8 +3909,8 @@
       "symbol": "OR.PA",
       "market": "Francie",
       "currency": "EUR",
-      "price": 446.35,
-      "change": -0.84,
+      "price": 450.15,
+      "change": -0.23,
       "history": [
         ["2025-11-17", 354.55],
         ["2025-11-18", 351.75],
@@ -4170,8 +4166,7 @@
         ["2026-11-11", 446.65],
         ["2026-11-12", 446.85],
         ["2026-11-13", 451.2],
-        ["2026-11-16", 450.15],
-        ["2026-11-17", 446.35]
+        ["2026-11-16", 450.15]
       ]
     },
     {
@@ -4179,8 +4174,8 @@
       "symbol": "ASML.AS",
       "market": "Nizozemsko",
       "currency": "EUR",
-      "price": 1236.8,
-      "change": -5.34,
+      "price": 1306.6,
+      "change": -2.41,
       "history": [
         ["2025-11-17", 876.4],
         ["2025-11-18", 865.6],
@@ -4436,8 +4431,7 @@
         ["2026-11-11", 1403.8],
         ["2026-11-12", 1376.8],
         ["2026-11-13", 1338.8],
-        ["2026-11-16", 1306.6],
-        ["2026-11-17", 1236.8]
+        ["2026-11-16", 1306.6]
       ]
     },
     {
@@ -4701,36 +4695,60 @@
   ],
   "news": [
     {
-      "company": "Apple",
-      "title": "Fund Manager Lists Three Reasons He Still Won’t Buy Tesla Stock",
-      "url": "https://stocktwits.com/news-articles/markets/equity/fund-manager-lists-three-reasons-he-still-won-t-buy-tesla-stock/cNbOJB3R9hQ",
-      "time": "17.11.2026 23:03",
+      "company": "NVIDIA",
+      "title": "Nvidia interim-CEO Colette Kress speaks on quarterly revenue hitting $116B",
+      "url": "https://finance.yahoo.com/video/nvidia-interim-ceo-colette-kress-speaks-on-quarterly-revenue-hitting-116b-224125904.html",
+      "time": "17.11.2026 23:38",
       "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "Stocktwits"
+      "source": "Yahoo Finance Video"
     },
     {
-      "company": "NVIDIA",
-      "title": "AMD, Broadcom, and TSMC stocks rise on Nvidia earnings beat",
-      "url": "https://finance.yahoo.com/markets/stocks/article/amd-broadcom-tsmc-stocks-rise-on-nvidia-earnings-coreweave-nebius-shares-also-rally-220159436.html",
-      "time": "17.11.2026 23:01",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "Yahoo Finance"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "Nvidia’s Q3 earnings show its advantage as the bank of the AI boom",
-      "url": "https://finance.yahoo.com/video/nvidias-q3-earnings-show-its-advantage-as-the-bank-of-the-ai-boom-215423703.html",
-      "time": "17.11.2026 22:51",
+      "company": "Microsoft",
+      "title": "AI industry still needs to be 'extremely careful,' Microsoft exec says",
+      "url": "https://finance.yahoo.com/video/ai-industry-still-needs-extremely-223000085.html",
+      "time": "17.11.2026 23:30",
       "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
       "source": "Yahoo Finance Video"
     },
     {
       "company": "NVIDIA",
-      "title": "Ex-Nvidia CEO Jensen Huang signals interest in returning to the company following scandal",
+      "title": "Nvidia chair says board 'does not intend to reinstate Jensen as CEO'",
+      "url": "https://finance.yahoo.com/video/nvidia-chair-says-board-does-222900177.html",
+      "time": "17.11.2026 23:29",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "Yahoo Finance Video"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Nvidia chairman says board does not intend to reinstate Jensen Huang as CEO",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObnhLd21OYlROQnV3Z2ZRc29BZlRubWM4T2tVN3d3ektLVUdiMXNSS1dhclFQNVZrUEVrdG5rUHFUY0ozQWJJRjFFVlFvVjJ0SC15eEdoUm1JUEdwY2FZdTgyNmNDQnozOWRXSGJBRlVHaC13M09mZ0U3em9hYkp2V1BFWHJvR2ViRFZGcEk5RE8yTWNwUmM5dlhBMC1oMGYzYzE3TXl5akNYTGlOb2c?oc=5",
-      "time": "17.11.2026 22:46",
+      "time": "17.11.2026 23:27",
       "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
       "source": "AP News"
+    },
+    {
+      "company": "Apple",
+      "title": "Huang pitches Nvidia comeback, WSJ reports SEC probing the chipmaker",
+      "url": "https://finance.yahoo.com/news/nvidia-board-forms-committee-national-102208048.html",
+      "time": "17.11.2026 23:19",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "Reuters"
+    },
+    {
+      "company": "BHP",
+      "title": "ChartWatch ASX Scans: BHP, Capstone Copper, Fortescue, Lynas Rare Earths, Technology One, GQG Partners, Xero",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPLXBiREdLYThudFBySnYtLUtIZWJxT3YxSV91N2ZUZ0xDMXlrc3JzLUd1cHlmc2E5ZGx5bERaVDRiZTRyeWRhLWl0eV8yeHlfZVNVelFVa3R0SnNtQXh5T3dHZzk0cmoyTlFuRHpKWm1FbVM1Vy1aR1IwdjI3WW5ZMkNnRFktNEtudjMxUF9jVmJ1RlRQZkJHQmNyalRGUnZuenhKY0JIOU1HM0dwelVNLWhhT0U3cHBfZjRaQXo0cllTXzA4VUdtQVJvREN1ZEc3cnVj?oc=5",
+      "time": "17.11.2026 23:06",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "Market Index"
+    },
+    {
+      "company": "HSBC",
+      "title": "HSBC, Associated sites briefly affected by cyberattack",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQm9ZRjcyeVFtWVc0bmxUOS0wcENjVGFSMXNEdC1SQk1hSzYyVTd6cTNmQUVLaGk0QU9yN2t3V3hLSFVlei1PYUtJUTFxV0RZS2gzRTIwcjdfRHM3cmxqWllGSEpObVNQUV92NW15SUFSb2hwSjBIdkItTm1GMHRxTzlTaE1wR21HYVNQZ0NDV1lVM0k?oc=5",
+      "time": "17.11.2026 22:54",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "American Banker"
     },
     {
       "company": "Microsoft",
@@ -4742,9 +4760,9 @@
     },
     {
       "company": "Amazon",
-      "title": "Cut generative AI costs: Code for rules, models for judgment",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNQVg3V1dEQVNwMUFueGFmczVVUzE2RUd4UUtkNWtBakFoMG9ILVhNU1M3WXVZSXNXdlpYRzFfVWx0X3pKX3NuM1RXckowRzktMUpzWHphbUJZWlJXX2ZOTk9JOE44U1hnNDZudU10dVI2UWhQV3hWcHNWVHpTLU4zV2VUZFAyZkFhYS1BWUVET3h4SHpyNW96aXdYVUxpMHZPeXRUMVc5LWM?oc=5",
-      "time": "17.11.2026 22:14",
+      "title": "Amazon SageMaker AI real-time endpoints now support KV cache aware routing",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOeGxFVUNRLTNuUE9uYTZmRE9WX2lYekxOcW8wbzVsRF83aTdMRGI4UG5vakN4Y2RDckxIRzV3aVpPMlZuMjB2N2xxN3NNZ1UwbUdrN051ZUJ4RFItU3AwaWNpU1lVWHRGN2FrbUNSX1Fka3FwVDVBUE1yLXZqRFdNcmZxbDY4VWEtYjZzQWtsR21zUmg2TDB6dlFJSEc1bkExc1F6U2Y0aF9XXzh4M2xEREpldV9SdTRyNEIyeEhR?oc=5",
+      "time": "17.11.2026 22:11",
       "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
       "source": "Amazon Web Services (AWS)"
     },
@@ -4757,20 +4775,36 @@
       "source": "The Wall Street Journal"
     },
     {
+      "company": "NVIDIA",
+      "title": "Exclusive | SEC Is Probing Nvidia Amid Departure of CEO Jensen Huang",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQbjl2b0tzT1ROT2plV1p5RHhQd3hXOEJKRFhOZ1ItZExOQV9oVGkzTU9tcEEyTXhjNHRKQVExRTNRdEtlY24zUFhmS0h0c21FUVVrVVh0NGF2SXFmdm1wcmVRLUlCcG5CMGRIZklSdVBkVElkS3lwRF9LaGg4YzU5b0dsZXlveWxSNzhGYzJlZmRSRkhvUWZRTHB3?oc=5",
+      "time": "17.11.2026 21:56",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "WSJ"
+    },
+    {
+      "company": "Toyota",
+      "title": "Toyota Floods SEMA With Five Lifted Woodland Concepts",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB0czVKRkJPbzN0Ums3b3RTLWFEOUttUmhIQUdRWGNIR3ZBM21TOFZUWjhPanl6VUtwQkEyVEdKOElPRzRUT0NRRFlhR3BvOEFleF9jaEthSU1Fc21JdHhweHl4THhMSHZmd0NPdF8wVHhwM2g0bkJta0pn?oc=5",
+      "time": "17.11.2026 21:55",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "Motor1.com"
+    },
+    {
+      "company": "Apple",
+      "title": "What to Know About the Apple Outage",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0xOEdxWVBiSmpISmRJSnIxTUlKVGhXcnZhTHJWMk4tbjlNb3MtdmdSZ0h2NUI5ZElVV1RKdGVYNzh3aEJFaWc3MW50dTlGQkN3RjNmS2V4M0VkMGFNeHl5b19nSUxfS2VTVjhwUXRhd2JtRlh3dnc?oc=5",
+      "time": "17.11.2026 21:53",
+      "impact": "Možný negativní signál; ověř zprávu u původního zdroje.",
+      "source": "Time Magazine"
+    },
+    {
       "company": "Apple",
       "title": "Apple works to restore services after outage caused by internal update",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOYVJuYnNwMGtjY1NfY01rbXdSVTVnOFdaak1sd1ZkbXpPZzFuWjlOcTJNVUplNDJZLUVxeGZtaXlGZlg1UjFkY2Z5Um5Td19tS2pUZmZKNFlEb0QxVUwyekt2UnRPRlJUT3hRM3FhQWp2MDJRVGI4U1hfeWlpeGlBdFJyTG1rei1yNXJqbnF5LV9vQ3FwYVloZjVhZ1hfVWUzV0RlQVpRc3I3emJwU1lFZEduaUZSS1k5anRlN2lDQkQ0SFI0QkVz?oc=5",
       "time": "17.11.2026 21:44",
       "impact": "Možný negativní signál; ověř zprávu u původního zdroje.",
       "source": "Reuters"
-    },
-    {
-      "company": "Microsoft",
-      "title": "Microsoft's AI pitch at Ignite: Cheaper models as business 'token spend is going through the roof'",
-      "url": "https://finance.yahoo.com/markets/article/microsoft-ignite-focuses-on-ai-models-for-specific-tasks-lowering-costs-for-enterprise-203433266.html",
-      "time": "17.11.2026 21:34",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "Yahoo Finance"
     },
     {
       "company": "Amazon",
@@ -4795,14 +4829,6 @@
       "time": "17.11.2026 21:09",
       "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
       "source": "Simply Wall St."
-    },
-    {
-      "company": "Apple",
-      "title": "Apple Works to Fix Systems After Update Caused Internal, Retail and iCloud Outages",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNX3NQTl9iV3NGVTJLVmZEeDNrQmQ5MDJKZTBPUkgwc1p2MFNqSDNScDJzUXJlZXhJVVV4LXNKaFk0QUFLNl9uZWNhZ3U0ZDBLcHYyNWlIb0w2TGJ3dlY4dGpMdnB4ZlE0ZGpCNnZyRFhkNXh2Tk83LWtpQzh2THRhUmxCekFPdTB1dUlRcEVmN1JHaGJBRDhFbGhMWDFmeHlGZ2t6eUFteE1QaUo2?oc=5",
-      "time": "17.11.2026 21:07",
-      "impact": "Možný negativní signál; ověř zprávu u původního zdroje.",
-      "source": "Bloomberg.com"
     },
     {
       "company": "HSBC",
@@ -4859,38 +4885,6 @@
       "time": "17.11.2026 19:43",
       "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
       "source": "Microsoft Source"
-    },
-    {
-      "company": "Microsoft",
-      "title": "Microsoft Ignite 2026: Building Windows for the next era of work",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQYXlycC12TmFMUVBsUlg2aUQtZW15ck12TUJGckh3WWJHa1pwTXByZ0FGX1hTVGN2eF9wZ01uTV9DcXVlQjFLc09XT3pvY0JxNkp4ZDljbW1DbWRYcjJlVThXdFN5aG5OZXYzb000Q2Etd2FYMkh5Zlp1NGNTSWFyaWwzWVBrdGFVbE11Y21rdTg1Ui1wbklZc0RONjYySHhfQjI3Q19Ld0VnTjBoMmlnQXhyT2I4ZzQ1WEg0?oc=5",
-      "time": "17.11.2026 19:33",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "Windows Blog"
-    },
-    {
-      "company": "ASML",
-      "title": "ASML Stocks Fall 2.72% as New US Rule Tightens the Chip Supply Chain It Serves",
-      "url": "https://finance.yahoo.com/technology/articles/asml-stocks-fall-2-72-182553629.html",
-      "time": "17.11.2026 19:25",
-      "impact": "Možný negativní signál; ověř zprávu u původního zdroje.",
-      "source": "GuruFocus.com"
-    },
-    {
-      "company": "Petrobras",
-      "title": "Petroleo Brasileiro SA Petrobras (PJX.SG) Analyst Insights, Price Targets & Recommendations - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE92dXBiQklFY200eGJRb2dKbTBLTmZuM25LTzJpanNMUEN4ZlY2S0E5VmFmbDE0Z1VXX0dLNDRfWDJBcFNPSjBEUV9uYUFlcjZFdU9la0lMUWhPRDRIS2RMWHNVbHhiRHZFUHRZ?oc=5",
-      "time": "17.11.2026 19:24",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "Yahoo! Finance Canada"
-    },
-    {
-      "company": "Sony",
-      "title": "Sony Is Updating The PS5 Again, And It Might Have GTA 6 Pirates In Mind",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVXlTWHoxcWl1OUI3OG5Uc21Oc3ctUlZlOVpCa3cwaEcybnRjUi1QaVRHcHpBRUZ3QS0xNHQ2OW5VTDZ3RVNrN01jejBoOXUxYzhKVUkxbThjMFpwRUtaV0ppNFJGcGZ5UnVzRU93MFJMTzI3TjgyZkVUd0R3Mkhkckk0QUNWWUhsRm5wZ19nTzVhb1pkUkhMVzVmUzQ0LVJBS2NiSjRiUnY?oc=5",
-      "time": "17.11.2026 19:22",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "GameSpot"
     }
   ]
 }
