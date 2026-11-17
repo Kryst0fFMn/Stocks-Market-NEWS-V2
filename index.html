@@ -272,6 +272,34 @@
       font-family: var(--mono); font-size: .75rem; white-space: nowrap;
     }
 
+    .note {
+      margin-bottom: 8px; padding: 14px 16px;
+      border: 1px dashed var(--border); border-radius: 12px;
+      color: var(--muted); font-size: .85rem; line-height: 1.55;
+    }
+    .rank-h { margin: 26px 0 12px; font-family: var(--serif); font-size: 1.2rem; }
+    .rank-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+    .rank-ret { margin: 12px 0 8px; font-family: var(--mono); font-size: 1.4rem; font-weight: 600; }
+    .rank-why { color: var(--muted); font-size: .82rem; line-height: 1.5; }
+    .pos { color: var(--green); }
+    .neg { color: var(--red); }
+    .table-wrap { overflow-x: auto; border: 1px solid var(--border); border-radius: 14px; }
+    table.rank { width: 100%; border-collapse: collapse; font-size: .9rem; }
+    .rank th, .rank td { padding: 11px 14px; text-align: right; white-space: nowrap; }
+    .rank th:first-child, .rank td:first-child { text-align: left; }
+    .rank th {
+      border-bottom: 1px solid var(--border);
+      color: var(--muted); font-size: .78rem; font-weight: 500;
+      cursor: pointer; user-select: none;
+    }
+    .rank th.sorted { color: var(--accent); }
+    .rank tbody tr { border-bottom: 1px solid var(--border); cursor: pointer; }
+    .rank tbody tr:last-child { border-bottom: none; }
+    .rank tbody tr:hover { background: var(--panel2); }
+    .rank td { font-family: var(--mono); }
+    .rank td:first-child { font-family: var(--sans); font-weight: 500; }
+    @media (max-width: 980px) { .rank-grid { grid-template-columns: 1fr; } }
+
     .news-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
 
     .news-item {
@@ -344,6 +372,7 @@
     <nav class="tabs">
       <button class="tab active" data-tab="stocksPanel">Akcie</button>
       <button class="tab" data-tab="newsPanel">Zprávy</button>
+      <button class="tab" data-tab="rankPanel">Přehled</button>
     </nav>
 
     <section id="stocksPanel">
@@ -356,6 +385,15 @@
       <ul id="news" class="news-list">
         <li class="empty">Načítám zprávy…</li>
       </ul>
+    </section>
+
+    <section id="rankPanel" class="hidden">
+      <div class="note">
+        Přehled jen řadí akcie podle jejich minulého vývoje za poslední rok, kolísavosti ceny
+        a vzdálenosti od ročního maxima. Nehodnotí, zda je akcie dobrá investice, a nic neříká
+        o budoucnosti: minulé výnosy je nezaručují. Nejde o investiční doporučení.
+      </div>
+      <div id="rankBody"></div>
     </section>
 
     <footer class="disclaimer">
@@ -585,6 +623,7 @@
 
         renderStocks();
         renderNews(data.news);
+        renderRanking();
       } catch (error) {
         status.textContent = "Data se nepodařilo načíst";
         document.getElementById("stocks").replaceChildren(
@@ -596,6 +635,174 @@
         );
         renderNews([]);
       }
+    }
+
+    // ---- Přehled: řazení podle minulého vývoje ----
+    let rankSort = { key: "r3m", dir: -1 };
+
+    const fmt = (value, signed = false) => value === null || !Number.isFinite(value)
+      ? "–"
+      : `${signed && value > 0 ? "+" : ""}${value.toLocaleString("cs-CZ", {
+          minimumFractionDigits: 1, maximumFractionDigits: 1
+        })} %`;
+
+    const tone = value => value === null ? "" : (value >= 0 ? "pos" : "neg");
+
+    function computeStats(stock) {
+      const history = (Array.isArray(stock.history) ? stock.history : [])
+        .map(([day, value]) => ({ date: new Date(day), value: Number(value) }))
+        .filter(point => Number.isFinite(point.value) && point.value > 0);
+
+      if (history.length < 20) return null;
+
+      const last = history[history.length - 1];
+
+      const returnOver = days => {
+        const cutoff = new Date(last.date);
+        cutoff.setDate(cutoff.getDate() - days);
+        // historie musí sahat zhruba tak daleko, jak se ptáme
+        if (history[0].date.getTime() > cutoff.getTime() + 7 * 86400000) return null;
+        const start = history.find(point => point.date >= cutoff);
+        return start ? (last.value / start.value - 1) * 100 : null;
+      };
+
+      const daily = [];
+      for (let i = 1; i < history.length; i++) {
+        daily.push(Math.log(history[i].value / history[i - 1].value));
+      }
+      const mean = daily.reduce((a, b) => a + b, 0) / daily.length;
+      const variance = daily.reduce((a, b) => a + (b - mean) ** 2, 0) / (daily.length - 1);
+
+      let peak = history[0].value;
+      let maxDrawdown = 0;
+      for (const point of history) {
+        peak = Math.max(peak, point.value);
+        maxDrawdown = Math.min(maxDrawdown, (point.value / peak - 1) * 100);
+      }
+      const high = Math.max(...history.map(point => point.value));
+
+      return {
+        stock,
+        r1m: returnOver(30),
+        r3m: returnOver(91),
+        r1y: returnOver(365),
+        vol: Math.sqrt(variance * 252) * 100,
+        maxDrawdown,
+        fromHigh: (last.value / high - 1) * 100
+      };
+    }
+
+    function describe(row) {
+      const volLabel = row.vol < 20 ? "nízká" : (row.vol < 35 ? "střední" : "vysoká");
+      const high = row.fromHigh > -0.5
+        ? "Cena je u ročního maxima."
+        : `Cena je ${fmt(Math.abs(row.fromHigh))} pod ročním maximem.`;
+      const year = row.r1y === null ? "" : ` Za rok ${fmt(row.r1y, true)}.`;
+      return `${high}${year} Kolísavost je ${volLabel} (${fmt(row.vol)} ročně), největší propad za rok ${fmt(row.maxDrawdown)}.`;
+    }
+
+    function renderRanking() {
+      const root = document.getElementById("rankBody");
+      root.replaceChildren();
+
+      const rows = allStocks.map(computeStats).filter(Boolean);
+
+      if (rows.length === 0) {
+        root.append(makeElement("div", "empty",
+          "Data pro přehled zatím nejsou k dispozici. Spusť aktualizaci dat a obnov stránku."));
+        return;
+      }
+
+      const byReturn = rows.filter(row => row.r3m !== null).sort((a, b) => b.r3m - a.r3m);
+
+      const addCards = (title, list) => {
+        root.append(makeElement("h3", "rank-h", title));
+        const grid = makeElement("div", "rank-grid");
+
+        for (const row of list) {
+          const card = makeElement("article", `card ${row.r3m >= 0 ? "up" : "down"}`);
+          card.tabIndex = 0;
+          card.addEventListener("click", () => openChart(row.stock));
+          card.addEventListener("keydown", event => {
+            if (event.key === "Enter" || event.key === " ") {
+              event.preventDefault();
+              openChart(row.stock);
+            }
+          });
+          card.append(
+            makeElement("div", "company", row.stock.name || row.stock.symbol),
+            makeElement("div", "ticker", row.stock.symbol || ""),
+            makeElement("div", `rank-ret ${tone(row.r3m)}`, `${fmt(row.r3m, true)} za 3 měsíce`),
+            makeElement("div", "rank-why", describe(row))
+          );
+          grid.append(card);
+        }
+        root.append(grid);
+      };
+
+      addCards("Nejsilnější vývoj za 3 měsíce", byReturn.slice(0, 3));
+      addCards("Nejslabší vývoj za 3 měsíce", byReturn.slice(-3).reverse());
+
+      root.append(makeElement("h3", "rank-h", "Všechny akcie"));
+
+      const columns = [
+        ["name", "Firma", "Název firmy"],
+        ["r1m", "1M", "Změna ceny za 1 měsíc"],
+        ["r3m", "3M", "Změna ceny za 3 měsíce"],
+        ["r1y", "1R", "Změna ceny za 1 rok"],
+        ["vol", "Kolísavost", "Roční kolísavost denních změn: čím vyšší, tím víc cena skáče"],
+        ["fromHigh", "Od maxima", "Vzdálenost od nejvyšší ceny za poslední rok"]
+      ];
+
+      const { key, dir } = rankSort;
+      const sorted = [...rows].sort((a, b) => {
+        const va = key === "name" ? a.stock.name : a[key];
+        const vb = key === "name" ? b.stock.name : b[key];
+        if (va === null) return 1;
+        if (vb === null) return -1;
+        return key === "name" ? dir * String(va).localeCompare(String(vb), "cs") : dir * (va - vb);
+      });
+
+      const table = makeElement("table", "rank");
+      const headRow = document.createElement("tr");
+
+      for (const [columnKey, label, hint] of columns) {
+        const th = makeElement("th", columnKey === key ? "sorted" : "",
+          columnKey === key ? `${label} ${dir === 1 ? "▲" : "▼"}` : label);
+        th.title = hint;
+        th.addEventListener("click", () => {
+          rankSort = {
+            key: columnKey,
+            dir: columnKey === key ? -dir : (columnKey === "name" ? 1 : -1)
+          };
+          renderRanking();
+        });
+        headRow.append(th);
+      }
+
+      const thead = document.createElement("thead");
+      thead.append(headRow);
+
+      const tbody = document.createElement("tbody");
+      for (const row of sorted) {
+        const tr = document.createElement("tr");
+        tr.addEventListener("click", () => openChart(row.stock));
+
+        tr.append(
+          makeElement("td", "", row.stock.name || row.stock.symbol),
+          makeElement("td", tone(row.r1m), fmt(row.r1m, true)),
+          makeElement("td", tone(row.r3m), fmt(row.r3m, true)),
+          makeElement("td", tone(row.r1y), fmt(row.r1y, true)),
+          makeElement("td", "", fmt(row.vol)),
+          makeElement("td", "", fmt(row.fromHigh))
+        );
+        tbody.append(tr);
+      }
+
+      table.append(thead, tbody);
+      const wrap = makeElement("div", "table-wrap");
+      wrap.append(table);
+      root.append(wrap);
     }
 
     // ---- Graf akcie (kliknutí na kartu) ----
@@ -783,7 +990,7 @@
           tab.classList.toggle("active", tab === button);
         });
 
-        for (const id of ["stocksPanel", "newsPanel"]) {
+        for (const id of ["stocksPanel", "newsPanel", "rankPanel"]) {
           document.getElementById(id).classList.toggle("hidden", id !== button.dataset.tab);
         }
       });
