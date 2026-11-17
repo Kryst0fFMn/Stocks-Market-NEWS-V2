@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T12:03:34.220531+00:00",
+  "updated_at": "2026-11-17T13:29:32.806396+00:00",
   "stocks": [
     {
       "name": "Microsoft",
@@ -38,32 +38,32 @@
       "symbol": "HSBA.L",
       "market": "Velká Británie",
       "currency": "GBp",
-      "price": 1339.8,
-      "change": -0.53
+      "price": 1334.8,
+      "change": -0.91
     },
     {
       "name": "AstraZeneca",
       "symbol": "AZN.L",
       "market": "Velká Británie",
       "currency": "GBp",
-      "price": 13860.0,
-      "change": -1.24
+      "price": 13800.0,
+      "change": -1.67
     },
     {
       "name": "SAP",
       "symbol": "SAP.DE",
       "market": "Německo",
       "currency": "EUR",
-      "price": 208.5,
-      "change": -2.3
+      "price": 207.025,
+      "change": -2.99
     },
     {
       "name": "Siemens",
       "symbol": "SIE.DE",
       "market": "Německo",
       "currency": "EUR",
-      "price": 273.65,
-      "change": 0.4
+      "price": 274.05,
+      "change": 0.55
     },
     {
       "name": "Toyota",
@@ -118,42 +118,162 @@
       "symbol": "NESN.SW",
       "market": "Švýcarsko",
       "currency": "CHF",
-      "price": 87.46,
-      "change": -0.75
+      "price": 87.14,
+      "change": -1.11
     },
     {
       "name": "L'Oréal",
       "symbol": "OR.PA",
       "market": "Francie",
       "currency": "EUR",
-      "price": 449.0,
-      "change": -0.26
+      "price": 447.35,
+      "change": -0.62
     },
     {
       "name": "ASML",
       "symbol": "ASML.AS",
       "market": "Nizozemsko",
       "currency": "EUR",
-      "price": 1286.2,
-      "change": -1.56
+      "price": 1289.0,
+      "change": -1.35
     },
     {
       "name": "Petrobras",
       "symbol": "PETR4.SA",
       "market": "Brazílie",
       "currency": "BRL",
-      "price": 44.02,
-      "change": -2.83
+      "price": 44.37,
+      "change": 0.8
     }
   ],
   "news": [
     {
+      "company": "Microsoft",
+      "title": "Microsoft Is Making Voluntary Exit Offers to Engineers for the First Time",
+      "url": "https://247wallst.com/investing/2026/11/17/microsoft-is-making-voluntary-exit-offers-to-engineers-for-the-first-time/",
+      "time": "17.11.2026 14:13",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "24/7 Wall St."
+    },
+    {
       "company": "Amazon",
-      "title": "SpaceX just caught a spaceship out of the sky",
-      "url": "https://finance.yahoo.com/video/spacex-just-caught-spaceship-sky-120000437.html",
-      "time": "17.11.2026 13:00",
+      "title": "Jeff Bezos Donates $198.9 Million In Amazon Shares, SEC Filing Shows",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZEs5ZjNHQVVnQlo0WEYtQTJiT2RaQkkxenM0SWJ3M2Jvc3l0SlBPOWVuY01ZblY1b0NBNzhJdU5ZR0NhWkVQSkpNVE5pb0V5WGlkTHhpSlVFNXgzSHFrV0I1YXVsMDl1U2kwd0RabWFIZTVEZ0l5RDVSN2w3Wkp5NU9UdVNEVGpkNGx5ZEZXRS1Fdm9CbFBuYzg5TmNNamVKQjdvYmlFR3l3bEQ3UGltZmVLdWZDZTJxQWcybg?oc=5",
+      "time": "17.11.2026 14:11",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "Forbes"
+    },
+    {
+      "company": "Microsoft",
+      "title": "Sam Altman Says It’s “Hard to Imagine the AI Revolution Without Jensen”",
+      "url": "https://247wallst.com/investing/2026/11/17/sam-altman-says-its-hard-to-imagine-the-ai-revolution-without-jensen/",
+      "time": "17.11.2026 14:07",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "24/7 Wall St."
+    },
+    {
+      "company": "Sony",
+      "title": "Sony defeats £2 billion UK claim over PlayStation Store pricing",
+      "url": "https://uk.news.yahoo.com/sony-defeats-2-billion-uk-125646144.html",
+      "time": "17.11.2026 14:06",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "Reuters"
+    },
+    {
+      "company": "Amazon",
+      "title": "Coherent, Lumentum jump as US presses ahead with China equipment curbs",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/coherent-lumentum-jump-us-presses-130132183.html",
+      "time": "17.11.2026 14:01",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "Investing.com"
+    },
+    {
+      "company": "Toyota",
+      "title": "View Exterior Photos of the 2028 Toyota Scion Kei-01",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOV3pPbUxDR1lSelNJWmlFZzVYTUYyTVEwS0I3QjZTbUt3T19sRThZQnpXU1ZNNTU2c2tNZU9WYjZ3R0hBOEpXTVZDazBKU3p5dW51eXJRaUVKcThHb3JmR0FpcWU3ODdWV3Y5VXRkQ2kzdjRWYVQ3NlNQMTJ5RFRaZ094QXhqVGQzeWVhMVpJaENTVDJXMFRTRllB?oc=5",
+      "time": "17.11.2026 14:01",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "Car and Driver"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Why Jensen Huang's absence from Nvidia is 'horrible' for neoclouds",
+      "url": "https://finance.yahoo.com/video/why-jensen-huangs-absence-nvidia-130000738.html",
+      "time": "17.11.2026 14:00",
       "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
       "source": "Yahoo Finance Video"
+    },
+    {
+      "company": "Toyota",
+      "title": "Driving The Scion By Toyota KEI-01 Will Make You Giggle And Jiggle In Places You Didn't Know Could Jiggle",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQUkZ2TWhLd1N6ZkpXdnlMWDJrOVcwd0lvejcxczNKNHk3eXEwTnFUOXY2YzVQbmlpRTkta1FFRXpramxvQXNxLXdYNXZFTVh3RjNVQlhSVHYtQ09uS0RucWloOGNIM0hkUmYzdllhSGF5X0VoMzF0dGhqOTlkcHpNWFVvWDVvRjRqakZ6RXZB?oc=5",
+      "time": "17.11.2026 14:00",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "Jalopnik"
+    },
+    {
+      "company": "HSBC",
+      "title": "Could Citigroup Actually Climb 30%? Or Is HSBC Totally Wrong?",
+      "url": "https://www.tikr.com/blog/could-citigroup-actually-climb-30-or-is-hsbc-totally-wrong?ref=yahoofinance&tlnk=yf-261117-r96ffwc2",
+      "time": "17.11.2026 13:46",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "TIKR"
+    },
+    {
+      "company": "BHP",
+      "title": "Two tigers, one incredible morning: Our Tadoba safari at Kolara",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQQXNoV3ZFTVBpRm1mQ3pGU1ZqaWk4SG45TnBIX243Ul94ckdOSi11c0VYa2xtMFVONHc1TzExVGZfblBSWEY4V0F5d3g2Wkp3dmlMVGFNYmUyZ3dSdk1DTFc1d0RMY2VPUzVJeExtNmZmV1A2UHVTOC1jMGVvV1RTNnZWLTJMVWJCM2p0NHB3ZnQ2d9IBlwFBVV95cUxPeTdreDA5M1FZelczTXFzeEtNaVNMeFExc0laa0lDRm9zNjNaVDcwbmlrOHBNTF84QmdTX3dsWlZLWkdVUU9lUmtfZGVPdlFBYXYtVnVqN3pnNnhMMldfc1p1OE13VjNFQTV5NVR2LWVTNEJhWDY0SXR2QW1YUXgwUE5TN1A2TWcyS1MyUW1WZG5rZk1jTWpj?oc=5",
+      "time": "17.11.2026 13:30",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "Team-BHP"
+    },
+    {
+      "company": "SAP",
+      "title": "GxP Compliance in Life Sciences Is Non-Negotiable: SAP Is Raising the Standard",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNOXRnb2NlVTlHZjUzbjM0N2xPbVdYc2RwdFpHNEFGYmlmUjF1UmFFYVlYeFpiM2RBRVNZelhKNFZaWTJCYU1jekFJeVdEbTkzVmtpZXAzNXRqeXFxQlg5TDJHd1JjYjYtb0N0aU9pZWlidWQwYVZ4bjVTTHpwdTBCYXhIaDZYQQ?oc=5",
+      "time": "17.11.2026 13:20",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "SAP News Center"
+    },
+    {
+      "company": "Tencent",
+      "title": "Tencent Holdings (SEHK:700) Dropped, So What Is Driving Attention Now?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/tencent-holdings-sehk-700-dropped-121608688.html",
+      "time": "17.11.2026 13:16",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "Simply Wall St."
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Nvidia’s Finance Chief Kress to Lead First Earnings Call Following Huang’s Ouster",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOYWNSeEVqX0dfVEF1QnBYdks5Tk92TU9mWEdlYkZ1a285YnBfOThIeGkybjZSTG9oSkJIYUE5WFgwYlZtdzBuVUQwQzJZTm1fcEtCeFBWd242RkVIVThYaVFaSm5sV1ppZlBWdGdtUkVNRXRUZ1dCWVpBd2hzMlhISWhyNms4R1BSUzM4S282SG5NT2J3VExlWjVtb015ZUd1UEpoQVh3US1oZGotRlQ0LWJrZUItbmtiWjlEcg?oc=5",
+      "time": "17.11.2026 13:15",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "WSJ"
+    },
+    {
+      "company": "BHP",
+      "title": "BHP, Rio Tinto Chiefs to Meet Li Qiang as China's Iron Ore Buying Bloc Pressures Australian Miners",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9zLVYxUGxteGdYZDRFbktlNEpjNjNqa184Xy1jWGhtSDJwdkxsLW9FZVZBLXdnSmkzVGNyN01FMVFmUUMwc3Y4LTBFN0JxQWV1cXlZT1ktd1pJdV9PZGdWZ3gxTV80NE44R1ZybkxQbDdDcTBDc3c?oc=5",
+      "time": "17.11.2026 13:05",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "BigGo Finance"
+    },
+    {
+      "company": "Siemens",
+      "title": "Siemens Combines Industrial AI and Additive Manufacturing for Adaptive Production",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNQVI3MEZadWlfUVZJY0huS1RPTWNRSXFaVTllckJIWkNMYUp6YlpSekEzQTE4MTZSUEJYaTBBS2lsUExCLTJxdWdMVHMwWmFMQWxPRFNacWF3alVVT0VpS0x6QVJtYU1Kbmt0bFhrMW44eUVYR2liblAxNVNNeUlueEhySC1PSlZBSlBfeHN0dDVxSWE2NkVaUVJQZHdpcXhPVE4w?oc=5",
+      "time": "17.11.2026 13:00",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "ARC Advisory Group"
+    },
+    {
+      "company": "Shopify",
+      "title": "Fullestop Launches Personalization Platform for Shopify, Giving Merchants an Edge using Agentic AI Shopping Agents",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPazRrNmdGeDdhQy00MjNaTTVJRjZpLTVrdlhjNWwzaFBZSFp1VXFTcXctWmEyc2pZNWJKNHpoRUpzN2Q1ZDV5RGNhYWw5T29EV0xjYzE2QTY4VWhmM0Voemo5RE5UN20ybF80LVdvT05oMDBjamhKQjNNZTd3MkZfQ2R6TnVDUVFqamdRa3BMWi01eERUcF96SlhGVjJLc2htOGVCRHBtY2FZR05aT0RyQXJfSFZNSXBSYzdyZmNaSjRqSFZIQWJnYzdpYXNsR0FCaXR0amlFQXdVRkM4TFpzaDRZZ1FEMExackVxMEJudkZPeFNtbHc?oc=5",
+      "time": "17.11.2026 12:55",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "The Journal News | lohud.com"
     },
     {
       "company": "ASML",
@@ -172,18 +292,34 @@
       "source": "Simply Wall St"
     },
     {
-      "company": "Shopify",
-      "title": "Fullestop Launches Personalization Platform for Shopify, Giving Merchants an Edge using Agentic AI Shopping Agents",
-      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQSjlHN0Z4Tm54Z05admlqVlVaNW93NzlfbzRxYVNNbGlUN25IUFluaWR3cGJNYy1jMGJJZVdFa0dDdWw1WW1GbjhCVWwtdXVjeE9uWUY2Mld3SlNBWGpWcjhjVXpXNDIwMnowdWNYVnF1RUpqN2xob2RCYTJkaGhqNjNacFV5T3EzNV8zeVF6UC12dU5HTTExZm1tamZVaVBDTFdlcDBRUUEtZFI5ZjdTT053WTA0N2ROWnVwZzExNDV3c0lDRW84M3pqdXQ4eUZmRHFFTTlPMDlGTEZXNEU3eTZxTzJ1c3V5NUlvUVVMM2dmZ3ZOVUFZN1gxUmc5dw?oc=5",
-      "time": "17.11.2026 12:27",
+      "company": "Amazon",
+      "title": "EXCLUSIVE: Trump's China data center curb advances despite Amazon, Google, Meta lobbying",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPamZVTFBIMlk1aHp5ZUZ3ME56bnZlV3NPODhQY3JKcnI2dUtIT0FqSHFveTRSem1Rby14eXY4dnhCci1WWmNJdEZnTnNnOUJldUROSXFWc1I5SmExVXZ2dWlhMWhQSkpqTFJIN1R2aTJsX2tJQ1l6cnhRY2JWdTNpVjNKZFhuelREd1A1S29BYUhDRHlTNWxncUJ3aHFobUU1NFZNTVlkbkxLUWExUFVjWHpOSHo3aE0?oc=5",
+      "time": "17.11.2026 12:43",
       "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "The Detroit News"
+      "source": "Reuters"
+    },
+    {
+      "company": "SAP",
+      "title": "SAP Executive Saueressig Quits to Become Ionos CEO",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQY3pnUGhrakczaVVjTXI3SFpCZE9VazEwenp2LW93MVJSUFI2ZHJja0l6MXNfYzlBU1ZTSklJVlNHYjNleHhMRWg2dklneVBTcEFPVEpOY2F5cXNkT1p4UVpmbUtVUks5S2NDbE9PU05uM2d5cEE1am0xVVFmcDhMUXlLbklOc0pmTjMxRkJObXROdkllUDVfRGZlMG8ySFVfZVNTZ0tQam5tWmExajk0eUI1M2k?oc=5",
+      "time": "17.11.2026 12:31",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "Bloomberg.com"
     },
     {
       "company": "Microsoft",
-      "title": "Exclusive-Trump's China data center curb advances despite Amazon, Google, Meta lobbying",
-      "url": "https://finance.yahoo.com/technology/articles/exclusive-trumps-china-data-center-110205689.html",
-      "time": "17.11.2026 12:18",
+      "title": "Microsoft Service Restored After Widespread Outage, Company Says",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9SZmZCcS1rWDBlU1EtNTRYbFY4TE00cEVObWk3ak9jcnNsaWtabW83MjNuemxSUk1WWXZ5Q2VubUtCZ2Y5YnZkN2dNR3htVEhHUkpPbjNuczc0VmpDb1dIZ0Z3TVFaTW43Z1hrc00tTWFQQ0M5cFd4SUd6TG1ldw?oc=5",
+      "time": "17.11.2026 12:27",
+      "impact": "Možný negativní signál; ověř zprávu u původního zdroje.",
+      "source": "WSJ"
+    },
+    {
+      "company": "Reliance Industries",
+      "title": "India's Reliance plans to invest about $1.6 billion to build new biogas plants",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNb2FrNmJ5WUlQSmFac1NHXzYzWHhPYXg1LUpMLUpjY3VLLUtJWnhiUmdZSE91cmlqeUtfSFJZVXROZGRWYk91RWtrQXdNUG95V1FrSThFaEE0WHc0WVRidkFBLXhOcHVCc0UzYjlqYWZfdmprdkJobzJWYUpCUGp2a0JrQXZ3dVI0Q2pmeFA1ZndFM1JKSVpna1FQNmlhbktXanFibVhDRXZSeFRzUk5vUUV2ejJwZU8tR3BIQjln?oc=5",
+      "time": "17.11.2026 12:21",
       "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
       "source": "Reuters"
     },
@@ -202,142 +338,6 @@
       "time": "17.11.2026 12:13",
       "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
       "source": "Simply Wall St."
-    },
-    {
-      "company": "Apple",
-      "title": "Apple Tightens macOS App Permissions to Limit Data Access Amid AI Agent Security Risks",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRUNYMngtOTB5YXQ0SWdaT3lkMUtDSjVTTFkzdjlwcFBfbkFfREptaHJfeG85Z1hhaTYzLUVEUExiVVdRaEFHa20xWTFnRmFRZzVqVG9vVlVWaHVmSHQtSjh5SG1JNnNZSnJnWTBXUjM2OEkxSVFCREFCZExHTXJzNmNYci0?oc=5",
-      "time": "17.11.2026 12:07",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "The Hacker News"
-    },
-    {
-      "company": "Microsoft",
-      "title": "iShares Core Dividend Growth (DGRO) Buys $4.2 Million More Apple on Nov. 13",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/ishares-core-dividend-growth-dgro-110451386.html",
-      "time": "17.11.2026 12:04",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "GuruFocus.com"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "Nvidia is being pulled in opposite directions by 2 powerful forces",
-      "url": "https://finance.yahoo.com/technology/article/nvidia-is-being-pulled-in-opposite-directions-by-2-powerful-forces-110000361.html",
-      "time": "17.11.2026 12:00",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "Yahoo Finance"
-    },
-    {
-      "company": "Tencent",
-      "title": "Blackpink’s Jisoo Gets Early Release Window on Tencent Music as Revenue Rises 5.6% to $1.3 Billion",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxONDBhUUdqZVVBbUJST09kQUJXd0VDMEdmNG1LYzZfX2ppUlp4aVZrQVpqVHdQQk1WTHFSN2c0X3lUTGp6TkxSTERaNlAyQllrc1JvN1RON1RoQlNKNFRrX21tUV81cWlIdWItRDFCbnZ4MVV2VEp2cUEyaUhPaGtxOVFSZ3V2VzdZRGh3OFVGTWpfV3NaNWxZRERxcDViVTNrV0pz?oc=5",
-      "time": "17.11.2026 12:00",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "Variety"
-    },
-    {
-      "company": "Sony",
-      "title": "Sony's PS-LX3BT turntable is at its best price ahead of Black Friday",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNE9HZ2NtblpXLVZyeDdUTmduN2c0a3B3SVoyZkw4TlluS0xmZW5YUjFFZEY3VkxHUHlWWm1jSTJiZzl2bnFFZEE1YVRFbXlXZGRLR1BRSzdZWXdSeW5ldm0zNDRBSTVqRG5DOXRuLWRmMUlQWG1hU3pFRjV1NWRxRkxBQW5jWXROMGp3eTUyOWY4OFVk?oc=5",
-      "time": "17.11.2026 11:56",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "Mashable"
-    },
-    {
-      "company": "Petrobras",
-      "title": "Paratus Energy Services Ltd. (PLSV) JV Wins Petrobras Contract Adding Approx. $410M to Backlog",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOV19HdkUxSktZZ2dsdkZCOG1hNXF5U1hsWUxwS19tNzk1SUNtUFBoSEk0WG10bGdKenFCZy1TREVQSktDV0x0SHdnMkpReUV6cVFWbHZtczlEVW84b1F5X3RGdGROaGU0SU4zV1ZMUVBZTWE1cGpVQ0N1b0ptTVBSTmZRdzd3YnBXaFJLSllyWE5RUFpSTFRRZUgtbkk1eTcteFhTV2NyNWstSldjWk5qY3hMQzJtN1lLUVVlX2NUcThFckZRQ0M4akROOFVUa3N6dTMteDA4ZVNqV0FTN2o0bkpBb3VGZw?oc=5",
-      "time": "17.11.2026 11:30",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "TradingView"
-    },
-    {
-      "company": "ASML",
-      "title": "European stocks slip as AI jitters pressure tech, Deutsche Bank slides",
-      "url": "https://finance.yahoo.com/technology/ai/articles/european-shares-ease-tech-stocks-081814187.html",
-      "time": "17.11.2026 11:29",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "Reuters"
-    },
-    {
-      "company": "HSBC",
-      "title": "Hackers plant crypto-stealing code on 178 major websites, including HSBC and Ledger",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNWEpvVG5hSUpEMTVCTHdMTEpPT3JPMkNrX0ZLMUxqdE5FbGJKRzRnNnJXTWhjbjUySkgtaE94NnVVUURsZWJjZDdYVlZ4VXBlUlc0MGdEQTFsSHZBRE5nNFZWRWtMVkZ6T2IwRmdLX2MzODZFa2N1UzJxRTd5OTI5VHhBRFdPbkxtM191MG1ibU1WcmFZQkV6T05IbFF4NHdmSUFNT3huOXIxdldkbTUwNHRza1B2dWtxLWhISFdLeG9Mb3pfaEtSVXcwWDNpNkk?oc=5",
-      "time": "17.11.2026 11:22",
-      "impact": "Možný negativní signál; ověř zprávu u původního zdroje.",
-      "source": "CoinDesk"
-    },
-    {
-      "company": "Siemens",
-      "title": "Siemens Healthineers and Sana Kliniken collaborate on AI solutions for healthcare",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE41Zy0ybHFldUhpZzQ4YlFXSThYRURyN201QTgtOEoxdldYX0JvTEl6OTNEcWtUUF9HNVRqd0FXLXZkZ3hfR21mNkI4S0JhT0VFNXgwRkZGSVZnR0o3Wno3Wk9ERWRVeDg?oc=5",
-      "time": "17.11.2026 11:13",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "Siemens Healthineers"
-    },
-    {
-      "company": "AstraZeneca",
-      "title": "Cellectis plans 70% workforce cuts; Sanofi signs $1.2B DNA medicines deal; AstraZeneca buys Omniose",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxORmhOYks3Tk9iZERqb2RKbm90R0Y5elVwTWZ3MUdwd1QwVTZ2My00M2p1c0xiTVJhTUdnUmVUSlJ3QXQ2NTQ3X2d6c0pzX1ZTeWxiM2toczZPbFRBQ0d1SUhUTUJVNVI2czN4RE5zeDVEN1pDTTlYdmEwQmJfQkpZOVN4RjEySXFabmJJNXIzS2RyYjNYcUIwZlJ6SFNvWnBoRjhvd3NudjBlSVdxZTFXRy1BNVNNYmlwNENRaGFHRU9BRHg2RUVwdTFoVlBnMEpDRUtWbVZCVy1sVjg?oc=5",
-      "time": "17.11.2026 11:02",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "European Biotechnology Magazine"
-    },
-    {
-      "company": "Toyota",
-      "title": "Toyota brings Scion back to the U.S. in the form of this adorable tiny truck",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPOXNhbjZkNjEtTEUweGMtUWJRZXZpdU83LTZvU1NYYWpJU29xSlB6Vi1zS3E1eUY2bmhNNC1BMnVjTzhnZXlGWDd1UldiMVhJdktqdUJES0l4bGVaeE1yUjdZZF9naUJoYUxraU1ZRjFVNHNldGhudXpjQ0FiTlQyeDdiTDFUMHZzT1oySUdMVEZYRlVlTGFRQmpEU2hwMVZ0aTJ5aXo5N015OEpWX2dzRmNXaVNjUnZMLVE?oc=5",
-      "time": "17.11.2026 11:02",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "MarketWatch"
-    },
-    {
-      "company": "Reliance Industries",
-      "title": "India's Reliance plans to invest about $1.6 billion to build new biogas plants",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNb2FrNmJ5WUlQSmFac1NHXzYzWHhPYXg1LUpMLUpjY3VLLUtJWnhiUmdZSE91cmlqeUtfSFJZVXROZGRWYk91RWtrQXdNUG95V1FrSThFaEE0WHc0WVRidkFBLXhOcHVCc0UzYjlqYWZfdmprdkJobzJWYUpCUGp2a0JrQXZ3dVI0Q2pmeFA1ZndFM1JKSVpna1FQNmlhbktXanFibVhDRXZSeFRzUk5vUUV2ejJwZU8tR3BIQjln?oc=5",
-      "time": "17.11.2026 11:01",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "Reuters"
-    },
-    {
-      "company": "BHP",
-      "title": "Life with my Ducati Hypermotard 950 RVE: 4,999 km update",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNTjdGZ1RlTlkxLTEtYnFWS2JGXy1NSk14b0VaTnlwR1RsTEE3bzFBOUs0Wnl0WG00dFY3VkU5RWs1RkZmTmR3M3JzOFJfcy12Q0hJemdSMElNQVhfU19JUUp5dDhsSXFYaXppLTBnU0hNYll0RlY3N09MQm1tQ2dicGFZWXZ5d9IBiwFBVV95cUxQWTRTNUt0bFh0OTk3UTU5NW9mTzJDeVl4Rl9YZ3dXQUhpdURtN01xZ18xbUJVUGo5U3NmSndiS3cyVFVsa281akZwNEZsSFJuYUpQWGEyQk1jTl9zYmhGZXI4TEdHbGN3c0Vvbm1DV181TVE3YUNFbWo1b3QwYmMtaUhjNFl1M2hYcFY4?oc=5",
-      "time": "17.11.2026 11:00",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "Team-BHP"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "Should Nvidia bring Jensen Huang back, as Silicon Valley's elite are demanding?",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNNEx2YXZCZ2tkQTQ1b09lV0dXMWdFYjFuc2ktakVJUDJWVWh3LVZEdlgzLU16eWpVenJ1QUI5VFFIRjVOYnEwS2pxamowZUhYTmdBcUp2VklWNWdRZVJUQ0N0TnRSRFQ3cjFxOC1UeUsxdjVzRlYwWGpnOUZjSVQxRnQ5d0FPeWREWWhnSl9fM2JONDBQRnlpY3FaaWNTTjVRSTYyWGNOUmt3VUw0OXFqaGNISmp1a2c4aDQ5SFdYMlhRcXlfNkphQTZQOUQ4aDVickE?oc=5",
-      "time": "17.11.2026 10:59",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "Yahoo Finance"
-    },
-    {
-      "company": "Amazon",
-      "title": "Creators, the 32-key Stream Deck XL just got an Early Black Friday Deal at Amazon",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWmpabldRV3NTMWNscVE4Q2wwa0hJYXczMkxmM1hLQXhxRTdKbzBLY0haLXBZTVl3VEFvWWszLXlhQ3NlVDh2eW8xU1Bxd0Z1dzNaOHd3Qy1ha3hKMk1sVTNzeHdoSG85eFNWM3dzWldIbk1pcjV5Mm5sNG80ejJBWjNNcFY0UDZtRlRWYWcwZ0lqT2hmZ1J4VHg1TjNTcFhISnlBdkFvYWFfXzcwcjJKcw?oc=5",
-      "time": "17.11.2026 10:44",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "PC Guide"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "Nvidia shares down slightly after days of decline ahead of earnings",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQUDhQMU5rWGhWemtOTG9CLWY2Q0tCWVVJejRxYU50bXo0U3N5cFE1R0JkQWpPN3RvakZtOERpVk5WSmJIbVlfaVlfTGdZY001TWRqV1ZaTk5yME5TdVQyek81TXVza2REZFNfRnJ5LW9rUmNRT21wNy1FVEZBdUlZaGdINXVqdlkzSzlz0gGQAUFVX3lxTE1hOFNxWkE1WDFjYTgzQVNPNE9MUEIwSmwxazl1QXlpaEo5SGlfSUVJdFJFWjZ4eGF6cXVVQkhoRU5pTmpJVF9jMFJEYjVabW9BMU5Fc0lpNGVXbURhVU4zLTlVQ1E4S0ZRX3hubnRDN0l3QThkS3NienJxZm9oT1BYMUk3M25wZ3lNbDZaY1RTSg?oc=5",
-      "time": "17.11.2026 10:18",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "CNBC"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "Stock market today: Dow, S&P 500 futures slip, and Nasdaq futures slip in countdown to Nvidia earnings",
-      "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-17-dow-sp-500-nasdaq-nvidia-earnings-091546152.html",
-      "time": "17.11.2026 10:15",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "Yahoo Finance"
     }
   ]
 }
