@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-11-17T16:22:43.257465+00:00",
+  "updated_at": "2026-11-17T16:34:36.191537+00:00",
   "stocks": [
     {
       "name": "Microsoft",
       "symbol": "MSFT",
       "market": "USA",
       "currency": "USD",
-      "price": 499.885,
-      "change": -3.5,
+      "price": 499.585,
+      "change": -3.55,
       "history": [
         ["2025-11-17", 507.49],
         ["2025-11-18", 493.79],
@@ -260,7 +260,7 @@
         ["2026-11-12", 523.0],
         ["2026-11-13", 523.88],
         ["2026-11-16", 517.99],
-        ["2026-11-17", 499.89]
+        ["2026-11-17", 499.58]
       ]
     },
     {
@@ -268,8 +268,8 @@
       "symbol": "NVDA",
       "market": "USA",
       "currency": "USD",
-      "price": 155.285,
-      "change": -0.55,
+      "price": 153.63,
+      "change": -1.61,
       "history": [
         ["2025-11-17", 186.6],
         ["2025-11-18", 181.36],
@@ -522,7 +522,7 @@
         ["2026-11-12", 166.19],
         ["2026-11-13", 162.85],
         ["2026-11-16", 156.14],
-        ["2026-11-17", 155.29]
+        ["2026-11-17", 153.63]
       ]
     },
     {
@@ -530,8 +530,8 @@
       "symbol": "AAPL",
       "market": "USA",
       "currency": "USD",
-      "price": 352.29,
-      "change": -0.14,
+      "price": 352.18,
+      "change": -0.17,
       "history": [
         ["2025-11-17", 267.46],
         ["2025-11-18", 267.44],
@@ -784,7 +784,7 @@
         ["2026-11-12", 354.88],
         ["2026-11-13", 356.27],
         ["2026-11-16", 352.78],
-        ["2026-11-17", 352.29]
+        ["2026-11-17", 352.18]
       ]
     },
     {
@@ -792,8 +792,8 @@
       "symbol": "AMZN",
       "market": "USA",
       "currency": "USD",
-      "price": 255.41,
-      "change": -0.91,
+      "price": 254.92,
+      "change": -1.1,
       "history": [
         ["2025-11-17", 232.87],
         ["2025-11-18", 222.55],
@@ -1046,7 +1046,7 @@
         ["2026-11-12", 267.44],
         ["2026-11-13", 266.66],
         ["2026-11-16", 257.75],
-        ["2026-11-17", 255.41]
+        ["2026-11-17", 254.92]
       ]
     },
     {
@@ -1054,8 +1054,8 @@
       "symbol": "HSBA.L",
       "market": "Velká Británie",
       "currency": "GBp",
-      "price": 1321.6,
-      "change": -1.89,
+      "price": 1322.4,
+      "change": -1.83,
       "history": [
         ["2025-11-17", 1093.4],
         ["2025-11-18", 1056.0],
@@ -1309,7 +1309,7 @@
         ["2026-11-12", 1354.0],
         ["2026-11-13", 1354.4],
         ["2026-11-16", 1347.0],
-        ["2026-11-17", 1321.6]
+        ["2026-11-17", 1322.4]
       ]
     },
     {
@@ -1317,8 +1317,8 @@
       "symbol": "AZN.L",
       "market": "Velká Británie",
       "currency": "GBp",
-      "price": 13776.0,
-      "change": -1.84,
+      "price": 13764.0,
+      "change": -1.92,
       "history": [
         ["2025-11-17", 13592.0],
         ["2025-11-18", 13566.0],
@@ -1573,7 +1573,7 @@
         ["2026-11-12", 13930.0],
         ["2026-11-13", 13982.0],
         ["2026-11-16", 14034.0],
-        ["2026-11-17", 13776.0]
+        ["2026-11-17", 13764.0]
       ]
     },
     {
@@ -1581,8 +1581,8 @@
       "symbol": "SAP.DE",
       "market": "Německo",
       "currency": "EUR",
-      "price": 202.15,
-      "change": -5.27,
+      "price": 201.5,
+      "change": -5.58,
       "history": [
         ["2025-11-17", 207.0],
         ["2025-11-18", 205.35],
@@ -1837,7 +1837,7 @@
         ["2026-11-12", 212.55],
         ["2026-11-13", 213.45],
         ["2026-11-16", 213.4],
-        ["2026-11-17", 202.15]
+        ["2026-11-17", 201.5]
       ]
     },
     {
@@ -1845,8 +1845,8 @@
       "symbol": "SIE.DE",
       "market": "Německo",
       "currency": "EUR",
-      "price": 270.5,
-      "change": -0.75,
+      "price": 270.0,
+      "change": -0.94,
       "history": [
         ["2025-11-17", 223.0],
         ["2025-11-18", 218.15],
@@ -2101,7 +2101,7 @@
         ["2026-11-12", 281.7],
         ["2026-11-13", 279.4],
         ["2026-11-16", 272.55],
-        ["2026-11-17", 270.5]
+        ["2026-11-17", 270.0]
       ]
     },
     {
@@ -2869,8 +2869,8 @@
       "symbol": "SHOP.TO",
       "market": "Kanada",
       "currency": "CAD",
-      "price": 202.57,
-      "change": -4.19,
+      "price": 202.75,
+      "change": -4.11,
       "history": [
         ["2025-11-17", 196.89],
         ["2025-11-18", 196.32],
@@ -3123,7 +3123,7 @@
         ["2026-11-12", 209.41],
         ["2026-11-13", 209.74],
         ["2026-11-16", 211.43],
-        ["2026-11-17", 202.57]
+        ["2026-11-17", 202.75]
       ]
     },
     {
@@ -3654,8 +3654,8 @@
       "symbol": "NESN.SW",
       "market": "Švýcarsko",
       "currency": "CHF",
-      "price": 86.71,
-      "change": -1.6,
+      "price": 86.66,
+      "change": -1.66,
       "history": [
         ["2025-11-17", 79.87],
         ["2025-11-18", 79.26],
@@ -3907,7 +3907,7 @@
         ["2026-11-12", 86.57],
         ["2026-11-13", 87.72],
         ["2026-11-16", 88.12],
-        ["2026-11-17", 86.71]
+        ["2026-11-17", 86.66]
       ]
     },
     {
@@ -3915,8 +3915,8 @@
       "symbol": "OR.PA",
       "market": "Francie",
       "currency": "EUR",
-      "price": 446.95,
-      "change": -0.71,
+      "price": 447.15,
+      "change": -0.67,
       "history": [
         ["2025-11-17", 354.55],
         ["2025-11-18", 351.75],
@@ -4173,7 +4173,7 @@
         ["2026-11-12", 446.85],
         ["2026-11-13", 451.2],
         ["2026-11-16", 450.15],
-        ["2026-11-17", 446.95]
+        ["2026-11-17", 447.15]
       ]
     },
     {
@@ -4181,8 +4181,8 @@
       "symbol": "ASML.AS",
       "market": "Nizozemsko",
       "currency": "EUR",
-      "price": 1247.0,
-      "change": -4.56,
+      "price": 1241.6,
+      "change": -4.97,
       "history": [
         ["2025-11-17", 876.4],
         ["2025-11-18", 865.6],
@@ -4439,7 +4439,7 @@
         ["2026-11-12", 1376.8],
         ["2026-11-13", 1338.8],
         ["2026-11-16", 1306.6],
-        ["2026-11-17", 1247.0]
+        ["2026-11-17", 1241.6]
       ]
     },
     {
@@ -4447,8 +4447,8 @@
       "symbol": "PETR4.SA",
       "market": "Brazílie",
       "currency": "BRL",
-      "price": 44.57,
-      "change": 1.25,
+      "price": 44.42,
+      "change": 0.91,
       "history": [
         ["2025-11-17", 32.88],
         ["2025-11-18", 32.99],
@@ -4697,11 +4697,51 @@
         ["2026-11-12", 44.7],
         ["2026-11-13", 45.3],
         ["2026-11-16", 44.02],
-        ["2026-11-17", 44.57]
+        ["2026-11-17", 44.42]
       ]
     }
   ],
   "news": [
+    {
+      "company": "NVIDIA",
+      "title": "Former Nvidia CEO Jensen Huang says he'd be 'honored' to return to the company",
+      "url": "https://finance.yahoo.com/technology/article/former-nvidia-ceo-jensen-huang-says-hed-be-honored-to-return-to-the-company-163107005.html",
+      "time": "17.11.2026 17:31",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "Yahoo Finance"
+    },
+    {
+      "company": "Amazon",
+      "title": "Prime members can get $20 off dinner with this limited-time Uber Eats deal — how to claim",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNVjI5RHYwOERuMWVXcGU5UDN3Q08waV9NaGxtbjY5NERSd19fRl9FQjh6NUJWVGlBWC1manUzbnVPSFBpaDRyYTlWR3VkTlBPaUU3b1U5VUdGMXhqeDE1aTNIVFN0eVJQbU9ZaWxJenlQSWx1NWttbHZFTWw2TnkwM3NhWDJHdw?oc=5",
+      "time": "17.11.2026 17:28",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "Mashable"
+    },
+    {
+      "company": "Microsoft",
+      "title": "What far cheaper AI compute in space could mean for Elon Musk",
+      "url": "https://finance.yahoo.com/video/what-far-cheaper-ai-compute-in-space-could-mean-for-elon-musk-162707073.html",
+      "time": "17.11.2026 17:27",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "Yahoo Finance Video"
+    },
+    {
+      "company": "AstraZeneca",
+      "title": "AZ defeats health plan lawsuit alleging Soliris antitrust maneuvers",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNWmZDbDVERGdtOEZ4bTRsWUNORjN6MnZXeGlzOXM0cXppT2V1bE4yY1BHQ1RsZEpySDNST2drcmxZQ25RTFJCUWxQZi1CZlZnOHdINGtLU0diTGtQOVB3cG5LZUN3SE1uRE1kRUlqcVFOdjNkcXctWmZmMzRWLVVBenZEczZUaWgyaTdsOWE5U1g1S1FUUHhrQlZKN2hhSVh5VjJ3V01HTQ?oc=5",
+      "time": "17.11.2026 17:25",
+      "impact": "Možný negativní signál; ověř zprávu u původního zdroje.",
+      "source": "Fierce Pharma"
+    },
+    {
+      "company": "Apple",
+      "title": "Nvidia's Huang signals willingness to return as CEO; board creates national security panel",
+      "url": "https://ca.finance.yahoo.com/news/nvidia-board-forms-committee-national-102208048.html",
+      "time": "17.11.2026 17:21",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "Reuters"
+    },
     {
       "company": "Sony",
       "title": "Sony beats UK gamers’ $2.6 billion PlayStation overcharging claim",
@@ -4711,28 +4751,20 @@
       "source": "Courthouse News Service"
     },
     {
-      "company": "Microsoft",
-      "title": "Microsoft Corporation (MSFT) Rose on Strong Fiscal Year-End Results and Robust Outlook",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-corporation-msft-rose-strong-160830177.html",
-      "time": "17.11.2026 17:08",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "Insider Monkey"
-    },
-    {
-      "company": "Amazon",
-      "title": "Exclusive-Trump's China data center curb advances despite Amazon, Google, Meta lobbying",
-      "url": "https://finance.yahoo.com/technology/articles/exclusive-trumps-china-data-center-110205689.html",
-      "time": "17.11.2026 17:06",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "Reuters"
-    },
-    {
       "company": "Sony",
       "title": "Sony defeats £2 billion UK claim over PlayStation Store pricing",
       "url": "https://uk.news.yahoo.com/sony-defeats-2-billion-uk-125646144.html",
-      "time": "17.11.2026 17:05",
+      "time": "17.11.2026 17:14",
       "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
       "source": "Reuters"
+    },
+    {
+      "company": "Amazon",
+      "title": "Why SpaceX's latest Starship test was a big deal",
+      "url": "https://finance.yahoo.com/video/why-spacexs-latest-starship-test-was-a-big-deal-161438578.html",
+      "time": "17.11.2026 17:14",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "Yahoo Finance Video"
     },
     {
       "company": "Apple",
@@ -4752,10 +4784,10 @@
     },
     {
       "company": "NVIDIA",
-      "title": "Former Nvidia CEO Jensen Huang issues first statement since leaving",
+      "title": "Former Nvidia CEO Jensen Huang says he’s open to returning in first statement since resignation",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE00X1l4ajFNU1dZYW1jQ2hLNFpqTnZDVlRKTUIwMDhLcTUxaHlOMW1ocmVmak9lMGVfVS1BODhITXZkR2YzYy1wOUM0eHp5OVY3TDBKRTdhZHpYWFFGTWhXNjBSX3RFOVpBMlkxVEE4VWVneHNV0gF6QVVfeXFMT3ltYllINzFFS0NrMm1xdTVYS2pRU0ZpWnNaS2UzREhaZW15aEh5dm5HOU13a0l4TWlDOEZaU0Q1ZFJ0VXZVSzFNb1JJWl9EMXkwQjJMMWdsbnV4U0RCU3ZBWmNkT0x4RmZyT21nU3ZDMlU0NzU4S0V4ckE?oc=5",
       "time": "17.11.2026 16:58",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "impact": "Možný negativní signál; ověř zprávu u původního zdroje.",
       "source": "CNBC"
     },
     {
@@ -4783,25 +4815,9 @@
       "source": "CryptoProwl"
     },
     {
-      "company": "Apple",
-      "title": "George Soros and 21 Other Big Funds Sold Apple Last Quarter, While 13 Bought. Who’s Right?",
-      "url": "https://www.tikr.com/blog/george-soros-and-21-other-big-funds-sold-apple-last-quarter-while-13-bought-whos-right?ref=yahoofinance&tlnk=yf-261117-m2jx4cr6",
-      "time": "17.11.2026 16:40",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "TIKR"
-    },
-    {
       "company": "NVIDIA",
       "title": "Why today's a pivotal test for the AI trade",
       "url": "https://finance.yahoo.com/video/why-todays-a-pivotal-test-for-the-ai-trade-153316364.html",
-      "time": "17.11.2026 16:33",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "Yahoo Finance Video"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "Nvidia's Colette Kress faces some serious pressure ahead of Q3 earnings",
-      "url": "https://finance.yahoo.com/video/nvidias-colette-kress-faces-some-serious-pressure-ahead-of-q3-earnings-153311066.html",
       "time": "17.11.2026 16:33",
       "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
       "source": "Yahoo Finance Video"
@@ -4877,22 +4893,6 @@
       "time": "17.11.2026 15:38",
       "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
       "source": "CryptoProwl"
-    },
-    {
-      "company": "Amazon",
-      "title": "Prime members can get $20 off dinner with this limited-time Uber Eats deal — how to claim",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNVjI5RHYwOERuMWVXcGU5UDN3Q08waV9NaGxtbjY5NERSd19fRl9FQjh6NUJWVGlBWC1manUzbnVPSFBpaDRyYTlWR3VkTlBPaUU3b1U5VUdGMXhqeDE1aTNIVFN0eVJQbU9ZaWxJenlQSWx1NWttbHZFTWw2TnkwM3NhWDJHdw?oc=5",
-      "time": "17.11.2026 15:33",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "Mashable"
-    },
-    {
-      "company": "HSBC",
-      "title": "HSBC Holdings (LSE:HSBA) Trimmed Its Project Jupiter Loan Exposure",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/hsbc-holdings-lse-hsba-trimmed-141209209.html",
-      "time": "17.11.2026 15:12",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "Simply Wall St."
     }
   ]
 }
