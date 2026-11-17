@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T03:03:48.798156+00:00",
+  "updated_at": "2026-11-17T04:11:01.932611+00:00",
   "stocks": [
     {
       "name": "Microsoft",
@@ -70,24 +70,24 @@
       "symbol": "7203.T",
       "market": "Japonsko",
       "currency": "JPY",
-      "price": 3407.0,
-      "change": -0.61
+      "price": 3397.0,
+      "change": -0.9
     },
     {
       "name": "Sony",
       "symbol": "6758.T",
       "market": "Japonsko",
       "currency": "JPY",
-      "price": 4294.0,
-      "change": -0.6
+      "price": 4269.0,
+      "change": -1.18
     },
     {
       "name": "Tencent",
       "symbol": "0700.HK",
       "market": "Hongkong",
       "currency": "HKD",
-      "price": 379.0,
-      "change": -2.92
+      "price": 378.8,
+      "change": -2.97
     },
     {
       "name": "Shopify",
@@ -102,16 +102,16 @@
       "symbol": "BHP.AX",
       "market": "Austrálie",
       "currency": "AUD",
-      "price": 54.85,
-      "change": -4.13
+      "price": 54.75,
+      "change": -4.3
     },
     {
       "name": "Reliance Industries",
       "symbol": "RELIANCE.NS",
       "market": "Indie",
       "currency": "INR",
-      "price": 1344.8,
-      "change": 0.38
+      "price": 1338.1,
+      "change": -0.5
     },
     {
       "name": "Nestlé",
