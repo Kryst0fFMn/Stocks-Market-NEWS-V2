@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T03:06:57.741068+00:00",
+  "updated_at": "2026-11-18T04:13:22.274673+00:00",
   "stocks": [
     {
       "name": "Microsoft",
@@ -2101,8 +2101,8 @@
       "symbol": "7203.T",
       "market": "Japonsko",
       "currency": "JPY",
-      "price": 3420.0,
-      "change": 0.18,
+      "price": 3410.0,
+      "change": -0.12,
       "history": [
         ["2025-11-18", 3029.0],
         ["2025-11-19", 3037.0],
@@ -2346,7 +2346,7 @@
         ["2026-11-13", 3418.0],
         ["2026-11-16", 3428.0],
         ["2026-11-17", 3414.0],
-        ["2026-11-18", 3420.0]
+        ["2026-11-18", 3410.0]
       ]
     },
     {
@@ -2354,8 +2354,8 @@
       "symbol": "6758.T",
       "market": "Japonsko",
       "currency": "JPY",
-      "price": 4280.0,
-      "change": 0.21,
+      "price": 4264.0,
+      "change": -0.16,
       "history": [
         ["2025-11-18", 4409.0],
         ["2025-11-19", 4332.0],
@@ -2599,7 +2599,7 @@
         ["2026-11-13", 4353.0],
         ["2026-11-16", 4320.0],
         ["2026-11-17", 4271.0],
-        ["2026-11-18", 4280.0]
+        ["2026-11-18", 4264.0]
       ]
     },
     {
@@ -2607,8 +2607,8 @@
       "symbol": "0700.HK",
       "market": "Hongkong",
       "currency": "HKD",
-      "price": 372.2,
-      "change": -1.01,
+      "price": 371.2,
+      "change": -1.28,
       "history": [
         ["2025-11-18", 623.5],
         ["2025-11-19", 622.5],
@@ -2856,7 +2856,7 @@
         ["2026-11-13", 386.6],
         ["2026-11-16", 390.4],
         ["2026-11-17", 376.0],
-        ["2026-11-18", 372.2]
+        ["2026-11-18", 371.2]
       ]
     },
     {
@@ -3126,8 +3126,8 @@
       "symbol": "BHP.AX",
       "market": "Austrálie",
       "currency": "AUD",
-      "price": 54.89,
-      "change": 0.94,
+      "price": 54.74,
+      "change": 0.66,
       "history": [
         ["2025-11-18", 40.9],
         ["2025-11-19", 40.95],
@@ -3383,7 +3383,7 @@
         ["2026-11-13", 58.86],
         ["2026-11-16", 57.21],
         ["2026-11-17", 54.38],
-        ["2026-11-18", 54.89]
+        ["2026-11-18", 54.74]
       ]
     },
     {
@@ -3391,10 +3391,9 @@
       "symbol": "RELIANCE.NS",
       "market": "Indie",
       "currency": "INR",
-      "price": 1367.0,
-      "change": 1.65,
+      "price": 1359.2,
+      "change": -0.57,
       "history": [
-        ["2025-11-17", 1518.3],
         ["2025-11-18", 1519.4],
         ["2025-11-19", 1518.9],
         ["2025-11-20", 1549.1],
@@ -3641,7 +3640,8 @@
         ["2026-11-12", 1339.7],
         ["2026-11-13", 1339.7],
         ["2026-11-16", 1344.8],
-        ["2026-11-17", 1367.0]
+        ["2026-11-17", 1367.0],
+        ["2026-11-18", 1359.2]
       ]
     },
     {
@@ -4695,6 +4695,38 @@
   ],
   "news": [
     {
+      "company": "Apple",
+      "title": "Broadcom vs. Micron Technology: Which Tech Stock Is the Better Buy for 2027?",
+      "url": "https://www.fool.com/coverage/better-buy/2026/11/17/broadcom-vs-micron-technology-which-tech-stock-is-the-better-buy-for-2027/",
+      "time": "18.11.2026 04:30",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "Motley Fool"
+    },
+    {
+      "company": "HSBC",
+      "title": "Top 3 British Dividend Stocks To Watch In November 2026",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/top-3-british-dividend-stocks-031124133.html",
+      "time": "18.11.2026 04:11",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "Simply Wall St."
+    },
+    {
+      "company": "Microsoft",
+      "title": "Microsoft Outlook Outage Analysis: November 12–13, 2026",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNeG9US3BIenJHRm43M0sxYWdTUng3bmh5V19XaEswS1F4NDZqaWJUa1BLbGJCaVYtNUdSUTJJbUhzMEM5Nk9EU21RRE9kVnVfbUdZZFRMVUZwX1l0cXc2dFpGenVQVkpLaWlaTm1OWFJaNjEydFQxVkJONTlUVDNnYndrQVVoZjQ?oc=5",
+      "time": "18.11.2026 03:40",
+      "impact": "Možný negativní signál; ověř zprávu u původního zdroje.",
+      "source": "ThousandEyes"
+    },
+    {
+      "company": "BHP",
+      "title": "BHP Names Australian Projects Boss as Next CFO",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWUdMdXlfb1NwLU9sRHoxRlJXaDlHMXhjMEJhd0FsSFpmTUYxcFBFV3pXVWhhVTVzTmVUNm5EVU1JWENuV1ZGQV93R0VXTFZHWUE5VDBCRVRBdXJKb3hFQV9CT2lEMVhBQVJVV0NkWDF0aW8xUnFRVVRlNHRTaWdfMm9DNTVZUEJUX0c3ZjBPREZBLUtxNUow?oc=5",
+      "time": "18.11.2026 03:20",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "WSJ"
+    },
+    {
       "company": "Reliance Industries",
       "title": "Reliance seeks manufacturing partners for its 1,600-satellite network - Bloomberg",
       "url": "https://finance.yahoo.com/technology/articles/reliance-seeks-manufacturing-partners-1-020204124.html",
@@ -4709,14 +4741,6 @@
       "time": "18.11.2026 03:00",
       "impact": "Možný negativní signál; ověř zprávu u původního zdroje.",
       "source": "Mashable"
-    },
-    {
-      "company": "Apple",
-      "title": "Mary Barra Transformed GM. Her Successor May Have to Do It Again.",
-      "url": "https://www.wsj.com/business/autos/mary-barra-transformed-gm-her-successor-may-have-to-do-it-again-aca050e9?siteid=yhoof2&yptr=yahoo",
-      "time": "18.11.2026 03:00",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "The Wall Street Journal"
     },
     {
       "company": "NVIDIA",
@@ -4751,6 +4775,14 @@
       "source": "Constellation Research"
     },
     {
+      "company": "Toyota",
+      "title": "Official Rocket City Trash Pandas Website",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1nZ0kwclQ2LThTaWNxeFpGUW9jTHVpbXp0cDRJNmlIcDVQazFYTmpuQ3p6VV80N21Tdmp3SjhSLTlzSDdtajA4WVpscjk?oc=5",
+      "time": "18.11.2026 02:03",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "MLB.com"
+    },
+    {
       "company": "Shopify",
       "title": "How Rubino moved 27 stores and 250 associates to Shopify POS in two weeks",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB5S1ZYOE1wc0JrU3BqS2xLQm9DR1RRR3dlWUI4eVJIZVFWM3F2VDM3RWRvTHRQM2R4VUZKM3hEM1hwUVZLUmpHRUdxbHlZMjlibl9yMUw3aUNPaHU5bE1Zd3Bn?oc=5",
@@ -4781,14 +4813,6 @@
       "time": "18.11.2026 00:42",
       "impact": "Možný negativní signál; ověř zprávu u původního zdroje.",
       "source": "NBC News"
-    },
-    {
-      "company": "Microsoft",
-      "title": "Microsoft Outlook Outage Analysis: November 12–13, 2026",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNeG9US3BIenJHRm43M0sxYWdTUng3bmh5V19XaEswS1F4NDZqaWJUa1BLbGJCaVYtNUdSUTJJbUhzMEM5Nk9EU21RRE9kVnVfbUdZZFRMVUZwX1l0cXc2dFpGenVQVkpLaWlaTm1OWFJaNjEydFQxVkJONTlUVDNnYndrQVVoZjQ?oc=5",
-      "time": "18.11.2026 00:37",
-      "impact": "Možný negativní signál; ověř zprávu u původního zdroje.",
-      "source": "ThousandEyes"
     },
     {
       "company": "NVIDIA",
@@ -4861,30 +4885,6 @@
       "time": "17.11.2026 21:56",
       "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
       "source": "WSJ"
-    },
-    {
-      "company": "Shopify",
-      "title": "MercadoLibre vs. Shopify: Comparing Recent Revenue Scale and Growth Trajectories",
-      "url": "https://www.fool.com/coverage/charts/2026/11/17/mercadolibre-vs-shopify-comparing-recent-revenue-scale-and-growth-trajectories/",
-      "time": "17.11.2026 21:20",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "Motley Fool"
-    },
-    {
-      "company": "Siemens",
-      "title": "Siemens (XTRA:SIE) Could Be 12% Undervalued As Dividend And 2027 Guidance Land",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/siemens-xtra-sie-could-12-200944794.html",
-      "time": "17.11.2026 21:09",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "Simply Wall St."
-    },
-    {
-      "company": "HSBC",
-      "title": "Hackers target 178 major websites with crypto-stealing code",
-      "url": "https://finance.yahoo.com/video/hackers-target-178-major-websites-with-crypto-stealing-code-203311636.html",
-      "time": "17.11.2026 21:00",
-      "impact": "Možný negativní signál; ověř zprávu u původního zdroje.",
-      "source": "Yahoo Finance Video"
     }
   ]
 }
