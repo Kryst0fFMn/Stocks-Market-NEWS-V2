@@ -223,6 +223,60 @@ def load_quotes():
     return stocks
 
 
+def load_intraday():
+    """15minutové ceny za posledních 5 obchodních dní (pro grafy 1D a 1W)."""
+    symbols = [company["symbol"] for company in COMPANIES]
+
+    try:
+        frame = yf.download(
+            tickers=symbols,
+            period="5d",
+            interval="15m",
+            group_by="ticker",
+            auto_adjust=False,
+            progress=False,
+            threads=False,
+        )
+    except Exception as exc:
+        print(f"Minutová data se nepodařilo stáhnout: {exc}")
+        return {}
+
+    if frame is None or frame.empty:
+        print("Minutová data: Yahoo Finance nic nevrátilo.")
+        return {}
+
+    result = {}
+
+    for symbol in symbols:
+        try:
+            if isinstance(frame.columns, pd.MultiIndex):
+                if symbol in frame.columns.get_level_values(0):
+                    history = frame[symbol]
+                elif symbol in frame.columns.get_level_values(-1):
+                    history = frame.xs(symbol, axis=1, level=-1)
+                else:
+                    continue
+            else:
+                history = frame
+
+            closes = history["Close"].dropna()
+            if closes.empty:
+                continue
+
+            index = closes.index
+            index = index.tz_localize("UTC") if index.tz is None else index.tz_convert("UTC")
+
+            result[symbol] = [
+                [stamp.strftime("%Y-%m-%dT%H:%MZ"), round(float(value), 2)]
+                for stamp, value in zip(index, closes.values)
+            ]
+        except (KeyError, TypeError, ValueError, AttributeError) as error:
+            print(f"Minutová data {symbol} přeskočena: {error}")
+
+    print(f"Minutová data: {len(result)} z {len(symbols)} akcií")
+    return result
+
+
 # ---------------------------------------------------------------- zprávy
 
 def fetch_rss(url):
@@ -427,6 +481,12 @@ def load_news():
 
 def main():
     stocks = load_quotes()
+
+    # minutová data pro grafy 1D a 1W; když selžou, zbytek stránky funguje dál
+    intraday = load_intraday()
+    for stock in stocks:
+        stock["intraday"] = intraday.get(stock["symbol"], [])
+
     news = load_news()
 
     payload = {
@@ -439,7 +499,7 @@ def main():
     text = json.dumps(payload, ensure_ascii=False, indent=2)
     # každý bod historie na jeden řádek, ať je soubor kratší a čitelný
     text = re.sub(
-        r'\[\s*("\d{4}-\d{2}-\d{2}"),\s*(-?[\d.eE+-]+)\s*\]',
+        r'\[\s*("\d{4}-\d{2}-\d{2}(?:T\d{2}:\d{2}Z)?"),\s*(-?[\d.eE+-]+)\s*\]',
         r"[\1, \2]",
         text,
     )
