@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T05:19:38.042016+00:00",
+  "updated_at": "2026-11-18T07:36:26.562038+00:00",
   "stocks": [
     {
       "name": "Microsoft",
@@ -2101,8 +2101,8 @@
       "symbol": "7203.T",
       "market": "Japonsko",
       "currency": "JPY",
-      "price": 3409.0,
-      "change": -0.15,
+      "price": 3391.0,
+      "change": -0.67,
       "history": [
         ["2025-11-18", 3029.0],
         ["2025-11-19", 3037.0],
@@ -2346,7 +2346,7 @@
         ["2026-11-13", 3418.0],
         ["2026-11-16", 3428.0],
         ["2026-11-17", 3414.0],
-        ["2026-11-18", 3409.0]
+        ["2026-11-18", 3391.0]
       ]
     },
     {
@@ -2354,8 +2354,8 @@
       "symbol": "6758.T",
       "market": "Japonsko",
       "currency": "JPY",
-      "price": 4256.0,
-      "change": -0.35,
+      "price": 4241.0,
+      "change": -0.7,
       "history": [
         ["2025-11-18", 4409.0],
         ["2025-11-19", 4332.0],
@@ -2599,7 +2599,7 @@
         ["2026-11-13", 4353.0],
         ["2026-11-16", 4320.0],
         ["2026-11-17", 4271.0],
-        ["2026-11-18", 4256.0]
+        ["2026-11-18", 4241.0]
       ]
     },
     {
@@ -2607,8 +2607,8 @@
       "symbol": "0700.HK",
       "market": "Hongkong",
       "currency": "HKD",
-      "price": 370.4,
-      "change": -1.49,
+      "price": 373.0,
+      "change": -0.8,
       "history": [
         ["2025-11-18", 623.5],
         ["2025-11-19", 622.5],
@@ -2856,7 +2856,7 @@
         ["2026-11-13", 386.6],
         ["2026-11-16", 390.4],
         ["2026-11-17", 376.0],
-        ["2026-11-18", 370.4]
+        ["2026-11-18", 373.0]
       ]
     },
     {
@@ -3126,8 +3126,8 @@
       "symbol": "BHP.AX",
       "market": "Austrálie",
       "currency": "AUD",
-      "price": 54.605,
-      "change": 0.41,
+      "price": 54.34,
+      "change": -0.07,
       "history": [
         ["2025-11-18", 40.9],
         ["2025-11-19", 40.95],
@@ -3383,7 +3383,7 @@
         ["2026-11-13", 58.86],
         ["2026-11-16", 57.21],
         ["2026-11-17", 54.38],
-        ["2026-11-18", 54.6]
+        ["2026-11-18", 54.34]
       ]
     },
     {
@@ -3391,8 +3391,8 @@
       "symbol": "RELIANCE.NS",
       "market": "Indie",
       "currency": "INR",
-      "price": 1362.0,
-      "change": -0.37,
+      "price": 1358.0,
+      "change": -0.66,
       "history": [
         ["2025-11-18", 1519.4],
         ["2025-11-19", 1518.9],
@@ -3641,7 +3641,7 @@
         ["2026-11-13", 1339.7],
         ["2026-11-16", 1344.8],
         ["2026-11-17", 1367.0],
-        ["2026-11-18", 1362.0]
+        ["2026-11-18", 1358.0]
       ]
     },
     {
@@ -4695,6 +4695,30 @@
   ],
   "news": [
     {
+      "company": "Tencent",
+      "title": "Tencent Cloud Completes Enterprise Data Platform Consolidation for Makro",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOY0FGMzBxalFNQl9CYlgwU1FzcWRHLUZOSFJVaXpxeVZfdFdTc2FuSzk4ZkF1TEhlUnBIcE9udkRRM1NNWUctRFVsM1hXVUtsSDktcXlRUVdfaVZqNV9Dam9hMDB0cVZQRFFTeGtQTG9PRG94V2NpbU9ucmFNRlpEN2M1QW15Uy1OVUxNTTlXVmNSdk5MaC0zNllYNmI0R1Z1OGoxdzhiVFRiYllMa084dUVoVHA0RElFNlp5U3BPd0xGS1ZfZ1lic0dKUQ?oc=5",
+      "time": "18.11.2026 07:56",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "The Fast Mode"
+    },
+    {
+      "company": "BHP",
+      "title": "3 Australian Dividend Stocks With Yield Up To 4%",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/3-australian-dividend-stocks-yield-061855041.html",
+      "time": "18.11.2026 07:18",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "Simply Wall St."
+    },
+    {
+      "company": "Shopify",
+      "title": "How Rubino moved 27 stores and 250 associates to Shopify POS in two weeks",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9Wb2lKNXZaUjdiZ1YzNGtvUFU1b2JhaU9wb1k4ZFEwV1d1d3N1MDduVVFwdG9fUlBoZVdVMGRiWEpqYjRKY1cxX01uVmplS0Q1TGRBaFhlZDl2THZEWWk2RU9B?oc=5",
+      "time": "18.11.2026 06:40",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "Shopify"
+    },
+    {
       "company": "Petrobras",
       "title": "Petrobras Upgrades Santos Barge Piers to Improve Bunker Delivery Capacity",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOamh5anY1eENPTm5pQnFuUnJmbW1BNHhvTTR1NmhvYUxKR1pxR05NUHJHRGdfUEJNYWhHVl9KM3Nua3Vrak9jMXZueGk2VEZLTjR0NVlrN09MTDBsVVlVM3VUMzlKb2k5YlJJMGlrdDhSTDNJNjZ6TWZueHUxMVZnb3REZXV0NTNnRFFna0wtVHo1bmxka3RqWW5tX3daX09faE9EVHJvOU5WOWR5V2ItUk95V2o?oc=5",
@@ -4709,6 +4733,14 @@
       "time": "18.11.2026 05:43",
       "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
       "source": "Mashable"
+    },
+    {
+      "company": "Apple",
+      "title": "Is Apple down? Users report problems with iOS",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQQU9teVg0allCeTV5V193dzNmaXlVS3ViVE9QaDFtVW9lUUxuSUg2Ul9xUTJwOFQzc0I0WTd1cE1TNXlCUjhyWExYcnBDRWRPTWhteFNaXzFCQURwWnBDaTctMk5yZDJ6OEdxRy14bWI2ZzZsaUkwdldyNkhoOGM1SHFtLVfSAYoBQVVfeXFMUHlQbGg1ZjVFUkhGVG1iSWJXY0hsTDFLVVR4QnhId25LbTJtTjhrdExHS190dWJVczE4enpOMEJjWUFKZ0trb0h2WVI1S196bGJBWWtKSXM0NG5MSlhsN3BOSzZNUkh3ZjlQMG54OVhfejZSVmFSNlZjRm8yb084bS1nMEJHb25aMW1n?oc=5",
+      "time": "18.11.2026 04:32",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "NewsNation"
     },
     {
       "company": "Apple",
@@ -4727,12 +4759,12 @@
       "source": "Simply Wall St."
     },
     {
-      "company": "Microsoft",
-      "title": "Microsoft Outlook Outage Analysis: November 12–13, 2026",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNeG9US3BIenJHRm43M0sxYWdTUng3bmh5V19XaEswS1F4NDZqaWJUa1BLbGJCaVYtNUdSUTJJbUhzMEM5Nk9EU21RRE9kVnVfbUdZZFRMVUZwX1l0cXc2dFpGenVQVkpLaWlaTm1OWFJaNjEydFQxVkJONTlUVDNnYndrQVVoZjQ?oc=5",
-      "time": "18.11.2026 03:40",
-      "impact": "Možný negativní signál; ověř zprávu u původního zdroje.",
-      "source": "ThousandEyes"
+      "company": "NVIDIA",
+      "title": "Nvidia shoots down calls for Jensen Huang’s return amid strong earnings",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWWdPODgyZEhvek5GeEswOWp6WWlUX2ZBN2NYVU5WNjBxVm94ZlhRT2lFbmUtTUJ5Q0xIUDJIOEVTeW02Tm5IZF9ZZzVrRVVqczlZVG55aFBLR19lc2wwMVRHMU5jUGY3aHgtd3l1MDc4OUdYOWE5MHFrbWtBS2c0cTJYRDZRRnNMcWdDdXVIc0RKTVZMZjZSVVRodGtqcXd6YTBqMjR0Tl9xM1Q4VlZOUjJkY25LZ9IBuwFBVV95cUxQaTBwN2dnb3ZDbFpFVl8tSzNYRFZwZkZ2VU9qblFlbkpSbHZyVDh1UkY2SEZxX1loWm1QMDFpVUNMdzB3cW9CMC03MG1UcF8xbHNObVphRFZiU1NrZmpGa0VpUm5uOS1rRndhUWd6TmxXYk9mTHNwRS01RVBOSWVmeFBWYS10eHdWNGhZNDJWX3JTQVZ5U3E5NmhYV1FkSk9oT2RWdWkzTW9va0JOaGhFSFBMQXZQcFJOZnhJ?oc=5",
+      "time": "18.11.2026 04:09",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "Al Jazeera"
     },
     {
       "company": "BHP",
@@ -4759,14 +4791,6 @@
       "source": "Investing.com"
     },
     {
-      "company": "Apple",
-      "title": "Apple confirms iCloud sign-in issues, App Store and Apple Pay outages",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQLWFjSWQ2WlQ3VjRaYzZ6emhxM0NyU0RtZ09nYzlEQTdUVHloRXl0R28tdGNZMGdub19WSnJwNlAxSnVOM0Fyc3lLWUhGWC1FdXRHMC1jbDFXOENnaDFDX2ZZSk5qYkh5bHBaZXJtekNVU20zaHdOSmt6VjhxSG9seGZhUQ?oc=5",
-      "time": "18.11.2026 03:00",
-      "impact": "Možný negativní signál; ověř zprávu u původního zdroje.",
-      "source": "Mashable"
-    },
-    {
       "company": "NVIDIA",
       "title": "Nvidia rejects Jensen Huang’s offer to return as CEO despite pressure from Silicon Valley",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObnhLd21OYlROQnV3Z2ZRc29BZlRubWM4T2tVN3d3ektLVUdiMXNSS1dhclFQNVZrUEVrdG5rUHFUY0ozQWJJRjFFVlFvVjJ0SC15eEdoUm1JUEdwY2FZdTgyNmNDQnozOWRXSGJBRlVHaC13M09mZ0U3em9hYkp2V1BFWHJvR2ViRFZGcEk5RE8yTWNwUmM5dlhBMC1oMGYzYzE3TXl5akNYTGlOb2c?oc=5",
@@ -4781,6 +4805,14 @@
       "time": "18.11.2026 02:37",
       "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
       "source": "Investing.com"
+    },
+    {
+      "company": "Microsoft",
+      "title": "Microsoft aims to challenge OpenAI, Anthropic with cheaper, specialized AI models",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWnpSWUhVX2NkMm9wR1R1dE92a2VBYVM5TUpKc19Ia3NsSlVmUmZfTjNfYVVuTnU4ZjJPMHJJWHNrclcxT3dSZGZ5ckdDYlM3M3BvcGVNNGtkb1ZKZk5KM2ZvOGJKdVhtLU5fQ3JtSDZsMW5rbGwwczhEX2R4TTY5Nm9n?oc=5",
+      "time": "18.11.2026 02:21",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "Axios"
     },
     {
       "company": "L'Oréal",
@@ -4823,20 +4855,20 @@
       "source": "Yahoo Finance Video"
     },
     {
-      "company": "Apple",
-      "title": "Apple outages appear to be resolved after internal update takes popular services offline",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNS01oRGJLdFFiNUtzYUdLbTJHTGlFNTJsVkRudElwQjJWMU8teDQ1bUpONW5NMlBXTUZWeUxockJMVjN0bHNmdXZhWHlBbHY1STk3Zm9zcmdVcTVKbmxfM0dLdVR4SU5idUwwZjAwczFxNkNKVVpoZnctb0M3TG5xVjJpdHBGbDhKaERscDFOTDNQbE9UU2hLeGwyNHMzSmdkSmhxWg?oc=5",
-      "time": "18.11.2026 00:42",
-      "impact": "Možný negativní signál; ověř zprávu u původního zdroje.",
-      "source": "NBC News"
-    },
-    {
       "company": "NVIDIA",
       "title": "Nvidia earnings special coverage: \"The street wants to believe in Nvidia after Jensen\"",
       "url": "https://finance.yahoo.com/video/nvidia-earnings-special-coverage-the-street-wants-to-believe-in-nvidia-after-jensen-233044562.html",
       "time": "18.11.2026 00:30",
       "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
       "source": "Yahoo Finance Video"
+    },
+    {
+      "company": "Apple",
+      "title": "Apple Addresses Outages Affecting Apple Pay, iCloud and Apps",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPVVdkd0RiSEp5RzQ2WmNEZWNRM1JoYlhOekYzajU3amxGNXJLa2xVUUdFLUYtTmEyMTZqQXpfZk9KbExPbXYtZ1cySjlKQkdNOU1Wdkc1N19XOVV0d2dFUGJCNklJTVFxa0lEd1l3aDdZZE9ONWFDZW9CbjVqeUFHaw?oc=5",
+      "time": "18.11.2026 00:17",
+      "impact": "Možný negativní signál; ověř zprávu u původního zdroje.",
+      "source": "The New York Times"
     },
     {
       "company": "ASML",
@@ -4853,38 +4885,6 @@
       "time": "17.11.2026 23:32",
       "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
       "source": "Yahoo Finance Video"
-    },
-    {
-      "company": "Microsoft",
-      "title": "AI industry still needs to be 'extremely careful,' Microsoft exec says",
-      "url": "https://finance.yahoo.com/video/ai-industry-still-needs-extremely-223000085.html",
-      "time": "17.11.2026 23:30",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "Yahoo Finance Video"
-    },
-    {
-      "company": "HSBC",
-      "title": "Health Care Roundup: Market Talk",
-      "url": "https://www.wsj.com/health/pharma/health-care-roundup-market-talk-1fae9968?siteid=yhoof2&yptr=yahoo",
-      "time": "17.11.2026 23:03",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "The Wall Street Journal"
-    },
-    {
-      "company": "HSBC",
-      "title": "HSBC, Associated sites briefly affected by cyberattack",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQm9ZRjcyeVFtWVc0bmxUOS0wcENjVGFSMXNEdC1SQk1hSzYyVTd6cTNmQUVLaGk0QU9yN2t3V3hLSFVlei1PYUtJUTFxV0RZS2gzRTIwcjdfRHM3cmxqWllGSEpObVNQUV92NW15SUFSb2hwSjBIdkItTm1GMHRxTzlTaE1wR21HYVNQZ0NDV1lVM0k?oc=5",
-      "time": "17.11.2026 22:54",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "American Banker"
-    },
-    {
-      "company": "Shopify",
-      "title": "Sites Like Redbubble: Top POD Alternatives to Consider (2026)",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE93dU1FMkJFX05DX3ZSZktkYXRORERNam5rZDM2aHFBaDdCQ1pyT2xpZXdRWWwxVFRIWTA1T2FFa3l0LVdhQV9ObDdnS3ZVSjJpdDgtcVUtNkhDZzRWNnc?oc=5",
-      "time": "17.11.2026 22:13",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "Shopify"
     }
   ]
 }
