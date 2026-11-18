@@ -1,15 +1,14 @@
 {
-  "updated_at": "2026-11-18T20:15:41.578618+00:00",
+  "updated_at": "2026-11-18T21:13:26.191465+00:00",
   "stocks": [
     {
       "name": "Microsoft",
       "symbol": "MSFT",
       "market": "USA",
       "currency": "USD",
-      "price": 507.86,
-      "change": 0.32,
+      "price": 508.29,
+      "change": 0.4,
       "history": [
-        ["2025-11-18", 493.79],
         ["2025-11-19", 487.12],
         ["2025-11-20", 478.43],
         ["2025-11-21", 472.12],
@@ -260,7 +259,7 @@
         ["2026-11-13", 523.88],
         ["2026-11-16", 517.99],
         ["2026-11-17", 506.24],
-        ["2026-11-18", 507.86]
+        ["2026-11-18", 508.29]
       ]
     },
     {
@@ -268,10 +267,9 @@
       "symbol": "NVDA",
       "market": "USA",
       "currency": "USD",
-      "price": 150.945,
-      "change": -2.9,
+      "price": 150.96,
+      "change": -2.89,
       "history": [
-        ["2025-11-18", 181.36],
         ["2025-11-19", 186.52],
         ["2025-11-20", 180.64],
         ["2025-11-21", 178.88],
@@ -522,7 +520,7 @@
         ["2026-11-13", 162.85],
         ["2026-11-16", 156.14],
         ["2026-11-17", 155.46],
-        ["2026-11-18", 150.95]
+        ["2026-11-18", 150.96]
       ]
     },
     {
@@ -530,10 +528,9 @@
       "symbol": "AAPL",
       "market": "USA",
       "currency": "USD",
-      "price": 352.585,
-      "change": 0.19,
+      "price": 352.45,
+      "change": 0.15,
       "history": [
-        ["2025-11-18", 267.44],
         ["2025-11-19", 268.56],
         ["2025-11-20", 266.25],
         ["2025-11-21", 271.49],
@@ -784,7 +781,7 @@
         ["2026-11-13", 356.27],
         ["2026-11-16", 352.78],
         ["2026-11-17", 351.91],
-        ["2026-11-18", 352.58]
+        ["2026-11-18", 352.45]
       ]
     },
     {
@@ -792,10 +789,9 @@
       "symbol": "AMZN",
       "market": "USA",
       "currency": "USD",
-      "price": 267.16,
-      "change": 3.59,
+      "price": 267.74,
+      "change": 3.82,
       "history": [
-        ["2025-11-18", 222.55],
         ["2025-11-19", 222.69],
         ["2025-11-20", 217.14],
         ["2025-11-21", 220.69],
@@ -1046,7 +1042,7 @@
         ["2026-11-13", 266.66],
         ["2026-11-16", 257.75],
         ["2026-11-17", 257.89],
-        ["2026-11-18", 267.16]
+        ["2026-11-18", 267.74]
       ]
     },
     {
@@ -2869,8 +2865,8 @@
       "symbol": "SHOP.TO",
       "market": "Kanada",
       "currency": "CAD",
-      "price": 200.65,
-      "change": -1.07,
+      "price": 199.78,
+      "change": -1.5,
       "history": [
         ["2025-11-18", 196.32],
         ["2025-11-19", 205.36],
@@ -3123,7 +3119,7 @@
         ["2026-11-13", 209.74],
         ["2026-11-16", 211.43],
         ["2026-11-17", 202.83],
-        ["2026-11-18", 200.65]
+        ["2026-11-18", 199.78]
       ]
     },
     {
@@ -4446,8 +4442,8 @@
       "symbol": "PETR4.SA",
       "market": "Brazílie",
       "currency": "BRL",
-      "price": 43.07,
-      "change": -2.07,
+      "price": 43.01,
+      "change": -2.21,
       "history": [
         ["2025-11-18", 32.99],
         ["2025-11-19", 32.82],
@@ -4696,34 +4692,58 @@
         ["2026-11-13", 45.3],
         ["2026-11-16", 44.02],
         ["2026-11-17", 43.98],
-        ["2026-11-18", 43.07]
+        ["2026-11-18", 43.01]
       ]
     }
   ],
   "news": [
     {
-      "company": "Sony",
-      "title": "Lumix Has the Video Chops to Beat Sony, So Why Won’t It Even Try?",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPd3M3Z1hkeVdMTjVabWNaLVQwQk94NXVyajBIRDBkTFBoMFpnN05VdFk2NURHdjN1a0EtU1ZiZUEzNWI4RmZKQ20xaEhha1BkVUp2WEs3WkpDb3VrMmVRa01sRVJoN3FaYUF6b01tNWFGWlZBUGMxV1ZkTHlfbl85cDJPeF9aR21tRzhSLXNzSUhDSGxnbllBU2ptc1g?oc=5",
-      "time": "18.11.2026 20:56",
+      "company": "Apple",
+      "title": "Apple Stock Polishes Breakout As Nvidia-Led AI Boom Gets Wake-Up Call",
+      "url": "https://www.investors.com/research/ibd-stock-analysis/apple-stock-outshines-ai-peers-nvidia-meta/?src=A00220&yptr=yahoo",
+      "time": "18.11.2026 22:04",
       "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "PetaPixel"
+      "source": "Investor's Business Daily"
+    },
+    {
+      "company": "Nestlé",
+      "title": "Nestlé Shuts Down 75-Year-Old Colombian Factory, Putting Jobs and Supply Chain at Risk",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOTmZwcUU4ZnRadXVPQUFtUmNmRUxuVzNYc2ItR3dxa0NFZ0FCUWVrU3B5MUQ4djR0WWZVRkhUaVZqXzhLTEMyeUJJNTFhSnNCLXBjLU1VVThLZmxuRnpYUjhZYTg0S25wZk9oZ2puZ21Cd2Vyb2VvWFg4eUhjMVlVTVJ4WlNVdw?oc=5",
+      "time": "18.11.2026 22:00",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "ColombiaOne.com"
     },
     {
       "company": "Amazon",
-      "title": "Data Center Backlash Hits Amazon Hardest in Ohio",
-      "url": "https://finance.yahoo.com/technology/ai/articles/data-center-backlash-hits-amazon-195116574.html",
-      "time": "18.11.2026 20:51",
+      "title": "Dan Ives’ Top 5 AI Revolution Stock Picks",
+      "url": "https://finance.yahoo.com/technology/ai/articles/dan-ives-top-5-ai-204111527.html",
+      "time": "18.11.2026 21:41",
       "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "GuruFocus.com"
+      "source": "Insider Monkey"
     },
     {
-      "company": "Apple",
-      "title": "Could Qualcomm Actually Climb 85%? Or Is Baird Totally Wrong?",
-      "url": "https://www.tikr.com/blog/could-qualcomm-actually-climb-85-or-is-baird-totally-wrong?ref=yahoofinance&tlnk=yf-261118-fj25pvqf",
-      "time": "18.11.2026 20:50",
+      "company": "NVIDIA",
+      "title": "Nvidia interim CEO Colette Kress has taken over one of the most consequential companies on the planet; those who know her say she's up to the task",
+      "url": "https://finance.yahoo.com/technology/article/nvidia-interim-ceo-colette-kress-has-taken-over-one-of-the-most-consequential-companies-on-the-planet-those-who-know-her-say-shes-up-to-the-task-210312776.html",
+      "time": "18.11.2026 21:26",
       "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "TIKR"
+      "source": "Yahoo Finance"
+    },
+    {
+      "company": "Toyota",
+      "title": "Ford Yields 5.27%, but These 3 Auto Dividends Come With Different Risks",
+      "url": "https://247wallst.com/investing/2026/11/18/ford-yields-5-27-but-these-3-auto-dividends-come-with-different-risks/",
+      "time": "18.11.2026 21:17",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "24/7 Wall St."
+    },
+    {
+      "company": "NVIDIA",
+      "title": "What Nvidia’s Interim CEO, Colette Kress, Said to Employees After Jensen Huang’s Resignation",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNa2dJSnFrVWt3REVkbE5CbllIMi1jZnFlRmtPbmZJM09SbmpoOEhVWElRVElyY00xc29ZLXA5T2wtRWFHQ0YzMG1jdjRPZWM4d2RaR05ja3Y3TGx5LURKVTk4allMbzduWC1uNVJSZmM4SlB6SjBiSVdWLXI5OW83V1RZcjF1SmctMzhaMXlHOXNSOXQycWc?oc=5",
+      "time": "18.11.2026 20:51",
+      "impact": "Možný negativní signál; ověř zprávu u původního zdroje.",
+      "source": "The New York Times"
     },
     {
       "company": "NVIDIA",
@@ -4734,12 +4754,12 @@
       "source": "Yahoo Finance"
     },
     {
-      "company": "NVIDIA",
-      "title": "Jensen Huang and Howard Lutnick will appear publicly before a powerful Senate panel",
-      "url": "https://finance.yahoo.com/markets/article/jensen-huang-and-howard-lutnick-will-appear-publicly-before-a-powerful-senate-panel-192842634.html",
-      "time": "18.11.2026 20:28",
+      "company": "AstraZeneca",
+      "title": "Rhythm Pharma: Is AstraZeneca/Eli Lilly's Bidding War For Real? Don't Rule It Out (RYTM)",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQR3BDY3Q5aE1vUk5leF84c255d2lTcDZPMGJFXzVBeWk0NGt5czY1bjZ3WGVEUmVtekNpZFQ5cGp2bFB6NVVHdUxGeGxNNFRybkFiS2UtNDM1MDJZai1KYjFUa3R3RDF3LXlSMXZjbWJacGZSSXJmaVFjS0EzN3dXcE9FY19yVzZSNTRwbGhKRkVEYlctVXp3VjZmcnFjTDFjZ3k0cFA3ZElsMkpoWGRRSjBpMU4?oc=5",
+      "time": "18.11.2026 20:16",
       "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "Yahoo Finance"
+      "source": "Seeking Alpha"
     },
     {
       "company": "SAP",
@@ -4748,14 +4768,6 @@
       "time": "18.11.2026 20:13",
       "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
       "source": "TechTarget"
-    },
-    {
-      "company": "Amazon",
-      "title": "Are Amazon’s Black Friday Deals Really Worth It? Here’s What Shoppers Should Know",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQYW1VWE9RLV9td1gyM0ZqU0doWWNhWWpTc3lQNVpxRVdrRVFCT1M0NUhCdURYWnY5eHZ6anZ1WmpnM00wbVpsMVFwLW4yeGVnWXNNV2RRRWxXS01MZnZQZk1jNUh5YUlDX2NkRUlGYlRtT2xSU013UTZnMEZ1ODJOanFROS1vbERXcldYNGRmWlU5Sld0ZTJSU0JLSklzLWRDQU11bjNVcDNrU1RmQWQ4UkUyY05PSFhVaEp3S0hfdWpaUQ?oc=5",
-      "time": "18.11.2026 20:12",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "Forbes"
     },
     {
       "company": "Tencent",
@@ -4790,20 +4802,20 @@
       "source": "Zacks"
     },
     {
+      "company": "Amazon",
+      "title": "How Stretto built an AI voice agent with Amazon Nova 2 Sonic",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSy0yeUJ1eHA4OGVrZ2h5WkQzNlR3OUVwLXJKQTZ2S003UmcwYXhPSWRfUmhYSEROWTlNbFlLVG5iaHJBWllpeFVvN3BaTHo2emVYQ0h5c01aWU13S2Z6TjJqT2hiTHN3UWxSMW1qT3BublM0S3ZWYmRLMkhQSmFsMFV2b2d5ZEFTOVF2UF9VSGs1LVkwVGZHeEJUdXlqOWpmWjRkSGFnOTlqMW8?oc=5",
+      "time": "18.11.2026 19:58",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "Amazon Web Services (AWS)"
+    },
+    {
       "company": "HSBC",
       "title": "Mother’s phantom trust and wrong POA crumble in HSBC Bank foreclosure",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQUDFCV2kwLV9oNWFRQlpwU200TC1zTkxlRDU4b2pfVkFZTWprdkVIODRINlhlUi1fMFJzTzlCdTZzdXRrbGFNbFhFZ05PcjdQMEdyYXVfZFhWdUsyRUNTSDlISFEzTW5kQ3ZVU3ltYTJWaG1Pa2VjOS13bTVzVURyUTNrUWlQSjdCd1JSbV90RWR2eGxqM3BFeVp2Y3R4MUZHY1RRWWhFX1pLV1AzNnlSN3Y4WTM?oc=5",
       "time": "18.11.2026 19:57",
       "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
       "source": "Mortgage Professional America"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "What Nvidia’s Interim CEO, Colette Kress, Said to Employees After Jensen Huang’s Resignation",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNa2dJSnFrVWt3REVkbE5CbllIMi1jZnFlRmtPbmZJM09SbmpoOEhVWElRVElyY00xc29ZLXA5T2wtRWFHQ0YzMG1jdjRPZWM4d2RaR05ja3Y3TGx5LURKVTk4allMbzduWC1uNVJSZmM4SlB6SjBiSVdWLXI5OW83V1RZcjF1SmctMzhaMXlHOXNSOXQycWc?oc=5",
-      "time": "18.11.2026 19:40",
-      "impact": "Možný negativní signál; ověř zprávu u původního zdroje.",
-      "source": "The New York Times"
     },
     {
       "company": "ASML",
@@ -4814,20 +4826,20 @@
       "source": "Reuters"
     },
     {
-      "company": "Amazon",
-      "title": "It’s not too early to shop Black Friday deals — I’m tracking the best ones daily up to 70% off",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNXzVNSVNyakZCNmxQZTJNTG53UWd0NTRqeHc1OVRCdDZfTElRMGc2VlZvV2labGo1Y2hJb0NvNlFyWERuRGVxaW1wTVJsWFVaUEZvajRaNS0xbl9UWDRrR1NRWFA0V3EtWDh1WlJ5VVZEbmFlQ2pldHhMbzVlZTBBMXhlS1VWeXNscHEzVUhB?oc=5",
-      "time": "18.11.2026 19:28",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "NBC News"
-    },
-    {
       "company": "Apple",
       "title": "Is Apple the safe haven investors think it is? Here's a way to trade it with less risk",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNOGJQcWNOUlVfbEVEb2ZtamlXanRGZ1JMaGNhcW50LTRFVUNJRzZvUm1tSzlTTVk1a3ZDUm9GaDN5eVdQcjdzWmo4TXNDZ1pZSWFGdkpTRHNacEJ5YnpkM251aVFBZ0FrNFFkOHZmMW43eDhsbS0ySHhxWlpEc2Z4SjEwd1h4eDIzLXhaNkhKaV9PeU1adWlOdkk0T09aQ0prQ0VZN29vM1h1Q2w2eTZBZ0RpSElUekV6cFJyQlRB0gHDAUFVX3lxTE01VnluT2JIamlUampiQUZtLWkzSWd0M18tQ25ab1pQQTJaTEVjaUpJYXVyOVJub1NvVXZKMmlCRHM3MWF0SmdFTG9iUFdkZ3BnVnUyZFVUVmZiTjJHeTl3T05HUnQ1d2RuMzNNZmZlU2J6enhMaDNRNXJUWHlJd0pPX0JTeVl4TVdLeUc5T0pWV0NkQ1BFM1VlSHphTFNlY2FEVEJQYjNlc3lKMVNTSWZGcmpKSlJHMlFCTmJFeEFjNk1jQQ?oc=5",
       "time": "18.11.2026 19:10",
       "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
       "source": "CNBC"
+    },
+    {
+      "company": "Sony",
+      "title": "Sony Is Updating The PS5 Again, And It Might Have GTA 6 Pirates In Mind",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVXlTWHoxcWl1OUI3OG5Uc21Oc3ctUlZlOVpCa3cwaEcybnRjUi1QaVRHcHpBRUZ3QS0xNHQ2OW5VTDZ3RVNrN01jejBoOXUxYzhKVUkxbThjMFpwRUtaV0ppNFJGcGZ5UnVzRU93MFJMTzI3TjgyZkVUd0R3Mkhkckk0QUNWWUhsRm5wZ19nTzVhb1pkUkhMVzVmUzQ0LVJBS2NiSjRiUnY?oc=5",
+      "time": "18.11.2026 19:05",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "GameSpot"
     },
     {
       "company": "Siemens",
@@ -4876,22 +4888,6 @@
       "time": "18.11.2026 17:09",
       "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
       "source": "Shopify"
-    },
-    {
-      "company": "Microsoft",
-      "title": "What’s New in Microsoft 365 – November 2026",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPS09ZZDhIN0s3ZUYzMU1UR3YtVGxOaFUtUm9mNmV1M3dRVmlhd19HdHE2T3pBY1RHa0ozZ3d0cXVfR3RRMUlXdV9ZdFZsTmtUY0tYNEVTR0VkMzJPRlJHdkRVYmJqRkN3VEg4Z1VTX1pHenNNS3B2bmVWQ2dxUHJjMnBuXzhsbVdu?oc=5",
-      "time": "18.11.2026 17:09",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "Seton Hall"
-    },
-    {
-      "company": "L'Oréal",
-      "title": "I Don't Have Time for Multiple Makeup Products During the Holiday Season—This L'Oréal Paris Balm Does the Trick",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQbktuT2tlYmlxMG9QazBzYmcwaTduTDR5OENjU3V4ZHlXWl9YOF8xZm4wOG1QaVJsV1VxZEZNUGJiX0E1LWs1dkNKcXVaSUl0OWlsNEppaFNiYU1tZXUxajk3OXJHYTY0TUxLNlZaaEZFajhOQk42OGFmTm9WM0dkejdFR0hTY2ozNTVoazdQUHR2ZXh0YThfQ1hXdFVwTERB?oc=5",
-      "time": "18.11.2026 16:51",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "Who What Wear"
     }
   ]
 }
