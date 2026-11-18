@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-11-18T00:02:39.259322+00:00",
+  "updated_at": "2026-11-18T01:36:16.201824+00:00",
   "stocks": [
     {
       "name": "Microsoft",
       "symbol": "MSFT",
       "market": "USA",
       "currency": "USD",
-      "price": 506.24,
-      "change": -2.27,
+      "price": 517.99,
+      "change": -1.12,
       "history": [
         ["2025-11-18", 493.79],
         ["2025-11-19", 487.12],
@@ -258,8 +258,7 @@
         ["2026-11-11", 521.13],
         ["2026-11-12", 523.0],
         ["2026-11-13", 523.88],
-        ["2026-11-16", 517.99],
-        ["2026-11-17", 506.24]
+        ["2026-11-16", 517.99]
       ]
     },
     {
@@ -267,8 +266,8 @@
       "symbol": "NVDA",
       "market": "USA",
       "currency": "USD",
-      "price": 155.46,
-      "change": -0.44,
+      "price": 156.14,
+      "change": -4.12,
       "history": [
         ["2025-11-18", 181.36],
         ["2025-11-19", 186.52],
@@ -519,8 +518,7 @@
         ["2026-11-11", 173.73],
         ["2026-11-12", 166.19],
         ["2026-11-13", 162.85],
-        ["2026-11-16", 156.14],
-        ["2026-11-17", 155.46]
+        ["2026-11-16", 156.14]
       ]
     },
     {
@@ -528,8 +526,8 @@
       "symbol": "AAPL",
       "market": "USA",
       "currency": "USD",
-      "price": 351.91,
-      "change": -0.25,
+      "price": 352.78,
+      "change": -0.98,
       "history": [
         ["2025-11-18", 267.44],
         ["2025-11-19", 268.56],
@@ -780,8 +778,7 @@
         ["2026-11-11", 355.63],
         ["2026-11-12", 354.88],
         ["2026-11-13", 356.27],
-        ["2026-11-16", 352.78],
-        ["2026-11-17", 351.91]
+        ["2026-11-16", 352.78]
       ]
     },
     {
@@ -789,8 +786,8 @@
       "symbol": "AMZN",
       "market": "USA",
       "currency": "USD",
-      "price": 257.89,
-      "change": 0.05,
+      "price": 257.75,
+      "change": -3.34,
       "history": [
         ["2025-11-18", 222.55],
         ["2025-11-19", 222.69],
@@ -1041,8 +1038,7 @@
         ["2026-11-11", 266.17],
         ["2026-11-12", 267.44],
         ["2026-11-13", 266.66],
-        ["2026-11-16", 257.75],
-        ["2026-11-17", 257.89]
+        ["2026-11-16", 257.75]
       ]
     },
     {
@@ -2101,8 +2097,8 @@
       "symbol": "7203.T",
       "market": "Japonsko",
       "currency": "JPY",
-      "price": 3414.0,
-      "change": -0.41,
+      "price": 3399.0,
+      "change": -0.44,
       "history": [
         ["2025-11-18", 3029.0],
         ["2025-11-19", 3037.0],
@@ -2345,7 +2341,8 @@
         ["2026-11-12", 3408.0],
         ["2026-11-13", 3418.0],
         ["2026-11-16", 3428.0],
-        ["2026-11-17", 3414.0]
+        ["2026-11-17", 3414.0],
+        ["2026-11-18", 3399.0]
       ]
     },
     {
@@ -2353,8 +2350,8 @@
       "symbol": "6758.T",
       "market": "Japonsko",
       "currency": "JPY",
-      "price": 4271.0,
-      "change": -1.13,
+      "price": 4246.0,
+      "change": -0.59,
       "history": [
         ["2025-11-18", 4409.0],
         ["2025-11-19", 4332.0],
@@ -2597,7 +2594,8 @@
         ["2026-11-12", 4281.0],
         ["2026-11-13", 4353.0],
         ["2026-11-16", 4320.0],
-        ["2026-11-17", 4271.0]
+        ["2026-11-17", 4271.0],
+        ["2026-11-18", 4246.0]
       ]
     },
     {
@@ -2608,7 +2606,6 @@
       "price": 376.0,
       "change": -3.69,
       "history": [
-        ["2025-11-17", 636.5],
         ["2025-11-18", 623.5],
         ["2025-11-19", 622.5],
         ["2025-11-20", 621.0],
@@ -3124,8 +3121,8 @@
       "symbol": "BHP.AX",
       "market": "Austrálie",
       "currency": "AUD",
-      "price": 55.495,
-      "change": 2.05,
+      "price": 55.26,
+      "change": 1.62,
       "history": [
         ["2025-11-18", 40.9],
         ["2025-11-19", 40.95],
@@ -3381,7 +3378,7 @@
         ["2026-11-13", 58.86],
         ["2026-11-16", 57.21],
         ["2026-11-17", 54.38],
-        ["2026-11-18", 55.49]
+        ["2026-11-18", 55.26]
       ]
     },
     {
@@ -4692,12 +4689,52 @@
   ],
   "news": [
     {
+      "company": "BHP",
+      "title": "BHP, Rio Tinto executives to meet Chinese leaders amid iron ore tensions",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNaGxoUEFwSGNzV2FsTXo3VzNRdmFwWVBESWxHelVMSFhaOTJadmpvdnFYMHdPQ0FJakJ6dC1yZXZkMW5ibE00NW93VFBVWHFlMVMwcXNkWTJRWkxuRFZRSTQ4ekUtZnBkU1l6VUVTZUpmQXNSMl9Kd2pMSndjdFRQVzJSNWo2dE9VYzFEMGZrT1lqLTBFdGIxTURoN1cyNDFzSGJWUTE5SmlQYmlSQk1GMG9qMWJLRDJBYy1zbVVlVEk4VEp6SGpj?oc=5",
+      "time": "18.11.2026 02:07",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "Investing.com"
+    },
+    {
+      "company": "SAP",
+      "title": "SAP chief customer officer Saueressig to depart",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxORXVWTVRraDBFYmxyR05LUXZXSG5Uc1BzVDUySkNKRGdZMkJNLUJJVEY3MlhuektQNmItRzE1QTgyUzVCLVNOek0xV01yUkMtMVMwWlZKcFVUWHpHZVROeU9BQVNiOUw2SnNwRTdQbWRMMWhuNjhXY0Zpak00Zzl6eFhmUEVEdTJWYWtIQW15amVwblk?oc=5",
+      "time": "18.11.2026 02:03",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "Constellation Research"
+    },
+    {
+      "company": "Microsoft",
+      "title": "Microsoft outage cause revealed: It was a perfect storm of problems",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5aOXNncW9QdWVtZ3RXTHF5VnFncFJTcXptUWtGX0V6azdmcXZVQjBienJMdzJydEdseXhVZHZRcExPbS0xUXlCcXhyX2RDOUZOd0h3bEhwU1hiNF9hc0FNdTZLSkJGUVpz?oc=5",
+      "time": "18.11.2026 01:42",
+      "impact": "Možný negativní signál; ověř zprávu u původního zdroje.",
+      "source": "Mashable"
+    },
+    {
+      "company": "BHP",
+      "title": "BHP, Rio Tinto executives to meet China leaders as iron ore pressure builds",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNcEU4M19MQkc0T0ZzMFJvU29nQnBoLUNnbjBjbXc1UlNCaUhFOUpMTHhCTlNZODJBSGR0VUloelJ2b3hVWk9pZnpsYlQ0dk1uLTRCWFVVWGlwX1B0QUxxb00wdUVLYkpabmwzS1oyR1dmZklYdFZEM1BhYzZId1hNbGI5SFJOQnBDcWlTQk1qUlQ4aVBoemR4MjFWbVgyTm9hTG1yaUJqN0tUVTBQRl8ybnRTS3lhcmc?oc=5",
+      "time": "18.11.2026 01:11",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "Reuters"
+    },
+    {
       "company": "NVIDIA",
-      "title": "Nvidia chairman says board does not intend to reinstate Jensen Huang as CEO",
+      "title": "Nvidia rejects Jensen Huang’s offer to return as CEO despite pressure from Silicon Valley",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObnhLd21OYlROQnV3Z2ZRc29BZlRubWM4T2tVN3d3ektLVUdiMXNSS1dhclFQNVZrUEVrdG5rUHFUY0ozQWJJRjFFVlFvVjJ0SC15eEdoUm1JUEdwY2FZdTgyNmNDQnozOWRXSGJBRlVHaC13M09mZ0U3em9hYkp2V1BFWHJvR2ViRFZGcEk5RE8yTWNwUmM5dlhBMC1oMGYzYzE3TXl5akNYTGlOb2c?oc=5",
-      "time": "18.11.2026 00:50",
+      "time": "18.11.2026 01:07",
       "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
       "source": "AP News"
+    },
+    {
+      "company": "Apple",
+      "title": "Once the Market Cap King, Nvidia Has Now Fallen More Than $1 Trillion Behind Apple",
+      "url": "https://www.wsj.com/livecoverage/nvidia-earnings-stock-market-news-11-17-2026/card/once-the-market-cap-king-nvidia-has-now-fallen-more-than-1-trillion-behind-apple-e5t7w6LIQs2cXTAy1fIS?siteid=yhoof2&yptr=yahoo",
+      "time": "18.11.2026 01:05",
+      "impact": "Možný negativní signál; ověř zprávu u původního zdroje.",
+      "source": "The Wall Street Journal"
     },
     {
       "company": "NVIDIA",
@@ -4708,6 +4745,14 @@
       "source": "Yahoo Finance Video"
     },
     {
+      "company": "Apple",
+      "title": "Apple outages appear to be resolved after internal update takes popular services offline",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNS01oRGJLdFFiNUtzYUdLbTJHTGlFNTJsVkRudElwQjJWMU8teDQ1bUpONW5NMlBXTUZWeUxockJMVjN0bHNmdXZhWHlBbHY1STk3Zm9zcmdVcTVKbmxfM0dLdVR4SU5idUwwZjAwczFxNkNKVVpoZnctb0M3TG5xVjJpdHBGbDhKaERscDFOTDNQbE9UU2hLeGwyNHMzSmdkSmhxWg?oc=5",
+      "time": "18.11.2026 00:42",
+      "impact": "Možný negativní signál; ověř zprávu u původního zdroje.",
+      "source": "NBC News"
+    },
+    {
       "company": "NVIDIA",
       "title": "Nvidia earnings special coverage: \"The street wants to believe in Nvidia after Jensen\"",
       "url": "https://finance.yahoo.com/video/nvidia-earnings-special-coverage-the-street-wants-to-believe-in-nvidia-after-jensen-233044562.html",
@@ -4716,20 +4761,12 @@
       "source": "Yahoo Finance Video"
     },
     {
-      "company": "Apple",
-      "title": "Apple works to restore services after outage caused by internal update",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOYVJuYnNwMGtjY1NfY01rbXdSVTVnOFdaak1sd1ZkbXpPZzFuWjlOcTJNVUplNDJZLUVxeGZtaXlGZlg1UjFkY2Z5Um5Td19tS2pUZmZKNFlEb0QxVUwyekt2UnRPRlJUT3hRM3FhQWp2MDJRVGI4U1hfeWlpeGlBdFJyTG1rei1yNXJqbnF5LV9vQ3FwYVloZjVhZ1hfVWUzV0RlQVpRc3I3emJwU1lFZEduaUZSS1k5anRlN2lDQkQ0SFI0QkVz?oc=5",
-      "time": "17.11.2026 23:55",
-      "impact": "Možný negativní signál; ověř zprávu u původního zdroje.",
-      "source": "Reuters"
-    },
-    {
-      "company": "Apple",
-      "title": "National Security Outage Is Just One Reason for Today’s Software Stock Selloff",
-      "url": "https://www.barrons.com/articles/stocks-selloff-outage-ai-1485984a?siteid=yhoof2&yptr=yahoo",
-      "time": "17.11.2026 23:47",
-      "impact": "Možný negativní signál; ověř zprávu u původního zdroje.",
-      "source": "Barrons.com"
+      "company": "ASML",
+      "title": "Marc Hijink on ASML’s Culture, Supply Chain, and Geopolitics",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOMkRhNmdCc05UWTFmc0lLNGcwSnU4d1BhOExwZ2VtdGtIWmFGeG81VXZycWxuTks0NEk2ekg5T092VElxcTd0R1NLUmwyYmR0eExXM3F1dUc2VUJqN2pITVBkZXBFRUpJU0phbjloWDBHRlJwSERRaU1JTFpiLUtCVmw5eTJZT3hQWUE?oc=5",
+      "time": "17.11.2026 23:39",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "EE Times"
     },
     {
       "company": "Microsoft",
@@ -4842,46 +4879,6 @@
       "time": "17.11.2026 20:44",
       "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
       "source": "Barrons.com"
-    },
-    {
-      "company": "Apple",
-      "title": "Apple outage today: iCloud and App Store down after a week of big outages",
-      "url": "https://finance.yahoo.com/markets/article/why-apple-is-down-in-a-week-of-outages-from-microsoft-to-chase-193424335.html",
-      "time": "17.11.2026 20:34",
-      "impact": "Možný negativní signál; ověř zprávu u původního zdroje.",
-      "source": "Yahoo Finance"
-    },
-    {
-      "company": "Petrobras",
-      "title": "Citigroup maintains Petrobras Brasileiro at Neutral, lowers price target to $18.50 from $21.50",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQQ3lRaEJHTDFScjRoYmNudVhFZXlobFJld2lta0tFVzA0ZENTZndKd0dfM0dOUE8yOXlxY1hVMjVabFJ4Z0t3ODMzVXROVVZuaXF2a2l0Z3l4WU9qZUtvM3ozNDhIMDBxT3lfdFBHYmF6Uno5TERYS0k0eGE3OENYbUo0dm5YOWc5M1ZaZzZyOUVYUzJOdlhnSmtvSkVXb1pUMWtGcXJ5X1NJYWtKTzcxWE5JVGlObURqalpBVHItVjZ0bVh2Rm15Rng5bTRISm9qd0tiSDYxSWgxLXpEYURpaS1IVGpvX1Iy?oc=5",
-      "time": "17.11.2026 20:15",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "TradingView"
-    },
-    {
-      "company": "Amazon",
-      "title": "There's 'no difference' between buying Anthropic's IPO and Amazon's IPO: Kevin O'Leary",
-      "url": "https://finance.yahoo.com/markets/stocks/article/theres-no-difference-between-buying-anthropics-ipo-and-amazons-ipo-kevin-oleary-190707549.html",
-      "time": "17.11.2026 20:07",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "Yahoo Finance"
-    },
-    {
-      "company": "L'Oréal",
-      "title": "L’Oréal USA Settles First Hair Relaxer Cancer Trial",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQNlNySGZzY3g3NmpxMF9yLW5rb3Utb0RmWVd2N3RSZkE3eTJFYkpWNGdXQmdCSkhCZW96emJrMG5xVEwtcjlUTnhUQ195OXhjX2ZFZ2RWZzY4WkNnZHJfNU1vVGFtRFVqMnBBbkUzVFdYSGlyblpWLUtGUGN3czgxNlM2dTZQazdZVWxXUkdUUWU?oc=5",
-      "time": "17.11.2026 20:00",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "Consumer Notice"
-    },
-    {
-      "company": "Microsoft",
-      "title": "Microsoft Ignite 2026: Building Windows for the next era of work",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQYXlycC12TmFMUVBsUlg2aUQtZW15ck12TUJGckh3WWJHa1pwTXByZ0FGX1hTVGN2eF9wZ01uTV9DcXVlQjFLc09XT3pvY0JxNkp4ZDljbW1DbWRYcjJlVThXdFN5aG5OZXYzb000Q2Etd2FYMkh5Zlp1NGNTSWFyaWwzWVBrdGFVbE11Y21rdTg1Ui1wbklZc0RONjYySHhfQjI3Q19Ld0VnTjBoMmlnQXhyT2I4ZzQ1WEg0?oc=5",
-      "time": "17.11.2026 19:33",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "Windows Blog"
     }
   ]
 }
