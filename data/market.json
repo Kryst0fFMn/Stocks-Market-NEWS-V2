@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T23:09:42.290382+00:00",
+  "updated_at": "2026-11-18T00:02:39.259322+00:00",
   "stocks": [
     {
       "name": "Microsoft",
@@ -1050,8 +1050,8 @@
       "symbol": "HSBA.L",
       "market": "Velká Británie",
       "currency": "GBp",
-      "price": 1319.8,
-      "change": -2.02,
+      "price": 1347.0,
+      "change": -0.55,
       "history": [
         ["2025-11-17", 1093.4],
         ["2025-11-18", 1056.0],
@@ -1304,8 +1304,7 @@
         ["2026-11-11", 1355.6],
         ["2026-11-12", 1354.0],
         ["2026-11-13", 1354.4],
-        ["2026-11-16", 1347.0],
-        ["2026-11-17", 1319.8]
+        ["2026-11-16", 1347.0]
       ]
     },
     {
@@ -1313,8 +1312,8 @@
       "symbol": "AZN.L",
       "market": "Velká Británie",
       "currency": "GBp",
-      "price": 13802.0,
-      "change": -1.65,
+      "price": 14034.0,
+      "change": 0.37,
       "history": [
         ["2025-11-17", 13592.0],
         ["2025-11-18", 13566.0],
@@ -1568,8 +1567,7 @@
         ["2026-11-11", 13896.0],
         ["2026-11-12", 13930.0],
         ["2026-11-13", 13982.0],
-        ["2026-11-16", 14034.0],
-        ["2026-11-17", 13802.0]
+        ["2026-11-16", 14034.0]
       ]
     },
     {
@@ -2106,7 +2104,6 @@
       "price": 3414.0,
       "change": -0.41,
       "history": [
-        ["2025-11-17", 3119.0],
         ["2025-11-18", 3029.0],
         ["2025-11-19", 3037.0],
         ["2025-11-20", 3044.0],
@@ -2359,7 +2356,6 @@
       "price": 4271.0,
       "change": -1.13,
       "history": [
-        ["2025-11-17", 4548.0],
         ["2025-11-18", 4409.0],
         ["2025-11-19", 4332.0],
         ["2025-11-20", 4461.0],
@@ -3128,8 +3124,8 @@
       "symbol": "BHP.AX",
       "market": "Austrálie",
       "currency": "AUD",
-      "price": 54.38,
-      "change": -4.95,
+      "price": 55.495,
+      "change": 2.05,
       "history": [
         ["2025-11-18", 40.9],
         ["2025-11-19", 40.95],
@@ -3384,7 +3380,8 @@
         ["2026-11-12", 59.61],
         ["2026-11-13", 58.86],
         ["2026-11-16", 57.21],
-        ["2026-11-17", 54.38]
+        ["2026-11-17", 54.38],
+        ["2026-11-18", 55.49]
       ]
     },
     {
@@ -4696,9 +4693,49 @@
   "news": [
     {
       "company": "NVIDIA",
-      "title": "Nvidia interim-CEO Colette Kress speaks on quarterly revenue hitting $116B",
-      "url": "https://finance.yahoo.com/video/nvidia-interim-ceo-colette-kress-speaks-on-quarterly-revenue-hitting-116b-224125904.html",
-      "time": "17.11.2026 23:38",
+      "title": "Nvidia chairman says board does not intend to reinstate Jensen Huang as CEO",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObnhLd21OYlROQnV3Z2ZRc29BZlRubWM4T2tVN3d3ektLVUdiMXNSS1dhclFQNVZrUEVrdG5rUHFUY0ozQWJJRjFFVlFvVjJ0SC15eEdoUm1JUEdwY2FZdTgyNmNDQnozOWRXSGJBRlVHaC13M09mZ0U3em9hYkp2V1BFWHJvR2ViRFZGcEk5RE8yTWNwUmM5dlhBMC1oMGYzYzE3TXl5akNYTGlOb2c?oc=5",
+      "time": "18.11.2026 00:50",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "AP News"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Nvidia's Q3 numbers were pretty good. Its earnings call optics were another story.",
+      "url": "https://finance.yahoo.com/video/nvidias-q3-numbers-were-pretty-good-its-earnings-call-optics-were-another-story-234451647.html",
+      "time": "18.11.2026 00:44",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "Yahoo Finance Video"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Nvidia earnings special coverage: \"The street wants to believe in Nvidia after Jensen\"",
+      "url": "https://finance.yahoo.com/video/nvidia-earnings-special-coverage-the-street-wants-to-believe-in-nvidia-after-jensen-233044562.html",
+      "time": "18.11.2026 00:30",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "Yahoo Finance Video"
+    },
+    {
+      "company": "Apple",
+      "title": "Apple works to restore services after outage caused by internal update",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOYVJuYnNwMGtjY1NfY01rbXdSVTVnOFdaak1sd1ZkbXpPZzFuWjlOcTJNVUplNDJZLUVxeGZtaXlGZlg1UjFkY2Z5Um5Td19tS2pUZmZKNFlEb0QxVUwyekt2UnRPRlJUT3hRM3FhQWp2MDJRVGI4U1hfeWlpeGlBdFJyTG1rei1yNXJqbnF5LV9vQ3FwYVloZjVhZ1hfVWUzV0RlQVpRc3I3emJwU1lFZEduaUZSS1k5anRlN2lDQkQ0SFI0QkVz?oc=5",
+      "time": "17.11.2026 23:55",
+      "impact": "Možný negativní signál; ověř zprávu u původního zdroje.",
+      "source": "Reuters"
+    },
+    {
+      "company": "Apple",
+      "title": "National Security Outage Is Just One Reason for Today’s Software Stock Selloff",
+      "url": "https://www.barrons.com/articles/stocks-selloff-outage-ai-1485984a?siteid=yhoof2&yptr=yahoo",
+      "time": "17.11.2026 23:47",
+      "impact": "Možný negativní signál; ověř zprávu u původního zdroje.",
+      "source": "Barrons.com"
+    },
+    {
+      "company": "Microsoft",
+      "title": "Nvidia with a positive Q3 despite SEC probing Nvidia amid Huang Scandal",
+      "url": "https://finance.yahoo.com/video/nvidia-with-a-positive-q3-despite-sec-probing-nvidia-amid-huang-scandal-223224298.html",
+      "time": "17.11.2026 23:32",
       "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
       "source": "Yahoo Finance Video"
     },
@@ -4711,36 +4748,12 @@
       "source": "Yahoo Finance Video"
     },
     {
-      "company": "NVIDIA",
-      "title": "Nvidia chair says board 'does not intend to reinstate Jensen as CEO'",
-      "url": "https://finance.yahoo.com/video/nvidia-chair-says-board-does-222900177.html",
-      "time": "17.11.2026 23:29",
+      "company": "HSBC",
+      "title": "Health Care Roundup: Market Talk",
+      "url": "https://www.wsj.com/health/pharma/health-care-roundup-market-talk-1fae9968?siteid=yhoof2&yptr=yahoo",
+      "time": "17.11.2026 23:03",
       "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "Yahoo Finance Video"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "Nvidia chairman says board does not intend to reinstate Jensen Huang as CEO",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObnhLd21OYlROQnV3Z2ZRc29BZlRubWM4T2tVN3d3ektLVUdiMXNSS1dhclFQNVZrUEVrdG5rUHFUY0ozQWJJRjFFVlFvVjJ0SC15eEdoUm1JUEdwY2FZdTgyNmNDQnozOWRXSGJBRlVHaC13M09mZ0U3em9hYkp2V1BFWHJvR2ViRFZGcEk5RE8yTWNwUmM5dlhBMC1oMGYzYzE3TXl5akNYTGlOb2c?oc=5",
-      "time": "17.11.2026 23:27",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "AP News"
-    },
-    {
-      "company": "Apple",
-      "title": "Huang pitches Nvidia comeback, WSJ reports SEC probing the chipmaker",
-      "url": "https://finance.yahoo.com/news/nvidia-board-forms-committee-national-102208048.html",
-      "time": "17.11.2026 23:19",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "Reuters"
-    },
-    {
-      "company": "BHP",
-      "title": "ChartWatch ASX Scans: BHP, Capstone Copper, Fortescue, Lynas Rare Earths, Technology One, GQG Partners, Xero",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPLXBiREdLYThudFBySnYtLUtIZWJxT3YxSV91N2ZUZ0xDMXlrc3JzLUd1cHlmc2E5ZGx5bERaVDRiZTRyeWRhLWl0eV8yeHlfZVNVelFVa3R0SnNtQXh5T3dHZzk0cmoyTlFuRHpKWm1FbVM1Vy1aR1IwdjI3WW5ZMkNnRFktNEtudjMxUF9jVmJ1RlRQZkJHQmNyalRGUnZuenhKY0JIOU1HM0dwelVNLWhhT0U3cHBfZjRaQXo0cllTXzA4VUdtQVJvREN1ZEc3cnVj?oc=5",
-      "time": "17.11.2026 23:06",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "Market Index"
+      "source": "The Wall Street Journal"
     },
     {
       "company": "HSBC",
@@ -4749,14 +4762,6 @@
       "time": "17.11.2026 22:54",
       "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
       "source": "American Banker"
-    },
-    {
-      "company": "Microsoft",
-      "title": "Microsoft AI chief says compute isn't a bottleneck — for now",
-      "url": "https://finance.yahoo.com/video/microsoft-ai-chief-says-compute-isnt-a-bottleneck--for-now-213157737.html",
-      "time": "17.11.2026 22:31",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "Yahoo Finance Video"
     },
     {
       "company": "Amazon",
@@ -4791,22 +4796,6 @@
       "source": "Motor1.com"
     },
     {
-      "company": "Apple",
-      "title": "What to Know About the Apple Outage",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0xOEdxWVBiSmpISmRJSnIxTUlKVGhXcnZhTHJWMk4tbjlNb3MtdmdSZ0h2NUI5ZElVV1RKdGVYNzh3aEJFaWc3MW50dTlGQkN3RjNmS2V4M0VkMGFNeHl5b19nSUxfS2VTVjhwUXRhd2JtRlh3dnc?oc=5",
-      "time": "17.11.2026 21:53",
-      "impact": "Možný negativní signál; ověř zprávu u původního zdroje.",
-      "source": "Time Magazine"
-    },
-    {
-      "company": "Apple",
-      "title": "Apple works to restore services after outage caused by internal update",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOYVJuYnNwMGtjY1NfY01rbXdSVTVnOFdaak1sd1ZkbXpPZzFuWjlOcTJNVUplNDJZLUVxeGZtaXlGZlg1UjFkY2Z5Um5Td19tS2pUZmZKNFlEb0QxVUwyekt2UnRPRlJUT3hRM3FhQWp2MDJRVGI4U1hfeWlpeGlBdFJyTG1rei1yNXJqbnF5LV9vQ3FwYVloZjVhZ1hfVWUzV0RlQVpRc3I3emJwU1lFZEduaUZSS1k5anRlN2lDQkQ0SFI0QkVz?oc=5",
-      "time": "17.11.2026 21:44",
-      "impact": "Možný negativní signál; ověř zprávu u původního zdroje.",
-      "source": "Reuters"
-    },
-    {
       "company": "Amazon",
       "title": "EXCLUSIVE: Trump's China data center curb advances despite Amazon, Google, Meta lobbying",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPamZVTFBIMlk1aHp5ZUZ3ME56bnZlV3NPODhQY3JKcnI2dUtIT0FqSHFveTRSem1Rby14eXY4dnhCci1WWmNJdEZnTnNnOUJldUROSXFWc1I5SmExVXZ2dWlhMWhQSkpqTFJIN1R2aTJsX2tJQ1l6cnhRY2JWdTNpVjNKZFhuelREd1A1S29BYUhDRHlTNWxncUJ3aHFobUU1NFZNTVlkbkxLUWExUFVjWHpOSHo3aE0?oc=5",
@@ -4829,6 +4818,14 @@
       "time": "17.11.2026 21:09",
       "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
       "source": "Simply Wall St."
+    },
+    {
+      "company": "Apple",
+      "title": "Apple Works to Fix Systems After Update Caused Internal, Retail and iCloud Outages",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNX3NQTl9iV3NGVTJLVmZEeDNrQmQ5MDJKZTBPUkgwc1p2MFNqSDNScDJzUXJlZXhJVVV4LXNKaFk0QUFLNl9uZWNhZ3U0ZDBLcHYyNWlIb0w2TGJ3dlY4dGpMdnB4ZlE0ZGpCNnZyRFhkNXh2Tk83LWtpQzh2THRhUmxCekFPdTB1dUlRcEVmN1JHaGJBRDhFbGhMWDFmeHlGZ2t6eUFteE1QaUo2?oc=5",
+      "time": "17.11.2026 21:07",
+      "impact": "Možný negativní signál; ověř zprávu u původního zdroje.",
+      "source": "Bloomberg.com"
     },
     {
       "company": "HSBC",
@@ -4880,11 +4877,11 @@
     },
     {
       "company": "Microsoft",
-      "title": "Microsoft Ignite 2026: Empowering human ambition, intelligence and trust",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOakRna3VBWlppLWRvYXltZXdkcTRaa19FcE4yb2lqMm5YQkQwd3BVQ1MzamJDaHlXcDN4aGQ3M1VqTnBUMUhtZTJKdGxDaExfelRZTVVwZFJwSVl0cHBYY0NPdVpnOFVJV1paOHhNX3MtLTV1a1BudUtLVFlIVVZBdE9qQ1NWZTluU3BYLVAtS3YwX3E4andhS3ZpcE83dFdDY1lIVS1kazZJYTRPaDNFWXA0TGloOFU?oc=5",
-      "time": "17.11.2026 19:43",
+      "title": "Microsoft Ignite 2026: Building Windows for the next era of work",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQYXlycC12TmFMUVBsUlg2aUQtZW15ck12TUJGckh3WWJHa1pwTXByZ0FGX1hTVGN2eF9wZ01uTV9DcXVlQjFLc09XT3pvY0JxNkp4ZDljbW1DbWRYcjJlVThXdFN5aG5OZXYzb000Q2Etd2FYMkh5Zlp1NGNTSWFyaWwzWVBrdGFVbE11Y21rdTg1Ui1wbklZc0RONjYySHhfQjI3Q19Ld0VnTjBoMmlnQXhyT2I4ZzQ1WEg0?oc=5",
+      "time": "17.11.2026 19:33",
       "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "Microsoft Source"
+      "source": "Windows Blog"
     }
   ]
 }
