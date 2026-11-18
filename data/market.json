@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T22:06:44.149555+00:00",
+  "updated_at": "2026-11-18T23:06:52.052699+00:00",
   "stocks": [
     {
       "name": "Microsoft",
@@ -5328,8 +5328,8 @@
       "symbol": "ASML.AS",
       "market": "Nizozemsko",
       "currency": "EUR",
-      "price": 1260.8,
-      "change": 1.94,
+      "price": 1236.8,
+      "change": -5.34,
       "history": [
         ["2025-11-18", 865.6],
         ["2025-11-19", 886.6],
@@ -5585,8 +5585,7 @@
         ["2026-11-12", 1376.8],
         ["2026-11-13", 1338.8],
         ["2026-11-16", 1306.6],
-        ["2026-11-17", 1236.8],
-        ["2026-11-18", 1260.8]
+        ["2026-11-17", 1236.8]
       ],
       "intraday": [
         ["2026-11-12T08:00Z", 1360.8],
@@ -5767,8 +5766,8 @@
       "market": "Německo",
       "currency": "EUR",
       "query": "SAP SE",
-      "price": 193.92,
-      "change": -3.76,
+      "price": 201.5,
+      "change": -5.58,
       "history": [
         ["2025-11-18", 205.35],
         ["2025-11-19", 205.5],
@@ -6022,8 +6021,7 @@
         ["2026-11-12", 212.55],
         ["2026-11-13", 213.45],
         ["2026-11-16", 213.4],
-        ["2026-11-17", 201.5],
-        ["2026-11-18", 193.92]
+        ["2026-11-17", 201.5]
       ],
       "intraday": [
         ["2026-11-12T08:00Z", 212.1],
@@ -6203,8 +6201,8 @@
       "symbol": "MC.PA",
       "market": "Francie",
       "currency": "EUR",
-      "price": 388.1,
-      "change": -1.25,
+      "price": 393.0,
+      "change": -2.72,
       "history": [
         ["2025-11-18", 611.3],
         ["2025-11-19", 609.6],
@@ -6460,8 +6458,7 @@
         ["2026-11-12", 404.7],
         ["2026-11-13", 403.45],
         ["2026-11-16", 404.0],
-        ["2026-11-17", 393.0],
-        ["2026-11-18", 388.1]
+        ["2026-11-17", 393.0]
       ],
       "intraday": [
         ["2026-11-12T08:00Z", 408.65],
@@ -7820,6 +7817,42 @@
   "news": [
     {
       "company": "Microsoft",
+      "title": "Microsoft CEO addresses outage amid wave of other tech failures",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPR2ZSaWN6cldvTjZpMUhXS3ZVQmVycmlGS1dBTzVSRUJFUjd0U2FkVnQ4Qzk0MnNFQXR5aEJydnl1NGZnOWwySzFCWnoyeFQ2MlpvZy1seXllQVFzMXBfbjdZd1FnbktLd1lfMGVjQ2QtSFpCY0t0M1B1Y2RUMExjLVR0eEY5YlFTcXZCS2VCeVg4ejdnVllJQUFn?oc=5",
+      "time": "19.11.2026 00:00",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
+      "source": "Longview Daily News"
+    },
+    {
+      "company": "Microsoft",
+      "title": "Microsoft's CEO: Global outage not related to AI",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNeU1LSmU0Tm9wVVgtSGlUQmFDaDFmLXgzLS02TkV1SEtodTR6eVE0MHkyWmxaTmxzMXpvZmdtMFVGRVp3X3F0djFDMVlKd3hXMnEzaWc4SEVTUUxLYjBLM0lkdkQwZm9sbGhfVHROd1JEblJFeUx1Q25FdzJjRDF5TFRuR0pXUi1xN2xESnE0dDVfYzVTdGdPWA?oc=5",
+      "time": "18.11.2026 23:38",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
+      "source": "Breakingthenews.net"
+    },
+    {
+      "company": "Amazon",
+      "title": "Amazon.com (NASDAQ:AMZN) Stock Jumps 3.8% - Here's Why",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNY3FYSHN1WVd5R2I5T0lTUXhrMmhMRVhwZ0FiTEZGTHRmaF92aHF2LUFpLVpWSXpUM2ZKYXdmbWRZUkp1MkV4aDluQzZSNncxTURrcmF2bU8xTWRFNzE2NU15WU1jVkRFY2NWeDFDekVQRjBHdi1tODg4SUtwR1pkajcwVmNjYmVEUFVteUVqOEk5elBpUkt4TjBVVEdFc0dTVm9qQ1lHN0MtQQ?oc=5",
+      "time": "18.11.2026 23:23",
+      "direction": "up",
+      "impact": "Může vést k nárůstu ceny akcie Amazon: prudký růst ukazuje na silný zájem investorů, po rychlém růstu ale může přijít i stahování zisků.",
+      "source": "MarketBeat"
+    },
+    {
+      "company": "Broadcom",
+      "title": "Stock Market Today, Nov. 18: Nvidia Slips on Strong Results as Succession and China Business Risks Weigh",
+      "url": "https://www.fool.com/coverage/stock-market-today/2026/11/18/stock-market-today-nov-18-nvidia-slips-on-strong-results-as-succession-and-china-business-risks-weigh/",
+      "time": "18.11.2026 23:11",
+      "direction": "up",
+      "impact": "Může vést k nárůstu ceny akcie Broadcom: silnější výsledky nebo vyšší výhled zvyšují očekávání budoucích zisků.",
+      "source": "Motley Fool"
+    },
+    {
+      "company": "Microsoft",
       "title": "Satya Nadella addresses Microsoft outages, says AI cuts both ways on software flaws",
       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9VUmVmUlctZVJ0R2ZnQk0tS0NQXzBxS1R1bVp1bEJaMXFfdk9mYll5WkpNXzVsNkdjQmk1d1pzOXQzeHVvcVQ5Y0NJMThPWXF2SG9oQnJEdDZxRzBIWEdybE1kd09yX2J3Q1g4dlV3Zw?oc=5",
       "time": "18.11.2026 23:03",
@@ -7828,31 +7861,13 @@
       "source": "Crypto Briefing"
     },
     {
-      "company": "NVIDIA",
-      "title": "Update: Wall Street Mixed Amid Nvidia Sell-Off, Fed Minutes",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-mixed-amid-nvidia-220050802.html",
-      "time": "18.11.2026 23:00",
+      "company": "Apple",
+      "title": "Citi CEO Expects More Tech Outages",
+      "url": "https://finance.yahoo.com/video/citi-ceo-expects-more-tech-215033505.html",
+      "time": "18.11.2026 22:50",
       "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie NVIDIA: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
-      "source": "MT Newswires"
-    },
-    {
-      "company": "Microsoft",
-      "title": "The U.S. Tech Outage Wave, Explained",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVnVhWEE5dnJ5bnhvemZFdXB3blZ2SjZSU0pFZlJ2UWpMTXZEY3ZESDJ1eTNkYXY5dzRrNVpLOERfczhHdDFEY2preF9vZTF1Zk9KbF9DN3RnRDhVVnB0M3p0N1JYcy1oLUkxdFZXNF9IbzgwalNJUjgzazYtazdRNElpbi1YOTFWTUhnTEYtZVVQQ0hDQnlMMlB1N0NrR1E?oc=5",
-      "time": "18.11.2026 22:56",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
-      "source": "Foreign Policy"
-    },
-    {
-      "company": "Microsoft",
-      "title": "Microsoft hit with Canadian class actions over massive outage",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNekg5azI0WkJ2OE5jZHF5U2lpSHhBQnl5UGJLSzlmYWRjalc5TG9hMWYwbGx1bWpGQmlHcjhmUEp1UmtYM0VTbGMxNjNadjdPNDYwRWtTVGV4b2VjNHlUbWZpaFNmdEV4czEwMms0eExiQU1nczlqdERVSmVlSWFDc1dCTGN6dkpQWmhBOTJSQzlBUTR2YTNFUw?oc=5",
-      "time": "18.11.2026 22:48",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Microsoft: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
-      "source": "Courthouse News Service"
+      "impact": "Může vést k poklesu ceny akcie Apple: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
+      "source": "Bloomberg"
     },
     {
       "company": "Meta",
@@ -7882,22 +7897,22 @@
       "source": "TechCrunch"
     },
     {
-      "company": "NVIDIA",
-      "title": "What Nvidia’s Interim CEO, Colette Kress, Said to Employees After Jensen Huang’s Resignation",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNa2dJSnFrVWt3REVkbE5CbllIMi1jZnFlRmtPbmZJM09SbmpoOEhVWElRVElyY00xc29ZLXA5T2wtRWFHQ0YzMG1jdjRPZWM4d2RaR05ja3Y3TGx5LURKVTk4allMbzduWC1uNVJSZmM4SlB6SjBiSVdWLXI5OW83V1RZcjF1SmctMzhaMXlHOXNSOXQycWc?oc=5",
-      "time": "18.11.2026 22:11",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie NVIDIA: odchod klíčového manažera zvyšuje nejistotu o dalším směřování firmy.",
-      "source": "The New York Times"
-    },
-    {
       "company": "Amazon",
       "title": "Amazon has cut the price of Magic: The Gathering's Marvel Super Heroes Jumpstart Booster Box to a record low",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOMl9lNnNiRDVzZF84TDRxU0VyUVIwbEZaNjNiSDBlV2xjdjlyUEl1VjNxR1ZjZ3J6eTEzT096UmZqTnFtVzc3aEdiOUUyLTlHS2tZMnZnWUwtUjN1eU0zOExqdjBvaDRnblZPekRZamM3TFBSc1NvMTdYbmdFT2ZuWXlpMTBPYnBYbTZIaVFTZExzbVI0SmIweVY2OHNzdXA0?oc=5",
-      "time": "18.11.2026 22:11",
+      "time": "18.11.2026 22:16",
       "direction": "up",
       "impact": "Může vést k nárůstu ceny akcie Amazon: prudký růst ukazuje na silný zájem investorů, po rychlém růstu ale může přijít i stahování zisků.",
       "source": "Mashable"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Nvidia’s interim CEO urges employees to leave Jensen Huang behind: ‘Let’s move forward’",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQb3Q4dnoyWkg4d1lwN3I4ZmpMaGxzQlRvWGRIMjV0THZ0dkw1NDFoM19RX0YyUFNMUWhhT1NHMGxfeDhvV202ZTJMdHEwN1hUT05RdEI1aXlwcFBqT19BRkxfamduVjdMRjRqUlpXc29jNDVqbFBUTzZHVmMwUjZjRkRRbGYzaXBUYXZQZ2ZlekRIbnF2RUx1SW5CQzNJRUc1WWlGRWpLUE1CalZDaWI0RDBydktJUnRvbXhCNW0xQQ?oc=5",
+      "time": "18.11.2026 22:11",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie NVIDIA: odchod klíčového manažera zvyšuje nejistotu o dalším směřování firmy.",
+      "source": "New York Post"
     },
     {
       "company": "JPMorgan",
@@ -7907,6 +7922,15 @@
       "direction": "mixed",
       "impact": "Dopad na cenu akcie JPMorgan je nejednoznačný: propouštění může ušetřit náklady, ale často signalizuje slabší poptávku.",
       "source": "The Business Journals"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "I'm a veteran hedge fund investor. Here's why Jensen Huang's resignation hasn't scared me away from Nvidia stock.",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWmhJYkNkMlM2SEZXbFRKeXI0SmxYM2xQRUtURy1RcEtPbnVrbTA0MjB6OGI2N0hiVzhzTkI0UDJRbzc2Znkxa2NHRGM4czJ0eUhhRU4tMmZVLTltZTJGZ29VTWVrOXFWRy0tUktGRWl5Szd0bVVudjIwSEc4bUFjQXdKc0tJbTVxSXZOb3RYU3M4QVA3dzZFMUEzdkFQZ2M?oc=5",
+      "time": "18.11.2026 19:49",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie NVIDIA: odchod klíčového manažera zvyšuje nejistotu o dalším směřování firmy.",
+      "source": "Business Insider"
     },
     {
       "company": "JPMorgan",
@@ -8006,33 +8030,6 @@
       "direction": "up",
       "impact": "Může vést k nárůstu ceny akcie Apple: prudký růst ukazuje na silný zájem investorů, po rychlém růstu ale může přijít i stahování zisků.",
       "source": "Benzinga"
-    },
-    {
-      "company": "Tencent",
-      "title": "[Tencent Holdings Q3 2026 Earnings Call] Tencent's AI Bet Squeezes Profit: Non-IFRS Operating Profit Falls 6% as CapEx Surges 257%",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1DN1NLSDVXeUZYQWxJQXBsWmluM1hicktzWmU4QkdpWmpWN2J2bEpSMVEwTDByM3NKRUdvM2c2NTUwZnQyQ0pfM3MzcDEzcHduNVoxWUdqOHJLbVlacTNF?oc=5",
-      "time": "18.11.2026 15:14",
-      "direction": "mixed",
-      "impact": "Zpráva obsahuje pozitivní i negativní signály, dopad na cenu akcie Tencent je nejasný.",
-      "source": "BigGo Finance"
-    },
-    {
-      "company": "Toyota",
-      "title": "Toyota’s Own Recall Filing Is the Clock Ticking in the Camry Hybrid Inverter Lawsuit",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNYmlRaTlTbVhyeXdmdlpjTGdDcTlzTzN3UG9jRWc3ckdiQlZUTVRSbEg1T1NTaG9QREY5YUt4ZGFTdDAyanRSUTRtNkt4dUJ1TUJfUXhsRzZ6VXRGSlBOQ2NrUkg1d0lEOFNZVGlxWWwyWTNJeE5acmxSVDdHT1NKeVdzWmFQM1lmU2VYby12bw?oc=5",
-      "time": "18.11.2026 15:00",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Toyota: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
-      "source": "The Auto Wire"
-    },
-    {
-      "company": "SpaceX",
-      "title": "SpaceX Stock Rises 3.16% as AI Revenue Surges 830% in Q3 2026",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxONDlxRDZBZ0I4SjA2dUxQWkYtNWFzX0pmOW93cXlYZHotUUhycnB5SGJIS0k0akVMRnN0VXdxUVhmUzdyNmk0bHAtZjVDV0t1cnB1SEpCRERzaXhNVUtuRW1sOFFrZzBveXQ1MXZIc3IzOTNHNk5MRWRyVC1VTXlUVUFpNk4tV0ZJdDhGN25ZUlZwU2J4SU1feXZfOGNUQQ?oc=5",
-      "time": "18.11.2026 14:44",
-      "direction": "up",
-      "impact": "Může vést k nárůstu ceny akcie SpaceX: prudký růst ukazuje na silný zájem investorů, po rychlém růstu ale může přijít i stahování zisků.",
-      "source": "FXLeaders"
     }
   ]
 }
