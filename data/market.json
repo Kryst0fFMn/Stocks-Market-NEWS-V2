@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T21:46:27.692218+00:00",
+  "updated_at": "2026-11-18T22:06:44.149555+00:00",
   "stocks": [
     {
       "name": "Microsoft",
@@ -7820,20 +7820,74 @@
   "news": [
     {
       "company": "Microsoft",
+      "title": "Satya Nadella addresses Microsoft outages, says AI cuts both ways on software flaws",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9VUmVmUlctZVJ0R2ZnQk0tS0NQXzBxS1R1bVp1bEJaMXFfdk9mYll5WkpNXzVsNkdjQmk1d1pzOXQzeHVvcVQ5Y0NJMThPWXF2SG9oQnJEdDZxRzBIWEdybE1kd09yX2J3Q1g4dlV3Zw?oc=5",
+      "time": "18.11.2026 23:03",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
+      "source": "Crypto Briefing"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Update: Wall Street Mixed Amid Nvidia Sell-Off, Fed Minutes",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-mixed-amid-nvidia-220050802.html",
+      "time": "18.11.2026 23:00",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie NVIDIA: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
+      "source": "MT Newswires"
+    },
+    {
+      "company": "Microsoft",
+      "title": "The U.S. Tech Outage Wave, Explained",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVnVhWEE5dnJ5bnhvemZFdXB3blZ2SjZSU0pFZlJ2UWpMTXZEY3ZESDJ1eTNkYXY5dzRrNVpLOERfczhHdDFEY2preF9vZTF1Zk9KbF9DN3RnRDhVVnB0M3p0N1JYcy1oLUkxdFZXNF9IbzgwalNJUjgzazYtazdRNElpbi1YOTFWTUhnTEYtZVVQQ0hDQnlMMlB1N0NrR1E?oc=5",
+      "time": "18.11.2026 22:56",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
+      "source": "Foreign Policy"
+    },
+    {
+      "company": "Microsoft",
+      "title": "Microsoft hit with Canadian class actions over massive outage",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNekg5azI0WkJ2OE5jZHF5U2lpSHhBQnl5UGJLSzlmYWRjalc5TG9hMWYwbGx1bWpGQmlHcjhmUEp1UmtYM0VTbGMxNjNadjdPNDYwRWtTVGV4b2VjNHlUbWZpaFNmdEV4czEwMms0eExiQU1nczlqdERVSmVlSWFDc1dCTGN6dkpQWmhBOTJSQzlBUTR2YTNFUw?oc=5",
+      "time": "18.11.2026 22:48",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Microsoft: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
+      "source": "Courthouse News Service"
+    },
+    {
+      "company": "Meta",
+      "title": "Meta is pausing Class C stock issuance during shareholder lawsuit",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPajZSNlo0SWlOcDZveElQT1F1MVhGV25iTU5TSlNPY2lMNE9hbTM4cnhQX2d0VXVSd2U0SWFHVVNTTWQ0Z0lkcDVuMDA5dEFKVkw1SGduYW1UajN6bk1KeExydHJqZ1FvVnVFUXFLOF95akZ2Nk11Mk1CYVdDbnB5ZEdR?oc=5",
+      "time": "18.11.2026 22:39",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Meta: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
+      "source": "Quartz"
+    },
+    {
+      "company": "Alphabet",
       "title": "AI agent swarms could turn major outages into identity risks: Anthropic investor",
       "url": "https://finance.yahoo.com/video/ai-agent-swarms-could-turn-major-outages-into-identity-risks-anthropic-investor-213612726.html",
       "time": "18.11.2026 22:36",
       "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
+      "impact": "Může vést k poklesu ceny akcie Alphabet: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
       "source": "Yahoo Finance Video"
     },
     {
-      "company": "Microsoft",
-      "title": "After Days of Digital Outages, Americans Wonder if the Country Is Breaking",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRHdMUERsSzNMQ0laanVlNEVzdVdidk1UUnF2Qk01aERvekc4VWtxMnhSaUVTWlE1NkxIc01RbE5kSFdnZjk5ZzF2RFRielQ1RFVScVdKMndFOWVRMVRxWG5Qa2hwc0hCME45d25tMXY2SjZHWlhlSEplNjE1UlU2aUdRZ0Q?oc=5",
-      "time": "18.11.2026 22:23",
+      "company": "NVIDIA",
+      "title": "Palmer Luckey thinks China is 'thrilled to have Jensen out,' so he wants the ousted Nvidia CEO reinstated",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPWGxhQzJoNUE0aFlkMUlfcFlxX3had28xcUE4alhiazRWclR4dFBfM0c5NkRVS0xUODhqTXZnLW1rNFFqX1llZ2E1dWxwajczZ1pnc1FheW5kLWJfNDhMcHAyWnRtZ0RMa09Ya0RaYUVEMks4dFNiWkliUnR3Vkp6VEpsNHc2Y0RVNUxyNkVHVnhqWTdzYjhTRHQxTU56Q1BpUkt0NGpfb19jSzRlMmxUczFaWTZZUDZqVTV1eEowQ2VvMlUtUEwyM216NER2X3hRX2xv?oc=5",
+      "time": "18.11.2026 22:31",
       "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
+      "impact": "Může vést k poklesu ceny akcie NVIDIA: odchod klíčového manažera zvyšuje nejistotu o dalším směřování firmy.",
+      "source": "TechCrunch"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "What Nvidia’s Interim CEO, Colette Kress, Said to Employees After Jensen Huang’s Resignation",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNa2dJSnFrVWt3REVkbE5CbllIMi1jZnFlRmtPbmZJM09SbmpoOEhVWElRVElyY00xc29ZLXA5T2wtRWFHQ0YzMG1jdjRPZWM4d2RaR05ja3Y3TGx5LURKVTk4allMbzduWC1uNVJSZmM4SlB6SjBiSVdWLXI5OW83V1RZcjF1SmctMzhaMXlHOXNSOXQycWc?oc=5",
+      "time": "18.11.2026 22:11",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie NVIDIA: odchod klíčového manažera zvyšuje nejistotu o dalším směřování firmy.",
       "source": "The New York Times"
     },
     {
@@ -7846,24 +7900,6 @@
       "source": "Mashable"
     },
     {
-      "company": "NVIDIA",
-      "title": "Nvidia’s interim CEO urges employees to leave Jensen Huang behind: ‘Let’s move forward’",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQb3Q4dnoyWkg4d1lwN3I4ZmpMaGxzQlRvWGRIMjV0THZ0dkw1NDFoM19RX0YyUFNMUWhhT1NHMGxfeDhvV202ZTJMdHEwN1hUT05RdEI1aXlwcFBqT19BRkxfamduVjdMRjRqUlpXc29jNDVqbFBUTzZHVmMwUjZjRkRRbGYzaXBUYXZQZ2ZlekRIbnF2RUx1SW5CQzNJRUc1WWlGRWpLUE1CalZDaWI0RDBydktJUnRvbXhCNW0xQQ?oc=5",
-      "time": "18.11.2026 22:11",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie NVIDIA: odchod klíčového manažera zvyšuje nejistotu o dalším směřování firmy.",
-      "source": "New York Post"
-    },
-    {
-      "company": "Amazon",
-      "title": "New York trust acquires Amazon data centers in Madison County",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdGZpQ211Q2l1UUx1bDJwQndscURieHhkdnF1Rmp6a25WS0pheS0wZEU4ejJnMlR1R3V6VVdCT1NrRWZjS0Z2ck45MmpKb3RJZ2NVaVdkR3ZIR25MU2VWNGh0NjZRYlRBcUZGS3g3b2FJNHBxY25oZFZwY2N3SFRGeWxxbjNUVWRPSEQzN1lxekxSdEJNd1FfaUJyQ1RMWG1hZmlzcXB2ZzE3dnlFdFNCNHpXa3FDU3Nua2NnektIbHg?oc=5",
-      "time": "18.11.2026 21:57",
-      "direction": "mixed",
-      "impact": "Dopad na cenu akcie Amazon je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
-      "source": "The Clarion-Ledger"
-    },
-    {
       "company": "JPMorgan",
       "title": "Daily Digest: Wells Fargo lures exec from JPMorganChase, Salesforce eyes more layoffs as stock falls",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPM0ZKcktCY2xmUFRmUGNTVDZkYnRFZVcwM3hUTGhkSGtVYThtRGg2bXRmY3BodWF4enpENGxUSzdXeUVZSTBaQnBfVVM5MDhEajU0cHE3cGpuclZZYlEyN19ULVJRMEZLRlVvRDFVanYxYi1DYW85UzBRU0liNmxURFZXR0I1YWd4Smk2YzcxMXlPcVVIUWZ2WTZEbGJwd1lZN2NBSVpWQllOVDQ4ZlJRNmlB?oc=5",
@@ -7871,33 +7907,6 @@
       "direction": "mixed",
       "impact": "Dopad na cenu akcie JPMorgan je nejednoznačný: propouštění může ušetřit náklady, ale často signalizuje slabší poptávku.",
       "source": "The Business Journals"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "What Nvidia’s Interim CEO, Colette Kress, Said to Employees After Jensen Huang’s Resignation",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNa2dJSnFrVWt3REVkbE5CbllIMi1jZnFlRmtPbmZJM09SbmpoOEhVWElRVElyY00xc29ZLXA5T2wtRWFHQ0YzMG1jdjRPZWM4d2RaR05ja3Y3TGx5LURKVTk4allMbzduWC1uNVJSZmM4SlB6SjBiSVdWLXI5OW83V1RZcjF1SmctMzhaMXlHOXNSOXQycWc?oc=5",
-      "time": "18.11.2026 20:51",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie NVIDIA: odchod klíčového manažera zvyšuje nejistotu o dalším směřování firmy.",
-      "source": "The New York Times"
-    },
-    {
-      "company": "Microsoft",
-      "title": "Here are all of the recent major outages, national disruptions",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNMnZMSVJ4VktNNGhRVXZ2N3NTMUNtU215QlJ0cEpCMG1Dam5wTDNLY193VE5tcHlvR0wyM0VUSXNKWXZnRVNRX2gyUmlSUGxRdmNJX2xHWnNzNmhoQzM4Y3V1ZXpDTTI5MUttSVp5UWJwOGc3ZHBqeXB1aVBmRzlLYkhNZkdwMjNIdURlYTE2OWJMQkZZclV2bHJB?oc=5",
-      "time": "18.11.2026 20:30",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
-      "source": "USA Today"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "I'm a veteran hedge fund investor. Here's why Jensen Huang's resignation hasn't scared me away from Nvidia stock.",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWmhJYkNkMlM2SEZXbFRKeXI0SmxYM2xQRUtURy1RcEtPbnVrbTA0MjB6OGI2N0hiVzhzTkI0UDJRbzc2Znkxa2NHRGM4czJ0eUhhRU4tMmZVLTltZTJGZ29VTWVrOXFWRy0tUktGRWl5Szd0bVVudjIwSEc4bUFjQXdKc0tJbTVxSXZOb3RYU3M4QVA3dzZFMUEzdkFQZ2M?oc=5",
-      "time": "18.11.2026 19:49",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie NVIDIA: odchod klíčového manažera zvyšuje nejistotu o dalším směřování firmy.",
-      "source": "Business Insider"
     },
     {
       "company": "JPMorgan",
@@ -8024,15 +8033,6 @@
       "direction": "up",
       "impact": "Může vést k nárůstu ceny akcie SpaceX: prudký růst ukazuje na silný zájem investorů, po rychlém růstu ale může přijít i stahování zisků.",
       "source": "FXLeaders"
-    },
-    {
-      "company": "ASML",
-      "title": "ASML Stock Price Prediction: ASML lifts guidance again as the stock tests lower support",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQOWY1cDlwVWExLTUwUHFTUXpTa0ZUVDMtRkxVaExqdHNWY0FZMDByWXdVaXpUTV9pTmdqN3d1S2VMTUtmR0VvRWxnWENxRnE2TUhfQktYNm5LNlFaUUZzSGlvZHVYb1FYSDRveE5YTE04S3ZmSy1KMjZHR1ZhZzF2cTdLd05aN1ZQd1dKamh5Y2FnaXk4QUpR?oc=5",
-      "time": "18.11.2026 13:28",
-      "direction": "up",
-      "impact": "Může vést k nárůstu ceny akcie ASML: silnější výsledky nebo vyšší výhled zvyšují očekávání budoucích zisků.",
-      "source": "Blockchain News"
     }
   ]
 }
