@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-11-18T16:19:01.750631+00:00",
+  "updated_at": "2026-11-18T18:06:32.308905+00:00",
   "stocks": [
     {
       "name": "Microsoft",
       "symbol": "MSFT",
       "market": "USA",
       "currency": "USD",
-      "price": 503.065,
-      "change": -0.63,
+      "price": 505.56,
+      "change": -0.13,
       "history": [
         ["2025-11-18", 493.79],
         ["2025-11-19", 487.12],
@@ -260,7 +260,7 @@
         ["2026-11-13", 523.88],
         ["2026-11-16", 517.99],
         ["2026-11-17", 506.24],
-        ["2026-11-18", 503.07]
+        ["2026-11-18", 505.56]
       ]
     },
     {
@@ -268,8 +268,8 @@
       "symbol": "NVDA",
       "market": "USA",
       "currency": "USD",
-      "price": 152.01,
-      "change": -2.22,
+      "price": 151.59,
+      "change": -2.49,
       "history": [
         ["2025-11-18", 181.36],
         ["2025-11-19", 186.52],
@@ -522,7 +522,7 @@
         ["2026-11-13", 162.85],
         ["2026-11-16", 156.14],
         ["2026-11-17", 155.46],
-        ["2026-11-18", 152.01]
+        ["2026-11-18", 151.59]
       ]
     },
     {
@@ -530,8 +530,8 @@
       "symbol": "AAPL",
       "market": "USA",
       "currency": "USD",
-      "price": 352.75,
-      "change": 0.24,
+      "price": 353.435,
+      "change": 0.43,
       "history": [
         ["2025-11-18", 267.44],
         ["2025-11-19", 268.56],
@@ -784,7 +784,7 @@
         ["2026-11-13", 356.27],
         ["2026-11-16", 352.78],
         ["2026-11-17", 351.91],
-        ["2026-11-18", 352.75]
+        ["2026-11-18", 353.43]
       ]
     },
     {
@@ -792,8 +792,8 @@
       "symbol": "AMZN",
       "market": "USA",
       "currency": "USD",
-      "price": 263.25,
-      "change": 2.08,
+      "price": 266.34,
+      "change": 3.28,
       "history": [
         ["2025-11-18", 222.55],
         ["2025-11-19", 222.69],
@@ -1046,7 +1046,7 @@
         ["2026-11-13", 266.66],
         ["2026-11-16", 257.75],
         ["2026-11-17", 257.89],
-        ["2026-11-18", 263.25]
+        ["2026-11-18", 266.34]
       ]
     },
     {
@@ -1054,8 +1054,8 @@
       "symbol": "HSBA.L",
       "market": "Velká Británie",
       "currency": "GBp",
-      "price": 1294.6,
-      "change": -1.91,
+      "price": 1292.2,
+      "change": -2.09,
       "history": [
         ["2025-11-18", 1056.0],
         ["2025-11-19", 1047.6],
@@ -1309,7 +1309,7 @@
         ["2026-11-13", 1354.4],
         ["2026-11-16", 1347.0],
         ["2026-11-17", 1319.8],
-        ["2026-11-18", 1294.6]
+        ["2026-11-18", 1292.2]
       ]
     },
     {
@@ -1317,8 +1317,8 @@
       "symbol": "AZN.L",
       "market": "Velká Británie",
       "currency": "GBp",
-      "price": 13612.0,
-      "change": -1.38,
+      "price": 13646.0,
+      "change": -1.13,
       "history": [
         ["2025-11-18", 13566.0],
         ["2025-11-19", 13596.0],
@@ -1573,7 +1573,7 @@
         ["2026-11-13", 13982.0],
         ["2026-11-16", 14034.0],
         ["2026-11-17", 13802.0],
-        ["2026-11-18", 13612.0]
+        ["2026-11-18", 13646.0]
       ]
     },
     {
@@ -1581,8 +1581,8 @@
       "symbol": "SAP.DE",
       "market": "Německo",
       "currency": "EUR",
-      "price": 195.48,
-      "change": -2.99,
+      "price": 193.92,
+      "change": -3.76,
       "history": [
         ["2025-11-18", 205.35],
         ["2025-11-19", 205.5],
@@ -1837,7 +1837,7 @@
         ["2026-11-13", 213.45],
         ["2026-11-16", 213.4],
         ["2026-11-17", 201.5],
-        ["2026-11-18", 195.48]
+        ["2026-11-18", 193.92]
       ]
     },
     {
@@ -1845,8 +1845,8 @@
       "symbol": "SIE.DE",
       "market": "Německo",
       "currency": "EUR",
-      "price": 266.5,
-      "change": -1.22,
+      "price": 266.0,
+      "change": -1.41,
       "history": [
         ["2025-11-18", 218.15],
         ["2025-11-19", 218.6],
@@ -2101,7 +2101,7 @@
         ["2026-11-13", 279.4],
         ["2026-11-16", 272.55],
         ["2026-11-17", 269.8],
-        ["2026-11-18", 266.5]
+        ["2026-11-18", 266.0]
       ]
     },
     {
@@ -2869,8 +2869,8 @@
       "symbol": "SHOP.TO",
       "market": "Kanada",
       "currency": "CAD",
-      "price": 199.69,
-      "change": -1.55,
+      "price": 201.65,
+      "change": -0.58,
       "history": [
         ["2025-11-18", 196.32],
         ["2025-11-19", 205.36],
@@ -3123,7 +3123,7 @@
         ["2026-11-13", 209.74],
         ["2026-11-16", 211.43],
         ["2026-11-17", 202.83],
-        ["2026-11-18", 199.69]
+        ["2026-11-18", 201.65]
       ]
     },
     {
@@ -3654,8 +3654,8 @@
       "symbol": "NESN.SW",
       "market": "Švýcarsko",
       "currency": "CHF",
-      "price": 85.97,
-      "change": -0.88,
+      "price": 86.03,
+      "change": -0.81,
       "history": [
         ["2025-11-18", 79.26],
         ["2025-11-19", 79.42],
@@ -3907,7 +3907,7 @@
         ["2026-11-13", 87.72],
         ["2026-11-16", 88.12],
         ["2026-11-17", 86.73],
-        ["2026-11-18", 85.97]
+        ["2026-11-18", 86.03]
       ]
     },
     {
@@ -3915,8 +3915,8 @@
       "symbol": "OR.PA",
       "market": "Francie",
       "currency": "EUR",
-      "price": 443.85,
-      "change": -0.56,
+      "price": 443.05,
+      "change": -0.74,
       "history": [
         ["2025-11-18", 351.75],
         ["2025-11-19", 350.65],
@@ -4173,7 +4173,7 @@
         ["2026-11-13", 451.2],
         ["2026-11-16", 450.15],
         ["2026-11-17", 446.35],
-        ["2026-11-18", 443.85]
+        ["2026-11-18", 443.05]
       ]
     },
     {
@@ -4181,8 +4181,8 @@
       "symbol": "ASML.AS",
       "market": "Nizozemsko",
       "currency": "EUR",
-      "price": 1263.2,
-      "change": 2.13,
+      "price": 1260.8,
+      "change": 1.94,
       "history": [
         ["2025-11-18", 865.6],
         ["2025-11-19", 886.6],
@@ -4439,7 +4439,7 @@
         ["2026-11-13", 1338.8],
         ["2026-11-16", 1306.6],
         ["2026-11-17", 1236.8],
-        ["2026-11-18", 1263.2]
+        ["2026-11-18", 1260.8]
       ]
     },
     {
@@ -4447,8 +4447,8 @@
       "symbol": "PETR4.SA",
       "market": "Brazílie",
       "currency": "BRL",
-      "price": 43.07,
-      "change": -2.07,
+      "price": 42.83,
+      "change": -2.61,
       "history": [
         ["2025-11-18", 32.99],
         ["2025-11-19", 32.82],
@@ -4697,11 +4697,131 @@
         ["2026-11-13", 45.3],
         ["2026-11-16", 44.02],
         ["2026-11-17", 43.98],
-        ["2026-11-18", 43.07]
+        ["2026-11-18", 42.83]
       ]
     }
   ],
   "news": [
+    {
+      "company": "NVIDIA",
+      "title": "Why Nvidia is still the central bank of AI without Jensen Huang",
+      "url": "https://finance.yahoo.com/video/why-nvidia-is-still-the-central-bank-of-ai-without-jensen-huang-175054695.html",
+      "time": "18.11.2026 18:50",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "Yahoo Finance Video"
+    },
+    {
+      "company": "BHP",
+      "title": "BHP and Rio chiefs meet China’s Li Qiang as Guinea’s Simandou targets 120m tonnes a year, putting Australia’s $72bn iron-ore exports under pressure",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNNzBkQU03bFl1QW1RRlRkNzJsVFpHbWhReHVsdTQyNDh6azJoWUR4SWQ1aVRqdmhiVXQtbXVGUjNVYzBVSTZWdEtxLU5xa0lydFJ4S0lyTmozYk0zcEdjUEd2b2VvaVhDTElKN25ad082SnJQQWZhcThCYWpvNUx1cFNaVkRCQUs5YXFoVEFLSUxubG1DbjZVNnR2eWdDQ3lPSHdVT210Z2JGcU5UMXpUeXFDOUFEbVRjbjBHTl9UT1MtNEdLR294OVRWYW1Ba0hoQmlmTw?oc=5",
+      "time": "18.11.2026 18:44",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "Business Insider Africa"
+    },
+    {
+      "company": "Apple",
+      "title": "MP to Become Major Domestic Permanent Magnet Supplier Over Next 3 Years, Says Needham",
+      "url": "https://stocktwits.com/news-articles/markets/equity/mp-to-become-major-domestic-permanent-magnet-supplier-over-next-3-years-says-needham/cNbgJ9JR9Ly",
+      "time": "18.11.2026 18:37",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "Stocktwits"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Nvidia stock erases earnings pop as investors face life after Jensen Huang",
+      "url": "https://finance.yahoo.com/markets/stocks/article/nvidia-stock-erases-earnings-pop-as-investors-face-life-after-jensen-huang-173547783.html",
+      "time": "18.11.2026 18:35",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "Yahoo Finance"
+    },
+    {
+      "company": "Amazon",
+      "title": "Nvidia Stock At $155: Cheaper Than Its 2018 Low?",
+      "url": "https://www.trefis.com/stock/nvda/articles/626058/nvidia-stock-at-155-cheaper-than-its-2018-low/2026-11-18",
+      "time": "18.11.2026 18:34",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "Trefis"
+    },
+    {
+      "company": "ASML",
+      "title": "The Stock Certificates in Your Safe-Deposit Box at 76 Belong in These 3 ETFs",
+      "url": "https://247wallst.com/investing/etf/2026/11/18/the-stock-certificates-in-your-safe-deposit-box-at-76-belong-in-these-3-etfs/",
+      "time": "18.11.2026 18:32",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "24/7 Wall St."
+    },
+    {
+      "company": "ASML",
+      "title": "Bernstein Spots 4 Ways to Play the $279 Billion Chip Tool Boom",
+      "url": "https://finance.yahoo.com/technology/articles/bernstein-spots-4-ways-play-173014503.html",
+      "time": "18.11.2026 18:30",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "GuruFocus.com"
+    },
+    {
+      "company": "Toyota",
+      "title": "Toyota, Honda, Chevy lead minority sales in new Rainbow PUSH index",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNOFBmd2RJM3o0ZC05MFZQMlhUUFBRai1OZDRJZ3NhTFNIM3I4UnZmX2pDR2hHdF9vcVdXYlQxalZsVFgxNVplQnZySnhEXzUzaTZqTEoxNHBLM0lPdjVIZUpYeUp5S0x2Yml2QjJhQWhPVmxRYTZKa1cyVEJHUGk4TWVpNVc4STNzY25fMS13QTd0QQ?oc=5",
+      "time": "18.11.2026 18:29",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "Automotive News"
+    },
+    {
+      "company": "Tencent",
+      "title": "Tencent Music Stocks Jump 6.64% as Membership Revenue Climbs 9.2%",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/tencent-music-stocks-jump-6-172116976.html",
+      "time": "18.11.2026 18:21",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "GuruFocus.com"
+    },
+    {
+      "company": "BHP",
+      "title": "3 Mining Giants Pay Big Dividends, but Their Yields Come With a Catch",
+      "url": "https://247wallst.com/investing/2026/11/18/3-mining-giants-pay-big-dividends-but-their-yields-come-with-a-catch/",
+      "time": "18.11.2026 18:19",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "24/7 Wall St."
+    },
+    {
+      "company": "Amazon",
+      "title": "Amazon and Alphabet Will Own Over 28% of Anthropic After Its IPO. Here’s What That Means for Their Stocks.",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOYU1Lcy0yRzhtLVRmZ003M0VQVVJTbUF3ZEFXMVItd3JjdElrZVdYalkzWjNsVXNvaDkzcHYtZHBEWnRVREw5T2YzaHZNUEQtRVJEeVVWUlE0WDUwMF9PXy1zS05FMFlaS0Myc3ZCVHFWVmVsYXd0VXBHQl9qOXhXMFFNQm9iaWUtbjl4VW9ZUFg1Y3VnSWIwZHl6c2dscnNUMWhFRklQZGc?oc=5",
+      "time": "18.11.2026 18:10",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "The Motley Fool"
+    },
+    {
+      "company": "Amazon",
+      "title": "Prime members can get $20 off dinner with this Uber Eats deal — last chance to claim",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNVjI5RHYwOERuMWVXcGU5UDN3Q08waV9NaGxtbjY5NERSd19fRl9FQjh6NUJWVGlBWC1manUzbnVPSFBpaDRyYTlWR3VkTlBPaUU3b1U5VUdGMXhqeDE1aTNIVFN0eVJQbU9ZaWxJenlQSWx1NWttbHZFTWw2TnkwM3NhWDJHdw?oc=5",
+      "time": "18.11.2026 18:07",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "Mashable"
+    },
+    {
+      "company": "Siemens",
+      "title": "Siemens Integrates Agentic AI Into Additive Manufacturing To Enable Adaptive Production",
+      "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxObF9xb1pYajhBM3U3QnQtSEZYa2thOXB0Y2dTYjNwZlR6WGcxTkJZVkJ0SkZ1MzBMUUNoWF94NWgyWlpGSzVpVHljdDNWN19nX1hjaU5uVlo5c1AzQjJoRW5kTVI3VlA3aEVhYzItMEJDTExDWjJ5S1NNcFpqNkZTczV5ZVdWTXVVUjViQ2hYQ3ljblJ0TTBaYzdSNnBtT0RxZmlacmFybk9wNG12YnppZEhFcllIMTV5Z0pDUUpiM3o1QXJDYjFlN2JDcTRGY2RvUjZfS2FOSnc3ckxHZGNMWC1rTl9HQ0M0V0ROZ3J6UUI2NnItT3pzdGtJR1pVV2NyMGViMjluMXpxZFNsaVNWUWJnZzlyME8tOEUxdlFR?oc=5",
+      "time": "18.11.2026 17:57",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "Automation World"
+    },
+    {
+      "company": "ASML",
+      "title": "Netherlands calls US bid to curb ASML exports unacceptable",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOSV9HWGZMVHJweTBWNEw0LWlMUlFTcXlPYW5raWd5RGV1UTdGSXd6bGFWV3NuNy0yUWFQM0dZMDkwTi1aLTYtLVRfWk9nUlZaRXBYNXJIUW5aSmdtQVI1QTB1eHV4ZEZ5WU9IWVE5X1E1a010aDFheTV2WUoxUzlZVE1CQl9YRzE1eEh0Y2tFbUdSZkNvSEs5TTZZOVVrOHM?oc=5",
+      "time": "18.11.2026 17:23",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "The Next Web"
+    },
+    {
+      "company": "Shopify",
+      "title": "AI Cost Efficiency for Retail Businesses (2027)",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBJUVJPSjVjVFV4dDFlMTNmRWF6N0pWTTNQMko1LUtxUjVhMDlubVBZSEdGRFFZMzlXc21uc1ZOV3BvS1pkV2tTa21WNUVnbHhCcmNYMW9fN29IdjJmNEw2RExHZm5CZ1o1Z1E?oc=5",
+      "time": "18.11.2026 17:09",
+      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
+      "source": "Shopify"
+    },
     {
       "company": "Microsoft",
       "title": "What’s New in Microsoft 365 – November 2026",
@@ -4719,28 +4839,12 @@
       "source": "WSJ"
     },
     {
-      "company": "Apple",
-      "title": "Apple Stock Polishes Breakout As Nvidia-Led AI Boom Gets Wake-Up Call",
-      "url": "https://www.investors.com/research/ibd-stock-analysis/apple-stock-outshines-ai-peers-nvidia-meta/?src=A00220&yptr=yahoo",
-      "time": "18.11.2026 17:07",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "Investor's Business Daily"
-    },
-    {
-      "company": "Amazon",
-      "title": "Owala and Coca-Cola team up for new Amazon-exclusive release",
-      "url": "https://www.thestreet.com/retail/owala-coca-cola-new-amazon-exclusive-collaboration",
-      "time": "18.11.2026 17:07",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "TheStreet"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "There's a 'real risk' for Nvidia if they pick the wrong CEO candidate",
-      "url": "https://finance.yahoo.com/video/theres-real-risk-nvidia-pick-160000497.html",
+      "company": "Sony",
+      "title": "Sony’s updated turntable is an easy entry into the world of vinyl",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNX1hMTlJBZkZQNlpKR0FfbVFyZjVSS2JXR1EwWGNfai1haUw4ZHhsdndwMk1DSWNnbDlQRUlSeHptRUd1aGpsSXpoOGxrd2p1VUxaX29RY0EwTG93SmJYOThDTVZZY2M5MkZucF9zX3JkWEQyVlo0UHRHa2ZlY3g3OGtVYXZDcnYza3lCanR5OEdIcFdsWEZPblRQVW5ZMkVa?oc=5",
       "time": "18.11.2026 17:00",
       "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "Yahoo Finance Video"
+      "source": "TechCrunch"
     },
     {
       "company": "L'Oréal",
@@ -4753,7 +4857,7 @@
     {
       "company": "NVIDIA",
       "title": "Why Nvidia doesn't need a 'big splashy hire' to replace Jensen Huang as CEO",
-      "url": "https://finance.yahoo.com/technology/article/why-nvidia-doesnt-need-a-big-splashy-hire-to-replace-jensen-huang-as-ceo-154424603.html",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQUG1sOTRub1NkUUoxcXExbnVQQ0FQWHUzZGFlQUdNLTJudDBQMmxfajZIcTkzRWItVzZjdlpZNF9yVFRoT29XaE5xYlotcFFpVEpLNmg1b3lBN0pGTjV3cmNUeUk5Z2FuaU9Cb3BuRl93MnFaZ2pNNXU1Y0dvMG9zRHFIbXVzSnV2YWE1a3dmU1Q2RWRQT0tBYVhqdDBnd21mTW1IYlZMZjdqZ1hiUXdDaDd2NmFaaW5HeURkN21PYXFzcHpzQ0RkT2JkRmc?oc=5",
       "time": "18.11.2026 16:44",
       "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
       "source": "Yahoo Finance"
@@ -4783,116 +4887,12 @@
       "source": "Proactive"
     },
     {
-      "company": "Toyota",
-      "title": "Toyota Thinks $22,000 Is 'Reasonable' For Its Scion Kei Truck",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE80ZVh3eGlUeW1ONVJYT0k2N2J5dW9lM2NlQ2p3djRlRFdod2t2LXFkbDE1dHdzMkEwc1M5aF9nR2J5MjNyRjZ6aktqN2VodDVfeW1IMHJEZXdkN0lWWGUtbGFrcktqV0RHclBNZnZKcEZscjVqd2g1U29JRQ?oc=5",
-      "time": "18.11.2026 16:29",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "Motor1.com"
-    },
-    {
       "company": "Shopify",
       "title": "George Soros and 21 Other Big Funds Bought Shopify Last Quarter, While 14 Sold. Who’s Right?",
       "url": "https://www.tikr.com/blog/george-soros-and-21-other-big-funds-bought-shopify-last-quarter-while-14-sold-whos-right?ref=yahoofinance&tlnk=yf-261118-qqm6fqr6",
       "time": "18.11.2026 16:29",
       "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
       "source": "TIKR"
-    },
-    {
-      "company": "Amazon",
-      "title": "Nvidia's next CEO should be hired internally, Jeff Bezos advises",
-      "url": "https://finance.yahoo.com/video/nvidias-next-ceo-should-be-hired-internally-jeff-bezos-advises-152807796.html",
-      "time": "18.11.2026 16:28",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "Yahoo Finance Video"
-    },
-    {
-      "company": "Amazon",
-      "title": "Prime members can get $20 off dinner with this Uber Eats deal — last chance to claim",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNVjI5RHYwOERuMWVXcGU5UDN3Q08waV9NaGxtbjY5NERSd19fRl9FQjh6NUJWVGlBWC1manUzbnVPSFBpaDRyYTlWR3VkTlBPaUU3b1U5VUdGMXhqeDE1aTNIVFN0eVJQbU9ZaWxJenlQSWx1NWttbHZFTWw2TnkwM3NhWDJHdw?oc=5",
-      "time": "18.11.2026 16:27",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "Mashable"
-    },
-    {
-      "company": "Shopify",
-      "title": "Shopify (SHOP) Added Delivery Tracking To Its Merchant And Shop App Experience",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/shopify-shop-added-delivery-tracking-151209121.html",
-      "time": "18.11.2026 16:12",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "Simply Wall St."
-    },
-    {
-      "company": "SAP",
-      "title": "SAP (XTRA:SAP) In Focus After Leadership Exit As Undervalued View Holds",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/sap-xtra-sap-focus-leadership-151158564.html",
-      "time": "18.11.2026 16:11",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "Simply Wall St."
-    },
-    {
-      "company": "Microsoft",
-      "title": "Mobilizing change and accelerating evolution: Microsoft executive Kathleen Hogan talks evolving technologies at Marquette",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNaWZkdUtoQ3BFLW9kcEFMU1ktbnFOejlXM2NZRk5lMUc5R05lQUxLMkdfNHExTGZucVJtV3JlcnQ5TDJmeTlUd3JYZ1J3aldfVVhIUkZGSjc5S0U3Q0habC1ncTFQZkc5SG1Ec3JoT1FpeEdJekVWVE5ZWUlMVXRhWEh4clNuT0pwa1hlX3BWQ1VpUi1iVGVDYlhZUzdVS1JMWTNGOFRjYmxoQVNLUmp1M0xxbHhrQ2NLeFdpY2F1S29IYUtLTHBRX2pzQWczMkotSTVtbUpNOFhpX2o5M1RpWnAxN0k3SGJTNmxTTG5R?oc=5",
-      "time": "18.11.2026 16:07",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "Marquette Today"
-    },
-    {
-      "company": "Amazon",
-      "title": "Breaking barriers gracefully: Marquette Business alumna and Amazon executive shares her approach to business and life",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOV1lBR013WnV3WjBtUEdQOXY4UmstcFJ3cThmbW1nYjgwZUcxVnBfT0kxNFBjVjdEbW9MS1VXRHlMdnprcFphSjY1MUlSRnV3ZWVESGxqbDY4V0UwOWxUT0JOR0JSdi1NeWtnTlk0SEJwMEhaYWpnTHpuVmtWQWRYOVNYUlRfcFRBejVzaVZpQVk4dDM3RUxaVmJBUGxndHdsTlptU2JwaFdVbWtzSUU3cjE1a0otZkhTUnhvQkliSjJNdnVHUi1SSVhQUGxNQWhPeVR5T19MVkVEUkpkOVZBNXNiMlhzclhX?oc=5",
-      "time": "18.11.2026 16:07",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "Marquette Today"
-    },
-    {
-      "company": "Siemens",
-      "title": "Siemens Aktiengesellschaft: Veronika Bienert, Entitlement to transfer 6,728 Siemens shares in connection with a Siemens Stock Program (transfer with value date 2026-11-13, +1:00).",
-      "url": "https://news.google.com/rss/articles/CBMiygJBVV95cUxPTG02N1ZGaVBPTS14VWFXeWRHeURWTFg4WkozXzdfTVBnLXFqTXBmQkdvMDZPeWNHVThSZmJWYkFKWUp4Q3k3eVBKRWptNzloWEp3aDFiUDdGOXNaRW5KSVc2QmkxdGpDdGF3VzZ0eTYwbkEydzBvRzR2QnV4cURQa3VYNnd4THBYN0VQV0ZwaC02UVBTSnQ2RmhpbUpxZlRaTHYtQ2tiNVA0RDFRVGxyZktoRmEzMm5WeFBHZEZXYUxBYlBNNWFyQjFsOFVmZHZ0aC1mTFlNdFNSWGJYOFZaVGRjR0dKU2s5VHp2VHpIN0FOYmxsUG1NYkwtWldGeGRWcmxHdmlJRGlCM25RZ0IzQmhXM3RfVjZLMGdMZU5lZXpZMFJZd0FkS0ZjdVNXbHpHMVJ3NGtVbmNQekxYTG5qcXA0QW1VZUpFeEE?oc=5",
-      "time": "18.11.2026 16:01",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "TradingView"
-    },
-    {
-      "company": "Microsoft",
-      "title": "Major tech outages raise new cybersecurity concerns",
-      "url": "https://finance.yahoo.com/video/major-tech-outages-raise-new-cybersecurity-concerns-144024816.html",
-      "time": "18.11.2026 15:40",
-      "impact": "Možný negativní signál; ověř zprávu u původního zdroje.",
-      "source": "Yahoo Finance Video"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "Nvidia Has No Plans to Bring Back Jensen Huang",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQaHY0NU1Fd0lrTWFZQmI4M2cxV2RFd3NCYko2aF83QmJWdEUxM3hNc01HV18ycklKZElhbldzREtZRVNneVp5QkdpVWJFV0t6anpmWXZfTFJHVTRlNHR4aW5VRWpCTVNPX0RFblVLQ3BoT2lnZU1sd2xmdnNweWVWX1pWNA?oc=5",
-      "time": "18.11.2026 15:24",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "The New York Times"
-    },
-    {
-      "company": "AstraZeneca",
-      "title": "FDA publishes rejection letter for Summit drug; Nuvalent buyout pays more dividends for GSK",
-      "url": "https://www.biopharmadive.com/news/summit-crl-sellas-data-nelkarmi-lilly-astrazeneca-biogen/874825/",
-      "time": "18.11.2026 15:21",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "BioPharma Dive"
-    },
-    {
-      "company": "Petrobras",
-      "title": "Petrobras Awards $410M Subsea Contract to Expand Brazil Operations",
-      "url": "https://finance.yahoo.com/energy/articles/petrobras-awards-410m-subsea-contract-142100318.html",
-      "time": "18.11.2026 15:21",
-      "impact": "Dopad nelze spolehlivě určit pouze z titulku; otevři původní zprávu.",
-      "source": "Zacks"
-    },
-    {
-      "company": "Microsoft",
-      "title": "Tech outages are disrupting everything. Are humans to blame?",
-      "url": "https://finance.yahoo.com/video/tech-outages-are-disrupting-everything-are-humans-to-blame-142016715.html",
-      "time": "18.11.2026 15:20",
-      "impact": "Možný negativní signál; ověř zprávu u původního zdroje.",
-      "source": "Yahoo Finance Video"
     }
   ]
 }
