@@ -314,11 +314,21 @@
     .meta { margin-bottom: 7px; font-size: .8rem; font-family: var(--mono); }
 
     .impact {
-      margin-top: 8px;
-      color: var(--accent);
-      font-size: .88rem;
-      line-height: 1.4;
+      margin-top: 10px;
+      display: flex; flex-direction: column; align-items: flex-start; gap: 6px;
+      color: var(--muted);
+      font-size: .86rem;
+      line-height: 1.45;
     }
+    .impact-badge {
+      padding: 3px 9px;
+      border-radius: 6px;
+      font-family: var(--mono); font-size: .74rem; font-weight: 600;
+    }
+    .impact.up .impact-badge { color: var(--green); background: rgba(111, 211, 160, .12); }
+    .impact.down .impact-badge { color: var(--red); background: rgba(240, 119, 106, .12); }
+    .impact.mixed .impact-badge { color: var(--accent); background: rgba(232, 176, 75, .12); }
+    .impact.neutral .impact-badge { color: var(--muted); background: var(--panel); }
 
     .empty { color: var(--muted); padding: 12px 0; grid-column: 1 / -1; }
 
@@ -382,6 +392,10 @@
     </section>
 
     <section id="newsPanel" class="section hidden">
+      <div class="note" style="margin-bottom: 16px;">
+        Odhad dopadu je automatický a vychází jen z klíčových slov v titulku zprávy.
+        Skutečná reakce akcie může být jiná. Nejde o investiční doporučení.
+      </div>
       <ul id="news" class="news-list">
         <li class="empty">Načítám zprávy…</li>
       </ul>
@@ -571,9 +585,20 @@
 
         li.append(link);
 
+        const direction = ["up", "down", "mixed"].includes(item.direction) ? item.direction : "neutral";
+        const labels = {
+          up: "▲ Možný růst",
+          down: "▼ Možný pokles",
+          mixed: "◆ Nejasný dopad",
+          neutral: "● Bez jasného dopadu"
+        };
+
+        const impact = makeElement("div", `impact ${direction}`);
+        impact.append(makeElement("span", "impact-badge", labels[direction]));
         if (item.impact) {
-          li.append(makeElement("div", "impact", item.impact));
+          impact.append(makeElement("span", "impact-text", item.impact));
         }
+        li.append(impact);
 
         root.append(li);
       }
