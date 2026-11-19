@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T21:02:40.589366+00:00",
+  "updated_at": "2026-11-19T22:07:23.837476+00:00",
   "stocks": [
     {
       "name": "Microsoft",
@@ -793,8 +793,8 @@
       "market": "USA",
       "currency": "USD",
       "query": "\"Apple Inc\"",
-      "price": 349.1,
-      "change": -0.95,
+      "price": 349.21,
+      "change": -0.92,
       "history": [
         ["2025-11-20", 266.25],
         ["2025-11-21", 271.49],
@@ -1046,7 +1046,7 @@
         ["2026-11-16", 352.78],
         ["2026-11-17", 351.91],
         ["2026-11-18", 352.45],
-        ["2026-11-19", 349.1]
+        ["2026-11-19", 349.21]
       ],
       "intraday": [
         ["2026-11-13T14:30Z", 359.97],
@@ -3015,8 +3015,8 @@
       "symbol": "BRK-B",
       "market": "USA",
       "currency": "USD",
-      "price": 571.98,
-      "change": -0.46,
+      "price": 572.04,
+      "change": -0.45,
       "history": [
         ["2025-11-20", 501.12],
         ["2025-11-21", 504.04],
@@ -3268,7 +3268,7 @@
         ["2026-11-16", 592.85],
         ["2026-11-17", 586.76],
         ["2026-11-18", 574.62],
-        ["2026-11-19", 571.98]
+        ["2026-11-19", 572.04]
       ],
       "intraday": [
         ["2026-11-13T14:30Z", 594.78],
@@ -3400,7 +3400,7 @@
         ["2026-11-19T20:00Z", 570.62],
         ["2026-11-19T20:15Z", 571.27],
         ["2026-11-19T20:30Z", 570.95],
-        ["2026-11-19T20:45Z", 571.62]
+        ["2026-11-19T20:45Z", 572.08]
       ]
     },
     {
@@ -3409,8 +3409,8 @@
       "market": "USA",
       "currency": "USD",
       "query": "(JPMorgan OR Dimon)",
-      "price": 320.435,
-      "change": -1.13,
+      "price": 320.22,
+      "change": -1.2,
       "history": [
         ["2025-11-20", 298.38],
         ["2025-11-21", 298.02],
@@ -3662,7 +3662,7 @@
         ["2026-11-16", 338.21],
         ["2026-11-17", 329.96],
         ["2026-11-18", 324.11],
-        ["2026-11-19", 320.43]
+        ["2026-11-19", 320.22]
       ],
       "intraday": [
         ["2026-11-13T14:30Z", 345.5],
@@ -3794,7 +3794,7 @@
         ["2026-11-19T20:00Z", 320.35],
         ["2026-11-19T20:15Z", 320.43],
         ["2026-11-19T20:30Z", 320.57],
-        ["2026-11-19T20:45Z", 320.52]
+        ["2026-11-19T20:45Z", 320.26]
       ]
     },
     {
@@ -3803,8 +3803,8 @@
       "market": "USA",
       "currency": "USD",
       "query": "\"Visa Inc\"",
-      "price": 402.49,
-      "change": -3.07,
+      "price": 402.25,
+      "change": -3.12,
       "history": [
         ["2025-11-20", 323.77],
         ["2025-11-21", 327.98],
@@ -4056,7 +4056,7 @@
         ["2026-11-16", 426.46],
         ["2026-11-17", 416.77],
         ["2026-11-18", 415.22],
-        ["2026-11-19", 402.49]
+        ["2026-11-19", 402.25]
       ],
       "intraday": [
         ["2026-11-13T14:30Z", 425.19],
@@ -4188,7 +4188,7 @@
         ["2026-11-19T20:00Z", 402.04],
         ["2026-11-19T20:15Z", 402.56],
         ["2026-11-19T20:30Z", 402.1],
-        ["2026-11-19T20:45Z", 402.32]
+        ["2026-11-19T20:45Z", 402.42]
       ]
     },
     {
@@ -4197,8 +4197,8 @@
       "market": "USA",
       "currency": "USD",
       "query": "\"Eli Lilly\"",
-      "price": 1352.66,
-      "change": -2.18,
+      "price": 1351.12,
+      "change": -2.29,
       "history": [
         ["2025-11-20", 1043.29],
         ["2025-11-21", 1059.7],
@@ -4450,7 +4450,7 @@
         ["2026-11-16", 1431.67],
         ["2026-11-17", 1415.55],
         ["2026-11-18", 1382.75],
-        ["2026-11-19", 1352.66]
+        ["2026-11-19", 1351.12]
       ],
       "intraday": [
         ["2026-11-13T14:30Z", 1423.92],
@@ -4582,7 +4582,7 @@
         ["2026-11-19T20:00Z", 1349.49],
         ["2026-11-19T20:15Z", 1352.55],
         ["2026-11-19T20:30Z", 1352.83],
-        ["2026-11-19T20:45Z", 1351.8]
+        ["2026-11-19T20:45Z", 1351.2]
       ]
     },
     {
@@ -4984,8 +4984,8 @@
       "market": "Tchaj-wan",
       "currency": "TWD",
       "query": "(TSMC OR \"Taiwan Semiconductor\")",
-      "price": 2175.0,
-      "change": 0.23,
+      "price": 2100.0,
+      "change": -3.45,
       "history": [
         ["2025-11-19", 1395.0],
         ["2025-11-20", 1455.0],
@@ -5228,7 +5228,8 @@
         ["2026-11-13", 2350.0],
         ["2026-11-16", 2215.0],
         ["2026-11-17", 2170.0],
-        ["2026-11-18", 2175.0]
+        ["2026-11-18", 2175.0],
+        ["2026-11-19", 2100.0]
       ],
       "intraday": [
         ["2026-11-13T01:00Z", 2380.0],
@@ -7077,8 +7078,8 @@
       "symbol": "7203.T",
       "market": "Japonsko",
       "currency": "JPY",
-      "price": 3391.0,
-      "change": -0.67,
+      "price": 3378.0,
+      "change": -0.38,
       "history": [
         ["2025-11-19", 3037.0],
         ["2025-11-20", 3044.0],
@@ -7321,7 +7322,8 @@
         ["2026-11-13", 3418.0],
         ["2026-11-16", 3428.0],
         ["2026-11-17", 3414.0],
-        ["2026-11-18", 3391.0]
+        ["2026-11-18", 3391.0],
+        ["2026-11-19", 3378.0]
       ],
       "intraday": [
         ["2026-11-13T00:00Z", 3359.0],
@@ -7446,8 +7448,8 @@
       "symbol": "0700.HK",
       "market": "Hongkong",
       "currency": "HKD",
-      "price": 372.8,
-      "change": -0.85,
+      "price": 348.4,
+      "change": -6.55,
       "history": [
         ["2025-11-19", 622.5],
         ["2025-11-20", 621.0],
@@ -7694,7 +7696,8 @@
         ["2026-11-13", 386.6],
         ["2026-11-16", 390.4],
         ["2026-11-17", 376.0],
-        ["2026-11-18", 372.8]
+        ["2026-11-18", 372.8],
+        ["2026-11-19", 348.4]
       ],
       "intraday": [
         ["2026-11-13T01:30Z", 392.4],
@@ -7817,13 +7820,67 @@
   ],
   "news": [
     {
+      "company": "NVIDIA",
+      "title": "Stock Market Today, Nov. 19: Nvidia Slides as Investors Weigh CEO Transition Fallout Despite Strong Q3 Results",
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPMHRFQXJvd0VTZFAtVzVJUF94ZE13ZjR0WGFHZzYySjJLM2VDSjRoTHM1OWFOMk03NHdyVDhDWV9yeEd4dHlKQ3VSd1pCNGxYU2w3TGF4VGNjcHVZQlE5RGI1RWd6djgtcUh4X3plb1JiaHJjVzhZakJyQTl1c0VaRGFNTjZpLWZhVTJwbzV0Yi1fbk8wSG1wQ3RMUnFaU2xGZERhRmcweXM3d292N1pKWWdmZFMwQzFsUHFMMkhoODhfd21OZWJNdVlvX2pBOVBlMm1kN3JZM3F4cDVETEt6cEhtcWI2WUx3dEZsWHZpVGFVOHp5YlI4QmI3YnE?oc=5",
+      "time": "19.11.2026 23:00",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie NVIDIA: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
+      "source": "The Motley Fool"
+    },
+    {
+      "company": "Alphabet",
+      "title": "Trump’s Latest Media Lawsuit Can Proceed, Judge Rules. What Could Happen If He Prevails.",
+      "url": "https://www.barrons.com/articles/trump-nytimes-lawsuit-judge-rules-742b0406?siteid=yhoof2&yptr=yahoo",
+      "time": "19.11.2026 22:56",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Alphabet: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
+      "source": "Barrons.com"
+    },
+    {
       "company": "Microsoft",
-      "title": "Microsoft outage brings enterprise resilience gaps to light",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNUktwb0ZfWEtUZjNadVY0TWNlTlE3bkM4NWJ5QW5iNTVTVTdrUk1CWHJoSWF1cEY4YVp5Ty1RaUFMRjg1YmpfTVpsaFdmWnNXOWF6cDdwbDJ4ckkxQVY3aUJRakszZ3o5aVMwekZYYUdYSmkxVmdDbmg4LXR6ZzFUQ3ItSXdPQm53UGdPVHB2eU84eEJYU3gxS0VKbUhrZm4wajJIdnBlNGVicmM?oc=5",
-      "time": "19.11.2026 21:49",
+      "title": "Intuit Stock Tumbles After Earnings Beat. It’s Selling Mailchimp.",
+      "url": "https://www.barrons.com/articles/intuit-earnings-stock-price-50cb5c01?siteid=yhoof2&yptr=yahoo",
+      "time": "19.11.2026 22:54",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Microsoft: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
+      "source": "Barrons.com"
+    },
+    {
+      "company": "Microsoft",
+      "title": "Microsoft’s Outage Wasn’t the Real Failure. The Dangerous Part Came 36 Minutes Later",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOOUJyb0RoSnFuM3R6Y19rRndNX3BYWlMwZU8tVVlNemxNRHBOWHBGQk5JbjZabGxTSnh0eGxsdGl2ZkJJYmFWVF9UUS1oc3RUTGZ4QTMtbDdrSVk3cXRCZWQ0VnctTWtJam1tMmVXWl9FNXRObEFzc2tNbFVYMVZ2RHFtb3N3YzdKUHQ3NTEzU3B2VFd6MlpDRkEzU0VQY0FEelVNWg?oc=5",
+      "time": "19.11.2026 22:49",
       "direction": "down",
       "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
-      "source": "InformationWeek"
+      "source": "Inc.com"
+    },
+    {
+      "company": "Microsoft",
+      "title": "Cyberattack may have exposed Chase Bank and Mastercard customer data",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQOWw5Ml9NYmZNeTNiSlV4QUhBc0JuTzY1ZEVBX295eW5xYVlIeGpGY3J5Ulc0UEhvSW9iQnFtVVZNQ2p0UFdoLUJPTHh2OVNvTFlhRVlVV0ZMdU5rcE5pdzZtV0pYVnlDUENlNWlSMUhUbzBueWxIcHpEdWtJUmlXbjVhN1ZKOXFIa09HMGNsdTZtS01TbXJDdFBfTlVocDAxXzhsNkRiVzVQVWRRS3NZQmc0aFI?oc=5",
+      "time": "19.11.2026 22:45",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
+      "source": "The Washington Post"
+    },
+    {
+      "company": "Berkshire Hathaway",
+      "title": "Berkshire Hathaway Issues Multiple Yen-Denominated Senior Notes",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPNmpGQ3NTTG9XX0I1bUVYeVNnaVpIeXlSQkl5ZGxMRGN0aENaYVN3eVl2MEcxb1k5enNGUjZWdWtDU3d4TE1fZlJ5aVhCYTc3WkJ1YTk0a3NCUVZuM0MzS0diOTZRV3JXQkhjcWYzMVBsVXNIZkVkVmYyRUVFLTktdzR0LXFPZHBRTW9ISV85TXRQUmJqd0lTUkpXOWRfampXZklnRUhzenJNb3kxWWNydVpuLUVRQQ?oc=5",
+      "time": "19.11.2026 22:42",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Berkshire Hathaway: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
+      "source": "TipRanks"
+    },
+    {
+      "company": "Berkshire Hathaway",
+      "title": "Berkshire Hathaway (BRK) issues yen debt due as late as 2056, with Merrill Lynch International as an underwriter.",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQa1JkMlB6SDNodUxLdHNBNlBxWkl0Uy1GT29rQTBXVHVkcnVXYlkzdDlQdGtJMnFqOTcwRWsxZ2htVHhkQU5KRUlNN1NVdDc5eGlxWXBIMGtRMkN3TlpXM25pMnpDdnZSdnhHVU9BMFFYOWtQeGpXZlprZm5Pa0Z2WjNmSFhFZGFUNFE2U0FNLWRiUUZCeTFuaTNPTWxUam1YVnZyMVVWamNfcnFZLTlV?oc=5",
+      "time": "19.11.2026 22:06",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Berkshire Hathaway: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
+      "source": "Stock Titan"
     },
     {
       "company": "Eli Lilly",
@@ -7844,21 +7901,21 @@
       "source": "The Business Journals"
     },
     {
-      "company": "Microsoft",
-      "title": "Cyberattack may have exposed Chase Bank and Mastercard customer data",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQOWw5Ml9NYmZNeTNiSlV4QUhBc0JuTzY1ZEVBX295eW5xYVlIeGpGY3J5Ulc0UEhvSW9iQnFtVVZNQ2p0UFdoLUJPTHh2OVNvTFlhRVlVV0ZMdU5rcE5pdzZtV0pYVnlDUENlNWlSMUhUbzBueWxIcHpEdWtJUmlXbjVhN1ZKOXFIa09HMGNsdTZtS01TbXJDdFBfTlVocDAxXzhsNkRiVzVQVWRRS3NZQmc0aFI?oc=5",
-      "time": "19.11.2026 21:41",
+      "company": "JPMorgan",
+      "title": "Visa, Mastercard and JPMorgan Customer Data Leaked by Hackers",
+      "url": "https://www.wsj.com/finance/banking/visa-mastercard-and-jpmorgan-customer-data-leaked-by-hackers-3b5a0f87?siteid=yhoof2&yptr=yahoo",
+      "time": "19.11.2026 21:12",
       "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
-      "source": "The Washington Post"
+      "impact": "Může vést k poklesu ceny akcie JPMorgan: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
+      "source": "The Wall Street Journal"
     },
     {
-      "company": "Microsoft",
+      "company": "Meta",
       "title": "Nebius Stock’s (NBIS) Q3 Sell-Off Looks Like an Opportunity",
       "url": "https://finance.yahoo.com/markets/stocks/articles/nebius-stock-nbis-q3-sell-195748939.html",
       "time": "19.11.2026 20:57",
       "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Microsoft: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
+      "impact": "Může vést k poklesu ceny akcie Meta: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
       "source": "TipRanks"
     },
     {
@@ -7889,24 +7946,6 @@
       "source": "Yahoo Finance"
     },
     {
-      "company": "SpaceX",
-      "title": "Anthropic soars past $3 trillion in stock market debut, eclipsing SpaceX",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNaWQwaEd1ZGR1VDZCTHRVdUxpQU5rM2tGRWxpWUU0RHk1dThhUTI4TGlOcGlrc1JVWDFLR3E1ZmRoeVlfeWRhTVBNSjhkSkxqeXBPMXVSdU5IanhOUXB6bDd5RW1GaXZ6a1RWTDFwSXV6MEVTQjkwZGh6dlJmSENmU0hnZw?oc=5",
-      "time": "19.11.2026 20:16",
-      "direction": "up",
-      "impact": "Může vést k nárůstu ceny akcie SpaceX: prudký růst ukazuje na silný zájem investorů, po rychlém růstu ale může přijít i stahování zisků.",
-      "source": "ABC News & Headlines – Australian Broadcasting Corporation"
-    },
-    {
-      "company": "JPMorgan",
-      "title": "Chase bank issues warning to customers of cyberattack, data breach",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNVWFyajRZNkJBOUU3TUt4SkVpUzB3TTdrc09yUmlFc09yTmY3TVVPSXl1eW5DckFBcXBLRWhUUTNZbGdyVE54N294bGo5eVExeGlDWjdQTTNWN3ozcTR6TnlBQ1dxeGM5azZDZmhDUzRzRmtLRVA1cV9xZTZPTHFuZ283anVYWmc?oc=5",
-      "time": "19.11.2026 20:06",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie JPMorgan: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
-      "source": "NewsNation"
-    },
-    {
       "company": "JPMorgan",
       "title": "Federal judge dismisses JPMorgan lawsuit seeking to block Richmond swap case",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMVpTMDhMY0NwR0ZCWk9BYmJXNUd3N0VsU2ZQU3RZclFISEg0RFlqSC1GZmpIUEFzNzJ4c3YyRjJIWHBkWlZlcnpPMDFVSWk2TGc5OS1lR3dKY0Jmb2JOVkpVeDZXdmIxSTRpNXkyTmROVlNpVnB4LS1FUjVtSkUyaWZvdHB6eEdscGZnYnNGZlJYc1A0Qnljd3dQNm1xMmdCY2FhUGlrVVQzYU5YcnNIa1FPOW4?oc=5",
@@ -7914,15 +7953,6 @@
       "direction": "down",
       "impact": "Může vést k poklesu ceny akcie JPMorgan: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
       "source": "Grandview Independent"
-    },
-    {
-      "company": "JPMorgan",
-      "title": "JPMorgan Chase Reveals Data Breach Involving Third-Party Vendors",
-      "url": "https://finance.yahoo.com/technology/articles/jpmorgan-chase-reveals-data-breach-184543857.html",
-      "time": "19.11.2026 19:45",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie JPMorgan: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
-      "source": "GuruFocus.com"
     },
     {
       "company": "Alphabet",
@@ -7941,6 +7971,15 @@
       "direction": "down",
       "impact": "Může vést k poklesu ceny akcie Eli Lilly: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
       "source": "WUSF"
+    },
+    {
+      "company": "JPMorgan",
+      "title": "JPMorgan cyberattack: Ransomware group allegedly leaks 16,000 customer records",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPX1lpT1dWNnN1amxJM25TaDJRZXFtclRMVXFnbk5uZWRfM0tXeUIwdGhJWkthMXBFQnVWRU8xRFNnbWszT1QwUzZGSmdoZmhkTndqeDVpQmNpZnRnNElIakFENmpodXlDQXctQUpGRlhZaGNNcUpyTlZLa3hqcjh2djlPVW0wNldZR0NwTENwQ1h2SXpldFYxSmEzNnBEeko1U3hYRkwzVkNnWHdNa1hyVDUtT0U2ckxHSTZMVDRZTmYyQjBTekRV?oc=5",
+      "time": "19.11.2026 18:41",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie JPMorgan: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
+      "source": "The American Bazaar"
     },
     {
       "company": "Alphabet",
@@ -7995,42 +8034,6 @@
       "direction": "up",
       "impact": "Může vést k nárůstu ceny akcie SpaceX: prudký růst ukazuje na silný zájem investorů, po rychlém růstu ale může přijít i stahování zisků.",
       "source": "EL PAÍS English"
-    },
-    {
-      "company": "SAP",
-      "title": "SAP stock: Saueressig to leave executive board",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSmdIOWhmdmlOZnBQR2tCcGNHUHJSNkVtVUNmVENGeTJBN2x5WURVeXlXa0NTMEh6V1ZnaUNlYjMzZk5ZZGdUQVUwR2RKMHpYcXVHX1NmM1RhcHNCY3F1NHI3dVVpUGh2SmJiZURwUXdySUEyV1lLN2ZSTVg3aXFGUTFCeHYxYndTTXVzVGxJV2NzdnlIQzhZdWhsUkpHSk9vZ2stSmtmcUZSRno3?oc=5",
-      "time": "19.11.2026 17:39",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie SAP: odchod klíčového manažera zvyšuje nejistotu o dalším směřování firmy.",
-      "source": "ad-hoc-news.de"
-    },
-    {
-      "company": "Tesla",
-      "title": "Musk Says Tesla-SpaceX Merger Shouldn’t Earn Extra Pay - SpaceX (NASDAQ:SPCX)",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOeHFTeXFCMncxSmExZ1dMOGJvQmVWcVp5MVFBVnhwS0tYdy1LUWpOU1FDTnF1WC1KSjluNzZrb01XM1BqOHp3dnc5UThJWWpSMzdUUjlQY29FN3hwYTdQVVBRZmpYeXJYamxBcGtNZkMtTWlqWWJkMl9UQUIxOVp3Z2lNM1g3YThpNnB4Yk9iZlJIdXFi?oc=5",
-      "time": "19.11.2026 17:30",
-      "direction": "mixed",
-      "impact": "Dopad na cenu akcie Tesla je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
-      "source": "Benzinga"
-    },
-    {
-      "company": "Tencent",
-      "title": "Tencent Holdings Ltd Stock 12‑Month Price Target Cut to HKD 587.05, Implies 57% Upside",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOd0VXVUNRdmR6YVB5Y3I2T1F0TGNjNHRGZ2dUNk56VG1ZZmJySVlfYTAxTXd6MG9tWGFHdF9ic0ZQaFdWdmZkdTdzOVBmZ0Q4THB2czBkcC1rcHdtX3ppT2EycGFIVWtkdUJlTUI2Y1d1MG5PMkVrREFhSEdzYXExcDJZM09NSG0tQTFXYTVMRXVlUkdsbEV3aVZQaFJsUXdMSG1zWWE3TzRGLVl1T2dJNXNtU21aR3l6cVFiNnF1TDRhRDBqVTlPVHJKdjdWZjdGb1VsUmZ0YUFYM2dTUmlv?oc=5",
-      "time": "19.11.2026 17:20",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Tencent: analytici zhoršují hodnocení, což může zvýšit prodejní tlak.",
-      "source": "TradingView"
-    },
-    {
-      "company": "Broadcom",
-      "title": "Broadcom's AI Chip Revenue Jumps 221% as Wall Street Trims Its Price Target",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9jMkZxUzgwbGFXVldaZDhZYlppM3huQ2V6TEtlRXhZYVJfWm1OQW96bWhBaVllR2dNSEp5ZzlQX2E5Sm10bWd6Y3lRT0xMNmYtaGZISUJpcGk4TURuMkZnMkRSSWNncmhyX3lIREtsb2d4NDlHTlE?oc=5",
-      "time": "19.11.2026 17:05",
-      "direction": "up",
-      "impact": "Může vést k nárůstu ceny akcie Broadcom: silnější výsledky nebo vyšší výhled zvyšují očekávání budoucích zisků.",
-      "source": "BigGo Finance"
     }
   ]
 }
