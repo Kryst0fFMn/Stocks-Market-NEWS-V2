@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T22:07:23.837476+00:00",
+  "updated_at": "2026-11-19T23:28:02.711433+00:00",
   "stocks": [
     {
       "name": "Microsoft",
@@ -5329,8 +5329,8 @@
       "symbol": "ASML.AS",
       "market": "Nizozemsko",
       "currency": "EUR",
-      "price": 1288.2,
-      "change": 2.17,
+      "price": 1260.8,
+      "change": 1.94,
       "history": [
         ["2025-11-19", 886.6],
         ["2025-11-20", 889.8],
@@ -5586,8 +5586,7 @@
         ["2026-11-13", 1338.8],
         ["2026-11-16", 1306.6],
         ["2026-11-17", 1236.8],
-        ["2026-11-18", 1260.8],
-        ["2026-11-19", 1288.2]
+        ["2026-11-18", 1260.8]
       ],
       "intraday": [
         ["2026-11-13T08:00Z", 1355.0],
@@ -5768,8 +5767,8 @@
       "market": "Německo",
       "currency": "EUR",
       "query": "SAP SE",
-      "price": 187.02,
-      "change": -3.56,
+      "price": 193.92,
+      "change": -3.76,
       "history": [
         ["2025-11-19", 205.5],
         ["2025-11-20", 206.6],
@@ -6023,8 +6022,7 @@
         ["2026-11-13", 213.45],
         ["2026-11-16", 213.4],
         ["2026-11-17", 201.5],
-        ["2026-11-18", 193.92],
-        ["2026-11-19", 187.02]
+        ["2026-11-18", 193.92]
       ],
       "intraday": [
         ["2026-11-13T08:00Z", 213.9],
@@ -6204,8 +6202,8 @@
       "symbol": "MC.PA",
       "market": "Francie",
       "currency": "EUR",
-      "price": 391.9,
-      "change": 0.98,
+      "price": 388.1,
+      "change": -1.25,
       "history": [
         ["2025-11-19", 609.6],
         ["2025-11-20", 619.6],
@@ -6461,8 +6459,7 @@
         ["2026-11-13", 403.45],
         ["2026-11-16", 404.0],
         ["2026-11-17", 393.0],
-        ["2026-11-18", 388.1],
-        ["2026-11-19", 391.9]
+        ["2026-11-18", 388.1]
       ],
       "intraday": [
         ["2026-11-13T08:00Z", 402.8],
@@ -7821,12 +7818,102 @@
   "news": [
     {
       "company": "NVIDIA",
-      "title": "Stock Market Today, Nov. 19: Nvidia Slides as Investors Weigh CEO Transition Fallout Despite Strong Q3 Results",
-      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPMHRFQXJvd0VTZFAtVzVJUF94ZE13ZjR0WGFHZzYySjJLM2VDSjRoTHM1OWFOMk03NHdyVDhDWV9yeEd4dHlKQ3VSd1pCNGxYU2w3TGF4VGNjcHVZQlE5RGI1RWd6djgtcUh4X3plb1JiaHJjVzhZakJyQTl1c0VaRGFNTjZpLWZhVTJwbzV0Yi1fbk8wSG1wQ3RMUnFaU2xGZERhRmcweXM3d292N1pKWWdmZFMwQzFsUHFMMkhoODhfd21OZWJNdVlvX2pBOVBlMm1kN3JZM3F4cDVETEt6cEhtcWI2WUx3dEZsWHZpVGFVOHp5YlI4QmI3YnE?oc=5",
-      "time": "19.11.2026 23:00",
+      "title": "Alibaba defrauded shareholders by concealing ties to suspected spy in Nvidia scandal, lawsuit says",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPMzNyYVhCRUU4N2xON05UYVlJdGFUbGZIOW5zTmhfSlpHVUJzc052X3RNN1lFNUduMGpmREdfeTZQbmI5TTRYOU1NcERhN2lNR016bE1wbGRYdnoxRF8ySHZ5SmVQaDhMQ3NxckdhdEgxUWdROS1DNXpIMlgtamRuYzVNT1RiMU85Z1hUaG1DYWdLdkh5eEhHYlI3Uk9kbkhqTmtGZVM0SzRTTzUwNFlhVi1uNWU2UUNGRGMwSm1hS2owdTFu?oc=5",
+      "time": "20.11.2026 00:24",
       "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie NVIDIA: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
-      "source": "The Motley Fool"
+      "impact": "Může vést k poklesu ceny akcie NVIDIA: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
+      "source": "KFGO"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "California AG subpoenas Nvidia over China leak risks and investor disclosures",
+      "url": "https://finance.yahoo.com/news/california-ag-subpoenas-nvidia-over-232352666.html",
+      "time": "20.11.2026 00:23",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie NVIDIA: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
+      "source": "Investing.com"
+    },
+    {
+      "company": "Toyota",
+      "title": "Moody's Raises Toyota Outlook as Automaker Faces Recall",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4tUmlBUUh2STFqLUg4Z0RraVpLdk1Td0owa2NWUXAyU1NtYmxLYXBtN09FTWpDeFFBeURSc2R5eTlUVzhQSHdYWExiRk9sc0pWbTJDTEpVVW5pc2lCdUtVYUlHOEVxZ21KU29kUUJsS2x1dHc?oc=5",
+      "time": "20.11.2026 00:16",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Toyota: stažení výrobků nebo zastavení výroby znamená ztrátu tržeb a další náklady.",
+      "source": "Demokratis.co.id"
+    },
+    {
+      "company": "Toyota",
+      "title": "Moody's Upgrades Toyota Outlook as Recall Hits 314029 US Vehicles",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE44RVA4czBjV083RkJ4R0ZzTWlvcmtNaE5QajF1QWthVm1zd1JtTGxMUHJkSHYyWnkyR0hJam52aHBqSG9RV2t3R3h1aktLaDBnZFpBWU5CbUVfUGduRHc3OUJGQnI5X01Gd2FnVmNhVzlSMkhsZkE?oc=5",
+      "time": "20.11.2026 00:08",
+      "direction": "mixed",
+      "impact": "Zpráva obsahuje pozitivní i negativní signály, dopad na cenu akcie Toyota je nejasný.",
+      "source": "Limapagi"
+    },
+    {
+      "company": "Toyota",
+      "title": "Moody's Raises Toyota Outlook on Strong Earnings Prospects",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE43YjFQeWQxOEF2UG0zaExlUDJzUjNCdVJoQzBrVjFhNDVUajI3anR2SHBpamc2Zm9oWWVOT01lSGdfakZBOWxrMFFwd3ZJZXZMaDUyRVp2N0ZFQktOTDR4QkhpZzJVUQ?oc=5",
+      "time": "20.11.2026 00:08",
+      "direction": "up",
+      "impact": "Může vést k nárůstu ceny akcie Toyota: silnější výsledky nebo vyšší výhled zvyšují očekávání budoucích zisků.",
+      "source": "SuaraGarut.ID"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "California subpoenas Nvidia as questions about CEO affair, AI chips mount",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPUlI2V2VNMGV2S3F0ekpsVE45V2Vael9kX0dQZFROUnkzUXo2VzBUbmJUMndfNlRqellfbk9WdHI2ZmhZOVpyWDhRaFREM1M0RmtrS2JFRmVsdm9aUWczSjZXRTAzbE9yalotejdxM19SRnVUM2czNVVXbjNxRHhuS0tLTjVsM3JsR0xSUF92bDdUSjllZExQQTVQM3JMNW5mQkhXYTNXZGhWTmJyeVpmYXJpVVJhR0NjTXA3a0ZTMzFsZw?oc=5",
+      "time": "20.11.2026 00:04",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie NVIDIA: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
+      "source": "Los Angeles Times"
+    },
+    {
+      "company": "Microsoft",
+      "title": "The U.S. tech outage wave, explained",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOQzJaQkoxUnRCVXN1d3Q5NmJBQl9GOWNRNi1wVHhwSFhTYXBuY1h3X09ubXFKeVJDTkxYaS16RElFZUU1MjF2V21CRl82Qlh6NkROdHFGc0xmSWRCcWI4NVdzeF9wVElsVXQ4LXY5Q0NfSWFqNVY2UnVYVlg1RWxtekxpV0dQUQ?oc=5",
+      "time": "19.11.2026 23:43",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
+      "source": "The Washington Post"
+    },
+    {
+      "company": "Tencent",
+      "title": "Hong Kong Stock Exchange: Hang Seng Index Sinks to 22,841.62 Amid Trump, Putin and Xi's Historic Meeting",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNS3UyWEttVGJwSFlhREFaQVkwQTJzdjU3Vk01U2oxdl9DNzNGdWVMUjhGNzY3LXFlNnl3TUxhcGlSSC1PRGVfVEdnU3RqMUlHWWpZSUtJaEUtNVRsZGoweUwzNHRrdV92QUhDSGF4aHhoUnZvRWhWMHR2bUVncFl5ZU55QzN0YzIzM2xfUEtmNklhRlFtTXNBaXZGaGc3Wko3d3Bkem5GckhGbVNBNWNoTmFqblR0X2h0ZjVCbXBmN1ZjRWEwaXo3OVdHWHVSVGRJTkVR?oc=5",
+      "time": "19.11.2026 23:32",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Tencent: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
+      "source": "BBN Times"
+    },
+    {
+      "company": "Broadcom",
+      "title": "Stock Market Today, Nov. 19: Nvidia Slides as Investors Weigh CEO Transition Fallout Despite Strong Q3 Results",
+      "url": "https://www.fool.com/coverage/stock-market-today/2026/11/19/stock-market-today-nov-19-nvidia-slides-as-investors-weigh-ceo-transition-fallout-despite-strong-q3-results/",
+      "time": "19.11.2026 23:20",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Broadcom: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
+      "source": "Motley Fool"
+    },
+    {
+      "company": "Microsoft",
+      "title": "Microsoft reveals 80% server failure behind global outage",
+      "url": "https://www.thestreet.com/investing/microsoft-reveals-80-server-failure-behind-global-outage",
+      "time": "19.11.2026 23:17",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
+      "source": "TheStreet"
+    },
+    {
+      "company": "Microsoft",
+      "title": "‘The whole internet screams at once’: Downdetector logged 6.4 million U.S. outage reports in a week as Microsoft, the FAA, Chase and Apple went down",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNaS15THU3NWZJcTNpQWktQUN0ZTNrOHZwcEdBYjV3UlpUMWE5bGtCNEJzcW5sWGU0NkE1Z2d4anMzaUx3ZmVLLWlUSWU5WkltLWZ1YU9JYkF4MzVyLWVVbERQSjZTV2RzQmh6RzF2SmZKZHhkeE5HS2Z2R09MVkh1dlc3NF8zVDF6alYzaDU1cWlRSTdCbGJPRWdB?oc=5",
+      "time": "19.11.2026 23:17",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
+      "source": "Fortune"
     },
     {
       "company": "Alphabet",
@@ -7838,31 +7925,22 @@
       "source": "Barrons.com"
     },
     {
-      "company": "Microsoft",
+      "company": "JPMorgan",
+      "title": "Chase bank issues warning to customers of cyberattack, data breach",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNVWFyajRZNkJBOUU3TUt4SkVpUzB3TTdrc09yUmlFc09yTmY3TVVPSXl1eW5DckFBcXBLRWhUUTNZbGdyVE54N294bGo5eVExeGlDWjdQTTNWN3ozcTR6TnlBQ1dxeGM5azZDZmhDUzRzRmtLRVA1cV9xZTZPTHFuZ283anVYWmfSAYwBQVVfeXFMUGZkRDcwNUc3NnN6RHJWVkd6R0xGcDl3QWptOXZhQ2ZhWm1hNy1FeVVfWDlEWWRxTUljdmRaVVhtYUstaFlyLUxRMDJsNDVvZG5meGR3RERGTzlnQjhGUzJzQl9hdFVjMzNTNVlpTV92djlGck1sWDVDZ1VFTGZfSlprR2ZpYTRWa0k1NHU?oc=5",
+      "time": "19.11.2026 22:54",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie JPMorgan: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
+      "source": "NewsNation"
+    },
+    {
+      "company": "Apple",
       "title": "Intuit Stock Tumbles After Earnings Beat. It’s Selling Mailchimp.",
       "url": "https://www.barrons.com/articles/intuit-earnings-stock-price-50cb5c01?siteid=yhoof2&yptr=yahoo",
       "time": "19.11.2026 22:54",
       "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Microsoft: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
+      "impact": "Může vést k poklesu ceny akcie Apple: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
       "source": "Barrons.com"
-    },
-    {
-      "company": "Microsoft",
-      "title": "Microsoft’s Outage Wasn’t the Real Failure. The Dangerous Part Came 36 Minutes Later",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOOUJyb0RoSnFuM3R6Y19rRndNX3BYWlMwZU8tVVlNemxNRHBOWHBGQk5JbjZabGxTSnh0eGxsdGl2ZkJJYmFWVF9UUS1oc3RUTGZ4QTMtbDdrSVk3cXRCZWQ0VnctTWtJam1tMmVXWl9FNXRObEFzc2tNbFVYMVZ2RHFtb3N3YzdKUHQ3NTEzU3B2VFd6MlpDRkEzU0VQY0FEelVNWg?oc=5",
-      "time": "19.11.2026 22:49",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
-      "source": "Inc.com"
-    },
-    {
-      "company": "Microsoft",
-      "title": "Cyberattack may have exposed Chase Bank and Mastercard customer data",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQOWw5Ml9NYmZNeTNiSlV4QUhBc0JuTzY1ZEVBX295eW5xYVlIeGpGY3J5Ulc0UEhvSW9iQnFtVVZNQ2p0UFdoLUJPTHh2OVNvTFlhRVlVV0ZMdU5rcE5pdzZtV0pYVnlDUENlNWlSMUhUbzBueWxIcHpEdWtJUmlXbjVhN1ZKOXFIa09HMGNsdTZtS01TbXJDdFBfTlVocDAxXzhsNkRiVzVQVWRRS3NZQmc0aFI?oc=5",
-      "time": "19.11.2026 22:45",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
-      "source": "The Washington Post"
     },
     {
       "company": "Berkshire Hathaway",
@@ -7910,21 +7988,12 @@
       "source": "The Wall Street Journal"
     },
     {
-      "company": "Meta",
-      "title": "Nebius Stock’s (NBIS) Q3 Sell-Off Looks Like an Opportunity",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/nebius-stock-nbis-q3-sell-195748939.html",
-      "time": "19.11.2026 20:57",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Meta: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
-      "source": "TipRanks"
-    },
-    {
-      "company": "Amazon",
+      "company": "Broadcom",
       "title": "Anthropic Soars 16% in Record $107 Billion IPO Debut: “A Really Big Coming-of-Age Story”",
       "url": "https://www.tikr.com/blog/anthropic-soars-16-in-record-107-billion-ipo-debut-a-really-big-coming-of-age-story?ref=yahoofinance&tlnk=yf-261119-xp2j9j3v",
       "time": "19.11.2026 20:25",
       "direction": "up",
-      "impact": "Může vést k nárůstu ceny akcie Amazon: prudký růst ukazuje na silný zájem investorů, po rychlém růstu ale může přijít i stahování zisků.",
+      "impact": "Může vést k nárůstu ceny akcie Broadcom: prudký růst ukazuje na silný zájem investorů, po rychlém růstu ale může přijít i stahování zisků.",
       "source": "TIKR"
     },
     {
@@ -7962,78 +8031,6 @@
       "direction": "down",
       "impact": "Může vést k poklesu ceny akcie Alphabet: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
       "source": "PR Newswire"
-    },
-    {
-      "company": "Eli Lilly",
-      "title": "Judge dismisses Tampa General lawsuit against Eli Lilly over 340B reporting demands",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQZVp6bjNkUnh2SDYxMjJUeFgycmhCYUVIMzVCcEtHQ2NQcmRFQVh0SnhWY3pBakpJQmZMQXF6YjFqVk1wcTZVS25NUHVXQWhSa0lQaFZ5ZHg2a05EVzhURl9VWUoxT2ZuSHZwenlFNmI5dFJTNWJENEJjcmVXZTZOZU5tVVUtOWt6bkFWRkJaM2YwdkNXbnhUMzJQQzdGSGNuLXA4SXByM2NfbDM5dmdDMG9LdzI3akRWcWdPd3NuYlFQTTN1dTl6RHYyZFc4UGdW?oc=5",
-      "time": "19.11.2026 18:45",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Eli Lilly: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
-      "source": "WUSF"
-    },
-    {
-      "company": "JPMorgan",
-      "title": "JPMorgan cyberattack: Ransomware group allegedly leaks 16,000 customer records",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPX1lpT1dWNnN1amxJM25TaDJRZXFtclRMVXFnbk5uZWRfM0tXeUIwdGhJWkthMXBFQnVWRU8xRFNnbWszT1QwUzZGSmdoZmhkTndqeDVpQmNpZnRnNElIakFENmpodXlDQXctQUpGRlhZaGNNcUpyTlZLa3hqcjh2djlPVW0wNldZR0NwTENwQ1h2SXpldFYxSmEzNnBEeko1U3hYRkwzVkNnWHdNa1hyVDUtT0U2ckxHSTZMVDRZTmYyQjBTekRV?oc=5",
-      "time": "19.11.2026 18:41",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie JPMorgan: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
-      "source": "The American Bazaar"
-    },
-    {
-      "company": "Alphabet",
-      "title": "Google Signs Deal With Blue Origin To Send Satellite Data Centers Into Orbit",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNOHRnR1pULTdkV2tDaUhaUVhSVmxoUVBkMHdrc0Y0NXhNMWxGRW8tWjJBNThEVTNWLS10R2hWdTdPdEFNOU1hY2hnRVdKdWthSHFDMng5eTJUWkNhQXlndDNwbTBxUzZXY3BUS3JMMEdnZXBJeW5STkl1MURkMUk5RkFaSXk0andkdlg3SzhmRGFMQkd6TUhwM2ZwbFFmR0tnZTFUaVkxb3ViUVQ3Snpr?oc=5",
-      "time": "19.11.2026 18:38",
-      "direction": "up",
-      "impact": "Může vést k nárůstu ceny akcie Alphabet: nový kontrakt nebo partnerství může zvýšit budoucí tržby.",
-      "source": "Engadget"
-    },
-    {
-      "company": "Toyota",
-      "title": "Moody’s upgrades Toyota outlook to positive, projects modest EBIT margin expansion",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/moody-upgrades-toyota-outlook-positive-171321572.html",
-      "time": "19.11.2026 18:13",
-      "direction": "up",
-      "impact": "Může vést k nárůstu ceny akcie Toyota: analytici zlepšují hodnocení, což často přitáhne nové kupce.",
-      "source": "Investing.com"
-    },
-    {
-      "company": "SpaceX",
-      "title": "Anthropic vs. SpaceX: ANT Stock Jumps 34% in Debut as Market Cap Hits $2T",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQVjV1akdUd0hLakxoVmEtRkFMNW9NQUkzYlRkQzVFVHZ5REd0U2ptTlJaRWMxU240U0w4Tk5pZEhiWEhuV0dTTGo2SG1Nb1A4N2gyRFRfel9mZ3FuaV9fYzBPRXgzYUdRX0ZRR2NuWEd4d01TSzNib24zeEpHdWlyR1RDSFpFX3FheC1pRFY3RUdPTWp1dnFpblVmMGd0V1Np?oc=5",
-      "time": "19.11.2026 18:08",
-      "direction": "up",
-      "impact": "Může vést k nárůstu ceny akcie SpaceX: prudký růst ukazuje na silný zájem investorů, po rychlém růstu ale může přijít i stahování zisků.",
-      "source": "Coinpaper"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "AI expert Gary Marcus weighs in on recent tech outages",
-      "url": "https://finance.yahoo.com/video/ai-expert-gary-marcus-weighs-in-on-recent-tech-outages-170813536.html",
-      "time": "19.11.2026 18:08",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie NVIDIA: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
-      "source": "Yahoo Finance Video"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "Enabling Real-Time AI for Scientific Instruments with GPU-Native Data Acquisition",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMDNmOXA0S0Vjcm1jYUxaSGtUd1MxakRCY2tMamdyUndrYjV2eEdtQzg2VDc0cGJMWnRKQ3ljUjlzaUpZUUJTbGRUek9Ya1dnZTFiR3lQMHlnMS1ZcjZrdV8tT3RxUW1MQTBBVEF2VFFGVHMzQlFyN056cE5KeEgwSmdMN2t0TGpZSnVhVWFPNXcyQ2hsMHlnTlhpTmRKeHQtZkJrY2xNWlAxRzRQN0t1cmFjd0R6dDg?oc=5",
-      "time": "19.11.2026 18:08",
-      "direction": "mixed",
-      "impact": "Dopad na cenu akcie NVIDIA je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
-      "source": "NVIDIA Developer"
-    },
-    {
-      "company": "SpaceX",
-      "title": "Anthropic soars 34% on its stock market debut and nears a valuation of $2 trillion",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQRmdkejdkWUd3R290RnVVWmtOY18zZU4zWnVET3dnbXVwejNhQnJGS3pjRXg4YTRRcXZuUXpNLWhySnc0VW5kV3k2aHFoam41S0JreTd4RkxIdW5lQktoWW5CckdVZVFoM1JvblJabzJaMno5b3VmNmFNLWRxUnMzQi1qNFV4UjZXeWJPYS04OGljdnJ4WE5QZlpWbS1PazJuV0pwYkFHbFlpU3VMcll2cGVZYlRaYWkxMzdMTXpQUjZTT18yaVHSAdoBQVVfeXFMTmJnaDNoOE45MnZGNHA3V1NUQkJiZkEwS2d6WUNla2RRUThGbzNxQ2hQRS1DM1VGOFdXenpZTVBvUzhsSFdQYWFtZGczcTZGR2hQMXhDNmJUZ184emF6NkRxelYtSnJVZXFtQlc0QkJEa00yYmViTjV3eXNGWDB6R2lxdEF4X1haV05Mc1dWeUVOTnMzQkdlalJUMG9neUpCdk41MHAyd0lEaEF3ekFsMTltN2pCSFV4R3lzNjBPQkZ1MHZNQVV3YlptTWQ5RENXSXZHTi1mOF9pSEE?oc=5",
-      "time": "19.11.2026 17:45",
-      "direction": "up",
-      "impact": "Může vést k nárůstu ceny akcie SpaceX: prudký růst ukazuje na silný zájem investorů, po rychlém růstu ale může přijít i stahování zisků.",
-      "source": "EL PAÍS English"
     }
   ]
 }
