@@ -253,6 +253,21 @@
     .chart { display: block; width: 100%; height: auto; touch-action: none; }
     .ch-grid { stroke: var(--border); stroke-width: 1; }
     .ch-vgrid { stroke: var(--border); stroke-width: 1; stroke-dasharray: 2 4; }
+    .ch-prev { stroke: var(--muted); stroke-width: 1; stroke-dasharray: 1 5; }
+    .ch-last { stroke-width: 1; stroke-dasharray: 4 4; opacity: .8; }
+    .chart-up .ch-last { stroke: var(--green); }
+    .chart-down .ch-last { stroke: var(--red); }
+    .chart-up .ch-tag, .chart-up .ch-end, .chart-up .ch-pulse { fill: var(--green); }
+    .chart-down .ch-tag, .chart-down .ch-end, .chart-down .ch-pulse { fill: var(--red); }
+    .ch-tag-text { fill: #14130f; font-family: var(--mono); font-size: 11px; font-weight: 600; }
+    .ch-pulse {
+      opacity: .5;
+      transform-box: fill-box; transform-origin: center;
+      animation: ping 1.6s ease-out infinite;
+    }
+    @keyframes ping { from { transform: scale(1); opacity: .5; } to { transform: scale(3.2); opacity: 0; } }
+    .chart-live { min-height: 1.1em; margin-top: 8px; color: var(--muted); font-family: var(--mono); font-size: .74rem; }
+    .chart-live.on { color: var(--green); }
     .ch-label { fill: var(--muted); font-family: var(--mono); font-size: 11px; }
     .ch-line { fill: none; stroke-width: 2.2; stroke-linejoin: round; stroke-linecap: round; }
     .ch-cursor { stroke: var(--muted); stroke-width: 1; stroke-dasharray: 3 3; }
@@ -423,6 +438,7 @@
       <button class="modal-close" id="chartClose" aria-label="Zavřít">✕</button>
       <h3 id="chartTitle"></h3>
       <div id="chartSub" class="ticker"></div>
+      <div id="chartLive" class="chart-live"></div>
       <div id="chartSummary" class="chart-summary"></div>
       <div class="ranges">
         <button class="range" data-range="1D">1D</button>
@@ -439,7 +455,7 @@
   <script>
     // Adresa tvého Cloudflare Workeru, např. "https://market-pulse.tvojesubdomena.workers.dev"
     // Když je prázdná, stránka používá jen data z GitHubu.
-    const LIVE_URL = "https://market-pulse.krystof-plechaty.workers.dev";
+    const LIVE_URL = "";
 
     let allStocks = [];
     let liveQuotes = {};
@@ -896,6 +912,8 @@
     const RANGE_DAYS = { "1M": 30, "3M": 91, "6M": 182, "1R": 366 };
     let chartStock = null;
     let chartRange = "3M";
+    let chartLive = null;
+    const CHART_REFRESH_SECONDS = 10;   // jak často se obnovuje otevřený graf 1D / 1T
 
     function svgEl(tag, attrs = {}) {
       const el = document.createElementNS("http://www.w3.org/2000/svg", tag);
@@ -913,11 +931,46 @@
       document.getElementById("chartModal").classList.remove("hidden");
       document.body.style.overflow = "hidden";
       drawChart();
+      refreshLiveChart();
     }
 
     function closeChart() {
       document.getElementById("chartModal").classList.add("hidden");
       document.body.style.overflow = "";
+    }
+
+    async function refreshLiveChart() {
+      if (!LIVE_URL || !chartStock || document.hidden) return;
+      if (document.getElementById("chartModal").classList.contains("hidden")) return;
+      if (chartRange !== "1D" && chartRange !== "1W") return;
+
+      const symbol = chartStock.symbol;
+      const range = chartRange;
+
+      try {
+        const url = `${LIVE_URL.replace(/\/$/, "")}/chart?symbol=${encodeURIComponent(symbol)}&range=${range === "1D" ? "1d" : "5d"}`;
+        const response = await fetch(url, { cache: "no-store" });
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+
+        const data = await response.json();
+        if (!Array.isArray(data.t) || !Array.isArray(data.c) || data.t.length < 2) return;
+
+        chartLive = {
+          key: `${symbol}|${range}`,
+          data: {
+            points: data.t.map((seconds, i) => [
+              new Date(seconds * 1000).toISOString().slice(0, 16) + "Z",
+              data.c[i]
+            ]),
+            price: Number(data.price),
+            previousClose: Number(data.previousClose)
+          }
+        };
+
+        if (chartStock && chartStock.symbol === symbol && chartRange === range) drawChart();
+      } catch (error) {
+        console.warn("Živý graf není dostupný, používám data z GitHubu:", error);
+      }
     }
 
     function drawChart() {
@@ -926,6 +979,9 @@
       box.replaceChildren();
       summary.textContent = "";
       summary.className = "chart-summary";
+      const badge = document.getElementById("chartLive");
+      badge.textContent = "";
+      badge.className = "chart-live";
 
       document.querySelectorAll(".range").forEach(button => {
         button.classList.toggle("active", button.dataset.range === chartRange);
@@ -933,9 +989,15 @@
 
       // 1D a 1W používají 15minutová data, delší období denní zavírací ceny
       const intraday = chartRange === "1D" || chartRange === "1W";
-      let source = intraday
-        ? (Array.isArray(chartStock.intraday) ? chartStock.intraday : [])
-        : (Array.isArray(chartStock.history) ? chartStock.history : []);
+      const fresh = intraday && chartLive && chartLive.key === `${chartStock.symbol}|${chartRange}`
+        ? chartLive.data
+        : null;
+
+      let source = fresh
+        ? fresh.points
+        : intraday
+          ? (Array.isArray(chartStock.intraday) ? chartStock.intraday : [])
+          : (Array.isArray(chartStock.history) ? chartStock.history : []);
 
       if (chartRange === "1D" && source.length) {
         // poslední obchodní den = všechny body se stejným UTC datem jako ten poslední
@@ -955,7 +1017,12 @@
         );
 
       // poslední bod grafu posuneme podle živé ceny (pokud ji máme)
-      const live = chartStock.live;
+      // poslední minutová svíčka se doladí přesnou aktuální cenou
+      if (fresh && points.length && Number.isFinite(fresh.price)) {
+        points[points.length - 1].value = fresh.price;
+      }
+
+      const live = fresh ? null : chartStock.live;
       if (live && points.length) {
         const lastPoint = points[points.length - 1];
         if (intraday) {
@@ -979,20 +1046,23 @@
 
       const first = points[0].value;
       const last = points[points.length - 1].value;
-      const rangeChange = first ? (last - first) / first * 100 : 0;
+      const vsPrevious = Boolean(fresh) && chartRange === "1D" && Number.isFinite(fresh.previousClose);
+      const reference = vsPrevious ? fresh.previousClose : first;
+      const rangeChange = reference ? (last - reference) / reference * 100 : 0;
       const dir = rangeChange >= 0 ? "up" : "down";
 
       summary.className = `chart-summary ${dir}`;
       summary.textContent =
-        `${formatPrice(chartStock, last)}  ·  ${rangeChange >= 0 ? "+" : ""}${rangeChange.toFixed(2)} % za zvolené období`;
+        `${formatPrice(chartStock, last)}  ·  ${rangeChange >= 0 ? "+" : ""}${rangeChange.toFixed(2)} % ${vsPrevious ? "oproti předchozímu zavření" : "za zvolené období"}`;
 
-      const W = 800, H = 340, padL = 90, padR = 14, padT = 14, padB = 28;
+      const W = 800, H = 340, padL = 90, padR = 96, padT = 14, padB = 28;
       const plotW = W - padL - padR;
       const plotH = H - padT - padB;
 
       const values = points.map(point => point.value);
-      let min = Math.min(...values);
-      let max = Math.max(...values);
+      const extra = vsPrevious ? [fresh.previousClose] : [];
+      let min = Math.min(...values, ...extra);
+      let max = Math.max(...values, ...extra);
       const margin = (max - min) * 0.08 || max * 0.01 || 1;
       min -= margin;
       max += margin;
@@ -1095,6 +1165,42 @@
         svgEl("path", { d: line, class: "ch-line" })
       );
 
+      const lastTime = points[points.length - 1].date;
+      const isLive = Boolean(fresh) && Date.now() - lastTime.getTime() < 20 * 60 * 1000;
+
+      // referenční čára: předchozí zavření (jen graf 1D s živými daty)
+      if (vsPrevious) {
+        const prevY = y(fresh.previousClose);
+        svg.append(svgEl("line", { x1: padL, x2: W - padR, y1: prevY, y2: prevY, class: "ch-prev" }));
+      }
+
+      // aktuální cena: čárkovaná čára, štítek v pravém okraji a tečka na konci čáry
+      const lastX = x(points.length - 1);
+      const lastY = y(last);
+      svg.append(svgEl("line", { x1: padL, x2: W - padR, y1: lastY, y2: lastY, class: "ch-last" }));
+
+      const tagText = formatPrice(chartStock, last);
+      const tagWidth = Math.min(tagText.length * 6.8 + 12, padR - 6);
+      const tagY = Math.min(Math.max(lastY - 9, padT - 4), padT + plotH - 14);
+      const tag = svgEl("rect", { x: W - padR + 4, y: tagY, width: tagWidth, height: 18, rx: 4, class: "ch-tag" });
+      const tagLabel = svgEl("text", { x: W - padR + 9, y: tagY + 13, class: "ch-tag-text" });
+      tagLabel.textContent = tagText;
+      svg.append(tag, tagLabel);
+
+      if (isLive) svg.append(svgEl("circle", { cx: lastX, cy: lastY, r: 4, class: "ch-pulse" }));
+      svg.append(svgEl("circle", { cx: lastX, cy: lastY, r: 4, class: "ch-end" }));
+
+      if (fresh) {
+        const high = formatPrice(chartStock, Math.max(...values));
+        const low = formatPrice(chartStock, Math.min(...values));
+        badge.className = `chart-live ${isLive ? "on" : ""}`.trim();
+        badge.textContent = isLive
+          ? `● Živě · obnova každých ${CHART_REFRESH_SECONDS} s · max ${high} · min ${low}`
+          : `○ Trh je zavřený · poslední obchod ${lastTime.toLocaleString("cs-CZ", {
+              day: "numeric", month: "numeric", hour: "2-digit", minute: "2-digit"
+            })} · max ${high} · min ${low}`;
+      }
+
       const cursor = svgEl("line", { y1: padT, y2: padT + plotH, class: "ch-cursor", visibility: "hidden" });
       const dot = svgEl("circle", { r: 4.5, class: "ch-dot", visibility: "hidden" });
       svg.append(cursor, dot);
@@ -1146,8 +1252,10 @@
       button.addEventListener("click", () => {
         chartRange = button.dataset.range;
         drawChart();
+        refreshLiveChart();
       });
     });
+    setInterval(refreshLiveChart, CHART_REFRESH_SECONDS * 1000);
     document.getElementById("chartClose").addEventListener("click", closeChart);
     document.getElementById("chartModal").addEventListener("click", event => {
       if (event.target.id === "chartModal") closeChart();
