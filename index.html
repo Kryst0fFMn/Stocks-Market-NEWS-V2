@@ -437,7 +437,14 @@
   </div>
 
   <script>
+    // Adresa tvého Cloudflare Workeru, např. "https://market-pulse.tvojesubdomena.workers.dev"
+    // Když je prázdná, stránka používá jen data z GitHubu.
+    const LIVE_URL = "";
+
     let allStocks = [];
+    let liveQuotes = {};
+    let liveTime = null;
+    let dataStatus = "";
 
     function makeElement(tag, className, text) {
       const element = document.createElement(tag);
@@ -649,6 +656,10 @@
           status.textContent = "Data jsou načtena";
         }
 
+        dataStatus = status.textContent;
+        applyLive();
+        updateStatus();
+
         renderStocks();
         renderNews(data.news);
         renderRanking();
@@ -662,6 +673,54 @@
           )
         );
         renderNews([]);
+      }
+    }
+
+    function applyLive() {
+      for (const stock of allStocks) {
+        const quote = liveQuotes[stock.symbol];
+        if (!quote || !Number.isFinite(quote.price)) {
+          stock.live = null;
+          continue;
+        }
+        stock.live = { price: quote.price, time: quote.time };
+        stock.price = quote.price;
+        if (Number.isFinite(quote.change)) stock.change = quote.change;
+      }
+    }
+
+    function updateStatus() {
+      const status = document.getElementById("updated");
+      if (liveTime) {
+        status.textContent =
+          `Ceny živě: ${liveTime.toLocaleTimeString("cs-CZ")} · grafy a zprávy: ${dataStatus.replace("Aktualizováno: ", "")}`;
+      } else if (dataStatus) {
+        status.textContent = dataStatus;
+      }
+    }
+
+    async function loadLive() {
+      if (!LIVE_URL || document.hidden) return;
+
+      try {
+        const response = await fetch(LIVE_URL, { cache: "no-store" });
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+
+        const data = await response.json();
+        liveQuotes = data.quotes || {};
+        liveTime = new Date(data.updated_at || Date.now());
+
+        applyLive();
+        renderStocks();
+        updateStatus();
+
+        // otevřený graf překreslíme s novou cenou
+        if (chartStock && !document.getElementById("chartModal").classList.contains("hidden")) {
+          chartStock = allStocks.find(stock => stock.symbol === chartStock.symbol) || chartStock;
+          drawChart();
+        }
+      } catch (error) {
+        console.warn("Živé ceny nejsou dostupné, používám data z GitHubu:", error);
       }
     }
 
@@ -895,6 +954,21 @@
           (intraday || point.date >= cutoff)
         );
 
+      // poslední bod grafu posuneme podle živé ceny (pokud ji máme)
+      const live = chartStock.live;
+      if (live && points.length) {
+        const lastPoint = points[points.length - 1];
+        if (intraday) {
+          const liveDate = new Date(live.time * 1000);
+          const sameDay = liveDate.toISOString().slice(0, 10) === lastPoint.key.slice(0, 10);
+          if (liveDate > lastPoint.date && (chartRange === "1W" || sameDay)) {
+            points.push({ key: liveDate.toISOString().slice(0, 16) + "Z", date: liveDate, value: live.price });
+          }
+        } else {
+          lastPoint.value = live.price;
+        }
+      }
+
       if (points.length < 2) {
         box.append(makeElement(
           "div", "empty",
@@ -1098,7 +1172,13 @@
     document.getElementById("search").addEventListener("input", renderStocks);
     document.getElementById("marketFilter").addEventListener("change", renderStocks);
 
-    loadData();
+    loadData().then(loadLive);
+
+    // Živé ceny z Workeru každých 30 s (když je záložka vidět)
+    setInterval(loadLive, 30 * 1000);
+    document.addEventListener("visibilitychange", () => {
+      if (!document.hidden) loadLive();
+    });
 
     // Stránka znovu načte JSON každých 5 minut.
     // Samotný JSON se aktualizuje podle rozvrhu GitHub Actions.
