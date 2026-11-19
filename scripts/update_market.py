@@ -1,4 +1,5 @@
 import json
+import os
 import re
 import time
 import urllib.error
@@ -24,6 +25,15 @@ OUTPUT = ROOT / "data" / "market.json"
 MAX_PER_COMPANY = 3    # kolik zpráv na firmu (nejlepší z obou zdrojů)
 MAX_TOTAL = 24         # kolik zpráv se uloží celkem
 MAX_AGE_DAYS = 7       # starší zprávy se zahodí
+
+# ---- Oznámení do telefonu (ntfy) ----
+# Téma (topic) se bere z tajného nastavení GitHubu NTFY_TOPIC. Když chybí, oznámení se neposílají.
+NTFY_SERVER = os.environ.get("NTFY_SERVER", "https://ntfy.sh")
+SITE_URL = "https://kryst0ffmn.github.io/Stocks-Market-NEWS-V2/"
+PRICE_ALERT_STEP = 3.0         # upozornění při denní změně o 3 %, pak o 6 %, 9 %...
+MAX_PRICE_ALERTS = 5           # kolik cenových oznámení nejvýš za jeden běh
+MAX_NEWS_ALERTS = 5            # kolik oznámení o zprávách nejvýš za jeden běh
+NOTIFY_NEUTRAL_NEWS = False    # True = oznamovat i zprávy bez rozpoznatelného dopadu
 
 # "query" (nepovinné) = jak firmu hledat na Google News, když by samotné jméno bylo nejednoznačné
 COMPANIES = [
@@ -479,7 +489,156 @@ def load_news():
     return news
 
 
+# ---------------------------------------------------------------- oznámení
+
+def load_previous():
+    """Předchozí uložená data (pro zjištění, co je nové). Při chybě prázdný slovník."""
+    try:
+        data = json.loads(OUTPUT.read_text(encoding="utf-8"))
+        return data if isinstance(data, dict) else {}
+    except (OSError, ValueError):
+        return {}
+
+
+def send_ntfy(title, message, click=None, tags=None, priority=3):
+    topic = os.environ.get("NTFY_TOPIC", "").strip()
+    if not topic:
+        return False
+
+    payload = {"topic": topic, "title": title, "message": message, "priority": priority}
+    if click:
+        payload["click"] = click
+    if tags:
+        payload["tags"] = tags
+
+    request = urllib.request.Request(
+        NTFY_SERVER,
+        data=json.dumps(payload, ensure_ascii=False).encode("utf-8"),
+        headers={"Content-Type": "application/json", "User-Agent": "MarketPulse/1.0"},
+        method="POST",
+    )
+
+    try:
+        with urllib.request.urlopen(request, timeout=15) as response:
+            return 200 <= response.status < 300
+    except Exception as exc:  # oznámení nikdy nesmí shodit celý běh
+        print(f"Oznámení se nepodařilo odeslat: {exc}")
+        return False
+
+
+def fmt_number(value, decimals=2):
+    return f"{value:,.{decimals}f}".replace(",", " ").replace(".", ",")
+
+
+def fmt_price(stock):
+    price = stock.get("price")
+    currency = stock.get("currency") or ""
+    if not isinstance(price, (int, float)):
+        return ""
+    if currency == "GBp":  # Yahoo uvádí britské akcie v pencích
+        return f"{fmt_number(price / 100)} GBP"
+    return f"{fmt_number(price)} {currency}".strip()
+
+
+def title_key(title):
+    return re.sub(r"\W+", " ", (title or "").casefold()).strip()
+
+
+NEWS_LABELS = {
+    "up": ("▲", "možný růst", "chart_with_upwards_trend"),
+    "down": ("▼", "možný pokles", "chart_with_downwards_trend"),
+    "mixed": ("◆", "nejasný dopad", "warning"),
+    "neutral": ("●", "bez jasného dopadu", "newspaper"),
+}
+
+
+def notify_new_news(previous, news):
+    old = previous.get("news")
+    if not isinstance(old, list) or not old:
+        print("Oznámení o zprávách: nemám s čím porovnat (první běh), přeskakuji.")
+        return
+
+    known = set()
+    for item in old:
+        if isinstance(item, dict):
+            known.add(item.get("url"))
+            known.add(title_key(item.get("title")))
+
+    fresh = [
+        item for item in news
+        if item["url"] not in known and title_key(item["title"]) not in known
+        and (NOTIFY_NEUTRAL_NEWS or item.get("direction") in ("up", "down", "mixed"))
+    ]
+    # zprávy s jasným dopadem dopředu (uvnitř skupiny zůstává pořadí od nejnovější)
+    fresh.sort(key=lambda item: item.get("direction") == "neutral")
+
+    sent = 0
+    for item in fresh[:MAX_NEWS_ALERTS]:
+        arrow, label, tag = NEWS_LABELS.get(item.get("direction"), NEWS_LABELS["neutral"])
+        if send_ntfy(
+            f"{arrow} {item['company']}: {label}",
+            f"{item['title']}\n{item.get('impact', '')}".strip(),
+            click=item["url"],
+            tags=[tag],
+        ):
+            sent += 1
+
+    rest = len(fresh) - MAX_NEWS_ALERTS
+    if rest > 0:
+        send_ntfy("Další nové zprávy", f"Na webu je ještě {rest} dalších nových zpráv.", click=SITE_URL, tags=["newspaper"])
+
+    print(f"Oznámení o zprávách: {len(fresh)} nových, odesláno {sent}.")
+
+
+def alert_level(change):
+    return int(abs(change) // PRICE_ALERT_STEP)
+
+
+def notify_price_moves(previous, stocks):
+    old_stocks = previous.get("stocks")
+    if not isinstance(old_stocks, list) or not old_stocks:
+        print("Cenová oznámení: nemám s čím porovnat (první běh), přeskakuji.")
+        return
+
+    old = {item.get("symbol"): item for item in old_stocks if isinstance(item, dict)}
+    alerts = []
+
+    for stock in stocks:
+        change = stock.get("change")
+        if not isinstance(change, (int, float)) or alert_level(change) < 1:
+            continue
+
+        before = old.get(stock["symbol"], {}).get("change")
+        before_level = alert_level(before) if isinstance(before, (int, float)) else 0
+        same_direction = isinstance(before, (int, float)) and (before >= 0) == (change >= 0)
+
+        # oznámit, když je to první překročení, další úroveň, nebo obrat směru
+        if before_level == 0 or not same_direction or alert_level(change) > before_level:
+            alerts.append(stock)
+
+    alerts.sort(key=lambda stock: abs(stock["change"]), reverse=True)
+
+    sent = 0
+    for stock in alerts[:MAX_PRICE_ALERTS]:
+        up = stock["change"] > 0
+        if send_ntfy(
+            f"{'▲' if up else '▼'} {stock['name']}: {stock['change']:+.1f} %".replace(".", ","),
+            f"{fmt_price(stock)} · změna oproti předchozímu zavření",
+            click=SITE_URL,
+            tags=["chart_with_upwards_trend" if up else "chart_with_downwards_trend"],
+            priority=4,
+        ):
+            sent += 1
+
+    rest = len(alerts) - MAX_PRICE_ALERTS
+    if rest > 0:
+        send_ntfy("Další velké pohyby cen", f"Ještě {rest} dalších akcií se pohnulo o víc než {PRICE_ALERT_STEP:.0f} %.", click=SITE_URL)
+
+    print(f"Cenová oznámení: {len(alerts)} k odeslání, odesláno {sent}.")
+
+
 def main():
+    previous = load_previous()
     stocks = load_quotes()
 
     # minutová data pro grafy 1D a 1W; když selžou, zbytek stránky funguje dál
@@ -506,6 +665,15 @@ def main():
     OUTPUT.write_text(text, encoding="utf-8")
 
     print(f"Uloženo {len(stocks)} kotací a {len(news)} zpráv.")
+
+    # oznámení do telefonu (až po uložení dat; chyba oznámení běh neshodí)
+    try:
+        if os.environ.get("NTFY_TEST", "").strip().lower() == "true":
+            send_ntfy("Market Pulse – test", "Oznámení fungují ✅", click=SITE_URL, tags=["white_check_mark"])
+        notify_new_news(previous, news)
+        notify_price_moves(previous, stocks)
+    except Exception as exc:
+        print(f"Oznámení přeskočena kvůli chybě: {exc}")
 
 
 if __name__ == "__main__":
