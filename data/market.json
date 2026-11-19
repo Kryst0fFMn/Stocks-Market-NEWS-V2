@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T23:06:52.052699+00:00",
+  "updated_at": "2026-11-19T00:03:25.141450+00:00",
   "stocks": [
     {
       "name": "Microsoft",
@@ -6638,8 +6638,8 @@
       "symbol": "AZN.L",
       "market": "Velká Británie",
       "currency": "GBp",
-      "price": 13646.0,
-      "change": -1.13,
+      "price": 13802.0,
+      "change": -1.65,
       "history": [
         ["2025-11-18", 13566.0],
         ["2025-11-19", 13596.0],
@@ -6893,8 +6893,7 @@
         ["2026-11-12", 13930.0],
         ["2026-11-13", 13982.0],
         ["2026-11-16", 14034.0],
-        ["2026-11-17", 13802.0],
-        ["2026-11-18", 13646.0]
+        ["2026-11-17", 13802.0]
       ],
       "intraday": [
         ["2026-11-12T08:00Z", 14046.0],
@@ -7077,7 +7076,6 @@
       "price": 3391.0,
       "change": -0.67,
       "history": [
-        ["2025-11-18", 3029.0],
         ["2025-11-19", 3037.0],
         ["2025-11-20", 3044.0],
         ["2025-11-21", 3097.0],
@@ -7322,29 +7320,6 @@
         ["2026-11-18", 3391.0]
       ],
       "intraday": [
-        ["2026-11-12T00:00Z", 3418.0],
-        ["2026-11-12T00:15Z", 3397.0],
-        ["2026-11-12T00:30Z", 3405.0],
-        ["2026-11-12T00:45Z", 3418.0],
-        ["2026-11-12T01:00Z", 3429.0],
-        ["2026-11-12T01:15Z", 3426.0],
-        ["2026-11-12T01:30Z", 3421.0],
-        ["2026-11-12T01:45Z", 3415.0],
-        ["2026-11-12T02:00Z", 3403.0],
-        ["2026-11-12T02:15Z", 3399.0],
-        ["2026-11-12T02:30Z", 3398.0],
-        ["2026-11-12T03:30Z", 3407.0],
-        ["2026-11-12T03:45Z", 3403.0],
-        ["2026-11-12T04:00Z", 3401.0],
-        ["2026-11-12T04:15Z", 3408.0],
-        ["2026-11-12T04:30Z", 3410.0],
-        ["2026-11-12T04:45Z", 3417.0],
-        ["2026-11-12T05:00Z", 3410.0],
-        ["2026-11-12T05:15Z", 3412.0],
-        ["2026-11-12T05:30Z", 3416.0],
-        ["2026-11-12T05:45Z", 3416.0],
-        ["2026-11-12T06:00Z", 3419.0],
-        ["2026-11-12T06:15Z", 3415.0],
         ["2026-11-13T00:00Z", 3359.0],
         ["2026-11-13T00:15Z", 3378.0],
         ["2026-11-13T00:30Z", 3391.0],
@@ -7817,21 +7792,30 @@
   "news": [
     {
       "company": "Microsoft",
-      "title": "Microsoft CEO addresses outage amid wave of other tech failures",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPR2ZSaWN6cldvTjZpMUhXS3ZVQmVycmlGS1dBTzVSRUJFUjd0U2FkVnQ4Qzk0MnNFQXR5aEJydnl1NGZnOWwySzFCWnoyeFQ2MlpvZy1seXllQVFzMXBfbjdZd1FnbktLd1lfMGVjQ2QtSFpCY0t0M1B1Y2RUMExjLVR0eEY5YlFTcXZCS2VCeVg4ejdnVllJQUFn?oc=5",
-      "time": "19.11.2026 00:00",
+      "title": "Microsoft outage opens industry debate over cyber policy triggers",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNRWoxTG9TLTY5b0dEb01QRFVuRXhXSlhoOWFOTW8xbjRRYVV4d2RTNmJIVUNiQkRPVWtTMzFKbW1ZZHBXSk5FTTFPbnhMRVRFcGlwLWF6TF8xVjM2MXhOMG5sLUxLT1NUUFl5eE90S0puYjlkN0NCaUNncFZ3VVg3WG5HNHc5NmZwQ1NCNXBUenh2MTFPbU9jS3VQQmt4ZnBpN1I2S0JIaFFuOHJXd24xTzE5RzhoSUVPblJ4X2FvZ0w5cmRkNW1V?oc=5",
+      "time": "19.11.2026 01:00",
       "direction": "down",
       "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
-      "source": "Longview Daily News"
+      "source": "Insurance Business"
     },
     {
       "company": "Microsoft",
-      "title": "Microsoft's CEO: Global outage not related to AI",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNeU1LSmU0Tm9wVVgtSGlUQmFDaDFmLXgzLS02TkV1SEtodTR6eVE0MHkyWmxaTmxzMXpvZmdtMFVGRVp3X3F0djFDMVlKd3hXMnEzaWc4SEVTUUxLYjBLM0lkdkQwZm9sbGhfVHROd1JEblJFeUx1Q25FdzJjRDF5TFRuR0pXUi1xN2xESnE0dDVfYzVTdGdPWA?oc=5",
-      "time": "18.11.2026 23:38",
+      "title": "A.I. Makes More Tech Outages Likely, Microsoft’s Chief Warns",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNSzIwNVFQYVRJeDNJaWFLUUlpV0hRNEpaZ05ISnJYelI3dWJsbWNzallzNkR3eGJCRlpZcE43ZlRaQmJIWThMbkd5VnJtZTd6S1hFWDFHUXJJQXBSeEJNQ0l5M1JRQjZjR0F3eGI2RTQtLWlmOWJIUXB2YmFzamZ2cGtsM3MxVnQxUE5vUzgtWWNUU2lxNk1n?oc=5",
+      "time": "19.11.2026 00:54",
       "direction": "down",
       "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
-      "source": "Breakingthenews.net"
+      "source": "The New York Times"
+    },
+    {
+      "company": "Microsoft",
+      "title": "Video: Watch: Microsoft’s C.E.O. Satya Nadella Addresses Global Outlook Outage",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNaVh1Y2JQbWdyUmVhVWtnX3d0bUY1dmppSVZfY2JyNm9NSWw3MVFjNmMxd0pqT05OcnFNMHloV3ZqN2JRWGtnUkVkQmVTWF9NMWtKbjVlbnpnSGpNWC1lNmRKMnJhSEdoSi1WOTViV0pjNW9mUFU3MktPLWxfa0dKTGRKVmc0aVV2YkllWW5wS0M5cFFoSUlwVHAzRVFIcjh6YWRQaHJjVmhOSGs4Mnc?oc=5",
+      "time": "19.11.2026 00:52",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
+      "source": "The New York Times"
     },
     {
       "company": "Amazon",
@@ -7852,13 +7836,13 @@
       "source": "Motley Fool"
     },
     {
-      "company": "Microsoft",
-      "title": "Satya Nadella addresses Microsoft outages, says AI cuts both ways on software flaws",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9VUmVmUlctZVJ0R2ZnQk0tS0NQXzBxS1R1bVp1bEJaMXFfdk9mYll5WkpNXzVsNkdjQmk1d1pzOXQzeHVvcVQ5Y0NJMThPWXF2SG9oQnJEdDZxRzBIWEdybE1kd09yX2J3Q1g4dlV3Zw?oc=5",
-      "time": "18.11.2026 23:03",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
-      "source": "Crypto Briefing"
+      "company": "Amazon",
+      "title": "Anthropic Prices IPO at $83 a Share on Strong Demand",
+      "url": "https://www.wsj.com/finance/stocks/anthropic-prices-ipo-at-83-a-share-0290494c?siteid=yhoof2&yptr=yahoo",
+      "time": "18.11.2026 22:53",
+      "direction": "up",
+      "impact": "Může vést k nárůstu ceny akcie Amazon: schválení nebo silná poptávka mohou zvýšit tržby.",
+      "source": "The Wall Street Journal"
     },
     {
       "company": "Apple",
@@ -7877,15 +7861,6 @@
       "direction": "down",
       "impact": "Může vést k poklesu ceny akcie Meta: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
       "source": "Quartz"
-    },
-    {
-      "company": "Alphabet",
-      "title": "AI agent swarms could turn major outages into identity risks: Anthropic investor",
-      "url": "https://finance.yahoo.com/video/ai-agent-swarms-could-turn-major-outages-into-identity-risks-anthropic-investor-213612726.html",
-      "time": "18.11.2026 22:36",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Alphabet: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
-      "source": "Yahoo Finance Video"
     },
     {
       "company": "NVIDIA",
@@ -7924,6 +7899,15 @@
       "source": "The Business Journals"
     },
     {
+      "company": "JPMorgan",
+      "title": "'A failure of implementation': AI played a key role in some outages—but not in the way you might think",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQVHNEbTRFU0xlX0otR0Y3RVZRU2FpWlJrc1VkY1BUWjd2R2ZaRk8ycVVEMU4xZXpQRDFxX3ktOHpMMXBTRGNCTExVV21NSDRfSGdYaGlUYmFGN1dZRElGU3N3ZVRIUEZOb2piVnJjVGhNNjNiZHByQWZ0WnR6ZjE4Ul9kc0xNQzJ1My16QmdpUWJDUG9POEZWMFgzU09DRmpSem9VX0FZUXdEcmJEbVl0ZGwzNGk?oc=5",
+      "time": "18.11.2026 21:09",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie JPMorgan: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
+      "source": "Fortune"
+    },
+    {
       "company": "NVIDIA",
       "title": "I'm a veteran hedge fund investor. Here's why Jensen Huang's resignation hasn't scared me away from Nvidia stock.",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWmhJYkNkMlM2SEZXbFRKeXI0SmxYM2xQRUtURy1RcEtPbnVrbTA0MjB6OGI2N0hiVzhzTkI0UDJRbzc2Znkxa2NHRGM4czJ0eUhhRU4tMmZVLTltZTJGZ29VTWVrOXFWRy0tUktGRWl5Szd0bVVudjIwSEc4bUFjQXdKc0tJbTVxSXZOb3RYU3M4QVA3dzZFMUEzdkFQZ2M?oc=5",
@@ -7949,15 +7933,6 @@
       "direction": "down",
       "impact": "Může vést k poklesu ceny akcie Tesla: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
       "source": "PYMNTS.com"
-    },
-    {
-      "company": "JPMorgan",
-      "title": "JPMorgan Reveals Cause of Banking Outage That Disrupted U.S. Customers",
-      "url": "https://finance.yahoo.com/technology/articles/jpmorgan-reveals-cause-banking-outage-170511772.html",
-      "time": "18.11.2026 18:05",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie JPMorgan: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
-      "source": "GuruFocus.com"
     },
     {
       "company": "Tencent",
