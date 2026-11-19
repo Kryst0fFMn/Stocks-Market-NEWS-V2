@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-11-19T00:03:25.141450+00:00",
+  "updated_at": "2026-11-19T01:32:12.267608+00:00",
   "stocks": [
     {
       "name": "Microsoft",
       "symbol": "MSFT",
       "market": "USA",
       "currency": "USD",
-      "price": 508.29,
-      "change": 0.4,
+      "price": 506.24,
+      "change": -2.27,
       "history": [
         ["2025-11-19", 487.12],
         ["2025-11-20", 478.43],
@@ -258,8 +258,7 @@
         ["2026-11-12", 523.0],
         ["2026-11-13", 523.88],
         ["2026-11-16", 517.99],
-        ["2026-11-17", 506.24],
-        ["2026-11-18", 508.29]
+        ["2026-11-17", 506.24]
       ],
       "intraday": [
         ["2026-11-12T14:30Z", 524.17],
@@ -399,8 +398,8 @@
       "symbol": "NVDA",
       "market": "USA",
       "currency": "USD",
-      "price": 150.96,
-      "change": -2.89,
+      "price": 155.46,
+      "change": -0.44,
       "history": [
         ["2025-11-19", 186.52],
         ["2025-11-20", 180.64],
@@ -651,8 +650,7 @@
         ["2026-11-12", 166.19],
         ["2026-11-13", 162.85],
         ["2026-11-16", 156.14],
-        ["2026-11-17", 155.46],
-        ["2026-11-18", 150.96]
+        ["2026-11-17", 155.46]
       ],
       "intraday": [
         ["2026-11-12T14:30Z", 159.93],
@@ -758,11 +756,11 @@
         ["2026-11-17T20:00Z", 153.05],
         ["2026-11-17T20:15Z", 153.48],
         ["2026-11-17T20:30Z", 153.82],
-        ["2026-11-17T20:45Z", 155.46],
+        ["2026-11-17T20:45Z", 155.47],
         ["2026-11-18T14:30Z", 154.46],
         ["2026-11-18T14:45Z", 154.82],
         ["2026-11-18T15:00Z", 154.76],
-        ["2026-11-18T15:15Z", 153.8],
+        ["2026-11-18T15:15Z", 153.79],
         ["2026-11-18T15:30Z", 152.38],
         ["2026-11-18T15:45Z", 153.25],
         ["2026-11-18T16:00Z", 152.46],
@@ -793,8 +791,8 @@
       "market": "USA",
       "currency": "USD",
       "query": "\"Apple Inc\"",
-      "price": 352.45,
-      "change": 0.15,
+      "price": 351.91,
+      "change": -0.25,
       "history": [
         ["2025-11-19", 268.56],
         ["2025-11-20", 266.25],
@@ -1045,8 +1043,7 @@
         ["2026-11-12", 354.88],
         ["2026-11-13", 356.27],
         ["2026-11-16", 352.78],
-        ["2026-11-17", 351.91],
-        ["2026-11-18", 352.45]
+        ["2026-11-17", 351.91]
       ],
       "intraday": [
         ["2026-11-12T14:30Z", 356.87],
@@ -1126,7 +1123,7 @@
         ["2026-11-16T20:00Z", 351.62],
         ["2026-11-16T20:15Z", 351.93],
         ["2026-11-16T20:30Z", 351.78],
-        ["2026-11-16T20:45Z", 352.7],
+        ["2026-11-16T20:45Z", 352.81],
         ["2026-11-17T14:30Z", 352.82],
         ["2026-11-17T14:45Z", 354.86],
         ["2026-11-17T15:00Z", 354.98],
@@ -1152,7 +1149,7 @@
         ["2026-11-17T20:00Z", 350.38],
         ["2026-11-17T20:15Z", 350.48],
         ["2026-11-17T20:30Z", 351.05],
-        ["2026-11-17T20:45Z", 351.9],
+        ["2026-11-17T20:45Z", 351.92],
         ["2026-11-18T14:30Z", 355.49],
         ["2026-11-18T14:45Z", 355.79],
         ["2026-11-18T15:00Z", 354.37],
@@ -1187,8 +1184,8 @@
       "market": "USA",
       "currency": "USD",
       "query": "(Amazon OR AWS OR AMZN)",
-      "price": 267.74,
-      "change": 3.82,
+      "price": 257.89,
+      "change": 0.05,
       "history": [
         ["2025-11-19", 222.69],
         ["2025-11-20", 217.14],
@@ -1439,8 +1436,7 @@
         ["2026-11-12", 267.44],
         ["2026-11-13", 266.66],
         ["2026-11-16", 257.75],
-        ["2026-11-17", 257.89],
-        ["2026-11-18", 267.74]
+        ["2026-11-17", 257.89]
       ],
       "intraday": [
         ["2026-11-12T14:30Z", 272.24],
@@ -1505,7 +1501,7 @@
         ["2026-11-16T16:15Z", 261.87],
         ["2026-11-16T16:30Z", 260.7],
         ["2026-11-16T16:45Z", 260.42],
-        ["2026-11-16T17:00Z", 259.0],
+        ["2026-11-16T17:00Z", 259.02],
         ["2026-11-16T17:15Z", 258.4],
         ["2026-11-16T17:30Z", 258.33],
         ["2026-11-16T17:45Z", 258.56],
@@ -1546,7 +1542,7 @@
         ["2026-11-17T20:00Z", 256.76],
         ["2026-11-17T20:15Z", 257.16],
         ["2026-11-17T20:30Z", 257.55],
-        ["2026-11-17T20:45Z", 257.84],
+        ["2026-11-17T20:45Z", 257.85],
         ["2026-11-18T14:30Z", 261.38],
         ["2026-11-18T14:45Z", 263.28],
         ["2026-11-18T15:00Z", 264.14],
@@ -1581,8 +1577,8 @@
       "market": "USA",
       "currency": "USD",
       "query": "(Alphabet OR Google)",
-      "price": 282.44,
-      "change": 0.8,
+      "price": 280.2,
+      "change": -1.24,
       "history": [
         ["2025-11-19", 292.81],
         ["2025-11-20", 289.45],
@@ -1833,8 +1829,7 @@
         ["2026-11-12", 298.7],
         ["2026-11-13", 295.77],
         ["2026-11-16", 283.72],
-        ["2026-11-17", 280.2],
-        ["2026-11-18", 282.44]
+        ["2026-11-17", 280.2]
       ],
       "intraday": [
         ["2026-11-12T14:30Z", 296.07],
@@ -1975,8 +1970,8 @@
       "market": "USA",
       "currency": "USD",
       "query": "\"Meta Platforms\"",
-      "price": 616.38,
-      "change": -0.4,
+      "price": 618.87,
+      "change": -1.2,
       "history": [
         ["2025-11-19", 590.32],
         ["2025-11-20", 589.15],
@@ -2227,8 +2222,7 @@
         ["2026-11-12", 623.61],
         ["2026-11-13", 641.69],
         ["2026-11-16", 626.41],
-        ["2026-11-17", 618.87],
-        ["2026-11-18", 616.38]
+        ["2026-11-17", 618.87]
       ],
       "intraday": [
         ["2026-11-12T14:30Z", 625.8],
@@ -2368,8 +2362,8 @@
       "symbol": "TSLA",
       "market": "USA",
       "currency": "USD",
-      "price": 383.72,
-      "change": 0.95,
+      "price": 380.11,
+      "change": 0.1,
       "history": [
         ["2025-11-19", 403.99],
         ["2025-11-20", 395.23],
@@ -2620,8 +2614,7 @@
         ["2026-11-12", 397.45],
         ["2026-11-13", 390.22],
         ["2026-11-16", 379.74],
-        ["2026-11-17", 380.11],
-        ["2026-11-18", 383.72]
+        ["2026-11-17", 380.11]
       ],
       "intraday": [
         ["2026-11-12T14:30Z", 393.32],
@@ -2761,8 +2754,8 @@
       "symbol": "SPCX",
       "market": "USA",
       "currency": "USD",
-      "price": 143.5,
-      "change": 1.27,
+      "price": 141.7,
+      "change": 3.16,
       "history": [
         ["2026-06-12", 160.95],
         ["2026-06-15", 192.5],
@@ -2873,11 +2866,10 @@
         ["2026-11-12", 139.94],
         ["2026-11-13", 139.11],
         ["2026-11-16", 137.36],
-        ["2026-11-17", 141.7],
-        ["2026-11-18", 143.5]
+        ["2026-11-17", 141.7]
       ],
       "intraday": [
-        ["2026-11-12T14:30Z", 144.37],
+        ["2026-11-12T14:30Z", 144.41],
         ["2026-11-12T14:45Z", 144.62],
         ["2026-11-12T15:00Z", 142.8],
         ["2026-11-12T15:15Z", 142.31],
@@ -3014,8 +3006,8 @@
       "symbol": "BRK-B",
       "market": "USA",
       "currency": "USD",
-      "price": 574.62,
-      "change": -2.07,
+      "price": 586.76,
+      "change": -1.03,
       "history": [
         ["2025-11-19", 501.26],
         ["2025-11-20", 501.12],
@@ -3266,8 +3258,7 @@
         ["2026-11-12", 589.83],
         ["2026-11-13", 592.94],
         ["2026-11-16", 592.85],
-        ["2026-11-17", 586.76],
-        ["2026-11-18", 574.62]
+        ["2026-11-17", 586.76]
       ],
       "intraday": [
         ["2026-11-12T14:30Z", 595.08],
@@ -3399,7 +3390,7 @@
         ["2026-11-18T20:00Z", 573.9],
         ["2026-11-18T20:15Z", 574.5],
         ["2026-11-18T20:30Z", 575.9],
-        ["2026-11-18T20:45Z", 574.27]
+        ["2026-11-18T20:45Z", 574.28]
       ]
     },
     {
@@ -3408,8 +3399,8 @@
       "market": "USA",
       "currency": "USD",
       "query": "(JPMorgan OR Dimon)",
-      "price": 324.11,
-      "change": -1.77,
+      "price": 329.96,
+      "change": -2.44,
       "history": [
         ["2025-11-19", 303.27],
         ["2025-11-20", 298.38],
@@ -3660,8 +3651,7 @@
         ["2026-11-12", 342.82],
         ["2026-11-13", 346.19],
         ["2026-11-16", 338.21],
-        ["2026-11-17", 329.96],
-        ["2026-11-18", 324.11]
+        ["2026-11-17", 329.96]
       ],
       "intraday": [
         ["2026-11-12T14:30Z", 345.04],
@@ -3793,7 +3783,7 @@
         ["2026-11-18T20:00Z", 325.43],
         ["2026-11-18T20:15Z", 324.39],
         ["2026-11-18T20:30Z", 324.58],
-        ["2026-11-18T20:45Z", 324.12]
+        ["2026-11-18T20:45Z", 324.11]
       ]
     },
     {
@@ -3802,8 +3792,8 @@
       "market": "USA",
       "currency": "USD",
       "query": "\"Visa Inc\"",
-      "price": 415.22,
-      "change": -0.37,
+      "price": 416.77,
+      "change": -2.27,
       "history": [
         ["2025-11-19", 324.12],
         ["2025-11-20", 323.77],
@@ -4054,8 +4044,7 @@
         ["2026-11-12", 420.31],
         ["2026-11-13", 425.76],
         ["2026-11-16", 426.46],
-        ["2026-11-17", 416.77],
-        ["2026-11-18", 415.22]
+        ["2026-11-17", 416.77]
       ],
       "intraday": [
         ["2026-11-12T14:30Z", 425.7],
@@ -4196,8 +4185,8 @@
       "market": "USA",
       "currency": "USD",
       "query": "\"Eli Lilly\"",
-      "price": 1382.75,
-      "change": -2.32,
+      "price": 1415.55,
+      "change": -1.13,
       "history": [
         ["2025-11-19", 1049.6],
         ["2025-11-20", 1043.29],
@@ -4448,8 +4437,7 @@
         ["2026-11-12", 1427.28],
         ["2026-11-13", 1443.5],
         ["2026-11-16", 1431.67],
-        ["2026-11-17", 1415.55],
-        ["2026-11-18", 1382.75]
+        ["2026-11-17", 1415.55]
       ],
       "intraday": [
         ["2026-11-12T14:30Z", 1445.12],
@@ -4589,8 +4577,8 @@
       "symbol": "AVGO",
       "market": "USA",
       "currency": "USD",
-      "price": 354.05,
-      "change": 3.64,
+      "price": 341.6,
+      "change": 2.46,
       "history": [
         ["2025-11-19", 354.42],
         ["2025-11-20", 346.82],
@@ -4841,8 +4829,7 @@
         ["2026-11-12", 364.36],
         ["2026-11-13", 347.01],
         ["2026-11-16", 333.4],
-        ["2026-11-17", 341.6],
-        ["2026-11-18", 354.05]
+        ["2026-11-17", 341.6]
       ],
       "intraday": [
         ["2026-11-12T14:30Z", 363.09],
@@ -4869,7 +4856,7 @@
         ["2026-11-12T19:45Z", 363.9],
         ["2026-11-12T20:00Z", 363.09],
         ["2026-11-12T20:15Z", 361.88],
-        ["2026-11-12T20:30Z", 361.64],
+        ["2026-11-12T20:30Z", 361.52],
         ["2026-11-12T20:45Z", 364.38],
         ["2026-11-13T14:30Z", 348.42],
         ["2026-11-13T14:45Z", 345.23],
@@ -4896,7 +4883,7 @@
         ["2026-11-13T20:00Z", 345.88],
         ["2026-11-13T20:15Z", 345.13],
         ["2026-11-13T20:30Z", 345.36],
-        ["2026-11-13T20:45Z", 346.62],
+        ["2026-11-13T20:45Z", 346.64],
         ["2026-11-16T14:30Z", 334.4],
         ["2026-11-16T14:45Z", 331.55],
         ["2026-11-16T15:00Z", 330.42],
@@ -4922,7 +4909,7 @@
         ["2026-11-16T20:00Z", 332.15],
         ["2026-11-16T20:15Z", 332.47],
         ["2026-11-16T20:30Z", 332.07],
-        ["2026-11-16T20:45Z", 333.7],
+        ["2026-11-16T20:45Z", 333.71],
         ["2026-11-17T14:30Z", 338.57],
         ["2026-11-17T14:45Z", 341.04],
         ["2026-11-17T15:00Z", 338.77],
@@ -4983,10 +4970,9 @@
       "market": "Tchaj-wan",
       "currency": "TWD",
       "query": "(TSMC OR \"Taiwan Semiconductor\")",
-      "price": 2175.0,
+      "price": 2180.0,
       "change": 0.23,
       "history": [
-        ["2025-11-18", 1405.0],
         ["2025-11-19", 1395.0],
         ["2025-11-20", 1455.0],
         ["2025-11-21", 1385.0],
@@ -5228,27 +5214,10 @@
         ["2026-11-13", 2350.0],
         ["2026-11-16", 2215.0],
         ["2026-11-17", 2170.0],
-        ["2026-11-18", 2175.0]
+        ["2026-11-18", 2175.0],
+        ["2026-11-19", 2180.0]
       ],
       "intraday": [
-        ["2026-11-12T01:00Z", 2375.0],
-        ["2026-11-12T01:15Z", 2370.0],
-        ["2026-11-12T01:30Z", 2390.0],
-        ["2026-11-12T01:45Z", 2390.0],
-        ["2026-11-12T02:00Z", 2385.0],
-        ["2026-11-12T02:15Z", 2385.0],
-        ["2026-11-12T02:30Z", 2385.0],
-        ["2026-11-12T02:45Z", 2385.0],
-        ["2026-11-12T03:00Z", 2380.0],
-        ["2026-11-12T03:15Z", 2385.0],
-        ["2026-11-12T03:30Z", 2380.0],
-        ["2026-11-12T03:45Z", 2365.0],
-        ["2026-11-12T04:00Z", 2370.0],
-        ["2026-11-12T04:15Z", 2365.0],
-        ["2026-11-12T04:30Z", 2360.0],
-        ["2026-11-12T04:45Z", 2355.0],
-        ["2026-11-12T05:00Z", 2345.0],
-        ["2026-11-12T05:15Z", 2335.0],
         ["2026-11-13T01:00Z", 2380.0],
         ["2026-11-13T01:15Z", 2375.0],
         ["2026-11-13T01:30Z", 2370.0],
@@ -5320,7 +5289,8 @@
         ["2026-11-18T04:30Z", 2170.0],
         ["2026-11-18T04:45Z", 2160.0],
         ["2026-11-18T05:00Z", 2155.0],
-        ["2026-11-18T05:15Z", 2170.0]
+        ["2026-11-18T05:15Z", 2170.0],
+        ["2026-11-19T01:00Z", 2180.0]
       ]
     },
     {
@@ -5593,7 +5563,7 @@
         ["2026-11-12T08:30Z", 1363.4],
         ["2026-11-12T08:45Z", 1371.0],
         ["2026-11-12T09:00Z", 1364.4],
-        ["2026-11-12T09:15Z", 1369.8],
+        ["2026-11-12T09:15Z", 1369.6],
         ["2026-11-12T09:30Z", 1376.4],
         ["2026-11-12T09:45Z", 1373.6],
         ["2026-11-12T10:00Z", 1374.8],
@@ -5602,7 +5572,7 @@
         ["2026-11-12T10:45Z", 1374.4],
         ["2026-11-12T11:00Z", 1372.4],
         ["2026-11-12T11:15Z", 1367.4],
-        ["2026-11-12T11:30Z", 1369.2],
+        ["2026-11-12T11:30Z", 1369.4],
         ["2026-11-12T11:45Z", 1365.2],
         ["2026-11-12T12:00Z", 1369.6],
         ["2026-11-12T12:15Z", 1363.8],
@@ -5641,7 +5611,7 @@
         ["2026-11-13T12:00Z", 1365.6],
         ["2026-11-13T12:15Z", 1362.0],
         ["2026-11-13T12:30Z", 1359.2],
-        ["2026-11-13T12:45Z", 1358.0],
+        ["2026-11-13T12:45Z", 1358.2],
         ["2026-11-13T13:00Z", 1357.0],
         ["2026-11-13T13:15Z", 1356.8],
         ["2026-11-13T13:30Z", 1358.6],
@@ -5656,7 +5626,7 @@
         ["2026-11-13T15:45Z", 1335.8],
         ["2026-11-13T16:00Z", 1331.6],
         ["2026-11-13T16:15Z", 1337.6],
-        ["2026-11-16T08:00Z", 1323.8],
+        ["2026-11-16T08:00Z", 1323.6],
         ["2026-11-16T08:15Z", 1328.0],
         ["2026-11-16T08:30Z", 1323.2],
         ["2026-11-16T08:45Z", 1324.6],
@@ -5683,7 +5653,7 @@
         ["2026-11-16T14:00Z", 1306.0],
         ["2026-11-16T14:15Z", 1305.2],
         ["2026-11-16T14:30Z", 1312.8],
-        ["2026-11-16T14:45Z", 1299.2],
+        ["2026-11-16T14:45Z", 1299.4],
         ["2026-11-16T15:00Z", 1295.8],
         ["2026-11-16T15:15Z", 1290.6],
         ["2026-11-16T15:30Z", 1297.2],
@@ -5720,10 +5690,10 @@
         ["2026-11-17T14:45Z", 1280.4],
         ["2026-11-17T15:00Z", 1267.6],
         ["2026-11-17T15:15Z", 1261.0],
-        ["2026-11-17T15:30Z", 1244.0],
+        ["2026-11-17T15:30Z", 1243.8],
         ["2026-11-17T15:45Z", 1244.0],
         ["2026-11-17T16:00Z", 1243.2],
-        ["2026-11-17T16:15Z", 1243.4],
+        ["2026-11-17T16:15Z", 1242.8],
         ["2026-11-18T08:00Z", 1256.8],
         ["2026-11-18T08:15Z", 1263.2],
         ["2026-11-18T08:30Z", 1265.4],
@@ -6026,7 +5996,7 @@
       "intraday": [
         ["2026-11-12T08:00Z", 212.1],
         ["2026-11-12T08:15Z", 212.2],
-        ["2026-11-12T08:30Z", 210.75],
+        ["2026-11-12T08:30Z", 210.85],
         ["2026-11-12T08:45Z", 211.45],
         ["2026-11-12T09:00Z", 211.25],
         ["2026-11-12T09:15Z", 211.55],
@@ -6079,7 +6049,7 @@
         ["2026-11-13T12:30Z", 213.55],
         ["2026-11-13T12:45Z", 214.05],
         ["2026-11-13T13:00Z", 213.9],
-        ["2026-11-13T13:15Z", 214.3],
+        ["2026-11-13T13:15Z", 214.35],
         ["2026-11-13T13:30Z", 214.55],
         ["2026-11-13T13:45Z", 213.9],
         ["2026-11-13T14:00Z", 213.65],
@@ -6496,7 +6466,7 @@
         ["2026-11-12T16:00Z", 405.6],
         ["2026-11-12T16:15Z", 405.65],
         ["2026-11-13T08:00Z", 402.8],
-        ["2026-11-13T08:15Z", 402.3],
+        ["2026-11-13T08:15Z", 402.25],
         ["2026-11-13T08:30Z", 402.35],
         ["2026-11-13T08:45Z", 402.65],
         ["2026-11-13T09:00Z", 404.5],
@@ -6568,7 +6538,7 @@
         ["2026-11-17T08:30Z", 404.05],
         ["2026-11-17T08:45Z", 402.25],
         ["2026-11-17T09:00Z", 398.65],
-        ["2026-11-17T09:15Z", 396.7],
+        ["2026-11-17T09:15Z", 396.65],
         ["2026-11-17T09:30Z", 393.05],
         ["2026-11-17T09:45Z", 391.3],
         ["2026-11-17T10:00Z", 394.6],
@@ -6592,7 +6562,7 @@
         ["2026-11-17T14:30Z", 395.3],
         ["2026-11-17T14:45Z", 396.45],
         ["2026-11-17T15:00Z", 396.65],
-        ["2026-11-17T15:15Z", 397.5],
+        ["2026-11-17T15:15Z", 397.6],
         ["2026-11-17T15:30Z", 396.85],
         ["2026-11-17T15:45Z", 394.7],
         ["2026-11-17T16:00Z", 394.5],
@@ -7026,7 +6996,7 @@
         ["2026-11-17T14:15Z", 13726.0],
         ["2026-11-17T14:30Z", 13756.0],
         ["2026-11-17T14:45Z", 13770.0],
-        ["2026-11-17T15:00Z", 13798.0],
+        ["2026-11-17T15:00Z", 13800.0],
         ["2026-11-17T15:15Z", 13812.0],
         ["2026-11-17T15:30Z", 13814.0],
         ["2026-11-17T15:45Z", 13784.0],
@@ -7073,8 +7043,8 @@
       "symbol": "7203.T",
       "market": "Japonsko",
       "currency": "JPY",
-      "price": 3391.0,
-      "change": -0.67,
+      "price": 3392.0,
+      "change": 0.03,
       "history": [
         ["2025-11-19", 3037.0],
         ["2025-11-20", 3044.0],
@@ -7317,7 +7287,8 @@
         ["2026-11-13", 3418.0],
         ["2026-11-16", 3428.0],
         ["2026-11-17", 3414.0],
-        ["2026-11-18", 3391.0]
+        ["2026-11-18", 3391.0],
+        ["2026-11-19", 3392.0]
       ],
       "intraday": [
         ["2026-11-13T00:00Z", 3359.0],
@@ -7411,7 +7382,13 @@
         ["2026-11-18T05:30Z", 3399.0],
         ["2026-11-18T05:45Z", 3384.0],
         ["2026-11-18T06:00Z", 3385.0],
-        ["2026-11-18T06:15Z", 3385.0]
+        ["2026-11-18T06:15Z", 3385.0],
+        ["2026-11-19T00:00Z", 3435.0],
+        ["2026-11-19T00:15Z", 3425.0],
+        ["2026-11-19T00:30Z", 3414.0],
+        ["2026-11-19T00:45Z", 3394.0],
+        ["2026-11-19T01:00Z", 3394.0],
+        ["2026-11-19T01:15Z", 3391.0]
       ]
     },
     {
@@ -7422,7 +7399,6 @@
       "price": 372.8,
       "change": -0.85,
       "history": [
-        ["2025-11-18", 623.5],
         ["2025-11-19", 622.5],
         ["2025-11-20", 621.0],
         ["2025-11-21", 610.0],
@@ -7671,29 +7647,6 @@
         ["2026-11-18", 372.8]
       ],
       "intraday": [
-        ["2026-11-12T01:30Z", 403.4],
-        ["2026-11-12T01:45Z", 404.4],
-        ["2026-11-12T02:00Z", 404.0],
-        ["2026-11-12T02:15Z", 403.0],
-        ["2026-11-12T02:30Z", 401.8],
-        ["2026-11-12T02:45Z", 403.6],
-        ["2026-11-12T03:00Z", 402.8],
-        ["2026-11-12T03:15Z", 404.2],
-        ["2026-11-12T03:30Z", 403.6],
-        ["2026-11-12T03:45Z", 403.6],
-        ["2026-11-12T05:00Z", 405.2],
-        ["2026-11-12T05:15Z", 404.6],
-        ["2026-11-12T05:30Z", 404.4],
-        ["2026-11-12T05:45Z", 403.6],
-        ["2026-11-12T06:00Z", 404.8],
-        ["2026-11-12T06:15Z", 404.0],
-        ["2026-11-12T06:30Z", 402.8],
-        ["2026-11-12T06:45Z", 401.2],
-        ["2026-11-12T07:00Z", 400.6],
-        ["2026-11-12T07:15Z", 400.0],
-        ["2026-11-12T07:30Z", 397.0],
-        ["2026-11-12T07:45Z", 397.6],
-        ["2026-11-12T08:00Z", 398.8],
         ["2026-11-13T01:30Z", 392.4],
         ["2026-11-13T01:45Z", 390.4],
         ["2026-11-13T02:00Z", 393.8],
@@ -7791,13 +7744,31 @@
   ],
   "news": [
     {
+      "company": "Broadcom",
+      "title": "Nvidia stock plunges 30% in a month; AMD and Broadcom trend upward : Finance : JKN",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBDN0xRN1hSb09KTTF4QW1Vd21nMm1fc0gwMDJha21jYzJjdFN3REl2c0RzejdPS2NWX1lSLVFwVVpjVThSTlN0TVVkZ25ub18zWUh5YVN3Y1R2ZDBLejJtREdR?oc=5",
+      "time": "19.11.2026 01:25",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Broadcom: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
+      "source": "재경일보"
+    },
+    {
       "company": "Microsoft",
       "title": "Microsoft outage opens industry debate over cyber policy triggers",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNRWoxTG9TLTY5b0dEb01QRFVuRXhXSlhoOWFOTW8xbjRRYVV4d2RTNmJIVUNiQkRPVWtTMzFKbW1ZZHBXSk5FTTFPbnhMRVRFcGlwLWF6TF8xVjM2MXhOMG5sLUxLT1NUUFl5eE90S0puYjlkN0NCaUNncFZ3VVg3WG5HNHc5NmZwQ1NCNXBUenh2MTFPbU9jS3VQQmt4ZnBpN1I2S0JIaFFuOHJXd24xTzE5RzhoSUVPblJ4X2FvZ0w5cmRkNW1V?oc=5",
-      "time": "19.11.2026 01:00",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNRXpxN3dOSkRLUkQ0RkJiMjh1anRRc0Y0algxMUNWRzVtdGt2MVc4aDRaZ0dpdHJ1cGF6TUpXVnNOb3lDQzJpY1E3ODNpWVNhTWxITGMxRUYxcFpFWUlqS05pQV9PQTU0MFpmTTVuaHZJX2xFMk1MbHllWno0Smd3NGVlRlNuT2Y0MWhfdDRPRmpTNVZMNTMwdkZzdFpzd3VwTlI5VEJ4M0h3dHlFdUF2eTVUemhrai10VjlPOHpmZllLcndmeGg3a1FRLWl5YWJjQXc?oc=5",
+      "time": "19.11.2026 01:01",
       "direction": "down",
       "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
       "source": "Insurance Business"
+    },
+    {
+      "company": "Microsoft",
+      "title": "Asked if 60,000 exit offers mean AI layoffs at Microsoft, Satya Nadella said: “I wish I could just sit here and say it’ll all be the same. I cannot”",
+      "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOeHlfaGw0QVlrVkFUSEo1bjdRS21OWTNkOWpmMGkteE03RnQ2T0RYUzVvM1daLThhbmxzTjdvclBBeXE4OGItTms0Mk80MkNraGFlTGZqS1hYOEJNaFJfYWFnbnlsSERjZnM3NXR4anBOcmpubHdVRmRYS2NueVhha1lXcmZVSEZwM3ZsRFQ1VDJZSktlNll6bms4dmtLN2syNWpoWGxhS3JrZXNzSEVlOHdqQVVZbTFUYTl0Ym12R2RJejB3QkE1Mnd2UWU1OEl4dTVlVlpsdUE2LTFhN2hzWFZyU21qWTRmdWV2c1dhSDFjZDNoU1d6eXFmakN5WmUtVkFsRUp6VGgzQVdNZnJULQ?oc=5",
+      "time": "19.11.2026 01:00",
+      "direction": "mixed",
+      "impact": "Dopad na cenu akcie Microsoft je nejednoznačný: propouštění může ušetřit náklady, ale často signalizuje slabší poptávku.",
+      "source": "Windows Latest"
     },
     {
       "company": "Microsoft",
@@ -7809,13 +7780,31 @@
       "source": "The New York Times"
     },
     {
-      "company": "Microsoft",
-      "title": "Video: Watch: Microsoft’s C.E.O. Satya Nadella Addresses Global Outlook Outage",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNaVh1Y2JQbWdyUmVhVWtnX3d0bUY1dmppSVZfY2JyNm9NSWw3MVFjNmMxd0pqT05OcnFNMHloV3ZqN2JRWGtnUkVkQmVTWF9NMWtKbjVlbnpnSGpNWC1lNmRKMnJhSEdoSi1WOTViV0pjNW9mUFU3MktPLWxfa0dKTGRKVmc0aVV2YkllWW5wS0M5cFFoSUlwVHAzRVFIcjh6YWRQaHJjVmhOSGs4Mnc?oc=5",
-      "time": "19.11.2026 00:52",
+      "company": "Alphabet",
+      "title": "Anthropic Prices IPO at $83 a Share on Strong Demand",
+      "url": "https://www.wsj.com/finance/stocks/anthropic-prices-ipo-at-83-a-share-0290494c?siteid=yhoof2&yptr=yahoo",
+      "time": "19.11.2026 00:49",
+      "direction": "up",
+      "impact": "Může vést k nárůstu ceny akcie Alphabet: schválení nebo silná poptávka mohou zvýšit tržby.",
+      "source": "The Wall Street Journal"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "What Nvidia’s Interim CEO, Colette Kress, Said to Employees After Jensen Huang’s Resignation",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNa2dJSnFrVWt3REVkbE5CbllIMi1jZnFlRmtPbmZJM09SbmpoOEhVWElRVElyY00xc29ZLXA5T2wtRWFHQ0YzMG1jdjRPZWM4d2RaR05ja3Y3TGx5LURKVTk4allMbzduWC1uNVJSZmM4SlB6SjBiSVdWLXI5OW83V1RZcjF1SmctMzhaMXlHOXNSOXQycWc?oc=5",
+      "time": "19.11.2026 00:10",
       "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
+      "impact": "Může vést k poklesu ceny akcie NVIDIA: odchod klíčového manažera zvyšuje nejistotu o dalším směřování firmy.",
       "source": "The New York Times"
+    },
+    {
+      "company": "Amazon",
+      "title": "Amazon has cut the price of Magic: The Gathering's Marvel Super Heroes Jumpstart Booster Box to a record low",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOMl9lNnNiRDVzZF84TDRxU0VyUVIwbEZaNjNiSDBlV2xjdjlyUEl1VjNxR1ZjZ3J6eTEzT096UmZqTnFtVzc3aEdiOUUyLTlHS2tZMnZnWUwtUjN1eU0zOExqdjBvaDRnblZPekRZamM3TFBSc1NvMTdYbmdFT2ZuWXlpMTBPYnBYbTZIaVFTZExzbVI0SmIweVY2OHNzdXA0?oc=5",
+      "time": "18.11.2026 23:44",
+      "direction": "up",
+      "impact": "Může vést k nárůstu ceny akcie Amazon: prudký růst ukazuje na silný zájem investorů, po rychlém růstu ale může přijít i stahování zisků.",
+      "source": "Mashable"
     },
     {
       "company": "Amazon",
@@ -7827,22 +7816,13 @@
       "source": "MarketBeat"
     },
     {
-      "company": "Broadcom",
+      "company": "NVIDIA",
       "title": "Stock Market Today, Nov. 18: Nvidia Slips on Strong Results as Succession and China Business Risks Weigh",
-      "url": "https://www.fool.com/coverage/stock-market-today/2026/11/18/stock-market-today-nov-18-nvidia-slips-on-strong-results-as-succession-and-china-business-risks-weigh/",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQM3h3S3NXc21SUmw2RnNDazFDT1QtVFpxYUJPTUFGQi1tM2ppd3lRTHRGekdoU0NUYUN4U2FlNDdwV2hhNFVmQkVoM3h0a083VmhBeWdBNVZJY1hRNVN0OVBqQVVMaDZFdlFGZHczUnRCcG1YYVBQRko1dHdHSy13bVNvMUttZ1F5cjl6c2pEUHVidkhX?oc=5",
       "time": "18.11.2026 23:11",
       "direction": "up",
-      "impact": "Může vést k nárůstu ceny akcie Broadcom: silnější výsledky nebo vyšší výhled zvyšují očekávání budoucích zisků.",
-      "source": "Motley Fool"
-    },
-    {
-      "company": "Amazon",
-      "title": "Anthropic Prices IPO at $83 a Share on Strong Demand",
-      "url": "https://www.wsj.com/finance/stocks/anthropic-prices-ipo-at-83-a-share-0290494c?siteid=yhoof2&yptr=yahoo",
-      "time": "18.11.2026 22:53",
-      "direction": "up",
-      "impact": "Může vést k nárůstu ceny akcie Amazon: schválení nebo silná poptávka mohou zvýšit tržby.",
-      "source": "The Wall Street Journal"
+      "impact": "Může vést k nárůstu ceny akcie NVIDIA: silnější výsledky nebo vyšší výhled zvyšují očekávání budoucích zisků.",
+      "source": "Yahoo Finance"
     },
     {
       "company": "Apple",
@@ -7872,24 +7852,6 @@
       "source": "TechCrunch"
     },
     {
-      "company": "Amazon",
-      "title": "Amazon has cut the price of Magic: The Gathering's Marvel Super Heroes Jumpstart Booster Box to a record low",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOMl9lNnNiRDVzZF84TDRxU0VyUVIwbEZaNjNiSDBlV2xjdjlyUEl1VjNxR1ZjZ3J6eTEzT096UmZqTnFtVzc3aEdiOUUyLTlHS2tZMnZnWUwtUjN1eU0zOExqdjBvaDRnblZPekRZamM3TFBSc1NvMTdYbmdFT2ZuWXlpMTBPYnBYbTZIaVFTZExzbVI0SmIweVY2OHNzdXA0?oc=5",
-      "time": "18.11.2026 22:16",
-      "direction": "up",
-      "impact": "Může vést k nárůstu ceny akcie Amazon: prudký růst ukazuje na silný zájem investorů, po rychlém růstu ale může přijít i stahování zisků.",
-      "source": "Mashable"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "Nvidia’s interim CEO urges employees to leave Jensen Huang behind: ‘Let’s move forward’",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQb3Q4dnoyWkg4d1lwN3I4ZmpMaGxzQlRvWGRIMjV0THZ0dkw1NDFoM19RX0YyUFNMUWhhT1NHMGxfeDhvV202ZTJMdHEwN1hUT05RdEI1aXlwcFBqT19BRkxfamduVjdMRjRqUlpXc29jNDVqbFBUTzZHVmMwUjZjRkRRbGYzaXBUYXZQZ2ZlekRIbnF2RUx1SW5CQzNJRUc1WWlGRWpLUE1CalZDaWI0RDBydktJUnRvbXhCNW0xQQ?oc=5",
-      "time": "18.11.2026 22:11",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie NVIDIA: odchod klíčového manažera zvyšuje nejistotu o dalším směřování firmy.",
-      "source": "New York Post"
-    },
-    {
       "company": "JPMorgan",
       "title": "Daily Digest: Wells Fargo lures exec from JPMorganChase, Salesforce eyes more layoffs as stock falls",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPM0ZKcktCY2xmUFRmUGNTVDZkYnRFZVcwM3hUTGhkSGtVYThtRGg2bXRmY3BodWF4enpENGxUSzdXeUVZSTBaQnBfVVM5MDhEajU0cHE3cGpuclZZYlEyN19ULVJRMEZLRlVvRDFVanYxYi1DYW85UzBRU0liNmxURFZXR0I1YWd4Smk2YzcxMXlPcVVIUWZ2WTZEbGJwd1lZN2NBSVpWQllOVDQ4ZlJRNmlB?oc=5",
@@ -7906,15 +7868,6 @@
       "direction": "down",
       "impact": "Může vést k poklesu ceny akcie JPMorgan: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
       "source": "Fortune"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "I'm a veteran hedge fund investor. Here's why Jensen Huang's resignation hasn't scared me away from Nvidia stock.",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWmhJYkNkMlM2SEZXbFRKeXI0SmxYM2xQRUtURy1RcEtPbnVrbTA0MjB6OGI2N0hiVzhzTkI0UDJRbzc2Znkxa2NHRGM4czJ0eUhhRU4tMmZVLTltZTJGZ29VTWVrOXFWRy0tUktGRWl5Szd0bVVudjIwSEc4bUFjQXdKc0tJbTVxSXZOb3RYU3M4QVA3dzZFMUEzdkFQZ2M?oc=5",
-      "time": "18.11.2026 19:49",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie NVIDIA: odchod klíčového manažera zvyšuje nejistotu o dalším směřování firmy.",
-      "source": "Business Insider"
     },
     {
       "company": "JPMorgan",
