@@ -242,6 +242,7 @@ def load_intraday():
             tickers=symbols,
             period="5d",
             interval="15m",
+            prepost=True,
             group_by="ticker",
             auto_adjust=False,
             progress=False,
