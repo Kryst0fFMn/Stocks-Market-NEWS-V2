@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T02:36:51.879550+00:00",
+  "updated_at": "2026-11-20T04:13:26.841402+00:00",
   "stocks": [
     {
       "name": "Microsoft",
@@ -4982,8 +4982,8 @@
       "market": "Tchaj-wan",
       "currency": "TWD",
       "query": "(TSMC OR \"Taiwan Semiconductor\")",
-      "price": 2025.0,
-      "change": -3.57,
+      "price": 2015.0,
+      "change": -4.05,
       "history": [
         ["2025-11-20", 1455.0],
         ["2025-11-21", 1385.0],
@@ -5227,7 +5227,7 @@
         ["2026-11-17", 2170.0],
         ["2026-11-18", 2175.0],
         ["2026-11-19", 2100.0],
-        ["2026-11-20", 2025.0]
+        ["2026-11-20", 2015.0]
       ],
       "intraday": [
         ["2026-11-16T01:00Z", 2315.0],
@@ -5307,7 +5307,13 @@
         ["2026-11-20T01:30Z", 2020.0],
         ["2026-11-20T01:45Z", 2005.0],
         ["2026-11-20T02:00Z", 2030.0],
-        ["2026-11-20T02:15Z", 2025.0]
+        ["2026-11-20T02:15Z", 2010.0],
+        ["2026-11-20T02:30Z", 1995.0],
+        ["2026-11-20T02:45Z", 1995.0],
+        ["2026-11-20T03:00Z", 2000.0],
+        ["2026-11-20T03:15Z", 2000.0],
+        ["2026-11-20T03:30Z", 2010.0],
+        ["2026-11-20T03:45Z", 2015.0]
       ]
     },
     {
@@ -7060,8 +7066,8 @@
       "symbol": "7203.T",
       "market": "Japonsko",
       "currency": "JPY",
-      "price": 3340.0,
-      "change": -1.12,
+      "price": 3317.0,
+      "change": -1.81,
       "history": [
         ["2025-11-20", 3044.0],
         ["2025-11-21", 3097.0],
@@ -7305,7 +7311,7 @@
         ["2026-11-17", 3414.0],
         ["2026-11-18", 3391.0],
         ["2026-11-19", 3378.0],
-        ["2026-11-20", 3340.0]
+        ["2026-11-20", 3317.0]
       ],
       "intraday": [
         ["2026-11-16T00:00Z", 3442.0],
@@ -7409,7 +7415,10 @@
         ["2026-11-20T01:30Z", 3347.0],
         ["2026-11-20T01:45Z", 3347.0],
         ["2026-11-20T02:00Z", 3342.0],
-        ["2026-11-20T02:15Z", 3340.0]
+        ["2026-11-20T02:15Z", 3340.0],
+        ["2026-11-20T02:30Z", 3342.0],
+        ["2026-11-20T03:30Z", 3321.0],
+        ["2026-11-20T03:45Z", 3317.0]
       ]
     },
     {
@@ -7417,8 +7426,8 @@
       "symbol": "0700.HK",
       "market": "Hongkong",
       "currency": "HKD",
-      "price": 342.0,
-      "change": -1.84,
+      "price": 342.8,
+      "change": -1.61,
       "history": [
         ["2025-11-20", 621.0],
         ["2025-11-21", 610.0],
@@ -7666,7 +7675,7 @@
         ["2026-11-17", 376.0],
         ["2026-11-18", 372.8],
         ["2026-11-19", 348.4],
-        ["2026-11-20", 342.0]
+        ["2026-11-20", 342.8]
       ],
       "intraday": [
         ["2026-11-16T01:30Z", 389.6],
@@ -7764,11 +7773,98 @@
         ["2026-11-20T01:30Z", 346.2],
         ["2026-11-20T01:45Z", 344.4],
         ["2026-11-20T02:00Z", 342.6],
-        ["2026-11-20T02:15Z", 341.8]
+        ["2026-11-20T02:15Z", 341.8],
+        ["2026-11-20T02:30Z", 342.2],
+        ["2026-11-20T02:45Z", 342.6],
+        ["2026-11-20T03:00Z", 342.0],
+        ["2026-11-20T03:15Z", 343.4],
+        ["2026-11-20T03:30Z", 343.0],
+        ["2026-11-20T03:45Z", 342.8]
       ]
     }
   ],
   "news": [
+    {
+      "company": "NVIDIA",
+      "title": "Dan Ives Calls Tech Selloff a Panic Moment but Anthropic IPO Shows Proof of Demand",
+      "url": "https://beincrypto.com/dan-ives-anthropic-ipo-tech-selloff/",
+      "time": "20.11.2026 05:00",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie NVIDIA: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
+      "source": "BeInCrypto"
+    },
+    {
+      "company": "TSMC",
+      "title": "South Korea’s Stock Market and the Nikkei 225 Sink More Than 4% as the AI Selloff Spreads From Wall Street. Here’s How Much of a Target-Date Fund Is in Samsung, SK Hynix and TSMC",
+      "url": "https://247wallst.com/investing/2026/11/19/south-koreas-stock-market-and-the-nikkei-225-sink-more-than-4-as-the-ai-selloff-spreads-from-wall-street-heres-how-much-of-a-target-date-fund-is-in-samsung-sk-hynix-and-tsmc/",
+      "time": "20.11.2026 04:51",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie TSMC: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
+      "source": "24/7 Wall St."
+    },
+    {
+      "company": "Microsoft",
+      "title": "Microsoft CEO Nadella faces uncomfortable reality after outage",
+      "url": "https://www.thestreet.com/technology/microsoft-ceo-nadella-faces-uncomfortable-reality-after-outage",
+      "time": "20.11.2026 04:47",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
+      "source": "TheStreet"
+    },
+    {
+      "company": "TSMC",
+      "title": "Nikkei 225 Falls 4.5% and SoftBank Plunges 15% as Wall Street’s AI Selloff Puts Asian Stocks on Track for Their Worst Week Since 2020",
+      "url": "https://247wallst.com/investing/2026/11/19/nikkei-225-falls-4-5-and-softbank-plunges-15-as-wall-streets-ai-selloff-puts-asian-stocks-on-track-for-their-worst-week-since-2020/",
+      "time": "20.11.2026 04:41",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie TSMC: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
+      "source": "24/7 Wall St."
+    },
+    {
+      "company": "TSMC",
+      "title": "TSMC Partners Acquires 0.03% Stake in Anthropic for $500 million; Shares Down 4%",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOS0xvM3VhNmtwbHNUbmpGTDlxUlBTdG5FV0lqb090WWJuZ3FNbVNwUFE1WjBJRXNfaGRnaFZDZkRMcU1TRUlpUGpUSjhiOHpraE1kMWNscDI4WnhySjVVMjNidE9BWXIyS3BPeHdQekZENExieU9Ea2xid2RQNVA5bGxnSUtoZnN2SHJKWFZITUxRYndsa0lSeks3TVBfZHdXRDBtblNsZWdjVE1SM3NaanhHUUk0VUVIb2VxbGs0d3dUcE9FVVJLSg?oc=5",
+      "time": "20.11.2026 04:20",
+      "direction": "mixed",
+      "impact": "Dopad na cenu akcie TSMC je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
+      "source": "marketscreener.com"
+    },
+    {
+      "company": "Apple",
+      "title": "Apple (AAPL) Stock Could Be 33% Overvalued On Fresh Service Outage Concerns",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/apple-aapl-stock-could-33-031750121.html",
+      "time": "20.11.2026 04:17",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Apple: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
+      "source": "Simply Wall St."
+    },
+    {
+      "company": "Microsoft",
+      "title": "Cyberattack may have exposed Chase Bank and Mastercard customer data",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQOWw5Ml9NYmZNeTNiSlV4QUhBc0JuTzY1ZEVBX295eW5xYVlIeGpGY3J5Ulc0UEhvSW9iQnFtVVZNQ2p0UFdoLUJPTHh2OVNvTFlhRVlVV0ZMdU5rcE5pdzZtV0pYVnlDUENlNWlSMUhUbzBueWxIcHpEdWtJUmlXbjVhN1ZKOXFIa09HMGNsdTZtS01TbXJDdFBfTlVocDAxXzhsNkRiVzVQVWRRS3NZQmc0aFI?oc=5",
+      "time": "20.11.2026 04:08",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
+      "source": "The Washington Post"
+    },
+    {
+      "company": "SpaceX",
+      "title": "Tom Lee Says Anthropic Debut Selloff Feels Like ‘Max Pain’: Will Tech Rebound?",
+      "url": "https://beincrypto.com/tom-lee-anthropic-ipo-max-pain/",
+      "time": "20.11.2026 04:05",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie SpaceX: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
+      "source": "BeInCrypto"
+    },
+    {
+      "company": "Microsoft",
+      "title": "The U.S. tech outage wave, explained",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOQzJaQkoxUnRCVXN1d3Q5NmJBQl9GOWNRNi1wVHhwSFhTYXBuY1h3X09ubXFKeVJDTkxYaS16RElFZUU1MjF2V21CRl82Qlh6NkROdHFGc0xmSWRCcWI4NVdzeF9wVElsVXQ4LXY5Q0NfSWFqNVY2UnVYVlg1RWxtekxpV0dQUQ?oc=5",
+      "time": "20.11.2026 03:37",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
+      "source": "The Washington Post"
+    },
     {
       "company": "Meta",
       "title": "Insider Selling: Meta Platforms (NASDAQ:META) CFO Sells $5,720,371.80 in Stock",
@@ -7780,66 +7876,39 @@
     },
     {
       "company": "NVIDIA",
-      "title": "Alibaba defrauded shareholders by concealing ties to suspected spy in Nvidia scandal, lawsuit says",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQ2E0dWE1cXZiME80VkFZNWF1eG80VFl2OGR6RGRIZHVtYlh5RWlyTkUzejN5OVhuQ2NwSENra2JDa2xuVG0tOWJ5eUdQTGJfLUJoYUVpaHliYk5EUDdBMWtaUFg1cVBsTGxUYlVmaVhRcjdKcTR5d2tNbmx4bXVHbVRidGlSQmI3enkxZkNkM3NSQW40VEM0V2xueGJrMGZ4VzBnazdwaWxRLWF4NTAzSU1qVVdNY3VNQ2pwY3RTUmFpRFph?oc=5",
-      "time": "20.11.2026 02:58",
+      "title": "California Attorney General subpoenas Nvidia over chips, former CEO’s affair",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPTWd4azNJQm9Qd1Y5c0U2WHhUMlM2am1UQm94TkJORDZWa3o1Zjk3NjhvTUVvQTVMb19KbEIzUlpxcTJlUWxFWVVEVU9SbVlnaXd5dVluYWsxNzBfQlJZR3dCZXFwRkJRQW9rRk9wMlY1ZE03dzRXUk1zWlNoN1F4WW0zdzJicHVGUVhvZ25tMGVUNGZKaHIySVkycEpkZXp3RGMwTWxHOUZkOWxXeVpaLWkyQUE0bTlJZF9qbVRlNUdKQk9zckdMbjdJMlFEamVjMmlneNIB2wFBVV95cUxONmdPNGpSTTRPaDRBZE1zOU02SVNsVEt2TWt3MFNLQmNva0ktOGZvNTNIX3NmRk1yR3h2aURlRkhDeEFPRmhFY05aRHNVVTBTSV85Z3NTVEdJOWdmcmJnWnItWjFJRkRBVmlFWUE1MHdoUFNkc0lfMVpwbmFBb0IxSDJNZnBWU0NtUm4tRVEtVjNJTVNKdzk3WDRmSENOUy13Z3cwSHdoSTdkRWxvTEYydDQ2VlJXLWxTeHF3ME5QTFliWlc0RzIwX1QxTXdTWWFKMDlneUNweXE5NjA?oc=5",
+      "time": "20.11.2026 03:06",
       "direction": "down",
       "impact": "Může vést k poklesu ceny akcie NVIDIA: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
-      "source": "WHBL News"
+      "source": "The Hindu"
+    },
+    {
+      "company": "SpaceX",
+      "title": "T-Mobile to Acquire More 600 MegaHertz Spectrum",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxONkJXeGlBbmRIYXNkRzB2cXMwUlJLWTlGRGRoWFNLOXc4Q0ZKWkR1Qml5cVRSY1F5aEpiWDdhbDNhUVZKb1FnT1lLcnJJZ2xmdTZVUWJwb2lSS2NPMTJhRlRzczhiT1ZUWGU0WWEzSXR2WGNCVk5oLVVZekVuVnMwTndPeWs5dw?oc=5",
+      "time": "20.11.2026 01:51",
+      "direction": "mixed",
+      "impact": "Dopad na cenu akcie SpaceX je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
+      "source": "Broadband Breakfast"
     },
     {
       "company": "NVIDIA",
-      "title": "Nikkei Slides 4% as Anthropic's Debut Triggers AI Sell-Off in Tokyo",
-      "url": "https://beincrypto.com/nikkei-225-falls-anthropic-ipo-softbank/",
-      "time": "20.11.2026 02:50",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie NVIDIA: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
-      "source": "BeInCrypto"
-    },
-    {
-      "company": "TSMC",
-      "title": "US Stock Selloff Drags Taiwan Stocks Down 1,395 Points at Open; TSMC Falls NT$60, Delta Electronics Slips Below NT$1,000",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE03bmVybThQdGRiTFlmQ2sxTUNEeFhsY0JuSkNOOTJpc0xRWjFZdkwxWFBwdFhjQlQ5VXM3NFktS2VIUVVMWHNycWRhZ3JNQ2F3cnRSTHMtMmF0MENjOFBHME1vNTMxYTNVRkhadkhGOFV4dFRZa1E?oc=5",
-      "time": "20.11.2026 02:45",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie TSMC: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
-      "source": "BigGo Finance"
-    },
-    {
-      "company": "Microsoft",
-      "title": "Microsoft CEO Warns Of More Global Outages As AI Creates New Risks",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPMlF3Z3Q0UDBqVm9jdlRnb0dXT295c0gyejVhOEtGU0dNYTI3Rk85Si1XTHFmaHZoTmlweWoxSG8zODdaQ19UZk4yRng0R0xSNHNlLVU1VzNrSFlIUmlzWjhpWXFjc3pDUUV6Y0lPRlNlQzlzRzdpdEtRa1lmR0tZTE1XVjRXM0pnQ01fNGRjcHp6RW8tT2U3SHZobGdiYkk?oc=5",
-      "time": "20.11.2026 02:41",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
-      "source": "ChannelNews.com.au"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "California attorney general subpoenas Nvidia over chips, former CEO's affair",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNeld4aTRzc1ZtNTNaQ1JiNWRIcldyN29JZ0dpaUNZTU1aZVNROGh6bUphQnhrTXEwRWVRVW42OWxpc3ZWWkRxeG8xTWVTOVNocGZTbU1UUmdZalFHU0MzSzd1cTk0NHJJdGh5ZkdiWFdkb3dVTWhlbnhWUC14NTJjcmFXS2FIM19iU2wyRHUzbWxWMFZBSzZLUkJJSmVLSVl2QzZndGxWVzktc0dIOUE?oc=5",
-      "time": "20.11.2026 02:33",
+      "title": "California Subpoenas Nvidia Over China Chip and Investor Risks",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOTU1nRXJuWVBRT29XWGZPbjBtbmdzNUFKaHlWdDRIenh1bjBuQ3NMYnhfZTZlTVlMN2x1aXZucWM5S0cxLTcxZW84NnhoS0NDeW1GNWlDMkp5azZnSVJweHNQYjZoczNyUUNMc1UxN291RUVMS3pSekZEUnVWX2JGc1UzYjM?oc=5",
+      "time": "20.11.2026 01:44",
       "direction": "down",
       "impact": "Může vést k poklesu ceny akcie NVIDIA: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
-      "source": "Yahoo Finance"
+      "source": "Law Commentary"
     },
     {
-      "company": "Microsoft",
-      "title": "The U.S. tech outage wave, explained",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOQzJaQkoxUnRCVXN1d3Q5NmJBQl9GOWNRNi1wVHhwSFhTYXBuY1h3X09ubXFKeVJDTkxYaS16RElFZUU1MjF2V21CRl82Qlh6NkROdHFGc0xmSWRCcWI4NVdzeF9wVElsVXQ4LXY5Q0NfSWFqNVY2UnVYVlg1RWxtekxpV0dQUQ?oc=5",
-      "time": "20.11.2026 02:28",
+      "company": "JPMorgan",
+      "title": "Chase bank issues warning to customers of cyberattack, data breach",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNVWFyajRZNkJBOUU3TUt4SkVpUzB3TTdrc09yUmlFc09yTmY3TVVPSXl1eW5DckFBcXBLRWhUUTNZbGdyVE54N294bGo5eVExeGlDWjdQTTNWN3ozcTR6TnlBQ1dxeGM5azZDZmhDUzRzRmtLRVA1cV9xZTZPTHFuZ283anVYWmfSAYwBQVVfeXFMUGZkRDcwNUc3NnN6RHJWVkd6R0xGcDl3QWptOXZhQ2ZhWm1hNy1FeVVfWDlEWWRxTUljdmRaVVhtYUstaFlyLUxRMDJsNDVvZG5meGR3RERGTzlnQjhGUzJzQl9hdFVjMzNTNVlpTV92djlGck1sWDVDZ1VFTGZfSlprR2ZpYTRWa0k1NHU?oc=5",
+      "time": "20.11.2026 00:55",
       "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
-      "source": "The Washington Post"
-    },
-    {
-      "company": "Microsoft",
-      "title": "Andrew Cullen | Microsoft outage shows that big tech can’t be treated as too big to fail",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNcFJfVGlPbmVjZko1Qkl0emlKNU5Gc09IRWQ4b1dkYl9XMnNxQ2xPX200aGtaeG5oZmpaSXcxSExfZG9wS1FaNzZ3aEZyMmVRbjJEckYtT1RWVjE5MnNKaEMxY2dGbGJ4RWxQX19INXhnUEVrU1Z5bDU4cDdrbG9tdFI1SjZoSHFHbW1vZ3dvZmFTVFFNWlI0Q1h3MkZ5cTR0T29fZnpIWXNhUkZRV3A5MnkwaVB3OEEyenB3dGM5ZVVhRUNlaFdVbzlnMjVBallsS0tPeEJ3TE5aUkc1b0xJ?oc=5",
-      "time": "20.11.2026 02:15",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
-      "source": "News24"
+      "impact": "Může vést k poklesu ceny akcie JPMorgan: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
+      "source": "NewsNation"
     },
     {
       "company": "Toyota",
@@ -7914,6 +7983,15 @@
       "source": "Barrons.com"
     },
     {
+      "company": "Eli Lilly",
+      "title": "Judge dismisses Tampa General's 340B lawsuit against Eli Lilly over claims data demands",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSlF4WVpYMnRtNG43Rjg2N3hNTnJIYlY0cUloVVkwM0RuTEdRZkRRdmllT1ZxbG9GVlNUWEYxSXJJR1ZsTnRYS1dOemd0WUxqU0NiaXR2RlNYMTVyZFZ2WHdHckE1dmlDOHBSSEoyb012cUJhREdJWGpHTGFTcHBob2RBT3pQY3NqelFQUE9vbXgtYUdNVXVWbFdQRHVxeEttRHhmWi1XWWZhMFk?oc=5",
+      "time": "19.11.2026 22:53",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Eli Lilly: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
+      "source": "MLQ.ai"
+    },
+    {
       "company": "Berkshire Hathaway",
       "title": "Berkshire Hathaway Issues Multiple Yen-Denominated Senior Notes",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPNmpGQ3NTTG9XX0I1bUVYeVNnaVpIeXlSQkl5ZGxMRGN0aENaYVN3eVl2MEcxb1k5enNGUjZWdWtDU3d4TE1fZlJ5aVhCYTc3WkJ1YTk0a3NCUVZuM0MzS0diOTZRV3JXQkhjcWYzMVBsVXNIZkVkVmYyRUVFLTktdzR0LXFPZHBRTW9ISV85TXRQUmJqd0lTUkpXOWRfampXZklnRUhzenJNb3kxWWNydVpuLUVRQQ?oc=5",
@@ -7921,69 +7999,6 @@
       "direction": "down",
       "impact": "Může vést k poklesu ceny akcie Berkshire Hathaway: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
       "source": "TipRanks"
-    },
-    {
-      "company": "SpaceX",
-      "title": "Anthropic IPO sets retail trading record as market sell-off weighs on buying",
-      "url": "https://finance.yahoo.com/markets/article/retail-traders-pile-into-anthropic-ipo-but-net-buying-lags-spacex-212350846.html",
-      "time": "19.11.2026 22:23",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie SpaceX: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
-      "source": "Yahoo Finance"
-    },
-    {
-      "company": "Berkshire Hathaway",
-      "title": "Berkshire Hathaway (BRK) issues yen debt due as late as 2056, with Merrill Lynch International as an underwriter.",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQa1JkMlB6SDNodUxLdHNBNlBxWkl0Uy1GT29rQTBXVHVkcnVXYlkzdDlQdGtJMnFqOTcwRWsxZ2htVHhkQU5KRUlNN1NVdDc5eGlxWXBIMGtRMkN3TlpXM25pMnpDdnZSdnhHVU9BMFFYOWtQeGpXZlprZm5Pa0Z2WjNmSFhFZGFUNFE2U0FNLWRiUUZCeTFuaTNPTWxUam1YVnZyMVVWamNfcnFZLTlV?oc=5",
-      "time": "19.11.2026 22:06",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Berkshire Hathaway: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
-      "source": "Stock Titan"
-    },
-    {
-      "company": "Eli Lilly",
-      "title": "Judge dismisses Tampa General's 340B lawsuit against Eli Lilly over claims data demands",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSlF4WVpYMnRtNG43Rjg2N3hNTnJIYlY0cUloVVkwM0RuTEdRZkRRdmllT1ZxbG9GVlNUWEYxSXJJR1ZsTnRYS1dOemd0WUxqU0NiaXR2RlNYMTVyZFZ2WHdHckE1dmlDOHBSSEoyb012cUJhREdJWGpHTGFTcHBob2RBT3pQY3NqelFQUE9vbXgtYUdNVXVWbFdQRHVxeEttRHhmWi1XWWZhMFk?oc=5",
-      "time": "19.11.2026 21:43",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Eli Lilly: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
-      "source": "MLQ.ai"
-    },
-    {
-      "company": "Eli Lilly",
-      "title": "Federal judge dismisses Tampa General Hospital's lawsuit against Eli Lilly",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOY3NSbklZazNXQlpVUk80aHdoV2VJQ1RJaDNJUnBqekhBNUtMUUx0TER3Y0NnMmx4aGU4d3RaSzlsb0JmZVI4ZHA3TTY2aUc4TVRKa0lTYVNGbl9fWldmSDcza2k1d1lDeF9zOG8wOUZRaGFub2F4WTNzSDRxYlFEUFlMWVRnQQ?oc=5",
-      "time": "19.11.2026 21:43",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Eli Lilly: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
-      "source": "The Business Journals"
-    },
-    {
-      "company": "Tencent",
-      "title": "Tencent Holdings Ltd Stock 12‑Month Price Target Cut to HKD 586.45, Implies 57% Upside",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNOU11eHZhV082UndMUjBtWGZJYUpjeEkxZXdkQ1Flb0tBYnRQWmxTRUJwTVRaYWlkdHRnc3JERno2NlllYWQ4SGZoT2ZzcW5WUHRqd05EX3ByaFlNRzRpWXhEaTJreWVKMk9LMDZOVHIxV1RLWFZ5aElaRWs0R3k1REtDVk9CUmN0OG5wVEw2bk53dXJZU1A1S28zcUFBRWtxLW9KOU9jMzJvTGx5Um9pYk9VckNoNTd6dmUwVk1hMF9pdWxBSHlVY212MTEwWmo5Zm5JaW9MMHFQalE3c1pZ?oc=5",
-      "time": "19.11.2026 20:20",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Tencent: analytici zhoršují hodnocení, což může zvýšit prodejní tlak.",
-      "source": "TradingView"
-    },
-    {
-      "company": "JPMorgan",
-      "title": "Federal judge dismisses JPMorgan lawsuit seeking to block Richmond swap case",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMVpTMDhMY0NwR0ZCWk9BYmJXNUd3N0VsU2ZQU3RZclFISEg0RFlqSC1GZmpIUEFzNzJ4c3YyRjJIWHBkWlZlcnpPMDFVSWk2TGc5OS1lR3dKY0Jmb2JOVkpVeDZXdmIxSTRpNXkyTmROVlNpVnB4LS1FUjVtSkUyaWZvdHB6eEdscGZnYnNGZlJYc1A0Qnljd3dQNm1xMmdCY2FhUGlrVVQzYU5YcnNIa1FPOW4?oc=5",
-      "time": "19.11.2026 20:03",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie JPMorgan: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
-      "source": "Grandview Independent"
-    },
-    {
-      "company": "Alphabet",
-      "title": "What Should Alphabet Inc. Investors Know After 7.13% Stock Drop? The Law Offices of Frank R. Cruz Outlines Securities Fraud Class Action Lead Plaintiff Deadline",
-      "url": "https://news.google.com/rss/articles/CBMitwJBVV95cUxNdkhwM1h0Ni1GSW1VVnJfSl8yV0pZeWxaX200UkNKSUtoNkVGMkRZUGdfdUVoRXRIay15Rk92aTRSVWxhdndBZUpkMGVDdGRDemltWWxQV09ITEdVbFJiWXZFcm5JN1dhemlTazdidWJydUZyWEpYc3V4TENIV2RPTms4TkVwSGdjdWNKN2poQVVpRHBXMGZaSkNQUkhINTluNjVDQk11cTFFSGNuZnU2U3VHc0ZmOTNHZEw1NDl2Sl8xUHVNNHA3V0UzR0VUREZjMU1uUjFrVEs2RXQtM0RwdXByV1R5ZFl4Nm0tNkkyQU9jeWk4aDZvazdiTlB6SnQzSmpCRWhVQWRGMGEwUTlpcEZHOERHaDF3ZTZwZXZMbGxaTUpjRjBweVk2NGxGbTZ1RTVuZ1V5UQ?oc=5",
-      "time": "19.11.2026 19:30",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Alphabet: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
-      "source": "PR Newswire"
     }
   ]
 }
