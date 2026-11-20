@@ -268,6 +268,12 @@
     @keyframes ping { from { transform: scale(1); opacity: .5; } to { transform: scale(3.2); opacity: 0; } }
     .chart-live { min-height: 1.1em; margin-top: 8px; color: var(--muted); font-family: var(--mono); font-size: .74rem; }
     .chart-live.on { color: var(--green); }
+    .ch-ext { fill: rgba(232, 176, 75, .07); }
+    .session {
+      display: inline-block; margin-top: 8px; padding: 2px 8px;
+      border: 1px solid rgba(232, 176, 75, .35); border-radius: 6px;
+      color: var(--accent); font-family: var(--mono); font-size: .68rem;
+    }
     .ch-label { fill: var(--muted); font-family: var(--mono); font-size: 11px; }
     .ch-line { fill: none; stroke-width: 2.2; stroke-linejoin: round; stroke-linecap: round; }
     .ch-cursor { stroke: var(--muted); stroke-width: 1; stroke-dasharray: 3 3; }
@@ -455,7 +461,7 @@
   <script>
     // Adresa tvého Cloudflare Workeru, např. "https://market-pulse.tvojesubdomena.workers.dev"
     // Když je prázdná, stránka používá jen data z GitHubu.
-    const LIVE_URL = "https://market-pulse.krystof-plechaty.workers.dev";
+    const LIVE_URL = "";
 
     let allStocks = [];
     let liveQuotes = {};
@@ -570,6 +576,15 @@
           card.append(
             makeElement("div", "muted", "Změna není dostupná")
           );
+        }
+
+        if (stock.session === "pre") {
+          card.append(makeElement("div", "session", "Předobchod"));
+        } else if (stock.session === "post") {
+          const extra = Number.isFinite(stock.extendedChange)
+            ? ` ${stock.extendedChange > 0 ? "+" : ""}${stock.extendedChange.toFixed(2)} %`
+            : "";
+          card.append(makeElement("div", "session", `Po zavření${extra}`));
         }
 
         root.append(card);
@@ -697,9 +712,12 @@
         const quote = liveQuotes[stock.symbol];
         if (!quote || !Number.isFinite(quote.price)) {
           stock.live = null;
+          stock.session = null;
           continue;
         }
         stock.live = { price: quote.price, time: quote.time };
+        stock.session = quote.session || null;
+        stock.extendedChange = Number.isFinite(quote.extendedChange) ? quote.extendedChange : null;
         stock.price = quote.price;
         if (Number.isFinite(quote.change)) stock.change = quote.change;
       }
@@ -963,7 +981,9 @@
               data.c[i]
             ]),
             price: Number(data.price),
-            previousClose: Number(data.previousClose)
+            previousClose: Number(data.previousClose),
+            session: data.session || null,
+            periods: data.periods || null
           }
         };
 
@@ -1000,9 +1020,13 @@
           : (Array.isArray(chartStock.history) ? chartStock.history : []);
 
       if (chartRange === "1D" && source.length) {
-        // poslední obchodní den = všechny body se stejným UTC datem jako ten poslední
-        const lastDay = String(source[source.length - 1][0]).slice(0, 10);
-        source = source.filter(([stamp]) => String(stamp).slice(0, 10) === lastDay);
+        // poslední obchodní den = body po poslední velké mezeře (přes noc nebo víkend);
+        // večerní obchodování v USA přechází přes půlnoc UTC, proto ne podle data
+        let from = 0;
+        for (let i = 1; i < source.length; i++) {
+          if (new Date(source[i][0]) - new Date(source[i - 1][0]) > 6 * 3600 * 1000) from = i;
+        }
+        source = source.slice(from);
       }
 
       const cutoff = new Date();
@@ -1027,7 +1051,7 @@
         const lastPoint = points[points.length - 1];
         if (intraday) {
           const liveDate = new Date(live.time * 1000);
-          const sameDay = liveDate.toISOString().slice(0, 10) === lastPoint.key.slice(0, 10);
+          const sameDay = liveDate - lastPoint.date < 6 * 3600 * 1000;
           if (liveDate > lastPoint.date && (chartRange === "1W" || sameDay)) {
             points.push({ key: liveDate.toISOString().slice(0, 16) + "Z", date: liveDate, value: live.price });
           }
@@ -1099,9 +1123,14 @@
         return monday.toDateString();
       };
       const monthKey = point => `${point.date.getFullYear()}-${point.date.getMonth()}`;
+      const dayIds = [];
+      points.forEach((point, i) => {
+        const newDay = i > 0 && point.date - points[i - 1].date > 6 * 3600 * 1000;
+        dayIds.push(i === 0 ? 0 : dayIds[i - 1] + (newDay ? 1 : 0));
+      });
       const boundary = {
         "1D": point => `${utcDay(point)}-${point.date.getHours()}`,
-        "1W": utcDay,
+        "1W": (point, i) => dayIds[i],
         "1M": weekKey,
         "3M": weekKey,
         "6M": monthKey,
@@ -1113,8 +1142,8 @@
           return point.date.toLocaleTimeString("cs-CZ", { hour: "2-digit", minute: "2-digit" });
         }
         if (chartRange === "1W") {
-          return new Date(`${utcDay(point)}T12:00:00Z`).toLocaleDateString("cs-CZ", {
-            weekday: "short", day: "numeric", month: "numeric", timeZone: "UTC"
+          return point.date.toLocaleDateString("cs-CZ", {
+            weekday: "short", day: "numeric", month: "numeric"
           });
         }
         if (chartRange === "1M" || chartRange === "3M") {
@@ -1128,7 +1157,7 @@
       const ticks = [];
       let previousKey = null;
       points.forEach((point, i) => {
-        const key = boundary(point);
+        const key = boundary(point, i);
         if (key !== previousKey) ticks.push(i);
         previousKey = key;
       });
@@ -1152,6 +1181,31 @@
           svg.append(label);
         }
       });
+
+      if (fresh && chartRange === "1D" && fresh.periods && fresh.periods.regular) {
+        const { start, end } = fresh.periods.regular;
+        const n = points.length;
+        const firstMs = points[0].date.getTime();
+        const lastMs = points[n - 1].date.getTime();
+
+        // stínujeme jen když okna seancí odpovídají zobrazeným datům
+        if (start * 1000 <= lastMs && end * 1000 >= firstMs) {
+          let startIdx = points.findIndex(point => point.date.getTime() >= start * 1000);
+          let endIdx = points.findIndex(point => point.date.getTime() >= end * 1000);
+          if (startIdx === -1) startIdx = n - 1;
+          if (endIdx === -1) endIdx = n - 1;
+
+          const shade = (from, to, text) => {
+            if (to - from < 1) return;
+            svg.append(svgEl("rect", { x: x(from), y: padT, width: x(to) - x(from), height: plotH, class: "ch-ext" }));
+            const label = svgEl("text", { x: x(from) + 4, y: padT + 12, class: "ch-label" });
+            label.textContent = text;
+            svg.append(label);
+          };
+          shade(0, startIdx, "předobchod");
+          shade(endIdx, n - 1, "po zavření");
+        }
+      }
 
       const line = points
         .map((point, i) => `${i ? "L" : "M"}${x(i).toFixed(1)} ${y(point.value).toFixed(1)}`)
@@ -1195,7 +1249,7 @@
         const low = formatPrice(chartStock, Math.min(...values));
         badge.className = `chart-live ${isLive ? "on" : ""}`.trim();
         badge.textContent = isLive
-          ? `● Živě · obnova každých ${CHART_REFRESH_SECONDS} s · max ${high} · min ${low}`
+          ? `● Živě${fresh.session === "pre" ? " (předobchod)" : fresh.session === "post" ? " (po zavření)" : ""} · obnova každých ${CHART_REFRESH_SECONDS} s · max ${high} · min ${low}`
           : `○ Trh je zavřený · poslední obchod ${lastTime.toLocaleString("cs-CZ", {
               day: "numeric", month: "numeric", hour: "2-digit", minute: "2-digit"
             })} · max ${high} · min ${low}`;
