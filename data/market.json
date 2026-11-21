@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T07:30:51.435331+00:00",
+  "updated_at": "2026-11-21T08:32:54.593436+00:00",
   "stocks": [
     {
       "name": "Microsoft",
@@ -10008,6 +10008,60 @@
   ],
   "news": [
     {
+      "company": "Microsoft",
+      "title": "Grounded jets, bank trouble, Microsoft outage, AI chaos make some wonder",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPSjBhMXVoYTBYcmNLbksxckw0ODJlNXh3Q1o4REdlWGJKSlVxZ1VVc1RjUWJIbnk2VXRuVWtTMHdSbXU2UjRTUGVtXzgwTHVRR1Z2T1NWQWlEVjFZbE10UDhSME8xZVhfWUp3VHlQSFN3QlFySUF3RkJwbHVSTF9DVzBKUE5VTmFHWmJWQlpEVWp3OEFVcWQwSTZmZGNaOE5BbjdyWmNVbjFuU0Y4eE50dWpUWFZudmVEeGc?oc=5",
+      "time": "21.11.2026 09:26",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
+      "source": "Tribune Chronicle"
+    },
+    {
+      "company": "Tesla",
+      "title": "Advisors Asset Management Inc. Acquires 50,707 Shares of Tesla, Inc. $TSLA",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPNzFNUXEyTlZJMTBVbEY3ZEVnblg2UGJSX0pGQ2pMUUhhd1Q0RzR6bDhpQjFBZUdPN3dlTVFESjhTZjhJMURPckl5NEVDLWczWWNaVnJmVUVOcXgwemRkZnpDX1hUb2dGN1BqenlMbkFOaUpfWGU5blZxNVpWNXRleXZQTktlUjJSTGV6dmxEbEFpajNmMlhmR2w2Sjg3UThuR2x4MjA5X3JVTTI5NWtxbGpkWWVSQTlmdkdrSEpCbk1DLTNnVXhJZkFR?oc=5",
+      "time": "21.11.2026 09:15",
+      "direction": "mixed",
+      "impact": "Dopad na cenu akcie Tesla je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
+      "source": "MarketBeat"
+    },
+    {
+      "company": "Tesla",
+      "title": "Allianz SE Acquires 3,413 Shares of Tesla, Inc. $TSLA",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOLTI1dGs3bExVc2NXaW5tQkgxbHBiRVhaZ3hBUDhsbG45YXhjbVVkX19uSDlkOG9EajdrY3dUN0RLZ1pvM1dZR05reHhrSHM0bHdBTkVPclJFYWZOR2RaVWJqcVNBdzIzR3RwV1lPWmx6bF9BRS1GUGxkOElqTWZ6cGV5c3BVb1hOejl3VmpWWEptWXFlZkp1SVNuY21PNlZNQmNGbnhZbjJpbnZ0WlA4?oc=5",
+      "time": "21.11.2026 09:15",
+      "direction": "mixed",
+      "impact": "Dopad na cenu akcie Tesla je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
+      "source": "MarketBeat"
+    },
+    {
+      "company": "Microsoft",
+      "title": "Microsoft outage cause revealed: It was a perfect storm of problems",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5aOXNncW9QdWVtZ3RXTHF5VnFncFJTcXptUWtGX0V6azdmcXZVQjBienJMdzJydEdseXhVZHZRcExPbS0xUXlCcXhyX2RDOUZOd0h3bEhwU1hiNF9hc0FNdTZLSkJGUVpz?oc=5",
+      "time": "21.11.2026 08:32",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
+      "source": "Mashable"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Nvidia stock plunges as CEO Jensen Huang resigns: How low it might go",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNaTZUVEo5RE5qQ3Y5Ry1UOEk5NlNmaUhSUGE2SUFhbFBnSmFOeTAwTzFSTEpaVnEyZkFvbGxOdVMxMmlEQW44Z1dJRTNEQm9faFJXR3FpVC1vZXJZSTZJWUN4YTRaTGxiRlAyenlKOEJBa1U1Yi1KZWxjdW1kbDl0eVRWZGtETldGMjJQN1MzZkJQYXM?oc=5",
+      "time": "21.11.2026 08:00",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie NVIDIA: odchod klíčového manažera zvyšuje nejistotu o dalším směřování firmy.",
+      "source": "Mashable"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Nvidia plunges 14% amid SEC probe; mounting US scrutiny could cast long shadow over chip giant: analysts",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5fVDRkVUdRZ0VxZ2ZtRXhWcDZrS0ZRWUZOM1d3U3RyTzFHVTUzSDNnTmJ4QVhDbklXS0JvNDUxY3dYcW03eGd2M3JYUzlyX3dRWkJnOWV4WXRpSzY1eUxKcmtR?oc=5",
+      "time": "21.11.2026 07:29",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie NVIDIA: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
+      "source": "Global Times"
+    },
+    {
       "company": "LVMH",
       "title": "Dior Board Clears Agache Merger, Handing LVMH a New Ownership Structure",
       "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOcTZ0NEtqajNCTHZCWW5YZnh5NEpyaURibHY1Um5lYlB0SWY3TE1NS05NZG5iMmVZT19TNnVKN2xVR0hyMWZzbE5vdUlJcy1EQXVPZThwdVBWaEV6Vjczck50UGNNYll5WkRVOHNUMWNRa0I3a3NLazRnMjhrenY5OGZNZDF6UWIzS25FU2w4NkhHVk50LW9jOWRpU294SnFrMFJBeVZCY3lXLVJKdUsyOXRFX1RIem9Qa2VaMTJwcmdfbFF3VklIZW5oOE9jNGN2QWYxRFRjd05Edw?oc=5",
@@ -10033,15 +10087,6 @@
       "direction": "down",
       "impact": "Může vést k poklesu ceny akcie Amazon: prodej akcií nebo konec lock-upu zvyšuje nabídku akcií na trhu.",
       "source": "MarketBeat"
-    },
-    {
-      "company": "Microsoft",
-      "title": "Microsoft outage hits South African businesses, government services and universities",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPendFUktGazBkcURFNFpQUjZEWnVwWWNNb1MwVkxjSFdpejVTOW13VExocHpTaTVRSmRaMnlkLTFDUzNzb2kxNm5oZUlRR185V2laWU5fYVFRbURRdExXUFVfVFBSSHRpYXBqb1NGVTVuMjlfSWRUZmx1U0hseEk0MGRrV0ZIWVU1MER2bVNOSWM2YUJhaVMtdUctdklJU20yQkRpZVIzb19OSDNqVE9uU3Vyb0JpbkcwMzZZdnJYaw?oc=5",
-      "time": "21.11.2026 06:17",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
-      "source": "IOL"
     },
     {
       "company": "TSMC",
@@ -10071,13 +10116,22 @@
       "source": "TechCrunch"
     },
     {
-      "company": "NVIDIA",
-      "title": "Nvidia stock slumps 14%, setting longest losing streak since 2008",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPNHZQMnJhUG1kTTVpb0J5SFRpaHU1X2ZqdnhfaEhneGtocXAxdTZ3aUxvLWtXazVUanByTHRESXU5YUR1Q1NfNkVLRGtfekxwUUlnLTNUUF8wODVfUl9aSlQwajB0eUtjUnBUWE9SdVJLSWlyVXhQWjctUjVZSWpKZzNocEQwb2JrckotWFZFcw?oc=5",
-      "time": "21.11.2026 04:50",
+      "company": "Toyota",
+      "title": "Honda, Toyota recall 1.6 million vehicles over Takata airbag rupture risk",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQcHBwdEhpM0t1bU9iTW9GYWlVNmliMXRmLW1yeGlXemFwcW9iTmgwQVVTcllwems3MDVSdWRSckl6d3pIeEFtT0dKcGlKN1BsVWR0bGJ5QW95SUFnOWphTWFzUFhGRlVDQVVTNkV1c2htSnVxdnlnYnlEU1h1c3paUVNGdE14eHNIRUY1SzBnS1B1V3MwVnNSQ29HYlIyNkxET1Q5LVotd2tpRXcwRHNYVzBVMERBWmZjaTN4akhuMU1SZjQ?oc=5",
+      "time": "21.11.2026 02:59",
       "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie NVIDIA: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
-      "source": "Ticker News"
+      "impact": "Může vést k poklesu ceny akcie Toyota: stažení výrobků nebo zastavení výroby znamená ztrátu tržeb a další náklady.",
+      "source": "marketscreener.com"
+    },
+    {
+      "company": "ASML",
+      "title": "ASML Slides as AI Trade Unwinds — and a Buyback Rolls On Beneath the Noise",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOZUQxc3JFZGN5RmZHLVFwNTVMWUFzZnFaTFFpdXB2N3NRVUNaczF2dU9aYm9ST0pWLW1OMmp5QzNseEdTUElhT2Jic1lWZUxqVTc1dW42SlBMYllIbG5KZGxwUFd3S01YaGtzYVlXb1lfakc1RmVVbkVGRjNaVkM1eFQyRFJoVzU4M2pLVnRRUWFNRUY4MDZVU0dSczUyT0RWY2o2QWFwVk5XSFdjbEwyTjlrajBNUmhzWlNRZ0lzNmhSTnczUTQwc01xNU95dE90ZjZpUDRNMUJhQW5u?oc=5",
+      "time": "21.11.2026 02:42",
+      "direction": "mixed",
+      "impact": "Zpráva obsahuje pozitivní i negativní signály, dopad na cenu akcie ASML je nejasný.",
+      "source": "ad-hoc-news.de"
     },
     {
       "company": "Microsoft",
@@ -10116,21 +10170,12 @@
       "source": "Stocks Down Under"
     },
     {
-      "company": "Microsoft",
-      "title": "Microsoft outage cause revealed: It was a perfect storm of problems",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5aOXNncW9QdWVtZ3RXTHF5VnFncFJTcXptUWtGX0V6azdmcXZVQjBienJMdzJydEdseXhVZHZRcExPbS0xUXlCcXhyX2RDOUZOd0h3bEhwU1hiNF9hc0FNdTZLSkJGUVpz?oc=5",
-      "time": "21.11.2026 00:34",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
-      "source": "Mashable"
-    },
-    {
-      "company": "Tesla",
+      "company": "SpaceX",
       "title": "Tesla-SpaceX Merger: Potential Gains and Risks for Investors",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5uUjdudkNXUGpEVE1jU2pISm9FZ1hzZXlpWFpzM0JWTG9JTW9lbXlXX0xPbXRMVjFFWk82bTRjQmNNUWdrRzJIck10Z0N2Nmc1djJlNUZjTHJxWGg1NXlwRGdB?oc=5",
       "time": "20.11.2026 23:53",
       "direction": "mixed",
-      "impact": "Dopad na cenu akcie Tesla je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
+      "impact": "Dopad na cenu akcie SpaceX je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
       "source": "SmartAsset.com"
     },
     {
@@ -10150,15 +10195,6 @@
       "direction": "down",
       "impact": "Může vést k poklesu ceny akcie Alphabet: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
       "source": "Motley Fool"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "Nvidia shares plunge as Anthropic can't stop the AI selloff",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9lT3pUcFhra290UDVtQVlwcVBjeDdBX1NLX1lPMGVjM3lPRHZDZk04eHI3cDk1STFLejBDODdHZWYtVFJzRnd3Q2ZDLW5EdjN1RTZzT3ZLblNoa004bmN6bjRSWXF4Y0RoQWs1UGR4UThYR004a1hWcw?oc=5",
-      "time": "20.11.2026 23:34",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie NVIDIA: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
-      "source": "Axios"
     },
     {
       "company": "Apple",
@@ -10186,42 +10222,6 @@
       "direction": "down",
       "impact": "Může vést k poklesu ceny akcie Meta: prodej akcií nebo konec lock-upu zvyšuje nabídku akcií na trhu.",
       "source": "MarketBeat"
-    },
-    {
-      "company": "Apple",
-      "title": "Apple (NASDAQ:AAPL) Stock Price Down 1.8% Following Insider Selling",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPcUhuY1AtZTk3M0tUV21lYS1xS3lOMWtBWVRpTzJmYldNdDZubVhKZVNHcW9OalhlcXlIU1p6Vmg0NFpHd2FrR3ZDa0JUcnNadC1GNkJWZ1VmYmNzNVRHd2dNUGw1LWR0MzRUbzBXWnpjc2ZBaktZazJhaU1wUDc1R3ZTUjJiWlhEMUlTUVo5UG9LaXF0Y0JoQU8yS2Z3a09GOEVsN014Mmk1MkpReDlEVnpVUE5oUGxqcVZlUG5zc24?oc=5",
-      "time": "20.11.2026 23:06",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Apple: prodej akcií nebo konec lock-upu zvyšuje nabídku akcií na trhu.",
-      "source": "MarketBeat"
-    },
-    {
-      "company": "SpaceX",
-      "title": "FAA Narrows Cause Of Nationwide Outage, Congress Questions $50 Billion Funding Request",
-      "url": "https://www.investors.com/news/faa-dot-50-billion-sean-duffy-air-traffic-control-network-outage/?src=A00220&yptr=yahoo",
-      "time": "20.11.2026 22:34",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie SpaceX: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
-      "source": "Investor's Business Daily"
-    },
-    {
-      "company": "Broadcom",
-      "title": "Broadcom sinks 12% as Google trims 2027 TPU orders, tech stocks drop (AVGO:NASDAQ)",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWWF5NzJzdFdvXzZhdmg3cjhhWng1Rnk4WmQtQVZfZTVLaDVjaDV6QXBoX1N2cEdRUnFXWmlmZjJwRUhzc2wyZkhxZkhpamxaelN0R2xSdXNwSFgtMTFxU0RLWjJBblhHWlNiZ1BmNUpnbG0tSzV5aFZOVC03Z1JqcWVQZmVMQ2VKM2V3RzNFYjhyLXNtUTdoS1JXR21raUh2RHBXbnI2QQ?oc=5",
-      "time": "20.11.2026 22:25",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Broadcom: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
-      "source": "Seeking Alpha"
-    },
-    {
-      "company": "Broadcom",
-      "title": "Broadcom (NASDAQ:AVGO) Stock Plunges 12% as Google Reportedly Cuts AI Chip Orders",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9yb05SZlN5clViR2lMQXBKY2NUdUlyYkRLS0xPbk45bUh4VGszTFc5SUdTQTRpQkJJcEN2UjAzWE5MbDVJelkwNWoxTzY3ejJXZGZnbVlpaldQTy03NDloVzhFem1XNE5nQ2N5WWhBd0JoaWZhS0FpMFVB?oc=5",
-      "time": "20.11.2026 22:24",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Broadcom: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
-      "source": "Stocks Down Under"
     }
   ]
 }
