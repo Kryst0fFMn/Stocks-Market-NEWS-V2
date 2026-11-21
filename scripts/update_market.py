@@ -57,6 +57,18 @@ COMPANIES = [
     {"name": "AstraZeneca", "symbol": "AZN.L", "market": "Velká Británie", "currency": "GBp"},
     {"name": "Toyota", "symbol": "7203.T", "market": "Japonsko", "currency": "JPY"},
     {"name": "Tencent", "symbol": "0700.HK", "market": "Hongkong", "currency": "HKD"},
+    {"name": "Anthropic", "symbol": "ANT", "market": "USA", "currency": "USD", "query": "Anthropic"},
+    {"name": "AMD", "symbol": "AMD", "market": "USA", "currency": "USD", "query": '(AMD OR "Advanced Micro Devices")'},
+    {"name": "Micron Technology", "symbol": "MU", "market": "USA", "currency": "USD", "query": '"Micron Technology"'},
+    {"name": "Oracle", "symbol": "ORCL", "market": "USA", "currency": "USD", "query": "(Oracle OR ORCL)"},
+    {"name": "Intel", "symbol": "INTC", "market": "USA", "currency": "USD"},
+    {"name": "Netflix", "symbol": "NFLX", "market": "USA", "currency": "USD"},
+    {"name": "Verizon", "symbol": "VZ", "market": "USA", "currency": "USD"},
+    {"name": "Comcast", "symbol": "CMCSA", "market": "USA", "currency": "USD"},
+    {"name": "AT&T", "symbol": "T", "market": "USA", "currency": "USD", "query": '"AT&T"'},
+    {"name": "Shell", "symbol": "SHEL.L", "market": "Velká Británie", "currency": "GBp", "query": '"Shell plc"'},
+    {"name": "UniCredit", "symbol": "UCG.MI", "market": "Itálie", "currency": "EUR"},
+    {"name": "TotalEnergies", "symbol": "TTE.PA", "market": "Francie", "currency": "EUR"},
 ]
 
 # Co hledáme na Google News: jen zprávy s investičním významem
@@ -559,6 +571,9 @@ def notify_new_news(previous, news):
         print("Oznámení o zprávách: nemám s čím porovnat (první běh), přeskakuji.")
         return
 
+    old_names = {
+        item.get("name") for item in previous.get("stocks", []) if isinstance(item, dict)
+    }
     known = set()
     for item in old:
         if isinstance(item, dict):
@@ -568,6 +583,7 @@ def notify_new_news(previous, news):
     fresh = [
         item for item in news
         if item["url"] not in known and title_key(item["title"]) not in known
+        and item["company"] in old_names   # zprávy nově přidaných firem se při prvním běhu neoznamují
         and (NOTIFY_NEUTRAL_NEWS or item.get("direction") in ("up", "down", "mixed"))
     ]
     # zprávy s jasným dopadem dopředu (uvnitř skupiny zůstává pořadí od nejnovější)
@@ -608,6 +624,8 @@ def notify_price_moves(previous, stocks):
         change = stock.get("change")
         if not isinstance(change, (int, float)) or alert_level(change) < 1:
             continue
+        if stock["symbol"] not in old:
+            continue  # nově přidaná akcie: nemám s čím porovnat, neoznamuji
 
         before = old.get(stock["symbol"], {}).get("change")
         before_level = alert_level(before) if isinstance(before, (int, float)) else 0
