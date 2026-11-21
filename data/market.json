@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T19:07:57.999889+00:00",
+  "updated_at": "2026-11-21T19:34:18.942109+00:00",
   "stocks": [
     {
       "name": "Microsoft",
@@ -10015,7 +10015,7 @@
       "company": "NVIDIA",
       "title": "Exclusive | SEC Is Probing Nvidia Amid Departure of CEO Jensen Huang",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQbjl2b0tzT1ROT2plV1p5RHhQd3hXOEJKRFhOZ1ItZExOQV9oVGkzTU9tcEEyTXhjNHRKQVExRTNRdEtlY24zUFhmS0h0c21FUVVrVVh0NGF2SXFmdm1wcmVRLUlCcG5CMGRIZklSdVBkVElkS3lwRF9LaGg4YzU5b0dsZXlveWxSNzhGYzJlZmRSRkhvUWZRTHB3?oc=5",
-      "time": "21.11.2026 20:05",
+      "time": "21.11.2026 20:29",
       "direction": "down",
       "impact": "Může vést k poklesu ceny akcie NVIDIA: odchod klíčového manažera zvyšuje nejistotu o dalším směřování firmy.",
       "source": "WSJ"
@@ -10093,22 +10093,13 @@
       "source": "Quantisnow"
     },
     {
-      "company": "Toyota",
-      "title": "Toyota Recalls 314,029 Vehicles in US Over Takata Airbag Risk: Check Affected Lexus and Toyota Models",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPNUZTcWRfbWs5N2RQYlcwMldJWnI3bVh0a2VaRnRsbHNCSXVVZ3h3bERvOU1PeWIxUmt2eENGMzhXWVdpNTBHbU5GRXp5bzM3MkxWdjBhNGJDemtTVGlGanR6elltQnJMSkQ5d3BNR0p0UjlnZHZLdWVoaXdGb1cybVRoN3pHWmFtUEJEaFBucV9DM0FMSjZyMVBtcV9ySE5TWm9meTBzNHNoMFhwcDdKaEdXYXI5bWx0VTVXMmxkU0JGc3pLbHJJMS1GemY?oc=5",
-      "time": "21.11.2026 15:52",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Toyota: stažení výrobků nebo zastavení výroby znamená ztrátu tržeb a další náklady.",
-      "source": "Speaks Media"
-    },
-    {
       "company": "Amazon",
-      "title": "Michael Burry Says ‘I Told You So’ as Wall Street Caught Off Guard by AI Selloff",
-      "url": "https://247wallst.com/investing/2026/11/21/michael-burry-says-i-told-you-so-as-wall-street-caught-off-guard-by-ai-selloff/",
-      "time": "21.11.2026 15:44",
+      "title": "AWS got hit by an outage too. Here's why you didn't hear about it",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNbXlBSFZUSWo1TVBlTTlRaTBPUFhGVU42RWJpY0YySlhpSG44emVVZTc1QnR1Z3oxVzN0NE5RSkJsUjdMNTFDaXBKQzUxRFJkNmU4bUUwSUJNTjdJOVh2cG9QLS1qQ2s2UzgwN25ldjZpYzQ5cXl1ZmUwMkNtTmxnR01INk1oZExFWlEzVHNUaVdhTDdZTXBSSTEwS0lpdklEWmFWYTZzcUVrNDZ0b0VxWC1McUV2UUhxOXN4OQ?oc=5",
+      "time": "21.11.2026 15:35",
       "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Amazon: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
-      "source": "24/7 Wall St."
+      "impact": "Může vést k poklesu ceny akcie Amazon: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
+      "source": "The Register"
     },
     {
       "company": "Berkshire Hathaway",
@@ -10135,15 +10126,6 @@
       "time": "21.11.2026 11:59",
       "direction": "up",
       "impact": "Může vést k nárůstu ceny akcie ASML: analytici zlepšují hodnocení, což často přitáhne nové kupce.",
-      "source": "ad-hoc-news.de"
-    },
-    {
-      "company": "JPMorgan",
-      "title": "Amrize stock: JPMorgan cuts price target to 46 US dollars",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONkJCLTZkN0RjVGZ5UngwT0JtQTJCZXZyWmJtOGh4Zko3TC1ZOFB6ZWp4LXNCVWtSek9Ua1djblFpaW9sdFFWVFhPT0cxNlgxUjRaZUVEQ2t3eHdvVjhtMlBWeEtveHN6OW1LSjFUTUc2MWFNa0p4SzFiSHZtOWJjak9kd0R6bkNOMC1OX3BtakE2VTVILVNMazI3WFJLTnYwUERZX0xYNnhKWDFxMlNDdHRpUlJJcmdQQktN?oc=5",
-      "time": "21.11.2026 11:22",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie JPMorgan: analytici zhoršují hodnocení, což může zvýšit prodejní tlak.",
       "source": "ad-hoc-news.de"
     },
     {
@@ -10226,6 +10208,24 @@
       "direction": "mixed",
       "impact": "Zpráva obsahuje pozitivní i negativní signály, dopad na cenu akcie ASML je nejasný.",
       "source": "ad-hoc-news.de"
+    },
+    {
+      "company": "TSMC",
+      "title": "Taiwan Semiconductor (TSM) Dropped 9.48% to $318.71 — Navigating the Chip Sector Sell-Off Without Panic",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQcW9VanQ0MlV1NzU3Q1h2ZEtVM1dhVnhQcWM4MXQwdmRkbVpaLVJaejFzVUZNck5tcmJFbDMzYTBzTDAzOTFrbW5pVkhNUk10c0M2STVUbi1nck1iOXMwSmc1OHRjT2VjRWlnRmN1T0ZoSDgyZVp2Z1hZcjVFVzRsWk9GTlF4YUdGbnplWElpWmlPZHdyU2lUamd2cTV5M0RqLUktSDlOZVZnbnQyVHIxclpn?oc=5",
+      "time": "21.11.2026 01:18",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie TSMC: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
+      "source": "Moomoo"
+    },
+    {
+      "company": "SpaceX",
+      "title": "Tesla-SpaceX Merger: Potential Gains and Risks for Investors",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5uUjdudkNXUGpEVE1jU2pISm9FZ1hzZXlpWFpzM0JWTG9JTW9lbXlXX0xPbXRMVjFFWk82bTRjQmNNUWdrRzJIck10Z0N2Nmc1djJlNUZjTHJxWGg1NXlwRGdB?oc=5",
+      "time": "20.11.2026 23:53",
+      "direction": "mixed",
+      "impact": "Dopad na cenu akcie SpaceX je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
+      "source": "SmartAsset.com"
     }
   ]
 }
