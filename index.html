@@ -341,6 +341,9 @@
       color: var(--muted); font: inherit; font-size: .85rem; cursor: pointer;
     }
     .reset-btn:hover { color: var(--red); border-color: var(--red); }
+    .backup-row { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 24px; }
+    .backup-row .reset-btn { margin-top: 0; }
+    .backup-row .backup-btn:hover { color: var(--accent); border-color: var(--accent); }
 
     .trade-bar { margin-top: 18px; padding-top: 16px; border-top: 1px dashed var(--border); }
     .trade-info { margin-bottom: 12px; color: var(--muted); font-size: .8rem; line-height: 1.55; }
@@ -484,8 +487,9 @@
       <div class="note">
         Virtuální trenažér: obchoduješ s fiktivními penězi za skutečné aktuální ceny. Nejde o skutečné
         obchodování ani o investiční doporučení. Bez poplatků, nákup i prodej proběhnou za poslední známou
-        cenu a zisk v korunách zahrnuje i změnu kurzu měny. Portfolio se ukládá jen v tomto prohlížeči.
+        cenu a zisk v korunách zahrnuje i změnu kurzu měny. Portfolio se ukládá v tomto zařízení (zálohu si můžeš stáhnout dole).
       </div>
+      <div id="trainWarn" class="trade-msg err"></div>
       <div id="trainSummary" class="train-summary"></div>
 
       <div class="train-pick">
@@ -500,7 +504,13 @@
       <h3 class="rank-h">Historie obchodů</h3>
       <div id="trainHistory"></div>
 
-      <button id="trainReset" class="reset-btn">Začít znovu</button>
+      <div class="backup-row">
+        <button id="trainExport" class="reset-btn backup-btn">Stáhnout zálohu</button>
+        <button id="trainImport" class="reset-btn backup-btn">Nahrát zálohu</button>
+        <button id="trainReset" class="reset-btn">Začít znovu</button>
+        <input id="trainFile" type="file" accept="application/json,.json" hidden>
+      </div>
+      <div id="backupMsg" class="trade-msg"></div>
     </section>
 
     <footer class="disclaimer">
@@ -1031,17 +1041,50 @@
       return { startCash: START_CASH, cash: START_CASH, positions: {}, trades: [] };
     }
 
+    // Ověří a vyčistí data portfolia (z úložiště i ze zálohy). Neplatná data vrátí jako null.
+    function cleanSim(data) {
+      if (!data || typeof data !== "object") return null;
+      if (!Number.isFinite(data.cash) || data.cash < 0) return null;
+      if (!data.positions || typeof data.positions !== "object" || !Array.isArray(data.trades)) return null;
+
+      const positions = {};
+      for (const [symbol, position] of Object.entries(data.positions)) {
+        if (position && Number.isFinite(position.qty) && position.qty > 0
+            && Number.isFinite(position.cost) && position.cost >= 0) {
+          positions[symbol] = { qty: position.qty, cost: position.cost };
+        }
+      }
+
+      const trades = data.trades
+        .filter(trade => trade && (trade.side === "buy" || trade.side === "sell")
+          && typeof trade.symbol === "string" && Number.isFinite(trade.t)
+          && Number.isFinite(trade.qty) && Number.isFinite(trade.price) && Number.isFinite(trade.amount))
+        .slice(-5000)
+        .map(trade => {
+          const clean = {
+            t: trade.t, symbol: trade.symbol, name: String(trade.name || trade.symbol),
+            currency: String(trade.currency || ""), side: trade.side,
+            qty: trade.qty, price: trade.price, amount: trade.amount
+          };
+          if (trade.side === "sell") {
+            clean.profit = Number.isFinite(trade.profit) ? trade.profit : 0;
+            clean.cost = Number.isFinite(trade.cost) ? trade.cost : 0;
+          }
+          return clean;
+        });
+
+      return {
+        startCash: Number.isFinite(data.startCash) && data.startCash > 0 ? data.startCash : START_CASH,
+        cash: data.cash, positions, trades
+      };
+    }
+
     function loadSim() {
       try {
-        const data = JSON.parse(localStorage.getItem(SIM_KEY) || "null");
-        if (data && Number.isFinite(data.cash) && data.positions && typeof data.positions === "object"
-            && Array.isArray(data.trades)) {
-          return data;
-        }
+        return cleanSim(JSON.parse(localStorage.getItem(SIM_KEY) || "null")) || freshSim();
       } catch (error) {
-        // úložiště není dostupné nebo jsou data poškozená, začneme znovu
+        return freshSim();   // úložiště není dostupné nebo jsou data poškozená
       }
-      return freshSim();
     }
 
     function saveSim(state) {
@@ -1152,6 +1195,63 @@
       drawChart();
     }
 
+    function storageWorks() {
+      try {
+        localStorage.setItem("__mp_test", "1");
+        localStorage.removeItem("__mp_test");
+        return true;
+      } catch (error) {
+        return false;
+      }
+    }
+    const STORAGE_OK = storageWorks();
+
+    function setBackupMsg(text, kind = "") {
+      const element = document.getElementById("backupMsg");
+      element.textContent = text;
+      element.className = `trade-msg ${kind}`.trim();
+    }
+
+    function exportSim() {
+      const blob = new Blob([JSON.stringify(loadSim(), null, 2)], { type: "application/json" });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement("a");
+      link.href = url;
+      link.download = `marketpulse-portfolio-${new Date().toISOString().slice(0, 10)}.json`;
+      document.body.appendChild(link);
+      link.click();
+      link.remove();
+      setTimeout(() => URL.revokeObjectURL(url), 1000);
+      setBackupMsg("Záloha je stažená (hledej ji ve složce Stažené soubory).", "ok");
+    }
+
+    function importSim(file) {
+      if (!file) return;
+
+      const reader = new FileReader();
+      reader.onload = () => {
+        try {
+          const data = cleanSim(JSON.parse(String(reader.result)));
+          if (!data) throw new Error("soubor nemá správný formát");
+
+          const ok = confirm(
+            `Nahradit současné portfolio zálohou? Záloha má ${data.trades.length} obchodů a hotovost ${czk(data.cash)}.`
+          );
+          if (!ok) return;
+          if (!saveSim(data)) throw new Error("prohlížeč neumožňuje ukládání");
+
+          renderTrainer();
+          if (chartStock) drawChart();
+          setBackupMsg("Záloha byla načtena.", "ok");
+        } catch (error) {
+          const reason = error instanceof SyntaxError ? "soubor není platná záloha" : error.message;
+          setBackupMsg(`Zálohu se nepodařilo načíst: ${reason}.`, "err");
+        }
+      };
+      reader.onerror = () => setBackupMsg("Soubor se nepodařilo přečíst.", "err");
+      reader.readAsText(file);
+    }
+
     function fillTrainSelect() {
       const select = document.getElementById("trainSelect");
       if (select.options.length === allStocks.length) return;
@@ -1207,6 +1307,8 @@
     function renderTrainer() {
       const sim = loadSim();
       fillTrainSelect();
+      document.getElementById("trainWarn").textContent = STORAGE_OK ? "" :
+        "Pozor: tento prohlížeč neumožňuje ukládání dat (soukromý režim?). Portfolio se po zavření stránky ztratí.";
 
       const rows = [];
       let positionsValue = 0;
@@ -1290,6 +1392,12 @@
     document.getElementById("sellBtn").addEventListener("click", () => executeTrade("sell"));
     document.getElementById("tradeQty").addEventListener("input", updateTradeBar);
     document.getElementById("trainSelect").addEventListener("change", event => selectTrainStock(event.target.value));
+    document.getElementById("trainExport").addEventListener("click", exportSim);
+    document.getElementById("trainImport").addEventListener("click", () => document.getElementById("trainFile").click());
+    document.getElementById("trainFile").addEventListener("change", event => {
+      importSim(event.target.files[0]);
+      event.target.value = "";
+    });
     document.getElementById("trainReset").addEventListener("click", () => {
       if (!confirm(`Opravdu smazat virtuální portfolio a začít znovu s ${czk(START_CASH)}?`)) return;
       saveSim(freshSim());
