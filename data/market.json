@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T20:25:43.343434+00:00",
+  "updated_at": "2026-11-21T20:35:39.475169+00:00",
   "stocks": [
     {
       "name": "Microsoft",
@@ -15841,10 +15841,19 @@
       "company": "NVIDIA",
       "title": "Exclusive | SEC Is Probing Nvidia Amid Departure of CEO Jensen Huang",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQbjl2b0tzT1ROT2plV1p5RHhQd3hXOEJKRFhOZ1ItZExOQV9oVGkzTU9tcEEyTXhjNHRKQVExRTNRdEtlY24zUFhmS0h0c21FUVVrVVh0NGF2SXFmdm1wcmVRLUlCcG5CMGRIZklSdVBkVElkS3lwRF9LaGg4YzU5b0dsZXlveWxSNzhGYzJlZmRSRkhvUWZRTHB3?oc=5",
-      "time": "21.11.2026 20:31",
+      "time": "21.11.2026 21:33",
       "direction": "down",
       "impact": "Může vést k poklesu ceny akcie NVIDIA: odchod klíčového manažera zvyšuje nejistotu o dalším směřování firmy.",
       "source": "WSJ"
+    },
+    {
+      "company": "Berkshire Hathaway",
+      "title": "Greg Abel Increases Berkshire Buybacks to $9.6 Billion",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMmR5VmZSdlZzUkR4UjlETmdWbnFDQUhBc1BNUnJiSnFvUkFVYjA5VHR4UmhHV1ZOeldiQ1dLVGVabXo2RXZyVFRoRU5UQUI2anZqN1BqVmt6QzZwb2U2V0dqNXllM2RhX05Fd0dDVEo0ZTNpWkdZdXRsQlduMkczY1pnbkJPeFRGSVB3YnA5TkZONlQ3UWdCTmVsemlMT1hvY0tN?oc=5",
+      "time": "21.11.2026 19:53",
+      "direction": "up",
+      "impact": "Může vést k nárůstu ceny akcie Berkshire Hathaway: zpětný odkup akcií nebo vyšší dividenda zvyšují hodnotu pro akcionáře.",
+      "source": "JournalArta"
     },
     {
       "company": "Microsoft",
@@ -15991,15 +16000,6 @@
       "source": "ad-hoc-news.de"
     },
     {
-      "company": "JPMorgan",
-      "title": "Amrize stock: JPMorgan cuts price target to 46 US dollars",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONkJCLTZkN0RjVGZ5UngwT0JtQTJCZXZyWmJtOGh4Zko3TC1ZOFB6ZWp4LXNCVWtSek9Ua1djblFpaW9sdFFWVFhPT0cxNlgxUjRaZUVEQ2t3eHdvVjhtMlBWeEtveHN6OW1LSjFUTUc2MWFNa0p4SzFiSHZtOWJjak9kd0R6bkNOMC1OX3BtakE2VTVILVNMazI3WFJLTnYwUERZX0xYNnhKWDFxMlNDdHRpUlJJcmdQQktN?oc=5",
-      "time": "21.11.2026 11:22",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie JPMorgan: analytici zhoršují hodnocení, což může zvýšit prodejní tlak.",
-      "source": "ad-hoc-news.de"
-    },
-    {
       "company": "Meta",
       "title": "Edgestream Partners L.P. Acquires New Shares in Meta Platforms, Inc. $META",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOQWNxZlpkYU9Hem9jaHhKdy13Y0gwNDJXRXVmSVc2N0U4NU81d1l4R21kWWZCQ21YZjB5Mk54bzIzd2VtdFFZRDE5M0Z3OG04VFdZSHJhX3FWOWVZRTJIYVFydE5MZng2LXFnQWNMVWpMTUdXNFp0YTFOd2lJc3NibExYdkxNYXNZREYtT1ZDMzl3U0I3SS1wMFM0SkxvY19YMzQ4ZzJPR2xrOUdubkNvRnRyVGVZcC1iR1lNaWttS0ZkYnY3MWdPVlVB?oc=5",
@@ -16027,6 +16027,15 @@
       "source": "MarketBeat"
     },
     {
+      "company": "Tesla",
+      "title": "Advisors Asset Management Inc. Acquires 50,707 Shares of Tesla, Inc. $TSLA",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPNzFNUXEyTlZJMTBVbEY3ZEVnblg2UGJSX0pGQ2pMUUhhd1Q0RzR6bDhpQjFBZUdPN3dlTVFESjhTZjhJMURPckl5NEVDLWczWWNaVnJmVUVOcXgwemRkZnpDX1hUb2dGN1BqenlMbkFOaUpfWGU5blZxNVpWNXRleXZQTktlUjJSTGV6dmxEbEFpajNmMlhmR2w2Sjg3UThuR2x4MjA5X3JVTTI5NWtxbGpkWWVSQTlmdkdrSEpCbk1DLTNnVXhJZkFR?oc=5",
+      "time": "21.11.2026 09:15",
+      "direction": "mixed",
+      "impact": "Dopad na cenu akcie Tesla je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
+      "source": "MarketBeat"
+    },
+    {
       "company": "AMD",
       "title": "Key facts: AMD Share Rises; Venice Forecast Jumps; China Sales $7.75B",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQWGMxcTRwUEk5N0hEOGkxekRObVBiMWlaYUFEem5yMzBnbVU2bUM2UmR0MTBLVkdBc1UtOFhJNmRnVnVXaEY1bkloc09FTHp4N1FhR1lpVndLdjZKY2RfR0NDNnQtRXl5aG5pLU9GemhLVVc5a0JJUHl3MXdIazFScS1pUmJHOVBhQmxYaFU3bGVOTFI2aUFYdW5DX1BZM205MS1ES2tXMEJzN2RLZ1h4ZlR6Q1EwVERvLWdpWmZOV2szUEpXbnc?oc=5",
@@ -16043,15 +16052,6 @@
       "direction": "mixed",
       "impact": "Dopad na cenu akcie LVMH je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
       "source": "ad-hoc-news.de"
-    },
-    {
-      "company": "TSMC",
-      "title": "Retail investors snatch up odd lot shares amid TSMC's plunge",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5IWUtrR0hWWWdjRGxjSVV0UUtEdGRTZVI3aDNBSTNjTEQ0bF9zelhHUGVwSmRKUUNwdDNrMzRxMjBQSFhRMnF2QVZDRnBBUlgySVRLYXV0QQ?oc=5",
-      "time": "21.11.2026 05:57",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie TSMC: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
-      "source": "Focus Taiwan"
     }
   ]
 }
