@@ -115,7 +115,10 @@
       gap: 28px;
       margin-bottom: 22px;
       border-bottom: 1px solid var(--border);
+      overflow-x: auto;
     }
+    .tab { white-space: nowrap; }
+    @media (max-width: 700px) { .tabs { gap: 18px; } .tab { font-size: 1.2rem; } }
     .tab {
       position: relative;
       padding: 0 2px 12px;
@@ -322,6 +325,50 @@
     .rank td:first-child { font-family: var(--sans); font-weight: 500; }
     @media (max-width: 980px) { .rank-grid { grid-template-columns: 1fr; } }
 
+    #chartTitle { margin: 0; font-family: var(--serif); font-size: 1.6rem; }
+
+    .train-summary { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin: 20px 0; }
+    .stat { padding: 16px; background: var(--panel); border: 1px solid var(--border); border-radius: 14px; }
+    .stat-label { color: var(--muted); font-size: .78rem; }
+    .stat-value { margin-top: 8px; font-family: var(--mono); font-size: 1.2rem; font-weight: 600; }
+    .train-pick { display: flex; align-items: center; gap: 12px; margin: 18px 0 12px; color: var(--muted); }
+    .train-chart { padding: 22px; background: var(--panel); border: 1px solid var(--border); border-radius: 14px; }
+    .rank.static tbody tr { cursor: default; }
+    .rank.static tbody tr:hover { background: none; }
+    .reset-btn {
+      margin-top: 24px; padding: 8px 16px;
+      background: none; border: 1px solid var(--border); border-radius: 999px;
+      color: var(--muted); font: inherit; font-size: .85rem; cursor: pointer;
+    }
+    .reset-btn:hover { color: var(--red); border-color: var(--red); }
+
+    .trade-bar { margin-top: 18px; padding-top: 16px; border-top: 1px dashed var(--border); }
+    .trade-info { margin-bottom: 12px; color: var(--muted); font-size: .8rem; line-height: 1.55; }
+    .trade-row { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
+    .trade-row input { width: 110px; padding: 10px 14px; }
+    .qty-btn {
+      padding: 6px 12px; background: none;
+      border: 1px solid var(--border); border-radius: 999px;
+      color: var(--muted); font-family: var(--mono); font-size: .78rem; cursor: pointer;
+    }
+    .qty-btn:hover { color: var(--text); border-color: var(--accent); }
+    .buy-btn, .sell-btn {
+      padding: 10px 26px; background: none; border-radius: 999px;
+      font: inherit; font-weight: 600; cursor: pointer; transition: background .2s, color .2s;
+    }
+    .buy-btn { border: 2px solid var(--green); color: var(--green); margin-left: auto; }
+    .buy-btn:hover:not(:disabled) { background: var(--green); color: #14130f; }
+    .sell-btn { border: 2px solid var(--red); color: var(--red); }
+    .sell-btn:hover:not(:disabled) { background: var(--red); color: #14130f; }
+    .buy-btn:disabled, .sell-btn:disabled { opacity: .35; cursor: not-allowed; }
+    .trade-msg { min-height: 1.3em; margin-top: 12px; font-size: .85rem; }
+    .trade-msg.ok { color: var(--green); }
+    .trade-msg.err { color: var(--red); }
+    .ch-trade { stroke: var(--text); stroke-width: 1.5; }
+    .ch-trade.buy { fill: #3ddc84; }
+    .ch-trade.sell { fill: #ff5a5a; }
+    @media (max-width: 700px) { .train-summary { grid-template-columns: repeat(2, 1fr); } .buy-btn { margin-left: 0; } }
+
     .news-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
 
     .news-item {
@@ -405,6 +452,7 @@
       <button class="tab active" data-tab="stocksPanel">Akcie</button>
       <button class="tab" data-tab="newsPanel">Zprávy</button>
       <button class="tab" data-tab="rankPanel">Přehled</button>
+      <button class="tab" data-tab="trainPanel">Trenažér investic</button>
     </nav>
 
     <section id="stocksPanel">
@@ -432,6 +480,29 @@
       <div id="rankBody"></div>
     </section>
 
+    <section id="trainPanel" class="hidden">
+      <div class="note">
+        Virtuální trenažér: obchoduješ s fiktivními penězi za skutečné aktuální ceny. Nejde o skutečné
+        obchodování ani o investiční doporučení. Bez poplatků, nákup i prodej proběhnou za poslední známou
+        cenu a zisk v korunách zahrnuje i změnu kurzu měny. Portfolio se ukládá jen v tomto prohlížeči.
+      </div>
+      <div id="trainSummary" class="train-summary"></div>
+
+      <div class="train-pick">
+        <label for="trainSelect">Akcie</label>
+        <select id="trainSelect"></select>
+      </div>
+      <div id="trainChartHost" class="train-chart"></div>
+
+      <h3 class="rank-h">Moje pozice</h3>
+      <div id="trainPositions"></div>
+
+      <h3 class="rank-h">Historie obchodů</h3>
+      <div id="trainHistory"></div>
+
+      <button id="trainReset" class="reset-btn">Začít znovu</button>
+    </section>
+
     <footer class="disclaimer">
       Upozornění: Tržní data mohou být zpožděná, chybná nebo neúplná.
       Odhad dopadu zprávy je automatický a může být nepřesný.
@@ -440,8 +511,9 @@
   </main>
 
   <div id="chartModal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="chartTitle">
-    <div class="modal-panel">
+    <div class="modal-panel" id="modalPanel">
       <button class="modal-close" id="chartClose" aria-label="Zavřít">✕</button>
+      <div id="chartBody">
       <h3 id="chartTitle"></h3>
       <div id="chartSub" class="ticker"></div>
       <div id="chartLive" class="chart-live"></div>
@@ -455,13 +527,28 @@
         <button class="range" data-range="1R">1R</button>
       </div>
       <div id="chartBox" class="chart-box"></div>
+
+      <div id="tradeBar" class="trade-bar">
+        <div id="tradeInfo" class="trade-info"></div>
+        <div class="trade-row">
+          <input id="tradeQty" type="number" min="0" step="any" value="1" inputmode="decimal" aria-label="Počet kusů">
+          <button class="qty-btn" data-qty="1">1</button>
+          <button class="qty-btn" data-qty="10">10</button>
+          <button class="qty-btn" data-qty="max">Max</button>
+          <button class="qty-btn" data-qty="all">Vše</button>
+          <button id="buyBtn" class="buy-btn">Koupit</button>
+          <button id="sellBtn" class="sell-btn">Prodat</button>
+        </div>
+        <div id="tradeMsg" class="trade-msg"></div>
+      </div>
+      </div>
     </div>
   </div>
 
   <script>
     // Adresa tvého Cloudflare Workeru, např. "https://market-pulse.tvojesubdomena.workers.dev"
     // Když je prázdná, stránka používá jen data z GitHubu.
-    const LIVE_URL = "https://market-pulse.krystof-plechaty.workers.dev";
+    const LIVE_URL = "";
 
     let allStocks = [];
     let liveQuotes = {};
@@ -694,6 +781,7 @@
         renderStocks();
         renderNews(data.news);
         renderRanking();
+        renderTrainer();
       } catch (error) {
         status.textContent = "Data se nepodařilo načíst";
         document.getElementById("stocks").replaceChildren(
@@ -743,13 +831,15 @@
         const data = await response.json();
         liveQuotes = data.quotes || {};
         liveTime = new Date(data.updated_at || Date.now());
+        if (data.fx && typeof data.fx === "object") fxRates = data.fx;
 
         applyLive();
         renderStocks();
+        renderTrainer();
         updateStatus();
 
         // otevřený graf překreslíme s novou cenou
-        if (chartStock && !document.getElementById("chartModal").classList.contains("hidden")) {
+        if (chartVisible()) {
           chartStock = allStocks.find(stock => stock.symbol === chartStock.symbol) || chartStock;
           drawChart();
         }
@@ -926,7 +1016,309 @@
       root.append(wrap);
     }
 
+    // ---- Trenažér investic (virtuální obchodování s fiktivními penězi) ----
+    const START_CASH = 1000000;   // počáteční virtuální hotovost v Kč
+    const SIM_KEY = "marketPulseSim.v1";
+    let fxRates = {};             // kurzy do Kč z Workeru, např. { USD: 21.5, EUR: 24.3 }
+    let chartHost = "modal";      // kde je graf právě zobrazený: "modal" nebo "train"
+
+    const roundTo = (value, decimals) => Math.round(value * 10 ** decimals) / 10 ** decimals;
+    const czk = value => `${(Math.round(value) || 0).toLocaleString("cs-CZ")} Kč`;
+    const signedCzk = value => `${value > 0 ? "+" : ""}${czk(value)}`;
+    const signedPct = value => `${value > 0 ? "+" : ""}${value.toFixed(2).replace(".", ",")} %`;
+
+    function freshSim() {
+      return { startCash: START_CASH, cash: START_CASH, positions: {}, trades: [] };
+    }
+
+    function loadSim() {
+      try {
+        const data = JSON.parse(localStorage.getItem(SIM_KEY) || "null");
+        if (data && Number.isFinite(data.cash) && data.positions && typeof data.positions === "object"
+            && Array.isArray(data.trades)) {
+          return data;
+        }
+      } catch (error) {
+        // úložiště není dostupné nebo jsou data poškozená, začneme znovu
+      }
+      return freshSim();
+    }
+
+    function saveSim(state) {
+      try {
+        localStorage.setItem(SIM_KEY, JSON.stringify(state));
+        return true;
+      } catch (error) {
+        return false;
+      }
+    }
+
+    // cena jednoho kusu v Kč (nebo null, když chybí kurz)
+    function toCzk(stock, price) {
+      let code = stock.currency || "";
+      let factor = 1;
+      if (code === "GBp") { code = "GBP"; factor = 0.01; }   // britské akcie jsou v pencích
+      const rate = code === "CZK" ? 1 : fxRates[code];
+      if (!Number.isFinite(price) || !Number.isFinite(rate)) return null;
+      return price * factor * rate;
+    }
+
+    function setTradeMsg(text, kind = "") {
+      const element = document.getElementById("tradeMsg");
+      element.textContent = text;
+      element.className = `trade-msg ${kind}`.trim();
+    }
+
+    function updateTradeBar() {
+      if (!chartStock) return;
+
+      const info = document.getElementById("tradeInfo");
+      const buy = document.getElementById("buyBtn");
+      const sell = document.getElementById("sellBtn");
+
+      const perShare = chartStock.live ? toCzk(chartStock, chartStock.price) : null;
+      buy.disabled = perShare === null;
+      sell.disabled = perShare === null;
+
+      if (perShare === null) {
+        info.textContent = "Obchodování je vypnuté: chybí živá cena nebo kurz měny (zkontroluj, jestli běží Worker).";
+        return;
+      }
+
+      const sim = loadSim();
+      const held = (sim.positions[chartStock.symbol] || {}).qty || 0;
+      const qty = parseFloat(document.getElementById("tradeQty").value);
+      const volume = Number.isFinite(qty) && qty > 0 ? ` · objem ${czk(qty * perShare)}` : "";
+      const closed = chartStock.session === "closed"
+        ? " · trh je zavřený, obchod proběhne za poslední cenu" : "";
+
+      info.textContent =
+        `Cena ${formatPrice(chartStock)} (≈ ${czk(perShare)})${volume} · v držení ${held} ks · hotovost ${czk(sim.cash)}${closed}`;
+    }
+
+    function executeTrade(side) {
+      const stock = chartStock;
+      if (!stock || !stock.live) return setTradeMsg("Chybí živá cena, obchod nelze provést.", "err");
+
+      const perShare = toCzk(stock, stock.price);
+      if (perShare === null) return setTradeMsg("Chybí kurz měny, obchod nelze provést.", "err");
+
+      const qty = roundTo(parseFloat(document.getElementById("tradeQty").value), 4);
+      if (!Number.isFinite(qty) || qty <= 0) return setTradeMsg("Zadej kladný počet kusů.", "err");
+
+      const sim = loadSim();
+      const amount = roundTo(qty * perShare, 2);
+      const position = sim.positions[stock.symbol] || { qty: 0, cost: 0 };
+      const trade = {
+        t: Date.now(), symbol: stock.symbol, name: stock.name, currency: stock.currency,
+        side, qty, price: stock.price, amount
+      };
+      let message;
+
+      if (side === "buy") {
+        if (amount > sim.cash + 0.005) {
+          return setTradeMsg(`Nemáš dost hotovosti (potřeba ${czk(amount)}, máš ${czk(sim.cash)}).`, "err");
+        }
+        sim.cash = roundTo(sim.cash - amount, 2);
+        position.qty = roundTo(position.qty + qty, 4);
+        position.cost = roundTo(position.cost + amount, 2);
+        sim.positions[stock.symbol] = position;
+        message = `Koupeno ${qty} ks ${stock.name} za ${czk(amount)}.`;
+      } else {
+        if (qty > position.qty + 1e-9) {
+          return setTradeMsg(`Nemáš tolik kusů (v držení ${position.qty} ks).`, "err");
+        }
+        const costPart = roundTo(position.cost * (qty / position.qty), 2);
+        const profit = roundTo(amount - costPart, 2);
+        sim.cash = roundTo(sim.cash + amount, 2);
+        position.qty = roundTo(position.qty - qty, 4);
+        position.cost = roundTo(position.cost - costPart, 2);
+        if (position.qty <= 0.00005) delete sim.positions[stock.symbol];
+        else sim.positions[stock.symbol] = position;
+        trade.profit = profit;
+        trade.cost = costPart;
+        message =
+          `Prodáno ${qty} ks ${stock.name} za ${czk(amount)}. ` +
+          `${profit >= 0 ? "Zisk" : "Ztráta"} ${signedCzk(profit)} (${signedPct(costPart ? profit / costPart * 100 : 0)}).`;
+      }
+
+      sim.trades.push(trade);
+      if (!saveSim(sim)) {
+        return setTradeMsg("Portfolio se nepodařilo uložit (prohlížeč blokuje úložiště).", "err");
+      }
+
+      setTradeMsg(message, "ok");
+      renderTrainer();
+      drawChart();
+    }
+
+    function fillTrainSelect() {
+      const select = document.getElementById("trainSelect");
+      if (select.options.length === allStocks.length) return;
+
+      const keep = select.value;
+      select.replaceChildren();
+      for (const stock of allStocks) {
+        select.add(new Option(`${stock.name} (${stock.symbol})`, stock.symbol));
+      }
+      if (keep) select.value = keep;
+    }
+
+    function showTrainChart(stock) {
+      chartHost = "train";
+      document.getElementById("trainChartHost").appendChild(document.getElementById("chartBody"));
+      setChartStock(stock);
+    }
+
+    function selectTrainStock(symbol) {
+      const stock = allStocks.find(item => item.symbol === symbol);
+      if (!stock) return;
+
+      document.getElementById("trainSelect").value = symbol;
+      showTrainChart(stock);
+
+      const host = document.getElementById("trainChartHost");
+      if (host.scrollIntoView) host.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+
+    function enterTrainer() {
+      renderTrainer();
+      const wanted = document.getElementById("trainSelect").value || (chartStock && chartStock.symbol);
+      const stock = allStocks.find(item => item.symbol === wanted) || allStocks[0];
+      if (stock) {
+        document.getElementById("trainSelect").value = stock.symbol;
+        showTrainChart(stock);
+      }
+    }
+
+    function makeTable(headers, extraClass = "") {
+      const table = makeElement("table", `rank ${extraClass}`.trim());
+      const head = document.createElement("tr");
+      headers.forEach(label => head.append(makeElement("th", "", label)));
+      const thead = document.createElement("thead");
+      thead.append(head);
+      const tbody = document.createElement("tbody");
+      table.append(thead, tbody);
+      const wrap = makeElement("div", "table-wrap");
+      wrap.append(table);
+      return { wrap, tbody };
+    }
+
+    function renderTrainer() {
+      const sim = loadSim();
+      fillTrainSelect();
+
+      const rows = [];
+      let positionsValue = 0;
+      let missing = false;
+
+      for (const [symbol, position] of Object.entries(sim.positions)) {
+        const stock = allStocks.find(item => item.symbol === symbol);
+        const perShare = stock ? toCzk(stock, stock.price) : null;
+        const value = perShare === null ? null : perShare * position.qty;
+        if (value === null) missing = true;
+        else positionsValue += value;
+        rows.push({ symbol, stock, position, value });
+      }
+
+      const total = sim.cash + positionsValue;
+      const profit = total - sim.startCash;
+      const realized = sim.trades.reduce((sum, trade) => sum + (trade.profit || 0), 0);
+
+      const summary = document.getElementById("trainSummary");
+      summary.replaceChildren();
+      const stat = (label, value, cls = "") => {
+        const box = makeElement("div", "stat");
+        box.append(makeElement("div", "stat-label", label), makeElement("div", `stat-value ${cls}`.trim(), value));
+        summary.append(box);
+      };
+      stat("Hodnota portfolia", czk(total) + (missing ? " *" : ""));
+      stat("Volná hotovost", czk(sim.cash));
+      stat("Celkový zisk / ztráta", `${signedCzk(profit)} (${signedPct(profit / sim.startCash * 100)})`, tone(profit));
+      stat("Zisk z prodejů", signedCzk(realized), tone(realized));
+
+      const positions = document.getElementById("trainPositions");
+      positions.replaceChildren();
+      if (rows.length === 0) {
+        positions.append(makeElement("div", "empty", "Zatím nic nedržíš. Vyber akcii nahoře a klikni na Koupit."));
+      } else {
+        const { wrap, tbody } = makeTable(["Akcie", "Ks", "Průměrná cena", "Hodnota", "Zisk / ztráta"]);
+        for (const { symbol, stock, position, value } of rows) {
+          const tr = document.createElement("tr");
+          tr.addEventListener("click", () => selectTrainStock(symbol));
+          const gain = value === null ? null : value - position.cost;
+          tr.append(
+            makeElement("td", "", stock ? stock.name : symbol),
+            makeElement("td", "", String(position.qty)),
+            makeElement("td", "", czk(position.cost / position.qty)),
+            makeElement("td", "", value === null ? "–" : czk(value)),
+            makeElement("td", gain === null ? "" : tone(gain),
+              gain === null ? "–" : `${signedCzk(gain)} (${signedPct(gain / position.cost * 100)})`)
+          );
+          tbody.append(tr);
+        }
+        positions.append(wrap);
+      }
+
+      const history = document.getElementById("trainHistory");
+      history.replaceChildren();
+      if (sim.trades.length === 0) {
+        history.append(makeElement("div", "empty", "Zatím žádné obchody."));
+      } else {
+        const { wrap, tbody } = makeTable(["Čas", "Akcie", "Obchod", "Ks", "Cena", "Částka", "Zisk"], "static");
+        for (const trade of sim.trades.slice(-15).reverse()) {
+          const tr = document.createElement("tr");
+          tr.append(
+            makeElement("td", "", new Date(trade.t).toLocaleString("cs-CZ", {
+              day: "numeric", month: "numeric", hour: "2-digit", minute: "2-digit"
+            })),
+            makeElement("td", "", trade.name || trade.symbol),
+            makeElement("td", trade.side === "buy" ? "pos" : "neg", trade.side === "buy" ? "Koupě" : "Prodej"),
+            makeElement("td", "", String(trade.qty)),
+            makeElement("td", "", formatPrice({ currency: trade.currency }, trade.price)),
+            makeElement("td", "", czk(trade.amount)),
+            makeElement("td", trade.side === "sell" ? tone(trade.profit) : "",
+              trade.side === "sell" ? signedCzk(trade.profit) : "–")
+          );
+          tbody.append(tr);
+        }
+        history.append(wrap);
+      }
+    }
+
+    document.getElementById("buyBtn").addEventListener("click", () => executeTrade("buy"));
+    document.getElementById("sellBtn").addEventListener("click", () => executeTrade("sell"));
+    document.getElementById("tradeQty").addEventListener("input", updateTradeBar);
+    document.getElementById("trainSelect").addEventListener("change", event => selectTrainStock(event.target.value));
+    document.getElementById("trainReset").addEventListener("click", () => {
+      if (!confirm(`Opravdu smazat virtuální portfolio a začít znovu s ${czk(START_CASH)}?`)) return;
+      saveSim(freshSim());
+      renderTrainer();
+      if (chartStock) drawChart();
+      setTradeMsg("Portfolio bylo resetováno.", "ok");
+    });
+    document.querySelectorAll(".qty-btn").forEach(button => {
+      button.addEventListener("click", () => {
+        const input = document.getElementById("tradeQty");
+        const kind = button.dataset.qty;
+
+        if (kind === "1" || kind === "10") {
+          input.value = kind;
+        } else if (chartStock) {
+          const sim = loadSim();
+          if (kind === "all") {
+            input.value = String((sim.positions[chartStock.symbol] || {}).qty || 0);
+          } else if (kind === "max") {
+            const perShare = chartStock.live ? toCzk(chartStock, chartStock.price) : null;
+            input.value = perShare ? String(Math.floor(sim.cash / perShare)) : "0";
+          }
+        }
+        updateTradeBar();
+      });
+    });
+
     // ---- Graf akcie (kliknutí na kartu) ----
+
     const RANGE_DAYS = { "1M": 30, "3M": 91, "6M": 182, "1R": 366 };
     let chartStock = null;
     let chartRange = "3M";
@@ -941,15 +1333,29 @@
       return el;
     }
 
-    function openChart(stock) {
+    function setChartStock(stock) {
       chartStock = stock;
       document.getElementById("chartTitle").textContent = stock.name || stock.symbol || "";
       document.getElementById("chartSub").textContent =
         [stock.symbol, stock.market].filter(Boolean).join(" · ");
-      document.getElementById("chartModal").classList.remove("hidden");
-      document.body.style.overflow = "hidden";
+      setTradeMsg("");
       drawChart();
       refreshLiveChart();
+    }
+
+    function openChart(stock) {
+      chartHost = "modal";
+      document.getElementById("modalPanel").appendChild(document.getElementById("chartBody"));
+      document.getElementById("chartModal").classList.remove("hidden");
+      document.body.style.overflow = "hidden";
+      setChartStock(stock);
+    }
+
+    function chartVisible() {
+      if (!chartStock || document.hidden) return false;
+      return chartHost === "train"
+        ? !document.getElementById("trainPanel").classList.contains("hidden")
+        : !document.getElementById("chartModal").classList.contains("hidden");
     }
 
     function closeChart() {
@@ -959,7 +1365,7 @@
 
     async function refreshLiveChart() {
       if (!LIVE_URL || !chartStock || document.hidden) return;
-      if (document.getElementById("chartModal").classList.contains("hidden")) return;
+      if (!chartVisible()) return;
       if (chartRange !== "1D" && chartRange !== "1W") return;
 
       const symbol = chartStock.symbol;
@@ -1002,6 +1408,7 @@
       const badge = document.getElementById("chartLive");
       badge.textContent = "";
       badge.className = "chart-live";
+      updateTradeBar();
 
       document.querySelectorAll(".range").forEach(button => {
         button.classList.toggle("active", button.dataset.range === chartRange);
@@ -1244,6 +1651,26 @@
       if (isLive) svg.append(svgEl("circle", { cx: lastX, cy: lastY, r: 4, class: "ch-pulse" }));
       svg.append(svgEl("circle", { cx: lastX, cy: lastY, r: 4, class: "ch-end" }));
 
+      // tvoje virtuální obchody: zelená tečka = nákup, červená = prodej
+      for (const trade of loadSim().trades) {
+        if (trade.symbol !== chartStock.symbol) continue;
+
+        let idx = -1;
+        for (let i = 0; i < points.length; i++) {
+          if (points[i].date.getTime() <= trade.t) idx = i; else break;
+        }
+        if (idx === -1) continue;   // obchod je starší než zobrazené období
+
+        const marker = svgEl("circle", {
+          cx: x(idx), cy: y(points[idx].value), r: 5.5, class: `ch-trade ${trade.side}`
+        });
+        const markerTip = svgEl("title");
+        markerTip.textContent =
+          `${trade.side === "buy" ? "Nákup" : "Prodej"} ${trade.qty} ks · ${formatPrice({ currency: trade.currency }, trade.price)}`;
+        marker.append(markerTip);
+        svg.append(marker);
+      }
+
       if (fresh) {
         const high = formatPrice(chartStock, Math.max(...values));
         const low = formatPrice(chartStock, Math.min(...values));
@@ -1325,9 +1752,10 @@
           tab.classList.toggle("active", tab === button);
         });
 
-        for (const id of ["stocksPanel", "newsPanel", "rankPanel"]) {
+        for (const id of ["stocksPanel", "newsPanel", "rankPanel", "trainPanel"]) {
           document.getElementById(id).classList.toggle("hidden", id !== button.dataset.tab);
         }
+        if (button.dataset.tab === "trainPanel") enterTrainer();
       });
     });
 
