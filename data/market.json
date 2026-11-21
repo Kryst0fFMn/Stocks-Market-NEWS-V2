@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T20:45:48.868489+00:00",
+  "updated_at": "2026-11-21T21:24:16.395440+00:00",
   "stocks": [
     {
       "name": "Microsoft",
@@ -15841,10 +15841,19 @@
       "company": "NVIDIA",
       "title": "Exclusive | SEC Is Probing Nvidia Amid Departure of CEO Jensen Huang",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQbjl2b0tzT1ROT2plV1p5RHhQd3hXOEJKRFhOZ1ItZExOQV9oVGkzTU9tcEEyTXhjNHRKQVExRTNRdEtlY24zUFhmS0h0c21FUVVrVVh0NGF2SXFmdm1wcmVRLUlCcG5CMGRIZklSdVBkVElkS3lwRF9LaGg4YzU5b0dsZXlveWxSNzhGYzJlZmRSRkhvUWZRTHB3?oc=5",
-      "time": "21.11.2026 20:31",
+      "time": "21.11.2026 22:15",
       "direction": "down",
       "impact": "Může vést k poklesu ceny akcie NVIDIA: odchod klíčového manažera zvyšuje nejistotu o dalším směřování firmy.",
       "source": "WSJ"
+    },
+    {
+      "company": "Microsoft",
+      "title": "Microsoft outage: Does Microsoft owe you money? What to know.",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBKOUVfMTNXLTFIX21qMU05N3ZzdDV5bi05bnBvc190ZUpiR0RhWWEwSUtaZVpiMEhDVzVfUXFGTDl3NVpNTHNTM3dvYzI3QWJOS2RYNzljLWdJZzI3SnBtamFqUW40b21qdE1kN1RKUFhidw?oc=5",
+      "time": "21.11.2026 21:46",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
+      "source": "Mashable"
     },
     {
       "company": "Berkshire Hathaway",
@@ -15892,13 +15901,13 @@
       "source": "GeekWire"
     },
     {
-      "company": "Microsoft",
-      "title": "Microsoft, Chase, FAA outages: Why did so many systems fail in one week?",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNLXNXTEhENzVtY0dyX1ZiV3JQbmw4REVzcXdQMFY2aUYtVFR1TGhOUnNsLWpib0pBdE9LcnpjYmY5TU9xM1JVTndDZE90aVctdko3WFlFdzg5MUhXR1FGN095Zk9JWXN0TVdNdWVfZ3Y5QTBnS1luZ1JQZUd1YTFCZExORXZTQ1ZFelQ5bTJZTWFvTk9UYWtMV3pwWFRtQjZQbW5CMkVXaUtMX2Y4TTJ5UWdjRWRLbE8y?oc=5",
-      "time": "21.11.2026 18:06",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
-      "source": "Click2Houston"
+      "company": "Amazon",
+      "title": "New Layoff Data Show Job Cuts Down 41% So Far This Year",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9tRUQ3eGRWZVptRTlGZFB0TlFkS2dtWEZ3Tm4zeDBYeHFOQ1dyUm5nQ2J2TmtNWERob2s5TmlMQVg1aXNFaC1tSk5abVNKOHpsYXQ0bTNRT01ob3Vsb0lqUVNldDJEZWVrMzctdDlhSQ?oc=5",
+      "time": "21.11.2026 17:53",
+      "direction": "mixed",
+      "impact": "Dopad na cenu akcie Amazon je nejednoznačný: propouštění může ušetřit náklady, ale často signalizuje slabší poptávku.",
+      "source": "WSJ"
     },
     {
       "company": "NVIDIA",
@@ -15926,15 +15935,6 @@
       "direction": "down",
       "impact": "Může vést k poklesu ceny akcie Tesla: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
       "source": "Quantisnow"
-    },
-    {
-      "company": "Amazon",
-      "title": "AWS got hit by an outage too. Here's why you didn't hear about it",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNbXlBSFZUSWo1TVBlTTlRaTBPUFhGVU42RWJpY0YySlhpSG44emVVZTc1QnR1Z3oxVzN0NE5RSkJsUjdMNTFDaXBKQzUxRFJkNmU4bUUwSUJNTjdJOVh2cG9QLS1qQ2s2UzgwN25ldjZpYzQ5cXl1ZmUwMkNtTmxnR01INk1oZExFWlEzVHNUaVdhTDdZTXBSSTEwS0lpdklEWmFWYTZzcUVrNDZ0b0VxWC1McUV2UUhxOXN4OQ?oc=5",
-      "time": "21.11.2026 15:35",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Amazon: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
-      "source": "The Register"
     },
     {
       "company": "Anthropic",
@@ -16000,6 +16000,24 @@
       "source": "ad-hoc-news.de"
     },
     {
+      "company": "Toyota",
+      "title": "More than 300,000 Toyota, Lexus vehicles recalled over faulty Takata airbags",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNd1ZaaWRmcTYyQVZLbXpGR0VUdkdsb25ubkJsYlowbDZud3RpMnk2UlJmeWRPLW1fNGlSdVd6YlZYQkdHM1p5MVBQYWdRSHkwQlZRMzdobjIwTHFJZzBjNTNUMExaYkwxU3F2Y1pmeDhjV1BLdDE0MEgxVGxCa2NwRWpTUzU5QlNybktUenVRRUwtUk1MY2xic2g5RmNiaFhLTEhKV1dfV1p4TXVScnRtbEptVE9NcFBSbDF4a1pYQzNhZ9IBwgFBVV95cUxNd1ZaaWRmcTYyQVZLbXpGR0VUdkdsb25ubkJsYlowbDZud3RpMnk2UlJmeWRPLW1fNGlSdVd6YlZYQkdHM1p5MVBQYWdRSHkwQlZRMzdobjIwTHFJZzBjNTNUMExaYkwxU3F2Y1pmeDhjV1BLdDE0MEgxVGxCa2NwRWpTUzU5QlNybktUenVRRUwtUk1MY2xic2g5RmNiaFhLTEhKV1dfV1p4TXVScnRtbEptVE9NcFBSbDF4a1pYQzNhZw?oc=5",
+      "time": "21.11.2026 11:30",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Toyota: stažení výrobků nebo zastavení výroby znamená ztrátu tržeb a další náklady.",
+      "source": "WTHI-TV"
+    },
+    {
+      "company": "JPMorgan",
+      "title": "Amrize stock: JPMorgan cuts price target to 46 US dollars",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONkJCLTZkN0RjVGZ5UngwT0JtQTJCZXZyWmJtOGh4Zko3TC1ZOFB6ZWp4LXNCVWtSek9Ua1djblFpaW9sdFFWVFhPT0cxNlgxUjRaZUVEQ2t3eHdvVjhtMlBWeEtveHN6OW1LSjFUTUc2MWFNa0p4SzFiSHZtOWJjak9kd0R6bkNOMC1OX3BtakE2VTVILVNMazI3WFJLTnYwUERZX0xYNnhKWDFxMlNDdHRpUlJJcmdQQktN?oc=5",
+      "time": "21.11.2026 11:22",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie JPMorgan: analytici zhoršují hodnocení, což může zvýšit prodejní tlak.",
+      "source": "ad-hoc-news.de"
+    },
+    {
       "company": "Meta",
       "title": "Edgestream Partners L.P. Acquires New Shares in Meta Platforms, Inc. $META",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOQWNxZlpkYU9Hem9jaHhKdy13Y0gwNDJXRXVmSVc2N0U4NU81d1l4R21kWWZCQ21YZjB5Mk54bzIzd2VtdFFZRDE5M0Z3OG04VFdZSHJhX3FWOWVZRTJIYVFydE5MZng2LXFnQWNMVWpMTUdXNFp0YTFOd2lJc3NibExYdkxNYXNZREYtT1ZDMzl3U0I3SS1wMFM0SkxvY19YMzQ4ZzJPR2xrOUdubkNvRnRyVGVZcC1iR1lNaWttS0ZkYnY3MWdPVlVB?oc=5",
@@ -16034,24 +16052,6 @@
       "direction": "down",
       "impact": "Může vést k poklesu ceny akcie TSMC: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
       "source": "SSBCrack"
-    },
-    {
-      "company": "AMD",
-      "title": "Key facts: AMD Share Rises; Venice Forecast Jumps; China Sales $7.75B",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQWGMxcTRwUEk5N0hEOGkxekRObVBiMWlaYUFEem5yMzBnbVU2bUM2UmR0MTBLVkdBc1UtOFhJNmRnVnVXaEY1bkloc09FTHp4N1FhR1lpVndLdjZKY2RfR0NDNnQtRXl5aG5pLU9GemhLVVc5a0JJUHl3MXdIazFScS1pUmJHOVBhQmxYaFU3bGVOTFI2aUFYdW5DX1BZM205MS1ES2tXMEJzN2RLZ1h4ZlR6Q1EwVERvLWdpWmZOV2szUEpXbnc?oc=5",
-      "time": "21.11.2026 09:00",
-      "direction": "up",
-      "impact": "Může vést k nárůstu ceny akcie AMD: prudký růst ukazuje na silný zájem investorů, po rychlém růstu ale může přijít i stahování zisků.",
-      "source": "TradingView"
-    },
-    {
-      "company": "LVMH",
-      "title": "Dior Board Clears Agache Merger, Handing LVMH a New Ownership Structure",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOcTZ0NEtqajNCTHZCWW5YZnh5NEpyaURibHY1Um5lYlB0SWY3TE1NS05NZG5iMmVZT19TNnVKN2xVR0hyMWZzbE5vdUlJcy1EQXVPZThwdVBWaEV6Vjczck50UGNNYll5WkRVOHNUMWNRa0I3a3NLazRnMjhrenY5OGZNZDF6UWIzS25FU2w4NkhHVk50LW9jOWRpU294SnFrMFJBeVZCY3lXLVJKdUsyOXRFX1RIem9Qa2VaMTJwcmdfbFF3VklIZW5oOE9jNGN2QWYxRFRjd05Edw?oc=5",
-      "time": "21.11.2026 07:10",
-      "direction": "mixed",
-      "impact": "Dopad na cenu akcie LVMH je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
-      "source": "ad-hoc-news.de"
     }
   ]
 }
