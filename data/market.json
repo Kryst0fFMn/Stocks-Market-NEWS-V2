@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T23:07:09.786093+00:00",
+  "updated_at": "2026-11-21T23:45:50.593425+00:00",
   "stocks": [
     {
       "name": "Microsoft",
@@ -15841,6 +15841,15 @@
   ],
   "news": [
     {
+      "company": "Microsoft",
+      "title": "Microsoft blames months-old software glitch for global service outage",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZEMxMEhDOXFWUEhKWm9CZ0ZuNW9BeDZkY011UHZ0Z1VxMHZKaE4yUnFLX0hUeFd4cTZWaGJqcjlMdHpFdU1JRzhnTXV1cU1TekpFeDNJVWVHNkw0VTBqbFZyZnlWLTd6VjI1MmdGVHI5ckZGVjZ3U3hwSXBTR2JPZnZNNWxKN2NvTlVaRVhtcFlWd1ZFUjhGUGlrVW9LRFdIcW8tbGNNdnU1QUlkLUxnXzBpV1RaWlAtLWgwMWJfUlFVVGFP0gHYAUFVX3lxTFB1Z2VKSXBHYXluelZhZFlXYUNEaDg0V293OFotajVwZTRhWWYwSGJkRENjQXNBTmJ0cnppeUJ1cmRITTNqaEVnWlUzYUdfZ1lPdjIzbE04dllld0pZVUZUSzEtRU0telVURDIwVkt4N2dUUHNvcl9QYS1xakhEN2ZTVEdXTzFfTEpLTVJsYmJXRHg0enJtMDBEOUVXbXhORmVLMldYMHNPNDJ0MHlyU2t3SGQxX1pWaXBrUzhhTWJzUkdwWHJWaGdTNmNfOFFmMVB0YURFQVUtdA?oc=5",
+      "time": "22.11.2026 00:29",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
+      "source": "KIRO 7 News Seattle"
+    },
+    {
       "company": "NVIDIA",
       "title": "NVIDIA shares plunge nearly 48% from peak, returning to 2024 levels",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5yZUJNYTN5SkJkLW5VdDQ1S0Z5UG8xR21QZlQ4em9jb3pITWFsVHFyMWdFcmVWN2dSTVlzYVRUOG1NQzhpVWQ0M3prckVaTU93Ti1hbTBKXzdlSGlBN193?oc=5",
@@ -15887,6 +15896,15 @@
     },
     {
       "company": "Microsoft",
+      "title": "Microsoft outage was largest of 2026, report says",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBLWUhCMk96bVJoQUhfcVdmc0k0UTJtTENtM2hiUDM3djdEbnVtRmlyUmtRQkotNnFxQ0xneFBfX204TmFyLUttZ09iU3ZXSC1UMG5JRDd2eE5yVnlxOXF3Y0ZnVVh5Y3JjRWFYU1Zid0xqOUE?oc=5",
+      "time": "21.11.2026 22:09",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
+      "source": "Mashable"
+    },
+    {
+      "company": "Microsoft",
       "title": "Microsoft outage: Does Microsoft owe you money? What to know.",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBKOUVfMTNXLTFIX21qMU05N3ZzdDV5bi05bnBvc190ZUpiR0RhWWEwSUtaZVpiMEhDVzVfUXFGTDl3NVpNTHNTM3dvYzI3QWJOS2RYNzljLWdJZzI3SnBtamFqUW40b21qdE1kN1RKUFhidw?oc=5",
       "time": "21.11.2026 21:46",
@@ -15895,22 +15913,13 @@
       "source": "Mashable"
     },
     {
-      "company": "Microsoft",
+      "company": "Amazon",
       "title": "Meta Stopped Its Buybacks To Build AI. How Much More Can It Spend?",
       "url": "https://www.trefis.com/stock/meta/articles/627455/meta-stopped-its-buybacks-to-build-ai-how-much-more-can-it-spend/2026-11-21",
       "time": "21.11.2026 19:32",
       "direction": "up",
-      "impact": "Může vést k nárůstu ceny akcie Microsoft: zpětný odkup akcií nebo vyšší dividenda zvyšují hodnotu pro akcionáře.",
+      "impact": "Může vést k nárůstu ceny akcie Amazon: zpětný odkup akcií nebo vyšší dividenda zvyšují hodnotu pro akcionáře.",
       "source": "Trefis"
-    },
-    {
-      "company": "Microsoft",
-      "title": "Microsoft’s final Outlook outage report details testing gaps and safeguards that backfired",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUzVEMnFIMDdJN1RyQl9kaVpBTHBVdnVKZlFaVmV4blRXNWRBNW9FS1dETkF2Q243b3NxR2U0c0FiVXd0Qm9wLXpab1dBQnRVSlNiZzJOMEhYRGlPbklPSWZmNTlLMmZ5RUg4VVRsWG1saW9XZ0FOLWlCaFdHTGdiZ1VDeGtWZGxYaWI4T2xtenpwUzRyU051Y3BCTG1haDd4aHVVQ1Zlc0EyYnNtNVhyQzhvdDdWU3lvbjR2NQ?oc=5",
-      "time": "21.11.2026 18:31",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
-      "source": "GeekWire"
     },
     {
       "company": "Amazon",
@@ -15938,15 +15947,6 @@
       "direction": "down",
       "impact": "Může vést k poklesu ceny akcie Tesla: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
       "source": "Quantisnow"
-    },
-    {
-      "company": "Amazon",
-      "title": "AWS got hit by an outage too. Here's why you didn't hear about it",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNbXlBSFZUSWo1TVBlTTlRaTBPUFhGVU42RWJpY0YySlhpSG44emVVZTc1QnR1Z3oxVzN0NE5RSkJsUjdMNTFDaXBKQzUxRFJkNmU4bUUwSUJNTjdJOVh2cG9QLS1qQ2s2UzgwN25ldjZpYzQ5cXl1ZmUwMkNtTmxnR01INk1oZExFWlEzVHNUaVdhTDdZTXBSSTEwS0lpdklEWmFWYTZzcUVrNDZ0b0VxWC1McUV2UUhxOXN4OQ?oc=5",
-      "time": "21.11.2026 15:35",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Amazon: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
-      "source": "The Register"
     },
     {
       "company": "Anthropic",
@@ -16048,13 +16048,13 @@
       "source": "MarketBeat"
     },
     {
-      "company": "Tesla",
-      "title": "Advisors Asset Management Inc. Acquires 50,707 Shares of Tesla, Inc. $TSLA",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPNzFNUXEyTlZJMTBVbEY3ZEVnblg2UGJSX0pGQ2pMUUhhd1Q0RzR6bDhpQjFBZUdPN3dlTVFESjhTZjhJMURPckl5NEVDLWczWWNaVnJmVUVOcXgwemRkZnpDX1hUb2dGN1BqenlMbkFOaUpfWGU5blZxNVpWNXRleXZQTktlUjJSTGV6dmxEbEFpajNmMlhmR2w2Sjg3UThuR2x4MjA5X3JVTTI5NWtxbGpkWWVSQTlmdkdrSEpCbk1DLTNnVXhJZkFR?oc=5",
-      "time": "21.11.2026 09:15",
-      "direction": "mixed",
-      "impact": "Dopad na cenu akcie Tesla je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
-      "source": "MarketBeat"
+      "company": "TSMC",
+      "title": "Semiconductor Sell-Off: TSMC and Applied Materials Look Like AI Chip Bargains",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQcDZqWFkwa2x5NTZWdmItTFlIUjFYbGJoYVhiajhPdEhiOFRDQU1uYmlNblJGWTRncVdWVEdRUmJQVW5wWTkzczlYRTd4QnhEUjJzcmdZUHl4QS1ONUV6QWJFME9tdDZQbi1PUXJhZUhXcFctUHhqVUwyMkRmeTZmbFB1dWFkR1dKX05VU3VNWEZfbjh3MzlkRVhtOGo2dE5lMDlPdmFn?oc=5",
+      "time": "21.11.2026 09:34",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie TSMC: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
+      "source": "SSBCrack"
     }
   ]
 }
