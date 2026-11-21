@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T12:29:53.644999+00:00",
+  "updated_at": "2026-11-21T12:43:09.323304+00:00",
   "stocks": [
     {
       "name": "Microsoft",
@@ -10014,8 +10014,8 @@
     {
       "company": "NVIDIA",
       "title": "Nvidia Just Issued a Major Warning to AMD and Intel Stock Investors",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPYXR6MHVQSTdRTnNSeTQweDY5dVFCYldKR19PYmFoS0N1R1NLa1FUN045WWRud28tVGRMY3dEZGwxd2M2akNnMkk0d2x1MVZiRmt0ODh1YmxvNXJjTG5Ya2JTTHZlYnM1WmlFMmJrTEMtQmxvMVBxNkw3M3F3dTRCbWhkdzZMYzJWaUc3c1ZpajhzcXVpMHhIb3VPU3BDVzlmUWU4U0J6YjJfc0JubnhDUG9kUHlKZmJjOEowMFd2SnE2TGxidjZKLTNnYlJ5Z1hZakFSc1VBcGs1eDBrbk5QdlFhYnlrcWtta1E?oc=5",
-      "time": "21.11.2026 13:17",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPdnhiMzc4djhEN3V5Y2lHWEpKTUZhOGFHRUdKczhsanlRRWZpcEpWNzlxaDRfV2tiWHNhVE03aWZrSXpUU2dzT2NpWHpGc1NwcmpLeGR3dDhNTmo5cWEtLVE1bVhZZFVaWHdaYzVoQVhGa2M1TUVEWkg3anZWQzFlbUlYcGlXblJ5UXcwRDhvN2p4N2piUGlhLTVtNlRoZ2ZreHFWYk84aHlWVzdnanZmZjJNRjJ1RWxsQzVOYTNXSzJDNy1uOEY3UnM2UjNEWUR5OUppWEhHVXBoaWVhMGhxSXkwenVnbkU?oc=5",
+      "time": "21.11.2026 13:18",
       "direction": "down",
       "impact": "Může vést k poklesu ceny akcie NVIDIA: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
       "source": "The Globe and Mail"
@@ -10039,15 +10039,6 @@
       "source": "Simply Wall St"
     },
     {
-      "company": "ASML",
-      "title": "ASML Holding stock: Bernstein keeps Buy rating, EUR 2,500 target",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxORnpyX0dLcTlCdUNGcmdnaGkwdFUwQ09JdjJGZ0VGbk83c2ZkQ3BZTFNVcHhvWWJ5dlVWNHg1ZWlmUHR1eWRPenBGSXdZTU5Od0RiZ2lYa1pGTXFPa0Z6c1N4Um8yR0xSVFBTOEFRWmt5T1RCT3Fjbm54VVpVZ0F3cFJfZWluZXBGMl9YczdCRlRiUkhvVFFKYXpISG00djNQckFDSUZoRnBhR2k2T0FGVWI2NVNvV1FVVVlhZWNraF9mbFE?oc=5",
-      "time": "21.11.2026 11:59",
-      "direction": "up",
-      "impact": "Může vést k nárůstu ceny akcie ASML: analytici zlepšují hodnocení, což často přitáhne nové kupce.",
-      "source": "ad-hoc-news.de"
-    },
-    {
       "company": "NVIDIA",
       "title": "Nvidia (NVDA) stock plunges as SEC investigates potential accounting issues",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNejVjekR5NUpDRmUzNmNTYUY5clRuR19VMS1VcmFXbld5LWJXMDZHX1otN204QXJoYjFYVEh2MjJjSEp3VHJaUHIyQzBVaHlYc1VQemdCb2FXRjFIRGJWdnVoVzBMeWhMZW1UMFJjalAtS2tESFJsYS10TXBMS0RpbEIxOWVYd2M4T0JUUUloVV9CV0tHQVloTGxYZw?oc=5",
@@ -10057,6 +10048,15 @@
       "source": "Beinsure"
     },
     {
+      "company": "JPMorgan",
+      "title": "Amrize stock: JPMorgan cuts price target to 46 US dollars",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONkJCLTZkN0RjVGZ5UngwT0JtQTJCZXZyWmJtOGh4Zko3TC1ZOFB6ZWp4LXNCVWtSek9Ua1djblFpaW9sdFFWVFhPT0cxNlgxUjRaZUVEQ2t3eHdvVjhtMlBWeEtveHN6OW1LSjFUTUc2MWFNa0p4SzFiSHZtOWJjak9kd0R6bkNOMC1OX3BtakE2VTVILVNMazI3WFJLTnYwUERZX0xYNnhKWDFxMlNDdHRpUlJJcmdQQktN?oc=5",
+      "time": "21.11.2026 11:22",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie JPMorgan: analytici zhoršují hodnocení, což může zvýšit prodejní tlak.",
+      "source": "ad-hoc-news.de"
+    },
+    {
       "company": "Meta",
       "title": "Edgestream Partners L.P. Acquires New Shares in Meta Platforms, Inc. $META",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOQWNxZlpkYU9Hem9jaHhKdy13Y0gwNDJXRXVmSVc2N0U4NU81d1l4R21kWWZCQ21YZjB5Mk54bzIzd2VtdFFZRDE5M0Z3OG04VFdZSHJhX3FWOWVZRTJIYVFydE5MZng2LXFnQWNMVWpMTUdXNFp0YTFOd2lJc3NibExYdkxNYXNZREYtT1ZDMzl3U0I3SS1wMFM0SkxvY19YMzQ4ZzJPR2xrOUdubkNvRnRyVGVZcC1iR1lNaWttS0ZkYnY3MWdPVlVB?oc=5",
@@ -10064,6 +10064,15 @@
       "direction": "mixed",
       "impact": "Dopad na cenu akcie Meta je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
       "source": "MarketBeat"
+    },
+    {
+      "company": "Meta",
+      "title": "Meta Platforms stock plan paused as shareholder lawsuit advances",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOWnJsYkotdTd4Z0N6OEt6TUZmNUZGY1pQWXMwLXBES0dqX2tXN1FXbGZ2OVh1bnF0cUxjRDRKaVFwWGxlZFUxdEdCTk0wRnVDczhua19uakFkZTJWWEpTUm4zMV81UVk3MXBNSFBPSTBFaUNfb1daRHdNVHdTR24yN1pkdUNNYkhSaDQ5ZnBDRDZnY3pRdTRiTGFrb1dWb3FVYXJTTnJHVW80b1FRS2NobG1pQVNhbFFweUhQSEk5a2pCaXRKbHc?oc=5",
+      "time": "21.11.2026 11:03",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Meta: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
+      "source": "ad-hoc-news.de"
     },
     {
       "company": "Meta",
@@ -10093,24 +10102,6 @@
       "source": "Tribune Chronicle"
     },
     {
-      "company": "Tesla",
-      "title": "Advisors Asset Management Inc. Acquires 50,707 Shares of Tesla, Inc. $TSLA",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPNzFNUXEyTlZJMTBVbEY3ZEVnblg2UGJSX0pGQ2pMUUhhd1Q0RzR6bDhpQjFBZUdPN3dlTVFESjhTZjhJMURPckl5NEVDLWczWWNaVnJmVUVOcXgwemRkZnpDX1hUb2dGN1BqenlMbkFOaUpfWGU5blZxNVpWNXRleXZQTktlUjJSTGV6dmxEbEFpajNmMlhmR2w2Sjg3UThuR2x4MjA5X3JVTTI5NWtxbGpkWWVSQTlmdkdrSEpCbk1DLTNnVXhJZkFR?oc=5",
-      "time": "21.11.2026 09:15",
-      "direction": "mixed",
-      "impact": "Dopad na cenu akcie Tesla je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
-      "source": "MarketBeat"
-    },
-    {
-      "company": "Tesla",
-      "title": "Allianz SE Acquires 3,413 Shares of Tesla, Inc. $TSLA",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOLTI1dGs3bExVc2NXaW5tQkgxbHBiRVhaZ3hBUDhsbG45YXhjbVVkX19uSDlkOG9EajdrY3dUN0RLZ1pvM1dZR05reHhrSHM0bHdBTkVPclJFYWZOR2RaVWJqcVNBdzIzR3RwV1lPWmx6bF9BRS1GUGxkOElqTWZ6cGV5c3BVb1hOejl3VmpWWEptWXFlZkp1SVNuY21PNlZNQmNGbnhZbjJpbnZ0WlA4?oc=5",
-      "time": "21.11.2026 09:15",
-      "direction": "mixed",
-      "impact": "Dopad na cenu akcie Tesla je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
-      "source": "MarketBeat"
-    },
-    {
       "company": "Microsoft",
       "title": "Microsoft outage cause revealed: It was a perfect storm of problems",
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5aOXNncW9QdWVtZ3RXTHF5VnFncFJTcXptUWtGX0V6azdmcXZVQjBienJMdzJydEdseXhVZHZRcExPbS0xUXlCcXhyX2RDOUZOd0h3bEhwU1hiNF9hc0FNdTZLSkJGUVpz?oc=5",
@@ -10127,15 +10118,6 @@
       "direction": "mixed",
       "impact": "Dopad na cenu akcie LVMH je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
       "source": "ad-hoc-news.de"
-    },
-    {
-      "company": "Amazon",
-      "title": "Amazon.com (NASDAQ:AMZN) Stock Price Crosses Below 50 Day Moving Average Following Insider Selling",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOZFpVM3BpakJuTGNzd3hUSG41NU5IX2JkVWx6dUZjd2lNM1JIX2hkaXlKTHZFWGdvYXBzdTR6N0tvU2lEY0ZQNXNnb3otMUZKY0pLcjh6dG8xdVBvQ0RsZkQtZHo3Z3o4dkRJSnZOM3hoWnMzdklycm1xbTNLNnlYVm1YX0Nha0R4NDVuQWZPQ3NPV0Z2dXFXQUhMT3B3UnIzdWdhYmpnZzQ3alJhTjRvRFpMWHBxOEZYVDIxek5Gd21ybWREd0E2dFpYLWdQaDdHTjJiOTVRRjZlNWlkNkdWSWNiWDYyUGJad0ZR?oc=5",
-      "time": "21.11.2026 06:22",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Amazon: prodej akcií nebo konec lock-upu zvyšuje nabídku akcií na trhu.",
-      "source": "MarketBeat"
     },
     {
       "company": "TSMC",
@@ -10183,15 +10165,6 @@
       "source": "marketscreener.com"
     },
     {
-      "company": "ASML",
-      "title": "ASML Slides as AI Trade Unwinds — and a Buyback Rolls On Beneath the Noise",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOZUQxc3JFZGN5RmZHLVFwNTVMWUFzZnFaTFFpdXB2N3NRVUNaczF2dU9aYm9ST0pWLW1OMmp5QzNseEdTUElhT2Jic1lWZUxqVTc1dW42SlBMYllIbG5KZGxwUFd3S01YaGtzYVlXb1lfakc1RmVVbkVGRjNaVkM1eFQyRFJoVzU4M2pLVnRRUWFNRUY4MDZVU0dSczUyT0RWY2o2QWFwVk5XSFdjbEwyTjlrajBNUmhzWlNRZ0lzNmhSTnczUTQwc01xNU95dE90ZjZpUDRNMUJhQW5u?oc=5",
-      "time": "21.11.2026 02:42",
-      "direction": "mixed",
-      "impact": "Zpráva obsahuje pozitivní i negativní signály, dopad na cenu akcie ASML je nejasný.",
-      "source": "ad-hoc-news.de"
-    },
-    {
       "company": "Microsoft",
       "title": "The Outage Flu of 2026: Why is everything breaking at once?",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxONDhMcmhYVFVlYWFVQzJMVFNKWTNUSE5mQlU3d0MtU0FQeEJFNXE2U0N2VnNWYWVpVVE2eUREQUMtbTQyclhsTVpscmRrWkF6QlNUd2VxYkVJUkZReDFGQkNQYVl3YnVkRXE5SkpmOGJLZ0prZ1ZzQXJkZnE1WHYwYldvQ29saWhlNW14LW1HUnhQT01nUUFOaUQzSElkZw?oc=5",
@@ -10210,22 +10183,49 @@
       "source": "Moomoo"
     },
     {
-      "company": "Meta",
-      "title": "Why is Meta stock down today? About 6% lower as the AI sell-off and an Apple agent report hit",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOaGZCNXlLOTdxUUFWd2JBOWRNVmlmeFUwd0V2c1cySXdvRk1XNjJvWTJnZnlETDJDdFh0OVI2eXY1VTEyUXVPTkw2NDVKWlY5eTFaM2tYV1JWb0xGbC0yNlZDT0FqNjNsdnZMN1dDOG5ERHA1QkpKQzNkMy0xN2VHOEZXVEVDYlVSN0JxRlJpQjJtYVVab3g0VEtFZDRDdDVVZU5LaW92VHU4RTNoMmJER2N3cXlNOWZ2UVE?oc=5",
-      "time": "21.11.2026 00:50",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Meta: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
-      "source": "Nacionale"
+      "company": "Tesla",
+      "title": "Why Is Tesla (NASDAQ:TSLA) Stock Crashing? Shares Fall 7.6% Despite HSBC Upgrade and SpaceX Merger Talks",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1vdnotRUhQX2JwU3d3ZzlmRTYyMEV6U1JselhYM29TMnR4WGxRZVZfaGlRcm9OUldtWTd3eklqbHlBZWNwcnl4M2RQSVBSNmU0SVlJek04dGo4OThQTUhha1RQTjRqQWdzWnlBdVMzamF2b1VDZ0kwSnlHdVRaZw?oc=5",
+      "time": "21.11.2026 00:41",
+      "direction": "mixed",
+      "impact": "Dopad na cenu akcie Tesla je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
+      "source": "Stocks Down Under"
     },
     {
-      "company": "SpaceX",
+      "company": "Tesla",
       "title": "Tesla-SpaceX Merger: Potential Gains and Risks for Investors",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5uUjdudkNXUGpEVE1jU2pISm9FZ1hzZXlpWFpzM0JWTG9JTW9lbXlXX0xPbXRMVjFFWk82bTRjQmNNUWdrRzJIck10Z0N2Nmc1djJlNUZjTHJxWGg1NXlwRGdB?oc=5",
       "time": "20.11.2026 23:53",
       "direction": "mixed",
-      "impact": "Dopad na cenu akcie SpaceX je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
+      "impact": "Dopad na cenu akcie Tesla je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
       "source": "SmartAsset.com"
+    },
+    {
+      "company": "Broadcom",
+      "title": "Stock Market Today, Nov. 20: Stocks Plunge as AI Trade Unwinds",
+      "url": "https://www.fool.com/coverage/stock-market-today/2026/11/20/stock-market-today-nov-20-stocks-plunge-as-ai-trade-unwinds/",
+      "time": "20.11.2026 23:35",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Broadcom: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
+      "source": "Motley Fool"
+    },
+    {
+      "company": "Amazon",
+      "title": "Stock Market Today, Nov. 20: Amazon Shares Slide on AI and Mega-Cap Tech Sell-Off",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOZ3Q4VjNVRWVxOW90cDAtdDVDc1V0eXZGZ3gxbHhCQlhGUC1aTFNqTmtrU055TklQUjZreGR5NkRHU1FvblFOajBsWnVncTVhVnA3NTEzaWlQUFh0UjZMR0FDa2pINmlZSnItYmtHMDJ4TnhRclBFbnJzVXFvalg2UEJhQlZkTmJMQnc1dkJ2MVF5dTBFM3RYY3VBanF1blJOYzUxbGF2cHhvY2FBV3hXcURYb0VWamxSZVRxN3BWSGZoQWtqMEtaaWJ6SFFXNjBjbmtvOVFB?oc=5",
+      "time": "20.11.2026 23:33",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Amazon: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
+      "source": "The Motley Fool"
+    },
+    {
+      "company": "Apple",
+      "title": "Tech sees huge sell-off as Anthropic IPO fails to lift the market",
+      "url": "https://finance.yahoo.com/video/tech-sees-huge-sell-off-as-anthropic-ipo-fails-to-lift-the-market-221925316.html",
+      "time": "20.11.2026 23:19",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Apple: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
+      "source": "Yahoo Finance Video"
     }
   ]
 }
