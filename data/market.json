@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T22:09:13.203791+00:00",
+  "updated_at": "2026-11-21T23:07:09.786093+00:00",
   "stocks": [
     {
       "name": "Microsoft",
@@ -15842,6 +15842,33 @@
   "news": [
     {
       "company": "NVIDIA",
+      "title": "NVIDIA shares plunge nearly 48% from peak, returning to 2024 levels",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5yZUJNYTN5SkJkLW5VdDQ1S0Z5UG8xR21QZlQ4em9jb3pITWFsVHFyMWdFcmVWN2dSTVlzYVRUOG1NQzhpVWQ0M3prckVaTU93Ti1hbTBKXzdlSGlBN193?oc=5",
+      "time": "21.11.2026 23:50",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie NVIDIA: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
+      "source": "mobidevices.com"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Nvidia Falls 48% From Peak as AI Selloff Spreads to Bitcoin and Crypto",
+      "url": "https://www.cryptoprowl.com/releases/nvidia-falls-48-from-peak-as-ai-selloff-spreads-to-bitcoin-and-crypto-8017",
+      "time": "21.11.2026 23:50",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie NVIDIA: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
+      "source": "CryptoProwl"
+    },
+    {
+      "company": "Berkshire Hathaway",
+      "title": "Berkshire-owned utility lauds Oregon Supreme Court's expanded review of wildfire lawsuit",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNN0NlUmFqMnhmVkpyWGZoS25Dam1uYjkxeHRjVDVMQmdqalVQYmpid2tjZ1JDLWdUM1FfYzc3cjRnU1VWdEI2WjRJMTZybmYxVEZESl91MTR1aEJCZnE2QzNiMXp6S1VWSFJnZWRhUVlTLTY2a1A0bDZsMnJ4dHNFem0yZm9IY1JmMkRzLTFOSl9vcGR4aVh0bklEUVU3eC1xR2VZd3VPYk9WWVNJMmR2WVE2Mmk5NDNqd1BqcEFrXzJ3SXZKbmx4TA?oc=5",
+      "time": "21.11.2026 23:35",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Berkshire Hathaway: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
+      "source": "Reuters"
+    },
+    {
+      "company": "NVIDIA",
       "title": "Nvidia faces US accounting probe amid deepening turmoil: media",
       "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-faces-us-accounting-probe-215354861.html",
       "time": "21.11.2026 22:53",
@@ -15859,15 +15886,6 @@
       "source": "ad-hoc-news.de"
     },
     {
-      "company": "NVIDIA",
-      "title": "AI Selloff Has Opened New Ways To Play Semiconductor Short Exposure",
-      "url": "https://finance.yahoo.com/technology/ai/articles/ai-selloff-opened-ways-play-211024484.html",
-      "time": "21.11.2026 22:10",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie NVIDIA: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
-      "source": "Simply Wall St."
-    },
-    {
       "company": "Microsoft",
       "title": "Microsoft outage: Does Microsoft owe you money? What to know.",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBKOUVfMTNXLTFIX21qMU05N3ZzdDV5bi05bnBvc190ZUpiR0RhWWEwSUtaZVpiMEhDVzVfUXFGTDl3NVpNTHNTM3dvYzI3QWJOS2RYNzljLWdJZzI3SnBtamFqUW40b21qdE1kN1RKUFhidw?oc=5",
@@ -15877,15 +15895,6 @@
       "source": "Mashable"
     },
     {
-      "company": "Berkshire Hathaway",
-      "title": "Greg Abel Increases Berkshire Buybacks to $9.6 Billion",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMmR5VmZSdlZzUkR4UjlETmdWbnFDQUhBc1BNUnJiSnFvUkFVYjA5VHR4UmhHV1ZOeldiQ1dLVGVabXo2RXZyVFRoRU5UQUI2anZqN1BqVmt6QzZwb2U2V0dqNXllM2RhX05Fd0dDVEo0ZTNpWkdZdXRsQlduMkczY1pnbkJPeFRGSVB3YnA5TkZONlQ3UWdCTmVsemlMT1hvY0tN?oc=5",
-      "time": "21.11.2026 19:53",
-      "direction": "up",
-      "impact": "Může vést k nárůstu ceny akcie Berkshire Hathaway: zpětný odkup akcií nebo vyšší dividenda zvyšují hodnotu pro akcionáře.",
-      "source": "JournalArta"
-    },
-    {
       "company": "Microsoft",
       "title": "Meta Stopped Its Buybacks To Build AI. How Much More Can It Spend?",
       "url": "https://www.trefis.com/stock/meta/articles/627455/meta-stopped-its-buybacks-to-build-ai-how-much-more-can-it-spend/2026-11-21",
@@ -15893,15 +15902,6 @@
       "direction": "up",
       "impact": "Může vést k nárůstu ceny akcie Microsoft: zpětný odkup akcií nebo vyšší dividenda zvyšují hodnotu pro akcionáře.",
       "source": "Trefis"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "3 AI Chip Stocks Retail Investors Are Watching After The Nvidia Selloff",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOejlycTNOTWVaLXBObmZzQ29NbHBmT0ZMMDhJUVB1Tm85VXhCRjRKRWdpUHlYM2Mxc0xPZHZacEt2a05BUEFLaHM1c3FqU3doWVN6anJJOW84QjVleU1aRGNzV2RKM0k2R2tvY1JUTk9kbWh0VEdrYzg4YS1nWEZGUTQ4WEV3NlU2T3NxQVdFWjg?oc=5",
-      "time": "21.11.2026 19:08",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie NVIDIA: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
-      "source": "Yahoo Finance"
     },
     {
       "company": "Microsoft",
@@ -16048,13 +16048,13 @@
       "source": "MarketBeat"
     },
     {
-      "company": "TSMC",
-      "title": "Semiconductor Sell-Off: TSMC and Applied Materials Look Like AI Chip Bargains",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQcDZqWFkwa2x5NTZWdmItTFlIUjFYbGJoYVhiajhPdEhiOFRDQU1uYmlNblJGWTRncVdWVEdRUmJQVW5wWTkzczlYRTd4QnhEUjJzcmdZUHl4QS1ONUV6QWJFME9tdDZQbi1PUXJhZUhXcFctUHhqVUwyMkRmeTZmbFB1dWFkR1dKX05VU3VNWEZfbjh3MzlkRVhtOGo2dE5lMDlPdmFn?oc=5",
-      "time": "21.11.2026 09:34",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie TSMC: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
-      "source": "SSBCrack"
+      "company": "Tesla",
+      "title": "Advisors Asset Management Inc. Acquires 50,707 Shares of Tesla, Inc. $TSLA",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPNzFNUXEyTlZJMTBVbEY3ZEVnblg2UGJSX0pGQ2pMUUhhd1Q0RzR6bDhpQjFBZUdPN3dlTVFESjhTZjhJMURPckl5NEVDLWczWWNaVnJmVUVOcXgwemRkZnpDX1hUb2dGN1BqenlMbkFOaUpfWGU5blZxNVpWNXRleXZQTktlUjJSTGV6dmxEbEFpajNmMlhmR2w2Sjg3UThuR2x4MjA5X3JVTTI5NWtxbGpkWWVSQTlmdkdrSEpCbk1DLTNnVXhJZkFR?oc=5",
+      "time": "21.11.2026 09:15",
+      "direction": "mixed",
+      "impact": "Dopad na cenu akcie Tesla je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
+      "source": "MarketBeat"
     }
   ]
 }
