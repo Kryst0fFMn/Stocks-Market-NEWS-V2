@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T17:25:50.618418+00:00",
+  "updated_at": "2026-11-21T19:07:57.999889+00:00",
   "stocks": [
     {
       "name": "Microsoft",
@@ -10012,6 +10012,51 @@
   ],
   "news": [
     {
+      "company": "NVIDIA",
+      "title": "Exclusive | SEC Is Probing Nvidia Amid Departure of CEO Jensen Huang",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQbjl2b0tzT1ROT2plV1p5RHhQd3hXOEJKRFhOZ1ItZExOQV9oVGkzTU9tcEEyTXhjNHRKQVExRTNRdEtlY24zUFhmS0h0c21FUVVrVVh0NGF2SXFmdm1wcmVRLUlCcG5CMGRIZklSdVBkVElkS3lwRF9LaGg4YzU5b0dsZXlveWxSNzhGYzJlZmRSRkhvUWZRTHB3?oc=5",
+      "time": "21.11.2026 20:05",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie NVIDIA: odchod klíčového manažera zvyšuje nejistotu o dalším směřování firmy.",
+      "source": "WSJ"
+    },
+    {
+      "company": "Microsoft",
+      "title": "Meta Stopped Its Buybacks To Build AI. How Much More Can It Spend?",
+      "url": "https://www.trefis.com/stock/meta/articles/627455/meta-stopped-its-buybacks-to-build-ai-how-much-more-can-it-spend/2026-11-21",
+      "time": "21.11.2026 19:32",
+      "direction": "up",
+      "impact": "Může vést k nárůstu ceny akcie Microsoft: zpětný odkup akcií nebo vyšší dividenda zvyšují hodnotu pro akcionáře.",
+      "source": "Trefis"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "3 AI Chip Stocks Retail Investors Are Watching After The Nvidia Selloff",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOejlycTNOTWVaLXBObmZzQ29NbHBmT0ZMMDhJUVB1Tm85VXhCRjRKRWdpUHlYM2Mxc0xPZHZacEt2a05BUEFLaHM1c3FqU3doWVN6anJJOW84QjVleU1aRGNzV2RKM0k2R2tvY1JUTk9kbWh0VEdrYzg4YS1nWEZGUTQ4WEV3NlU2T3NxQVdFWjg?oc=5",
+      "time": "21.11.2026 19:08",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie NVIDIA: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
+      "source": "Yahoo Finance"
+    },
+    {
+      "company": "Amazon",
+      "title": "Amazon nears Decart acquisition to strengthen AI computing push",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNdU9QNTZndy03RUFDaG5CMzVfVWtERmczcTBQZWFBWjZkOUhzSkc0YWVWcHpXeEpRdzlGUHVTa3VoejZGWmE4ZTd5MG43RnI1eUxGdFJaSzhvelhuLU1lWDhzaWJoNUhrcjd4Y3JMNk9iZld6eC1Uck1DczRYSk5jZlZibVRlOGZJMnNVTkljYVZFUQ?oc=5",
+      "time": "21.11.2026 18:54",
+      "direction": "mixed",
+      "impact": "Dopad na cenu akcie Amazon je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
+      "source": "Traders Union"
+    },
+    {
+      "company": "Microsoft",
+      "title": "Microsoft’s final Outlook outage report details testing gaps and safeguards that backfired",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUzVEMnFIMDdJN1RyQl9kaVpBTHBVdnVKZlFaVmV4blRXNWRBNW9FS1dETkF2Q243b3NxR2U0c0FiVXd0Qm9wLXpab1dBQnRVSlNiZzJOMEhYRGlPbklPSWZmNTlLMmZ5RUg4VVRsWG1saW9XZ0FOLWlCaFdHTGdiZ1VDeGtWZGxYaWI4T2xtenpwUzRyU051Y3BCTG1haDd4aHVVQ1Zlc0EyYnNtNVhyQzhvdDdWU3lvbjR2NQ?oc=5",
+      "time": "21.11.2026 18:31",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
+      "source": "GeekWire"
+    },
+    {
       "company": "Microsoft",
       "title": "Microsoft, Chase, FAA outages: Why did so many systems fail in one week?",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNLXNXTEhENzVtY0dyX1ZiV3JQbmw4REVzcXdQMFY2aUYtVFR1TGhOUnNsLWpib0pBdE9LcnpjYmY5TU9xM1JVTndDZE90aVctdko3WFlFdzg5MUhXR1FGN095Zk9JWXN0TVdNdWVfZ3Y5QTBnS1luZ1JQZUd1YTFCZExORXZTQ1ZFelQ5bTJZTWFvTk9UYWtMV3pwWFRtQjZQbW5CMkVXaUtMX2Y4TTJ5UWdjRWRLbE8y?oc=5",
@@ -10021,13 +10066,13 @@
       "source": "Click2Houston"
     },
     {
-      "company": "Microsoft",
-      "title": "Microsoft 365 Outage Raises Cloud Reliability Concerns",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRjBQREZDTE9NQUdSLUMxRzg3b2gxUTNUVVRSZU96SFNwN1R0V0JBbldrdWZUSUx3a2k0b0hDRm9Rc3dXYnVXWEVWRU5RbGVTdjdEWVdEd1JkbzlYOU5JaVYxUnY2RXRXZHdXVVozaVVKM1kta2x6Z1FvS2wwajAzZG1xR0RvdEFtUURKSg?oc=5",
-      "time": "21.11.2026 17:38",
+      "company": "NVIDIA",
+      "title": "Nvidia stock plunges as CEO Jensen Huang resigns: How low it might go",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNaTZUVEo5RE5qQ3Y5Ry1UOEk5NlNmaUhSUGE2SUFhbFBnSmFOeTAwTzFSTEpaVnEyZkFvbGxOdVMxMmlEQW44Z1dJRTNEQm9faFJXR3FpVC1vZXJZSTZJWUN4YTRaTGxiRlAyenlKOEJBa1U1Yi1KZWxjdW1kbDl0eVRWZGtETldGMjJQN1MzZkJQYXM?oc=5",
+      "time": "21.11.2026 17:19",
       "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
-      "source": "varindia"
+      "impact": "Může vést k poklesu ceny akcie NVIDIA: odchod klíčového manažera zvyšuje nejistotu o dalším směřování firmy.",
+      "source": "Mashable"
     },
     {
       "company": "Amazon",
@@ -10048,31 +10093,13 @@
       "source": "Quantisnow"
     },
     {
-      "company": "NVIDIA",
-      "title": "What Jensen Huang’s allies say they've told him since his resignation: 'Let's fight'",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxORnU4MHkxSU5DSkRlWkdZbGJaQXppeUJwckVueDN2V3A4bjFkaW5KMzhFSm42dmRPTkZqWVE1WnRIWjJwcU94TjMtNDJIWDRYTENIMVU1ZDhFbnVXWXdITjEyMjZuMlJXb2tnQlNKbWdPcjYzelN4R0RMWkIyWTJhX3p2VlJPR1JwTXhYSTFqUQ?oc=5",
-      "time": "21.11.2026 16:31",
+      "company": "Toyota",
+      "title": "Toyota Recalls 314,029 Vehicles in US Over Takata Airbag Risk: Check Affected Lexus and Toyota Models",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPNUZTcWRfbWs5N2RQYlcwMldJWnI3bVh0a2VaRnRsbHNCSXVVZ3h3bERvOU1PeWIxUmt2eENGMzhXWVdpNTBHbU5GRXp5bzM3MkxWdjBhNGJDemtTVGlGanR6elltQnJMSkQ5d3BNR0p0UjlnZHZLdWVoaXdGb1cybVRoN3pHWmFtUEJEaFBucV9DM0FMSjZyMVBtcV9ySE5TWm9meTBzNHNoMFhwcDdKaEdXYXI5bWx0VTVXMmxkU0JGc3pLbHJJMS1GemY?oc=5",
+      "time": "21.11.2026 15:52",
       "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie NVIDIA: odchod klíčového manažera zvyšuje nejistotu o dalším směřování firmy.",
-      "source": "Business Insider"
-    },
-    {
-      "company": "Microsoft",
-      "title": "Microsoft outage cause revealed: It was a perfect storm of problems",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5aOXNncW9QdWVtZ3RXTHF5VnFncFJTcXptUWtGX0V6azdmcXZVQjBienJMdzJydEdseXhVZHZRcExPbS0xUXlCcXhyX2RDOUZOd0h3bEhwU1hiNF9hc0FNdTZLSkJGUVpz?oc=5",
-      "time": "21.11.2026 16:09",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
-      "source": "Mashable"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "Nvidia shares plunge as Anthropic can't stop the AI selloff",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9lT3pUcFhra290UDVtQVlwcVBjeDdBX1NLX1lPMGVjM3lPRHZDZk04eHI3cDk1STFLejBDODdHZWYtVFJzRnd3Q2ZDLW5EdjN1RTZzT3ZLblNoa004bmN6bjRSWXF4Y0RoQWs1UGR4UThYR004a1hWcw?oc=5",
-      "time": "21.11.2026 15:46",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie NVIDIA: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
-      "source": "Axios"
+      "impact": "Může vést k poklesu ceny akcie Toyota: stažení výrobků nebo zastavení výroby znamená ztrátu tržeb a další náklady.",
+      "source": "Speaks Media"
     },
     {
       "company": "Amazon",
@@ -10082,24 +10109,6 @@
       "direction": "down",
       "impact": "Může vést k poklesu ceny akcie Amazon: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
       "source": "24/7 Wall St."
-    },
-    {
-      "company": "Amazon",
-      "title": "AWS got hit by an outage too. Here's why you didn't hear about it",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNbXlBSFZUSWo1TVBlTTlRaTBPUFhGVU42RWJpY0YySlhpSG44emVVZTc1QnR1Z3oxVzN0NE5RSkJsUjdMNTFDaXBKQzUxRFJkNmU4bUUwSUJNTjdJOVh2cG9QLS1qQ2s2UzgwN25ldjZpYzQ5cXl1ZmUwMkNtTmxnR01INk1oZExFWlEzVHNUaVdhTDdZTXBSSTEwS0lpdklEWmFWYTZzcUVrNDZ0b0VxWC1McUV2UUhxOXN4OQ?oc=5",
-      "time": "21.11.2026 15:35",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Amazon: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
-      "source": "The Register"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "Will Nvidia stock go back up? Why NVDA plunged to $125.53 and what could spark a recovery",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPQ3NTem03UXhsODZpZlhwSkJ0VmFGNVk0eTBYQ19mOFZxQkFfQXhWSWZ3cF9EbU04NTF0cWFpTklCSnI0SUZ0TlRuSnQ3NnFMNmdVNm1BbUx2TlB1Mm9LT0tiaDBDa2p5VW1nYVhxbldCdWVmVGk5TUtZSXlqUkM1VmtSVWpwenAzS0RJcEZpem5DaVNyU2EwUHk1eUFMZWs0OEdUZ3A4R2FwUVpoa3B2bnl3elpubXlSOHVCbXRrS3dzVXNYZ2xGbWJvQUlmZ9IB0wFBVV95cUxNYmFMbERVWXIyTXlLUnNWTU5URmxjQ0xZVVlpenQ3X0ViN0pWeXI0NXpXWVpfNWJyNmJuMGF6RnFSWFlYdDhmX0t6dG5aZFBOLVFJbnRkSVVzaldGdHlJeXBGWWpsaDRnR25BZUV0cmdRZ0RJelZ3RGFHZVhzaFkxRTNUQVk4amRMNU13ZlIzTFZoejFaVjR3RGpaTVd2ck5QNEFpMllrNlo1SFl5Z0NxY0xyQVlpcmdubXNfTlpCbXl6UHVOUGFzSTRmdjdSSzg4U3VN?oc=5",
-      "time": "21.11.2026 15:34",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie NVIDIA: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
-      "source": "Clarin.com"
     },
     {
       "company": "Berkshire Hathaway",
@@ -10199,15 +10208,6 @@
       "direction": "up",
       "impact": "Může vést k nárůstu ceny akcie ASML: analytici zlepšují hodnocení, což často přitáhne nové kupce.",
       "source": "TradingView"
-    },
-    {
-      "company": "Apple",
-      "title": "Startup sues Apple in India over tap-to-share contacts feature",
-      "url": "https://finance.yahoo.com/technology/articles/startup-sues-apple-india-over-040000799.html",
-      "time": "21.11.2026 05:00",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Apple: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
-      "source": "TechCrunch"
     },
     {
       "company": "Toyota",
