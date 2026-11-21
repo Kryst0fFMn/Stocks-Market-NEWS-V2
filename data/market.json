@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T02:34:57.886056+00:00",
+  "updated_at": "2026-11-21T04:11:06.468600+00:00",
   "stocks": [
     {
       "name": "Microsoft",
@@ -10008,6 +10008,24 @@
   ],
   "news": [
     {
+      "company": "Microsoft",
+      "title": "Microsoft outage hits South African businesses, government services and universities",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPendFUktGazBkcURFNFpQUjZEWnVwWWNNb1MwVkxjSFdpejVTOW13VExocHpTaTVRSmRaMnlkLTFDUzNzb2kxNm5oZUlRR185V2laWU5fYVFRbURRdExXUFVfVFBSSHRpYXBqb1NGVTVuMjlfSWRUZmx1U0hseEk0MGRrV0ZIWVU1MER2bVNOSWM2YUJhaVMtdUctdklJU20yQkRpZVIzb19OSDNqVE9uU3Vyb0JpbkcwMzZZdnJYaw?oc=5",
+      "time": "21.11.2026 04:20",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
+      "source": "IOL"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Nvidia shares plunge as Anthropic can't stop the AI selloff",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9lT3pUcFhra290UDVtQVlwcVBjeDdBX1NLX1lPMGVjM3lPRHZDZk04eHI3cDk1STFLejBDODdHZWYtVFJzRnd3Q2ZDLW5EdjN1RTZzT3ZLblNoa004bmN6bjRSWXF4Y0RoQWs1UGR4UThYR004a1hWcw?oc=5",
+      "time": "21.11.2026 02:58",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie NVIDIA: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
+      "source": "Axios"
+    },
+    {
       "company": "ASML",
       "title": "ASML Slides as AI Trade Unwinds — and a Buyback Rolls On Beneath the Noise",
       "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOZUQxc3JFZGN5RmZHLVFwNTVMWUFzZnFaTFFpdXB2N3NRVUNaczF2dU9aYm9ST0pWLW1OMmp5QzNseEdTUElhT2Jic1lWZUxqVTc1dW42SlBMYllIbG5KZGxwUFd3S01YaGtzYVlXb1lfakc1RmVVbkVGRjNaVkM1eFQyRFJoVzU4M2pLVnRRUWFNRUY4MDZVU0dSczUyT0RWY2o2QWFwVk5XSFdjbEwyTjlrajBNUmhzWlNRZ0lzNmhSTnczUTQwc01xNU95dE90ZjZpUDRNMUJhQW5u?oc=5",
@@ -10053,15 +10071,6 @@
       "source": "Nacionale"
     },
     {
-      "company": "Microsoft",
-      "title": "Microsoft outage cause revealed: It was a perfect storm of problems",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5aOXNncW9QdWVtZ3RXTHF5VnFncFJTcXptUWtGX0V6azdmcXZVQjBienJMdzJydEdseXhVZHZRcExPbS0xUXlCcXhyX2RDOUZOd0h3bEhwU1hiNF9hc0FNdTZLSkJGUVpz?oc=5",
-      "time": "21.11.2026 00:34",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
-      "source": "Mashable"
-    },
-    {
       "company": "Tesla",
       "title": "Tesla-SpaceX Merger: Potential Gains and Risks for Investors",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5uUjdudkNXUGpEVE1jU2pISm9FZ1hzZXlpWFpzM0JWTG9JTW9lbXlXX0xPbXRMVjFFWk82bTRjQmNNUWdrRzJIck10Z0N2Nmc1djJlNUZjTHJxWGg1NXlwRGdB?oc=5",
@@ -10087,15 +10096,6 @@
       "direction": "down",
       "impact": "Může vést k poklesu ceny akcie Alphabet: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
       "source": "Motley Fool"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "Nvidia shares plunge as Anthropic can't stop the AI selloff",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9lT3pUcFhra290UDVtQVlwcVBjeDdBX1NLX1lPMGVjM3lPRHZDZk04eHI3cDk1STFLejBDODdHZWYtVFJzRnd3Q2ZDLW5EdjN1RTZzT3ZLblNoa004bmN6bjRSWXF4Y0RoQWs1UGR4UThYR004a1hWcw?oc=5",
-      "time": "20.11.2026 23:32",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie NVIDIA: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
-      "source": "Axios"
     },
     {
       "company": "Amazon",
@@ -10153,12 +10153,12 @@
     },
     {
       "company": "NVIDIA",
-      "title": "Nvidia’s Stock Slide Deepens After Report of SEC Accounting Probe",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5INVNuU2E4Z3Bsa0FYa0RqbHNYM3ZlS1lZV3BlODA2Q2F2ejlxMllHQnl2YzhmMm5IeW5RdU9tUzhGUUdlVTJtMUozbkJYZGZOMFpnMmRaWWxpRDY0OVF3a1JiTVBrZmNWMkJsTVotRERzWUZvQVNV?oc=5",
-      "time": "20.11.2026 22:43",
+      "title": "Stock Market Today, Nov. 20: Nvidia's $2.5 Trillion Rout Deepens as SEC Accounting Probe Adds to Wall Street's AI Sell-Off",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbVFiSFQyZkVZQnhMSWJEMkliQ1Jrb1RiYXBSbTlId0kybU5KbW1XOGpuRDdXSE9wZGFOTWo2QzJZV2pIWXVlVG9Xd3pZek5Wd09sTGFDMHgxdGFzNkNtOVM4bDNNdTZsZUF3d2otZnhaaFRqbm5JWWZPRlBzVnZudllNVWpSUVdHOWFLVUdjaG41SzJa?oc=5",
+      "time": "20.11.2026 22:55",
       "direction": "down",
       "impact": "Může vést k poklesu ceny akcie NVIDIA: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
-      "source": "Barron's"
+      "source": "Yahoo Finance"
     },
     {
       "company": "SpaceX",
