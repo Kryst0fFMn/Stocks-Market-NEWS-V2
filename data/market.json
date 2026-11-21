@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T11:28:42.604786+00:00",
+  "updated_at": "2026-11-21T12:29:53.644999+00:00",
   "stocks": [
     {
       "name": "Microsoft",
@@ -10012,6 +10012,33 @@
   ],
   "news": [
     {
+      "company": "NVIDIA",
+      "title": "Nvidia Just Issued a Major Warning to AMD and Intel Stock Investors",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPYXR6MHVQSTdRTnNSeTQweDY5dVFCYldKR19PYmFoS0N1R1NLa1FUN045WWRud28tVGRMY3dEZGwxd2M2akNnMkk0d2x1MVZiRmt0ODh1YmxvNXJjTG5Ya2JTTHZlYnM1WmlFMmJrTEMtQmxvMVBxNkw3M3F3dTRCbWhkdzZMYzJWaUc3c1ZpajhzcXVpMHhIb3VPU3BDVzlmUWU4U0J6YjJfc0JubnhDUG9kUHlKZmJjOEowMFd2SnE2TGxidjZKLTNnYlJ5Z1hZakFSc1VBcGs1eDBrbk5QdlFhYnlrcWtta1E?oc=5",
+      "time": "21.11.2026 13:17",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie NVIDIA: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
+      "source": "The Globe and Mail"
+    },
+    {
+      "company": "Berkshire Hathaway",
+      "title": "Greg Abel Just Approved a Record $9.6 Billion in Stock Buybacks for Berkshire Hathaway Last Quarter, More Than Double the Pace Set in the Second Quarter. Is Berkshire Still a Buy as Shares Sit Near All-Time Highs?",
+      "url": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxPVUtsOWFTb09lRFJVdlFCTXRLWG9maGNrNFVsTTlhdGNjT0FIaWtCNGhDUElGY3FOSHVWNHJRd0dlZ2FGbk10Q0E4eGt4eV9IdEpHNkdacDdYbURIaXVIWW9TcFVOSmFWSzV5VWJ6aXctNTQxNHpyUkppYWZVdHNNTjdlT0NCRTZpX2tjYV9YcTNwS0RTS1NBekFQT2lsQXBZM2twUmt6MG5NOUZrcHZRcVIxdXgwejBoQkducWFQR0pacXJIUzlfY2JGeHpDQm55a09YQTUxc3NwNGJXOWppRzlaSGVpc2hsT3hGdlRvRWhaNlRheXpadERmdUVMUDR4QmpFWkN4MUtVQUQ0RkJPVnNLMVhVNklhbFFkOVFlVFhGMFhCLUFOVTlldlJoNld5NzcwWGhUVFlSWDBCUHpHOF92Z3hnc0Y2NmxQbXAtYkhVUjBTSGxRS1plU08?oc=5",
+      "time": "21.11.2026 13:15",
+      "direction": "up",
+      "impact": "Může vést k nárůstu ceny akcie Berkshire Hathaway: zpětný odkup akcií nebo vyšší dividenda zvyšují hodnotu pro akcionáře.",
+      "source": "The Motley Fool"
+    },
+    {
+      "company": "Tesla",
+      "title": "Tesla (TSLA) Could Be 42% Undervalued Following SpaceX Merger Talk",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMVkzc1B1WDZoQno3b0l0QU8xZ3F3WnpxNXpHU1o0cmZEdnNUcWx3S3UzSnNpZGdhZHM0ckRYVmtkTnBPWEZKX1pET2ppcXphSmQ5QVZwUGlWcE1YX3ZxcnZwekU1NjhWNmxkOTBCeDRWTDY5VTRZdEltWnkteEUxRkg3UGwzR1FCREdUMGZLbVpUcTVYUVh3QXBROTJ6UTNURG1ueGpLbjRMRFl6bTEyQWFVbzdKODRtc1A3Rjc1NXQ4MkdNb2fSAcsBQVVfeXFMTlgzQU5yNTJEWFVpWDlvdUp5d1JPUncweWdMUWo1OWNYaTZyTHpUY284Sll6Zjh4R0pOSUw1S2g4TWZCeUljNEttOVotOFhtNFlsdVFwUld5YmZqajhVT1FXVlZYNWRmVTZoUE1feHY0QzFEcFZJUTBDQk9CMG9ZblhLTXRhZXRRbFp3bmZyX2VBVmc2cjdJWlc0Ymt3S1VLMEQtNWl6ajF0X3lTaGFPVWw1ZkZJR2Q5RmNkc0xtc0U3SjZXcFpUanBsd0k?oc=5",
+      "time": "21.11.2026 13:11",
+      "direction": "mixed",
+      "impact": "Dopad na cenu akcie Tesla je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
+      "source": "Simply Wall St"
+    },
+    {
       "company": "ASML",
       "title": "ASML Holding stock: Bernstein keeps Buy rating, EUR 2,500 target",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxORnpyX0dLcTlCdUNGcmdnaGkwdFUwQ09JdjJGZ0VGbk83c2ZkQ3BZTFNVcHhvWWJ5dlVWNHg1ZWlmUHR1eWRPenBGSXdZTU5Od0RiZ2lYa1pGTXFPa0Z6c1N4Um8yR0xSVFBTOEFRWmt5T1RCT3Fjbm54VVpVZ0F3cFJfZWluZXBGMl9YczdCRlRiUkhvVFFKYXpISG00djNQckFDSUZoRnBhR2k2T0FGVWI2NVNvV1FVVVlhZWNraF9mbFE?oc=5",
@@ -10030,15 +10057,6 @@
       "source": "Beinsure"
     },
     {
-      "company": "JPMorgan",
-      "title": "Amrize stock: JPMorgan cuts price target to 46 US dollars",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONkJCLTZkN0RjVGZ5UngwT0JtQTJCZXZyWmJtOGh4Zko3TC1ZOFB6ZWp4LXNCVWtSek9Ua1djblFpaW9sdFFWVFhPT0cxNlgxUjRaZUVEQ2t3eHdvVjhtMlBWeEtveHN6OW1LSjFUTUc2MWFNa0p4SzFiSHZtOWJjak9kd0R6bkNOMC1OX3BtakE2VTVILVNMazI3WFJLTnYwUERZX0xYNnhKWDFxMlNDdHRpUlJJcmdQQktN?oc=5",
-      "time": "21.11.2026 11:22",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie JPMorgan: analytici zhoršují hodnocení, což může zvýšit prodejní tlak.",
-      "source": "ad-hoc-news.de"
-    },
-    {
       "company": "Meta",
       "title": "Edgestream Partners L.P. Acquires New Shares in Meta Platforms, Inc. $META",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOQWNxZlpkYU9Hem9jaHhKdy13Y0gwNDJXRXVmSVc2N0U4NU81d1l4R21kWWZCQ21YZjB5Mk54bzIzd2VtdFFZRDE5M0Z3OG04VFdZSHJhX3FWOWVZRTJIYVFydE5MZng2LXFnQWNMVWpMTUdXNFp0YTFOd2lJc3NibExYdkxNYXNZREYtT1ZDMzl3U0I3SS1wMFM0SkxvY19YMzQ4ZzJPR2xrOUdubkNvRnRyVGVZcC1iR1lNaWttS0ZkYnY3MWdPVlVB?oc=5",
@@ -10049,30 +10067,12 @@
     },
     {
       "company": "Meta",
-      "title": "Meta Platforms stock plan paused as shareholder lawsuit advances",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOWnJsYkotdTd4Z0N6OEt6TUZmNUZGY1pQWXMwLXBES0dqX2tXN1FXbGZ2OVh1bnF0cUxjRDRKaVFwWGxlZFUxdEdCTk0wRnVDczhua19uakFkZTJWWEpTUm4zMV81UVk3MXBNSFBPSTBFaUNfb1daRHdNVHdTR24yN1pkdUNNYkhSaDQ5ZnBDRDZnY3pRdTRiTGFrb1dWb3FVYXJTTnJHVW80b1FRS2NobG1pQVNhbFFweUhQSEk5a2pCaXRKbHc?oc=5",
-      "time": "21.11.2026 11:03",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Meta: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
-      "source": "ad-hoc-news.de"
-    },
-    {
-      "company": "Meta",
       "title": "First Eagle Investment Management LLC Acquires 14,058 Shares of Meta Platforms, Inc. $META",
       "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPZlFXLUFrNjAzNDVINmhreXhOSUppcTZvdXJ1TnlfZWx0YnM0dFMyRERLSEY4QU5udlJIaE8yNUwyUFVwMlF4SkVvX3FpU1ljejF6d3d4M0RIMUFCTTVLMjAxeTNxdnRQZXNvNmVIcF9NRHZLTGk5QlZWMm80SUk2SjkxOGZMRFlWT3JZYzhLUmlfc0Ezd05vUzBUeXJwUHZNaHB2UVZRRmk5VDdha1dtZWhtbGQxazQ0VmhnQXNZV19PdU8taGU0ZzhDclZyVG1rd0NZNjdGeEpNXzFPQkp2WA?oc=5",
       "time": "21.11.2026 10:56",
       "direction": "mixed",
       "impact": "Dopad na cenu akcie Meta je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
       "source": "MarketBeat"
-    },
-    {
-      "company": "Microsoft",
-      "title": "Microsoft outage: Does Microsoft owe you money? What to know.",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBKOUVfMTNXLTFIX21qMU05N3ZzdDV5bi05bnBvc190ZUpiR0RhWWEwSUtaZVpiMEhDVzVfUXFGTDl3NVpNTHNTM3dvYzI3QWJOS2RYNzljLWdJZzI3SnBtamFqUW40b21qdE1kN1RKUFhidw?oc=5",
-      "time": "21.11.2026 10:02",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
-      "source": "Mashable"
     },
     {
       "company": "NVIDIA",
@@ -10117,15 +10117,6 @@
       "time": "21.11.2026 08:32",
       "direction": "down",
       "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
-      "source": "Mashable"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "Nvidia stock plunges as CEO Jensen Huang resigns: How low it might go",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNaTZUVEo5RE5qQ3Y5Ry1UOEk5NlNmaUhSUGE2SUFhbFBnSmFOeTAwTzFSTEpaVnEyZkFvbGxOdVMxMmlEQW44Z1dJRTNEQm9faFJXR3FpVC1vZXJZSTZJWUN4YTRaTGxiRlAyenlKOEJBa1U1Yi1KZWxjdW1kbDl0eVRWZGtETldGMjJQN1MzZkJQYXM?oc=5",
-      "time": "21.11.2026 08:00",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie NVIDIA: odchod klíčového manažera zvyšuje nejistotu o dalším směřování firmy.",
       "source": "Mashable"
     },
     {
@@ -10201,6 +10192,15 @@
       "source": "ad-hoc-news.de"
     },
     {
+      "company": "Microsoft",
+      "title": "The Outage Flu of 2026: Why is everything breaking at once?",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxONDhMcmhYVFVlYWFVQzJMVFNKWTNUSE5mQlU3d0MtU0FQeEJFNXE2U0N2VnNWYWVpVVE2eUREQUMtbTQyclhsTVpscmRrWkF6QlNUd2VxYkVJUkZReDFGQkNQYVl3YnVkRXE5SkpmOGJLZ0prZ1ZzQXJkZnE1WHYwYldvQ29saWhlNW14LW1HUnhQT01nUUFOaUQzSElkZw?oc=5",
+      "time": "21.11.2026 02:36",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
+      "source": "CityNews Toronto"
+    },
+    {
       "company": "TSMC",
       "title": "Taiwan Semiconductor (TSM) Dropped 9.48% to $318.71 — Navigating the Chip Sector Sell-Off Without Panic",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQcW9VanQ0MlV1NzU3Q1h2ZEtVM1dhVnhQcWM4MXQwdmRkbVpaLVJaejFzVUZNck5tcmJFbDMzYTBzTDAzOTFrbW5pVkhNUk10c0M2STVUbi1nck1iOXMwSmc1OHRjT2VjRWlnRmN1T0ZoSDgyZVp2Z1hZcjVFVzRsWk9GTlF4YUdGbnplWElpWmlPZHdyU2lUamd2cTV5M0RqLUktSDlOZVZnbnQyVHIxclpn?oc=5",
@@ -10210,13 +10210,13 @@
       "source": "Moomoo"
     },
     {
-      "company": "Tesla",
-      "title": "Why Is Tesla (NASDAQ:TSLA) Stock Crashing? Shares Fall 7.6% Despite HSBC Upgrade and SpaceX Merger Talks",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1vdnotRUhQX2JwU3d3ZzlmRTYyMEV6U1JselhYM29TMnR4WGxRZVZfaGlRcm9OUldtWTd3eklqbHlBZWNwcnl4M2RQSVBSNmU0SVlJek04dGo4OThQTUhha1RQTjRqQWdzWnlBdVMzamF2b1VDZ0kwSnlHdVRaZw?oc=5",
-      "time": "21.11.2026 00:41",
-      "direction": "mixed",
-      "impact": "Dopad na cenu akcie Tesla je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
-      "source": "Stocks Down Under"
+      "company": "Meta",
+      "title": "Why is Meta stock down today? About 6% lower as the AI sell-off and an Apple agent report hit",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOaGZCNXlLOTdxUUFWd2JBOWRNVmlmeFUwd0V2c1cySXdvRk1XNjJvWTJnZnlETDJDdFh0OVI2eXY1VTEyUXVPTkw2NDVKWlY5eTFaM2tYV1JWb0xGbC0yNlZDT0FqNjNsdnZMN1dDOG5ERHA1QkpKQzNkMy0xN2VHOEZXVEVDYlVSN0JxRlJpQjJtYVVab3g0VEtFZDRDdDVVZU5LaW92VHU4RTNoMmJER2N3cXlNOWZ2UVE?oc=5",
+      "time": "21.11.2026 00:50",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Meta: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
+      "source": "Nacionale"
     },
     {
       "company": "SpaceX",
