@@ -342,6 +342,15 @@
     }
     .reset-btn:hover { color: var(--red); border-color: var(--red); }
     .backup-row { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 24px; }
+    .sync-box { padding: 18px; background: var(--panel); border: 1px solid var(--border); border-radius: 14px; }
+    .sync-box .backup-row { margin-top: 14px; }
+    .sync-box .trade-msg { margin-top: 10px; }
+    .sync-text { color: var(--muted); font-size: .85rem; line-height: 1.55; }
+    .sync-code {
+      margin: 12px 0 8px; padding: 10px 14px; display: inline-block;
+      border: 1px dashed var(--accent); border-radius: 10px;
+      color: var(--accent); font-family: var(--mono); letter-spacing: .06em; word-break: break-all; user-select: all;
+    }
     .backup-row .reset-btn { margin-top: 0; }
     .backup-row .backup-btn:hover { color: var(--accent); border-color: var(--accent); }
 
@@ -504,7 +513,11 @@
       <h3 class="rank-h">Historie obchodů</h3>
       <div id="trainHistory"></div>
 
-      <div class="backup-row">
+      <h3 class="rank-h">Synchronizace mezi zařízeními</h3>
+      <div id="syncBox" class="sync-box"></div>
+
+      <h3 class="rank-h">Záloha</h3>
+      <div class="backup-row" style="margin-top: 0;">
         <button id="trainExport" class="reset-btn backup-btn">Stáhnout zálohu</button>
         <button id="trainImport" class="reset-btn backup-btn">Nahrát zálohu</button>
         <button id="trainReset" class="reset-btn">Začít znovu</button>
@@ -1038,7 +1051,7 @@
     const signedPct = value => `${value > 0 ? "+" : ""}${value.toFixed(2).replace(".", ",")} %`;
 
     function freshSim() {
-      return { startCash: START_CASH, cash: START_CASH, positions: {}, trades: [] };
+      return { startCash: START_CASH, cash: START_CASH, positions: {}, trades: [], updatedAt: 0 };
     }
 
     // Ověří a vyčistí data portfolia (z úložiště i ze zálohy). Neplatná data vrátí jako null.
@@ -1075,7 +1088,8 @@
 
       return {
         startCash: Number.isFinite(data.startCash) && data.startCash > 0 ? data.startCash : START_CASH,
-        cash: data.cash, positions, trades
+        cash: data.cash, positions, trades,
+        updatedAt: Number.isFinite(data.updatedAt) ? data.updatedAt : 0
       };
     }
 
@@ -1087,9 +1101,11 @@
       }
     }
 
-    function saveSim(state) {
+    function saveSim(state, keepTime = false) {
+      if (!keepTime) state.updatedAt = Date.now();   // změna z tohoto zařízení
       try {
         localStorage.setItem(SIM_KEY, JSON.stringify(state));
+        if (!keepTime) scheduleSync();
         return true;
       } catch (error) {
         return false;
@@ -1252,6 +1268,216 @@
       reader.readAsText(file);
     }
 
+    // ---- Synchronizace mezi zařízeními (Cloudflare Worker + KV) ----
+    const SYNC_KEY = "marketPulseSync.v1";
+    const CODE_ALPHABET = "abcdefghjkmnpqrstuvwxyz23456789";   // bez zaměnitelných znaků (i, l, o, 0, 1)
+    let syncBusy = false;
+    let syncAgain = false;
+    let syncTimer = null;
+    let showSyncCode = false;
+    let syncInfo = { kind: "", text: "" };
+
+    const normalizeCode = text => String(text || "").toLowerCase().replace(/[^a-z0-9]/g, "");
+    const formatCode = code => (code.match(/.{1,4}/g) || []).join("-");
+
+    function getSyncCode() {
+      try {
+        return normalizeCode((JSON.parse(localStorage.getItem(SYNC_KEY) || "null") || {}).code);
+      } catch (error) {
+        return "";
+      }
+    }
+
+    function setSyncCode(code) {
+      try {
+        if (code) localStorage.setItem(SYNC_KEY, JSON.stringify({ code }));
+        else localStorage.removeItem(SYNC_KEY);
+        return true;
+      } catch (error) {
+        return false;
+      }
+    }
+
+    function newSyncCode() {
+      const bytes = new Uint8Array(24);
+      crypto.getRandomValues(bytes);
+      return Array.from(bytes, byte => CODE_ALPHABET[byte % CODE_ALPHABET.length]).join("");
+    }
+
+    function setSyncInfo(kind, text) {
+      syncInfo = { kind, text };
+      renderSync();
+    }
+
+    async function simRequest(method, body) {
+      const response = await fetch(`${LIVE_URL.replace(/\/$/, "")}/sim`, {
+        method,
+        cache: "no-store",
+        headers: { "X-Sync-Code": getSyncCode(), ...(body ? { "Content-Type": "application/json" } : {}) },
+        body: body ? JSON.stringify(body) : undefined
+      });
+
+      let data = {};
+      try {
+        data = await response.json();
+      } catch (error) {
+        // odpověď bez JSON
+      }
+      return { status: response.status, data };
+    }
+
+    function applyRemote(remote, updatedAt) {
+      const clean = cleanSim(remote);
+      if (!clean) throw new Error("data na serveru mají neplatný formát");
+      clean.updatedAt = updatedAt;
+      saveSim(clean, true);   // nový čas se nenastavuje, jinak by se data hned posílala zpět
+      renderTrainer();
+      if (chartStock) drawChart();
+    }
+
+    function scheduleSync() {
+      if (!LIVE_URL || !getSyncCode()) return;
+      clearTimeout(syncTimer);
+      syncTimer = setTimeout(() => syncNow(), 1500);
+    }
+
+    async function syncNow() {
+      if (!LIVE_URL || !getSyncCode()) return;
+      if (syncBusy) { syncAgain = true; return; }
+
+      syncBusy = true;
+      setSyncInfo("busy", "Synchronizuji…");
+
+      try {
+        const got = await simRequest("GET");
+        if (got.status !== 200) throw new Error(got.data.error || `chyba ${got.status}`);
+
+        const local = loadSim();
+        let note = "";
+
+        if (got.data.found && got.data.updatedAt > local.updatedAt) {
+          applyRemote(got.data.sim, got.data.updatedAt);
+          note = "načteno z jiného zařízení";
+        } else if (local.updatedAt > 0 && (!got.data.found || local.updatedAt > got.data.updatedAt)) {
+          const put = await simRequest("PUT", { sim: local, updatedAt: local.updatedAt });
+          if (put.status === 409) {
+            applyRemote(put.data.sim, put.data.updatedAt);
+            note = "mezitím přišla novější změna z jiného zařízení, načtena";
+          } else if (put.status !== 200) {
+            throw new Error(put.data.error || `chyba ${put.status}`);
+          } else {
+            note = "odesláno";
+          }
+        }
+
+        setSyncInfo("ok", `Synchronizováno ${new Date().toLocaleTimeString("cs-CZ")}${note ? ` (${note})` : ""}`);
+      } catch (error) {
+        setSyncInfo("err", `Synchronizace se nepovedla: ${error.message}. Portfolio zůstává uložené v tomto zařízení.`);
+      } finally {
+        syncBusy = false;
+        if (syncAgain) {
+          syncAgain = false;
+          syncNow();
+        }
+      }
+    }
+
+    async function enableSync() {
+      if (!LIVE_URL) return setSyncInfo("err", "Synchronizace potřebuje Worker (doplň LIVE_URL).");
+      if (!setSyncCode(newSyncCode())) return setSyncInfo("err", "Prohlížeč neumožňuje uložit synchronizační kód.");
+
+      const sim = loadSim();
+      if (!sim.updatedAt) {
+        sim.updatedAt = Date.now();   // čerstvé portfolio dostane čas, aby šlo odeslat
+        saveSim(sim, true);
+      }
+      showSyncCode = true;
+      await syncNow();
+    }
+
+    async function connectDevice() {
+      if (!LIVE_URL) return setSyncInfo("err", "Synchronizace potřebuje Worker (doplň LIVE_URL).");
+
+      const code = normalizeCode(prompt("Zadej synchronizační kód z druhého zařízení:"));
+      if (!code) return;
+      if (code.length < 20) return setSyncInfo("err", "Kód je příliš krátký, zkontroluj ho.");
+
+      const previous = getSyncCode();
+      setSyncCode(code);
+
+      try {
+        const got = await simRequest("GET");
+        if (got.status !== 200) throw new Error(got.data.error || `chyba ${got.status}`);
+        if (!got.data.found) throw new Error("pod tímto kódem nic není, zkontroluj překlepy");
+
+        if (loadSim().trades.length > 0 &&
+            !confirm("V tomto zařízení už jsou obchody. Nahradit je daty ze synchronizace?")) {
+          setSyncCode(previous);
+          return renderSync();
+        }
+
+        applyRemote(got.data.sim, got.data.updatedAt);
+        showSyncCode = false;
+        setSyncInfo("ok", `Zařízení připojeno ${new Date().toLocaleTimeString("cs-CZ")}`);
+      } catch (error) {
+        setSyncCode(previous);
+        setSyncInfo("err", `Připojení se nepovedlo: ${error.message}.`);
+      }
+    }
+
+    function disableSync() {
+      const ok = confirm(
+        "Vypnout synchronizaci na tomto zařízení? Portfolio tu zůstane. Data na serveru se nesmažou, " +
+        "ostatní zařízení se mohou dál připojovat."
+      );
+      if (!ok) return;
+      setSyncCode("");
+      showSyncCode = false;
+      setSyncInfo("", "");
+    }
+
+    function renderSync() {
+      const box = document.getElementById("syncBox");
+      box.replaceChildren();
+
+      if (!LIVE_URL) {
+        box.append(makeElement("div", "sync-text", "Synchronizace potřebuje Cloudflare Worker (doplň LIVE_URL v index.html)."));
+        return;
+      }
+
+      const code = getSyncCode();
+      const button = (label, handler) => {
+        const element = makeElement("button", "reset-btn backup-btn", label);
+        element.addEventListener("click", handler);
+        return element;
+      };
+      const row = makeElement("div", "backup-row");
+
+      if (!code) {
+        box.append(makeElement("div", "sync-text", "Synchronizace je vypnutá, portfolio je jen v tomto zařízení."));
+        row.append(button("Zapnout synchronizaci", enableSync), button("Připojit zařízení kódem", connectDevice));
+      } else {
+        box.append(makeElement("div", "sync-text", "Synchronizace je zapnutá, změny se ukládají na server a načítají z něj."));
+        if (showSyncCode) {
+          box.append(
+            makeElement("div", "sync-code", formatCode(code)),
+            makeElement("div", "sync-text", "Tento kód zadej na druhém zařízení. Je jako heslo: kdo ho zná, vidí a může měnit tvé portfolio.")
+          );
+        }
+        row.append(
+          button(showSyncCode ? "Skrýt kód" : "Zobrazit kód", () => { showSyncCode = !showSyncCode; renderSync(); }),
+          button("Synchronizovat teď", syncNow),
+          button("Vypnout na tomto zařízení", disableSync)
+        );
+      }
+
+      if (syncInfo.text) {
+        const kind = syncInfo.kind === "err" ? "err" : (syncInfo.kind === "ok" ? "ok" : "");
+        box.append(makeElement("div", `trade-msg ${kind}`.trim(), syncInfo.text));
+      }
+      box.append(row);
+    }
+
     function fillTrainSelect() {
       const select = document.getElementById("trainSelect");
       if (select.options.length === allStocks.length) return;
@@ -1283,6 +1509,8 @@
 
     function enterTrainer() {
       renderTrainer();
+      renderSync();
+      syncNow();
       const wanted = document.getElementById("trainSelect").value || (chartStock && chartStock.symbol);
       const stock = allStocks.find(item => item.symbol === wanted) || allStocks[0];
       if (stock) {
@@ -1870,12 +2098,23 @@
     document.getElementById("search").addEventListener("input", renderStocks);
     document.getElementById("marketFilter").addEventListener("change", renderStocks);
 
-    loadData().then(loadLive);
+    loadData().then(loadLive).then(() => {
+      renderSync();
+      syncNow();
+    });
+
+    // synchronizace portfolia každou minutu, když je záložka Trenažér otevřená
+    setInterval(() => {
+      if (!document.hidden && !document.getElementById("trainPanel").classList.contains("hidden")) syncNow();
+    }, 60 * 1000);
 
     // Živé ceny z Workeru každých 30 s (když je záložka vidět)
     setInterval(loadLive, 30 * 1000);
     document.addEventListener("visibilitychange", () => {
-      if (!document.hidden) loadLive();
+      if (!document.hidden) {
+        loadLive();
+        syncNow();
+      }
     });
 
     // Stránka znovu načte JSON každých 5 minut.
