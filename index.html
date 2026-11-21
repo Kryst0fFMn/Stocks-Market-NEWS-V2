@@ -571,7 +571,7 @@
   <script>
     // Adresa tvého Cloudflare Workeru, např. "https://market-pulse.tvojesubdomena.workers.dev"
     // Když je prázdná, stránka používá jen data z GitHubu.
-    const LIVE_URL = "https://market-pulse.krystof-plechaty.workers.dev";
+    const LIVE_URL = "";
 
     let allStocks = [];
     let liveQuotes = {};
@@ -2117,9 +2117,12 @@
       }
     });
 
-    // Stránka znovu načte JSON každých 5 minut.
+    // Stránka znovu načte JSON každé 3 minuty.
     // Samotný JSON se aktualizuje podle rozvrhu GitHub Actions.
-    setInterval(loadData, 5 * 60 * 1000);
+    // (kontroluje se jen když je stránka vidět, kvůli šetření dat a baterie)
+    setInterval(() => {
+      if (!document.hidden) loadData();
+    }, 3 * 60 * 1000);
   </script>
 </body>
 </html>
