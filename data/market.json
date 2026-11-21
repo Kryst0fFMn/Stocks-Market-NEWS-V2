@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T20:35:39.475169+00:00",
+  "updated_at": "2026-11-21T20:45:48.868489+00:00",
   "stocks": [
     {
       "name": "Microsoft",
@@ -15841,7 +15841,7 @@
       "company": "NVIDIA",
       "title": "Exclusive | SEC Is Probing Nvidia Amid Departure of CEO Jensen Huang",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQbjl2b0tzT1ROT2plV1p5RHhQd3hXOEJKRFhOZ1ItZExOQV9oVGkzTU9tcEEyTXhjNHRKQVExRTNRdEtlY24zUFhmS0h0c21FUVVrVVh0NGF2SXFmdm1wcmVRLUlCcG5CMGRIZklSdVBkVElkS3lwRF9LaGg4YzU5b0dsZXlveWxSNzhGYzJlZmRSRkhvUWZRTHB3?oc=5",
-      "time": "21.11.2026 21:33",
+      "time": "21.11.2026 20:31",
       "direction": "down",
       "impact": "Může vést k poklesu ceny akcie NVIDIA: odchod klíčového manažera zvyšuje nejistotu o dalším směřování firmy.",
       "source": "WSJ"
@@ -16027,13 +16027,13 @@
       "source": "MarketBeat"
     },
     {
-      "company": "Tesla",
-      "title": "Advisors Asset Management Inc. Acquires 50,707 Shares of Tesla, Inc. $TSLA",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPNzFNUXEyTlZJMTBVbEY3ZEVnblg2UGJSX0pGQ2pMUUhhd1Q0RzR6bDhpQjFBZUdPN3dlTVFESjhTZjhJMURPckl5NEVDLWczWWNaVnJmVUVOcXgwemRkZnpDX1hUb2dGN1BqenlMbkFOaUpfWGU5blZxNVpWNXRleXZQTktlUjJSTGV6dmxEbEFpajNmMlhmR2w2Sjg3UThuR2x4MjA5X3JVTTI5NWtxbGpkWWVSQTlmdkdrSEpCbk1DLTNnVXhJZkFR?oc=5",
-      "time": "21.11.2026 09:15",
-      "direction": "mixed",
-      "impact": "Dopad na cenu akcie Tesla je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
-      "source": "MarketBeat"
+      "company": "TSMC",
+      "title": "Semiconductor Sell-Off: TSMC and Applied Materials Look Like AI Chip Bargains",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQcDZqWFkwa2x5NTZWdmItTFlIUjFYbGJoYVhiajhPdEhiOFRDQU1uYmlNblJGWTRncVdWVEdRUmJQVW5wWTkzczlYRTd4QnhEUjJzcmdZUHl4QS1ONUV6QWJFME9tdDZQbi1PUXJhZUhXcFctUHhqVUwyMkRmeTZmbFB1dWFkR1dKX05VU3VNWEZfbjh3MzlkRVhtOGo2dE5lMDlPdmFn?oc=5",
+      "time": "21.11.2026 09:34",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie TSMC: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
+      "source": "SSBCrack"
     },
     {
       "company": "AMD",
