@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T23:45:50.593425+00:00",
+  "updated_at": "2026-11-22T00:25:49.788697+00:00",
   "stocks": [
     {
       "name": "Microsoft",
@@ -15842,6 +15842,15 @@
   "news": [
     {
       "company": "Microsoft",
+      "title": "Microsoft outage was largest of 2026, report says",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBLWUhCMk96bVJoQUhfcVdmc0k0UTJtTENtM2hiUDM3djdEbnVtRmlyUmtRQkotNnFxQ0xneFBfX204TmFyLUttZ09iU3ZXSC1UMG5JRDd2eE5yVnlxOXF3Y0ZnVVh5Y3JjRWFYU1Zid0xqOUE?oc=5",
+      "time": "22.11.2026 00:30",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
+      "source": "Mashable"
+    },
+    {
+      "company": "Microsoft",
       "title": "Microsoft blames months-old software glitch for global service outage",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZEMxMEhDOXFWUEhKWm9CZ0ZuNW9BeDZkY011UHZ0Z1VxMHZKaE4yUnFLX0hUeFd4cTZWaGJqcjlMdHpFdU1JRzhnTXV1cU1TekpFeDNJVWVHNkw0VTBqbFZyZnlWLTd6VjI1MmdGVHI5ckZGVjZ3U3hwSXBTR2JPZnZNNWxKN2NvTlVaRVhtcFlWd1ZFUjhGUGlrVW9LRFdIcW8tbGNNdnU1QUlkLUxnXzBpV1RaWlAtLWgwMWJfUlFVVGFP0gHYAUFVX3lxTFB1Z2VKSXBHYXluelZhZFlXYUNEaDg0V293OFotajVwZTRhWWYwSGJkRENjQXNBTmJ0cnppeUJ1cmRITTNqaEVnWlUzYUdfZ1lPdjIzbE04dllld0pZVUZUSzEtRU0telVURDIwVkt4N2dUUHNvcl9QYS1xakhEN2ZTVEdXTzFfTEpLTVJsYmJXRHg0enJtMDBEOUVXbXhORmVLMldYMHNPNDJ0MHlyU2t3SGQxX1pWaXBrUzhhTWJzUkdwWHJWaGdTNmNfOFFmMVB0YURFQVUtdA?oc=5",
       "time": "22.11.2026 00:29",
@@ -15879,11 +15888,11 @@
     {
       "company": "NVIDIA",
       "title": "Nvidia faces US accounting probe amid deepening turmoil: media",
-      "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-faces-us-accounting-probe-215354861.html",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNkpvTmdpdzNUMVVjZEJXbVdIYXlheTM1ZmpMRl9LdkQ1YjV1VXYtNUxGSTlHZWpzLWhfTFVnR2h0b0NMNGlsTWhOYXpYRVYyR0ZkTmJNRkh2MXAycU5Nd0pKNy1QbG92UGg1TXd0SGx4S1R6UXNDek1fTTFpZnR1VEVfaE9Na0hOYjlBUGlfUC1jTGFCS195ek1ZNjc?oc=5",
       "time": "21.11.2026 22:53",
       "direction": "down",
       "impact": "Může vést k poklesu ceny akcie NVIDIA: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
-      "source": "AFP"
+      "source": "Yahoo Finance"
     },
     {
       "company": "Micron Technology",
@@ -15893,15 +15902,6 @@
       "direction": "down",
       "impact": "Může vést k poklesu ceny akcie Micron Technology: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
       "source": "ad-hoc-news.de"
-    },
-    {
-      "company": "Microsoft",
-      "title": "Microsoft outage was largest of 2026, report says",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBLWUhCMk96bVJoQUhfcVdmc0k0UTJtTENtM2hiUDM3djdEbnVtRmlyUmtRQkotNnFxQ0xneFBfX204TmFyLUttZ09iU3ZXSC1UMG5JRDd2eE5yVnlxOXF3Y0ZnVVh5Y3JjRWFYU1Zid0xqOUE?oc=5",
-      "time": "21.11.2026 22:09",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
-      "source": "Mashable"
     },
     {
       "company": "Microsoft",
@@ -15931,15 +15931,6 @@
       "source": "WSJ"
     },
     {
-      "company": "Amazon",
-      "title": "AWS outage on Nov. 15 disrupted 11 services in us-east-1 and went unnoticed",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQT2t1WFliYTRldnUxeWZnd2I2a1JVd0llSlVWVWZRbGZqZ3dwM2Y3OUxNb1dvd01BYkNIVjBlblYxVXNwanZCNWJYRkh2c3RGTnlrNlJhUFZRQ0pkMkcwYUpXbHdfdEgxc1VHWllSUHV3VVAtYl9zdmpkSjFld3FaOEhiS0FJdHRGVlpqcnROZGNoVmM2OFZfYXRSY2VyNGJ5dndKMUhB?oc=5",
-      "time": "21.11.2026 17:16",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Amazon: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
-      "source": "news.lavx.hu"
-    },
-    {
       "company": "Tesla",
       "title": "Tesla falls 7.5% as AI selloff swamps HSBC upgrade; market likely explains 3 to 5.5 points",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNeDRRelNpNWZDSVptd3puSzFiRWlQN3RvVndjTHFLdWVYOUxuUUxZZmtXVlBoM2k1Tk1VR0JMRTNldU5mWVF3Qkk2REQyQm80cjZaQncxWVUzNncwbjg0VjVnbW9ybE8tNHZqTTFDOVA2eFE3NWxHMU5LS05ENDNkU3dGZ3JCZGQtMnViRTdiZVV0cDZ4alM4aWFPamxWQk10S1JXMUxxb1lDM1d1ckZHWTFELXlpUQ?oc=5",
@@ -15947,6 +15938,15 @@
       "direction": "down",
       "impact": "Může vést k poklesu ceny akcie Tesla: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
       "source": "Quantisnow"
+    },
+    {
+      "company": "Amazon",
+      "title": "AWS got hit by an outage too. Here's why you didn't hear about it",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNbXlBSFZUSWo1TVBlTTlRaTBPUFhGVU42RWJpY0YySlhpSG44emVVZTc1QnR1Z3oxVzN0NE5RSkJsUjdMNTFDaXBKQzUxRFJkNmU4bUUwSUJNTjdJOVh2cG9QLS1qQ2s2UzgwN25ldjZpYzQ5cXl1ZmUwMkNtTmxnR01INk1oZExFWlEzVHNUaVdhTDdZTXBSSTEwS0lpdklEWmFWYTZzcUVrNDZ0b0VxWC1McUV2UUhxOXN4OQ?oc=5",
+      "time": "21.11.2026 15:35",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Amazon: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
+      "source": "The Register"
     },
     {
       "company": "Anthropic",
@@ -15958,21 +15958,21 @@
       "source": "Unite.AI"
     },
     {
-      "company": "AMD",
-      "title": "Nvidia Just Issued a Major Warning to AMD and Intel Stock Investors",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOc1lyQ2Z4WUotTTdRdzlLalFGSjAwemZDUVd3NEt3bTRSbWJFZmEtVE9BdlNCbWdZN1lGOEI5WW1wUVBMZm5KN0htYmNCbUNEcGhVQjNReW9DY2NEWmw2VWpGMEx1MzgzWkhZa3VRUmxVM1BlYXAyMWduc2pSM1k2bm93T0QtaXlEZmRpWXZ4MVRtR04wdUxaUC1PMEU2TkJwdEFpdFpqZkhKWU9selBRUUdhT19NTWE3QTRLcVVkRkdScW13V19EUmlsUGt5UXM3VDF4ajhvM0hldjBPTl9tRTFfMGhXWWc?oc=5",
-      "time": "21.11.2026 14:11",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie AMD: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
-      "source": "The Globe and Mail"
-    },
-    {
       "company": "Berkshire Hathaway",
       "title": "Greg Abel Just Approved a Record $9.6 Billion in Stock Buybacks for Berkshire Hathaway Last Quarter, More Than Double the Pace Set in the Second Quarter. Is Berkshire Still a Buy as Shares Sit Near All-Time Highs?",
       "url": "https://www.fool.com/investing/2026/11/21/greg-abel-just-approved-a-record-usd9-6-billion-in-stock-buybacks-for-berkshire-hathaway-last-quarter-more-than-double-the-pace-set-in-the-second-quarter-is-berkshire-still-a-buy-as-shares-sit-near/",
       "time": "21.11.2026 13:35",
       "direction": "up",
       "impact": "Může vést k nárůstu ceny akcie Berkshire Hathaway: zpětný odkup akcií nebo vyšší dividenda zvyšují hodnotu pro akcionáře.",
+      "source": "Motley Fool"
+    },
+    {
+      "company": "AMD",
+      "title": "Nvidia Just Issued a Major Warning to AMD and Intel Stock Investors",
+      "url": "https://www.fool.com/investing/2026/11/21/nvidia-just-issued-a-major-warning-to-amd-and-intel-stock-investors/",
+      "time": "21.11.2026 13:14",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie AMD: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
       "source": "Motley Fool"
     },
     {
@@ -16012,6 +16012,15 @@
       "source": "ad-hoc-news.de"
     },
     {
+      "company": "Toyota",
+      "title": "More than 300,000 Toyota, Lexus vehicles recalled over faulty Takata airbags",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNd1ZaaWRmcTYyQVZLbXpGR0VUdkdsb25ubkJsYlowbDZud3RpMnk2UlJmeWRPLW1fNGlSdVd6YlZYQkdHM1p5MVBQYWdRSHkwQlZRMzdobjIwTHFJZzBjNTNUMExaYkwxU3F2Y1pmeDhjV1BLdDE0MEgxVGxCa2NwRWpTUzU5QlNybktUenVRRUwtUk1MY2xic2g5RmNiaFhLTEhKV1dfV1p4TXVScnRtbEptVE9NcFBSbDF4a1pYQzNhZ9IBwgFBVV95cUxNd1ZaaWRmcTYyQVZLbXpGR0VUdkdsb25ubkJsYlowbDZud3RpMnk2UlJmeWRPLW1fNGlSdVd6YlZYQkdHM1p5MVBQYWdRSHkwQlZRMzdobjIwTHFJZzBjNTNUMExaYkwxU3F2Y1pmeDhjV1BLdDE0MEgxVGxCa2NwRWpTUzU5QlNybktUenVRRUwtUk1MY2xic2g5RmNiaFhLTEhKV1dfV1p4TXVScnRtbEptVE9NcFBSbDF4a1pYQzNhZw?oc=5",
+      "time": "21.11.2026 11:30",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Toyota: stažení výrobků nebo zastavení výroby znamená ztrátu tržeb a další náklady.",
+      "source": "WTHI-TV"
+    },
+    {
       "company": "JPMorgan",
       "title": "Amrize stock: JPMorgan cuts price target to 46 US dollars",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONkJCLTZkN0RjVGZ5UngwT0JtQTJCZXZyWmJtOGh4Zko3TC1ZOFB6ZWp4LXNCVWtSek9Ua1djblFpaW9sdFFWVFhPT0cxNlgxUjRaZUVEQ2t3eHdvVjhtMlBWeEtveHN6OW1LSjFUTUc2MWFNa0p4SzFiSHZtOWJjak9kd0R6bkNOMC1OX3BtakE2VTVILVNMazI3WFJLTnYwUERZX0xYNnhKWDFxMlNDdHRpUlJJcmdQQktN?oc=5",
@@ -16046,15 +16055,6 @@
       "direction": "mixed",
       "impact": "Dopad na cenu akcie Meta je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
       "source": "MarketBeat"
-    },
-    {
-      "company": "TSMC",
-      "title": "Semiconductor Sell-Off: TSMC and Applied Materials Look Like AI Chip Bargains",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQcDZqWFkwa2x5NTZWdmItTFlIUjFYbGJoYVhiajhPdEhiOFRDQU1uYmlNblJGWTRncVdWVEdRUmJQVW5wWTkzczlYRTd4QnhEUjJzcmdZUHl4QS1ONUV6QWJFME9tdDZQbi1PUXJhZUhXcFctUHhqVUwyMkRmeTZmbFB1dWFkR1dKX05VU3VNWEZfbjh3MzlkRVhtOGo2dE5lMDlPdmFn?oc=5",
-      "time": "21.11.2026 09:34",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie TSMC: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
-      "source": "SSBCrack"
     }
   ]
 }
