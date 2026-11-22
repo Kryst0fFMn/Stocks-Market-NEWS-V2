@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22T22:09:21.141242+00:00",
+  "updated_at": "2026-11-22T23:09:55.415654+00:00",
   "stocks": [
     {
       "name": "Microsoft",
@@ -15841,13 +15841,40 @@
   ],
   "news": [
     {
-      "company": "Tesla",
+      "company": "NVIDIA",
+      "title": "Nvidia’s Chip Sales Targeted in California Criminal Probe",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQdXBFZ3kwbUFveDNEMENUZnc4RUxCaXRNUHhxVDN5anE3cVZNRUJkT2pJTWQxVFBVRWdtTUNsSDI5S2xXOUhXM092QWRJZEtFUkduMnVjR01XdGY1NnB6bUJ2RlBoQ3pMM2ZRSTdNbl9WbDJTQmIxTXpEQ2FkMlNBRlNVZ3FMQVlXR25KOTlpdGdSNlJnOXc?oc=5",
+      "time": "22.11.2026 23:46",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie NVIDIA: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
+      "source": "PYMNTS.com"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Nvidia to Continue Robotics Investments After Huang's Departure, Assures Portfolio Companies Directly Under Interim CEO",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1IbWJob3hvWTZuUDRrRXFpZ2phdjVSWllyTmpLN2VSMlR0MV9NaExQVjJ3cHdlVUQ0czI1Y09HM256ZWY4QVhUZ3VLbUFBSTN1RU1GLVdENTdIcmNvSzlibnluYTlHUFc3b2M1TGRWTjNTeXNNZmc?oc=5",
+      "time": "22.11.2026 23:35",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie NVIDIA: odchod klíčového manažera zvyšuje nejistotu o dalším směřování firmy.",
+      "source": "BigGo Finance"
+    },
+    {
+      "company": "NVIDIA",
       "title": "Should You Buy Tesla or SpaceX Stock Before Their Potential Merger?",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQNjJvNXFhaHRBaEhwRFNpemhjdnJ1MWFyZmRtNWsyb1dNb2FJT0s4M2phNXFmeXFqd0hjcGt5MDdqVzRrQzhIZjBUanBBcHJrdTJsczg5SHY5ckFPaWRCeHJrSndwel9ZaWVpY3VGMGVfQ3hWWXo2MzlvV09QaVlrSFFPdTJDdkRiRFhRQVd1WnIwYWhIcGE4VA?oc=5",
-      "time": "22.11.2026 23:01",
+      "url": "https://www.fool.com/investing/2026/11/22/should-you-buy-tesla-or-spacex-stock-before-merger/",
+      "time": "22.11.2026 23:21",
+      "direction": "mixed",
+      "impact": "Dopad na cenu akcie NVIDIA je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
+      "source": "Motley Fool"
+    },
+    {
+      "company": "Tesla",
+      "title": "Is SpaceX-Tesla Merger Imminent?",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5kRU80OVI5d0Fodm1La01XcTRKd1QzSUd6V2VfaG9wRWVKWHNObWsyOXAzYlpFYlRkaWFoQ1UwLU51RTA3Q0l6dXQwV1ktWnhOc2U4MGc5Q2gxOXkzbGgwVlpFaGdoY1Rib2ZHRm9sdUpQMTFQU0MydQ?oc=5",
+      "time": "22.11.2026 23:14",
       "direction": "mixed",
       "impact": "Dopad na cenu akcie Tesla je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
-      "source": "The Motley Fool"
+      "source": "Puck"
     },
     {
       "company": "Microsoft",
@@ -15857,15 +15884,6 @@
       "direction": "down",
       "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
       "source": "Newsweek"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "US Probe Puts Nvidia in Spotlight",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQck13YVZ0M0dhajFxcW4zZ29SZDdlVFJWT3FXelVjbXdUSXJPb0szQUJvMDVxa2NBaTRJTWpXN3daTV95OHpoMUVNWjVxelNGa1hEU0Q5dW1vcU5sRHlTSXhVREdwdjlJSlFlbnFCc3NzMnNnWEZ1VTFoSFozU1BYZ2k2ZHpNdXZJTkF6cTZhSkhlUQ?oc=5",
-      "time": "22.11.2026 22:05",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie NVIDIA: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
-      "source": "Briefs Finance"
     },
     {
       "company": "Microsoft",
@@ -15922,24 +15940,6 @@
       "source": "Fortune"
     },
     {
-      "company": "NVIDIA",
-      "title": "Dow Jones: Nvidia Plunge Drives Correction, Putting 2025 Gains at Risk",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZzZuSVJHUWRWdzVDT0ZoblJZdXYzYVhsNkJMVmswcWlDS1dHMmJlZDhuUVBCRWZVSDRUbTdjSWl1TVFGRWZMcUZwc0txNXg2TGZFai1TRU9tM3hKSFhwb3pscTVUNXJaN25hZHV3Q3Juazh4ZDNlcHBWVFA1MzVpWTdveFYxQ1IxbUxSU2J0M1plcFhwNU9IRWJfNU96Q3ViUWUtU09GdERhUktUcFBMTGN1NXdNbjUyZjdz?oc=5",
-      "time": "22.11.2026 18:20",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie NVIDIA: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
-      "source": "FXEmpire"
-    },
-    {
-      "company": "AMD",
-      "title": "AMD stock soars 140% in 2026, Nvidia lags but b...",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQQllqRWQ2NGpCODRRRVpqQVpwZkVVZzBoUnNSNEx1d3RBdDRGTkI1TjF2QTlFX3FUMWl4NERLUTQtRGNfazlYVGFldDJNSmJJcXpTdWNrTzRiNUswUFpGbmRiN1RnZC1CWS12TmkzZXFtUXU0QjZNWkR0Yjh4MGNQQ1J5ekFOU2RSTGc?oc=5",
-      "time": "22.11.2026 17:04",
-      "direction": "up",
-      "impact": "Může vést k nárůstu ceny akcie AMD: prudký růst ukazuje na silný zájem investorů, po rychlém růstu ale může přijít i stahování zisků.",
-      "source": "Pluang"
-    },
-    {
       "company": "TSMC",
       "title": "Retail investors grab odd-lot shares as TSMC plunges",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1TeHZXOVNtWkRHX3FRMEpBYXlIMENBN09wQ0MwUFQtZUpoUzFtUVpsdWR1dmR6QjZ3M3VsaGVGbWlRcG1jMDVnNzkwdkVWS0Z6U2kyd05TMnJlbVRCd3ZNQVBTUEtYVmVySlhIQjB1SDZXYkhTc1E?oc=5",
@@ -15947,15 +15947,6 @@
       "direction": "down",
       "impact": "Může vést k poklesu ceny akcie TSMC: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
       "source": "Taipei Times"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "NVIDIA CEO Resigns Due to Repeated Lies",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWDRBZ0Q5NDE0d1FUVXRPWUFkRlZuX0VUNkZqcFlHTk5tLUQ0cVQ4dFVvTWExNkZaQmNzaGxBbzVBYnZqVzAxRlFoMWFNUF9hdXNDQlBmM2dBbWNreU5BMm5JZk5qaVFfYWx0SXliWG9TYXlOampXTGRVQnc2cDYyZUxDNVF4aU9r?oc=5",
-      "time": "22.11.2026 16:36",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie NVIDIA: odchod klíčového manažera zvyšuje nejistotu o dalším směřování firmy.",
-      "source": "조선일보"
     },
     {
       "company": "Toyota",
@@ -15987,11 +15978,11 @@
     {
       "company": "Tesla",
       "title": "This Week in TSLA: Cybercab's Deliveries, SpaceX-Tesla Merger Talk, Model Y Without Steering Wheel and More",
-      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNVzNjeGo2a1AzejJmRXQ4QUEtdXAybHFBVUZXRnBuTVhsS0o1XzQtRzYtaUtvOU5tM3U2R24yV182ZVFoWlBSazk0c0hrSlVDcDhqRWNIekFLYzR3THBiaURzampJYnFyUEZydjJ4SE9TbFBIdlR6RUZ1X2taLW1zd1lBcWRuZTlQdFJQZm8ycG5QaklUUjVVN3NQcTRwTkY0RGNSNjV0ZldrNGFfUTNJRlJtcmlCUUtIbU1ub1RZaWFzckhhWFE3T2E1NVkxRHRsOTZqRjJ0ckFVTkNZZWNYMU83dllsc255NnAyb2hETFAzQmZyOXc?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOUHVFcFNZWlpkVy1zQ283RzJzLWFyajVKNmkzUlZXSzJNZFFpMXFDckI5cEFvTjctMk1DcWNzVkJtaEtlNVdrWDZVcDlxTnJfcUhLUVkxdVBFN0t1bXJ2RnBWdjl3NmRFRnhnUi1zQkxLVjkwcFpHbjJzUllUSlNDbURpa1VuenFuemJwLUxQUFVwcjBYYUFXWE1kcnZBSkdrcmxSQWFRUS1WaG5NLWJCUUNkc3RGMzFHMFhEVUlRcHNYNTVON2xid3hMWUk4Z19vdHY4UmxnNS1PQ0F4dVpRaEJ1SUNid2NFaEhwbw?oc=5",
       "time": "22.11.2026 14:50",
       "direction": "mixed",
       "impact": "Dopad na cenu akcie Tesla je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
-      "source": "TradingView"
+      "source": "Benzinga"
     },
     {
       "company": "AMD",
@@ -16050,11 +16041,20 @@
     {
       "company": "SpaceX",
       "title": "Elon Musk's Tesla and SpaceX Each Formed a Special Committee to Explore a Merger as His AI Spending Accelerates. Here's Why Combining Them Could Reshape How Investors Value Tesla's Robotaxi Business.",
-      "url": "https://news.google.com/rss/articles/CBMijANBVV95cUxNdTUxWm9fN3pfdmNSTVY4SGVuRndNbk05TkwzRkNkai13TUtMdUUya0U1VkVyN3FDUFJvRUhWcFB0bWJfakRXRXk4Q2JDWElVTFotRDB4d3dvMnVLa0UzZkN5em5lYWZkYXRQdGptREtlTkRmcksxOTRlMlZCdHpNZGVVMjFBQ05tVjdLVmwyaVZEREFlbWRRTVk4NGw3MkViYmRzd1hBOTVJTk1paGJ6czFHUWdiZGlnRXlneV9DUHljUjRHM0ZxdTBKY1ZFRjNPSFVQc1R5d1VPbWRBM2VoUlU5ajA5S3JJNW1TWnlYaGxoRUpBWlZnUkgzS2xtcG04VmpuUXIwR1g5YUN5SVpVOEhiTms5MWhhbkZWUzNGTFlIV05BSFFhSE12bUV0RU4yVGRHQXctSXc2eDZmSzdlU0JGQlJ1ZENGbUhDd3NIMnRwdDVGNElXMmVodWNELTFZdGZBd0RvQ0tOWkw0Tno5YS1aakRhNmRseUNwWlFtNnlWQWhfNWh3ME5GeVE?oc=5",
-      "time": "22.11.2026 11:27",
+      "url": "https://news.google.com/rss/articles/CBMilwNBVV95cUxPTjRzYVA4Y2g4MkxRczZaSnZLQUk3bXAtYmVFTlJKRGlUZlZzNld4bWNNWVZiMGxEdHZQUHpUV0ItSkRlYVEwX2c5WG9zMUFFenY2S0szUHdyMFhnWEVzRWFlYjNRd0FiZDd0d2dPeXU0M09Wd1l0TGE2dGhIQlU4dnNOZGppMmFvLUI3M1pXang5all6WWEzNm0tdHhGcTFub2FBdU5oMFhnczhDcnlWd0lRZmpJRDNpMVNPM1VpZ3Rabkp2OXhaLVdEWVZXSWVSMXg1Mk5RMjBQbnhaSUp3RDlHSXFHVUlSWlhOQlRMRUZwQnhDYWxVem5scE14SXo5a0xRVVJtVTZIaF85MHltaXB5Y0ZIZWJxUTlNbmo2Vy13eXdRb1hQM2ZyOVR1czRHaTlQemRrVTFPV2N4ck0ya3ZXUWNOZ3BSd3VnY0Zsc0pHVjZOUTFCNElBRzUwUHZpR2tlVk55TWJpNGcydk44VEJOaUZEbEtmSmdwcjk5enlKM3Q5RVBRQVc2ekhhbXlvbEEtQXAzbw?oc=5",
+      "time": "22.11.2026 11:29",
       "direction": "mixed",
       "impact": "Dopad na cenu akcie SpaceX je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
       "source": "The Globe and Mail"
+    },
+    {
+      "company": "Meta",
+      "title": "Stelac Advisory Services LLC Acquires New Stake in Meta Platforms, Inc. $META",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOX2pFbjR0WFU2Q25UM1pHa0Y4SzA1QjBBamwtdU1kajVCekZlZGlUT0R0RlVaaGp2WXhBNkNwdkVEOWx4Y0FYUWs1Nl9FUFgtMjVieVZneVliYW9ZQ09kdkwyOVEyNGVRR09IMEktREgzd2JVR3ZTdUhjdExQdkxGM091VGUyYjdaVks5bm9nZHhpVUxNWldrbHZROFFaS2w3bjJlcVdLcjdjVExELU9hMFJsS1VBV28zNW1veVA3cVpoMmNfamp2UHI2V3BqU3pN?oc=5",
+      "time": "22.11.2026 11:24",
+      "direction": "mixed",
+      "impact": "Dopad na cenu akcie Meta je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
+      "source": "MarketBeat"
     }
   ]
 }
