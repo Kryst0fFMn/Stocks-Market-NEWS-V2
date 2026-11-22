@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22T19:24:15.681510+00:00",
+  "updated_at": "2026-11-22T20:15:07.694554+00:00",
   "stocks": [
     {
       "name": "Microsoft",
@@ -15841,6 +15841,33 @@
   ],
   "news": [
     {
+      "company": "Anthropic",
+      "title": "When Can Anthropic Insiders Sell? What the Post-IPO Lockup Period Means for Shareholders.",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONmd3Y0ZYM0ZkaENIaW1sN1N0SUZQSmp0QXNITGthNGdPZzVNRUdXQTU5cExKTkZUbE5zWGxvQ1RMcmFhcVpXUHUxYjhSekloZ1pTT3ZUbm0xY1UwMWt1TVRMbzEtNHIyYnRhSGdCZHVrR1FYRVlNWko3VXVvQVdJaWZIS3hGcGZLZ0dUQWpmc053eWNjR1dzR2tRWk1OVTZGN3dRRUljZXBqNnJkb3loanNnc1E?oc=5",
+      "time": "22.11.2026 21:09",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Anthropic: prodej akcií nebo konec lock-upu zvyšuje nabídku akcií na trhu.",
+      "source": "The Motley Fool"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Uber Trades at 16 Times Forward Earnings and a 30% Discount to Its All-Time High Stock Price. Here’s Why Robotaxis Make That a Mistake.",
+      "url": "https://www.fool.com/investing/2026/11/22/uber-trades-16-times-forward-earnings-and-30-discount-all-time-high-stock-price-here-why-robotaxis-make-that-a-mistake/",
+      "time": "22.11.2026 21:05",
+      "direction": "up",
+      "impact": "Může vést k nárůstu ceny akcie NVIDIA: prudký růst ukazuje na silný zájem investorů, po rychlém růstu ale může přijít i stahování zisků.",
+      "source": "Motley Fool"
+    },
+    {
+      "company": "Microsoft",
+      "title": "Microsoft Has 13 Outage Fixes Left; Bessent Says ‘Vaccine’",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSVNrdTVfOF9XSUxHMWJYZ2hEUGNrbU9Dc3NKak9qc3c0TndJSkFnNnZON2trb3Awdkprak9QcHJlbG5vN2xJR2wzd0d6bmN3NEhxd0hIanlfR2l6Ny1GcGtiaUZZdTBORjJPRndPUFdDbTRINFF6TXZfN2M2b0RWampfUWl2NW1vSXVF?oc=5",
+      "time": "22.11.2026 20:41",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
+      "source": "FourWeekMBA"
+    },
+    {
       "company": "Intel",
       "title": "Intel announces more layoffs as workforce shrinks by 7,300",
       "url": "https://www.thestreet.com/technology/intel-announces-more-layoffs-as-workforce-shrinks-by-7300",
@@ -15848,6 +15875,15 @@
       "direction": "mixed",
       "impact": "Dopad na cenu akcie Intel je nejednoznačný: propouštění může ušetřit náklady, ale často signalizuje slabší poptávku.",
       "source": "TheStreet"
+    },
+    {
+      "company": "Microsoft",
+      "title": "Key takeaways from Microsoft’s Friday the 13th horror outage",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQVGRQN0xhMGE0UEZSa0dEemR4ODFmNl9JSGM2bWxZT0w2TWRDNlR4VmdjYnByRnBEYk42Rk9tOFJsQnByNld1NU8xVGFjQmgwMldzMWc1QUYxRlRicExRR2k5QWJBRnp2TVppNnZSLTNMWFM4LU5tRlQzUWtHbVpsd0otT3NGX05lcGNGaU9tMXZERXNidkljdjhraHhVUHpUbmRz?oc=5",
+      "time": "22.11.2026 19:48",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
+      "source": "www.hrleader.com.au"
     },
     {
       "company": "Intel",
@@ -15877,15 +15913,6 @@
       "source": "FXEmpire"
     },
     {
-      "company": "Microsoft",
-      "title": "Delta flights alert: After Microsoft outage and FAA ground stops, 1,000+ flights delayed at Atlanta, Newar",
-      "url": "https://news.google.com/rss/articles/CBMihgNBVV95cUxQaGtPMEZHWnJjN1drVFJiNklTYzkzei1ESWg3QmJjWE1xMDY2S2huMUlxQU5tcUJhZjNiaWNtbWdzdDB3ZUxTaTdTMmNxODBUVFhxRTE5QVFFWWcyVHNqeHJ1dUxIek9MSWU0VUE0WmpNWTd1M0VaRy1sYl9tdDBaWU9vREFKeDRONEJhT3VlNGV1WE94emZxSklPTm9xZ2RYMjd6NDg1RDhwal9ITWhQWlB2cU5UcVl0Q0lwYTIxTENlSUNJeDlSNnh1X1RwbVlsSHJkaFVLZzZfOThQNENxdnJRQW9XVnJaYW5sRXQza2hOcTJOZTBHemg5WEhOQlZKT2tQdnJ5a3ZGeklPMXRrb0ktZTE1ekliVXh3Z3AyTDJULW1qM1VkcUxfY0dOUE9tcUdXLWtENWxrY3I4RVJBTWV1Qk94ZmtmY3NWTGRERERkNE5oS0p5b0p2eWEzR1kzTWNaR0FUTTBuNWFoYWtQRDJnNEZYQmdxWnM3dEEyTWV4U1hJeFHSAYsDQVVfeXFMT1VBRHRVMUNyTFNJZDdpdVQwN19KR1NjeFBMdnF0UWtiaXBTSmx4Q2l3b1NLX0o4d1pkMVVQLUotRXVVMVdCVkxLZWcteGd4RnRpVWpwdFZUb200Mk5UX0t2Z1c0UkR3a1BUb3ItTEJ5WTJQZTd4aUpqREVrSldJZ05tMDdTaHJhdWlWMjJONU9pS0NpeW4yVXBDZUxuN0YzYlM4U1hiZ1ZjY19RazJxRDJZZHdDRkZSSmN4dHJ0YnYwd0xMY0ZtUXpBQ3o4eUx5NmwzR3BYVU9VTTVraTNhVENTYk5rOEhRUFNodWQ3LU1XWDF0R2k3anBkUzNRX0RBaWMydl9uUXlSZ1RQM1VnTmVCbE5HcGo5eEoySkxscm53TzFDVUprRDVSdGt3TkJ2R3NQNVJqVzVpTHkwWGM5NHN4bXBpejQ5MEYxT3lDb1M3TkRTeXZqX3Vna0l3RE40S0NNclJvRmxTUklPelcycUFJQkpxMVVCMmVDeERma1czbHVQT1NvRmgtems?oc=5",
-      "time": "22.11.2026 18:25",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
-      "source": "The Economic Times"
-    },
-    {
       "company": "AMD",
       "title": "AMD stock soars 140% in 2026, Nvidia lags but b...",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQQllqRWQ2NGpCODRRRVpqQVpwZkVVZzBoUnNSNEx1d3RBdDRGTkI1TjF2QTlFX3FUMWl4NERLUTQtRGNfazlYVGFldDJNSmJJcXpTdWNrTzRiNUswUFpGbmRiN1RnZC1CWS12TmkzZXFtUXU0QjZNWkR0Yjh4MGNQQ1J5ekFOU2RSTGc?oc=5",
@@ -15893,15 +15920,6 @@
       "direction": "up",
       "impact": "Může vést k nárůstu ceny akcie AMD: prudký růst ukazuje na silný zájem investorů, po rychlém růstu ale může přijít i stahování zisků.",
       "source": "Pluang"
-    },
-    {
-      "company": "Microsoft",
-      "title": "Microsoft outage poses hard questions for Kiwi companies",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQYTJLdHhGYWxwV0JNUnYycF9LeU80MFcyZWUwb0o5YllManRNeUNDREllRldyNGEta2RvY05xNG1FY1J3bEhaMXU4QnlVSDczNnp0OG5GSmpQQXg5Yl9vQ0dMRlN6dzBRTVg4aVJOeVBTektUcFFVc3ZIY08tY2JLVGxkaUFyalViZG5FSHJnclBjZnM?oc=5",
-      "time": "22.11.2026 17:01",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
-      "source": "National Business Review"
     },
     {
       "company": "TSMC",
@@ -15919,15 +15937,6 @@
       "time": "22.11.2026 16:36",
       "direction": "down",
       "impact": "Může vést k poklesu ceny akcie NVIDIA: odchod klíčového manažera zvyšuje nejistotu o dalším směřování firmy.",
-      "source": "조선일보"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "Seohak Ants' Nvidia Holdings Plunge 26.5%, Sustaining 6 Trillion Won Loss",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZU0xdi0tMzE2cTJwUUh4bFMwV3N4ME0wY0puemt4cmRGekJDaFZibDZHc3pidl9WVTNlNnJ5c3lJSWhueHpEUGF1Yk54VDczR2s0WEdnN3F4dFZvQ2kxNG5ydTNsWjgyS3JPNDUtTW9RWG9zOTRhOWpJV1VQTGNLTUtTY2Y0RjVWbGYyb1N3?oc=5",
-      "time": "22.11.2026 16:34",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie NVIDIA: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
       "source": "조선일보"
     },
     {
@@ -16046,15 +16055,6 @@
       "direction": "down",
       "impact": "Může vést k poklesu ceny akcie JPMorgan: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
       "source": "Aktualita.co"
-    },
-    {
-      "company": "JPMorgan",
-      "title": "Xiaomi's Buyback Offers Little Comfort as JPMorgan Braces for a 58% Profit Slide",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOY280dUdMS25XSUFXUHVFVXdjUmVaWjFDM01oQ0VqZC1qemdTLUJJUjVMWVpySTUwWEFtbDZ1UGJZSkNyV0VycXR6OW5lY2Y4aVZ2d3dDX0drNWFyNVdjeUlmUHNrN2pELUdob3p0aW56NTFVS2tXb09sSndCdS1lbUxic05GbjZscWlfSFBHM3cwQmluRTlvMVZwS005aGtrZlpOUEE2NTJPX3pTLVlhVEE2bWZLMjdoTVdsaWo0bFFyckIzVm9LYmtZWXcwRlpWMjhvYlJJTkFJdXQ5SUd4Q0F3bmQxdw?oc=5",
-      "time": "22.11.2026 11:11",
-      "direction": "up",
-      "impact": "Může vést k nárůstu ceny akcie JPMorgan: zpětný odkup akcií nebo vyšší dividenda zvyšují hodnotu pro akcionáře.",
-      "source": "ad-hoc-news.de"
     }
   ]
 }
