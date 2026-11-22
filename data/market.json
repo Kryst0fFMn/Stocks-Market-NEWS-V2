@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22T14:35:09.338977+00:00",
+  "updated_at": "2026-11-22T15:29:18.292196+00:00",
   "stocks": [
     {
       "name": "Microsoft",
@@ -15843,11 +15843,11 @@
     {
       "company": "Berkshire Hathaway",
       "title": "Berkshire Hathaway Stock Jumps 14% in 2026 as Wall Street Downgrades",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNX0hSam9xdGVzUFY3SUlhaExCMnlJdUdNeHVTcERlbXg3ZGJ2eVJjNGtrMURPUnVEWEF5ZjBIVHFGTThfSkVhWk9JS2ZYc2JoNmVkV3VxbFgyX3ZiUktvblJ1dW1TVGR4aUhMQS1vV1FNWVlOdFlEVUNVQUs4TlBDbENlYk02djZrdnZNNkFxcDVkX1p3cDM4Mzl4UQ?oc=5",
-      "time": "22.11.2026 15:17",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdDlvNkNLNVFzX0ZJaFYyVnBxWVdsM2ZDVFZQeGZkeXJ3NXhKNFRWMFljWHAzUTVTX3VWdnRuNFNNSnVlekFfTXdkeEVGQktUYVRWWmd4OXN1ZnVsR21kU1p4SGFYXzk3SWlSOGU3ZF83ZkpaQ2dQY19JcV9YXzJUN3VacFB2YWx5VldMU3V3Ujh3MFE5eDdadUpoVTQxT05tcXBWZURtU1k?oc=5",
+      "time": "22.11.2026 16:16",
       "direction": "mixed",
       "impact": "Zpráva obsahuje pozitivní i negativní signály, dopad na cenu akcie Berkshire Hathaway je nejasný.",
-      "source": "Coinpaper"
+      "source": "CryptoRank"
     },
     {
       "company": "NVIDIA",
@@ -15877,12 +15877,12 @@
       "source": "Benzinga"
     },
     {
-      "company": "NVIDIA",
+      "company": "AMD",
       "title": "Arm Sinks 20% in a Week as Chips Slide and Nvidia’s Headhunters Approach CEO Rene Haas. Time to Buy?",
       "url": "https://www.tikr.com/blog/arm-sinks-20-in-a-week-as-chips-slide-and-nvidias-headhunters-approach-ceo-rene-haas-time-to-buy?ref=yahoofinance&tlnk=yf-261122-5qfprg9c",
       "time": "22.11.2026 14:35",
       "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie NVIDIA: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
+      "impact": "Může vést k poklesu ceny akcie AMD: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
       "source": "TIKR"
     },
     {
@@ -15893,6 +15893,15 @@
       "direction": "down",
       "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
       "source": "Cityairnews"
+    },
+    {
+      "company": "Micron Technology",
+      "title": "Micron's 14% Friday Slide Masks a Sold-Out Order Book and a Revived Antitrust Case",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNUFhZTXgtWERKSHNkUHMxTWVESG5yX0s4bnhlUDFwRnUxYlJmMHhYdk9oWTdrLXFmS3FoOWxYdjQ1NXZuM2xJRWFnSUlrYmZ6U1lfVDVydGRQNUV2dElQUEg5WUtOcFM5YTdfYlpoRkxaWFJCajdfUHJrODNKOVUtM0Rkel92cHNJZVhwN2dXS1lnRExmMU4xTklYaUJwRFNLRlJWV0cwZ2V3YjFORGFfWmNVYk9RN1p5RGNhLVo1NWhBZEExcUZzR2JyMDQ2aXNJblNpOXNwYWZ5Z2FoVWJqVTE2aW5WT1Vl?oc=5",
+      "time": "22.11.2026 14:11",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Micron Technology: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
+      "source": "ad-hoc-news.de"
     },
     {
       "company": "ASML",
@@ -15931,6 +15940,15 @@
       "source": "MarketBeat"
     },
     {
+      "company": "NVIDIA",
+      "title": "Nvidia (NVDA) CEO Jensen Huang Resigned As The SEC Opened An Accounting Probe",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQOXN0TUVMd3I0Sy1tTVg2RkdxSjlaSzRqS0h5VEFab1VmajZ3Z2xTWUhOSjN3TDIzSWZpOGRnclc2NXFaRGdjT25TNzhlZ09pN05KeDF6SEhFMkpXWEI4THRZa2NDc011TjhlRTc1ZENkU3dTTjRNS3RMOTluaUY1MmhIRHRLVnRyVDFUZkhqcGM4YmZMem45cg?oc=5",
+      "time": "22.11.2026 12:07",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie NVIDIA: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
+      "source": "Yahoo Finance"
+    },
+    {
       "company": "Microsoft",
       "title": "Microsoft's final Outlook outage report lists 13 fixes after tests on older servers missed the bug",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxORnNJREhwaDdCWUdTaGl4TUJGeEFOcTlaSkJpbXllMUFiWV82bVp5cmxEWlpZU1JDbW1RNU11c1lBMU96MUdwb1BhVy1fWmNxSWNObGlTNGw2QzJXcWRuZDRYeDZUQURMem95WGtaLXRsNVFka0xQd1JJWEx4WEZvTk9hSEJQeHhIcWR4Q0pQZHhEcFFlWU84RUw5aVlyWHVHZVlWSTl3WlFVTDRmZXpDdDNkbmNvZkVESWc?oc=5",
@@ -15951,11 +15969,11 @@
     {
       "company": "Tesla",
       "title": "Elon Musk's Tesla and SpaceX Each Formed a Special Committee to Explore a Merger as His AI Spending Accelerates. Here's Why Combining Them Could Reshape How Investors Value Tesla's Robotaxi Business.",
-      "url": "https://news.google.com/rss/articles/CBMilwNBVV95cUxNMTlLcG5MN1BhZk5KaHN3RXR2MUZnMkVVX2tDVVBGRG5RakotV1Bfc1F1ZlRBODlEc2xoSmVOUUtjcWlWaTRfQU80azdrcFpGSnZBY0YxdVdhMXRUZE1kNURrU1NJdGVGckYxQXI4WmVZRW80dTRiM0c0QVZLODZvbmp5T09aT1BuamhGU09NSkRMR2xzRmdhRElqVXlBR2prd3dQWktZV3JfekdTczB3UzZLQlFzNjBOMEpyV3RMVGsxckRaMDU1cFh6V0FYN2UzRlJXZDAzWDNtaUctZXdtV1NJQk9YLUJaWExycHhLVThnWjNiZkU4MzdXV0NKXzA3ZnhFTDhKU2c0cGVCSEFQZFJMalBndHJQak82RFpuRWVxWVA1V2tGVWZEWkNyTXhDTWoteVREM3FSVEtmcUc1V3RpZnZsTFROZ2M1S1J6bWIxVFNDZ2gyemxGT3V1Nld0VFU2RmVCQjVmXzFGbFhXeUJKOEdpOU50NU1qNFBTZUczb1ZRUmM4eXh3dUJkOENidmxlZnNIdw?oc=5",
+      "url": "https://www.fool.com/investing/2026/11/22/elon-musks-tesla-and-spacex-committee-merger/",
       "time": "22.11.2026 11:20",
       "direction": "mixed",
       "impact": "Dopad na cenu akcie Tesla je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
-      "source": "The Globe and Mail"
+      "source": "Motley Fool"
     },
     {
       "company": "JPMorgan",
@@ -16003,15 +16021,6 @@
       "source": "The Globe and Mail"
     },
     {
-      "company": "Microsoft",
-      "title": "Microsoft shares fell 9% from record high but h...",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPeXJWdHhJSHhXdEhaU3dCU1JOUmJ3VURnWTJsTjMzVTZuZHdNa25sTHZTTEtuTk91MU93NHdYR2hQSFFPTmdTUlFoOUd6M185NkJNaTRRWUF1N0Z0V0Y0WmJBbnNpWXlKZkdYUnpEZW1PZjluaGZHVXBkbkl5WmJWeFdBVWtiejhGbVhpcm4ybENfR20xT0hyNg?oc=5",
-      "time": "22.11.2026 09:53",
-      "direction": "up",
-      "impact": "Může vést k nárůstu ceny akcie Microsoft: prudký růst ukazuje na silný zájem investorů, po rychlém růstu ale může přijít i stahování zisků.",
-      "source": "Pluang"
-    },
-    {
       "company": "Apple",
       "title": "Choreo LLC Acquires 7,976 Shares of Apple Inc. $AAPL",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNV213VzNUUE14V0ZYTnIta1ZsVG9USUlISGlONEhNLUNrdDd3REZfdHI2ZWlGUFRVSnZGQTBrNFpXVlo0QkNBUVRxejdkcHJIZ1A1b0V5bzlZWWhkWExTWEJGT045T1d3N1FOZnNUeHRTUXhPUldpRDlFc0pRMUplSEl0YUd4V1A4dnpQOGlDVlFIQWFDbmJaVVMwU1VWOGptWGhmMzJTdzBnMTlGbXZn?oc=5",
@@ -16030,6 +16039,15 @@
       "source": "Business Standard"
     },
     {
+      "company": "Microsoft",
+      "title": "BSP gives banks more time to file forex reports after Microsoft 365 outage",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNRkkzTWhOMVVjZGthTmRPbU54dTRRUmozR3F0M0d2dC1WWUJVaGtkZjAzTjQ2ckcxTHVyaDNrcUJ1YThYT2tkODhidm1pUXZsdmZUdnFNOEhrcXViWEtLU1VGWEpmWjNLRllTaXNfTGxkLVYtcG9LSl9HbnIyX3ZhT2dxRnc2OWZGd25Pc19ReTRPZmVaYXZQWWZlZk9wZXM?oc=5",
+      "time": "22.11.2026 09:31",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
+      "source": "Bilyonaryo Business"
+    },
+    {
       "company": "SpaceX",
       "title": "Tesla Just Started Selling Cybercabs, Here's What It Means for a SpaceX and Tesla Merger .",
       "url": "https://www.fool.com/investing/2026/11/22/tesla-just-started-selling-cybercabs-here-s-what-it-means-for-a-spacex-and-tesla-merger/",
@@ -16037,24 +16055,6 @@
       "direction": "mixed",
       "impact": "Dopad na cenu akcie SpaceX je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
       "source": "Motley Fool"
-    },
-    {
-      "company": "Toyota",
-      "title": "Toyota and Honda recall millions of vehicles over airbags",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbVZNWEtQNlRWN0ttZC1SVDN0cEl1UFF2R2VLWHZqM0NXcVJIWUN4T0NiSEtpSjFieFhFeTByMUJmVkRHQ3BkTWtVc3pvMEZFRVJTY1U4VHFYdUppdnFjSTR1OHk0a0YxbHJqSzl2ZlRNNWFGNXZ4dkd6ZkY4VXFPZV95Mkt2SHRsZ3RaOHBfTkhnVWk5bVFJSXJwbmc0Z18wT19YVG1HcDNnUzA?oc=5",
-      "time": "22.11.2026 06:17",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Toyota: stažení výrobků nebo zastavení výroby znamená ztrátu tržeb a další náklady.",
-      "source": "NBC News"
-    },
-    {
-      "company": "AMD",
-      "title": "AMD Shares Plunge 20% in Two Days as China Firmware Supply Allegations Hit Home; Nvidia Read-Across Selling Adds Pressure",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9xTldiNlF6M2NHM3VHblZtTnBvVTJVdjZFbFBKV2E4Z0dyeGZ0TkRROFhDN1ZpLWQzWkR1Z3BKNllFRmdqWE1PQUk4elYtUE94RVhDRG54bDdpQTR0RFNJV2o4a0tENnh0eDMwY2JOdEdWNEhFNnc?oc=5",
-      "time": "22.11.2026 05:35",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie AMD: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
-      "source": "BigGo Finance"
     }
   ]
 }
