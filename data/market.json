@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22T00:25:49.788697+00:00",
+  "updated_at": "2026-11-22T01:45:08.081913+00:00",
   "stocks": [
     {
       "name": "Microsoft",
@@ -15841,10 +15841,28 @@
   ],
   "news": [
     {
+      "company": "Tencent",
+      "title": "China’s AI stocks lose $1.7 trillion as tech selloff deepens",
+      "url": "https://finance.yahoo.com/technology/ai/articles/china-ai-stocks-lose-1-013928656.html",
+      "time": "22.11.2026 02:39",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Tencent: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
+      "source": "Investing.com"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Trump Recalls Helping Elon Musk When He Was ‘In Big Trouble,’ Defends Nvidia’s Jensen Huang as One of America’s Rare 'Geniuses'",
+      "url": "https://finance.yahoo.com/technology/articles/trump-recalls-helping-elon-musk-003010870.html",
+      "time": "22.11.2026 01:30",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie NVIDIA: stažení výrobků nebo zastavení výroby znamená ztrátu tržeb a další náklady.",
+      "source": "Benzinga"
+    },
+    {
       "company": "Microsoft",
       "title": "Microsoft outage was largest of 2026, report says",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBLWUhCMk96bVJoQUhfcVdmc0k0UTJtTENtM2hiUDM3djdEbnVtRmlyUmtRQkotNnFxQ0xneFBfX204TmFyLUttZ09iU3ZXSC1UMG5JRDd2eE5yVnlxOXF3Y0ZnVVh5Y3JjRWFYU1Zid0xqOUE?oc=5",
-      "time": "22.11.2026 00:30",
+      "time": "22.11.2026 01:30",
       "direction": "down",
       "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
       "source": "Mashable"
@@ -15859,6 +15877,15 @@
       "source": "KIRO 7 News Seattle"
     },
     {
+      "company": "Microsoft",
+      "title": "Microsoft outage: Does Microsoft owe you money? What to know.",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBKOUVfMTNXLTFIX21qMU05N3ZzdDV5bi05bnBvc190ZUpiR0RhWWEwSUtaZVpiMEhDVzVfUXFGTDl3NVpNTHNTM3dvYzI3QWJOS2RYNzljLWdJZzI3SnBtamFqUW40b21qdE1kN1RKUFhidw?oc=5",
+      "time": "22.11.2026 00:17",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
+      "source": "Mashable"
+    },
+    {
       "company": "NVIDIA",
       "title": "NVIDIA shares plunge nearly 48% from peak, returning to 2024 levels",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5yZUJNYTN5SkJkLW5VdDQ1S0Z5UG8xR21QZlQ4em9jb3pITWFsVHFyMWdFcmVWN2dSTVlzYVRUOG1NQzhpVWQ0M3prckVaTU93Ti1hbTBKXzdlSGlBN193?oc=5",
@@ -15868,12 +15895,12 @@
       "source": "mobidevices.com"
     },
     {
-      "company": "NVIDIA",
+      "company": "Anthropic",
       "title": "Nvidia Falls 48% From Peak as AI Selloff Spreads to Bitcoin and Crypto",
       "url": "https://www.cryptoprowl.com/releases/nvidia-falls-48-from-peak-as-ai-selloff-spreads-to-bitcoin-and-crypto-8017",
       "time": "21.11.2026 23:50",
       "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie NVIDIA: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
+      "impact": "Může vést k poklesu ceny akcie Anthropic: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
       "source": "CryptoProwl"
     },
     {
@@ -15895,30 +15922,12 @@
       "source": "Yahoo Finance"
     },
     {
-      "company": "Micron Technology",
-      "title": "Micron's 14% Slide Puts Memory Pricing and a Revived Lawsuit on the Same Calendar",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNQ2R6NTYwRlFMOGM4U3AyQWpnYTFxc3lSak9vSXZnbXY3cXN4UVpGbHZ2OVkybW1JT3ZETWVTdmdkMnAxYzhtTGs5UkdHZjcyWUdVamxzV3lvVEVJMVh5eE84dmdWbU5oTnljalE5c0ZEcHRCVXJfeVpaLU9mQTI2LWg4NjhxVTdna19NLWdNWXpzS0pNRVVOclBVcXp0bV9Cdkl1TDdGbjZoSnBFSGRaNkhEdHZacGhvejYwZUtBYld1aHN2Q2YweEZWQ0hXM0ZHaEZwVlIwb3dZOUNCWW5iN3JWckZtQVE?oc=5",
-      "time": "21.11.2026 22:31",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Micron Technology: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
-      "source": "ad-hoc-news.de"
-    },
-    {
-      "company": "Microsoft",
-      "title": "Microsoft outage: Does Microsoft owe you money? What to know.",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBKOUVfMTNXLTFIX21qMU05N3ZzdDV5bi05bnBvc190ZUpiR0RhWWEwSUtaZVpiMEhDVzVfUXFGTDl3NVpNTHNTM3dvYzI3QWJOS2RYNzljLWdJZzI3SnBtamFqUW40b21qdE1kN1RKUFhidw?oc=5",
-      "time": "21.11.2026 21:46",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
-      "source": "Mashable"
-    },
-    {
-      "company": "Amazon",
+      "company": "Alphabet",
       "title": "Meta Stopped Its Buybacks To Build AI. How Much More Can It Spend?",
       "url": "https://www.trefis.com/stock/meta/articles/627455/meta-stopped-its-buybacks-to-build-ai-how-much-more-can-it-spend/2026-11-21",
       "time": "21.11.2026 19:32",
       "direction": "up",
-      "impact": "Může vést k nárůstu ceny akcie Amazon: zpětný odkup akcií nebo vyšší dividenda zvyšují hodnotu pro akcionáře.",
+      "impact": "Může vést k nárůstu ceny akcie Alphabet: zpětný odkup akcií nebo vyšší dividenda zvyšují hodnotu pro akcionáře.",
       "source": "Trefis"
     },
     {
@@ -15994,15 +16003,6 @@
       "source": "Axios"
     },
     {
-      "company": "Anthropic",
-      "title": "Anthropic engineer's warning about Claude Code explains why tech outages could get much worse",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPZHJCVThaVWVtUkpteGlHSWR3MDRPd0lsVjJ6dTlEaGhVX1hsWVFhRW45WEdDTlNTS05iUGs3TzVrTTY4QTI3aVBrVG5CbU40Yi1sWFNYN0JPUXY0RE1TUGJ1WndpanJVbUZiOVNiV2JXbUhicno2eGludENWRmFlU3RVR0hLemhoYkVLd05PMDZzSGc1dVhHNEJYWUpvMmdyTmh0TXUzWW1icGhDRGhRZTBkN2ctSlA3ei1nMEJxRnRSYlhSRlpnMC10Zm8tODhIQjkzdjl3VEZNODNVaHJCR2plZ3drajg?oc=5",
-      "time": "21.11.2026 12:00",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Anthropic: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
-      "source": "Yahoo Finance"
-    },
-    {
       "company": "ASML",
       "title": "ASML Holding stock: Bernstein keeps Buy rating, EUR 2,500 target",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxORnpyX0dLcTlCdUNGcmdnaGkwdFUwQ09JdjJGZ0VGbk83c2ZkQ3BZTFNVcHhvWWJ5dlVWNHg1ZWlmUHR1eWRPenBGSXdZTU5Od0RiZ2lYa1pGTXFPa0Z6c1N4Um8yR0xSVFBTOEFRWmt5T1RCT3Fjbm54VVpVZ0F3cFJfZWluZXBGMl9YczdCRlRiUkhvVFFKYXpISG00djNQckFDSUZoRnBhR2k2T0FGVWI2NVNvV1FVVVlhZWNraF9mbFE?oc=5",
@@ -16010,15 +16010,6 @@
       "direction": "up",
       "impact": "Může vést k nárůstu ceny akcie ASML: analytici zlepšují hodnocení, což často přitáhne nové kupce.",
       "source": "ad-hoc-news.de"
-    },
-    {
-      "company": "Toyota",
-      "title": "More than 300,000 Toyota, Lexus vehicles recalled over faulty Takata airbags",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNd1ZaaWRmcTYyQVZLbXpGR0VUdkdsb25ubkJsYlowbDZud3RpMnk2UlJmeWRPLW1fNGlSdVd6YlZYQkdHM1p5MVBQYWdRSHkwQlZRMzdobjIwTHFJZzBjNTNUMExaYkwxU3F2Y1pmeDhjV1BLdDE0MEgxVGxCa2NwRWpTUzU5QlNybktUenVRRUwtUk1MY2xic2g5RmNiaFhLTEhKV1dfV1p4TXVScnRtbEptVE9NcFBSbDF4a1pYQzNhZ9IBwgFBVV95cUxNd1ZaaWRmcTYyQVZLbXpGR0VUdkdsb25ubkJsYlowbDZud3RpMnk2UlJmeWRPLW1fNGlSdVd6YlZYQkdHM1p5MVBQYWdRSHkwQlZRMzdobjIwTHFJZzBjNTNUMExaYkwxU3F2Y1pmeDhjV1BLdDE0MEgxVGxCa2NwRWpTUzU5QlNybktUenVRRUwtUk1MY2xic2g5RmNiaFhLTEhKV1dfV1p4TXVScnRtbEptVE9NcFBSbDF4a1pYQzNhZw?oc=5",
-      "time": "21.11.2026 11:30",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Toyota: stažení výrobků nebo zastavení výroby znamená ztrátu tržeb a další náklady.",
-      "source": "WTHI-TV"
     },
     {
       "company": "JPMorgan",
@@ -16046,6 +16037,15 @@
       "direction": "down",
       "impact": "Může vést k poklesu ceny akcie Meta: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
       "source": "ad-hoc-news.de"
+    },
+    {
+      "company": "Amazon",
+      "title": "Amazon's Cozy Suede Ankle Boots 'Look Just as Good as More Expensive Brands,' But Cost Under $30",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNTmlzSWlrQ2tGNUtLRnVPRFpGdmlWZDJfb1pGUGVscEdPV1dfRTZIMnBnckRoUXNOSmowNjdJVDNLVHdGcHBOZFhTN3pCUTNTRlktRHl0ZEdTbnVTMFhvN1VxRzAybFc3eWEyWWo4Vmd3ZmtNY0Z0UmtMUk55REpfaTdJMUhxeWNLcjlQME9ZV3M?oc=5",
+      "time": "21.11.2026 11:00",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Amazon: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
+      "source": "Parade Magazine"
     },
     {
       "company": "Meta",
