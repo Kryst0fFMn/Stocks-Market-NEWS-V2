@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22T02:39:22.204846+00:00",
+  "updated_at": "2026-11-22T03:38:08.124570+00:00",
   "stocks": [
     {
       "name": "Microsoft",
@@ -15838,6 +15838,24 @@
   ],
   "news": [
     {
+      "company": "NVIDIA",
+      "title": "Exclusive | SEC Is Probing Nvidia Amid Departure of CEO Jensen Huang",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQbjl2b0tzT1ROT2plV1p5RHhQd3hXOEJKRFhOZ1ItZExOQV9oVGkzTU9tcEEyTXhjNHRKQVExRTNRdEtlY24zUFhmS0h0c21FUVVrVVh0NGF2SXFmdm1wcmVRLUlCcG5CMGRIZklSdVBkVElkS3lwRF9LaGg4YzU5b0dsZXlveWxSNzhGYzJlZmRSRkhvUWZRTHB3?oc=5",
+      "time": "22.11.2026 04:30",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie NVIDIA: odchod klíčového manažera zvyšuje nejistotu o dalším směřování firmy.",
+      "source": "WSJ"
+    },
+    {
+      "company": "Amazon",
+      "title": "Amazon Decart Acquisition: Up to $7.5B Deal Explained",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOYW1pRWNzR3AxOFYyVHRiYnZPU3lNUUdpQWJUU1FpbGg0d3dvNFZ1S0IwU2R4WkFBRHVuQ0dqVllaNUg0S1ZRS2VxMkt6czRuZHBFVkhfcGw1a2ZTcE1UUFBKX01mZmt1TUpvcnBaMkNkYXRRbzFteUlYekRUWFBfSDAxY1lwcm1RN1lxSVZ3?oc=5",
+      "time": "22.11.2026 04:17",
+      "direction": "mixed",
+      "impact": "Dopad na cenu akcie Amazon je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
+      "source": "shattered.io"
+    },
+    {
       "company": "LVMH",
       "title": "Dior Holders to Vote on Agache Merger as LVMH Shares Sag on US Wealth Jitters",
       "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNTkZoVU1VVUdNdHcwQXJVQUpzcXlRLUFMdDFSRGNTbVRDTmptb1ZIbV9saFFVbXFsS1QxZjJxdXJLc1padmVyR1YxdkotNG1HcjBDZXBnaTJHX0JTUTRIajd6YTdyQlRMQ0lRN0pvUFppcDRRaUVsdDhmZFNWM2tJRUdheFFwa0JVeDh6aElSVVJhR0Vsem1IdUV6SEJPeUdKeVJUV1dncFVGLUFwWklidzM4YWx4WE9ZdXhmczBYemY4N3B6M2o3VlBwNEhqOGNqRVRHT2hET29nQ0xTck5MMDd4RQ?oc=5",
@@ -15854,6 +15872,15 @@
       "direction": "mixed",
       "impact": "Dopad na cenu akcie Amazon je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
       "source": "BigGo Finance"
+    },
+    {
+      "company": "JPMorgan",
+      "title": "What to Do Now to Prepare for the Next Bank Outage",
+      "url": "https://www.wsj.com/personal-finance/bank-outage-tips-a56e21a7?siteid=yhoof2&yptr=yahoo",
+      "time": "22.11.2026 03:00",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie JPMorgan: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
+      "source": "The Wall Street Journal"
     },
     {
       "company": "Tencent",
@@ -15901,15 +15928,6 @@
       "source": "KIRO 7 News Seattle"
     },
     {
-      "company": "NVIDIA",
-      "title": "NVIDIA shares plunge nearly 48% from peak, returning to 2024 levels",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5yZUJNYTN5SkJkLW5VdDQ1S0Z5UG8xR21QZlQ4em9jb3pITWFsVHFyMWdFcmVWN2dSTVlzYVRUOG1NQzhpVWQ0M3prckVaTU93Ti1hbTBKXzdlSGlBN193?oc=5",
-      "time": "21.11.2026 23:50",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie NVIDIA: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
-      "source": "mobidevices.com"
-    },
-    {
       "company": "Anthropic",
       "title": "Nvidia Falls 48% From Peak as AI Selloff Spreads to Bitcoin and Crypto",
       "url": "https://www.cryptoprowl.com/releases/nvidia-falls-48-from-peak-as-ai-selloff-spreads-to-bitcoin-and-crypto-8017",
@@ -15955,12 +15973,12 @@
       "source": "Briefs Finance"
     },
     {
-      "company": "Amazon",
+      "company": "Alphabet",
       "title": "Meta Stopped Its Buybacks To Build AI. How Much More Can It Spend?",
       "url": "https://www.trefis.com/stock/meta/articles/627455/meta-stopped-its-buybacks-to-build-ai-how-much-more-can-it-spend/2026-11-21",
       "time": "21.11.2026 19:32",
       "direction": "up",
-      "impact": "Může vést k nárůstu ceny akcie Amazon: zpětný odkup akcií nebo vyšší dividenda zvyšují hodnotu pro akcionáře.",
+      "impact": "Může vést k nárůstu ceny akcie Alphabet: zpětný odkup akcií nebo vyšší dividenda zvyšují hodnotu pro akcionáře.",
       "source": "Trefis"
     },
     {
@@ -16034,24 +16052,6 @@
       "direction": "up",
       "impact": "Může vést k nárůstu ceny akcie ASML: analytici zlepšují hodnocení, což často přitáhne nové kupce.",
       "source": "ad-hoc-news.de"
-    },
-    {
-      "company": "JPMorgan",
-      "title": "Amrize stock: JPMorgan cuts price target to 46 US dollars",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONkJCLTZkN0RjVGZ5UngwT0JtQTJCZXZyWmJtOGh4Zko3TC1ZOFB6ZWp4LXNCVWtSek9Ua1djblFpaW9sdFFWVFhPT0cxNlgxUjRaZUVEQ2t3eHdvVjhtMlBWeEtveHN6OW1LSjFUTUc2MWFNa0p4SzFiSHZtOWJjak9kd0R6bkNOMC1OX3BtakE2VTVILVNMazI3WFJLTnYwUERZX0xYNnhKWDFxMlNDdHRpUlJJcmdQQktN?oc=5",
-      "time": "21.11.2026 11:22",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie JPMorgan: analytici zhoršují hodnocení, což může zvýšit prodejní tlak.",
-      "source": "ad-hoc-news.de"
-    },
-    {
-      "company": "Meta",
-      "title": "Edgestream Partners L.P. Acquires New Shares in Meta Platforms, Inc. $META",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOQWNxZlpkYU9Hem9jaHhKdy13Y0gwNDJXRXVmSVc2N0U4NU81d1l4R21kWWZCQ21YZjB5Mk54bzIzd2VtdFFZRDE5M0Z3OG04VFdZSHJhX3FWOWVZRTJIYVFydE5MZng2LXFnQWNMVWpMTUdXNFp0YTFOd2lJc3NibExYdkxNYXNZREYtT1ZDMzl3U0I3SS1wMFM0SkxvY19YMzQ4ZzJPR2xrOUdubkNvRnRyVGVZcC1iR1lNaWttS0ZkYnY3MWdPVlVB?oc=5",
-      "time": "21.11.2026 11:09",
-      "direction": "mixed",
-      "impact": "Dopad na cenu akcie Meta je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
-      "source": "MarketBeat"
     }
   ]
 }
