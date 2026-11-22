@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22T07:57:07.038801+00:00",
+  "updated_at": "2026-11-22T08:53:45.511705+00:00",
   "stocks": [
     {
       "name": "Microsoft",
@@ -15841,6 +15841,60 @@
   ],
   "news": [
     {
+      "company": "Apple",
+      "title": "Choreo LLC Acquires 7,976 Shares of Apple Inc. $AAPL",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNV213VzNUUE14V0ZYTnIta1ZsVG9USUlISGlONEhNLUNrdDd3REZfdHI2ZWlGUFRVSnZGQTBrNFpXVlo0QkNBUVRxejdkcHJIZ1A1b0V5bzlZWWhkWExTWEJGT045T1d3N1FOZnNUeHRTUXhPUldpRDlFc0pRMUplSEl0YUd4V1A4dnpQOGlDVlFIQWFDbmJaVVMwU1VWOGptWGhmMzJTdzBnMTlGbXZn?oc=5",
+      "time": "22.11.2026 09:43",
+      "direction": "mixed",
+      "impact": "Dopad na cenu akcie Apple je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
+      "source": "MarketBeat"
+    },
+    {
+      "company": "Anthropic",
+      "title": "Nvidia sinks 14% as Anthropic’s IPO glow fades",
+      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE96bTY1eXY1QWFydHdTbzFVaDQzVEljQVdldEpNTXhaV19iZVAxWGdkbFpKZ1Y5cXFuZTVjOHNscnNlNjA1?oc=5",
+      "time": "22.11.2026 09:40",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Anthropic: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
+      "source": "Digg"
+    },
+    {
+      "company": "Microsoft",
+      "title": "BSP gives banks more time to file forex reports after Microsoft 365 outage",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNRkkzTWhOMVVjZGthTmRPbU54dTRRUmozR3F0M0d2dC1WWUJVaGtkZjAzTjQ2ckcxTHVyaDNrcUJ1YThYT2tkODhidm1pUXZsdmZUdnFNOEhrcXViWEtLU1VGWEpmWjNLRllTaXNfTGxkLVYtcG9LSl9HbnIyX3ZhT2dxRnc2OWZGd25Pc19ReTRPZmVaYXZQWWZlZk9wZXM?oc=5",
+      "time": "22.11.2026 09:31",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
+      "source": "Bilyonaryo Business"
+    },
+    {
+      "company": "AMD",
+      "title": "AMD Stock Just Plunged on a Short-Seller Report. Is This a Golden Buying Opportunity?",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOQ1Z1MGhrVmZyVTZqcWoxS0xhVlZmTkJWRW9RT2pncFZxVXJHUmdnbkNHSFA3SVF2NlhKQWowbkkzQWZWQnE3dlBEY01EZWV2YXZwcDRzZmJmb25ESlJHT0h3T3Y3N2t6WXliZFNncjF1WVZTSTlEOE1PMU05WHY0U3Jvd0FBU3N1b3NoZFVkN1NvMlB1bnpMM2xnN29IUWxIUV9KQ29VMjlMY0xpazhqN3ZadElscFhVV1pCSDNFWHRvQlI5?oc=5",
+      "time": "22.11.2026 09:30",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie AMD: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
+      "source": "The Motley Fool"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "NVIDIA Board Cites Lies, Abuse in Jensen Huang's Resignation",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOdEZadVJPOElLN3FyeGdjak9PMjV0OHA3V0xJZ24tcExKSjFvUjZVNURsWXU4ZUltQk5fSVlUajNhcS12YzdqZkhWS09TVTVIZGc3cERPamVMVzNQMGRfVE8tYWVnbXV0QlBodE5Jekc3ZHljLTNJTHhoLUpRZkpLc0JseVZ0U3NN?oc=5",
+      "time": "22.11.2026 09:14",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie NVIDIA: odchod klíčového manažera zvyšuje nejistotu o dalším směřování firmy.",
+      "source": "조선일보"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Key facts: NVIDIA CEO Resigns; Q3 Revenue Jumps 103%; SEC Opens Probe",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPdVR1YjFVZDJxdXpMOXU1RUhSc1EzVFBzMFJoZ2RBdFo5YXFUVWJmNG4tcGp4VnBaU1R4SWVRZmZQNTdNZWtRRUlNd1VxRTA3bHFSVDNSVi1pYlNhTFE1TW0xS3BCRlB0eE11ZHdBZWFaTXhrbHRxTHpyM2xDNVk4dU9PYkhoc3hBNDlXN2dUVFNJa3ZET1QySVNMZko3cm0zQkpJaS1TYnFEcU9iVVlISlFKX1VGdURxRy1uSWpRUWhKSVdsZlE?oc=5",
+      "time": "22.11.2026 09:00",
+      "direction": "mixed",
+      "impact": "Zpráva obsahuje pozitivní i negativní signály, dopad na cenu akcie NVIDIA je nejasný.",
+      "source": "TradingView"
+    },
+    {
       "company": "Anthropic",
       "title": "Ed Zitron Calls Anthropic IPO ‘Exit Liquidity’, Warns AI Sell-Off Could Get Worse — ‘Things Are Only Going To Keep Going Down’",
       "url": "https://stocktwits.com/news-articles/markets/equity/ed-zitron-anthropic-ipo-exit-liquidity-ai-selloff-worse-warning/cNbnNyCR91s",
@@ -15868,15 +15922,6 @@
       "source": "BigGo Finance"
     },
     {
-      "company": "Microsoft",
-      "title": "Microsoft outage was largest of 2026, report says",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBLWUhCMk96bVJoQUhfcVdmc0k0UTJtTENtM2hiUDM3djdEbnVtRmlyUmtRQkotNnFxQ0xneFBfX204TmFyLUttZ09iU3ZXSC1UMG5JRDd2eE5yVnlxOXF3Y0ZnVVh5Y3JjRWFYU1Zid0xqOUE?oc=5",
-      "time": "22.11.2026 06:21",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
-      "source": "Mashable"
-    },
-    {
       "company": "AMD",
       "title": "AMD Shares Plunge 20% in Two Days as China Firmware Supply Allegations Hit Home; Nvidia Read-Across Selling Adds Pressure",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9xTldiNlF6M2NHM3VHblZtTnBvVTJVdjZFbFBKV2E4Z0dyeGZ0TkRROFhDN1ZpLWQzWkR1Z3BKNllFRmdqWE1PQUk4elYtUE94RVhDRG54bDdpQTR0RFNJV2o4a0tENnh0eDMwY2JOdEdWNEhFNnc?oc=5",
@@ -15884,15 +15929,6 @@
       "direction": "down",
       "impact": "Může vést k poklesu ceny akcie AMD: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
       "source": "BigGo Finance"
-    },
-    {
-      "company": "Anthropic",
-      "title": "Anthropic stock slides with rest of market after big-ticker IPO",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNc0o1TFlNT1Y2ZDZDdFBTcHBjX3g3bFRxaDZLdTNvdFlTdTdKbG9fUFBkeUdpMXJJcWRhWkF5dlVraGZIZDlSd2lhWnlKZ09Uckp1ZDRRdllKNnBiR2dvZW9pOWQxd0UtUkVSeDV4Mkg2YjBkNE5TeksyNnpfWHBaVm1Ka0Nnc3RuNkFaQUd0OEo0MnRfRmVweDlZQW95YVYxRFE?oc=5",
-      "time": "22.11.2026 05:01",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Anthropic: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
-      "source": "Washington Examiner"
     },
     {
       "company": "Microsoft",
@@ -15919,6 +15955,15 @@
       "time": "22.11.2026 03:31",
       "direction": "mixed",
       "impact": "Dopad na cenu akcie LVMH je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
+      "source": "ad-hoc-news.de"
+    },
+    {
+      "company": "Micron Technology",
+      "title": "Micron's 14% Drop Ties AI Valuation Fears to a DRAM Lawsuit and a Softening NAND Outlook",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxON2JjblNkQ2VGa2xxSVlFZG1KX0xTUDRzejNHS2o4ejVCMWF2c2RJY3dHTHVzNDlrbTFqeGpMLXFvbVUzQXdGc05nbl9JZXAwS2FxeWpqcG95b2NsdVNJYk91MmtZUVI5cEl0Njh1b0JodmNNN3BjdWFFODFSazkxM2RqLVQ5enhOTFlBdDhOTmFSZVVfZS1TQTBOVDBvbWZHMWFrd1R2cFdoMDI1TGxNWi1TbGo2Q0MySzFYblR2Y1E5c080TXBoUGkySndKbnB4NWNUUlU1QVljOVZYU1V2alNnNFVzR05nQkpvRm9CZXM?oc=5",
+      "time": "22.11.2026 03:31",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Micron Technology: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
       "source": "ad-hoc-news.de"
     },
     {
@@ -15994,15 +16039,6 @@
       "source": "Reuters"
     },
     {
-      "company": "NVIDIA",
-      "title": "Nvidia faces US accounting probe amid deepening turmoil: media",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNkpvTmdpdzNUMVVjZEJXbVdIYXlheTM1ZmpMRl9LdkQ1YjV1VXYtNUxGSTlHZWpzLWhfTFVnR2h0b0NMNGlsTWhOYXpYRVYyR0ZkTmJNRkh2MXAycU5Nd0pKNy1QbG92UGg1TXd0SGx4S1R6UXNDek1fTTFpZnR1VEVfaE9Na0hOYjlBUGlfUC1jTGFCS195ek1ZNjc?oc=5",
-      "time": "21.11.2026 22:53",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie NVIDIA: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
-      "source": "Yahoo Finance"
-    },
-    {
       "company": "Micron Technology",
       "title": "Micron's 14% Slide Puts Memory Pricing and a Revived Lawsuit on the Same Calendar",
       "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNQ2R6NTYwRlFMOGM4U3AyQWpnYTFxc3lSak9vSXZnbXY3cXN4UVpGbHZ2OVkybW1JT3ZETWVTdmdkMnAxYzhtTGs5UkdHZjcyWUdVamxzV3lvVEVJMVh5eE84dmdWbU5oTnljalE5c0ZEcHRCVXJfeVpaLU9mQTI2LWg4NjhxVTdna19NLWdNWXpzS0pNRVVOclBVcXp0bV9Cdkl1TDdGbjZoSnBFSGRaNkhEdHZacGhvejYwZUtBYld1aHN2Q2YweEZWQ0hXM0ZHaEZwVlIwb3dZOUNCWW5iN3JWckZtQVE?oc=5",
@@ -16012,49 +16048,13 @@
       "source": "ad-hoc-news.de"
     },
     {
-      "company": "Alphabet",
+      "company": "Meta",
       "title": "Meta Stopped Its Buybacks To Build AI. How Much More Can It Spend?",
       "url": "https://www.trefis.com/stock/meta/articles/627455/meta-stopped-its-buybacks-to-build-ai-how-much-more-can-it-spend/2026-11-21",
       "time": "21.11.2026 19:32",
       "direction": "up",
-      "impact": "Může vést k nárůstu ceny akcie Alphabet: zpětný odkup akcií nebo vyšší dividenda zvyšují hodnotu pro akcionáře.",
+      "impact": "Může vést k nárůstu ceny akcie Meta: zpětný odkup akcií nebo vyšší dividenda zvyšují hodnotu pro akcionáře.",
       "source": "Trefis"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "Nvidia stock plunges as CEO Jensen Huang resigns: How low it might go",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNaTZUVEo5RE5qQ3Y5Ry1UOEk5NlNmaUhSUGE2SUFhbFBnSmFOeTAwTzFSTEpaVnEyZkFvbGxOdVMxMmlEQW44Z1dJRTNEQm9faFJXR3FpVC1vZXJZSTZJWUN4YTRaTGxiRlAyenlKOEJBa1U1Yi1KZWxjdW1kbDl0eVRWZGtETldGMjJQN1MzZkJQYXM?oc=5",
-      "time": "21.11.2026 17:19",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie NVIDIA: odchod klíčového manažera zvyšuje nejistotu o dalším směřování firmy.",
-      "source": "Mashable"
-    },
-    {
-      "company": "Tesla",
-      "title": "Tesla falls 7.5% as AI selloff swamps HSBC upgrade; market likely explains 3 to 5.5 points",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNeDRRelNpNWZDSVptd3puSzFiRWlQN3RvVndjTHFLdWVYOUxuUUxZZmtXVlBoM2k1Tk1VR0JMRTNldU5mWVF3Qkk2REQyQm80cjZaQncxWVUzNncwbjg0VjVnbW9ybE8tNHZqTTFDOVA2eFE3NWxHMU5LS05ENDNkU3dGZ3JCZGQtMnViRTdiZVV0cDZ4alM4aWFPamxWQk10S1JXMUxxb1lDM1d1ckZHWTFELXlpUQ?oc=5",
-      "time": "21.11.2026 16:40",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Tesla: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
-      "source": "Quantisnow"
-    },
-    {
-      "company": "Oracle",
-      "title": "Oracle's Credit Insurance Hits October Highs as AI Selloff Meets a Funding Rebuttal",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQYm05Ry1oU0x6c294YnMyV0JTaDZiT1lsR09UajkxcnB6Ri1FS2xUZ1FEYmtiaXFzVVd5WTBKUG9zV1N6SkhmV21TQ1VrRUo4clItLVZrc3h2NEpkSUdONThGZ3dZR3J4ZTdxdHVGYkVYSm1KUnE2amFaZEw0alhCcUpTbWhGcFdWb2Y3RjJxUmlxd19SenFpWVloRnU1Zk95SWlpdER6MHBFSzNybUh4Sng5RTNUREJ3Qzg5VE5SbDU0MXFtWXk5Zjh2bWQ3emMyT3d4YnJKMU1SV1dNWUxWaW5hdk5OcXA0RmVv?oc=5",
-      "time": "21.11.2026 13:41",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Oracle: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
-      "source": "ad-hoc-news.de"
-    },
-    {
-      "company": "Berkshire Hathaway",
-      "title": "Greg Abel Just Approved a Record $9.6 Billion in Stock Buybacks for Berkshire Hathaway Last Quarter, More Than Double the Pace Set in the Second Quarter. Is Berkshire Still a Buy as Shares Sit Near All-Time Highs?",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVVJjLU5QcVZ4WWF1RmRSMXFjY1lSY0x2UkdxRXYxY3JSQzBjRkowOWFMQTU4QWVlNDJZd3gwMTRlWUNnSk5DdEE0cVBHTDlYaXgwUG03a05FOEpITWpoWWhQNHNLZFdHZDRSYUFMcGlQMjdTMVlnTDBZaFRSVm1hWkV6TmN0a3d1cU9JTGVHU3hYaHkzMU5ERUNOTQ?oc=5",
-      "time": "21.11.2026 13:35",
-      "direction": "up",
-      "impact": "Může vést k nárůstu ceny akcie Berkshire Hathaway: zpětný odkup akcií nebo vyšší dividenda zvyšují hodnotu pro akcionáře.",
-      "source": "Yahoo Finance"
     }
   ]
 }
