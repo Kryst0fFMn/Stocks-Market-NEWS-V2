@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22T06:42:30.344355+00:00",
+  "updated_at": "2026-11-22T07:57:07.038801+00:00",
   "stocks": [
     {
       "name": "Microsoft",
@@ -15842,6 +15842,24 @@
   "news": [
     {
       "company": "Anthropic",
+      "title": "Ed Zitron Calls Anthropic IPO ‘Exit Liquidity’, Warns AI Sell-Off Could Get Worse — ‘Things Are Only Going To Keep Going Down’",
+      "url": "https://stocktwits.com/news-articles/markets/equity/ed-zitron-anthropic-ipo-exit-liquidity-ai-selloff-worse-warning/cNbnNyCR91s",
+      "time": "22.11.2026 08:41",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Anthropic: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
+      "source": "Stocktwits"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Tesla Just Started Selling Cybercabs, Here's What It Means for a SpaceX and Tesla Merger .",
+      "url": "https://www.fool.com/investing/2026/11/22/tesla-just-started-selling-cybercabs-here-s-what-it-means-for-a-spacex-and-tesla-merger/",
+      "time": "22.11.2026 08:25",
+      "direction": "mixed",
+      "impact": "Dopad na cenu akcie NVIDIA je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
+      "source": "Motley Fool"
+    },
+    {
+      "company": "Anthropic",
       "title": "Anthropic's $93.5 Billion IPO Marks Record Debut, Then US Stocks Plunge; Nasdaq Drops 5.28% in a Single Day, Erasing Year-to-Date Gains",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5YOXRQRW53T0VXZG5jNVpIb1RjUkZ6VlhIeWVhMC1IUEFOMXc2ME5ydHZZcWJuRTZCSXlBdTVscGQ0WmJ1dFVNVFlJa2VES1hCNXFBNzdMZFdmaVNoMW1lRGgxc0xsanNFWjNVTXhNVHZjbm5TVXc?oc=5",
       "time": "22.11.2026 07:25",
@@ -15958,12 +15976,12 @@
       "source": "KIRO 7 News Seattle"
     },
     {
-      "company": "Anthropic",
+      "company": "AMD",
       "title": "Nvidia Falls 48% From Peak as AI Selloff Spreads to Bitcoin and Crypto",
       "url": "https://www.cryptoprowl.com/releases/nvidia-falls-48-from-peak-as-ai-selloff-spreads-to-bitcoin-and-crypto-8017",
       "time": "21.11.2026 23:50",
       "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Anthropic: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
+      "impact": "Může vést k poklesu ceny akcie AMD: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
       "source": "CryptoProwl"
     },
     {
@@ -15994,22 +16012,13 @@
       "source": "ad-hoc-news.de"
     },
     {
-      "company": "Meta",
+      "company": "Alphabet",
       "title": "Meta Stopped Its Buybacks To Build AI. How Much More Can It Spend?",
       "url": "https://www.trefis.com/stock/meta/articles/627455/meta-stopped-its-buybacks-to-build-ai-how-much-more-can-it-spend/2026-11-21",
       "time": "21.11.2026 19:32",
       "direction": "up",
-      "impact": "Může vést k nárůstu ceny akcie Meta: zpětný odkup akcií nebo vyšší dividenda zvyšují hodnotu pro akcionáře.",
+      "impact": "Může vést k nárůstu ceny akcie Alphabet: zpětný odkup akcií nebo vyšší dividenda zvyšují hodnotu pro akcionáře.",
       "source": "Trefis"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "3 AI Chip Stocks Retail Investors Are Watching After The Nvidia Selloff",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOejlycTNOTWVaLXBObmZzQ29NbHBmT0ZMMDhJUVB1Tm85VXhCRjRKRWdpUHlYM2Mxc0xPZHZacEt2a05BUEFLaHM1c3FqU3doWVN6anJJOW84QjVleU1aRGNzV2RKM0k2R2tvY1JUTk9kbWh0VEdrYzg4YS1nWEZGUTQ4WEV3NlU2T3NxQVdFWjg?oc=5",
-      "time": "21.11.2026 19:08",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie NVIDIA: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
-      "source": "Yahoo Finance"
     },
     {
       "company": "NVIDIA",
@@ -16046,15 +16055,6 @@
       "direction": "up",
       "impact": "Může vést k nárůstu ceny akcie Berkshire Hathaway: zpětný odkup akcií nebo vyšší dividenda zvyšují hodnotu pro akcionáře.",
       "source": "Yahoo Finance"
-    },
-    {
-      "company": "AMD",
-      "title": "Nvidia Just Issued a Major Warning to AMD and Intel Stock Investors",
-      "url": "https://www.fool.com/investing/2026/11/21/nvidia-just-issued-a-major-warning-to-amd-and-intel-stock-investors/",
-      "time": "21.11.2026 13:14",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie AMD: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
-      "source": "Motley Fool"
     }
   ]
 }
