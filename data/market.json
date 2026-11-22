@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22T16:29:15.138908+00:00",
+  "updated_at": "2026-11-22T17:28:28.576610+00:00",
   "stocks": [
     {
       "name": "Microsoft",
@@ -15850,6 +15850,15 @@
       "source": "National Business Review"
     },
     {
+      "company": "TSMC",
+      "title": "Retail investors grab odd-lot shares as TSMC plunges",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1TeHZXOVNtWkRHX3FRMEpBYXlIMENBN09wQ0MwUFQtZUpoUzFtUVpsdWR1dmR6QjZ3M3VsaGVGbWlRcG1jMDVnNzkwdkVWS0Z6U2kyd05TMnJlbVRCd3ZNQVBTUEtYVmVySlhIQjB1SDZXYkhTc1E?oc=5",
+      "time": "22.11.2026 17:00",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie TSMC: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
+      "source": "Taipei Times"
+    },
+    {
       "company": "NVIDIA",
       "title": "NVIDIA CEO Resigns Due to Repeated Lies",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWDRBZ0Q5NDE0d1FUVXRPWUFkRlZuX0VUNkZqcFlHTk5tLUQ0cVQ4dFVvTWExNkZaQmNzaGxBbzVBYnZqVzAxRlFoMWFNUF9hdXNDQlBmM2dBbWNreU5BMm5JZk5qaVFfYWx0SXliWG9TYXlOampXTGRVQnc2cDYyZUxDNVF4aU9r?oc=5",
@@ -15878,12 +15887,12 @@
     },
     {
       "company": "NVIDIA",
-      "title": "Dow Jones: Nvidia Plunge Drives Correction, Putting 2025 Gains at Risk",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZzZuSVJHUWRWdzVDT0ZoblJZdXYzYVhsNkJMVmswcWlDS1dHMmJlZDhuUVBCRWZVSDRUbTdjSWl1TVFGRWZMcUZwc0txNXg2TGZFai1TRU9tM3hKSFhwb3pscTVUNXJaN25hZHV3Q3Juazh4ZDNlcHBWVFA1MzVpWTdveFYxQ1IxbUxSU2J0M1plcFhwNU9IRWJfNU96Q3ViUWUtU09GdERhUktUcFBMTGN1NXdNbjUyZjdz?oc=5",
-      "time": "22.11.2026 15:38",
+      "title": "Is Nvidia the Next Cisco? What the Dot-Com Crash Says About the AI Sell-Off",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOS2hlbkc5S1owaWlzcXRlRk5OeUFXNk1NNVhiTnJ3Tl9mUjF3RERoTldKN3NTRy1LMjctNzhMNTh2OVEyYjc2amVncDd5bmtkT1I2anFRdHVyTmF4cGxTOHVfeG5xeFNSVFFXUG1TeXg0Si1EcTY2RldYaThtUEUwN2JfdHlLX1JVeTRCSUxmMW02b05YeHlQVUpyMk5PRjcwNjY0YnBwa0lscHZEeDRnU1NPbGdjaU5MTGc?oc=5",
+      "time": "22.11.2026 15:06",
       "direction": "down",
       "impact": "Může vést k poklesu ceny akcie NVIDIA: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
-      "source": "FXEmpire"
+      "source": "24/7 Wall St."
     },
     {
       "company": "Tesla",
@@ -15902,15 +15911,6 @@
       "direction": "down",
       "impact": "Může vést k poklesu ceny akcie AMD: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
       "source": "TIKR"
-    },
-    {
-      "company": "Micron Technology",
-      "title": "Micron's 14% Friday Slide Masks a Sold-Out Order Book and a Revived Antitrust Case",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNUFhZTXgtWERKSHNkUHMxTWVESG5yX0s4bnhlUDFwRnUxYlJmMHhYdk9oWTdrLXFmS3FoOWxYdjQ1NXZuM2xJRWFnSUlrYmZ6U1lfVDVydGRQNUV2dElQUEg5WUtOcFM5YTdfYlpoRkxaWFJCajdfUHJrODNKOVUtM0Rkel92cHNJZVhwN2dXS1lnRExmMU4xTklYaUJwRFNLRlJWV0cwZ2V3YjFORGFfWmNVYk9RN1p5RGNhLVo1NWhBZEExcUZzR2JyMDQ2aXNJblNpOXNwYWZ5Z2FoVWJqVTE2aW5WT1Vl?oc=5",
-      "time": "22.11.2026 14:11",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Micron Technology: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
-      "source": "ad-hoc-news.de"
     },
     {
       "company": "ASML",
@@ -15985,6 +15985,15 @@
       "source": "Aktualita.co"
     },
     {
+      "company": "JPMorgan",
+      "title": "Xiaomi's Buyback Offers Little Comfort as JPMorgan Braces for a 58% Profit Slide",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOY280dUdMS25XSUFXUHVFVXdjUmVaWjFDM01oQ0VqZC1qemdTLUJJUjVMWVpySTUwWEFtbDZ1UGJZSkNyV0VycXR6OW5lY2Y4aVZ2d3dDX0drNWFyNVdjeUlmUHNrN2pELUdob3p0aW56NTFVS2tXb09sSndCdS1lbUxic05GbjZscWlfSFBHM3cwQmluRTlvMVZwS005aGtrZlpOUEE2NTJPX3pTLVlhVEE2bWZLMjdoTVdsaWo0bFFyckIzVm9LYmtZWXcwRlpWMjhvYlJJTkFJdXQ5SUd4Q0F3bmQxdw?oc=5",
+      "time": "22.11.2026 11:11",
+      "direction": "up",
+      "impact": "Může vést k nárůstu ceny akcie JPMorgan: zpětný odkup akcií nebo vyšší dividenda zvyšují hodnotu pro akcionáře.",
+      "source": "ad-hoc-news.de"
+    },
+    {
       "company": "Apple",
       "title": "“The Selloff Does Not End When Fundamentals Improve,” Warns Gene Munster. Nvidia Looks Like 2012 Apple",
       "url": "https://www.tikr.com/blog/the-selloff-does-not-end-when-fundamentals-improve-warns-gene-munster-nvidia-looks-like-2012-apple?ref=yahoofinance&tlnk=yf-261122-jwx4m5q4",
@@ -16046,15 +16055,6 @@
       "direction": "mixed",
       "impact": "Dopad na cenu akcie Apple je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
       "source": "MarketBeat"
-    },
-    {
-      "company": "Anthropic",
-      "title": "Anthropic stock slides 8.5%, but is its AI risk warning the reason?",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQaktTb0V1SzMxSWRuSXFGOXdfMFNYOUdQSDJ6LVZLWHdhaDlLUXVUdnNYcFI4V3pLcm1oUl9QQ01DWUxvaGlEQ3lRNFhyMjVEcmQ4U0w0U3hMRnZSWi1US2pMdVM2V052YVFoV1RGY3VDNXE3ZjF5Vm9WYjRPRHI4NkFqU2c2djVJcXA3Ry1wMmxPcTJuUE5mUmQ2WUJKbk5YLVlCOXBwNTZ3SXB5RVFQZXpCYmVZUGR2NnFZbjNuNDU3YUQ5MTE2bGtCNmQ2R1JZaDF5WjFULXhLNWRpT0diek9PR1dDSXRnSVJYVNIB8gFBVV95cUxNZWRTQlB6V243VUVvZ0F2dVh6NWFHQlVWVVpwTjh1QVBMWGduMmJwY3k1OWhPeEk1UmpRYmVDNDA4NjZzeDRsdkNwajZra2FGMmJ5TGdOZFJBYkZUeURaZFZjSkFHQm8yaXlOSVJ2dURhVkVvM2ZRdFg0Uk1MdXA2S1pLNTJLU3VUQUdnMFY5T1BRbzNLUEd2R0hFZWhVMFRSa3lUOEIwdzFRSjZjWmpRbmx6VnhydWc1MG1ZQlozTEVBWkduaHE0OVc2U1VOQmJON0I3alFuSmMyZkktaU1HM2lvbVZuV1lVT1dXM19YVldjZw?oc=5",
-      "time": "22.11.2026 09:42",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Anthropic: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
-      "source": "Business Standard"
     }
   ]
 }
