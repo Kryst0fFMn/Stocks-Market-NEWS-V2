@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T05:40:11.900664+00:00",
+  "updated_at": "2026-11-23T06:53:15.913490+00:00",
   "stocks": [
     {
       "name": "Microsoft",
@@ -7506,7 +7506,8 @@
         ["2026-11-23T04:30Z", 2040.0],
         ["2026-11-23T04:45Z", 2035.0],
         ["2026-11-23T05:00Z", 2025.0],
-        ["2026-11-23T05:15Z", 2025.0]
+        ["2026-11-23T05:15Z", 2035.0],
+        ["2026-11-23T05:30Z", 2030.0]
       ]
     },
     {
@@ -9638,8 +9639,8 @@
       "symbol": "0700.HK",
       "market": "Hongkong",
       "currency": "HKD",
-      "price": 342.2,
-      "change": -0.52,
+      "price": 342.0,
+      "change": -0.58,
       "history": [
         ["2025-11-24", 624.5],
         ["2025-11-25", 625.0],
@@ -9886,7 +9887,7 @@
         ["2026-11-18", 372.8],
         ["2026-11-19", 348.4],
         ["2026-11-20", 344.0],
-        ["2026-11-23", 342.2]
+        ["2026-11-23", 342.0]
       ],
       "intraday": [
         ["2026-11-17T01:30Z", 378.2],
@@ -9992,7 +9993,12 @@
         ["2026-11-23T03:30Z", 338.6],
         ["2026-11-23T03:45Z", 337.8],
         ["2026-11-23T05:00Z", 338.2],
-        ["2026-11-23T05:15Z", 342.0]
+        ["2026-11-23T05:15Z", 342.0],
+        ["2026-11-23T05:30Z", 342.4],
+        ["2026-11-23T05:45Z", 342.4],
+        ["2026-11-23T06:00Z", 342.0],
+        ["2026-11-23T06:15Z", 342.0],
+        ["2026-11-23T06:30Z", 342.0]
       ]
     },
     {
@@ -15827,6 +15833,51 @@
   ],
   "news": [
     {
+      "company": "SpaceX",
+      "title": "Jefferies initiates SpaceX stock coverage with buy rating on launch dominance",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPRkZvdktUZzlDbWNuazJaekluc09MVzVsdlVpVWFqRHo1WGNLblRoLW9IV19faDBhb3o0eGEwbGlhREdPYWQyTHJhM3I3Zzhxbmh0Mm5fVGxuU1FkTnEtS2g3WDF0TlFlNkh4QV9Ma204V1lFeVhZZDZwaVREUXRfVTZlcFBxdnRhZGdSbDdSdzN2RHlqeWZEQ0F2RVBjNGM1NG1FYWdMdXRRTDdzZGVkTDRMZU9WbVRTTlNKNTJLRllKbTMxd09EVkNLRGpnaHROTlBFYg?oc=5",
+      "time": "23.11.2026 07:43",
+      "direction": "up",
+      "impact": "Může vést k nárůstu ceny akcie SpaceX: analytici zlepšují hodnocení, což často přitáhne nové kupce.",
+      "source": "Investing.com Nigeria"
+    },
+    {
+      "company": "Anthropic",
+      "title": "Wall Street set to rebound after AI stock sell-off",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNeXhpd01xVDBQSlFMWUJzZktLSGh3WXZ0b3JfRTdwSEV4Rll0bjlIc3FfM3MwemllQlRidmpiOEpUbHJBQzZ4YU1ZOFNhMmVpMjBWc3RULWppdmxLZVdERHFTLXJHSjU3aTFWcmFrakkzS3VpTDFkSE45Vk1TbmszWUhzcVM?oc=5",
+      "time": "23.11.2026 07:06",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Anthropic: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
+      "source": "Financial Times"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Lawsuit: Alibaba Defrauded Shareholders by Concealing Ties to Suspected Spy in Nvidia Scandal",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1ydVI1cS1PaENwNEU1SGFuM3R1S1VpMTJ1M1FJVzdNWk0zdEVUZ3hRS0JyNXlzbWxrcTRMU3JhZ00yX3pnMmpfcGwwdTlXVmlWUkg4SEFjWkhpMHM4Ymp4U0ppLU55aDlDeDVJOWM5Mk9xLWs?oc=5",
+      "time": "23.11.2026 07:00",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie NVIDIA: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
+      "source": "Claims Journal"
+    },
+    {
+      "company": "AMD",
+      "title": "AMD acquires AI chip startup Taalas for $2.9B to advance AI inference technology",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQzJCT1c1Z3JtOUs3akd4LWxFc3JlNFhLQzMzZzAxd1JXNTBFZi0zOHVMaUwzTG91clVyV1VQSDRoRDNkZWFGSFlsdFZTd1ZzbDhjYk00WHdoNUpPZUgyYkdVRWR0MUQ4SjgxSGJHX0oyZ2hyRTZ2VWJlQ1dILTFVaTltSkVTMWU5VlVfdkhEaDFGYldEa3JRSm5lVkJVYnA0c0doWEpDRS1KQQ?oc=5",
+      "time": "23.11.2026 06:38",
+      "direction": "mixed",
+      "impact": "Dopad na cenu akcie AMD je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
+      "source": "Tech.eu"
+    },
+    {
+      "company": "AstraZeneca",
+      "title": "AstraZeneca Signs Deal to Advance Heart Disease Care in Saudi Arabia",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPazA5U0tkN3F1bnFveFFkb2J1aG9qUXh3YWtmd1pKQVU5OUdjb0l1MGtCOGJCbXJMLWoxeGpyX0hvUzQ5cnJudW1yUmxHMWM2NjhlRUtGdTc0dVFEb3lkeDRZMDZ6Y2NiX25IakRtSEtlVWEzUzI1MTN6aWpYY1g4N0xxUzRIaWU4RFlyOUdCdUdWa1UxNW5waXVEbVI?oc=5",
+      "time": "23.11.2026 06:37",
+      "direction": "up",
+      "impact": "Může vést k nárůstu ceny akcie AstraZeneca: nový kontrakt nebo partnerství může zvýšit budoucí tržby.",
+      "source": "CairoScene"
+    },
+    {
       "company": "NVIDIA",
       "title": "Reported SEC Probe: Could Nvidia Stock Fall To $92?",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOX0gzWTBGeE9sT2V5ZTZJSkhnT0JLY1FYTWIyWXhHWTF0N2hHUHNNWVY4bXd1NmdxQTZadUFDSTNWNDlibnhkV1VoaWU5bE16cUwzaW4zUFNka3ByeTM1dHhJNVlfbTRuWGZfZTdwNm1xNkUxTFBpaUFDYm1GWUFCMm52aGllR2NHOHYwdDhLMnBtVUdia0d4QmJYYjBNdV9JQlJROFVBdE1wdVY1akE?oc=5",
@@ -15845,15 +15896,6 @@
       "source": "CNBC"
     },
     {
-      "company": "NVIDIA",
-      "title": "Nvidia Probe Now Covers Possible Criminal Breaches Of State Law Over China Chip Sales",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQMlJaalZyNmE5M3FFUk5uV1kyZko1MnVxUWpGQkZzSGM2Z2FJcjJ3VUdlMzVhaEs0b2dTZ2ttYXVxT2VqRUFCdko1Vm9pcDdpOVp1WFByTFdPR0l2anVPQ3hjTVlLTGktZGhOQ0pvVHJUeS15OHBYZFA2VXhSOVdOUU15OE5XeVVISUVaSS0wMjllakp3Z2lwdkE0WEk3b0QtM3JhUXN2S1V3VVBjYWNVd3Riakh1Yk5qRGNuTHdRT0tiSWFHWklYUkFzRGRoR2R6MzliQw?oc=5",
-      "time": "23.11.2026 06:05",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie NVIDIA: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
-      "source": "marketscreener.com"
-    },
-    {
       "company": "AMD",
       "title": "AMD Completes Taalas Acquisition To Strengthen AI Inference Capabilities",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZzdCd3FSR3hseDFSZk05M3RaVWdyNUxHd21rT1k5eGR2UHRsZU0zNHVqOTRROHQ2ZWJEZklpNHNTVXNSMEtraUtJcWx4emNfakozNV9BcUtLaVN6Qno5Ym5Da0NGampBdlhybXE0TV8zZ1c2T1BwR3Y5Z1VKSm13V2ljN0IxYzUyZ0N0V3ZPTEV2MTlOUFRrZl9wUVF1YjNYTmZuRHljUkI2X0FaWFU3bE52RzQtZzkz?oc=5",
@@ -15863,15 +15905,6 @@
       "source": "BusinessToday Malaysia"
     },
     {
-      "company": "Anthropic",
-      "title": "Tech stock sell-off deepens in Asia",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNeXhpd01xVDBQSlFMWUJzZktLSGh3WXZ0b3JfRTdwSEV4Rll0bjlIc3FfM3MwemllQlRidmpiOEpUbHJBQzZ4YU1ZOFNhMmVpMjBWc3RULWppdmxLZVdERHFTLXJHSjU3aTFWcmFrakkzS3VpTDFkSE45Vk1TbmszWUhzcVM?oc=5",
-      "time": "23.11.2026 05:38",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Anthropic: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
-      "source": "Financial Times"
-    },
-    {
       "company": "Microsoft",
       "title": "Race to fix AI-exposed security flaws risks more outages, warns Microsoft",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNLWlkMHdXbTBicjEtR2tnQmswMkc5eTZ0U0JsNl8yNmpxMWpVLTk2SU10VEozeUdDcUtVY0hkX25TZmFtTklJc1RRVHFWUUo4T0l3SUZUV08tSm0zYWp5bEM1eVZteS11WGRhbDZIRzZIaFpUeEF4eVVKRkZnVUlFUXRqUVBSenJOUGROaGRsclFBajlLMXVmczNTRV9pUWYxUWRSUmk2TmI1YjcwcDZST2FfZkNjZGFPQUhrRzdHZ2t3R2ZQUlR2X2Q3Z9IBywFBVV95cUxNLWlkMHdXbTBicjEtR2tnQmswMkc5eTZ0U0JsNl8yNmpxMWpVLTk2SU10VEozeUdDcUtVY0hkX25TZmFtTklJc1RRVHFWUUo4T0l3SUZUV08tSm0zYWp5bEM1eVZteS11WGRhbDZIRzZIaFpUeEF4eVVKRkZnVUlFUXRqUVBSenJOUGROaGRsclFBajlLMXVmczNTRV9pUWYxUWRSUmk2TmI1YjcwcDZST2FfZkNjZGFPQUhrRzdHZ2t3R2ZQUlR2X2Q3Zw?oc=5",
@@ -15879,6 +15912,15 @@
       "direction": "down",
       "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
       "source": "National Herald"
+    },
+    {
+      "company": "Microsoft",
+      "title": "Microsoft Outage and FAA Ground Stop Are 'Just the Opening Chapter' Top Cyber Expert Says as AI Gives Hackers a 'Negative Seven Days' Head Start",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVE1TY0c1YWExNlRoTmZuR1I1c1dyWGU1MDRyQnZhZ2xab0UwU1dtLVhIUXg1TmxuenRlUXNIY2RmQnFfZ0tqUEJ6bGwzRDlENTFXSERyWE02YTFXTlRXX2NlQXdzN3JtRVRLYk1vN3F6WjluSm9vcHJlTXNDOWM5RjB6TFp2Q09vMkFsakhIZDF6UFdROW1CTQ?oc=5",
+      "time": "23.11.2026 05:30",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
+      "source": "Yahoo Tech"
     },
     {
       "company": "Microsoft",
@@ -15897,15 +15939,6 @@
       "direction": "down",
       "impact": "Může vést k poklesu ceny akcie Intel: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
       "source": "Macau Business"
-    },
-    {
-      "company": "Microsoft",
-      "title": "Microsoft outage cause revealed: It was a perfect storm of problems",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5aOXNncW9QdWVtZ3RXTHF5VnFncFJTcXptUWtGX0V6azdmcXZVQjBienJMdzJydEdseXhVZHZRcExPbS0xUXlCcXhyX2RDOUZOd0h3bEhwU1hiNF9hc0FNdTZLSkJGUVpz?oc=5",
-      "time": "23.11.2026 01:44",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
-      "source": "Mashable"
     },
     {
       "company": "Tesla",
@@ -16013,33 +16046,6 @@
       "time": "22.11.2026 15:01",
       "direction": "up",
       "impact": "Může vést k nárůstu ceny akcie Broadcom: analytici zlepšují hodnocení, což často přitáhne nové kupce.",
-      "source": "ad-hoc-news.de"
-    },
-    {
-      "company": "SpaceX",
-      "title": "This Week in TSLA: Cybercab's Deliveries, SpaceX-Tesla Merger Talk, Model Y Without Steering Wheel and More",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOUHVFcFNZWlpkVy1zQ283RzJzLWFyajVKNmkzUlZXSzJNZFFpMXFDckI5cEFvTjctMk1DcWNzVkJtaEtlNVdrWDZVcDlxTnJfcUhLUVkxdVBFN0t1bXJ2RnBWdjl3NmRFRnhnUi1zQkxLVjkwcFpHbjJzUllUSlNDbURpa1VuenFuemJwLUxQUFVwcjBYYUFXWE1kcnZBSkdrcmxSQWFRUS1WaG5NLWJCUUNkc3RGMzFHMFhEVUlRcHNYNTVON2xid3hMWUk4Z19vdHY4UmxnNS1PQ0F4dVpRaEJ1SUNid2NFaEhwbw?oc=5",
-      "time": "22.11.2026 14:50",
-      "direction": "mixed",
-      "impact": "Dopad na cenu akcie SpaceX je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
-      "source": "Benzinga"
-    },
-    {
-      "company": "AMD",
-      "title": "Arm Sinks 20% in a Week as Chips Slide and Nvidia’s Headhunters Approach CEO Rene Haas. Time to Buy?",
-      "url": "https://www.tikr.com/blog/arm-sinks-20-in-a-week-as-chips-slide-and-nvidias-headhunters-approach-ceo-rene-haas-time-to-buy?ref=yahoofinance&tlnk=yf-261122-5qfprg9c",
-      "time": "22.11.2026 14:35",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie AMD: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
-      "source": "TIKR"
-    },
-    {
-      "company": "Micron Technology",
-      "title": "Micron's 14% Friday Slide Masks a Sold-Out Order Book and a Revived Antitrust Case",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNUFhZTXgtWERKSHNkUHMxTWVESG5yX0s4bnhlUDFwRnUxYlJmMHhYdk9oWTdrLXFmS3FoOWxYdjQ1NXZuM2xJRWFnSUlrYmZ6U1lfVDVydGRQNUV2dElQUEg5WUtOcFM5YTdfYlpoRkxaWFJCajdfUHJrODNKOVUtM0Rkel92cHNJZVhwN2dXS1lnRExmMU4xTklYaUJwRFNLRlJWV0cwZ2V3YjFORGFfWmNVYk9RN1p5RGNhLVo1NWhBZEExcUZzR2JyMDQ2aXNJblNpOXNwYWZ5Z2FoVWJqVTE2aW5WT1Vl?oc=5",
-      "time": "22.11.2026 14:11",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Micron Technology: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
       "source": "ad-hoc-news.de"
     }
   ]
