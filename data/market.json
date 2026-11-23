@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T21:36:03.745241+00:00",
+  "updated_at": "2026-11-23T22:36:58.077415+00:00",
   "stocks": [
     {
       "name": "Microsoft",
@@ -552,7 +552,11 @@
         ["2026-11-23T20:45Z", 492.97],
         ["2026-11-23T21:00Z", 492.8],
         ["2026-11-23T21:15Z", 493.07],
-        ["2026-11-23T21:30Z", 493.05]
+        ["2026-11-23T21:30Z", 492.72],
+        ["2026-11-23T21:45Z", 493.25],
+        ["2026-11-23T22:00Z", 493.79],
+        ["2026-11-23T22:15Z", 494.34],
+        ["2026-11-23T22:30Z", 494.11]
       ]
     },
     {
@@ -1106,7 +1110,11 @@
         ["2026-11-23T20:45Z", 165.18],
         ["2026-11-23T21:00Z", 164.67],
         ["2026-11-23T21:15Z", 165.18],
-        ["2026-11-23T21:30Z", 165.25]
+        ["2026-11-23T21:30Z", 164.85],
+        ["2026-11-23T21:45Z", 165.2],
+        ["2026-11-23T22:00Z", 165.07],
+        ["2026-11-23T22:15Z", 165.16],
+        ["2026-11-23T22:30Z", 166.2]
       ]
     },
     {
@@ -1661,7 +1669,11 @@
         ["2026-11-23T20:45Z", 349.69],
         ["2026-11-23T21:00Z", 349.42],
         ["2026-11-23T21:15Z", 349.64],
-        ["2026-11-23T21:30Z", 349.67]
+        ["2026-11-23T21:30Z", 349.41],
+        ["2026-11-23T21:45Z", 349.51],
+        ["2026-11-23T22:00Z", 349.49],
+        ["2026-11-23T22:15Z", 349.7],
+        ["2026-11-23T22:30Z", 349.53]
       ]
     },
     {
@@ -2216,7 +2228,11 @@
         ["2026-11-23T20:45Z", 255.42],
         ["2026-11-23T21:00Z", 256.06],
         ["2026-11-23T21:15Z", 255.75],
-        ["2026-11-23T21:30Z", 255.58]
+        ["2026-11-23T21:30Z", 255.9],
+        ["2026-11-23T21:45Z", 256.03],
+        ["2026-11-23T22:00Z", 256.02],
+        ["2026-11-23T22:15Z", 256.35],
+        ["2026-11-23T22:30Z", 256.67]
       ]
     },
     {
@@ -2771,7 +2787,11 @@
         ["2026-11-23T20:45Z", 282.31],
         ["2026-11-23T21:00Z", 282.45],
         ["2026-11-23T21:15Z", 283.16],
-        ["2026-11-23T21:30Z", 282.97]
+        ["2026-11-23T21:30Z", 282.88],
+        ["2026-11-23T21:45Z", 283.45],
+        ["2026-11-23T22:00Z", 283.45],
+        ["2026-11-23T22:15Z", 283.94],
+        ["2026-11-23T22:30Z", 284.24]
       ]
     },
     {
@@ -3326,7 +3346,11 @@
         ["2026-11-23T20:45Z", 597.91],
         ["2026-11-23T21:00Z", 597.82],
         ["2026-11-23T21:15Z", 599.0],
-        ["2026-11-23T21:30Z", 598.88]
+        ["2026-11-23T21:30Z", 597.65],
+        ["2026-11-23T21:45Z", 599.85],
+        ["2026-11-23T22:00Z", 599.26],
+        ["2026-11-23T22:15Z", 598.7],
+        ["2026-11-23T22:30Z", 599.4]
       ]
     },
     {
@@ -3880,7 +3904,11 @@
         ["2026-11-23T20:45Z", 385.86],
         ["2026-11-23T21:00Z", 385.53],
         ["2026-11-23T21:15Z", 385.85],
-        ["2026-11-23T21:30Z", 385.8]
+        ["2026-11-23T21:30Z", 385.4],
+        ["2026-11-23T21:45Z", 385.92],
+        ["2026-11-23T22:00Z", 385.34],
+        ["2026-11-23T22:15Z", 385.79],
+        ["2026-11-23T22:30Z", 386.11]
       ]
     },
     {
@@ -4297,7 +4325,11 @@
         ["2026-11-23T20:45Z", 133.36],
         ["2026-11-23T21:00Z", 133.4],
         ["2026-11-23T21:15Z", 133.73],
-        ["2026-11-23T21:30Z", 133.86]
+        ["2026-11-23T21:30Z", 133.75],
+        ["2026-11-23T21:45Z", 134.05],
+        ["2026-11-23T22:00Z", 134.19],
+        ["2026-11-23T22:15Z", 134.1],
+        ["2026-11-23T22:30Z", 134.29]
       ]
     },
     {
@@ -4839,7 +4871,11 @@
         ["2026-11-23T20:45Z", 572.94],
         ["2026-11-23T21:00Z", 572.71],
         ["2026-11-23T21:15Z", 573.86],
-        ["2026-11-23T21:30Z", 573.4]
+        ["2026-11-23T21:30Z", 573.02],
+        ["2026-11-23T21:45Z", 573.19],
+        ["2026-11-23T22:00Z", 573.7],
+        ["2026-11-23T22:15Z", 574.34],
+        ["2026-11-23T22:33Z", 574.34]
       ]
     },
     {
@@ -5375,7 +5411,11 @@
         ["2026-11-23T20:45Z", 316.72],
         ["2026-11-23T21:00Z", 316.66],
         ["2026-11-23T21:15Z", 317.5],
-        ["2026-11-23T21:33Z", 316.66]
+        ["2026-11-23T21:30Z", 315.33],
+        ["2026-11-23T21:45Z", 316.66],
+        ["2026-11-23T22:00Z", 317.58],
+        ["2026-11-23T22:15Z", 317.53],
+        ["2026-11-23T22:32Z", 317.65]
       ]
     },
     {
@@ -5908,7 +5948,10 @@
         ["2026-11-23T20:45Z", 409.66],
         ["2026-11-23T21:00Z", 409.4],
         ["2026-11-23T21:15Z", 409.4],
-        ["2026-11-23T21:20Z", 409.4]
+        ["2026-11-23T21:30Z", 409.4],
+        ["2026-11-23T21:45Z", 409.76],
+        ["2026-11-23T22:15Z", 409.71],
+        ["2026-11-23T22:30Z", 410.8]
       ]
     },
     {
@@ -6455,8 +6498,12 @@
         ["2026-11-23T20:30Z", 1363.43],
         ["2026-11-23T20:45Z", 1367.35],
         ["2026-11-23T21:00Z", 1365.0],
-        ["2026-11-23T21:15Z", 1366.0],
-        ["2026-11-23T21:30Z", 1366.84]
+        ["2026-11-23T21:15Z", 1367.52],
+        ["2026-11-23T21:30Z", 1334.93],
+        ["2026-11-23T21:45Z", 1366.5],
+        ["2026-11-23T22:00Z", 1366.5],
+        ["2026-11-23T22:15Z", 1366.5],
+        ["2026-11-23T22:30Z", 1367.6]
       ]
     },
     {
@@ -7010,7 +7057,11 @@
         ["2026-11-23T20:45Z", 313.54],
         ["2026-11-23T21:00Z", 314.26],
         ["2026-11-23T21:15Z", 314.07],
-        ["2026-11-23T21:30Z", 313.94]
+        ["2026-11-23T21:30Z", 312.43],
+        ["2026-11-23T21:45Z", 312.0],
+        ["2026-11-23T22:00Z", 312.48],
+        ["2026-11-23T22:15Z", 313.44],
+        ["2026-11-23T22:30Z", 313.5]
       ]
     },
     {
@@ -7019,8 +7070,8 @@
       "market": "Tchaj-wan",
       "currency": "TWD",
       "query": "(TSMC OR \"Taiwan Semiconductor\")",
-      "price": 2000.0,
-      "change": -4.76,
+      "price": 2030.0,
+      "change": 1.5,
       "history": [
         ["2025-11-24", 1375.0],
         ["2025-11-25", 1415.0],
@@ -7262,7 +7313,8 @@
         ["2026-11-17", 2170.0],
         ["2026-11-18", 2175.0],
         ["2026-11-19", 2100.0],
-        ["2026-11-20", 2000.0]
+        ["2026-11-20", 2000.0],
+        ["2026-11-23", 2030.0]
       ],
       "intraday": [
         ["2026-11-17T01:00Z", 2240.0],
@@ -9484,7 +9536,7 @@
       "market": "Hongkong",
       "currency": "HKD",
       "price": 344.0,
-      "change": -1.26,
+      "change": 0.0,
       "history": [
         ["2025-11-24", 624.5],
         ["2025-11-25", 625.0],
@@ -9730,7 +9782,8 @@
         ["2026-11-17", 376.0],
         ["2026-11-18", 372.8],
         ["2026-11-19", 348.4],
-        ["2026-11-20", 344.0]
+        ["2026-11-20", 344.0],
+        ["2026-11-23", 344.0]
       ],
       "intraday": [
         ["2026-11-17T01:30Z", 378.2],
@@ -10004,7 +10057,11 @@
         ["2026-11-23T20:45Z", 87.42],
         ["2026-11-23T21:00Z", 87.41],
         ["2026-11-23T21:15Z", 87.61],
-        ["2026-11-23T21:30Z", 87.65]
+        ["2026-11-23T21:30Z", 87.49],
+        ["2026-11-23T21:45Z", 87.42],
+        ["2026-11-23T22:00Z", 87.1],
+        ["2026-11-23T22:15Z", 87.38],
+        ["2026-11-23T22:30Z", 87.6]
       ]
     },
     {
@@ -10559,7 +10616,11 @@
         ["2026-11-23T20:45Z", 454.07],
         ["2026-11-23T21:00Z", 453.83],
         ["2026-11-23T21:15Z", 450.27],
-        ["2026-11-23T21:30Z", 451.0]
+        ["2026-11-23T21:30Z", 449.83],
+        ["2026-11-23T21:45Z", 451.95],
+        ["2026-11-23T22:00Z", 450.57],
+        ["2026-11-23T22:15Z", 452.99],
+        ["2026-11-23T22:30Z", 453.35]
       ]
     },
     {
@@ -11114,7 +11175,11 @@
         ["2026-11-23T20:45Z", 707.69],
         ["2026-11-23T21:00Z", 706.23],
         ["2026-11-23T21:15Z", 708.21],
-        ["2026-11-23T21:30Z", 709.7]
+        ["2026-11-23T21:30Z", 706.5],
+        ["2026-11-23T21:45Z", 709.68],
+        ["2026-11-23T22:00Z", 708.5],
+        ["2026-11-23T22:15Z", 709.18],
+        ["2026-11-23T22:30Z", 712.52]
       ]
     },
     {
@@ -11664,7 +11729,11 @@
         ["2026-11-23T20:45Z", 113.79],
         ["2026-11-23T21:00Z", 113.79],
         ["2026-11-23T21:15Z", 113.95],
-        ["2026-11-23T21:30Z", 114.18]
+        ["2026-11-23T21:30Z", 113.95],
+        ["2026-11-23T21:45Z", 114.0],
+        ["2026-11-23T22:00Z", 114.02],
+        ["2026-11-23T22:15Z", 114.13],
+        ["2026-11-23T22:30Z", 114.41]
       ]
     },
     {
@@ -12218,7 +12287,11 @@
         ["2026-11-23T20:45Z", 59.67],
         ["2026-11-23T21:00Z", 59.54],
         ["2026-11-23T21:15Z", 59.58],
-        ["2026-11-23T21:30Z", 59.39]
+        ["2026-11-23T21:30Z", 59.23],
+        ["2026-11-23T21:45Z", 59.28],
+        ["2026-11-23T22:00Z", 59.14],
+        ["2026-11-23T22:15Z", 59.16],
+        ["2026-11-23T22:30Z", 59.42]
       ]
     },
     {
@@ -12772,7 +12845,10 @@
         ["2026-11-23T20:45Z", 58.1],
         ["2026-11-23T21:00Z", 58.03],
         ["2026-11-23T21:15Z", 58.09],
-        ["2026-11-23T21:30Z", 58.1]
+        ["2026-11-23T21:30Z", 57.99],
+        ["2026-11-23T21:45Z", 58.0],
+        ["2026-11-23T22:00Z", 58.08],
+        ["2026-11-23T22:15Z", 58.15]
       ]
     },
     {
@@ -13296,7 +13372,9 @@
         ["2026-11-23T20:30Z", 46.51],
         ["2026-11-23T20:45Z", 46.47],
         ["2026-11-23T21:00Z", 46.44],
-        ["2026-11-23T21:27Z", 46.51]
+        ["2026-11-23T21:15Z", 46.51],
+        ["2026-11-23T21:30Z", 46.38],
+        ["2026-11-23T22:15Z", 46.44]
       ]
     },
     {
@@ -13779,7 +13857,7 @@
         ["2026-11-23T20:45Z", 24.73],
         ["2026-11-23T21:00Z", 24.69],
         ["2026-11-23T21:15Z", 24.7],
-        ["2026-11-23T21:33Z", 24.74]
+        ["2026-11-23T21:30Z", 24.72]
       ]
     },
     {
@@ -14312,7 +14390,11 @@
         ["2026-11-23T20:30Z", 22.4],
         ["2026-11-23T20:45Z", 22.32],
         ["2026-11-23T21:00Z", 22.3],
-        ["2026-11-23T21:20Z", 22.3]
+        ["2026-11-23T21:15Z", 22.3],
+        ["2026-11-23T21:30Z", 22.33],
+        ["2026-11-23T21:45Z", 22.33],
+        ["2026-11-23T22:00Z", 22.31],
+        ["2026-11-23T22:19Z", 22.31]
       ]
     },
     {
@@ -15629,6 +15711,123 @@
   ],
   "news": [
     {
+      "company": "Visa",
+      "title": "Analyst Downgrades Visa to Hold as Shares Approach Fair Value",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5BUF9IeDJkRGtKTUlVbm9aVnhjVTZYR1UydVBkX05XX2hfa3dLLWNNb2lJYWVtSjJPRGp2RWEzYWFqWEEtWUlmTHdOak85WHcwbl9zdGZiRHliQTRlVHhRNTRkcGVYTjEzbmxfZQ?oc=5",
+      "time": "23.11.2026 23:24",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Visa: analytici zhoršují hodnocení, což může zvýšit prodejní tlak.",
+      "source": "Peradaban.id"
+    },
+    {
+      "company": "Micron Technology",
+      "title": "Stock Market Today, Nov. 23: Micron Surges 19% as Nvidia CEO Change Calms AI Spending Fears",
+      "url": "https://www.fool.com/coverage/stock-market-today/2026/11/23/stock-market-today-nov-23-micron-surges-19-as-nvidia-ceo-change-calms-ai-spending-fears/",
+      "time": "23.11.2026 23:20",
+      "direction": "up",
+      "impact": "Může vést k nárůstu ceny akcie Micron Technology: prudký růst ukazuje na silný zájem investorů, po rychlém růstu ale může přijít i stahování zisků.",
+      "source": "Motley Fool"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "US stocks surge and recover half of last week’s plunge after Jensen Huang returns as Nvidia’s CEO",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNF9ZLU84V2VPZHBHcGx0V3p5TVVoV21zbUYyQWFOWU96ZjBmcExvQ1lpVmtFRzl5RVpXdFg3TGhUM3ZHM282MkdnMVgxZ2lwUTRkcm9KaWlHMEcyZ3R6amZIM25vMFRRM0l1OXNxMFFSQVVnR3hzY3BNb1NyUWwxa2hLMndRMkpVZ2l2X0N2Z3JFcmRVMzRMZldCbzlEZkpGZjNmTVJZdw?oc=5",
+      "time": "23.11.2026 23:20",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie NVIDIA: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
+      "source": "AP News"
+    },
+    {
+      "company": "Visa",
+      "title": "Visa Shares Approach Fair Value as Analyst Downgrades Rating",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE93MVBlRDB0SjVvSUZGeC1nSlVlLXFQRTJkbnR0NEVYaF9jSFplM2tOOVdMbXVLVWxPRXRpM2tjODJieGhjQl9kUmE1Rlg2WDdscGY3VFFNTUZ5UWlvdzR4UENiSy1UbjRX?oc=5",
+      "time": "23.11.2026 23:18",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Visa: analytici zhoršují hodnocení, což může zvýšit prodejní tlak.",
+      "source": "SuaraGarut.ID"
+    },
+    {
+      "company": "Micron Technology",
+      "title": "Micron Stock Jumps 19%. Why the Rally Has Legs.",
+      "url": "https://www.barrons.com/articles/micron-stock-tech-rally-selloff-c647c4c4?siteid=yhoof2&yptr=yahoo",
+      "time": "23.11.2026 23:17",
+      "direction": "up",
+      "impact": "Může vést k nárůstu ceny akcie Micron Technology: prudký růst ukazuje na silný zájem investorů, po rychlém růstu ale může přijít i stahování zisků.",
+      "source": "Barrons.com"
+    },
+    {
+      "company": "Meta",
+      "title": "Meta Platforms halts Class C stock dividend amid shareholder lawsuit",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQWnp4SjhwZmpHU0RxcGNUU1gyTy1ZLXhUV0p5cEw4VUVqc1RBQUZLaHg5Z0QwU2ctbEdmN01GZDJpVnpkZEdEMHZVQjZWbTBGMFZyWGgyZVNIZ2h2NFc1ZV9PR0tUckpIU24tT0RhU05iZ0Y2bGotN0RfVDBWeTJpeEx1SEx5RE10MzNtb2t1YVBZWk9PQkhIWmVNMk01Mlh0NmxlSWNJM0daMGI3V09vTnlzU2hwMnlnT0lnYlVBVlRxbEdKN1E?oc=5",
+      "time": "23.11.2026 23:07",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Meta: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
+      "source": "StreetInsider"
+    },
+    {
+      "company": "Tesla",
+      "title": "Tesla (TSLA) Is Advancing Toward A $3.5 Trillion Merger",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-tsla-advancing-toward-3-220707866.html",
+      "time": "23.11.2026 23:07",
+      "direction": "mixed",
+      "impact": "Dopad na cenu akcie Tesla je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
+      "source": "Simply Wall St."
+    },
+    {
+      "company": "SpaceX",
+      "title": "Virginia, Oregon attorneys general file lawsuits against SpaceX over Grok-generated images",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOcmktLWpXTWk3WE1WWHJSVGlXQnJEUS1mbC1icElZMGU3ZFJnM0I0VTZtUnE0aDc0aUVSdlgtNS1BbHdPWnA5VUp0bHZiTHV6Sjd4Q3JGbjNyd3hKUUV6b0pxQVR1aGRUWDdKaXRVUWlJenk1TDBDWGRzMlJSaHBSQmxWdWVoM3locld6V1YtZWxGY0taRVpxamJ4dzVjZktUS2tXYnNUQ0I5WktBenF0Rm1jYWYySlhYRHRaTFlnN1nSAdQBQVVfeXFMTXhWNnhiU0RLWlhNZWlSZU9lS29UNm55ZHdaeG0wdDMtMkpDTUlGLUc0TjdkNjBIYTVZRzhfdXV0R2gweUZLSjhNdVFKSmxCbWJfcVI1djcxVEwySUxkSXBGUnRTR09ERFZTZVdpZ05MQ3VMUF90V09OemhxR2FjV1Y3ZUloMUl0WGxnTVgwMHRnYmp6SFRzN1FJcU5uRXljVkRIcHlkWGdwcTJHSHRiQTBWVTlnRy1rQjN1bjVreEVDYk9abTRreUNjWmZLYjhMLUhKNGM?oc=5",
+      "time": "23.11.2026 22:52",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie SpaceX: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
+      "source": "WDBJ7"
+    },
+    {
+      "company": "Tesla",
+      "title": "Tesla Shares Climb 11.5% as HSBC Lifts Rating on SpaceX Merger Scenarios : Finance : JKN",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFAydHNWSjR6dWdwVkJfRmdCZjlQZWVKMDNwWGFGVjJ3YlB5SzNkTWM3X1Jwb3ZmeHM5b25iTGlmdUNnMjByOUFYTXltMUZDZ01NTnZOR0ZNV1VST09icDBQNEdB?oc=5",
+      "time": "23.11.2026 22:50",
+      "direction": "mixed",
+      "impact": "Dopad na cenu akcie Tesla je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
+      "source": "재경일보"
+    },
+    {
+      "company": "LVMH",
+      "title": "French billionaire Bernard Arnault's Dior approves merger with family holding Agache",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxON1VrYkhnbXgxYkduVmJTSHpGTVZ2MHdUMmJTdExMR0gtaHN5MWJaaE1IQUpENmxqYnAwdTBXeG9hdmNUbUc1Q19xRzNhbzJBUW5OYzdtNVFRNjNmSGNEeWNhVFVmUTBQY1I5dENmcjF5UkNTbmtiYzYwVlBWbDhST281ekVlX3NiZ2NKekJ5M0RPaDd1YlN6YUg0VTVrLUJFY0dfbzkxSGpBeDNGSVM1aXlfZVJJYm1mZHVzRDdDV2RCdkdIaGc?oc=5",
+      "time": "23.11.2026 22:45",
+      "direction": "mixed",
+      "impact": "Dopad na cenu akcie LVMH je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
+      "source": "Billionaires.Africa"
+    },
+    {
+      "company": "SpaceX",
+      "title": "Virginia, Oregon hit SpaceX with fresh lawsuits over Grok-created CSAM",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1VYkN2emttNkV2dEhFcnNDY0hBNWtBZVhHSm04S3VqVmgwT3VmWVNxRlNmb05vbl9kdGJ6MTFzZzYzZFZmQ2NTcHJ5U0xweVU0X2pHU1ptY0NSTWhRNlNWazMyM0V0TGI3c1h2ZVFrM3FPZEk?oc=5",
+      "time": "23.11.2026 22:37",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie SpaceX: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
+      "source": "CyberScoop"
+    },
+    {
+      "company": "Tesla",
+      "title": "Why the Stock Market Rose Today: Dow Jumps 1,448 Points, S&P 500 +4.7%, Nasdaq +6.5%",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZXNZaTAyWHhDT1E3bmdDVFUyV1JTem42VjZZc3BraVg2dUdQOU1LaGxzZUM4VUdmWlQ5QnRFa3gwRVpvbENMTjJPUllPWG93WDN6UU5NVTJsc1VGdDUzQVpYbTBzelVfS011bHdtUHZMUHJTRzM2NTVFaXg0WHJXR1RmNVYwcWdPZmxNa19yblg2cm53Y2U3LUJ4SkFja05ldkpESjYwXzdEaDBrSHRwUG1B?oc=5",
+      "time": "23.11.2026 22:31",
+      "direction": "up",
+      "impact": "Může vést k nárůstu ceny akcie Tesla: prudký růst ukazuje na silný zájem investorů, po rychlém růstu ale může přijít i stahování zisků.",
+      "source": "Around Prague"
+    },
+    {
+      "company": "ASML",
+      "title": "ASML Stock’s Sell-Off Looks Excessive Against Its Growth Outlook",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/asml-stock-sell-off-looks-212500722.html",
+      "time": "23.11.2026 22:25",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie ASML: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
+      "source": "TipRanks"
+    },
+    {
       "company": "Amazon",
       "title": "Amazon Stock Rises 4% After Announcing Acquisition of AI Startup Decart AI",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOeGZMRDlrbE1hb21mc28zX0JxOFNacFNmWVNYZzJ3cnVOeWd0TTdMNlJ0RGNxT1FRSkdvNEdqSi1fN2NueW9yeEdGaUxmNVNyd052SWZoSTl6QTA4WmNIWDQ5eWVDUWl4TW1sYU1PRHV0MU1iNFBJY05DSWNzdTNwbmRaZ0xiR2xpUE8zNnd5R2VNaWpTTFlucWVfR1dYcm1zZUU3WnhKTFI5V2M?oc=5",
@@ -15656,22 +15855,22 @@
       "source": "StreetInsider"
     },
     {
-      "company": "NVIDIA",
-      "title": "US stocks surge and recover half of last week’s plunge after Jensen Huang returns as Nvidia’s CEO",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNF9ZLU84V2VPZHBHcGx0V3p5TVVoV21zbUYyQWFOWU96ZjBmcExvQ1lpVmtFRzl5RVpXdFg3TGhUM3ZHM282MkdnMVgxZ2lwUTRkcm9KaWlHMEcyZ3R6amZIM25vMFRRM0l1OXNxMFFSQVVnR3hzY3BNb1NyUWwxa2hLMndRMkpVZ2l2X0N2Z3JFcmRVMzRMZldCbzlEZkpGZjNmTVJZdw?oc=5",
-      "time": "23.11.2026 22:20",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie NVIDIA: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
-      "source": "AP News"
-    },
-    {
-      "company": "AMD",
+      "company": "Oracle",
       "title": "AI Energy Stocks, From Fuel Cells To Uranium, Rebound As Nvidia Soars",
       "url": "https://www.investors.com/news/ai-energy-stocks-bloom-vernova-oklo-rally-nvidia-rebound-trade/?src=A00220&yptr=yahoo",
       "time": "23.11.2026 22:19",
       "direction": "up",
-      "impact": "Může vést k nárůstu ceny akcie AMD: prudký růst ukazuje na silný zájem investorů, po rychlém růstu ale může přijít i stahování zisků.",
+      "impact": "Může vést k nárůstu ceny akcie Oracle: prudký růst ukazuje na silný zájem investorů, po rychlém růstu ale může přijít i stahování zisků.",
       "source": "Investor's Business Daily"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Nvidia CEO Jensen Huang resigns in wake of affair with woman suspected of spying for China",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBZT1ZmbWY1Z3Q4cE5KVWVRcWtIVkZwbFZIMzA3THRlTU1tUkM4Zi1ESHpicTFjYjlWblR0MW5TMUZMNy1MWFVzZGxPdXJzU3BIM2g4aGRSaXU3M3VHWVRfZGV5SWJLcjd2WXA3UUxn?oc=5",
+      "time": "23.11.2026 22:19",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie NVIDIA: odchod klíčového manažera zvyšuje nejistotu o dalším směřování firmy.",
+      "source": "CBS News"
     },
     {
       "company": "Anthropic",
@@ -15692,15 +15891,6 @@
       "source": "Yahoo Finance"
     },
     {
-      "company": "NVIDIA",
-      "title": "With Jensen Huang back as CEO, Nvidia’s SEC probe puts CFO Colette Kress in the spotlight",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZDcwM2MtTV9ZNlI1MzUyQk5FOUltRENGUmlvb2JiVzJSRUlKT2xwZUJSZmczV1dtV2hZSTdiTjYzQUQ0YWYzOWxOekZsaHhCal9QWVZlRzhVa2dCUlMwclE4OXM2c0tIZDM4R0JZbGdUQ3JOeWpFcFZmRGJUQWJDN3l5ZDUyMThyVVpEdlpENDlaVERsVjZZbUEzZ3dweFl1ajhVX1dOQTk1cmZaSEFXd1BB?oc=5",
-      "time": "23.11.2026 22:14",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie NVIDIA: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
-      "source": "Fortune"
-    },
-    {
       "company": "Visa",
       "title": "After two November sales above $14M each, a Visa (V) officer proposes another share sale.",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQVl9OTHB6YWxYbzVRTTl5NG4tUFpFTV9McFByTldjcENZeUJ4VlZSZE9QVmZwbTUtY0tRZlo5dk0xdjk2ejVFTjhVUWZtRmtsdzhMYnh1cUpUTEJ6UHIzWjhMbmxRQ3hOeHNsbHJVdXV0UkxKYmg2LTFDN1RLaVRodWFIQlBvTlNWUlE?oc=5",
@@ -15708,6 +15898,15 @@
       "direction": "down",
       "impact": "Může vést k poklesu ceny akcie Visa: prodej akcií nebo konec lock-upu zvyšuje nabídku akcií na trhu.",
       "source": "Stock Titan"
+    },
+    {
+      "company": "Anthropic",
+      "title": "Stock market rebounds sharply after sell-off, Nvidia closes up more than 31%",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPLUxhVVd6d1RWaXhTRXNvc3ZVQ2dEdzFGTzdoY1NlWFZvV1lqRVlMSDdIZzg0ZFNMWncySEstQmUycmJxNlBqbmd1bWJXZVVoU1pMV1VaSkMyQWR0QmJxY3R6b1dJTGRWWkFwaFNlLTd6dGRlMWlkTE9kMm9EaG5mM2RZZkt3cmh3QkphSQ?oc=5",
+      "time": "23.11.2026 22:03",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Anthropic: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
+      "source": "ABC7 Los Angeles"
     },
     {
       "company": "SpaceX",
@@ -15719,15 +15918,6 @@
       "source": "Oregon Capital Chronicle"
     },
     {
-      "company": "Alphabet",
-      "title": "Stock Market Today: Dow Surges On Jensen Huang's Nvidia Return; Boeing Flies On This (Live Coverage)",
-      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-nvidia-nvda-crowdstrike-zscaler/?src=A00220&yptr=yahoo",
-      "time": "23.11.2026 21:50",
-      "direction": "up",
-      "impact": "Může vést k nárůstu ceny akcie Alphabet: prudký růst ukazuje na silný zájem investorů, po rychlém růstu ale může přijít i stahování zisků.",
-      "source": "Investor's Business Daily"
-    },
-    {
       "company": "Shell",
       "title": "COP31 Breaks Down as Shell-Backed Rosebank Faces a New Climate Test — An Independent Documentary Investigation",
       "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOTWRRVVN6UDhaczh2c3ljZkNOTWNjdGt4YUl4d0pvaUtwZTdtd3NZakNKdUpzVUtCc3A0X1ZRWlNFSXdCQ1lIcFBueldhckRZUG5XY2d2eG8yZ09VZURGZ1IxS0JPSUlsSWVfMjFKTU1HTXJjLXd4a0hBSlg2NEo3dnZ0aDRYN0RPWHMzWWhMeTJIbHVGV05YNGk5eTlMTDk5ZUlmRjBOX0tzRnExalFnc3hoMDlEcEtEd2VDMnRrVXlJZ3ZxUVFkRU95dVdwN2pEUjVhbFo0SHUxcHlwWTJFM3FEdENvZw?oc=5",
@@ -15735,114 +15925,6 @@
       "direction": "down",
       "impact": "Může vést k poklesu ceny akcie Shell: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
       "source": "Royal Dutch Shell Plc .com"
-    },
-    {
-      "company": "Alphabet",
-      "title": "Alphabet Stock Jumps 6.8% as Nvidia's Huang Return Reignites AI Trade",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAwWHZ2V1dxQ2l4anlaY196R19jS0NQcWFIa1B2LWJPSFgzY041MEZqZUV1b2tPcTlaVC16dkw0S2ppR09nLUxrTEpvbk8zQzlMQndZS3FsSEpaS2t4elRxcm1qVEhEYlVIYVhZUlp4RmhwZlE5b1E?oc=5",
-      "time": "23.11.2026 21:25",
-      "direction": "up",
-      "impact": "Může vést k nárůstu ceny akcie Alphabet: prudký růst ukazuje na silný zájem investorů, po rychlém růstu ale může přijít i stahování zisků.",
-      "source": "BigGo Finance"
-    },
-    {
-      "company": "Tesla",
-      "title": "“No Synergies” in a SpaceX-Tesla Merger? Really? Starlink Just Showed Up in a Cybercab Roof",
-      "url": "https://www.tikr.com/blog/no-synergies-in-a-spacex-tesla-merger-really-starlink-just-showed-up-in-a-cybercab-roof?ref=yahoofinance&tlnk=yf-261123-6p2w8xcj",
-      "time": "23.11.2026 21:23",
-      "direction": "mixed",
-      "impact": "Dopad na cenu akcie Tesla je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
-      "source": "TIKR"
-    },
-    {
-      "company": "SpaceX",
-      "title": "Oregon AG announces lawsuit against SpaceX’s AI product Grok",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOOTF0RXBCNlJ4QUhnRW5acXFzYzJHdC1MYnZpX1BWR3JaeVFPZWJnYjdhUHIxWkQwUlBOelhVbFN6NHBOSC1HYWJHNlp0d256dExDcXJwZE01djRIVUZPOHkxbnpmYVVsemgxR2pGNXRBOGw5NXlOb0FqeFg4RlJtSVY3dHdOb0F5ZVV6b2ZCeUpNTlZldTQteFdMaXo?oc=5",
-      "time": "23.11.2026 21:19",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie SpaceX: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
-      "source": "KOIN.com"
-    },
-    {
-      "company": "Micron Technology",
-      "title": "Micron (NASDAQ:MU) Stock Soars Nearly 20% as Nvidia’s Comeback Sparks AI Memory Rally",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1abkg4OTBxMlNfODF3b2VCdy1DOUJjczlRTGFtM0tmSTBQcXI3cklFYTYwaGtPN0ZEUUdfQU4wcGMtVzJ3c3RaM0VLWURBbzM3bTlxYWFCQjFzWXMxcUZVSms4X2Q5VWh2cVRHeUdiNV9NOV9paFE?oc=5",
-      "time": "23.11.2026 20:56",
-      "direction": "up",
-      "impact": "Může vést k nárůstu ceny akcie Micron Technology: prudký růst ukazuje na silný zájem investorů, po rychlém růstu ale může přijít i stahování zisků.",
-      "source": "Stocks Down Under"
-    },
-    {
-      "company": "AMD",
-      "title": "AMD Shares Drop 13.2 Percent Amid Semiconductor Selloff",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1TbzV2ZlhNSWdNMW9zb0YzZFUzTnBtWWZGdEFBZGkyd3VKOGpJTjBaRWxuOEM0SWR1S3BYajRHT0Q2REg3aV8tcTJQMkFxMVdSUE00T01FUWcyTHZOSUducDRCR241YUJVMm5jU1E1MEhTVG8?oc=5",
-      "time": "23.11.2026 20:53",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie AMD: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
-      "source": "www.suaralandak.co.id"
-    },
-    {
-      "company": "Intel",
-      "title": "Intel Stock Soars as Nvidia Reinstates Jensen Huang, Reviving AI Optimism",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOeEFJTmF2SWY2Wk4wWWhqTERhd01seENLSFBWTUNSa3lNbFZFZ29BaU9oTWdmZklHZ2NQTUMyMDU1b2JNeVUxUkxXRHhEaTBLbDRhaF9iX1FNbWRwRTI1TnU1OV82OFNMd01kVjJvWDJkM3JRaDRmWW02QmZ6UWI2TDVmSzJBUVdtMnBKb3MzUUZxbURmNzZwNGZkVWhaTXl2Z0xjcm0zdDhjLVFHWEtWdWM5aENlVkxGSEtjSWpMNEtBYkgydXdTdTZ2eUt0QQ?oc=5",
-      "time": "23.11.2026 20:42",
-      "direction": "up",
-      "impact": "Může vést k nárůstu ceny akcie Intel: prudký růst ukazuje na silný zájem investorů, po rychlém růstu ale může přijít i stahování zisků.",
-      "source": "Benzinga"
-    },
-    {
-      "company": "Microsoft",
-      "title": "Microsoft explains, step by step, how its major global outage happened and why it took so long to restore services",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxORmlKcUljRDlpWHptSk5JRllaRUsxSm1MTG56UW5xQU16Yl9SUnRXeVlJck1BNG1PcnNhbngtejZNU21wVUtOQUozcmstdkJ4Ti1jMnpiYUtyTmhZUXpCeC10V2VJTTZtT3hSNkpBTDBfZlhockxRdU1XTVlzWWFZejAwcW56eHFfNUlrTThsS19WY1N1aFZPaGE2SlNEMXM0aDVpX25WakhLZzlfQmRDaFpxZ1RUSVF6RDhlNUFKR1NQLUJ4WmdqSi1meUtJQXlqLXB5S2Nkek44TG52QVM0?oc=5",
-      "time": "23.11.2026 20:17",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
-      "source": "El Cronista"
-    },
-    {
-      "company": "Alphabet",
-      "title": "Alphabet stock rallies over 6% after strong quarterly revenue and generative AI demand",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxORWZSU2d5emxNdDBSS0tVUVFvMVcweWZqQlZCT3cyRVZ1VlB1a2x1X05CV0RxLXRHd25faGVhSWZjbkFaV05tOC05N3llcERZOVprOFdhTWdOQ0RsQkZBdmozVXJETDU3N0tJMklMaDNzc2hMa1BSZllpQW1qTmtLTnRUVWJiN2tTWklldlRfSzlGZw?oc=5",
-      "time": "23.11.2026 20:15",
-      "direction": "up",
-      "impact": "Může vést k nárůstu ceny akcie Alphabet: prudký růst ukazuje na silný zájem investorů, po rychlém růstu ale může přijít i stahování zisků.",
-      "source": "Traders Union"
-    },
-    {
-      "company": "UniCredit",
-      "title": "Commerzbank Extends Buyback as UniCredit Clears Regulatory Hurdles",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxObC1TQ0xtRlRqZTdDYlBNdlc3Q040V3ItLXRrNGVhemh3bHQ1X3llSGplV0RyUU5kV0xmMFJsdFh0RzhrWUtfRUZfSWFHS2o1VndyX01UQmxyQVJJeklucnRVMTNHNU92T2o1b2lzMjd1QUlvcDY3UVNiaVdpOWczZzZjWFY2TDlhUHRmNTdUajg5Z0VYa01EbWZqcXRXZkNMTm42NFkwZ1Uxd1JiOVJoaDZMcURGME1nUWl3ODJQYktlbFc0SFdmTWRqMlhrVUZZS082Qw?oc=5",
-      "time": "23.11.2026 20:10",
-      "direction": "up",
-      "impact": "Může vést k nárůstu ceny akcie UniCredit: zpětný odkup akcií nebo vyšší dividenda zvyšují hodnotu pro akcionáře.",
-      "source": "ad-hoc-news.de"
-    },
-    {
-      "company": "Anthropic",
-      "title": "Anthropic's Record IPO Stumbles as $109 Billion Wipeout Tests Wall Street's AI Faith",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1iZkdmN2ZvMy1JUWFpM0czRGhVWmlVLXJjUEpHNkdRVDV2MjduLWh5aU5lX3d6czNIY2xWb3diR2pXalREdTJNQWtEbjNYSThpemYzZExTazY2T2M4cWdBZ1QwU2Zaa1ZncHlxT2JCSXVVRUp4N3c?oc=5",
-      "time": "23.11.2026 20:05",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Anthropic: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
-      "source": "BigGo Finance"
-    },
-    {
-      "company": "Apple",
-      "title": "Alphabet Soars 6% as Jensen Huang’s Return to Nvidia Reignites AI Stocks",
-      "url": "https://www.tikr.com/blog/alphabet-soars-6-as-jensen-huangs-return-to-nvidia-reignites-ai-stocks?ref=yahoofinance&tlnk=yf-261123-hwv86p83",
-      "time": "23.11.2026 20:00",
-      "direction": "up",
-      "impact": "Může vést k nárůstu ceny akcie Apple: prudký růst ukazuje na silný zájem investorů, po rychlém růstu ale může přijít i stahování zisků.",
-      "source": "TIKR"
-    },
-    {
-      "company": "Intel",
-      "title": "INTW 2X Intel ETF Jumps 26% in a Day: Should Investors Ride This Leveraged Intel Fund Back to $10?",
-      "url": "https://247wallst.com/investing/2026/11/23/intw-2x-intel-etf-jumps-26-in-a-day-should-investors-ride-this-leveraged-intel-fund-back-to-10/",
-      "time": "23.11.2026 19:57",
-      "direction": "up",
-      "impact": "Může vést k nárůstu ceny akcie Intel: prudký růst ukazuje na silný zájem investorů, po rychlém růstu ale může přijít i stahování zisků.",
-      "source": "24/7 Wall St."
     }
   ]
 }
