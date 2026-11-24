@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T06:22:21.704450+00:00",
+  "updated_at": "2026-11-24T07:52:39.705967+00:00",
   "stocks": [
     {
       "name": "Microsoft",
@@ -9269,8 +9269,8 @@
       "symbol": "7203.T",
       "market": "Japonsko",
       "currency": "JPY",
-      "price": 3324.0,
-      "change": 0.36,
+      "price": 3311.0,
+      "change": -0.03,
       "history": [
         ["2025-11-25", 3077.0],
         ["2025-11-26", 3141.0],
@@ -9513,7 +9513,7 @@
         ["2026-11-18", 3391.0],
         ["2026-11-19", 3378.0],
         ["2026-11-20", 3312.0],
-        ["2026-11-24", 3324.0]
+        ["2026-11-24", 3311.0]
       ],
       "intraday": [
         ["2026-11-17T00:00Z", 3421.0],
@@ -9629,7 +9629,9 @@
         ["2026-11-24T05:15Z", 3329.0],
         ["2026-11-24T05:30Z", 3335.0],
         ["2026-11-24T05:45Z", 3330.0],
-        ["2026-11-24T06:00Z", 3325.0]
+        ["2026-11-24T06:00Z", 3326.0],
+        ["2026-11-24T06:15Z", 3331.0],
+        ["2026-11-24T06:30Z", 3311.0]
       ]
     },
     {
@@ -9995,7 +9997,13 @@
         ["2026-11-24T05:15Z", 342.8],
         ["2026-11-24T05:30Z", 344.0],
         ["2026-11-24T05:45Z", 342.6],
-        ["2026-11-24T06:00Z", 341.2]
+        ["2026-11-24T06:00Z", 341.8],
+        ["2026-11-24T06:15Z", 342.0],
+        ["2026-11-24T06:30Z", 342.4],
+        ["2026-11-24T06:45Z", 342.0],
+        ["2026-11-24T07:00Z", 340.6],
+        ["2026-11-24T07:15Z", 341.4],
+        ["2026-11-24T07:30Z", 341.2]
       ]
     },
     {
@@ -14568,8 +14576,8 @@
       "market": "Velká Británie",
       "currency": "GBp",
       "query": "\"Shell plc\"",
-      "price": 3574.5,
-      "change": 0.0,
+      "price": 3567.0,
+      "change": -0.21,
       "history": [
         ["2025-11-24", 2772.0],
         ["2025-11-25", 2766.0],
@@ -14822,7 +14830,8 @@
         ["2026-11-17", 3673.5],
         ["2026-11-18", 3595.5],
         ["2026-11-19", 3574.5],
-        ["2026-11-20", 3574.5]
+        ["2026-11-20", 3574.5],
+        ["2026-11-24", 3567.0]
       ],
       "intraday": [
         ["2026-11-17T08:00Z", 3681.78],
@@ -15873,13 +15882,58 @@
   ],
   "news": [
     {
+      "company": "Tencent",
+      "title": "Hong Kong Stocks See Short-Selling Shakeup: Funds Exit Tech, Pile Into Auto Shares as Leapmotor Short Interest Surges Nearly 6-Fold",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1qT0IzM3pOUWxpa0JGdTc5bTNqMW1GZGstSS1QLXNySmEyZlNPc0gzdWZuMl85UGlzNlRJUjUzdnZUcTlsZC1UQlJQYzhCYXdSVHFqbTFrbHJTOWFVRHA3SGlBOFZkbE1NZkJsVUFDdFo3cHZZTXc?oc=5",
+      "time": "24.11.2026 08:25",
+      "direction": "up",
+      "impact": "Může vést k nárůstu ceny akcie Tencent: prudký růst ukazuje na silný zájem investorů, po rychlém růstu ale může přijít i stahování zisků.",
+      "source": "BigGo Finance"
+    },
+    {
       "company": "Tesla",
-      "title": "SpaceX, Tesla appoint five directors to guide merger talks, FT reports",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPRV9xVnpWUGpvckQwUG9IcVU2TlVFdlRoQ1QyUkJ0Ni0xRzhZb3A4Wm5rLXB3V0VHNWRSel9lWTd4emNPdjJOQS1wZENjNVFGM1lGRURFa3hZeFp1RURCa0c1UnVLc0F0V2NoY25PbHUxVEhxRXhnTlJPQVhBVURzcEJqdkFmNzVVVWVvQmw1MExQdXFhck5Ub1lTR2FIZnlEMzJtb2xaRVFobmtYbzVJLU5yeVlrN2lfQ0JfTTM1OA?oc=5",
-      "time": "24.11.2026 07:15",
+      "title": "SpaceX and Tesla put five directors in charge of their merger talks",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQUms1bGNpVWdEVkY3YlhLN2VxMFRYS1h5Y2t0TTBkdk5vcWEwbGJ1anBaZlVzUF9DMmF4RnRScjkzbEE4SGtoSlZYanZpSXMwYVBDcERNQUYwUzhBQ3pEaTFHdDVoMTdWMmRnR2dNRUk3TnVLR2s3X1lnSjNPbHFKaFdyRlJOcHJDOVdwcHdUTmUydw?oc=5",
+      "time": "24.11.2026 08:13",
       "direction": "mixed",
       "impact": "Dopad na cenu akcie Tesla je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
-      "source": "The Standard (HK)"
+      "source": "MLQ.ai"
+    },
+    {
+      "company": "Microsoft",
+      "title": "What two global outages mean for TZ’s digital finance",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPeGpwTEdXcHdsdTlwWkVIcG4yb2ZhcnhRbHJVQzQtOVE1VllMZ2VlX0pObkU5UXBIMmNLZDZfN1ZBRjc2dHJDR0FpQjJQbElGNk95aU43TldVeU1jT1oxN3RXRXpDai15UVVkXy11ZE03RFhTZGwzZ0s0ajR6RXZKcXp3SQ?oc=5",
+      "time": "24.11.2026 07:44",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
+      "source": "Daily News"
+    },
+    {
+      "company": "Eli Lilly",
+      "title": "Biotech Loses Ground In November’s Market Slide — These 5 Stocks Bucked The Selloff As Lilly, AbbVie And Amgen Fell",
+      "url": "https://stocktwits.com/news-articles/markets/equity/biotech-loses-ground-november-5-stocks-bucked-selloff-lilly-abb-vie-amgen-fell/cNbrzF5R9kd",
+      "time": "24.11.2026 07:41",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Eli Lilly: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
+      "source": "Stocktwits"
+    },
+    {
+      "company": "Alphabet",
+      "title": "Google India says no mass layoffs, 30 jobs cut in cloud division due to organisational changes",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNT1hlUkdUWU1wYldWMzNlOUFRTFQ0cVdrNUFyX0YzbG5VSG5YZ2g3NW1vcC1tUlVjTXhsa21sbUM4cmRCM2VobVBOakZ4X09mM2E4cjhmU3lTN0NsSWphLXE5WUtCdk1JN0VPcGJDX3hseElHX3daUUhSU1RMYmxodWJuRDVFWTVONnhFLVF3VWRYQkZhRkdicXlfVHBzNGhiSTltS2pqYkRfZ3NpanozZ0lpOGJaQmlzamxJWkRtRE4zQndxdUxOcHdvbmt1c0QtWmZ3Z1ZNZDM5c21mWFdZeG9jNNIB6AFBVV95cUxOY09qZEdtWlhCUmxTWm9TR2JXR1ZYYkV1MTE4S1U3dUYxcVhkODBHRHA1MWF5NF81WS0wUVUyM1VoSUVEanR2UjhrZ3hhcjNWdEVmcVp5SF8tc3FYNkFlb1VLTk9ENGhKOHJwOV9KYzNPbTEyZ2otZVVJSVZWN1JvM214cFlrSS1QZm9DNlVRSllkM1BHWFZ3NDhSQndkcEUycFBsRVhvUDdUYW9nUTJSX1oyb096U3YzenNfc09Rdk53QWNfM3ZQWWFMT2ptYldOVXc3dFR5R254UklwRGQyd1BFNHROcjZP?oc=5",
+      "time": "24.11.2026 07:24",
+      "direction": "mixed",
+      "impact": "Dopad na cenu akcie Alphabet je nejednoznačný: propouštění může ušetřit náklady, ale často signalizuje slabší poptávku.",
+      "source": "India Today"
+    },
+    {
+      "company": "Tesla",
+      "title": "SpaceX, Tesla directors negotiate potential $3.5 trillion merger, FT reports",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-tesla-directors-negotiate-potential-062339987.html",
+      "time": "24.11.2026 07:23",
+      "direction": "mixed",
+      "impact": "Dopad na cenu akcie Tesla je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
+      "source": "Investing.com"
     },
     {
       "company": "Alphabet",
@@ -15900,13 +15954,13 @@
       "source": "Finimize"
     },
     {
-      "company": "Tesla",
-      "title": "SpaceX, Tesla appoint five directors to guide merger talks, FT reports By Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVGIxaDlqcWVBUGpnSXp0aHFYeXdCWjZhTW15TXAtbGp4bzhuTGR2dHN5X2FaQ0ZVRUNMdVFfcGczQ1Jic1pDSm80MzNOYWwtOFI2UlhjYU1RNmJMUlJ2VlA4enk4YmdSRFRNdWNPSkVYbXdLdGJwOS11RlFJQnlReC1iSmxQWEo0LVJqMnhjeTVIWWFJOXIxQ2R3dmd6RmYwa1c1U3ZHaVZIVVlxdmVWR0RST052RGY0RnA5aUxEdnJzdEU?oc=5",
-      "time": "24.11.2026 06:48",
+      "company": "SpaceX",
+      "title": "SpaceX, Tesla appoint five directors to guide merger talks, FT reports",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPQXlLNG9FZFJ0SjJ6YmxybS03UEdTTDZuMUpzQ1pHdmZQUG1WRVdMRktKZ3ptRVVCNXkxdm92eEVBZ0N5c0pDemw5M3NOLUpxWV9tZHdQRWtJM2NnQnZZZVljOEtaRjQzdlRDR2hjM2VIWU9MZS12QmkwbDkyUl9mNGxRRUk4WW5IVm1QVWJuQWhyYS1jN1FMQzBmOHdhLWhTMjRHUnJhOVplSnY4Nm9YMmNfUHdqbms?oc=5",
+      "time": "24.11.2026 06:20",
       "direction": "mixed",
-      "impact": "Dopad na cenu akcie Tesla je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
-      "source": "Investing.com"
+      "impact": "Dopad na cenu akcie SpaceX je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
+      "source": "Reuters"
     },
     {
       "company": "Alphabet",
@@ -15945,24 +15999,6 @@
       "source": "Stocktwits"
     },
     {
-      "company": "Alphabet",
-      "title": "Google responds to 'huge layoffs' in India report; says: Last week Google Cloud made …",
-      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQclhqMjFBRmVfLTBTWG93TlZqTTQ0RE9vQUxBMG10cnU2ZTd2ZFBzVlJUMWxQUGxMSXpNNk92WUFUYVV4bzVXZ3RhS3dCdzNhVTY2SUdyOGw0TFE4OFlyeGVpQ3oxR3diWWFDMEdvRzBDUE1jd29kNjZfSHVNOW11akc1TldDUF9SUm5sbGRaa1BiVlBOUjJQTDZNblNqLU5vZnFJUnc3SS1rZXhhQ0Jnd0ctRnNNQ2NydDk1VEctenp6Z3RCNFZGY1ZINWp2czNzTUZBcTNTN3VXUWl4SFV2TTJmZUhabVVKTXdYRnBmS1pQVy1LNGJF0gH8AUFVX3lxTFAwbnhhMnZuYzY0SE9GSVdBc21pLVUwT1lUaEJ4M3JIUHV2TWRuYjBpZkpudThvbDJlY1dRRXU3dmpVXzVaNDNhS04wM2tGcU00YW5LYTE2eHlhT1diOEVTa1k2d29DSkg1cTlBeFlDUjFvZnA4R3NRYm1aYTZkZkk5Z19pV1dTd0F5QTBhWlg2LUF0engyVGp2TVNOX0tCdll2M2lMWnlndGZwU1U2Q2c2ZEZValFBbVlxWnRtRFZVX0h6cGNsRTQ1N0RqMFhMdmZlTnVGU3BSTzNiY2I5ZVh6WU9BX0YzdXl2ZG5ZVEVPdEVBdGRySDR0SVJWVQ?oc=5",
-      "time": "24.11.2026 05:54",
-      "direction": "mixed",
-      "impact": "Dopad na cenu akcie Alphabet je nejednoznačný: propouštění může ušetřit náklady, ale často signalizuje slabší poptávku.",
-      "source": "The Times of India"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "Gov. Newsom talks NVIDIA CEO, death penalty and more at Sacramento Press Club reception",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOalJxTG5wMlY2bjQySVpZY3MtTmdKQVU1MndKRHNnRU1TRWx1RXFkRi1pRDhKX3FOeEVLRmdranBiV0s5Wk1DOUN4RmlFMlhOR1Q4dThRd2w0RmdzZThURjVMUFZWNGlmc2ItVG1IQ1EtSGtfaXUwVkxyQVpCRlJTbWVMVFNtN2hWeVozaU4xa1U?oc=5",
-      "time": "24.11.2026 05:41",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie NVIDIA: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
-      "source": "KCRA"
-    },
-    {
       "company": "UniCredit",
       "title": "Commerzbank Buyback Nears 30 Million Shares as Berlin and UniCredit Bury the Hatchet",
       "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNeUE1OVo1WTJJak1aczdfYlFwYzlmLUpJd2tWV1BMS2l6Z01ubEhQZTI5RkxSNGdUQUVzZHhQOXZERnZvR2hYMkhVQ3FNRGllQVU3VHFRbXhjVFRxQVBzN0V3VWlWM2tycXcyb3F2X3Y2cGJlME12dE9QOUpzTFhGZk9OSTl3S2stb0Z0QzNOeUpJU09vSk1JQ1ZQVXV0VTJjRmxDSHNNVUNpQk40TEdQMUJfTHNCQVhlQ0Q2QUNhNjZIMldEdG9GOFVZR0ZDR0pGcXFIX3UtY0ZHNTlwRmtRVDUzX04wUkNZcFcxZA?oc=5",
@@ -15990,15 +16026,6 @@
       "source": "Gotrade"
     },
     {
-      "company": "Toyota",
-      "title": "Morningstar Downgrades Toyota Motor to Hold Rating",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZ2VuQkxkSnBMVnJfTHpGbWExQ0s5M2xGRDZJOWhuYWc3UEdvSFJ4dFRvZGlwTHF3ejJIQTJzV2NtMzUyUlJXRDgtT01PZTd1QTlpWGNrd2VDdDBBYVhlcE04YU54eFc0aDdBNDBzTDBhRTdvbHdObkpMOXNINlE2ZXU4Ti1OMXVMNVV0dGNvMkUxTWZhQURFSWJ6ZnNtN3hvM1lFSl9n?oc=5",
-      "time": "24.11.2026 04:01",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Toyota: analytici zhoršují hodnocení, což může zvýšit prodejní tlak.",
-      "source": "marketscreener.com"
-    },
-    {
       "company": "Broadcom",
       "title": "Jensen Huang’s Return As Nvidia CEO Sparks AI Stock Rally, But Congressional Probes Loom – And Analysts See Risks Ahead",
       "url": "https://stocktwits.com/news-articles/markets/equity/jensen-huang-s-return-as-nvidia-ceo-sparks-ai-stock-rally-but-congressional-probes-loom-and-analysts-see-risks-ahead/cNbrt2TR9ju",
@@ -16008,6 +16035,15 @@
       "source": "Stocktwits"
     },
     {
+      "company": "Microsoft",
+      "title": "Microsoft says some consumer emails hit a dead end in November’s Outlook outage",
+      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE1OUGZRdjU5OWk2N2Rlc092SHNFcHJNNUdIazQzUDBTOVk0VFZLU1lTRzVzay1yZV85NlBaSENWMWdHenQt?oc=5",
+      "time": "24.11.2026 03:32",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
+      "source": "Digg"
+    },
+    {
       "company": "Meta",
       "title": "Meta Muse Baby Mia: Agent Flagged, $75,000 Lawsuit",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOaFBqcjZrc2p4YW9SUXFyZ0tJdHVteGxuTWxiV0d2c005RWx2RmpQVVNzTVdVVXkyVTl6UlhiYjR6Wkx0MWhQaVFfcjRiVEZnNGtaRlNJWnpGMnVBVXc2cy1sMGRVN2NIWFl2TlpRX1gyUy1vTV8yNlNHTFZFblBNaWRNNkFPbGc?oc=5",
@@ -16015,15 +16051,6 @@
       "direction": "down",
       "impact": "Může vést k poklesu ceny akcie Meta: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
       "source": "shattered.io"
-    },
-    {
-      "company": "Microsoft",
-      "title": "Microsoft outage: Brad Smith blames 'perfect storm' of updates, traffic",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNWk1EUy13c2ZvTnJfVnNNTlBGajV3SzJBbGRfdU1HZ3RMeS1EeV9IR0dJQWNHU2xfdWNPZDNZM2RzcE9faXgxX1pfWTIzckpENmh1TlZZTXE1WW9DN0JtYXREd2doZE5xQnFwd05uSnljT2NlNVdSY1JqZWdlTG1JYnBuNS01TzBKT3haVFdqVm9rRkFXQUJUZFBSZGROaGdsZ0lZV2F3M3psUWN5R2ZTejd1STR5bmhQRG02TjR6MXhqZ2l0Q0E?oc=5",
-      "time": "24.11.2026 02:40",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
-      "source": "TechGig"
     },
     {
       "company": "Amazon",
@@ -16044,15 +16071,6 @@
       "source": "SiliconANGLE"
     },
     {
-      "company": "Microsoft",
-      "title": "Microsoft explains tech failures that triggered global outage",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTVg1LURBWFdTR3gwN1ZrVXZkQnFwaHA0MHBITmFnZFhXcm5tMkJPc0tDMDlMbWZQUHg2emxUdzY3TnRuNjBxUnFneVpNRWlfTFd0TjJ6OVpNc29vclFJZGl2SnN3RlZvV1MxdUxJZDdZQ1JydkVfT3lJeFd5TG1YVEpHM3lFTVp0QkdqLUtrRENMY2tmSmowc3hiZGVKeko0V2hTT1NmMXlPaEs1RlRj?oc=5",
-      "time": "24.11.2026 02:22",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
-      "source": "The Seattle Times"
-    },
-    {
       "company": "Comcast",
       "title": "AT&T Sues Comcast Over 'Fiber-Powered' Ads",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9wR0pzUWd5RGlSV2RCYkd3N1Nrb2Q2Y3BKaDRCakwzdjI0VUJ0WG9ZazVYYlFWRV9TOV9WV0dVSzM4c2psYk1GcU96WlpWbjZWUjY5TUZuUXVCVHpXQ1NCWW93RXNZQmEwM0szWTRKMFJsbmN4NzhUWjVfZWg?oc=5",
@@ -16071,22 +16089,13 @@
       "source": "marketscreener.com"
     },
     {
-      "company": "SpaceX",
-      "title": "Key Information You Need to Know About SpaceX Stock Lockup Expiry",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQUGJpdFM5OFRlMlc5ck9QY1NmZm9sWENZX2dPU2w4eVNUS1gteC1yaXlsaC1YRzg2U0FaZFVMNW1Ddlo5SXdfNVJMWGhGbFpld3N0TThVelU1UUl0aTlzWk80WTRnMjNmX2VEZ1FleXBLT3ZMS3Q4RUpQVlhNaGNsQWl3UmtyRHFXcnRNNVlkRFJxaXNiTXJhRXZQaGhmNWJLR1Yxb2FjUDEtRGl1ME1mOWlueTBpWHR5bGpBLXVQRlBxZW8?oc=5",
-      "time": "24.11.2026 01:50",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie SpaceX: prodej akcií nebo konec lock-upu zvyšuje nabídku akcií na trhu.",
-      "source": "TradingKey"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "A selloff, a POTUS, or a recession: What really made Nvidia bring Jensen Huang back as CEO?",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPLWxES3lqenRmcVdMby1RZW5SbzQyMFNNNloyckhBeGtJR002Y2VKa0EzdU5rdnA4SWVqTXZQRVRFYUpMTmVNSmVrVmJjcTJpYnFJT0Rzb1V1VmdVVy13WEdyNHBkS0JsOXdBMUgyc2REN0EybVkwaXNWMEE5czRJaXZUd0U1MUZ5a3d5bl9JbXlUTG9PNHBUcDZXOEp0ZjdNalNXVXd5TEFoZGlSankyUkUyTmZ4WWJyR3kyT1dXdmk?oc=5",
-      "time": "24.11.2026 01:44",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie NVIDIA: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
-      "source": "Fortune"
+      "company": "TSMC",
+      "title": "Taiwan Stock Market Surges 9.15% as TAIEX Crosses 40,000",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOd0JDbjhqRWN5enNoT1JyZjNJd0lTRzhqbUZfN19XdUstTnVYZXd5dlN6Rk1LNDlYMGVlV1M2UXNPdDRTSVFJcUNBZXFodlhXR0FJYnp1VFpDcDVUbEF5QW5tUGlnaGFzUE5SV3NJX3kzSVllNnE0X24yeUQ5bXFHN1pFQjhlZXVtQm12NGhqdE5aQkR1SVRTY2hhSFUzUkwxWFcyQlMzNWY0aUJlbTRR?oc=5",
+      "time": "24.11.2026 01:52",
+      "direction": "up",
+      "impact": "Může vést k nárůstu ceny akcie TSMC: prudký růst ukazuje na silný zájem investorů, po rychlém růstu ale může přijít i stahování zisků.",
+      "source": "Asia Business Outlook"
     }
   ]
 }
