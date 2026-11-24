@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T23:36:13.406480+00:00",
+  "updated_at": "2026-11-24T00:35:07.840985+00:00",
   "stocks": [
     {
       "name": "Microsoft",
@@ -560,7 +560,11 @@
         ["2026-11-23T22:45Z", 494.0],
         ["2026-11-23T23:00Z", 492.02],
         ["2026-11-23T23:15Z", 490.5],
-        ["2026-11-23T23:30Z", 490.18]
+        ["2026-11-23T23:30Z", 490.56],
+        ["2026-11-23T23:45Z", 490.99],
+        ["2026-11-24T00:00Z", 491.33],
+        ["2026-11-24T00:15Z", 492.98],
+        ["2026-11-24T00:30Z", 492.57]
       ]
     },
     {
@@ -1122,7 +1126,11 @@
         ["2026-11-23T22:45Z", 165.89],
         ["2026-11-23T23:00Z", 165.43],
         ["2026-11-23T23:15Z", 165.57],
-        ["2026-11-23T23:30Z", 165.0]
+        ["2026-11-23T23:30Z", 164.77],
+        ["2026-11-23T23:45Z", 165.26],
+        ["2026-11-24T00:00Z", 165.41],
+        ["2026-11-24T00:15Z", 166.25],
+        ["2026-11-24T00:30Z", 166.45]
       ]
     },
     {
@@ -1685,7 +1693,11 @@
         ["2026-11-23T22:45Z", 349.6],
         ["2026-11-23T23:00Z", 349.12],
         ["2026-11-23T23:15Z", 348.88],
-        ["2026-11-23T23:30Z", 348.87]
+        ["2026-11-23T23:30Z", 348.98],
+        ["2026-11-23T23:45Z", 348.93],
+        ["2026-11-24T00:00Z", 349.24],
+        ["2026-11-24T00:15Z", 349.54],
+        ["2026-11-24T00:30Z", 349.57]
       ]
     },
     {
@@ -2248,7 +2260,11 @@
         ["2026-11-23T22:45Z", 256.6],
         ["2026-11-23T23:00Z", 256.0],
         ["2026-11-23T23:15Z", 255.3],
-        ["2026-11-23T23:30Z", 254.81]
+        ["2026-11-23T23:30Z", 254.87],
+        ["2026-11-23T23:45Z", 255.23],
+        ["2026-11-24T00:00Z", 255.81],
+        ["2026-11-24T00:15Z", 256.24],
+        ["2026-11-24T00:30Z", 256.2]
       ]
     },
     {
@@ -2811,7 +2827,11 @@
         ["2026-11-23T22:45Z", 284.68],
         ["2026-11-23T23:00Z", 284.0],
         ["2026-11-23T23:15Z", 283.16],
-        ["2026-11-23T23:30Z", 282.86]
+        ["2026-11-23T23:30Z", 282.61],
+        ["2026-11-23T23:45Z", 283.27],
+        ["2026-11-24T00:00Z", 283.59],
+        ["2026-11-24T00:15Z", 284.35],
+        ["2026-11-24T00:30Z", 284.52]
       ]
     },
     {
@@ -3374,7 +3394,11 @@
         ["2026-11-23T22:45Z", 600.61],
         ["2026-11-23T23:00Z", 600.2],
         ["2026-11-23T23:15Z", 600.2],
-        ["2026-11-23T23:30Z", 600.2]
+        ["2026-11-23T23:30Z", 598.2],
+        ["2026-11-23T23:45Z", 598.0],
+        ["2026-11-24T00:00Z", 598.4],
+        ["2026-11-24T00:15Z", 598.53],
+        ["2026-11-24T00:30Z", 599.16]
       ]
     },
     {
@@ -3936,7 +3960,11 @@
         ["2026-11-23T22:45Z", 386.1],
         ["2026-11-23T23:00Z", 385.7],
         ["2026-11-23T23:15Z", 385.25],
-        ["2026-11-23T23:30Z", 385.14]
+        ["2026-11-23T23:30Z", 385.3],
+        ["2026-11-23T23:45Z", 385.13],
+        ["2026-11-24T00:00Z", 385.75],
+        ["2026-11-24T00:15Z", 386.93],
+        ["2026-11-24T00:30Z", 386.84]
       ]
     },
     {
@@ -4361,7 +4389,11 @@
         ["2026-11-23T22:45Z", 134.26],
         ["2026-11-23T23:00Z", 134.0],
         ["2026-11-23T23:15Z", 133.85],
-        ["2026-11-23T23:30Z", 133.75]
+        ["2026-11-23T23:30Z", 133.62],
+        ["2026-11-23T23:45Z", 133.99],
+        ["2026-11-24T00:00Z", 134.17],
+        ["2026-11-24T00:15Z", 134.53],
+        ["2026-11-24T00:30Z", 134.5]
       ]
     },
     {
@@ -4909,7 +4941,11 @@
         ["2026-11-23T22:15Z", 574.34],
         ["2026-11-23T22:30Z", 573.74],
         ["2026-11-23T22:45Z", 573.28],
-        ["2026-11-23T23:00Z", 573.24]
+        ["2026-11-23T23:00Z", 573.24],
+        ["2026-11-23T23:30Z", 573.64],
+        ["2026-11-23T23:45Z", 573.73],
+        ["2026-11-24T00:00Z", 574.0],
+        ["2026-11-24T00:15Z", 573.98]
       ]
     },
     {
@@ -5450,7 +5486,11 @@
         ["2026-11-23T22:00Z", 317.58],
         ["2026-11-23T22:15Z", 317.53],
         ["2026-11-23T22:30Z", 317.74],
-        ["2026-11-23T22:45Z", 317.7]
+        ["2026-11-23T22:45Z", 317.7],
+        ["2026-11-23T23:15Z", 317.36],
+        ["2026-11-23T23:30Z", 316.99],
+        ["2026-11-23T23:45Z", 317.65],
+        ["2026-11-24T00:00Z", 316.66]
       ]
     },
     {
@@ -5989,7 +6029,7 @@
         ["2026-11-23T22:30Z", 410.8],
         ["2026-11-23T22:45Z", 410.55],
         ["2026-11-23T23:00Z", 411.89],
-        ["2026-11-23T23:21Z", 410.49]
+        ["2026-11-23T23:15Z", 410.49]
       ]
     },
     {
@@ -6545,7 +6585,10 @@
         ["2026-11-23T22:45Z", 1367.87],
         ["2026-11-23T23:00Z", 1369.0],
         ["2026-11-23T23:15Z", 1368.66],
-        ["2026-11-23T23:30Z", 1370.0]
+        ["2026-11-23T23:30Z", 1370.0],
+        ["2026-11-23T23:45Z", 1369.03],
+        ["2026-11-24T00:00Z", 1370.35],
+        ["2026-11-24T00:15Z", 1371.0]
       ]
     },
     {
@@ -7107,7 +7150,11 @@
         ["2026-11-23T22:45Z", 313.21],
         ["2026-11-23T23:00Z", 311.25],
         ["2026-11-23T23:15Z", 310.66],
-        ["2026-11-23T23:30Z", 310.25]
+        ["2026-11-23T23:30Z", 309.6],
+        ["2026-11-23T23:45Z", 311.3],
+        ["2026-11-24T00:00Z", 311.75],
+        ["2026-11-24T00:15Z", 311.7],
+        ["2026-11-24T00:30Z", 312.0]
       ]
     },
     {
@@ -8771,8 +8818,8 @@
       "symbol": "AZN.L",
       "market": "Velká Británie",
       "currency": "GBp",
-      "price": 13540.0,
-      "change": 0.95,
+      "price": 13412.0,
+      "change": 0.81,
       "history": [
         ["2025-11-24", 13934.0],
         ["2025-11-25", 14100.0],
@@ -9025,8 +9072,7 @@
         ["2026-11-17", 13802.0],
         ["2026-11-18", 13646.0],
         ["2026-11-19", 13304.0],
-        ["2026-11-20", 13412.0],
-        ["2026-11-23", 13540.0]
+        ["2026-11-20", 13412.0]
       ],
       "intraday": [
         ["2026-11-17T08:00Z", 13904.0],
@@ -9207,11 +9253,9 @@
       "symbol": "7203.T",
       "market": "Japonsko",
       "currency": "JPY",
-      "price": 3312.0,
-      "change": -1.95,
+      "price": 3337.0,
+      "change": 0.75,
       "history": [
-        ["2025-11-20", 3044.0],
-        ["2025-11-21", 3097.0],
         ["2025-11-25", 3077.0],
         ["2025-11-26", 3141.0],
         ["2025-11-27", 3138.0],
@@ -9452,32 +9496,10 @@
         ["2026-11-17", 3414.0],
         ["2026-11-18", 3391.0],
         ["2026-11-19", 3378.0],
-        ["2026-11-20", 3312.0]
+        ["2026-11-20", 3312.0],
+        ["2026-11-24", 3337.0]
       ],
       "intraday": [
-        ["2026-11-16T00:00Z", 3442.0],
-        ["2026-11-16T00:15Z", 3450.0],
-        ["2026-11-16T00:30Z", 3460.0],
-        ["2026-11-16T00:45Z", 3460.0],
-        ["2026-11-16T01:00Z", 3462.0],
-        ["2026-11-16T01:15Z", 3435.0],
-        ["2026-11-16T01:30Z", 3437.0],
-        ["2026-11-16T01:45Z", 3447.0],
-        ["2026-11-16T02:00Z", 3455.0],
-        ["2026-11-16T02:15Z", 3454.0],
-        ["2026-11-16T02:30Z", 3452.0],
-        ["2026-11-16T03:30Z", 3441.0],
-        ["2026-11-16T03:45Z", 3441.0],
-        ["2026-11-16T04:00Z", 3439.0],
-        ["2026-11-16T04:15Z", 3437.0],
-        ["2026-11-16T04:30Z", 3435.0],
-        ["2026-11-16T04:45Z", 3432.0],
-        ["2026-11-16T05:00Z", 3435.0],
-        ["2026-11-16T05:15Z", 3436.0],
-        ["2026-11-16T05:30Z", 3426.0],
-        ["2026-11-16T05:45Z", 3422.0],
-        ["2026-11-16T06:00Z", 3428.0],
-        ["2026-11-16T06:15Z", 3426.0],
         ["2026-11-17T00:00Z", 3421.0],
         ["2026-11-17T00:15Z", 3398.0],
         ["2026-11-17T00:30Z", 3396.0],
@@ -9570,7 +9592,8 @@
         ["2026-11-20T05:45Z", 3301.0],
         ["2026-11-20T06:00Z", 3305.0],
         ["2026-11-20T06:15Z", 3307.0],
-        ["2026-11-20T06:30Z", 3312.0]
+        ["2026-11-24T00:00Z", 3336.0],
+        ["2026-11-24T00:15Z", 3338.0]
       ]
     },
     {
@@ -10108,7 +10131,11 @@
         ["2026-11-23T22:45Z", 87.47],
         ["2026-11-23T23:00Z", 87.76],
         ["2026-11-23T23:15Z", 87.67],
-        ["2026-11-23T23:30Z", 87.67]
+        ["2026-11-23T23:30Z", 87.01],
+        ["2026-11-23T23:45Z", 87.15],
+        ["2026-11-24T00:00Z", 87.23],
+        ["2026-11-24T00:15Z", 87.46],
+        ["2026-11-24T00:30Z", 87.42]
       ]
     },
     {
@@ -10671,7 +10698,11 @@
         ["2026-11-23T22:45Z", 450.3],
         ["2026-11-23T23:00Z", 448.4],
         ["2026-11-23T23:15Z", 446.47],
-        ["2026-11-23T23:30Z", 445.24]
+        ["2026-11-23T23:30Z", 445.97],
+        ["2026-11-23T23:45Z", 447.75],
+        ["2026-11-24T00:00Z", 449.36],
+        ["2026-11-24T00:15Z", 450.9],
+        ["2026-11-24T00:30Z", 450.39]
       ]
     },
     {
@@ -11234,7 +11265,11 @@
         ["2026-11-23T22:45Z", 712.98],
         ["2026-11-23T23:00Z", 710.11],
         ["2026-11-23T23:15Z", 708.35],
-        ["2026-11-23T23:30Z", 705.6]
+        ["2026-11-23T23:30Z", 700.12],
+        ["2026-11-23T23:45Z", 704.68],
+        ["2026-11-24T00:00Z", 703.82],
+        ["2026-11-24T00:15Z", 705.7],
+        ["2026-11-24T00:30Z", 703.67]
       ]
     },
     {
@@ -11792,7 +11827,11 @@
         ["2026-11-23T22:45Z", 114.35],
         ["2026-11-23T23:00Z", 114.04],
         ["2026-11-23T23:15Z", 113.8],
-        ["2026-11-23T23:30Z", 113.5]
+        ["2026-11-23T23:30Z", 113.58],
+        ["2026-11-23T23:45Z", 113.69],
+        ["2026-11-24T00:00Z", 113.65],
+        ["2026-11-24T00:15Z", 114.0],
+        ["2026-11-24T00:30Z", 114.2]
       ]
     },
     {
@@ -12354,7 +12393,11 @@
         ["2026-11-23T22:45Z", 59.32],
         ["2026-11-23T23:00Z", 58.98],
         ["2026-11-23T23:15Z", 58.81],
-        ["2026-11-23T23:30Z", 58.64]
+        ["2026-11-23T23:30Z", 58.54],
+        ["2026-11-23T23:45Z", 58.89],
+        ["2026-11-24T00:00Z", 58.81],
+        ["2026-11-24T00:15Z", 58.97],
+        ["2026-11-24T00:30Z", 58.95]
       ]
     },
     {
@@ -12916,7 +12959,11 @@
         ["2026-11-23T22:45Z", 58.14],
         ["2026-11-23T23:00Z", 58.0],
         ["2026-11-23T23:15Z", 57.88],
-        ["2026-11-23T23:30Z", 57.86]
+        ["2026-11-23T23:30Z", 57.92],
+        ["2026-11-23T23:45Z", 57.9],
+        ["2026-11-24T00:00Z", 57.91],
+        ["2026-11-24T00:15Z", 58.15],
+        ["2026-11-24T00:34Z", 58.1]
       ]
     },
     {
@@ -13444,7 +13491,10 @@
         ["2026-11-23T21:30Z", 46.38],
         ["2026-11-23T22:15Z", 46.44],
         ["2026-11-23T22:30Z", 46.42],
-        ["2026-11-23T22:45Z", 46.42]
+        ["2026-11-23T22:45Z", 46.42],
+        ["2026-11-23T23:30Z", 46.45],
+        ["2026-11-23T23:45Z", 46.42],
+        ["2026-11-24T00:15Z", 46.42]
       ]
     },
     {
@@ -14468,7 +14518,8 @@
         ["2026-11-23T21:45Z", 22.33],
         ["2026-11-23T22:00Z", 22.31],
         ["2026-11-23T22:15Z", 22.31],
-        ["2026-11-23T23:00Z", 22.33]
+        ["2026-11-23T23:00Z", 22.33],
+        ["2026-11-23T23:30Z", 22.3]
       ]
     },
     {
@@ -14477,8 +14528,8 @@
       "market": "Velká Británie",
       "currency": "GBp",
       "query": "\"Shell plc\"",
-      "price": 3567.0,
-      "change": -0.21,
+      "price": 3574.5,
+      "change": 0.0,
       "history": [
         ["2025-11-24", 2772.0],
         ["2025-11-25", 2766.0],
@@ -14731,8 +14782,7 @@
         ["2026-11-17", 3673.5],
         ["2026-11-18", 3595.5],
         ["2026-11-19", 3574.5],
-        ["2026-11-20", 3574.5],
-        ["2026-11-23", 3567.0]
+        ["2026-11-20", 3574.5]
       ],
       "intraday": [
         ["2026-11-17T08:00Z", 3681.78],
@@ -15783,13 +15833,67 @@
   ],
   "news": [
     {
-      "company": "Anthropic",
-      "title": "Scott Galloway Calls Anthropic the AI Selloff's 'Big Winner,' but Prediction Traders See Trouble Ahead",
-      "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63566532/anthropic-galloway-traders?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral",
-      "time": "24.11.2026 00:15",
+      "company": "NVIDIA",
+      "title": "A shocked Washington preps expanded investigations as Huang returns to Nvidia",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNRkZDczJvQ3Jka3NLdjY2a2VNekxxbm5lN0JQNnplQVp1bVNDLUdtbDh1T3Nlc1RVSU95eXU5TnRXcFR3Zk9JTGh5Q1JuTWxwY1JYNS16NFcxSVM3UUlLSGdZRWJESnZNQ1RYeFBaeTA3aWxxRXlBMnJ4REhuZ2E5b2RBTi1aTE16WFJQYUZKcmVUajNXdTVMWVIxbEV0UzVEa2Z5NnpPWldzZ084RWJmYk15NjZ0Unp5eTJickJB?oc=5",
+      "time": "24.11.2026 01:15",
       "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Anthropic: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
-      "source": "Benzinga Prediction Markets"
+      "impact": "Může vést k poklesu ceny akcie NVIDIA: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
+      "source": "The Washington Post"
+    },
+    {
+      "company": "Intel",
+      "title": "Lawsuit Adds Insult to Injury for Struggling Intel",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQRUZoa095Qzl4SzFpcS1PNE9jZ3FBNlRIUXUza3FGcXlnZU9fT1VEZ2paUVkxY3NsVkJyZUN4Y1lVZlRiYnpUWW1XT2paekxPT29EQzI3b2pYUDJ3X2x0amUzVHJkQVFZZm9KVTZseWRqOG1sc2VFYnZqYUpaMjcxdFdxNWJ0SkJ3VVBBME1zZU1haEk?oc=5",
+      "time": "24.11.2026 01:12",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Intel: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
+      "source": "Willamette Week"
+    },
+    {
+      "company": "Tesla",
+      "title": "Tesla Rebounds 12% as FSD v15 Rollout and SpaceX Merger Talk Lift Shares",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE43cF92MWVyWUVXTU5HdnBkUVdRbzZpWjVzeXpmYk9KckhZWGZfOUVSUVVrUEZONWh0cDBiVnZLT2tKblBOZm9ETWdKMS1oUVo3c3RkOGxVdHNjdFBDcmw5YXFoN0owQ21KekprMnFWSnlkTUF2U0E?oc=5",
+      "time": "24.11.2026 01:05",
+      "direction": "mixed",
+      "impact": "Dopad na cenu akcie Tesla je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
+      "source": "BigGo Finance"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Nvidia's Stock Surges More Than 30% on Jensen Huang's Return. Will It Get Back to $200?",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOVUFYSGdaSDRfU3FIOFFOaFpZS3I0UWNPRFdRcmJyb3NMdVFUaWE4aDBIMUdtUV9LTXFfMzVQTTFlMm9ZWVZ3NzRpQkllZzdGbFBGT2NLTWtFN1JjN2ZLWFdBMjMxVEl0UmdzcDh2bEtFaUZ5MnVJZ0lxYWE3c3J6MnJBTmk5WWJFS0Z2RjFleXU3T2NZZC04MQ?oc=5",
+      "time": "24.11.2026 01:00",
+      "direction": "up",
+      "impact": "Může vést k nárůstu ceny akcie NVIDIA: prudký růst ukazuje na silný zájem investorů, po rychlém růstu ale může přijít i stahování zisků.",
+      "source": "Yahoo Finance"
+    },
+    {
+      "company": "Broadcom",
+      "title": "AMD Stock Rallies Nearly 8% as a Bernstein Analyst Remains Bullish Despite the Hunterbrook Short Report",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/amd-stock-rallies-nearly-8-235832362.html",
+      "time": "24.11.2026 00:58",
+      "direction": "up",
+      "impact": "Může vést k nárůstu ceny akcie Broadcom: prudký růst ukazuje na silný zájem investorů, po rychlém růstu ale může přijít i stahování zisků.",
+      "source": "TipRanks"
+    },
+    {
+      "company": "Tesla",
+      "title": "“No Synergies” in a SpaceX-Tesla Merger? Really? Starlink Just Showed Up in a Cybercab Roof",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObk5oNGtkT081RjBIZVJvWEYtSGZRTGFnNDAwYkJCczE1aTBRWmxLbmJwY0dPVHBzMG9JYVFrTWFNM2RMMDNHTmtrTUtQMlZfZk0tVVQyU3dGbTlaVnY2ZGNhanRLN1dZdzgyNVlCeEZFYXg5ZC0yay11eF96Z3JVa0laamd6QmM2Mk00ekM0WGhWOWxCcF9JSU9vZUJvZUc3bWNaTFJVV0k2OUxXbDI5U0xtQQ?oc=5",
+      "time": "24.11.2026 00:48",
+      "direction": "mixed",
+      "impact": "Dopad na cenu akcie Tesla je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
+      "source": "TIKR.com"
+    },
+    {
+      "company": "Amazon",
+      "title": "Tariffs Strike Again: 343 Companies Report $28.5 Billion in Trump Tariff Refunds. Retail Beats Need a Second Look",
+      "url": "https://www.tikr.com/blog/tariffs-strike-again-343-companies-report-28-5-billion-in-trump-tariff-refunds-retail-beats-need-a-second-look?ref=yahoofinance&tlnk=yf-261123-rf9p82g5",
+      "time": "24.11.2026 00:36",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Amazon: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
+      "source": "TIKR"
     },
     {
       "company": "Berkshire Hathaway",
@@ -15882,15 +15986,6 @@
       "source": "TeslaNorth.com"
     },
     {
-      "company": "Amazon",
-      "title": "Amazon.com (NASDAQ:AMZN) Stock Jumps 3.5% After Analyst Upgrade",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQdEFnQ1liWFJrVDBPTkV4Umt0SEw3V3FvWDZoeTRZczNlYTlKLXBZM2dNVThEcXRkUm9KV0ZCTUFQTVJFWnhqcVk2NWQ5V2ZsbzZBUldEbTg0b0o2VDlCRklDNUlFRHk4X2RwRGZOa1ZOcnpfZmpONEtoU3ViZWVGTTh6RGJzSENlNW9QOXptcmEwQ3NmdmxydGtEdXp2Z3RUYlRJLWI2a3BzUmg0Z01xY3I4akVmWElWbWc?oc=5",
-      "time": "23.11.2026 23:10",
-      "direction": "up",
-      "impact": "Může vést k nárůstu ceny akcie Amazon: prudký růst ukazuje na silný zájem investorů, po rychlém růstu ale může přijít i stahování zisků.",
-      "source": "MarketBeat"
-    },
-    {
       "company": "Meta",
       "title": "Meta Platforms halts Class C stock dividend amid shareholder lawsuit",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQWnp4SjhwZmpHU0RxcGNUU1gyTy1ZLXhUV0p5cEw4VUVqc1RBQUZLaHg5Z0QwU2ctbEdmN01GZDJpVnpkZEdEMHZVQjZWbTBGMFZyWGgyZVNIZ2h2NFc1ZV9PR0tUckpIU24tT0RhU05iZ0Y2bGotN0RfVDBWeTJpeEx1SEx5RE10MzNtb2t1YVBZWk9PQkhIWmVNMk01Mlh0NmxlSWNJM0daMGI3V09vTnlzU2hwMnlnT0lnYlVBVlRxbEdKN1E?oc=5",
@@ -15898,15 +15993,6 @@
       "direction": "down",
       "impact": "Může vést k poklesu ceny akcie Meta: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
       "source": "StreetInsider"
-    },
-    {
-      "company": "Tesla",
-      "title": "Tesla (TSLA) Is Advancing Toward A $3.5 Trillion Merger",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-tsla-advancing-toward-3-220707866.html",
-      "time": "23.11.2026 23:07",
-      "direction": "mixed",
-      "impact": "Dopad na cenu akcie Tesla je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
-      "source": "Simply Wall St."
     },
     {
       "company": "TSMC",
@@ -15927,24 +16013,6 @@
       "source": "WDBJ7"
     },
     {
-      "company": "Tesla",
-      "title": "Tesla Shares Climb 11.5% as HSBC Lifts Rating on SpaceX Merger Scenarios : Finance : JKN",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFAydHNWSjR6dWdwVkJfRmdCZjlQZWVKMDNwWGFGVjJ3YlB5SzNkTWM3X1Jwb3ZmeHM5b25iTGlmdUNnMjByOUFYTXltMUZDZ01NTnZOR0ZNV1VST09icDBQNEdB?oc=5",
-      "time": "23.11.2026 22:50",
-      "direction": "mixed",
-      "impact": "Dopad na cenu akcie Tesla je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
-      "source": "재경일보"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "Exclusive | SEC Is Probing Nvidia Amid Departure of CEO Jensen Huang",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQbjl2b0tzT1ROT2plV1p5RHhQd3hXOEJKRFhOZ1ItZExOQV9oVGkzTU9tcEEyTXhjNHRKQVExRTNRdEtlY24zUFhmS0h0c21FUVVrVVh0NGF2SXFmdm1wcmVRLUlCcG5CMGRIZklSdVBkVElkS3lwRF9LaGg4YzU5b0dsZXlveWxSNzhGYzJlZmRSRkhvUWZRTHB3?oc=5",
-      "time": "23.11.2026 22:38",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie NVIDIA: odchod klíčového manažera zvyšuje nejistotu o dalším směřování firmy.",
-      "source": "WSJ"
-    },
-    {
       "company": "SpaceX",
       "title": "Virginia, Oregon hit SpaceX with fresh lawsuits over Grok-created CSAM",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1VYkN2emttNkV2dEhFcnNDY0hBNWtBZVhHSm04S3VqVmgwT3VmWVNxRlNmb05vbl9kdGJ6MTFzZzYzZFZmQ2NTcHJ5U0xweVU0X2pHU1ptY0NSTWhRNlNWazMyM0V0TGI3c1h2ZVFrM3FPZEk?oc=5",
@@ -15963,15 +16031,6 @@
       "source": "TipRanks"
     },
     {
-      "company": "Amazon",
-      "title": "Amazon Stock Rises 4% After Announcing Acquisition of AI Startup Decart AI",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOeGZMRDlrbE1hb21mc28zX0JxOFNacFNmWVNYZzJ3cnVOeWd0TTdMNlJ0RGNxT1FRSkdvNEdqSi1fN2NueW9yeEdGaUxmNVNyd052SWZoSTl6QTA4WmNIWDQ5eWVDUWl4TW1sYU1PRHV0MU1iNFBJY05DSWNzdTNwbmRaZ0xiR2xpUE8zNnd5R2VNaWpTTFlucWVfR1dYcm1zZUU3WnhKTFI5V2M?oc=5",
-      "time": "23.11.2026 22:23",
-      "direction": "mixed",
-      "impact": "Dopad na cenu akcie Amazon je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
-      "source": "KuCoin"
-    },
-    {
       "company": "ASML",
       "title": "ASML surges 9% as chip stocks rally (ASML:NASDAQ)",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBDTHVWdFhBU1B6Y0RWNmxFZG13akZXdjZGUXkxb1F5cGY3cVExejRnNmQ1bi0tUGl1akRvNDR5Y0o3UmlPaFp4c1hfbEV5eWdyOVhrN3FXTzl0SThHeU9KeFVpNkJBRG54Rnp2THdTRk0za3hsUlI4eWtoWDk?oc=5",
@@ -15988,15 +16047,6 @@
       "direction": "mixed",
       "impact": "Dopad na cenu akcie AMD je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
       "source": "StreetInsider"
-    },
-    {
-      "company": "Oracle",
-      "title": "AI Energy Stocks, From Fuel Cells To Uranium, Rebound As Nvidia Soars",
-      "url": "https://www.investors.com/news/ai-energy-stocks-bloom-vernova-oklo-rally-nvidia-rebound-trade/?src=A00220&yptr=yahoo",
-      "time": "23.11.2026 22:19",
-      "direction": "up",
-      "impact": "Může vést k nárůstu ceny akcie Oracle: prudký růst ukazuje na silný zájem investorů, po rychlém růstu ale může přijít i stahování zisků.",
-      "source": "Investor's Business Daily"
     }
   ]
 }
