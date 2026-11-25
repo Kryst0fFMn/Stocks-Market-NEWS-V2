@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-11-25T17:55:04.525136+00:00",
+  "updated_at": "2026-11-25T18:55:56.299898+00:00",
   "stocks": [
     {
       "name": "Microsoft",
       "symbol": "MSFT",
       "market": "USA",
       "currency": "USD",
-      "price": 489.23,
-      "change": -1.39,
+      "price": 492.02,
+      "change": -0.83,
       "history": [
         ["2025-11-25", 476.99],
         ["2025-11-26", 485.5],
@@ -260,7 +260,7 @@
         ["2026-11-20", 484.52],
         ["2026-11-23", 492.5],
         ["2026-11-24", 496.13],
-        ["2026-11-25", 489.23]
+        ["2026-11-25", 492.02]
       ],
       "intraday": [
         ["2026-11-19T09:00Z", 514.5],
@@ -538,7 +538,11 @@
         ["2026-11-25T17:00Z", 485.4],
         ["2026-11-25T17:15Z", 485.1],
         ["2026-11-25T17:30Z", 488.24],
-        ["2026-11-25T17:45Z", 489.23]
+        ["2026-11-25T17:45Z", 487.88],
+        ["2026-11-25T18:00Z", 487.28],
+        ["2026-11-25T18:15Z", 489.93],
+        ["2026-11-25T18:30Z", 490.7],
+        ["2026-11-25T18:45Z", 492.0]
       ]
     },
     {
@@ -546,8 +550,8 @@
       "symbol": "NVDA",
       "market": "USA",
       "currency": "USD",
-      "price": 145.84,
-      "change": -6.14,
+      "price": 148.2631,
+      "change": -4.58,
       "history": [
         ["2025-11-25", 177.82],
         ["2025-11-26", 180.26],
@@ -800,7 +804,7 @@
         ["2026-11-20", 125.53],
         ["2026-11-23", 165.05],
         ["2026-11-24", 155.38],
-        ["2026-11-25", 145.84]
+        ["2026-11-25", 148.26]
       ],
       "intraday": [
         ["2026-11-19T09:00Z", 153.37],
@@ -1078,7 +1082,11 @@
         ["2026-11-25T17:00Z", 144.71],
         ["2026-11-25T17:15Z", 143.77],
         ["2026-11-25T17:30Z", 144.76],
-        ["2026-11-25T17:45Z", 145.97]
+        ["2026-11-25T17:45Z", 145.65],
+        ["2026-11-25T18:00Z", 146.19],
+        ["2026-11-25T18:15Z", 147.46],
+        ["2026-11-25T18:30Z", 147.7],
+        ["2026-11-25T18:45Z", 148.13]
       ]
     },
     {
@@ -1087,8 +1095,8 @@
       "market": "USA",
       "currency": "USD",
       "query": "\"Apple Inc\"",
-      "price": 353.36,
-      "change": -0.2,
+      "price": 355.435,
+      "change": 0.39,
       "history": [
         ["2025-11-25", 276.97],
         ["2025-11-26", 277.55],
@@ -1341,7 +1349,7 @@
         ["2026-11-20", 342.56],
         ["2026-11-23", 349.08],
         ["2026-11-24", 354.07],
-        ["2026-11-25", 353.36]
+        ["2026-11-25", 355.43]
       ],
       "intraday": [
         ["2026-11-19T09:00Z", 354.01],
@@ -1619,7 +1627,11 @@
         ["2026-11-25T17:00Z", 350.64],
         ["2026-11-25T17:15Z", 351.35],
         ["2026-11-25T17:30Z", 352.75],
-        ["2026-11-25T17:45Z", 353.35]
+        ["2026-11-25T17:45Z", 353.05],
+        ["2026-11-25T18:00Z", 353.13],
+        ["2026-11-25T18:15Z", 354.81],
+        ["2026-11-25T18:30Z", 354.87],
+        ["2026-11-25T18:45Z", 355.41]
       ]
     },
     {
@@ -1628,8 +1640,8 @@
       "market": "USA",
       "currency": "USD",
       "query": "(Amazon OR AWS OR AMZN)",
-      "price": 244.4,
-      "change": -3.13,
+      "price": 245.69,
+      "change": -2.62,
       "history": [
         ["2025-11-25", 229.67],
         ["2025-11-26", 229.16],
@@ -1882,7 +1894,7 @@
         ["2026-11-20", 246.82],
         ["2026-11-23", 255.39],
         ["2026-11-24", 252.29],
-        ["2026-11-25", 244.4]
+        ["2026-11-25", 245.69]
       ],
       "intraday": [
         ["2026-11-19T09:00Z", 271.46],
@@ -2160,7 +2172,11 @@
         ["2026-11-25T17:00Z", 242.83],
         ["2026-11-25T17:15Z", 242.75],
         ["2026-11-25T17:30Z", 244.07],
-        ["2026-11-25T17:45Z", 244.39]
+        ["2026-11-25T17:45Z", 243.88],
+        ["2026-11-25T18:00Z", 243.98],
+        ["2026-11-25T18:15Z", 245.14],
+        ["2026-11-25T18:30Z", 245.27],
+        ["2026-11-25T18:45Z", 245.64]
       ]
     },
     {
@@ -2169,8 +2185,8 @@
       "market": "USA",
       "currency": "USD",
       "query": "(Alphabet OR Google)",
-      "price": 271.01,
-      "change": -2.88,
+      "price": 271.885,
+      "change": -2.57,
       "history": [
         ["2025-11-25", 323.44],
         ["2025-11-26", 319.95],
@@ -2423,7 +2439,7 @@
         ["2026-11-20", 265.29],
         ["2026-11-23", 282.1],
         ["2026-11-24", 279.05],
-        ["2026-11-25", 271.01]
+        ["2026-11-25", 271.89]
       ],
       "intraday": [
         ["2026-11-19T09:00Z", 288.4],
@@ -2701,7 +2717,11 @@
         ["2026-11-25T17:00Z", 268.7],
         ["2026-11-25T17:15Z", 269.3],
         ["2026-11-25T17:30Z", 270.39],
-        ["2026-11-25T17:45Z", 271.1]
+        ["2026-11-25T17:45Z", 270.57],
+        ["2026-11-25T18:00Z", 269.85],
+        ["2026-11-25T18:15Z", 271.23],
+        ["2026-11-25T18:30Z", 271.06],
+        ["2026-11-25T18:45Z", 271.84]
       ]
     },
     {
@@ -2710,8 +2730,8 @@
       "market": "USA",
       "currency": "USD",
       "query": "\"Meta Platforms\"",
-      "price": 603.0,
-      "change": 2.23,
+      "price": 606.6,
+      "change": 2.84,
       "history": [
         ["2025-11-25", 636.22],
         ["2025-11-26", 633.61],
@@ -2964,7 +2984,7 @@
         ["2026-11-20", 560.84],
         ["2026-11-23", 597.6],
         ["2026-11-24", 589.82],
-        ["2026-11-25", 603.0]
+        ["2026-11-25", 606.6]
       ],
       "intraday": [
         ["2026-11-19T09:00Z", 623.05],
@@ -3242,7 +3262,11 @@
         ["2026-11-25T17:00Z", 594.16],
         ["2026-11-25T17:15Z", 593.96],
         ["2026-11-25T17:30Z", 599.04],
-        ["2026-11-25T17:45Z", 603.24]
+        ["2026-11-25T17:45Z", 602.7],
+        ["2026-11-25T18:00Z", 601.33],
+        ["2026-11-25T18:15Z", 605.63],
+        ["2026-11-25T18:30Z", 606.23],
+        ["2026-11-25T18:45Z", 606.38]
       ]
     },
     {
@@ -3250,8 +3274,8 @@
       "symbol": "TSLA",
       "market": "USA",
       "currency": "USD",
-      "price": 370.0,
-      "change": -3.82,
+      "price": 379.38,
+      "change": -1.38,
       "history": [
         ["2025-11-25", 419.4],
         ["2025-11-26", 426.58],
@@ -3504,7 +3528,7 @@
         ["2026-11-20", 345.82],
         ["2026-11-23", 385.46],
         ["2026-11-24", 384.68],
-        ["2026-11-25", 370.0]
+        ["2026-11-25", 379.38]
       ],
       "intraday": [
         ["2026-11-19T09:00Z", 389.73],
@@ -3782,7 +3806,11 @@
         ["2026-11-25T17:00Z", 368.08],
         ["2026-11-25T17:15Z", 366.34],
         ["2026-11-25T17:30Z", 368.6],
-        ["2026-11-25T17:45Z", 370.27]
+        ["2026-11-25T17:45Z", 370.8],
+        ["2026-11-25T18:00Z", 372.39],
+        ["2026-11-25T18:15Z", 377.27],
+        ["2026-11-25T18:30Z", 378.8],
+        ["2026-11-25T18:45Z", 379.31]
       ]
     },
     {
@@ -3790,8 +3818,8 @@
       "symbol": "SPCX",
       "market": "USA",
       "currency": "USD",
-      "price": 122.275,
-      "change": -2.81,
+      "price": 124.615,
+      "change": -0.95,
       "history": [
         ["2026-06-12", 160.95],
         ["2026-06-15", 192.5],
@@ -3908,7 +3936,7 @@
         ["2026-11-20", 127.79],
         ["2026-11-23", 133.35],
         ["2026-11-24", 125.81],
-        ["2026-11-25", 122.28]
+        ["2026-11-25", 124.61]
       ],
       "intraday": [
         ["2026-11-19T09:00Z", 146.4],
@@ -4186,7 +4214,11 @@
         ["2026-11-25T17:00Z", 120.56],
         ["2026-11-25T17:15Z", 119.63],
         ["2026-11-25T17:30Z", 121.75],
-        ["2026-11-25T17:45Z", 122.27]
+        ["2026-11-25T17:45Z", 122.07],
+        ["2026-11-25T18:00Z", 122.4],
+        ["2026-11-25T18:15Z", 124.18],
+        ["2026-11-25T18:30Z", 124.18],
+        ["2026-11-25T18:45Z", 124.62]
       ]
     },
     {
@@ -4194,8 +4226,8 @@
       "symbol": "BRK-B",
       "market": "USA",
       "currency": "USD",
-      "price": 579.17,
-      "change": 0.34,
+      "price": 581.06,
+      "change": 0.67,
       "history": [
         ["2025-11-25", 508.57],
         ["2025-11-26", 511.23],
@@ -4448,7 +4480,7 @@
         ["2026-11-20", 570.0],
         ["2026-11-23", 572.36],
         ["2026-11-24", 577.21],
-        ["2026-11-25", 579.17]
+        ["2026-11-25", 581.06]
       ],
       "intraday": [
         ["2026-11-19T09:00Z", 573.5],
@@ -4713,7 +4745,11 @@
         ["2026-11-25T17:00Z", 577.97],
         ["2026-11-25T17:15Z", 577.83],
         ["2026-11-25T17:30Z", 579.9],
-        ["2026-11-25T17:45Z", 579.17]
+        ["2026-11-25T17:45Z", 579.06],
+        ["2026-11-25T18:00Z", 579.19],
+        ["2026-11-25T18:15Z", 580.2],
+        ["2026-11-25T18:30Z", 580.47],
+        ["2026-11-25T18:45Z", 581.06]
       ]
     },
     {
@@ -4722,8 +4758,8 @@
       "market": "USA",
       "currency": "USD",
       "query": "(JPMorgan OR Dimon)",
-      "price": 316.19,
-      "change": -0.29,
+      "price": 318.16,
+      "change": 0.33,
       "history": [
         ["2025-11-25", 303.0],
         ["2025-11-26", 307.64],
@@ -4976,7 +5012,7 @@
         ["2026-11-20", 310.53],
         ["2026-11-23", 316.66],
         ["2026-11-24", 317.1],
-        ["2026-11-25", 316.19]
+        ["2026-11-25", 318.16]
       ],
       "intraday": [
         ["2026-11-19T09:00Z", 326.56],
@@ -5222,7 +5258,11 @@
         ["2026-11-25T17:00Z", 314.01],
         ["2026-11-25T17:15Z", 313.9],
         ["2026-11-25T17:30Z", 315.44],
-        ["2026-11-25T17:45Z", 316.21]
+        ["2026-11-25T17:45Z", 315.93],
+        ["2026-11-25T18:00Z", 316.13],
+        ["2026-11-25T18:15Z", 317.48],
+        ["2026-11-25T18:30Z", 317.59],
+        ["2026-11-25T18:45Z", 318.1]
       ]
     },
     {
@@ -5231,8 +5271,8 @@
       "market": "USA",
       "currency": "USD",
       "query": "\"Visa Inc\"",
-      "price": 422.535,
-      "change": 1.38,
+      "price": 425.84,
+      "change": 2.17,
       "history": [
         ["2025-11-25", 334.53],
         ["2025-11-26", 333.79],
@@ -5485,7 +5525,7 @@
         ["2026-11-20", 401.87],
         ["2026-11-23", 409.4],
         ["2026-11-24", 416.78],
-        ["2026-11-25", 422.54]
+        ["2026-11-25", 425.84]
       ],
       "intraday": [
         ["2026-11-19T09:00Z", 415.72],
@@ -5729,7 +5769,11 @@
         ["2026-11-25T17:00Z", 420.98],
         ["2026-11-25T17:15Z", 420.74],
         ["2026-11-25T17:30Z", 422.26],
-        ["2026-11-25T17:45Z", 422.59]
+        ["2026-11-25T17:45Z", 422.83],
+        ["2026-11-25T18:00Z", 422.82],
+        ["2026-11-25T18:15Z", 425.06],
+        ["2026-11-25T18:30Z", 425.51],
+        ["2026-11-25T18:45Z", 425.83]
       ]
     },
     {
@@ -5738,8 +5782,8 @@
       "market": "USA",
       "currency": "USD",
       "query": "\"Eli Lilly\"",
-      "price": 1393.58,
-      "change": -1.0,
+      "price": 1403.9449,
+      "change": -0.26,
       "history": [
         ["2025-11-25", 1109.94],
         ["2025-11-26", 1104.34],
@@ -5992,7 +6036,7 @@
         ["2026-11-20", 1347.11],
         ["2026-11-23", 1364.6],
         ["2026-11-24", 1407.59],
-        ["2026-11-25", 1393.58]
+        ["2026-11-25", 1403.94]
       ],
       "intraday": [
         ["2026-11-19T09:00Z", 1373.0],
@@ -6265,7 +6309,11 @@
         ["2026-11-25T17:00Z", 1386.08],
         ["2026-11-25T17:15Z", 1386.64],
         ["2026-11-25T17:30Z", 1392.48],
-        ["2026-11-25T17:45Z", 1393.58]
+        ["2026-11-25T17:45Z", 1393.09],
+        ["2026-11-25T18:00Z", 1394.8],
+        ["2026-11-25T18:15Z", 1398.82],
+        ["2026-11-25T18:30Z", 1401.07],
+        ["2026-11-25T18:45Z", 1404.28]
       ]
     },
     {
@@ -6273,8 +6321,8 @@
       "symbol": "AVGO",
       "market": "USA",
       "currency": "USD",
-      "price": 289.37,
-      "change": -3.89,
+      "price": 294.95,
+      "change": -2.04,
       "history": [
         ["2025-11-25", 385.03],
         ["2025-11-26", 397.57],
@@ -6527,7 +6575,7 @@
         ["2026-11-20", 304.41],
         ["2026-11-23", 313.55],
         ["2026-11-24", 301.08],
-        ["2026-11-25", 289.37]
+        ["2026-11-25", 294.95]
       ],
       "intraday": [
         ["2026-11-19T09:00Z", 363.5],
@@ -6805,7 +6853,11 @@
         ["2026-11-25T17:00Z", 287.09],
         ["2026-11-25T17:15Z", 286.67],
         ["2026-11-25T17:30Z", 288.9],
-        ["2026-11-25T17:45Z", 289.42]
+        ["2026-11-25T17:45Z", 288.48],
+        ["2026-11-25T18:00Z", 289.41],
+        ["2026-11-25T18:15Z", 292.19],
+        ["2026-11-25T18:30Z", 293.54],
+        ["2026-11-25T18:45Z", 294.89]
       ]
     },
     {
@@ -9656,14 +9708,14 @@
       "market": "USA",
       "currency": "USD",
       "query": "Anthropic",
-      "price": 84.1965,
-      "change": 2.79,
+      "price": 84.859,
+      "change": 3.6,
       "history": [
         ["2026-11-19", 97.17],
         ["2026-11-20", 88.91],
         ["2026-11-23", 87.64],
         ["2026-11-24", 81.91],
-        ["2026-11-25", 84.2]
+        ["2026-11-25", 84.86]
       ],
       "intraday": [
         ["2026-11-19T14:30Z", 83.0],
@@ -9911,7 +9963,11 @@
         ["2026-11-25T17:00Z", 81.6],
         ["2026-11-25T17:15Z", 82.11],
         ["2026-11-25T17:30Z", 83.46],
-        ["2026-11-25T17:45Z", 84.3]
+        ["2026-11-25T17:45Z", 84.21],
+        ["2026-11-25T18:00Z", 84.62],
+        ["2026-11-25T18:15Z", 83.72],
+        ["2026-11-25T18:30Z", 84.19],
+        ["2026-11-25T18:45Z", 84.8]
       ]
     },
     {
@@ -9920,8 +9976,8 @@
       "market": "USA",
       "currency": "USD",
       "query": "(AMD OR \"Advanced Micro Devices\")",
-      "price": 390.6551,
-      "change": -5.47,
+      "price": 401.095,
+      "change": -2.95,
       "history": [
         ["2025-11-25", 206.13],
         ["2025-11-26", 214.24],
@@ -10174,7 +10230,7 @@
         ["2026-11-20", 424.39],
         ["2026-11-23", 453.46],
         ["2026-11-24", 413.27],
-        ["2026-11-25", 390.66]
+        ["2026-11-25", 401.1]
       ],
       "intraday": [
         ["2026-11-19T09:00Z", 545.23],
@@ -10452,7 +10508,11 @@
         ["2026-11-25T17:00Z", 386.74],
         ["2026-11-25T17:15Z", 383.6],
         ["2026-11-25T17:30Z", 389.71],
-        ["2026-11-25T17:45Z", 391.0]
+        ["2026-11-25T17:45Z", 388.96],
+        ["2026-11-25T18:00Z", 390.74],
+        ["2026-11-25T18:15Z", 395.83],
+        ["2026-11-25T18:30Z", 398.75],
+        ["2026-11-25T18:45Z", 400.97]
       ]
     },
     {
@@ -10461,8 +10521,8 @@
       "market": "USA",
       "currency": "USD",
       "query": "\"Micron Technology\"",
-      "price": 573.78,
-      "change": -8.89,
+      "price": 589.905,
+      "change": -6.33,
       "history": [
         ["2025-11-25", 224.53],
         ["2025-11-26", 230.26],
@@ -10715,7 +10775,7 @@
         ["2026-11-20", 594.51],
         ["2026-11-23", 707.7],
         ["2026-11-24", 629.79],
-        ["2026-11-25", 573.78]
+        ["2026-11-25", 589.91]
       ],
       "intraday": [
         ["2026-11-19T09:00Z", 729.7],
@@ -10993,7 +11053,11 @@
         ["2026-11-25T17:00Z", 565.33],
         ["2026-11-25T17:15Z", 565.51],
         ["2026-11-25T17:30Z", 576.73],
-        ["2026-11-25T17:45Z", 574.0]
+        ["2026-11-25T17:45Z", 568.33],
+        ["2026-11-25T18:00Z", 574.19],
+        ["2026-11-25T18:15Z", 582.71],
+        ["2026-11-25T18:30Z", 585.53],
+        ["2026-11-25T18:45Z", 589.72]
       ]
     },
     {
@@ -11002,8 +11066,8 @@
       "market": "USA",
       "currency": "USD",
       "query": "(Oracle OR ORCL)",
-      "price": 103.89,
-      "change": -5.12,
+      "price": 104.745,
+      "change": -4.34,
       "history": [
         ["2025-11-25", 197.03],
         ["2025-11-26", 204.96],
@@ -11256,7 +11320,7 @@
         ["2026-11-20", 101.19],
         ["2026-11-23", 113.68],
         ["2026-11-24", 109.5],
-        ["2026-11-25", 103.89]
+        ["2026-11-25", 104.75]
       ],
       "intraday": [
         ["2026-11-19T09:00Z", 116.6],
@@ -11529,7 +11593,11 @@
         ["2026-11-25T17:00Z", 102.71],
         ["2026-11-25T17:15Z", 102.39],
         ["2026-11-25T17:30Z", 103.67],
-        ["2026-11-25T17:45Z", 103.89]
+        ["2026-11-25T17:45Z", 103.46],
+        ["2026-11-25T18:00Z", 103.9],
+        ["2026-11-25T18:15Z", 104.28],
+        ["2026-11-25T18:30Z", 104.52],
+        ["2026-11-25T18:45Z", 104.77]
       ]
     },
     {
@@ -11537,8 +11605,8 @@
       "symbol": "INTC",
       "market": "USA",
       "currency": "USD",
-      "price": 52.225,
-      "change": -4.7,
+      "price": 53.415,
+      "change": -2.53,
       "history": [
         ["2025-11-25", 35.83],
         ["2025-11-26", 36.81],
@@ -11791,7 +11859,7 @@
         ["2026-11-20", 51.28],
         ["2026-11-23", 59.66],
         ["2026-11-24", 54.8],
-        ["2026-11-25", 52.22]
+        ["2026-11-25", 53.42]
       ],
       "intraday": [
         ["2026-11-19T09:00Z", 56.83],
@@ -12069,7 +12137,11 @@
         ["2026-11-25T17:00Z", 51.09],
         ["2026-11-25T17:15Z", 51.08],
         ["2026-11-25T17:30Z", 52.16],
-        ["2026-11-25T17:45Z", 52.25]
+        ["2026-11-25T17:45Z", 51.95],
+        ["2026-11-25T18:00Z", 52.13],
+        ["2026-11-25T18:15Z", 52.76],
+        ["2026-11-25T18:30Z", 53.04],
+        ["2026-11-25T18:45Z", 53.37]
       ]
     },
     {
@@ -12077,8 +12149,8 @@
       "symbol": "NFLX",
       "market": "USA",
       "currency": "USD",
-      "price": 58.78,
-      "change": -0.15,
+      "price": 58.965,
+      "change": 0.16,
       "history": [
         ["2025-11-25", 104.4],
         ["2025-11-26", 106.14],
@@ -12331,7 +12403,7 @@
         ["2026-11-20", 56.73],
         ["2026-11-23", 58.1],
         ["2026-11-24", 58.87],
-        ["2026-11-25", 58.78]
+        ["2026-11-25", 58.97]
       ],
       "intraday": [
         ["2026-11-19T09:00Z", 60.1],
@@ -12608,7 +12680,11 @@
         ["2026-11-25T17:00Z", 58.26],
         ["2026-11-25T17:15Z", 58.56],
         ["2026-11-25T17:30Z", 58.72],
-        ["2026-11-25T17:45Z", 58.78]
+        ["2026-11-25T17:45Z", 58.78],
+        ["2026-11-25T18:00Z", 58.67],
+        ["2026-11-25T18:15Z", 58.9],
+        ["2026-11-25T18:30Z", 58.92],
+        ["2026-11-25T18:45Z", 58.96]
       ]
     },
     {
@@ -12616,8 +12692,8 @@
       "symbol": "VZ",
       "market": "USA",
       "currency": "USD",
-      "price": 47.8,
-      "change": 1.36,
+      "price": 47.7185,
+      "change": 1.18,
       "history": [
         ["2025-11-25", 40.59],
         ["2025-11-26", 40.88],
@@ -12870,7 +12946,7 @@
         ["2026-11-20", 46.48],
         ["2026-11-23", 46.45],
         ["2026-11-24", 47.16],
-        ["2026-11-25", 47.8]
+        ["2026-11-25", 47.72]
       ],
       "intraday": [
         ["2026-11-19T09:00Z", 46.03],
@@ -13111,7 +13187,11 @@
         ["2026-11-25T17:00Z", 47.66],
         ["2026-11-25T17:15Z", 47.88],
         ["2026-11-25T17:30Z", 47.88],
-        ["2026-11-25T17:45Z", 47.81]
+        ["2026-11-25T17:45Z", 47.78],
+        ["2026-11-25T18:00Z", 47.61],
+        ["2026-11-25T18:15Z", 47.76],
+        ["2026-11-25T18:30Z", 47.72],
+        ["2026-11-25T18:45Z", 47.72]
       ]
     },
     {
@@ -13119,8 +13199,8 @@
       "symbol": "CMCSA",
       "market": "USA",
       "currency": "USD",
-      "price": 25.925,
-      "change": 2.15,
+      "price": 25.965,
+      "change": 2.3,
       "history": [
         ["2025-11-25", 25.0],
         ["2025-11-26", 24.9],
@@ -13373,7 +13453,7 @@
         ["2026-11-20", 24.9],
         ["2026-11-23", 24.72],
         ["2026-11-24", 25.38],
-        ["2026-11-25", 25.92]
+        ["2026-11-25", 25.97]
       ],
       "intraday": [
         ["2026-11-19T09:00Z", 25.24],
@@ -13580,7 +13660,11 @@
         ["2026-11-25T17:00Z", 25.84],
         ["2026-11-25T17:15Z", 25.92],
         ["2026-11-25T17:30Z", 26.0],
-        ["2026-11-25T17:45Z", 25.93]
+        ["2026-11-25T17:45Z", 25.93],
+        ["2026-11-25T18:00Z", 25.83],
+        ["2026-11-25T18:15Z", 25.9],
+        ["2026-11-25T18:30Z", 25.93],
+        ["2026-11-25T18:45Z", 25.97]
       ]
     },
     {
@@ -13589,8 +13673,8 @@
       "market": "USA",
       "currency": "USD",
       "query": "\"AT&T\"",
-      "price": 23.335,
-      "change": 1.99,
+      "price": 23.325,
+      "change": 1.94,
       "history": [
         ["2025-11-25", 25.86],
         ["2025-11-26", 25.82],
@@ -14095,7 +14179,11 @@
         ["2026-11-25T17:00Z", 23.21],
         ["2026-11-25T17:15Z", 23.31],
         ["2026-11-25T17:30Z", 23.34],
-        ["2026-11-25T17:45Z", 23.33]
+        ["2026-11-25T17:45Z", 23.33],
+        ["2026-11-25T18:00Z", 23.25],
+        ["2026-11-25T18:15Z", 23.33],
+        ["2026-11-25T18:30Z", 23.32],
+        ["2026-11-25T18:45Z", 23.33]
       ]
     },
     {
@@ -15416,12 +15504,93 @@
   "news": [
     {
       "company": "Microsoft",
-      "title": "Microsoft declares ‘Code Red’ following 24-hour outage: Here’s what that means",
+      "title": "Report: Microsoft Declared \"Code Red\" Alert After Historic Service Outage",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNaS01eE1kODAtQl94M0RlY2FES3FoaDNTSV9zMTNXSVFYaWZVWUQzWEIzSTlaWU1uTW9FTHFkVl91RW1BNURUd1JpQktuNXhBUW5GM2VEcFBDck9mdUp6Ums0dmNKZzBzYlRjbGh6b0V6UHpOU1pqWTNwSVVNOEw1YjA5SE5JSWlmUUJWREVXUk9MZThaM2pTSVpWajB6M0ZRUGdUUnlMd1hUNERTLTV1emV3?oc=5",
+      "time": "25.11.2026 19:44",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
+      "source": "Thurrott.com"
+    },
+    {
+      "company": "Shell",
+      "title": "Counting Shell’s Share of the Climate Damage — An Independent Investigation into Brazil’s $108 Million Lawsuit and the Science of Corporate Accountability",
+      "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxQQ09ScFZlMFMxVTBRem5BQUNLdldVdWhETGVId3g4Ul9pazdhMWdvTzRxUTE2V3poSHVwd0FzRDQ0SEtHUDR0a0Y0Uzl3UTV0cFFrVjZaOEtQbC16WmNoSktDcFRLRFZtUnFPMVJlSm5hRUhha0Y2bl9BOEZ3WmVwQXNLNEhZYWxtbVBTODZvOU9wejdUYVdSV1p1Rm1namtFUVc1OVhoSHpSRmxfT3NuX2FyWlRBc2stcjQ1MVk1Z0hJbktSVmxJb0Vxbl9rd09QeWhfSlNWWjk5M0RRZ2gzYS1Db0FndlA1TXVhSHlkTi10QTZ1YzJUMmVyVkdmeDZaLXc1S2JCM2IwV1J1bXlIT2tQaXpydW1qRENIUw?oc=5",
+      "time": "25.11.2026 19:44",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Shell: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
+      "source": "Royal Dutch Shell Plc .com"
+    },
+    {
+      "company": "Intel",
+      "title": "Intel (INTC) Securities Class Action: Hagens Berman Alerts Investors to Suit After $139B Crash",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPdlBvWXZ2LUJ3b0N1TWltUnJNeHROYjhUUHlnX0FXQzQ0bi1GY0ltWFF0cy1xV0pBdDlTb1l6TDFsNGhBRzA4My1tV18xZ0xvSlVnb3NmbE5ZSWJKN1M4dHVJUkx6S3BzdVBfUG9MUUNLbjdtcG5EaGtVbDNDWk4xVTNRRmNVTVZYQ1hzRms0Y3QyWGRibzdfT1dYSk02TENIVHFvaFNpVXRPNExkdi1PYUcyMFZTWUluQVdUXzItVmV0UUhNWmh2RjViRzVfS1BmS3VaWE5CWjZJX2htVzRj?oc=5",
+      "time": "25.11.2026 19:24",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Intel: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
+      "source": "PR Newswire"
+    },
+    {
+      "company": "Tesla",
+      "title": "Tesla and SpaceX Shares Slide as Merger Concerns and EU Approval Delay Mount",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNbElkcmd0a1R5aXQzZXdhSHR3QUJndVhBQmNPQjVyeEFTNEpQTE1oRUJWak9JdFBQOHZUY2pwcVAyQW1QMlBVNjRYVUhnZzRSVlRjdjdpSWxzRzBzeUszVlZIM3E5RzRXTWFBX2Ywa2dISFNfWjQ5RDJfTHdsdGNqM29MZmxVSnAtbDZwNDZ0Qzhvdlg4TVlaNlltanR6VVZ0V3Bubw?oc=5",
+      "time": "25.11.2026 19:19",
+      "direction": "mixed",
+      "impact": "Dopad na cenu akcie Tesla je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
+      "source": "FinanceFeeds"
+    },
+    {
+      "company": "Micron Technology",
+      "title": "Can MU Stock Rebound after Breakdown to $550 as NAND Outlook, China Competition and Analyst Ackerman Downgrades Micron Technology",
+      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNNVhLRUdWajMzWUtZQ3ZXeEl6SWEwRGdlQll2OWdhSFFlT0xDMVFmYnphMEZVa1U4azBPU1AtcVdKQlp5MUVKdE9OUGw2QjRUcmoySnhORkNWSjM5Ml81NFBNQVEySkhoXzBUbFpmNmhKVkdhVVFuRVlXeGJLY3UyQ25UQk1DUUxFYTN5YzFjbzljMnYzcl8yenFlMHRXSXpUb3FtLWs4WmF3NEVjMG0tb1V0dHVELS1uRnl3eWpDYS1JMVR2R3d0bGQtaTd2N0hPS01XTDJHZ0NzMXd4eGRDN0dyZUlqZkZoaTJZaFZ0aEZFRV92cjhwYzhMc2JVNVE?oc=5",
+      "time": "25.11.2026 19:04",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Micron Technology: analytici zhoršují hodnocení, což může zvýšit prodejní tlak.",
+      "source": "FXLeaders"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Nvidia’s Billion-Dollar Board Bet: Who’s Protected as Lawsuits Mount?",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPYzItSUR4SzlJaHlBR0NFVVVqZjZsSnpzR1BGZy1QRk8tN0J3X1puRExQdWwyal90Y3NuZGlIakswU1BkQXkxMnl3cUc4NkZHS3NTdGxmNm01WGN5Mk9DalI1c3pvMjMwMnY2aE4tQXhYVjl3Slc2UlJkRGxMRmdNYkIyNkZWeWRRS3hNcmwxNXZmWGhkV1hZZEpETjh6Sk50b0RGd9IBqgFBVV95cUxPTERtVkRCekFTdThqeU9RQUNnbTRhYmE5VmxEUEpNcVhnZkNtRFc2V1IxX1BjR1Y0ejlfbmJvcTIyWXJTcDZzUVZldjVRTGdhRUJSaC1NMmRNeTV2VnFfMGFfekFuU184UnFUV3V1WnlxRjRobUlRQkJ0YTNXU1NKQjhITVJSRTdnYW42aXVOdUFBLTdOQmFWU0tFUUxfSnBPeE1rTzhIc3FWQQ?oc=5",
+      "time": "25.11.2026 19:02",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie NVIDIA: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
+      "source": "CNBC"
+    },
+    {
+      "company": "Micron Technology",
+      "title": "Micron (MU) Stock Plunges Nearly 10% to $567.48 in Afternoon Trading",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQUm5OcWtPMEd4UDB0U1Z2dG5mSWZwU29wN25Dbjl5ZHg5azZUTUZQRWUzdWphZ0VoZmFGMU5WQUVwOFlLZkkwMFFvTFFVSUpuRFYwNkFIWk52a3VhQlpBclpFbFFHSUlsR0VBSDMwN0pLdTN6dzYxZTVzbU1KNXBPMDdGUlp1QU5OMTNQUVo0YlVIR0Fxa0lDYlh6OTBBeWtSalFwLXVZamxRcG0yYThjbVRVNHc?oc=5",
+      "time": "25.11.2026 19:01",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Micron Technology: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
+      "source": "JournalArta"
+    },
+    {
+      "company": "Tesla",
+      "title": "SpaceX Stock Price Forecast: Merger Agreement With Tesla as Soon as Year-End, Shares Poised to Rebound to $132",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQMU9UMHZVaTRLanRTdWk4ODlCd0RuSEQtVjVQRDlMV0wzV0VwM2g2WmR3TUdhbS1tVVZTbmxVTzRTUnUwb0JIYWRjdUczd0tYM3g5VnZ6c2x5U3RXLUNDY04xZGRUdmpwX19RbzRpT0xHdzdxdGRSYVl4dlA0emVjeVphVDc5dllkbmhod3lwbXd5YVZkckdLVHFrXzZxcTdicGFMcTJQQUJjVDhkbURMNWNLTUJzT1FVUUtmU05yRnlCcHR6Mk1JYThYS2tPdU1vemRF?oc=5",
+      "time": "25.11.2026 18:56",
+      "direction": "mixed",
+      "impact": "Dopad na cenu akcie Tesla je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
+      "source": "TradingKey"
+    },
+    {
+      "company": "Microsoft",
+      "title": "Microsoft declares ‘Code Red’ following 24-hour outage: Here’s what that means - National",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFAxZDhHUmFZMTU1LTBXSzNnaW1JYW4tSDFqQUVVVzhZWk9ib0xWaU5LZGhlX0tSbHh2b2FVV2o0cmRwUFk2VkMzNWRINHdfbzE0ckRfaEhpS1FvSjRCdVdoM0pRdVUzZw?oc=5",
       "time": "25.11.2026 18:51",
       "direction": "down",
       "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
       "source": "Global News"
+    },
+    {
+      "company": "Alphabet",
+      "title": "SoftBank Group Stocks Crash 14.83% as AI Selloff Hits OpenAI Backer",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/softbank-group-stocks-crash-14-174425817.html",
+      "time": "25.11.2026 18:44",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Alphabet: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
+      "source": "GuruFocus.com"
     },
     {
       "company": "SpaceX",
@@ -15430,43 +15599,43 @@
       "time": "25.11.2026 18:42",
       "direction": "mixed",
       "impact": "Dopad na cenu akcie SpaceX je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
-      "source": "www.foreignpolicyjournal.com"
+      "source": "Foreign Policy Journal"
     },
     {
       "company": "Microsoft",
-      "title": "Microsoft outage puts observability in focus",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNazBGY19oLXM1XzdVTUh1cV92MFQ3ZnJZOU1BaFNYZ1gyN0xHTy10d1RfckE2VEd4QThTanpFSVRNZWp1Z3JEdmdVNHFMNzlzX0pQNE8xYVVmZ2xuY2llb05KakNMb2JYeV8weVhFSkZFcFJHRUxVUkkzZGwxUXJRak1FX3hSVE5R?oc=5",
-      "time": "25.11.2026 18:37",
+      "title": "Microsoft issues ‘Code Red’ alert following outage: Report",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPWEdmRDBMU2gtajE1SW54NGNFVlFrbzFsWTlPTXE0RjNNV1RseVZ2bTVNcXF2ZE42V3JEc05oMzB6MDIzcWQ5VmVZbTl6ZC1oSVhsOWZxWnJnOFRlcWRVQUxiakZGZDNaQ0pWZUttNm84aHJNZW5yLW5IU193VmVqZA?oc=5",
+      "time": "25.11.2026 18:41",
       "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
-      "source": "CIO Dive"
+      "impact": "Může vést k poklesu ceny akcie Microsoft: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
+      "source": "AOL.com"
     },
     {
-      "company": "Micron Technology",
-      "title": "Micron's Slide Gathers Pace as Memory Glut Fears and Tariff Threats Converge",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOWDlHdDM3ZmVHczF3dWJYRG0zUGMwdGdNTl9OaGFMbTZoSWM0dTlYeVhFb2dDQWdKX08tWHFRcnZ2akRnZlJ5ZWFjSnJ5Ym1jVU5DRFJMX2pkTWx0aVFoZVJQY0ZtQTl6a0Z3OEZ4YjB6dk4wYTNub25NdGNkTmE1ZHhkaXhiUExaTnVHZ2R2X3ZmWG5FTm50elNsRFRKZGR6VHRuZFVseTRRMmlCRUMxUTdtQnY1N2F1dnhiOHlEQ0ttbHpFenB3M3duTFoyYWtPdm5oZ1VvX0lxNGx3NV9Rb3Z3?oc=5",
+      "company": "NVIDIA",
+      "title": "Nvidia agrees to settle 2018 US investor class action for $290 million",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQQ2cwWG1mYkVmSG5oSTgwZmcxcVY5SWg2ak5aTHBtbG1qWHVvcGxjOGQzTFZKZkNSdWgtOHJtbW1BenVtTWc2UmFrOFpHbTV1Mnh5MWgxWk00R0NrVG5PX0hkNWxmczRRLWdnRUtvRFBhMzVzZUlRN0FXRFVJYlNTVUJaT1U3eVY4SUwtNFd2a1MweTlBZW1ReG9mU0pQa2ZUd3RnaEZtMXNyQmhxeDV0SGN1eWRGcDN2UExZ?oc=5",
+      "time": "25.11.2026 18:36",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie NVIDIA: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
+      "source": "Reuters"
+    },
+    {
+      "company": "Anthropic",
+      "title": "Anthropic Stock Crashes 36% From Record High as Market Cap Falls Below $1 Trillion",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONTREbWtfbDI3bDRyUDJFRzZ4NGlGaWY4MldxbFVBZjByRURvcDlqZFVtWmNfZDMwSUN2RWJnYjZsbFVySkJCU2pUa3Brekk4am1tZ1BtVk9yLTJEdHEwZWhtX1pEc3dORXhrazJxbUZaY0dEbV9FREpIRjRkeDhvbXRtaFBpX2UtWVBTemNlWTJKNDNueUMxbWR3NmJhZzlxaGxWTS1Rc2k2SGQx?oc=5",
       "time": "25.11.2026 18:34",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Micron Technology: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
-      "source": "ad-hoc-news.de"
+      "direction": "up",
+      "impact": "Může vést k nárůstu ceny akcie Anthropic: prudký růst ukazuje na silný zájem investorů, po rychlém růstu ale může přijít i stahování zisků.",
+      "source": "Coinpaper"
     },
     {
-      "company": "Microsoft",
+      "company": "Amazon",
       "title": "DoubleLine’s Cohen turns bullish on hyperscaler bonds after selloff - Bloomberg",
       "url": "https://finance.yahoo.com/markets/stocks/articles/doubleline-cohen-turns-bullish-hyperscaler-173352564.html",
       "time": "25.11.2026 18:33",
       "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Microsoft: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
+      "impact": "Může vést k poklesu ceny akcie Amazon: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
       "source": "Investing.com"
-    },
-    {
-      "company": "Micron Technology",
-      "title": "Can MU Stock Rebound after Breakdown to $550 as NAND Outlook, China Competition and Analyst Karl Ackerman Downgrades Micron Technology",
-      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNWGZyUy1pai1vWmp0NGV5YzhPU09WSmhGT3B4cWZNRm1SOXMxU1JOeVRmal9TZHlyU3BYbC1IcW5mX1pnMFAtOGRlNW8xckJVWXFyMnE1THZ1U0t2dXQ3bkFnV3BCa2l3UE5vYXJfNWJZd0g3T3RCVFR2b0o4ejFrYWpBN1ZMZ0dmNndQWDNmRWN3b0laa0dqVDUwbzlMQXZIS0UwTDRqb21xVWVSd0RvaXZvOEZ3MEZfMkRHdXVORmVjcndzVzRHR3VaenVGTzJ1MzRERHRuSVZDYWNsbmtYa1RKOENYR2R0VUkxUDdQR1NKX2JKT3VrM0h1OEZtQ2RQOTRpTzZ3?oc=5",
-      "time": "25.11.2026 18:28",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Micron Technology: analytici zhoršují hodnocení, což může zvýšit prodejní tlak.",
-      "source": "FXLeaders"
     },
     {
       "company": "Micron Technology",
@@ -15478,10 +15647,19 @@
       "source": "Blockonomi"
     },
     {
+      "company": "NVIDIA",
+      "title": "Nvidia Sinks 9% as Huang Rally Fades: Stephanie Link Sees “A Cloud Over It”",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQbV83dGYwVUhHT1NlRW5lY3dRRGpRQmlrRW1ub2VWSnJzMzc2SS1Ud1N6cjdFYUhsb0FqUFNFRVlzRGZvcE05Tk1RS2RtRTRacFd6ZFVya0RRMmU0Sk1MUk1UNndFeHFvX0h1al9aV0tIaFpnUXh3WVlfMlJBMG5BazJOM0F6dzZEZ0VzLXRXRnROblJkMFE?oc=5",
+      "time": "25.11.2026 18:24",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie NVIDIA: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
+      "source": "Yahoo Finance"
+    },
+    {
       "company": "Intel",
       "title": "Intel Shareholder Lawsuit: 9.9% Stake at $5.81 a Share",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUFRZNlFpaUk3Nk0tSk9qUnRQOVhVb3MtS2N5bnpraUxZNTZ4RzhwQkNCZTZ4TTFPWXZoUldrazEwekoyOUUzSF9UbzJVRk9wbFhtYmlZdlFlelM0YVRvdEk0OEphc3JyVEpXdHI4MVlfa3VHZ0x2TVBaOUwzNzdNZkJka2NTZ3JlU3JfUjc0VWxMemtlT1VWVFI0R0Y2Uzg?oc=5",
-      "time": "25.11.2026 18:16",
+      "time": "25.11.2026 18:21",
       "direction": "down",
       "impact": "Může vést k poklesu ceny akcie Intel: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
       "source": "shattered.io"
@@ -15494,15 +15672,6 @@
       "direction": "down",
       "impact": "Může vést k poklesu ceny akcie Alphabet: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
       "source": "GuruFocus.com"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "Nvidia leads tech sell-off as Huang comeback rally fizzles and AI concerns return",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1MS01wSHJ0d1J3eDhpZk1OYUk4ZWpWanhRYkU1OGhtV3lhODJib3hxOGkzNUJNVjdBVHN3U3NwOHZVcTBLa3I4cm5fVl9tak9OSHhPTlVxUEhGcHJuYjZYN3BwVC1RUzFmN2F1ZFhvSERxenPSAXhBVV95cUxNMk9GalFIT19DZThwZ3hGd3BjVkh2TGQtOGVOdkFoUjZjZnBURm0tTFBhb29nX3ppX0w5Y0xLV3p2S25QekdRVlRrcHo4OXlYaEFmYVNPY25JeFNpNldQbHprSkpmUVNBS0JvMmw1VkxtV0ViMnI4aWU?oc=5",
-      "time": "25.11.2026 18:10",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie NVIDIA: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
-      "source": "CNBC"
     },
     {
       "company": "Netflix",
@@ -15541,15 +15710,6 @@
       "source": "24/7 Wall St."
     },
     {
-      "company": "JPMorgan",
-      "title": "Porsche AG stock: JPMorgan keeps Buy rating, EUR 50 target",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOUTViejhGRGF2Mkh0d0luNURuTDZJaldjZUtUa2wzekJ2eVVnbnBiQ3EyMEduUVJ0UHBNUEZSeTVoMm1QV3VVa0tVUTdGTXUxTnRPVjVFQnJnbFZLZmhEYmxzeGM1cXpqRzdkU08xdHI2Qm1MZE1LT3Y3S094OVZ2ZFJ4cE4yc3FzX1RocXhFX1E4LU5MZmNyQUIwd2R1NnFYYXpQbl9hYjBTaTJiQ3NCajEzeEhGTlI0TWVR?oc=5",
-      "time": "25.11.2026 17:54",
-      "direction": "up",
-      "impact": "Může vést k nárůstu ceny akcie JPMorgan: analytici zlepšují hodnocení, což často přitáhne nové kupce.",
-      "source": "ad-hoc-news.de"
-    },
-    {
       "company": "Oracle",
       "title": "Oracle’s stock sinks toward a 3-year low as the AI trade continues to unravel",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOOTFkNFMtbmN2M3hMamNGeTh6S3FONEUxUTVDRDBnX1R0VTVGdGV2QXJrcXpfZGM5ejBNUnZ0VDJIcEdKNzU4S3NaeUU3R2ZsMElENWhmb1pVS0hqLUdNeUZlUl8zeGg5dDdUNFdfbU5RUDZaVThxbThTdlJlaHNrTHdLQjhhNmQwekEwVklHS2Z1VnlKZlh1ckhfTXEtUndxcVZwQTlreEF1TGVybzAtMEhaeHgyblI3bFEw?oc=5",
@@ -15557,78 +15717,6 @@
       "direction": "down",
       "impact": "Může vést k poklesu ceny akcie Oracle: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
       "source": "MarketWatch"
-    },
-    {
-      "company": "Alphabet",
-      "title": "Why Is Google Stock Down Today? Alphabet Falls 5% to $264.58 as Tech Selloff Drags Nasdaq 4%",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPdlVVR2E5MkZ3NlJQRkp1MkRlcW1KUVRVeHVaQ3Boc3AxdnFJVjBwY05aUm1BU0t0ZHZhVDNiZDVxLUVlWG9sS3ZBa2tfSTNsb18zRE1kaGo0Nng5bWk1cUY5Q0JPMDZ6WkJQZTY1bFU1ZUdhRmlmZTNFUng3aHhzTzE2Q0czVkhhVzVuMFBaQVEtLUs0WXdjQS1ZZFc5WnRUb1doNGRTUkVkTjdHVDI4NlV0Zmk?oc=5",
-      "time": "25.11.2026 17:51",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Alphabet: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
-      "source": "Around Prague"
-    },
-    {
-      "company": "Amazon",
-      "title": "Bernstein’s $250 Target Says DoorDash’s Selloff Went Too Far",
-      "url": "https://www.tikr.com/blog/bernsteins-250-target-says-doordashs-selloff-went-too-far?ref=yahoofinance&tlnk=yf-261125-vv699fp3",
-      "time": "25.11.2026 17:49",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Amazon: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
-      "source": "TIKR"
-    },
-    {
-      "company": "TSMC",
-      "title": "Chip stocks tumble as Nvidia-led AI rally unravels, tariff fears weigh",
-      "url": "https://www.proactiveinvestors.com/companies/news/1102454/chip-stocks-tumble-as-nvidia-led-ai-rally-unravels-tariff-fears-weigh-1102454.html",
-      "time": "25.11.2026 17:49",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie TSMC: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
-      "source": "Proactive"
-    },
-    {
-      "company": "Broadcom",
-      "title": "Impinj (PI) Stock Is Down 10.9% Today: Chip Selloff Amid AI Spending Fears",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/impinj-pi-stock-down-10-164521469.html",
-      "time": "25.11.2026 17:45",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Broadcom: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
-      "source": "GuruFocus.com"
-    },
-    {
-      "company": "TSMC",
-      "title": "TSMC Slides as Tariff Threats Meet AI Doubts, While a $500 Million Anthropic Stake and a Texas Tax B",
-      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNS0MwcGRVcjFJUU83NFUtdVRwWXh0X1Iwc3NQLW9GRkU0TjRBbWVURmpwZU8yb09vWjNlQ3hRc1pGRkVFdFJqTnFLNmJGWHY5OURYdUVmOHQ3YWNMRWZPbExmTnBidWh5eUtPU09UaTZ1T2RZMXZpWTNrZ3lMOUhWQTlfYlVDY1N3ZE92eFhURTVWVWtqZ3F2eDA3LUFiV2RjTGhfV3FycWlsMTBLeXFWTEFZRlkwNmkzTmZxcXk4Z3NzYURiZmlRMzN0MzBDLWtEamtaNW1lLUdmYWdORU5ha2I0UWtobzI2MkFQRkstTlkzZTkxVVFya3Joeko?oc=5",
-      "time": "25.11.2026 17:44",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie TSMC: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
-      "source": "ad-hoc-news.de"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "Nvidia agrees to settle 2018 US investor class action for $290 million",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQQ2cwWG1mYkVmSG5oSTgwZmcxcVY5SWg2ak5aTHBtbG1qWHVvcGxjOGQzTFZKZkNSdWgtOHJtbW1BenVtTWc2UmFrOFpHbTV1Mnh5MWgxWk00R0NrVG5PX0hkNWxmczRRLWdnRUtvRFBhMzVzZUlRN0FXRFVJYlNTVUJaT1U3eVY4SUwtNFd2a1MweTlBZW1ReG9mU0pQa2ZUd3RnaEZtMXNyQmhxeDV0SGN1eWRGcDN2UExZ?oc=5",
-      "time": "25.11.2026 17:43",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie NVIDIA: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
-      "source": "Reuters"
-    },
-    {
-      "company": "Tesla",
-      "title": "Tesla Sinks 5%, Sandisk Down 13% as AI Selloff Deepens and EU Stalls FSD Approval",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNcmcxU1JtWlBDaHNmZHFxUGNBVWtCRmdnOVRnUkRjYTBXZ180RjFPUUp5YldIeHZyTWE5YlBRTXM0a0JKQzUyYVkxTFJLWk9wckd4Ul9XODlFV1RiNEdudGNNYk5qUXlLS1NjTWFabjZ4aFRXM2N1YjNOSmdYeHRqWmRjLW42ZGh0UjRkbmx6QkNWclZGZjlzMFFpQl9QTzF5WXlWd3M2R0daX3pKNXY1dGlvc3lzcHFqXzZodDBYdmFhRXJScTBTaFlWX2E2T0FRUGtDSlZIVDZTTDQ4S1VsblNmeHNtak9MX1Nn?oc=5",
-      "time": "25.11.2026 17:42",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Tesla: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
-      "source": "TIKR.com"
-    },
-    {
-      "company": "Tesla",
-      "title": "SpaceX Tesla Merger Talks Weigh $3.5 Trillion Combination",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOd0ZNWGtTMC1XS0Uzb2EyVURwYWJDaFJpUm44Z3ZITVFZUmhMMjZQeDhpSWEzWFFNR2RuUjZ1OFpZYzhnOW5xMnZzaFEyZU1sSE9ad1VhdUZwamtybUQ3LU5UdE15Q194RkFnR0xidU5YeGpRc3JiRkkzaUxBSGFXeWFmMG5ZUQ?oc=5",
-      "time": "25.11.2026 17:41",
-      "direction": "mixed",
-      "impact": "Dopad na cenu akcie Tesla je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
-      "source": "Gotrade"
     }
   ]
 }
