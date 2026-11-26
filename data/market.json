@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T22:25:06.168870+00:00",
+  "updated_at": "2026-11-26T23:26:03.781113+00:00",
   "stocks": [
     {
       "name": "Microsoft",
@@ -7502,8 +7502,8 @@
       "symbol": "ASML.AS",
       "market": "Nizozemsko",
       "currency": "EUR",
-      "price": 1168.2,
-      "change": 3.23,
+      "price": 1131.6,
+      "change": -5.79,
       "history": [
         ["2025-11-26", 909.3],
         ["2025-11-27", 897.2],
@@ -7759,8 +7759,7 @@
         ["2026-11-20", 1168.0],
         ["2026-11-23", 1272.2],
         ["2026-11-24", 1201.2],
-        ["2026-11-25", 1131.6],
-        ["2026-11-26", 1168.2]
+        ["2026-11-25", 1131.6]
       ],
       "intraday": [
         ["2026-11-20T08:00Z", 1224.6],
@@ -7942,8 +7941,8 @@
       "market": "Německo",
       "currency": "EUR",
       "query": "SAP SE",
-      "price": 194.14,
-      "change": 2.28,
+      "price": 189.82,
+      "change": -0.14,
       "history": [
         ["2025-11-26", 206.7],
         ["2025-11-27", 207.0],
@@ -8197,8 +8196,7 @@
         ["2026-11-20", 183.68],
         ["2026-11-23", 186.34],
         ["2026-11-24", 190.08],
-        ["2026-11-25", 189.82],
-        ["2026-11-26", 194.14]
+        ["2026-11-25", 189.82]
       ],
       "intraday": [
         ["2026-11-20T08:00Z", 184.65],
@@ -8379,8 +8377,8 @@
       "symbol": "MC.PA",
       "market": "Francie",
       "currency": "EUR",
-      "price": 401.05,
-      "change": 2.57,
+      "price": 391.0,
+      "change": -0.94,
       "history": [
         ["2025-11-26", 625.4],
         ["2025-11-27", 627.4],
@@ -8636,8 +8634,7 @@
         ["2026-11-20", 381.95],
         ["2026-11-23", 388.8],
         ["2026-11-24", 394.7],
-        ["2026-11-25", 391.0],
-        ["2026-11-26", 401.05]
+        ["2026-11-25", 391.0]
       ],
       "intraday": [
         ["2026-11-20T08:00Z", 385.6],
@@ -15110,8 +15107,8 @@
       "symbol": "UCG.MI",
       "market": "Itálie",
       "currency": "EUR",
-      "price": 73.85,
-      "change": 0.87,
+      "price": 73.21,
+      "change": -3.33,
       "history": [
         ["2025-11-26", 63.83],
         ["2025-11-27", 64.12],
@@ -15365,8 +15362,7 @@
         ["2026-11-20", 78.28],
         ["2026-11-23", 76.8],
         ["2026-11-24", 75.73],
-        ["2026-11-25", 73.21],
-        ["2026-11-26", 73.85]
+        ["2026-11-25", 73.21]
       ],
       "intraday": [
         ["2026-11-20T08:00Z", 79.66],
@@ -15547,8 +15543,8 @@
       "symbol": "TTE.PA",
       "market": "Francie",
       "currency": "EUR",
-      "price": 78.36,
-      "change": 1.4,
+      "price": 77.28,
+      "change": -0.51,
       "history": [
         ["2025-11-26", 56.66],
         ["2025-11-27", 56.45],
@@ -15804,8 +15800,7 @@
         ["2026-11-20", 78.19],
         ["2026-11-23", 77.49],
         ["2026-11-24", 77.68],
-        ["2026-11-25", 77.28],
-        ["2026-11-26", 78.36]
+        ["2026-11-25", 77.28]
       ],
       "intraday": [
         ["2026-11-20T08:00Z", 79.01],
@@ -15984,6 +15979,15 @@
   ],
   "news": [
     {
+      "company": "SAP",
+      "title": "SAP SE Plans Major Job Cuts Amid AI Transition",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNVmpqMTNxX19mWWxUckpOS1pzYm42TmNwYm9QT2loZEFDRW43TEV4c05uRzVDMnNPNmdNeEkwekF5WEhhdWFEWjV5UWhyb01yclBsd1FXdFBPcVktU1BGWjNhRDc1RXdyYTgwcF9ZcUtiSkRuQnd4all0am5uZktwNU45S19zT1o5cVFyc0h3?oc=5",
+      "time": "27.11.2026 00:04",
+      "direction": "mixed",
+      "impact": "Dopad na cenu akcie SAP je nejednoznačný: propouštění může ušetřit náklady, ale často signalizuje slabší poptávku.",
+      "source": "GuruFocus"
+    },
+    {
       "company": "Microsoft",
       "title": "Microsoft declares 'Code Red' in wake of global outage",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPQTBGNWREVFFpQnNmeDVITEp2NEtmLWNJQW90clRvRjJNYTVWNGZkczdWQWFlcVdiblR0dW9NeVl3c0FNTVpzUjlwMnJhYWpQa19iX2dMMXpMN2N1YXljRTlVMkxidVhuQlczbjE0VUZ3c0NYb0dCNGVyaFVxTDVaUGRhSExrdjY1TjNsSUhtazR4bTQ?oc=5",
@@ -16004,11 +16008,29 @@
     {
       "company": "Microsoft",
       "title": "Tech Stock Sell-Off: Down 13%, Is Microsoft a Buy Now?",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSm5hNmFZaVZaZUdpenlUNnV2bmtQTThONkpRdjIzZGFsM1dmd2hyVFVVVHVfSTBvbVJRWUpaNmxSSmFLQ2hUcHpOODN3ZU8tMmNtMm9LNlpRanVKRUl5YzgwWnlXZG1yUWktbFQzUXBlelN5ajh3Yk1HdzFvSWRSeUZBTzJOVlpkYlZoY3NVZXhUTlZmRlNtUw?oc=5",
-      "time": "26.11.2026 23:00",
+      "url": "https://www.fool.com/investing/2026/11/26/tech-stock-sell-off-down-13-is-microsoft-a-buy-now/",
+      "time": "26.11.2026 23:20",
       "direction": "down",
       "impact": "Může vést k poklesu ceny akcie Microsoft: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
-      "source": "The Motley Fool"
+      "source": "Motley Fool"
+    },
+    {
+      "company": "Intel",
+      "title": "Intel (INTC) Faces Lawsuit And AI Selloff As Fair Value Debate Gets Harder",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/intel-intc-faces-lawsuit-ai-220908878.html",
+      "time": "26.11.2026 23:09",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Intel: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
+      "source": "Simply Wall St."
+    },
+    {
+      "company": "ASML",
+      "title": "Intel’s latest IT layoffs may have affected hundreds, Tom’s Hardware reports",
+      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBqbG1mdFNndDFCdGJSRGdFeTRKMTVLTFBxNVVEdDZZajFhSF9NM3JQdEZ3MnhoRWJNakhnbHdjdm04WWRz?oc=5",
+      "time": "26.11.2026 21:44",
+      "direction": "mixed",
+      "impact": "Dopad na cenu akcie ASML je nejednoznačný: propouštění může ušetřit náklady, ale často signalizuje slabší poptávku.",
+      "source": "Digg"
     },
     {
       "company": "Tesla",
@@ -16076,7 +16098,7 @@
     {
       "company": "AMD",
       "title": "Advanced Micro Devices (AMD) Completes Taalas Acquisition",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQTjZ3LXJQeWdwVDZYMUJYLWhENlp6WG1MQjh3eU13SFNjLW11MkV0bVpSS3NwVHIwdGtTS1ZNazhWSV94NTNuVThNaEozdHVJN0pXeG1pd2JvUElOY3pWS29naTRyS0w5M1RXSXBuODFDQ2ZlX3huWEhMQTROenVMLVFqRXpTMm1KcHhEclNRVUxjVktOTHZxWUNNSzdCR3FPTVJacFJhODRmV3VtaHFVVWxwUWNURFR0NzV6aXBmWlUyZHd6aHRJcEZNaEg2bmtIY3MzSlpaUEzSAd4BQVVfeXFMTkRJWHB3SHRlZkhPMUhXZXRUeW0weXk2c2NyaUJLSWp2d2t3Wk1QVDlNYXlwWmdRamhHSWlfalAyZFRiYjRhSUc5ajFYT3pGYjVqQ1VVODRLR2FvUzZ5WFM3aFowY1VRajVzQjM3QmdlUDNuUzZ6ZHlJVklkcmtTZl9JckhoRUx1UGZGNkFkRmxFN1pYUHdjR1lCa2huRXVNU3BvYmt6TW1SbElvWkI3VHlwQmZhdU8tck5uZ25VbGFvRDFFb21QbjZQUGI1dnhUY1F4QVYwdzZpM2Y5eDJ3?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxORElYcHdIdGVmSE8xSFdldFR5bTB5eTZzY3JpQktJanZ3a3daTVBUOU1heXBaZ1FqaEdJaV9qUDJkVGJiNGFJRzlqMVhPekZiNWpDVVU4NEtHYW9TNnlYUzdoWjBjVVFqNXNCMzdCZ2VQM25TNnpkeUlWSWRya1NmX0lySGhFTHVQZkY2QWRGbEU3WlhQd2NHWUJraG5FdU1TcG9ia3pNbVJsSW9aQjdUeXBCZmF1Ty1yTm5nblVsYW9EMUVvbVBuNlBQYjV2eFRjUXhBVjB3NmkzZjl4MnfSAd4BQVVfeXFMTkRJWHB3SHRlZkhPMUhXZXRUeW0weXk2c2NyaUJLSWp2d2t3Wk1QVDlNYXlwWmdRamhHSWlfalAyZFRiYjRhSUc5ajFYT3pGYjVqQ1VVODRLR2FvUzZ5WFM3aFowY1VRajVzQjM3QmdlUDNuUzZ6ZHlJVklkcmtTZl9JckhoRUx1UGZGNkFkRmxFN1pYUHdjR1lCa2huRXVNU3BvYmt6TW1SbElvWkI3VHlwQmZhdU8tck5uZ25VbGFvRDFFb21QbjZQUGI1dnhUY1F4QVYwdzZpM2Y5eDJ3?oc=5",
       "time": "26.11.2026 19:09",
       "direction": "mixed",
       "impact": "Dopad na cenu akcie AMD je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
@@ -16108,15 +16130,6 @@
       "direction": "down",
       "impact": "Může vést k poklesu ceny akcie Broadcom: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
       "source": "www.tokenpost.com"
-    },
-    {
-      "company": "SAP",
-      "title": "SAP SE (SAPA) Q1 2024 Earnings Report - Results, Call & Slides",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBFTmV6Ym8xUC1JcVdDeHVnZElsbmotWlM5LXRXck1QUTNOWHZBNXhiQXoxeFRBclVDSkw1MExDS0RDSDI3UDdaNUx6ekZrZ3ZPSlJZenFqbFZCYXE4T2RGbFBMZ0hSTnFFOVFlZzVuajI?oc=5",
-      "time": "26.11.2026 18:20",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie SAP: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
-      "source": "TipRanks"
     },
     {
       "company": "JPMorgan",
@@ -16180,24 +16193,6 @@
       "direction": "up",
       "impact": "Může vést k nárůstu ceny akcie JPMorgan: analytici zlepšují hodnocení, což často přitáhne nové kupce.",
       "source": "ad-hoc-news.de"
-    },
-    {
-      "company": "AMD",
-      "title": "AMD Shares Down 37% From Record High as Analysts Split on $625-$700 Targets",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBZd1kxcnEzZDNtQ2U3VTcxRWpWdUZxSjJoWVBqcWV5X2hXc2p3el9oQVVDNnhHZTdVWHFxdWJQSmttcW1UMGZiNno3ZHpkMEM2ZlZSQlVTSXNjcTdpQzlLYnB3aXhQMkx4Q2dSWGtJSks3SVNCQ0E?oc=5",
-      "time": "26.11.2026 17:05",
-      "direction": "up",
-      "impact": "Může vést k nárůstu ceny akcie AMD: prudký růst ukazuje na silný zájem investorů, po rychlém růstu ale může přijít i stahování zisků.",
-      "source": "BigGo Finance"
-    },
-    {
-      "company": "Microsoft",
-      "title": "Microsoft Declares Code Red Following Historic Microsoft 365 Outage",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMi1xbWdYa04xS0h2dUdQOWVRbUoyWVVURVhybHpma0docUhmZjY4MV9KRGp3Q1gyVHNaMmxBbWtVR3lkMllic3Z0akNodVYyMDlsUFdwSzJWQlhnUVdKY0JmWlhvcUppWnp2c2FkQ2VrY2Q4M2p3cGY5VzB3SWdvdnVNenVtOHRFVDB3QWZCWTR2MmNmTkFCd1cyUWE3NDZLRGdv?oc=5",
-      "time": "26.11.2026 17:04",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
-      "source": "The Mac Observer"
     }
   ]
 }
