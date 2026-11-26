@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T02:34:02.784608+00:00",
+  "updated_at": "2026-11-26T03:42:29.982588+00:00",
   "stocks": [
     {
       "name": "Microsoft",
@@ -7155,8 +7155,8 @@
       "market": "Tchaj-wan",
       "currency": "TWD",
       "query": "(TSMC OR \"Taiwan Semiconductor\")",
-      "price": 2150.0,
-      "change": 0.0,
+      "price": 2155.0,
+      "change": 0.23,
       "history": [
         ["2025-11-26", 1440.0],
         ["2025-11-27", 1435.0],
@@ -7400,7 +7400,7 @@
         ["2026-11-23", 2030.0],
         ["2026-11-24", 2230.0],
         ["2026-11-25", 2150.0],
-        ["2026-11-26", 2150.0]
+        ["2026-11-26", 2155.0]
       ],
       "intraday": [
         ["2026-11-20T01:00Z", 2045.0],
@@ -7479,7 +7479,12 @@
         ["2026-11-26T01:15Z", 2150.0],
         ["2026-11-26T01:30Z", 2135.0],
         ["2026-11-26T01:45Z", 2135.0],
-        ["2026-11-26T02:00Z", 2150.0]
+        ["2026-11-26T02:00Z", 2150.0],
+        ["2026-11-26T02:15Z", 2150.0],
+        ["2026-11-26T02:30Z", 2150.0],
+        ["2026-11-26T02:45Z", 2150.0],
+        ["2026-11-26T03:00Z", 2155.0],
+        ["2026-11-26T03:15Z", 2155.0]
       ]
     },
     {
@@ -9236,8 +9241,8 @@
       "symbol": "7203.T",
       "market": "Japonsko",
       "currency": "JPY",
-      "price": 3402.0,
-      "change": -0.12,
+      "price": 3401.0,
+      "change": -0.15,
       "history": [
         ["2025-11-26", 3141.0],
         ["2025-11-27", 3138.0],
@@ -9481,7 +9486,7 @@
         ["2026-11-20", 3312.0],
         ["2026-11-24", 3311.0],
         ["2026-11-25", 3406.0],
-        ["2026-11-26", 3402.0]
+        ["2026-11-26", 3401.0]
       ],
       "intraday": [
         ["2026-11-19T00:00Z", 3435.0],
@@ -9585,7 +9590,8 @@
         ["2026-11-26T01:30Z", 3409.0],
         ["2026-11-26T01:45Z", 3411.0],
         ["2026-11-26T02:00Z", 3403.0],
-        ["2026-11-26T02:15Z", 3402.0]
+        ["2026-11-26T02:15Z", 3402.0],
+        ["2026-11-26T02:30Z", 3401.0]
       ]
     },
     {
@@ -9593,8 +9599,8 @@
       "symbol": "0700.HK",
       "market": "Hongkong",
       "currency": "HKD",
-      "price": 343.8,
-      "change": 1.9,
+      "price": 344.2,
+      "change": 2.02,
       "history": [
         ["2025-11-26", 619.5],
         ["2025-11-27", 611.5],
@@ -9842,7 +9848,7 @@
         ["2026-11-23", 344.0],
         ["2026-11-24", 341.6],
         ["2026-11-25", 337.4],
-        ["2026-11-26", 343.8]
+        ["2026-11-26", 344.2]
       ],
       "intraday": [
         ["2026-11-20T01:30Z", 346.2],
@@ -9940,7 +9946,11 @@
         ["2026-11-26T01:30Z", 340.0],
         ["2026-11-26T01:45Z", 339.8],
         ["2026-11-26T02:00Z", 342.4],
-        ["2026-11-26T02:15Z", 343.6]
+        ["2026-11-26T02:15Z", 346.4],
+        ["2026-11-26T02:30Z", 348.4],
+        ["2026-11-26T02:45Z", 344.8],
+        ["2026-11-26T03:00Z", 345.4],
+        ["2026-11-26T03:15Z", 344.2]
       ]
     },
     {
@@ -15928,67 +15938,85 @@
   ],
   "news": [
     {
-      "company": "NVIDIA",
-      "title": "A look at the investigations involving Nvidia, Jensen Huang and Megaspeed",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5nVmJ5QVZMNlVaUlpCTHJJeGNKMHRWZWttZ1c2TlhTZWFFZ3JnaWxBOUNIQ3poSVljOEtzR3R5ZllZY0JHbV9wWVhrYzZJREk2alVqc0drOVdETHlUMUNXVjVINWJRZVptSjEwY1UtTnp4Wk1tM1hLZHRZR3dtaUk?oc=5",
-      "time": "26.11.2026 03:07",
+      "company": "Tesla",
+      "title": "Cathie Wood Buys More SpaceX Amid Tesla Merger Talks — Ron Baron Says SpaceX Could Make $50B A Year From One Data Center",
+      "url": "https://stocktwits.com/news-articles/markets/equity/cathie-wood-buys-spacex-tesla-merger-talks-ron-baron-spacex-50b-one-data-center/cNbxeDKR9Z4",
+      "time": "26.11.2026 04:32",
+      "direction": "mixed",
+      "impact": "Dopad na cenu akcie Tesla je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
+      "source": "Stocktwits"
+    },
+    {
+      "company": "Microsoft",
+      "title": "Microsoft (MSFT) Stock Could Be 36% Below Fair Value After Global Outage",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQa1BXZnNZbXktajBUc1BCVkpUUWp6bWNCS3F5aVBfQW83d05MX3FYVm1pVTBJUkhMQS1fX09KbS1VQkpuZHpWazZtbFU3bERaWWlxbXdaQVQxeGkzMkdVSlZVUVpRYWMyVEh0Qi01alZsMXhPY2FtdVlIYngtcF9nMk02U1BadjgxM0VzbmlDRGVkemJTcGFJdmFsMDVvMjkwTkttVXUtMExQa2FXdzhSTmhtV1k3eHNtOExRT2FlTkZQNDJqQjJZ0gHMAUFVX3lxTE5UVnVwY3Fveno3ZDljOGZhRVJ0ZnhnbUxuNENkM1NmVm1yVGtFMTl6bVF0alhsUFlLWGpwUGJKYWhGbGVEZm03aVdoUWJCTmZuMnFFUmNsMXpDbmNUb3h4YXkyeXdPRUYzSElFTm9BS3NwUWJGU3RZRkMwUjFwaWxLaWdRZkJ5TmpBQjZFeTR3VUFnRWdXckI3aVZydjVBNkJ5alF4ek9JUkFjbEI0RUl2TlRfbzlETFRiMmRCY09Ra2dXejFZejJzT2h6ZA?oc=5",
+      "time": "26.11.2026 04:26",
       "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie NVIDIA: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
-      "source": "CBS News"
+      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
+      "source": "Simply Wall St"
     },
     {
-      "company": "JPMorgan",
-      "title": "Hudbay Minerals stock gains fresh JPMorgan Overweight rating",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOYnk0Q2tFZ3JDVDJMLVlwLUl0amJ5bC1BRXhpZkpQanYxODRrb3JORzJodS1vb0NmVXVyM2FvMjhnT21VRHRmMlB2M045U1haWlFTeWJiRDRFUW0tZGtfbm5ESFBSaGZtQjJuV3RHelFtNjVpM0FQLXRFcjUxYnFHRlFXVHNWVFF0cDNOeDRKb1lVd1daQXBlM253cGpKQUFuWjdpZ3pnMGs4MkFiSG0wYXUzdGFzTjVDMXR3?oc=5",
-      "time": "26.11.2026 02:41",
-      "direction": "up",
-      "impact": "Může vést k nárůstu ceny akcie JPMorgan: analytici zlepšují hodnocení, což často přitáhne nové kupce.",
-      "source": "ad-hoc-news.de"
+      "company": "Microsoft",
+      "title": "Microsoft Overhauls Its Outage Response Plan After Major Outlook Problems",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNFZnSjA3QjFJV0dDd2hKZm1FSVJmN1pIUzliQnI1MTFWZFBmUjdGalcyYWZrUXFxOU0tZmtWQ2lOOUF3a3gzM3paUzZ2NktRNm1sczhuMDZhQ05wU19EMzVWT2hfS0d5SF80b1F2OThyNUlkdGpYa1V4c1FUeHhBdE56THJhaFZsZHYwUFNNRGNxOGRlUXdNMW1GRDlhcTVtNUxmcHF3eGx1ODJtVlVpa09reWtSMDQ?oc=5",
+      "time": "26.11.2026 04:19",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
+      "source": "PCMag Middle East"
     },
     {
       "company": "NVIDIA",
-      "title": "Asia shares bounce, AI and tariffs lurk in background",
+      "title": "Stocks rally in Asia, unrocked by US tariffs",
       "url": "https://finance.yahoo.com/markets/world-indices/articles/asia-shares-bounce-ai-tariffs-013452194.html",
-      "time": "26.11.2026 02:34",
+      "time": "26.11.2026 04:17",
       "direction": "down",
       "impact": "Může vést k poklesu ceny akcie NVIDIA: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
       "source": "Reuters"
     },
     {
-      "company": "Microsoft",
-      "title": "Microsoft issues 'Code Red' after huge global outage",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPVU5jRWhkN09NNElqam41NlE0MXd5cVBsazl6RkpkQnR0djROZlNlVldFRmNlOUhzOFBpc19aZlIzejZhc2IxMWdXYU85ZWI4M2FKcmN3OFc2M0NtamdXRG8zZi1CaHVXZ3U0SjlaQmZiWmdlVTFPdTh4LTVtSEFEZWs5ckNmSTNWOFBrdjB2anZ1WlAwa3Vn?oc=5",
-      "time": "26.11.2026 02:19",
+      "company": "NVIDIA",
+      "title": "Nvidia chips reach Chinese-owned U.S. firms despite export curbs, CBS reports",
+      "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-chips-reach-chinese-owned-031146505.html",
+      "time": "26.11.2026 04:11",
       "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Microsoft: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
-      "source": "Information Age | ACS"
+      "impact": "Může vést k poklesu ceny akcie NVIDIA: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
+      "source": "Investing.com"
+    },
+    {
+      "company": "Alphabet",
+      "title": "Alphabet Faces Twin Legal Fronts as Malaysian Regulator Sues and EU Adviser Backs AdSense Fine Reviv",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOUEFHOFJtXzJlTUVoOTNiQXNESDNuOUZqUXpNZWhQOFFSazBXY1dVYUZWSnlLVDBaS0M5WkF3cU1iOTBuOGIyeWFIakNMQlZ5UHNmWExWdFZqQzI0U3lITXBmRDJlSFRFSHZfYXU5NEo4ZkJ2RTdkUGc1b2RYcGlLTHNyNmNMTVRYeVk1RkhuMTVGcE5xWUJWSzcwZE0wUXU3Y1lUeWYxemUtc3NIS3YyZUtrMDNkZ0ZxVzkyY3FWSXdxYVZIZDQ0N2dacEZ4Rkh0Y0d5R3pBRDcta1pYT0FuSnhhTXd3OTAzR0I4Yi1WM3lpUEhhSkM0S1BB?oc=5",
+      "time": "26.11.2026 04:03",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Alphabet: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
+      "source": "ad-hoc-news.de"
     },
     {
       "company": "NVIDIA",
-      "title": "The U.S. Department of Justice assured the Trump administration that Nvidia's CEO is not under investigation, Vance says",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQdzhyN1M4UFB2Wk5GRWl3T3NEaTVGU0RXeTJVZUJOWVo2akp3S2diQ21tcE1iXzdlWjFVaTRQdHRlWjk2UUZfTFhDQ1UwVzB5Q0ZUMG1XZlJjbUV6TkdZSnVQY0tzX3J0Rkt6UllobGJlZUVaNkZMblJ2ZG9DQmVoWlpFRVVBY1l4TjQwQnNqLVQyWHJWVmZwTThmU01tdEZKUUEwbkJYRXJsMDNNcnhYRFBxZUFFbXBXNlpDNDY5c1JocVFsZm5BN0JYTHJJMzBiOVNpRHZ30gHUAUFVX3lxTE9sczFMTjlUOWNYeDVkMWJwbkhUbDB6MTAyM1pwenpxakYwWDZGektoekRyV2FPSXAwQ1BuLXlGX0xCMHF2TERHaFd1ckVNQWVMOFBXUlExWWF4QWYya05CV3oyaTlCT2czTzdEWnBvdzVlbzFIdk1aOGpDbWlpVmVZX3dsWFdyY2RKV0Zzci05NzZvTlFvejFIWXVsSkZtVE5maDdjY3F6NnRJTTBIUGc2TGRBTXdTMl9TWjdvZ2J0RG1XTlZGRGFMLVFuY2JjSU1hRV96?oc=5",
-      "time": "26.11.2026 02:16",
+      "title": "Asian Shares Rebound As Nvidia Concerns And US Tariffs Keep Investors Cautious",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNd0QyM1lBZnZVaHI2azBnTWRqX3A1bU8td01LNUxvX2V3LVhpOHNxWk83SnczY0FjRVU4MXNpOVkwak1OM0JkN3p2OGozb2ZVc0RtRmYzSFJpS3d0Vk52RkVUc2JEWnhUakJQNmpodDdXajJSemZYTTB0N2otcFoxc0FWQnItME9tNnRIUHNoMXpsbmstUWNYczJDb3N2T0F3bENJV2Vn?oc=5",
+      "time": "26.11.2026 03:12",
       "direction": "down",
       "impact": "Může vést k poklesu ceny akcie NVIDIA: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
-      "source": "Українські Національні Новини (УНН)"
+      "source": "Moomoo"
     },
     {
       "company": "Microsoft",
+      "title": "Microsoft outage puts observability in focus",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNazBGY19oLXM1XzdVTUh1cV92MFQ3ZnJZOU1BaFNYZ1gyN0xHTy10d1RfckE2VEd4QThTanpFSVRNZWp1Z3JEdmdVNHFMNzlzX0pQNE8xYVVmZ2xuY2llb05KakNMb2JYeV8weVhFSkZFcFJHRUxVUkkzZGwxUXJRak1FX3hSVE5R?oc=5",
+      "time": "26.11.2026 03:00",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
+      "source": "CIO Dive"
+    },
+    {
+      "company": "Apple",
       "title": "Apple Stock Defies AI Selloff: Is It the Market's Safe Haven?",
       "url": "https://beincrypto.com/apple-stock-ai-selloff-safe-haven/",
       "time": "26.11.2026 02:00",
       "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Microsoft: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
+      "impact": "Může vést k poklesu ceny akcie Apple: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
       "source": "BeInCrypto"
-    },
-    {
-      "company": "Microsoft",
-      "title": "Satya Nadella Says “the Floor of Cyber Attacks Has Fallen.” Microsoft Just Declared Code Red After a 24-Hour Outage",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNQlp1UFo5QlNzZUJCTGlNNk9tRWdCMFhlM1ZUR1RmQWRUV0xiYUxPRHJSZGg2T29QMlBRMDFZVFoyeWhyTzR3YTNSNUF5UUM2YWZLZ0xhMmVsREQxRHJKWTVoNmQzaW5kYWpzVDlhZU5wYkMtLUh1T0lmd3NlSEpZWUZQU0pSMk9OV1ZNYjhvdTQzSS1kQjI3ckZpczJfYjN2SHl2Zy1INHROZXROZm1wYlVScVVrcEktV2dET0xvejJ4T2VnNDd1QmJlMWtPcVNzNWJTeg?oc=5",
-      "time": "26.11.2026 01:34",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
-      "source": "TIKR.com"
     },
     {
       "company": "Tesla",
@@ -16070,24 +16098,6 @@
       "direction": "up",
       "impact": "Může vést k nárůstu ceny akcie SpaceX: prudký růst ukazuje na silný zájem investorů, po rychlém růstu ale může přijít i stahování zisků.",
       "source": "Yahoo Finance"
-    },
-    {
-      "company": "Intel",
-      "title": "Dell Stock Joins Nvidia, AMD, and Intel Selloff Despite Record Demand",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5WeHpqdWpJVlJKUE9CckRBWkRwOXdvcjdwaHBhcVFMTEhMVTN2ZjljZmZMYXBudU1fdnh4ZHMya3dIY3lLaU52SmRULU1PS2tZN0ktSXEtWjdWWElpNXc4WEZ1WHFVSkVKREZRM1IzQ3RNT0Fu?oc=5",
-      "time": "25.11.2026 23:03",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Intel: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
-      "source": "BeInCrypto"
-    },
-    {
-      "company": "Amazon",
-      "title": "Amazon.com (NASDAQ:AMZN) Shares Down 3.1% on Insider Selling",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOWk1ic2p2UktHUzFDVGxBVkFScjVBM0VvQ2hMTjdPVXFZTkVfOEpZODZ5Ylg3em9lRWtCRWN0VGRfbDNjYzgtT0JKdE9YTHI4eHNSZWE5U0ZlN1FIdmdaVjlOUWhNb3VMNUlGY3FyVVZlUXNwWWRWejczeE5sa3A0SkpTS0c4VmhvZlFVQ3dpUU8wSkZYTm9VdkhjcFhlYWIxVWZqZXY3UXhJRjVaVmNKdGJaeHNjUQ?oc=5",
-      "time": "25.11.2026 23:02",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Amazon: prodej akcií nebo konec lock-upu zvyšuje nabídku akcií na trhu.",
-      "source": "MarketBeat"
     },
     {
       "company": "Intel",
