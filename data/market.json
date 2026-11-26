@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T19:01:09.585364+00:00",
+  "updated_at": "2026-11-26T20:09:02.874030+00:00",
   "stocks": [
     {
       "name": "Microsoft",
@@ -15981,6 +15981,51 @@
   ],
   "news": [
     {
+      "company": "Broadcom",
+      "title": "UBS’s $425 Target Says Broadcom’s Selloff Went Too Far",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNzFyOUFoWmR4V1F6a3F1N2JhN2VmaGJ1S000TndoQUZuMmpDRVFTRWFhaU5OX1E3UGQ3eDUxQ2hVd19zaWpUMFJCS0g5aGFsZEtvRi1XQ2w5X2kzclhOU083YU9oakM2ZXJsbWUtbHY5VFR0Z0ItNG5aNklYNldobUFodWJhV2tzZS1Gd3BwR2Zldy1P?oc=5",
+      "time": "26.11.2026 20:18",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Broadcom: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
+      "source": "TIKR.com"
+    },
+    {
+      "company": "TSMC",
+      "title": "Taiwan Semiconductor Stocks Slip 1.96% as Taiwan's Market Sinks 4.8% in Chip Rout",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/taiwan-semiconductor-stocks-slip-1-190319001.html",
+      "time": "26.11.2026 20:03",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie TSMC: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
+      "source": "GuruFocus.com"
+    },
+    {
+      "company": "Apple",
+      "title": "Apple Stocks Rise as AI Selloff Spares the iPhone Maker",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/apple-stocks-rise-ai-selloff-190038273.html",
+      "time": "26.11.2026 20:00",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Apple: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
+      "source": "GuruFocus.com"
+    },
+    {
+      "company": "Intel",
+      "title": "Intel Stocks Slip After Erasing a 10.3% Plunge Below $50",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/intel-stocks-slip-erasing-10-184536612.html",
+      "time": "26.11.2026 19:45",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Intel: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
+      "source": "GuruFocus.com"
+    },
+    {
+      "company": "Visa",
+      "title": "Mastercard Stocks Rise 1.94% as Payment Networks Gain in AI Selloff Rotation",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/mastercard-stocks-rise-1-94-183721566.html",
+      "time": "26.11.2026 19:37",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Visa: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
+      "source": "GuruFocus.com"
+    },
+    {
       "company": "AMD",
       "title": "Advanced Micro Devices (AMD) Completes Taalas Acquisition",
       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQTjZ3LXJQeWdwVDZYMUJYLWhENlp6WG1MQjh3eU13SFNjLW11MkV0bVpSS3NwVHIwdGtTS1ZNazhWSV94NTNuVThNaEozdHVJN0pXeG1pd2JvUElOY3pWS29naTRyS0w5M1RXSXBuODFDQ2ZlX3huWEhMQTROenVMLVFqRXpTMm1KcHhEclNRVUxjVktOTHZxWUNNSzdCR3FPTVJacFJhODRmV3VtaHFVVWxwUWNURFR0NzV6aXBmWlUyZHd6aHRJcEZNaEg2bmtIY3MzSlpaUEzSAd4BQVVfeXFMTkRJWHB3SHRlZkhPMUhXZXRUeW0weXk2c2NyaUJLSWp2d2t3Wk1QVDlNYXlwWmdRamhHSWlfalAyZFRiYjRhSUc5ajFYT3pGYjVqQ1VVODRLR2FvUzZ5WFM3aFowY1VRajVzQjM3QmdlUDNuUzZ6ZHlJVklkcmtTZl9JckhoRUx1UGZGNkFkRmxFN1pYUHdjR1lCa2huRXVNU3BvYmt6TW1SbElvWkI3VHlwQmZhdU8tck5uZ25VbGFvRDFFb21QbjZQUGI1dnhUY1F4QVYwdzZpM2Y5eDJ3?oc=5",
@@ -16051,6 +16096,15 @@
       "direction": "mixed",
       "impact": "Dopad na cenu akcie Tesla je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
       "source": "BigGo Finance"
+    },
+    {
+      "company": "Alphabet",
+      "title": "Google Faces Nearly Rs 13,000 Crore Lawsuit In Malaysia Over Alleged Harmful Content On YouTube",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPX3JWYzgtX0ZzT2ZPU0d3eHlKbE9hamxBYWl4em5pN0dtcW01TE5uSWExb3MwbDR2NGlYbXFjM18tbmg4Uk9iaWNhbXh2eXJDenFMOGlrWmZ4RWd5X2VjbFBzd3Brcl9COUlEYjZ3RlgzcTlQaDEzVTZFRnpNMFlnZFNCN1NsWUUyRGFNcnFaMlg0Z0Q3MHNkTjZ1NXAzZkxia3JBSVk3Qi1vRUU1amFCOU1tN1F1S29peFEyLUFSWHlZRUR2ZXI1LWtvTHpVclNtU3kzTHZEaktGaVR4ZU1MZ3dLdF9yQWlUcEhNdlFGSHdlZ9IB9wFBVV95cUxPcHRrSXd0cGdIU0FIRnhCdUxJTlZjenRjV2FpNm13dzR0MHZScTJYbFRoT01IQmgxSnpfdDRyMGJjdFVUazB3ZWtNZFp0Vzd2NUc4NFFFMkJZZXJfdVNJTmFRYTBRRkJtTkI5TmtHa0MyRWV0dF90NndNUVM0Q09CX2U2RGtHallOZnZRSFQ2QXlNMk9MQ1Q0M21fMk1hdkhuLWw3by1ndDNDaXJhb1BTekVLZ3h4aVJ5Z012RDVpTW1YVVhjRVg0eWVNbjFFcTFROFNSd1BZdUZySE9UcldMaGwtbFg2cVlyWXVMYnVqSWEtWVhGRXBn?oc=5",
+      "time": "26.11.2026 17:19",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Alphabet: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
+      "source": "Times Now"
     },
     {
       "company": "LVMH",
@@ -16141,60 +16195,6 @@
       "direction": "down",
       "impact": "Může vést k poklesu ceny akcie Intel: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
       "source": "PR Newswire"
-    },
-    {
-      "company": "TotalEnergies",
-      "title": "TotalEnergies acquires UK solar and battery project",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOUUFiR2w4R2E2b2d3Rmk5TlRsblpvQVZJNm03Q3BlOTNqcWtreEpGOE1qZU5YdE5YOGYwbmtRN3Vfd0FzRHFZbnFRWDJ4NW4xZU5pM2MxZ3Uxa3BxZTc1a2ttRFZ2MEVqODZqUm04Z0pyM21uS3preERyT1ZscnRNWU44dlR1TFF5NWdHQWpMMjZFLWxnQkFFSnlHaURydHJVMVE?oc=5",
-      "time": "26.11.2026 15:38",
-      "direction": "mixed",
-      "impact": "Dopad na cenu akcie TotalEnergies je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
-      "source": "reNEWS"
-    },
-    {
-      "company": "Micron Technology",
-      "title": "Micron's Singapore HBM Line Takes Shape as Target Cuts and a DRAM Antitrust Case Converge",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQN1dLNERVaFZmMWdVRUMxTzh0bVdjSUFZbmVTTFphelhId1FPbkVOQ29pcXp1TTdfQW9hWDZRVTVQNXRzd0diaVplaF9XUF8yTG13NzRzSXNYZk8zLWlaS3R4ZUUyTnlsN09QZVF2cGQ4a3VWYzVNc3p6OEZpb1lPR3JfOFVadzIybUFmZEJRZHdVZmp4Z1BGOUZKRVV6VElSSW1SVkJpU2M5UDlBZEtacEQ5NHZSM1oxaHltR2lsTU0wal9UZC1haHhjYlNZaUdfYWlySGMtUzA0WkJjb2FaeEExTktqbkNSY2N0MEJpWHA0UDg?oc=5",
-      "time": "26.11.2026 15:03",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Micron Technology: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
-      "source": "ad-hoc-news.de"
-    },
-    {
-      "company": "SpaceX",
-      "title": "Trump Tariffs on 14 Partners: Hardware Price Impact",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPandlVFlubWYzUU44OERvWU5WZVd2SFVmVXBmblJJOTdQNXZFclZtdEZjVVNUUHViUmdFNmFSS0pZdUZrU0JpOS1hOUd5RndwTURKV0M2T1I5eVpKaklDRjczYWV6Z19JbHVma214SGZhRWFienMzalhMbFNoWnJ2Q2FiUDJkV2NSSFh5T1o5QUs?oc=5",
-      "time": "26.11.2026 14:48",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie SpaceX: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
-      "source": "shattered.io"
-    },
-    {
-      "company": "Microsoft",
-      "title": "Microsoft Code Red outage: what its plan targets",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOdUd2aGR6OGVYNDZJX3RnWVVDTG94OEJDSnVPLVNwSnhyc3lzMG1sOHpBYU5SS2NNRUhqZkhDZm51akRBdlJ0dUo0YUNGYlpzRFAtN3JxODJZNmpFRTJjRk9ONlhIYUh1YUZWSF92ODVwaWlScEJOX1VGU0lMZ0wtZA?oc=5",
-      "time": "26.11.2026 14:19",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
-      "source": "NeoTeo"
-    },
-    {
-      "company": "Apple",
-      "title": "AAPL: Apple defined, key history, primary product lineup",
-      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5YT25nRDV2WDBrbkJNcGEtUTVaMXUwRUZiQjFPWURPanYxM0RaRE9yblZHZFJMbmpWT2FmaXhCanlyWFNwM2ZF?oc=5",
-      "time": "26.11.2026 13:33",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Apple: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
-      "source": "9to5Mac"
-    },
-    {
-      "company": "Intel",
-      "title": "Trump administration pressured Intel into accepting gov’t stake in company, lawsuit documents allege",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOaWZDdVlLVWVibldYZE83RzhDUmRfREJqVjBwSDN5ZjYzekdRY1hrOTV3cG44U2tQbzNaRW1jdnRWMXFrOVpzeVU2NDdMaUM2YXdsNmJuamVjbURTMkNtUjlXY1JxZUMxNjZqV2huRnhBZGQ5ZWpFXzl0U1Rjank2WklFeEF1ZEpkenVaY3NvajhFbTRCUXJDOE9RX2NybTR5N0wyTkQwT2dFeGhHSzlDMFpaTGtuQ1dNUEFSUVZMWlg5b2NpeFBSS2F6Y0FGTDltNnhjMGttRnRMdw?oc=5",
-      "time": "26.11.2026 13:24",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Intel: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
-      "source": "Data Center Dynamics"
     }
   ]
 }
