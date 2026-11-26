@@ -3,6 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#14130f">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Market Pulse">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <script>
+    try {
+      var savedTheme = localStorage.getItem("marketPulse.theme");
+      var light = window.matchMedia && matchMedia("(prefers-color-scheme: light)").matches;
+      document.documentElement.dataset.theme = savedTheme || (light ? "light" : "dark");
+    } catch (e) {}
+  </script>
   <title>Market Pulse – světové trhy</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -381,6 +395,54 @@
     .ch-trade.sell { fill: #ff5a5a; }
     @media (max-width: 700px) { .train-summary { grid-template-columns: repeat(2, 1fr); } .buy-btn { margin-left: 0; } }
 
+    /* ---- světlý režim ---- */
+    :root[data-theme="light"] {
+      color-scheme: light;
+      --bg: #f6f1e7; --glow: #efe4cc; --panel: #fffdf8; --panel2: #f3ede0;
+      --text: #1f1b14; --muted: #6d6555; --accent: #a8690e;
+      --green: #1b8a57; --red: #c8402f; --border: #ded5c1;
+    }
+    .header-right { display: flex; align-items: flex-start; gap: 12px; }
+    .icon-btn {
+      width: 36px; height: 36px; flex: none;
+      background: var(--panel); border: 1px solid var(--border); border-radius: 50%;
+      color: var(--text); font-size: 1rem; cursor: pointer;
+    }
+    .icon-btn:hover { border-color: var(--accent); }
+
+    /* ---- přehled trhů nahoře ---- */
+    .market-strip { display: flex; gap: 10px; margin-top: 22px; padding-bottom: 6px; overflow-x: auto; }
+    .mchip {
+      flex: 0 0 auto; display: flex; align-items: baseline; gap: 8px; padding: 8px 14px;
+      background: var(--panel); border: 1px solid var(--border); border-radius: 999px;
+      font-size: .8rem; white-space: nowrap; cursor: default;
+    }
+    .mdot { width: 7px; height: 7px; align-self: center; border-radius: 50%; background: var(--muted); }
+    .mdot.open { background: var(--green); box-shadow: 0 0 0 3px rgba(111, 211, 160, .2); }
+    .mname { font-weight: 600; }
+    .mprice { color: var(--muted); font-family: var(--mono); }
+    .mchg { font-family: var(--mono); font-weight: 600; }
+
+    /* ---- přepínač Karty / Heatmapa ---- */
+    .view-toggle { display: inline-flex; margin-bottom: 14px; border: 1px solid var(--border); border-radius: 999px; overflow: hidden; }
+    .seg { padding: 7px 18px; background: none; border: none; color: var(--muted); font: inherit; font-size: .85rem; cursor: pointer; }
+    .seg.active { background: var(--accent); color: #14130f; }
+    .heat-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 8px; }
+    .heat-tile {
+      padding: 14px; background: var(--panel); border: 1px solid var(--border); border-radius: 12px;
+      color: var(--text); font: inherit; text-align: left; cursor: pointer; transition: transform .15s;
+    }
+    .heat-tile:hover { transform: translateY(-2px); }
+    .heat-name { font-size: .92rem; font-weight: 600; }
+    .heat-sym { margin-top: 2px; color: var(--muted); font-family: var(--mono); font-size: .7rem; }
+    .heat-chg { margin-top: 12px; font-family: var(--mono); font-size: 1.1rem; font-weight: 600; }
+
+    /* ---- filtry zpráv ---- */
+    .news-filters { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 8px; }
+    .news-filters input { flex: 1; min-width: 170px; width: auto; padding-left: 18px; }
+    .news-filters select { min-width: 140px; }
+    #newsCount { margin-bottom: 14px; color: var(--muted); font-size: .8rem; }
+
     .news-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
 
     .news-item {
@@ -441,8 +503,13 @@
         <h1>Market <span>Pulse</span></h1>
         <div class="muted">Akcie a zprávy z více světových trhů</div>
       </div>
-      <div id="updated" class="status">Načítám data…</div>
+      <div class="header-right">
+        <div id="updated" class="status">Načítám data…</div>
+        <button id="themeBtn" class="icon-btn" aria-label="Přepnout světlý nebo tmavý režim">☀</button>
+      </div>
     </header>
+
+    <div id="marketStrip" class="market-strip hidden"></div>
 
     <div class="controls">
       <label class="search-wrap">
@@ -468,6 +535,10 @@
     </nav>
 
     <section id="stocksPanel">
+      <div class="view-toggle">
+        <button class="seg active" data-view="cards">Karty</button>
+        <button class="seg" data-view="heat">Heatmapa</button>
+      </div>
       <div id="stocks" class="stock-grid">
         <div class="empty">Načítám kotace…</div>
       </div>
@@ -478,6 +549,19 @@
         Odhad dopadu je automatický a vychází jen z klíčových slov v titulku zprávy.
         Skutečná reakce akcie může být jiná. Nejde o investiční doporučení.
       </div>
+      <div class="news-filters">
+        <input id="newsSearch" type="search" placeholder="Hledat ve zprávách…" aria-label="Hledat ve zprávách">
+        <select id="newsCompany" aria-label="Filtrovat podle firmy"><option value="">Všechny firmy</option></select>
+        <select id="newsImpact" aria-label="Filtrovat podle dopadu">
+          <option value="">Každý dopad</option>
+          <option value="up">▲ Možný růst</option>
+          <option value="down">▼ Možný pokles</option>
+          <option value="mixed">◆ Nejasný dopad</option>
+          <option value="neutral">● Bez jasného dopadu</option>
+        </select>
+        <select id="newsMarket" aria-label="Filtrovat podle trhu"><option value="">Všechny trhy</option></select>
+      </div>
+      <div id="newsCount"></div>
       <ul id="news" class="news-list">
         <li class="empty">Načítám zprávy…</li>
       </ul>
@@ -520,6 +604,7 @@
       <div class="backup-row" style="margin-top: 0;">
         <button id="trainExport" class="reset-btn backup-btn">Stáhnout zálohu</button>
         <button id="trainImport" class="reset-btn backup-btn">Nahrát zálohu</button>
+        <button id="trainCsv" class="reset-btn backup-btn">Exportovat obchody (CSV)</button>
         <button id="trainReset" class="reset-btn">Začít znovu</button>
         <input id="trainFile" type="file" accept="application/json,.json" hidden>
       </div>
@@ -540,6 +625,7 @@
       <h3 id="chartTitle"></h3>
       <div id="chartSub" class="ticker"></div>
       <div id="chartLive" class="chart-live"></div>
+      <div id="chart52" class="chart-live"></div>
       <div id="chartSummary" class="chart-summary"></div>
       <div class="ranges">
         <button class="range" data-range="1D">1D</button>
@@ -572,6 +658,27 @@
     // Adresa tvého Cloudflare Workeru, např. "https://market-pulse.tvojesubdomena.workers.dev"
     // Když je prázdná, stránka používá jen data z GitHubu.
     const LIVE_URL = "https://market-pulse.krystof-plechaty.workers.dev";
+
+    // ---- nastavení uložená v tomto zařízení (vzhled, zobrazení) ----
+    function getPref(key, fallback) {
+      try {
+        return localStorage.getItem("marketPulse." + key) || fallback;
+      } catch (error) {
+        return fallback;
+      }
+    }
+
+    function setPref(key, value) {
+      try {
+        localStorage.setItem("marketPulse." + key, value);
+      } catch (error) {
+        // úložiště není dostupné
+      }
+    }
+
+    let stockView = getPref("view", "cards");   // "cards" nebo "heat"
+    let allNews = [];
+    let overview = null;
 
     let allStocks = [];
     let liveQuotes = {};
@@ -638,9 +745,37 @@
         return;
       }
 
+      if (stockView === "heat") {
+        root.className = "heat-grid";
+        const changeOf = stock =>
+          (stock.change !== null && stock.change !== undefined && Number.isFinite(Number(stock.change)) ? Number(stock.change) : -Infinity);
+
+        for (const stock of [...shownStocks].sort((a, b) => changeOf(b) - changeOf(a))) {
+          const change = Number(stock.change);
+          const known = stock.change !== null && stock.change !== undefined && Number.isFinite(change);
+          const tile = makeElement("button", "heat-tile");
+
+          if (known) {
+            const strength = Math.min(Math.abs(change) / 4, 1);   // změna o 4 % = nejsytější barva
+            tile.style.background =
+              `color-mix(in srgb, var(${change >= 0 ? "--green" : "--red"}) ${Math.round(14 + strength * 56)}%, var(--panel))`;
+          }
+
+          tile.append(
+            makeElement("div", "heat-name", stock.name || stock.symbol),
+            makeElement("div", "heat-sym", stock.symbol || ""),
+            makeElement("div", "heat-chg", known ? `${change > 0 ? "+" : ""}${change.toFixed(2).replace(".", ",")} %` : "–")
+          );
+          tile.addEventListener("click", () => openChart(stock));
+          root.append(tile);
+        }
+        return;
+      }
+      root.className = "stock-grid";
+
       for (const stock of shownStocks) {
         const change = Number(stock.change);
-        const hasChange = Number.isFinite(change);
+        const hasChange = stock.change !== null && stock.change !== undefined && Number.isFinite(change);
         const direction = hasChange ? (change >= 0 ? "up" : "down") : "";
 
         const card = makeElement("article", `card ${direction}`.trim());
@@ -702,17 +837,28 @@
     }
 
     function renderNews(items) {
+      if (Array.isArray(items)) allNews = items;
+      fillNewsFilters();
+
       const root = document.getElementById("news");
+      const count = document.getElementById("newsCount");
       root.replaceChildren();
 
-      if (!Array.isArray(items) || items.length === 0) {
-        root.append(
-          makeElement("li", "empty", "Momentálně nejsou dostupné žádné zprávy.")
-        );
+      if (allNews.length === 0) {
+        count.textContent = "";
+        root.append(makeElement("li", "empty", "Momentálně nejsou dostupné žádné zprávy."));
         return;
       }
 
-      for (const item of items) {
+      const shown = allNews.filter(newsMatches);
+      count.textContent = `Zobrazeno ${shown.length} z ${allNews.length} zpráv`;
+
+      if (shown.length === 0) {
+        root.append(makeElement("li", "empty", "Žádné zprávy neodpovídají zvolenému filtru."));
+        return;
+      }
+
+      for (const item of shown) {
         const li = makeElement("li", "news-item");
         const company = item.company || "Firemní zprávy";
         const time = item.time || "Čas neuveden";
@@ -860,6 +1006,7 @@
         renderStocks();
         renderTrainer();
         updateStatus();
+        renderOverview();
 
         // otevřený graf překreslíme s novou cenou
         if (chartVisible()) {
@@ -1746,6 +1893,21 @@
       badge.className = "chart-live";
       updateTradeBar();
 
+      const range52 = document.getElementById("chart52");
+      range52.textContent = "";
+      const closes = (Array.isArray(chartStock.history) ? chartStock.history : [])
+        .map(entry => Number(entry[1]))
+        .filter(Number.isFinite);
+      const current = Number.isFinite(chartStock.price) ? chartStock.price : closes[closes.length - 1];
+      if (closes.length >= 20 && Number.isFinite(current)) {
+        const high = Math.max(...closes, current);
+        const low = Math.min(...closes, current);
+        const period = closes.length >= 240 ? "52 týdnů" : `posledních ${closes.length} dní`;
+        range52.textContent =
+          `${period}: max ${formatPrice(chartStock, high)} (${signedPct((current / high - 1) * 100)}) · ` +
+          `min ${formatPrice(chartStock, low)} (${signedPct((current / low - 1) * 100)})`;
+      }
+
       document.querySelectorAll(".range").forEach(button => {
         button.classList.toggle("active", button.dataset.range === chartRange);
       });
@@ -2081,6 +2243,202 @@
       if (event.key === "Escape") closeChart();
     });
 
+    // ---- Světlý / tmavý vzhled ----
+    function applyTheme(theme) {
+      document.documentElement.dataset.theme = theme;
+      const meta = document.querySelector('meta[name="theme-color"]');
+      if (meta) meta.setAttribute("content", theme === "light" ? "#f6f1e7" : "#14130f");
+
+      const button = document.getElementById("themeBtn");
+      button.textContent = theme === "light" ? "☾" : "☀";
+      button.title = theme === "light" ? "Přepnout na tmavý režim" : "Přepnout na světlý režim";
+    }
+
+    function initTheme() {
+      const prefersLight = typeof matchMedia === "function" && matchMedia("(prefers-color-scheme: light)").matches;
+      applyTheme(getPref("theme", "") || (prefersLight ? "light" : "dark"));
+    }
+
+    document.getElementById("themeBtn").addEventListener("click", () => {
+      const next = document.documentElement.dataset.theme === "light" ? "dark" : "light";
+      setPref("theme", next);
+      applyTheme(next);
+    });
+    initTheme();
+
+    // ---- Karty / Heatmapa ----
+    function syncViewButtons() {
+      document.querySelectorAll(".seg").forEach(button => {
+        button.classList.toggle("active", button.dataset.view === stockView);
+      });
+    }
+    document.querySelectorAll(".seg").forEach(button => {
+      button.addEventListener("click", () => {
+        stockView = button.dataset.view;
+        setPref("view", stockView);
+        syncViewButtons();
+        renderStocks();
+      });
+    });
+    syncViewButtons();
+
+    // ---- Filtry zpráv ----
+    function fillNewsFilters() {
+      const companies = [...new Set(allNews.map(item => item.company).filter(Boolean))]
+        .sort((a, b) => a.localeCompare(b, "cs"));
+      const markets = [...new Set(allStocks.map(stock => stock.market).filter(Boolean))]
+        .sort((a, b) => a.localeCompare(b, "cs"));
+
+      const fill = (select, label, values) => {
+        const signature = values.join("|");
+        if (select.dataset.signature === signature) return;
+
+        const keep = select.value;
+        select.replaceChildren(new Option(label, ""));
+        for (const value of values) select.add(new Option(value, value));
+        if (values.includes(keep)) select.value = keep;
+        select.dataset.signature = signature;
+      };
+
+      fill(document.getElementById("newsCompany"), "Všechny firmy", companies);
+      fill(document.getElementById("newsMarket"), "Všechny trhy", markets);
+    }
+
+    function newsMatches(item) {
+      const query = document.getElementById("newsSearch").value.trim().toLowerCase();
+      const company = document.getElementById("newsCompany").value;
+      const impact = document.getElementById("newsImpact").value;
+      const market = document.getElementById("newsMarket").value;
+
+      if (company && item.company !== company) return false;
+      if (impact && (item.direction || "neutral") !== impact) return false;
+      if (market) {
+        const stock = allStocks.find(entry => entry.name === item.company);
+        if (!stock || stock.market !== market) return false;
+      }
+      if (query && !`${item.company || ""} ${item.title || ""} ${item.source || ""}`.toLowerCase().includes(query)) {
+        return false;
+      }
+      return true;
+    }
+
+    document.getElementById("newsSearch").addEventListener("input", () => renderNews());
+    ["newsCompany", "newsImpact", "newsMarket"].forEach(id => {
+      document.getElementById(id).addEventListener("change", () => renderNews());
+    });
+
+    // ---- Export obchodů do CSV (otevře se v Excelu) ----
+    function exportCsv() {
+      const sim = loadSim();
+      const num = value => String(value).replace(".", ",");
+      const rows = [["Čas", "Akcie", "Symbol", "Obchod", "Kusů", "Cena", "Měna", "Částka (Kč)", "Zisk (Kč)"]];
+
+      for (const trade of sim.trades) {
+        rows.push([
+          new Date(trade.t).toLocaleString("cs-CZ"), trade.name, trade.symbol,
+          trade.side === "buy" ? "Koupě" : "Prodej", num(trade.qty), num(trade.price), trade.currency,
+          num(Math.round(trade.amount * 100) / 100),
+          trade.side === "sell" ? num(trade.profit) : ""
+        ]);
+      }
+
+      const csv = "\ufeff" + rows
+        .map(row => row.map(cell => `"${String(cell).replace(/"/g, '""')}"`).join(";"))
+        .join("\r\n");
+
+      const blob = new Blob([csv], { type: "text/csv;charset=utf-8" });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement("a");
+      link.href = url;
+      link.download = `marketpulse-obchody-${new Date().toISOString().slice(0, 10)}.csv`;
+      document.body.appendChild(link);
+      link.click();
+      link.remove();
+      setTimeout(() => URL.revokeObjectURL(url), 1000);
+
+      setBackupMsg(`Exportováno ${sim.trades.length} obchodů do souboru CSV.`, "ok");
+    }
+    document.getElementById("trainCsv").addEventListener("click", exportCsv);
+
+    // ---- Přehled trhů nahoře: indexy, otevřeno / zavřeno, kurzy ----
+    function fmtDuration(seconds) {
+      const total = Math.max(0, Math.round(seconds / 60));
+      const days = Math.floor(total / 1440);
+      const hours = Math.floor((total % 1440) / 60);
+      const minutes = total % 60;
+      if (days > 0) return `${days} d ${hours} h`;
+      return hours > 0 ? `${hours} h ${minutes} min` : `${minutes} min`;
+    }
+
+    function sessionText(info) {
+      const now = Date.now() / 1000;
+      if (info.session === "regular" && Number.isFinite(info.closeAt)) {
+        return `Otevřeno, zavírá za ${fmtDuration(info.closeAt - now)}`;
+      }
+      if (!Number.isFinite(info.openAt)) return "Zavřeno";
+
+      // další otevření: stejný čas v dalším pracovním dni (svátky a změna času se nepočítají)
+      let start = info.openAt;
+      const offset = Number(info.gmtoffset) || 0;
+      for (let guard = 0; guard < 10; guard++) {
+        const weekday = new Date((start + offset) * 1000).getUTCDay();
+        if (start > now && weekday !== 0 && weekday !== 6) break;
+        start += 86400;
+      }
+      return `Zavřeno, otevře za ${fmtDuration(start - now)}`;
+    }
+
+    function renderOverview() {
+      const strip = document.getElementById("marketStrip");
+      const indices = overview && overview.indices ? Object.values(overview.indices) : [];
+      const currencies = ["USD", "EUR", "GBP"].filter(code => Number.isFinite(fxRates[code]));
+
+      strip.replaceChildren();
+      if (indices.length === 0 && currencies.length === 0) {
+        strip.classList.add("hidden");
+        return;
+      }
+      strip.classList.remove("hidden");
+
+      for (const info of indices) {
+        const chip = makeElement("div", "mchip");
+        chip.title = `${sessionText(info)} (svátky a změna času nejsou započítány)`;
+        chip.append(
+          makeElement("span", info.session === "regular" ? "mdot open" : "mdot"),
+          makeElement("span", "mname", info.name),
+          makeElement("span", "mprice", info.price.toLocaleString("cs-CZ", { maximumFractionDigits: 2 })),
+          makeElement("span", `mchg ${Number.isFinite(info.change) ? tone(info.change) : ""}`.trim(),
+            Number.isFinite(info.change) ? signedPct(info.change) : "")
+        );
+        strip.append(chip);
+      }
+
+      for (const code of currencies) {
+        const chip = makeElement("div", "mchip");
+        chip.title = `Kurz ${code} k české koruně`;
+        chip.append(
+          makeElement("span", "mname", `${code}/CZK`),
+          makeElement("span", "mprice", fxRates[code].toLocaleString("cs-CZ", { minimumFractionDigits: 2, maximumFractionDigits: 2 }))
+        );
+        strip.append(chip);
+      }
+    }
+
+    async function loadOverview() {
+      if (!LIVE_URL || document.hidden) return;
+
+      try {
+        const response = await fetch(`${LIVE_URL.replace(/\/$/, "")}/overview`, { cache: "no-store" });
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+
+        const data = await response.json();
+        if (data && data.indices) overview = data;
+        renderOverview();
+      } catch (error) {
+        console.warn("Přehled trhů není dostupný:", error);
+      }
+    }
+
     // Přepínání záložek Akcie / Zprávy
     document.querySelectorAll(".tab").forEach(button => {
       button.addEventListener("click", () => {
@@ -2123,6 +2481,16 @@
     setInterval(() => {
       if (!document.hidden) loadData();
     }, 3 * 60 * 1000);
+
+    // přehled trhů: data každou minutu, odpočet do otevření každých 30 s
+    loadOverview();
+    setInterval(loadOverview, 60 * 1000);
+    setInterval(renderOverview, 30 * 1000);
+
+    // instalace na plochu a otevření bez připojení
+    if (typeof navigator !== "undefined" && "serviceWorker" in navigator) {
+      navigator.serviceWorker.register("sw.js").catch(() => {});
+    }
   </script>
 </body>
 </html>
