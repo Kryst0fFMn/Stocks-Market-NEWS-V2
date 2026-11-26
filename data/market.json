@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T11:01:31.509064+00:00",
+  "updated_at": "2026-11-26T12:04:56.002377+00:00",
   "stocks": [
     {
       "name": "Microsoft",
@@ -7502,8 +7502,8 @@
       "symbol": "ASML.AS",
       "market": "Nizozemsko",
       "currency": "EUR",
-      "price": 1161.8,
-      "change": 2.67,
+      "price": 1166.0,
+      "change": 3.04,
       "history": [
         ["2025-11-26", 909.3],
         ["2025-11-27", 897.2],
@@ -7760,7 +7760,7 @@
         ["2026-11-23", 1272.2],
         ["2026-11-24", 1201.2],
         ["2026-11-25", 1131.6],
-        ["2026-11-26", 1161.8]
+        ["2026-11-26", 1166.0]
       ],
       "intraday": [
         ["2026-11-20T08:00Z", 1224.6],
@@ -7910,7 +7910,11 @@
         ["2026-11-26T10:00Z", 1165.2],
         ["2026-11-26T10:15Z", 1166.0],
         ["2026-11-26T10:30Z", 1162.2],
-        ["2026-11-26T10:45Z", 1161.6]
+        ["2026-11-26T10:45Z", 1162.8],
+        ["2026-11-26T11:00Z", 1163.8],
+        ["2026-11-26T11:15Z", 1164.4],
+        ["2026-11-26T11:30Z", 1165.4],
+        ["2026-11-26T11:45Z", 1166.0]
       ]
     },
     {
@@ -7919,8 +7923,8 @@
       "market": "Německo",
       "currency": "EUR",
       "query": "SAP SE",
-      "price": 192.86,
-      "change": 1.6,
+      "price": 192.12,
+      "change": 1.21,
       "history": [
         ["2025-11-26", 206.7],
         ["2025-11-27", 207.0],
@@ -8175,7 +8179,7 @@
         ["2026-11-23", 186.34],
         ["2026-11-24", 190.08],
         ["2026-11-25", 189.82],
-        ["2026-11-26", 192.86]
+        ["2026-11-26", 192.12]
       ],
       "intraday": [
         ["2026-11-20T08:00Z", 184.65],
@@ -8325,7 +8329,11 @@
         ["2026-11-26T10:00Z", 193.12],
         ["2026-11-26T10:15Z", 192.78],
         ["2026-11-26T10:30Z", 192.86],
-        ["2026-11-26T10:45Z", 192.86]
+        ["2026-11-26T10:45Z", 192.3],
+        ["2026-11-26T11:00Z", 192.24],
+        ["2026-11-26T11:15Z", 192.22],
+        ["2026-11-26T11:30Z", 192.16],
+        ["2026-11-26T11:45Z", 192.12]
       ]
     },
     {
@@ -8333,8 +8341,8 @@
       "symbol": "MC.PA",
       "market": "Francie",
       "currency": "EUR",
-      "price": 401.3,
-      "change": 2.63,
+      "price": 400.5,
+      "change": 2.43,
       "history": [
         ["2025-11-26", 625.4],
         ["2025-11-27", 627.4],
@@ -8591,7 +8599,7 @@
         ["2026-11-23", 388.8],
         ["2026-11-24", 394.7],
         ["2026-11-25", 391.0],
-        ["2026-11-26", 401.3]
+        ["2026-11-26", 400.5]
       ],
       "intraday": [
         ["2026-11-20T08:00Z", 385.6],
@@ -8741,7 +8749,11 @@
         ["2026-11-26T10:00Z", 402.9],
         ["2026-11-26T10:15Z", 403.1],
         ["2026-11-26T10:30Z", 401.3],
-        ["2026-11-26T10:45Z", 401.3]
+        ["2026-11-26T10:45Z", 401.0],
+        ["2026-11-26T11:00Z", 400.55],
+        ["2026-11-26T11:15Z", 401.1],
+        ["2026-11-26T11:30Z", 400.7],
+        ["2026-11-26T11:45Z", 400.5]
       ]
     },
     {
@@ -8749,8 +8761,8 @@
       "symbol": "AZN.L",
       "market": "Velká Británie",
       "currency": "GBp",
-      "price": 14054.0,
-      "change": 0.92,
+      "price": 14066.0,
+      "change": 1.01,
       "history": [
         ["2025-11-26", 14148.0],
         ["2025-11-27", 14012.0],
@@ -9005,7 +9017,7 @@
         ["2026-11-23", 13540.0],
         ["2026-11-24", 13932.0],
         ["2026-11-25", 13926.0],
-        ["2026-11-26", 14054.0]
+        ["2026-11-26", 14066.0]
       ],
       "intraday": [
         ["2026-11-20T08:00Z", 13428.0],
@@ -9155,7 +9167,11 @@
         ["2026-11-26T10:00Z", 14066.0],
         ["2026-11-26T10:15Z", 14072.0],
         ["2026-11-26T10:30Z", 14052.0],
-        ["2026-11-26T10:45Z", 14053.13]
+        ["2026-11-26T10:45Z", 14058.0],
+        ["2026-11-26T11:00Z", 14068.0],
+        ["2026-11-26T11:15Z", 14072.0],
+        ["2026-11-26T11:30Z", 14064.0],
+        ["2026-11-26T11:45Z", 14066.0]
       ]
     },
     {
@@ -14581,8 +14597,8 @@
       "market": "Velká Británie",
       "currency": "GBp",
       "query": "\"Shell plc\"",
-      "price": 3605.0,
-      "change": 1.39,
+      "price": 3608.5,
+      "change": 1.49,
       "history": [
         ["2025-11-26", 2766.5],
         ["2025-11-27", 2753.0],
@@ -14837,7 +14853,7 @@
         ["2026-11-23", 3567.0],
         ["2026-11-24", 3552.0],
         ["2026-11-25", 3555.5],
-        ["2026-11-26", 3605.0]
+        ["2026-11-26", 3608.5]
       ],
       "intraday": [
         ["2026-11-20T08:00Z", 3563.5],
@@ -14987,7 +15003,11 @@
         ["2026-11-26T10:00Z", 3595.0],
         ["2026-11-26T10:15Z", 3601.5],
         ["2026-11-26T10:30Z", 3605.0],
-        ["2026-11-26T10:45Z", 3605.0]
+        ["2026-11-26T10:45Z", 3607.5],
+        ["2026-11-26T11:00Z", 3607.0],
+        ["2026-11-26T11:15Z", 3608.5],
+        ["2026-11-26T11:30Z", 3605.5],
+        ["2026-11-26T11:45Z", 3608.5]
       ]
     },
     {
@@ -14995,8 +15015,8 @@
       "symbol": "UCG.MI",
       "market": "Itálie",
       "currency": "EUR",
-      "price": 74.99,
-      "change": 2.43,
+      "price": 74.74,
+      "change": 2.09,
       "history": [
         ["2025-11-26", 63.83],
         ["2025-11-27", 64.12],
@@ -15251,7 +15271,7 @@
         ["2026-11-23", 76.8],
         ["2026-11-24", 75.73],
         ["2026-11-25", 73.21],
-        ["2026-11-26", 74.99]
+        ["2026-11-26", 74.74]
       ],
       "intraday": [
         ["2026-11-20T08:00Z", 79.66],
@@ -15401,7 +15421,11 @@
         ["2026-11-26T10:00Z", 74.82],
         ["2026-11-26T10:15Z", 75.04],
         ["2026-11-26T10:30Z", 74.96],
-        ["2026-11-26T10:45Z", 74.99]
+        ["2026-11-26T10:45Z", 74.94],
+        ["2026-11-26T11:00Z", 75.19],
+        ["2026-11-26T11:15Z", 74.86],
+        ["2026-11-26T11:30Z", 74.84],
+        ["2026-11-26T11:45Z", 74.75]
       ]
     },
     {
@@ -15409,8 +15433,8 @@
       "symbol": "TTE.PA",
       "market": "Francie",
       "currency": "EUR",
-      "price": 78.41,
-      "change": 1.46,
+      "price": 78.35,
+      "change": 1.38,
       "history": [
         ["2025-11-26", 56.66],
         ["2025-11-27", 56.45],
@@ -15667,7 +15691,7 @@
         ["2026-11-23", 77.49],
         ["2026-11-24", 77.68],
         ["2026-11-25", 77.28],
-        ["2026-11-26", 78.41]
+        ["2026-11-26", 78.35]
       ],
       "intraday": [
         ["2026-11-20T08:00Z", 79.01],
@@ -15817,11 +15841,69 @@
         ["2026-11-26T10:00Z", 78.27],
         ["2026-11-26T10:15Z", 78.34],
         ["2026-11-26T10:30Z", 78.4],
-        ["2026-11-26T10:45Z", 78.41]
+        ["2026-11-26T10:45Z", 78.41],
+        ["2026-11-26T11:00Z", 78.32],
+        ["2026-11-26T11:15Z", 78.37],
+        ["2026-11-26T11:30Z", 78.32],
+        ["2026-11-26T11:45Z", 78.35]
       ]
     }
   ],
   "news": [
+    {
+      "company": "Tesla",
+      "title": "JPMorgan Says S&P Could Waive Its Rules for a Tesla-SpaceX Merger. That’s Good News for SpaceX Holders",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOZXRaUlY0MGxtcHRGVnNocTB3NmNNeUx5ZS1aUUN3cGpXMDVqNldMY3AzYzlXUGVVSWViMDdzaUlYM2Q1bnd4dkEtQktLOVpvdnloX3JublFFcEhzaW5pOHM0bVpNQkxyR2pPenRicUdFWVJWMUpDdXRhWGZFTWxQZ21yTkQ5dnpfcUZ1WWwyT3hQUTBLalZwVmozREl6dmRGQnBvdF9nSUlnUWdFeUJPaTFHNm9veHFhMDg5OUptQ0V1d0pMUzA5M0xadzlCekFoQWJQODFhTngzdHhUaWEzeHpHdmJWSmJ1SHNWanZpVWJnLUwxY3luc0dn?oc=5",
+      "time": "26.11.2026 13:02",
+      "direction": "mixed",
+      "impact": "Dopad na cenu akcie Tesla je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
+      "source": "TIKR.com"
+    },
+    {
+      "company": "ASML",
+      "title": "ASML Buyback Grinds On as The Hague Fights Washington's Chip Curbs",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOQzlPNmY2MUlOcTBEY0RJQV9sSDZHUkt6dnZlazRIODBCY18ycE43b2tNQ1c3b25fSDZHaWwyUnVQZDJKckZacC11dENuNUxzRlBaMFRiNEhlX1JwNGpWNUJKUnJ5T3N5bm1qV0ZWY256dnV3cGUzQzhNOUdITVB0QmdPQjRZVHlIaU9nV1ktTjVOb2FocHhrNV9XemQxTGRCR1h5LVAzVDZPdi1jeEprZTRWU2VnRUFVcVFTeDJuMDZJM19ObUE5cWFIWjM2SFhsOXBzSA?oc=5",
+      "time": "26.11.2026 12:33",
+      "direction": "up",
+      "impact": "Může vést k nárůstu ceny akcie ASML: zpětný odkup akcií nebo vyšší dividenda zvyšují hodnotu pro akcionáře.",
+      "source": "ad-hoc-news.de"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Nvidia Halts Server Shipments To 4 Southeast Asian Countries Amid New U.S. Export Curbs, Report Says",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNT2IzeDRBUHdXNi1LQjBNUEl3S21Va0NyeGN6eFZQZmdHUU5STk5FRXZTSFVhd2tYbTBHNjRfUkNDS29yNDlXYXdYMXZGMVZOZzE1STd1dEdVdk1iM0szN3B4ai1QWkpHTDlnVGZzZzNlQ09acXRCRklnWTgwMGV2Q3MtbWtYbkg0SnV1bjNCMV9tbW5zMUVEUU1IOTBNRHdDZUpGWXZuaG1MLWlSV3p2UkZFQVhoeF94RDY3Yzh6MkdtamtCVGQzamRsQ1VkbTU3X1huQ3NJTQ?oc=5",
+      "time": "26.11.2026 12:17",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie NVIDIA: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
+      "source": "Forbes"
+    },
+    {
+      "company": "AMD",
+      "title": "Nvidia, AMD and Micron Stocks Plunge as AI Selloff Deepens",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-amd-micron-stocks-plunge-110624788.html",
+      "time": "26.11.2026 12:06",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie AMD: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
+      "source": "GuruFocus.com"
+    },
+    {
+      "company": "JPMorgan",
+      "title": "Why Outages at Apps Like Chase Mean Cybersecurity Is Now Everyone’s Problem",
+      "url": "https://unchainedcrypto.com/why-outages-at-apps-like-chase-mean-cybersecurity-is-now-everyones-problem/",
+      "time": "26.11.2026 12:00",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie JPMorgan: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
+      "source": "Unchained"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Nvidia Reportedly Halts AI Server Shipments to Four Southeast Asian Countries Amid Tighter US Export Controls",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOV3dMNG5nSXB6aWtwVVpJSTc5SU5ST0l3MjZkdUtVOGhHalBMaGFBaWVHT1UxM3dLTXd3QlhmaW5iV2dxQ0N6R1F3R3Zwd0p2cjQzajM5NUVuRDhnallFMHpGa1VObVZvb0pfaWRlX3ZuQTF5RVYxOWV1ZzRZQ0IybVlUZWIwM0xOb2RnRWh4MWF1a1BmMzRXNEdSaUl6dw?oc=5",
+      "time": "26.11.2026 11:59",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie NVIDIA: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
+      "source": "Yahoo Finance"
+    },
     {
       "company": "JPMorgan",
       "title": "Nestle stock: JPMorgan keeps Buy rating, CHF100 target",
@@ -15848,24 +15930,6 @@
       "direction": "down",
       "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
       "source": "Computerworld"
-    },
-    {
-      "company": "SAP",
-      "title": "JDC Group AG: JDC Group AG Resolves to Launch Share Buyback Program",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUHJYMWJmVDlfME9FNm9hd1ZhWDlCVWhiWHUyS2VFRDJsaENqd1hKbW05MGQxMDBCZ1VqdmZ0QlYxR0VocEZ6OFN3Mlc5aU5XaWN5T3duQ2MyaEtqaFBnamNDVEZmVnBNeHJselktNDJZZ1I2aXJNenJabTJ1cm1XS2plWUdHRkZXY3R2UDJGNXkyNF85OURkemJQOEFJWDU4TXpmbmpINkRYYVplWi1lYTVnamRQUktDZzFodA?oc=5",
-      "time": "26.11.2026 11:07",
-      "direction": "up",
-      "impact": "Může vést k nárůstu ceny akcie SAP: zpětný odkup akcií nebo vyšší dividenda zvyšují hodnotu pro akcionáře.",
-      "source": "TradingView"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "Global markets rebound as tech shares recover and tariff fears ease",
-      "url": "https://www.euronews.com/2026/11/26/anxiety-over-the-ai-boom-and-inflation-drags-wall-street-lower",
-      "time": "26.11.2026 11:07",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie NVIDIA: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
-      "source": "Euronews"
     },
     {
       "company": "SpaceX",
@@ -15922,6 +15986,15 @@
       "source": "Il Sole 24 ORE"
     },
     {
+      "company": "AstraZeneca",
+      "title": "Tempus AI Lands $137.5 Million BMS Deal as Data Business Revenue Surges 33%",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5HZUp3eUZyZERJSk5TRGdoUXYtSVBFaDk0dUxueXA4cmNVQm5uUHgwWTNkRURoTVQwUy1XWGZ1aUIzM0JLVG9DOHVXUUlRZW9HY1c1M0lLdS1vR3ZnMmFWWGNNWmpxazRCc2lmTjF2T0JDQnV6UEE?oc=5",
+      "time": "26.11.2026 10:25",
+      "direction": "up",
+      "impact": "Může vést k nárůstu ceny akcie AstraZeneca: prudký růst ukazuje na silný zájem investorů, po rychlém růstu ale může přijít i stahování zisků.",
+      "source": "BigGo Finance"
+    },
+    {
       "company": "Alphabet",
       "title": "Malaysian communications regulator files lawsuits against Google",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRm9ZT0dwSG9ZbW5FNE5yNTdqWFNwOGRuNkI5YUdvNU5xSjh6T1gxRzd1ZW5fUjNRVGIxQ0Z6WDdLTkwzQkRuelFCTHJZUktLQzFHMVhNM2YydC1UUUp2XzlrYmJOSHdNX1FTaU9oM1o5dGl2ZXh3THlieDU4OG1SOUxJaXh3QXpiTmZoUkFBQ0NVLUU4VjQ4YnJzTEplOGVZVDlfd2pTZGhuSTRKaUNUZFJKUQ?oc=5",
@@ -15940,13 +16013,13 @@
       "source": "TIKR"
     },
     {
-      "company": "Anthropic",
-      "title": "Palantir Is Down 22% From Its October High. Dan Ives Puts It Among the Sell-Off’s “Clear Areas of Safety”",
-      "url": "https://www.tikr.com/blog/palantir-is-down-22-from-its-october-high-dan-ives-puts-it-among-the-sell-offs-clear-areas-of-safety?ref=yahoofinance&tlnk=yf-261126-xw5cpjr4",
-      "time": "26.11.2026 09:26",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Anthropic: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
-      "source": "TIKR"
+      "company": "LVMH",
+      "title": "LVMH: Dior-Agache merger approved, Arnault locks in the succession",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUm1lUENfZFdxYVNheTQ1ajVRMzBJM20tWkJPeGtCN2VDaUowMmp6cnZRSTVPczFYbTlUM1BNU0R6WmNlSmdUb254Mjl2VGNUN0s3UXM5WkozejFhcHA2WVRPSF9vRERmZjBOM3AtOEVwN1RLclowbzZaUlJ0M2lUeWlsWnRBQWVYZV9nTGtQeXZNWEs3c2RCTUkxWG9TM0pxMVQ0?oc=5",
+      "time": "26.11.2026 09:28",
+      "direction": "mixed",
+      "impact": "Dopad na cenu akcie LVMH je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
+      "source": "La conceria.it"
     },
     {
       "company": "Tencent",
@@ -15992,51 +16065,6 @@
       "direction": "down",
       "impact": "Může vést k poklesu ceny akcie Alphabet: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
       "source": "TNGlobal"
-    },
-    {
-      "company": "UniCredit",
-      "title": "UniCredit secures final Polish approval for Commerzbank takeover bid",
-      "url": "https://www.euronews.com/2026/11/26/unicredit-secures-final-polish-approval-for-commerzbank-takeover-bid",
-      "time": "26.11.2026 08:37",
-      "direction": "mixed",
-      "impact": "Dopad na cenu akcie UniCredit je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
-      "source": "Euronews"
-    },
-    {
-      "company": "Intel",
-      "title": "Intel lawsuit details Trump's push for US$8.9 billion stake",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQUmRlaHJUY0RyZWItdG12SnV3cXRaOEhOZFlvTTEwdzBGTVFoM3pNMEtTSHJaX1hOTDAyNkh0UGY1cHJfM1VVMXdiMmtGRklYQkVQYm5FNl9PQ0FRX1JjQUdkS1ZhWm9UdElCSlVrQUxHVnNIWjZVcmtsaF9BRFBEc1pNb0EtNkpENjRIeVZuNkotbDdrYnc?oc=5",
-      "time": "26.11.2026 08:28",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Intel: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
-      "source": "digitimes"
-    },
-    {
-      "company": "Micron Technology",
-      "title": "Micron Technology (MU) Products Are Exempt From New US Tariffs",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/micron-technology-mu-products-exempt-071205634.html",
-      "time": "26.11.2026 08:12",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Micron Technology: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
-      "source": "Simply Wall St."
-    },
-    {
-      "company": "JPMorgan",
-      "title": "Adecoagro stock rating upgraded by JPMorgan on Carapo mill acquisition",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOTnhBNWhjZ3kyU2ZOcHFpSTFOX3R2V0dQc2lFT1RzSGJkUWh1RE11SmxocWRfT3g2MHZBaEVqakY4Mm5EbG5hR1l5SHQwSWppaGwwN0RSUHlLa09OaldnbU9IaDl2TzJTTWowQnc4SjBHd2ktcndsc3hyT0dvSU1tTmxDbDJ4MDJtcTU2OFpFSGJjRE5WV2ZPU3RKdHBPaU5nY09wUXg0Y3YyVVR4a2JfNnJYazJFVkpzQzJGcEl2MTJKajhCam0xVTB3?oc=5",
-      "time": "26.11.2026 07:53",
-      "direction": "mixed",
-      "impact": "Dopad na cenu akcie JPMorgan je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
-      "source": "Investing.com"
-    },
-    {
-      "company": "AMD",
-      "title": "AMD shares drop amid tariffs, inflation data, and dilution fears",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQc3JpQTRuOUNfUG5hblVCdGpZWXNkbkgwU09fRDNmenpBNHcxeXRVM1ItLWtuZkcxTVVmOTBjNVFGQTRZMHQweGVNMUNIcGtLU1g0cHFqYy1EVWdwcGRvUkVLVEJ1SjExejVWc3BhRmNyT01haWJuSHFucUxSaHAxNkpZQVl3T05tSldxV0pHbDBzNmlwRnVON01EUk9FTi1oTzZEZVBsU0prUTNBTl9wejZvbkZXc19iRGVJX1dpUQ?oc=5",
-      "time": "26.11.2026 07:45",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie AMD: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
-      "source": "StreetInsider"
     }
   ]
 }
