@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T22:41:34.628190+00:00",
+  "updated_at": "2026-11-27T23:37:54.462506+00:00",
   "stocks": [
     {
       "name": "Microsoft",
@@ -7341,8 +7341,8 @@
       "symbol": "ASML.AS",
       "market": "Nizozemsko",
       "currency": "EUR",
-      "price": 1198.0,
-      "change": 2.55,
+      "price": 1168.2,
+      "change": 3.23,
       "history": [
         ["2025-11-27", 897.2],
         ["2025-11-28", 903.4],
@@ -7598,8 +7598,7 @@
         ["2026-11-23", 1272.2],
         ["2026-11-24", 1201.2],
         ["2026-11-25", 1131.6],
-        ["2026-11-26", 1168.2],
-        ["2026-11-27", 1198.0]
+        ["2026-11-26", 1168.2]
       ],
       "intraday": [
         ["2026-11-23T08:00Z", 1213.8],
@@ -7781,8 +7780,8 @@
       "market": "Německo",
       "currency": "EUR",
       "query": "SAP SE",
-      "price": 195.64,
-      "change": 0.77,
+      "price": 194.14,
+      "change": 2.28,
       "history": [
         ["2025-11-27", 207.0],
         ["2025-11-28", 208.55],
@@ -8036,8 +8035,7 @@
         ["2026-11-23", 186.34],
         ["2026-11-24", 190.08],
         ["2026-11-25", 189.82],
-        ["2026-11-26", 194.14],
-        ["2026-11-27", 195.64]
+        ["2026-11-26", 194.14]
       ],
       "intraday": [
         ["2026-11-23T08:00Z", 181.4],
@@ -8218,8 +8216,8 @@
       "symbol": "MC.PA",
       "market": "Francie",
       "currency": "EUR",
-      "price": 400.95,
-      "change": -0.02,
+      "price": 401.05,
+      "change": 2.57,
       "history": [
         ["2025-11-27", 627.4],
         ["2025-11-28", 635.5],
@@ -8475,8 +8473,7 @@
         ["2026-11-23", 388.8],
         ["2026-11-24", 394.7],
         ["2026-11-25", 391.0],
-        ["2026-11-26", 401.05],
-        ["2026-11-27", 400.95]
+        ["2026-11-26", 401.05]
       ],
       "intraday": [
         ["2026-11-23T08:00Z", 380.05],
@@ -11805,7 +11802,8 @@
         ["2026-11-27T21:00Z", 107.46],
         ["2026-11-27T21:15Z", 107.59],
         ["2026-11-27T21:30Z", 107.47],
-        ["2026-11-27T21:45Z", 107.4]
+        ["2026-11-27T21:45Z", 107.4],
+        ["2026-11-27T22:00Z", 107.4]
       ]
     },
     {
@@ -14871,8 +14869,8 @@
       "symbol": "UCG.MI",
       "market": "Itálie",
       "currency": "EUR",
-      "price": 77.0,
-      "change": 4.27,
+      "price": 73.85,
+      "change": 0.87,
       "history": [
         ["2025-11-27", 64.12],
         ["2025-11-28", 64.09],
@@ -15126,8 +15124,7 @@
         ["2026-11-23", 76.8],
         ["2026-11-24", 75.73],
         ["2026-11-25", 73.21],
-        ["2026-11-26", 73.85],
-        ["2026-11-27", 77.0]
+        ["2026-11-26", 73.85]
       ],
       "intraday": [
         ["2026-11-23T08:00Z", 76.55],
@@ -15308,8 +15305,8 @@
       "symbol": "TTE.PA",
       "market": "Francie",
       "currency": "EUR",
-      "price": 78.56,
-      "change": 0.26,
+      "price": 78.36,
+      "change": 1.4,
       "history": [
         ["2025-11-27", 56.45],
         ["2025-11-28", 56.8],
@@ -15565,8 +15562,7 @@
         ["2026-11-23", 77.49],
         ["2026-11-24", 77.68],
         ["2026-11-25", 77.28],
-        ["2026-11-26", 78.36],
-        ["2026-11-27", 78.56]
+        ["2026-11-26", 78.36]
       ],
       "intraday": [
         ["2026-11-23T08:00Z", 78.35],
@@ -15745,6 +15741,15 @@
   ],
   "news": [
     {
+      "company": "Alphabet",
+      "title": "Malaysia Regulator Sues Google for Nearly $150 Million Over YouTube Content",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZnZ0X2l1aGtyWmFuNWVxS253YjFNc1dwd1R6Q2xOOWlrUVEyX2trOXVnZUtUVU5qbzBpSWNBb21XMFhhTkxja19IS0lhVk83M2pmRlFCMkdJbkk2cVhvMWVHR2JzbGJ0YVgxUDhnVHp5SWhLdkpDSVdFQUpFM0UtRml6alB1RXpINldBTzBmcmtYMDEwV3c1dkpxM3ljUXNGTUV2a0RuWWVORDd3VjV3QTVXRU4?oc=5",
+      "time": "28.11.2026 00:12",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Alphabet: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
+      "source": "WSJ"
+    },
+    {
       "company": "Broadcom",
       "title": "Broadcom (NASDAQ:AVGO) Stock Jumps 3.6% - Here's What Happened",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOWjlfWUNRVmZzYWxic1NKX1pnTkxsQzg2dmNFZ01QOEkwY1hoM1JkNGdQckJYYWRNSXdyLU5TVzkxcWF1UnZJUVd2NGR6QnU3aExKaG5hUDlSM3hGdW5yYkNDcFV6STlac0JiN1UzdVRCN2FsVUZmSi1kb1RjZTVfTF8xZ2V2dDRnMUI4YTZQSVd2M1Voel9leVVEZHRtTHcyQ1JxdEMyR0Nvdjk4OUZmSHFTeHlKQQ?oc=5",
@@ -15826,22 +15831,31 @@
       "source": "BigGo Finance"
     },
     {
-      "company": "NVIDIA",
-      "title": "Chinese ads selling banned Nvidia servers for $3M as Jensen Huang scandal chokes supply: 'Market is crazy'",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQS0puVFFobWNIaE5UVjBQR2ctd0VEWVBYRXFXU2VzLXVBWnZ4MnlTSmN2VC1JMnM2X0Z6SDFYZXF2SW5kOFN5UGlZSGFVaFo2ZGNJS29BQmhzbVFGeDBuaEZHSDVnZjBEaW51N1BGWUVKR0JCTjRKZGhONVpIXzI2RkdIUFlOTFhIdjRVdGo3c2dtZnZQTmdmdXE0dEFEejhtV3o0cmtnU21lWjgzS3AwN3VReVdZb1o5eDloMXpRbUI2eTdIVjM0bFJZbHlfQ2FQWWZKQw?oc=5",
-      "time": "27.11.2026 22:18",
+      "company": "JPMorgan",
+      "title": "Goodyear stock downgraded by JPMorgan as restructuring plan awaits",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQN2k0M3BPRFhJSURKX2IzUE5aMTV6NXZQX29scHFIMVdIWjV6QlZkMHk2TllhM0ZHUjdQWDcyUGZmUUFlcGkwM2xxMnpiOEU4YVhYMGZtWUwyN3RxUnV5NXl2MzJOWkFfM21LLVBGVFVzSkpua2Q0N2tjVDFFNnRocFljYXhuN1lEZ2g3OGNrUC1Hd3d4NjRuMDFSbHBlUG5fbmVuNnA3SHNzanhpZHFEY3h1bGY0WTEzVmNmQUFlNy11OHZHWXAxQg?oc=5",
+      "time": "27.11.2026 22:33",
       "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie NVIDIA: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
-      "source": "New York Post"
+      "impact": "Může vést k poklesu ceny akcie JPMorgan: analytici zhoršují hodnocení, což může zvýšit prodejní tlak.",
+      "source": "ad-hoc-news.de"
     },
     {
-      "company": "TSMC",
-      "title": "TSMC Stock Price Jumps 3.21% to $353.34 as Tariff Plan Spares Chips",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPRzFUWElhNzNhY1ppZHoxOEFIM1I5VmJVN0FZTl9pcUlIbXpJVm1SaS1BQ19zY3BVZ0lPUFh0eHVWUU11ZzVIYkxxM1h1VTNSTzM1T3VZbG1pOTgxblU4S3FOb2lVeTlQeThaWjhaYmNVUXZOYnJFRkhybGNCRmJsUEJDV0JzbGtWOWFOOUxUZk9xQXd5MVpmZllpYmhoeTg?oc=5",
-      "time": "27.11.2026 21:41",
-      "direction": "mixed",
-      "impact": "Zpráva obsahuje pozitivní i negativní signály, dopad na cenu akcie TSMC je nejasný.",
-      "source": "JournalArta"
+      "company": "JPMorgan",
+      "title": "Copart stock gets JPMorgan Overweight rating, USD 36 target",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNU2Q1anRDTEJyRGhuWjdMWTdVaFowRmhkMjRlUVpUdFJaRm5tbGpxQ01QWHZpeE1WbUtEM0hJWUFhV2Vhb1JaRXNmMGtMSlg1Z2ZqSlJVZlZLVzh6ZWRrWkxKX25FMGlSZTY3QTR1MWhRN20wODktSVQwbnJ4WFhMVm9pMXR6czdjRnlnQmdSMXpLVlFtUFBLWWs0UWEzVkh0OUFycXlHU2dRVUE3UzJsdGFndmRfakc0THZyMEx3?oc=5",
+      "time": "27.11.2026 22:33",
+      "direction": "up",
+      "impact": "Může vést k nárůstu ceny akcie JPMorgan: analytici zlepšují hodnocení, což často přitáhne nové kupce.",
+      "source": "ad-hoc-news.de"
+    },
+    {
+      "company": "Apple",
+      "title": "AAPL: Apple defined, key history, primary product lineup",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5YT25nRDV2WDBrbkJNcGEtUTVaMXUwRUZiQjFPWURPanYxM0RaRE9yblZHZFJMbmpWT2FmaXhCanlyWFNwM2ZF?oc=5",
+      "time": "27.11.2026 21:30",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Apple: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
+      "source": "9to5Mac"
     },
     {
       "company": "TSMC",
@@ -15907,13 +15921,22 @@
       "source": "Blockonomi"
     },
     {
-      "company": "Meta",
-      "title": "Meta stock jumps more than 3% to $628.96 in Friday trading",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNmpnRkJEaGkzcERoaFJmd0M0Z2I2aUd1VTFJWHhMbFJIMmNmOGpfRFFDRHNJN0o2U1oxZVN5STQ2SWlRN3VqdzZKS3pLZldKeDMxekFoUEJBaGxpV1FvMDJjdW9HMWhzRmdPMlZKUU5iUUpTNDRPS1g3NXFMSnlnUTdrdk9TRU5scmpnanNLblZWRkZYTTNVQ1VB?oc=5",
-      "time": "27.11.2026 20:15",
+      "company": "Broadcom",
+      "title": "Broadcom (AVGO) Stock Jumps 3.82% to $312.34 in Afternoon Trading",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPX1IzNG85Z0Utc0w3NkQtYU9sYUUyQXhLQnE5dTJ5ZkhQa25kUTloQi1CY056Uk80cF9QN1RHUGxpYTNaQ29wZHBUcHJJYUhEbl91elRtYUpEclE5U3M4cmtXckl2QVNmM0dvaTdUNWlEbnhtQ0RLbGNjdDdrYUpRbXVkR05SQUYyWHprNEx5cl9TeTY5aGY1TzNLcDNKSk1C?oc=5",
+      "time": "27.11.2026 20:38",
       "direction": "up",
-      "impact": "Může vést k nárůstu ceny akcie Meta: prudký růst ukazuje na silný zájem investorů, po rychlém růstu ale může přijít i stahování zisků.",
+      "impact": "Může vést k nárůstu ceny akcie Broadcom: prudký růst ukazuje na silný zájem investorů, po rychlém růstu ale může přijít i stahování zisků.",
       "source": "JournalArta"
+    },
+    {
+      "company": "Berkshire Hathaway",
+      "title": "Berkshire Hathaway Expands Buybacks Under Greg Abel",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1RdWNDQnRmcXlxUXJSdzdmLWsyei1LTk1MYVVGM1lEUXpKYVJ4dWNaczE0NkNCeUpkSnhoRVRVWVNocVJxSnpyRkIzTUNYZkctbEYzQ2drZ0FmTm9JRTNoNUhDX05MLVNXeW10N2lqdThrdnc?oc=5",
+      "time": "27.11.2026 20:01",
+      "direction": "up",
+      "impact": "Může vést k nárůstu ceny akcie Berkshire Hathaway: zpětný odkup akcií nebo vyšší dividenda zvyšují hodnotu pro akcionáře.",
+      "source": "Demokratis.co.id"
     },
     {
       "company": "Microsoft",
@@ -15932,33 +15955,6 @@
       "direction": "down",
       "impact": "Může vést k poklesu ceny akcie Micron Technology: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
       "source": "ad-hoc-news.de"
-    },
-    {
-      "company": "ASML",
-      "title": "ASML Stocks Edge Higher 0.07% as Dutch Government Pushes Back on U.S. Export Curbs",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/asml-stocks-edge-higher-0-181452154.html",
-      "time": "27.11.2026 19:14",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie ASML: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
-      "source": "GuruFocus.com"
-    },
-    {
-      "company": "Microsoft",
-      "title": "What Does Alphabet (GOOGL) Need To Prove After The Air Force Cloud Breach?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/does-alphabet-googl-prove-air-181025421.html",
-      "time": "27.11.2026 19:10",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
-      "source": "Simply Wall St."
-    },
-    {
-      "company": "Verizon",
-      "title": "Verizon Discusses $6 Billion Acquisition of Fiber Operator Fidium",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1maG9FWkVSNUYxOTUzOVY2NWM0RWNsWFBCdDNnSERGdzRNWUlzd2dGOG00cGJ5QWZrU0dmTGVYaW02d094UVFubm9OU3IwcGp0YXZlM1NTLXg?oc=5",
-      "time": "27.11.2026 19:03",
-      "direction": "mixed",
-      "impact": "Dopad na cenu akcie Verizon je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
-      "source": "www.tokenpost.com"
     }
   ]
 }
