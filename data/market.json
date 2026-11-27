@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T06:27:07.064959+00:00",
+  "updated_at": "2026-11-27T07:54:36.112418+00:00",
   "stocks": [
     {
       "name": "Microsoft",
@@ -9250,8 +9250,8 @@
       "symbol": "7203.T",
       "market": "Japonsko",
       "currency": "JPY",
-      "price": 3391.0,
-      "change": 0.41,
+      "price": 3384.0,
+      "change": 0.21,
       "history": [
         ["2025-11-27", 3138.0],
         ["2025-11-28", 3133.0],
@@ -9495,7 +9495,7 @@
         ["2026-11-24", 3311.0],
         ["2026-11-25", 3406.0],
         ["2026-11-26", 3377.0],
-        ["2026-11-27", 3391.0]
+        ["2026-11-27", 3384.0]
       ],
       "intraday": [
         ["2026-11-20T00:00Z", 3367.0],
@@ -9611,7 +9611,9 @@
         ["2026-11-27T05:15Z", 3394.0],
         ["2026-11-27T05:30Z", 3396.0],
         ["2026-11-27T05:45Z", 3395.0],
-        ["2026-11-27T06:00Z", 3391.0]
+        ["2026-11-27T06:00Z", 3390.0],
+        ["2026-11-27T06:15Z", 3383.0],
+        ["2026-11-27T06:30Z", 3384.0]
       ]
     },
     {
@@ -9619,8 +9621,8 @@
       "symbol": "0700.HK",
       "market": "Hongkong",
       "currency": "HKD",
-      "price": 351.2,
-      "change": 2.99,
+      "price": 352.4,
+      "change": 3.34,
       "history": [
         ["2025-11-27", 611.5],
         ["2025-11-28", 611.5],
@@ -9868,7 +9870,7 @@
         ["2026-11-24", 341.6],
         ["2026-11-25", 337.4],
         ["2026-11-26", 341.0],
-        ["2026-11-27", 351.2]
+        ["2026-11-27", 352.4]
       ],
       "intraday": [
         ["2026-11-23T01:30Z", 335.8],
@@ -9977,7 +9979,13 @@
         ["2026-11-27T05:15Z", 352.0],
         ["2026-11-27T05:30Z", 352.8],
         ["2026-11-27T05:45Z", 352.2],
-        ["2026-11-27T06:00Z", 351.0]
+        ["2026-11-27T06:00Z", 351.4],
+        ["2026-11-27T06:15Z", 351.4],
+        ["2026-11-27T06:30Z", 350.4],
+        ["2026-11-27T06:45Z", 351.6],
+        ["2026-11-27T07:00Z", 351.2],
+        ["2026-11-27T07:15Z", 351.6],
+        ["2026-11-27T07:30Z", 352.4]
       ]
     },
     {
@@ -14657,8 +14665,8 @@
       "market": "Velká Británie",
       "currency": "GBp",
       "query": "\"Shell plc\"",
-      "price": 3555.5,
-      "change": 0.1,
+      "price": 3623.5,
+      "change": 1.91,
       "history": [
         ["2025-11-26", 2766.5],
         ["2025-11-27", 2753.0],
@@ -14912,7 +14920,8 @@
         ["2026-11-20", 3574.5],
         ["2026-11-23", 3567.0],
         ["2026-11-24", 3552.0],
-        ["2026-11-25", 3555.5]
+        ["2026-11-25", 3555.5],
+        ["2026-11-27", 3623.5]
       ],
       "intraday": [
         ["2026-11-20T08:00Z", 3563.5],
@@ -15965,6 +15974,78 @@
   ],
   "news": [
     {
+      "company": "JPMorgan",
+      "title": "JPMorgan Downgrades Puma and Adidas Over Slower Sportswear Growth",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBPektCdU9TYURDNGU3QTVac2N4ZUNZM2d5R0s1U1UtSWRfam5aa01neFJpN1laSEpwLWo3bWJwb29TLWQzOERNV291dDN3LUdyV1ZXUDJCWm5YQQ?oc=5",
+      "time": "27.11.2026 08:31",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie JPMorgan: analytici zhoršují hodnocení, což může zvýšit prodejní tlak.",
+      "source": "www.tokenpost.com"
+    },
+    {
+      "company": "JPMorgan",
+      "title": "Puma, Adidas downgraded by JPMorgan amid slower sportswear growth (PMMAF:OTCMKTS)",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPbGlPazZ4RHplTjZlaGlxaGtxWGl6ZmZwa3BzcUZXay1IRGtZUXVhN3pseE1nQlFYX0wyOWNEVmVMdUpZTVJIZjEwcjV5endrbGk1dDNESUkyQ3NvOENpdERvR2lrSzYzM3FPWllGdG5XRmprVTUxN2w0MHpmTTJieXhVY2FnX3REdmxqdllEcGJPaE9aN0F1bnZEQ1FkYWJZRjM5aw?oc=5",
+      "time": "27.11.2026 08:26",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie JPMorgan: analytici zhoršují hodnocení, což může zvýšit prodejní tlak.",
+      "source": "Seeking Alpha"
+    },
+    {
+      "company": "SAP",
+      "title": "SAP layoffs: German software major considering 10,000 job cuts, 9% of global workforce could be hit — Check which depts",
+      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOd3YtckdyN1pVRjVoYXprREtOUi1LcmVTYzV5dy0xRDJuMWRpYVA2dURMUlNEekpERGdKRkFpbTJ1TTU2TUs1ak9RUkVGdmdiSG9KSGhsZnRsYnowODdoal9UX3dyLTJjWjFzeTRxaFdOLVc3MUMzclJfbW5YQXJPOXZrbHBBSkxCaEtGTjBCWmROR2FzNi1jZFFYcTJPZ05KeXJCTkgxMnZsa3JDZTZYRGZqN2hIWmtXZE5ZR1llNWVnZEtsamlLME56U3BWVG1iNWt4XzhvT25Xem9qRHBubFFYUm4zSzh0bnBYWmM0a08yYnkxV1Q5andRcFl3RzNjRmlwX9IBigJBVV95cUxPV1lBbnJRX2Y4aHpMMlBzZ1JJTGhkZk00ZV9EM3hZdzgzNlF3QkY4dS1mcUFNSjJyNVpLZ2JkeUhvQk5faDNab2VGTW02Q3B4UTRDQURkMGs2NFo5bUpPMWZkeUk5Y1Rzb2xZYjY1NzJySmJ2MlY0bjhHLUc4aG1la2JNZk9INjJhbV9HT29FQnBQdWtqcHNBY19sd0R6TjA0Mm5uTmt5ZmFqOEFTMlJUejBRZzMyLUVHQWgza2hoMFV3UURCZ1JmU3ViZEFUR3lGc25jSkJNVktiZFM2Vk9nWUljX242Yjl5RWdOMjZJb3pOaFFJMG5HTG9HMzd4SkVnTm9fMzdGenh3dw?oc=5",
+      "time": "27.11.2026 08:13",
+      "direction": "mixed",
+      "impact": "Dopad na cenu akcie SAP je nejednoznačný: propouštění může ušetřit náklady, ale často signalizuje slabší poptávku.",
+      "source": "Livemint"
+    },
+    {
+      "company": "SAP",
+      "title": "SAP Layoffs 2026: How Many Indians Could Lose Jobs as Company Plans 10,000 Cuts in AI Restructuring? Check Expected Timeline",
+      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOanA1VGFmak1jblBKcEFCR3dTQm5FRUktdTN1dDNTYkx3QTJHZGJTQVk4a0ttY1NmQzNxMURfMEdUeVBFRlEyR1ZyZ2tBdEhpV0NiUThuZmtJTlpuVXJrUTRtc2RmUFVZa3NkT1dTOGdUeWFSUU80T3pHbkt6bDlfQ1dWV0RocXhYSzk0ejRYaTN4Y0JMUVRYa3ZQNDR0X1g3SXVpV0cyc1FIOGFsYkgzcENOcmt2WWlVcnhOb3dSMGJFdU5CdG5QV0FKVUVYT1pkV0NIWm1jUUtoYnk5MHpGT0FfQkxJUVA3RG9PUVlJRjR5ekI5ZklOUmhGZm1xZnF4Vnc1c2NYWXQ1MjTSAZICQVVfeXFMTWQxd2tXX1poOUlvbUctQ3dMVkFjLURGWHJVenFGTDZFMGZ5OVZKenhQVENaSmw1ajFaMEQzVGotSVNqeG5MbUVpUzNJVVFxVGJseHptZWJYQ3cxWTVvR25Wa0VDUGpHZ0R3ZVB3UlY4ZzZSMTVZaW9pTy10clp6czAtaFVtcnV3OVI4M05fSmNjVWg5RnNhbzlqajkwSDRtVlFScVlYZ2ZhOW5QZDR6LWszLUYxZno2UXAwbHhrQ0U1T0hhSk56OXhEUy1rX2lBM25oc1o2Ni1oMFYzaHhkT2UxWElBbkZvVE83RkdYZml3YVNCQnM3NHl1a3lJOWJTaUVTeWI4X0tPWkNXWVExV1lRQQ?oc=5",
+      "time": "27.11.2026 08:13",
+      "direction": "mixed",
+      "impact": "Dopad na cenu akcie SAP je nejednoznačný: propouštění může ušetřit náklady, ale často signalizuje slabší poptávku.",
+      "source": "Jagran Josh"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Trump reaffirms support for Nvidia CEO amid ongoing investigation",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5PUWtRYWsxTUp0VEJsemFDS1liUTFUd0o2ZG9ZN1IyZG9KMExZUnBySmFTbnFxZGRPdlVKSzdVNGl2d205a085TlpSUXZjY0NSclV2VmVrZEtaRUk?oc=5",
+      "time": "27.11.2026 08:11",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie NVIDIA: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
+      "source": "Fox Business"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Nvidia’s 31% surge, US tariffs on China: 5 figures on investors’ radar this week",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPeFBERHNnZEkxaWk5SXAtZzlyRzhTV2RkcDJRTVBzWElKRmNudFVYb2FYUHdMaUd5SGh0REJNYXE2NXFNYjI5OGl0TUZxSWt1cVhtUno3QkZVUnl2QVJPdWp2RkdvdnNOYlhfLUNnaGZaNWlxRjVaWk9TeVJmNENhdEdtRXltLTJMbkJCUUhzUTlreE5ralRIZnBOVDUzWWJGRmlTd0NtNmY3clcydVlpMHBXUExzYmJVWHNOaHRDdWYxSE1KX1d3SGR1R3Vsc2RORlM2cg?oc=5",
+      "time": "27.11.2026 08:00",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie NVIDIA: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
+      "source": "South China Morning Post"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Trump Says He Was ‘A Little Concerned’ By Stock Selloff, Insists Nvidia CEO Huang Poses No Security Risk",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPUkhyQUdzczNLV3N4R1hNSG9vZUJaUjRuUno4V1BBV0I1dHdNZkpXUW9ZN0ktZ3NRMXp4RVNMNG1USWY4ZlAtbVQ4S0lGajE3RktkdDR0WGRjMTA3OFI0eHYyZWpjUG1zZmRpZWJNeHgwdkI4cE1ZbVhFM2lCQnVEVWRKU1FfUjloeDFwZ3JuMldNRnpzMlJYd1ZrS0Q3UmtuV0VhRVBhWDBxUmxGZ05hQThER21IUHNSN0VDV0o1Y2czSTE1Mno3ZUlidTFLRFYxLXg1UTdndFU2a1hQQXl4U25IYlhvU2pz?oc=5",
+      "time": "27.11.2026 07:55",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie NVIDIA: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
+      "source": "Forbes"
+    },
+    {
+      "company": "SAP",
+      "title": "SAP Job Cuts: 10,000 at Risk",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE16M3JvNnZ1VDBiWmhDTkdBSmlidzkyZzlEY3BSdkdnTHFXTVU1R2l4SHYta1VINFBBdXlVNHB2S1pJM3FCWlo3MkZncFZmcmxrR3h4QUZpVHpxdTFhOU1LMXdJbVhMUnZHRmJQbEQxbEN0d2xvLVJRSQ?oc=5",
+      "time": "27.11.2026 07:21",
+      "direction": "mixed",
+      "impact": "Dopad na cenu akcie SAP je nejednoznačný: propouštění může ušetřit náklady, ale často signalizuje slabší poptávku.",
+      "source": "jeevanutsahnews.in"
+    },
+    {
       "company": "Tesla",
       "title": "AI: SpaceX + Tesla, the Mega-Merger Roadmap. AI-RTZ #1283",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNbjUzNWp1dmRYdjA5b0NTaEVTUV83VnFSM0dBV3dFWDVhcEd0M2I5OVhncGlHVkgzdjJZLW5Pb19aUTdxNktYRGFrazFTLXY0c05nMm1xRFM1dUJHeEtra2Y0U0dIR3F0VDE4cU45ZFZvdVdaRTIyYlpaV0NNSjg0V0JB?oc=5",
@@ -15974,31 +16055,22 @@
       "source": "AI: Reset to Zero"
     },
     {
+      "company": "Micron Technology",
+      "title": "Micron Faces Twin Downgrades as TrendForce Trims 2027 Memory Outlook",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOVmdYT3FmMmUyTXFaMlk0azVsNFJoWEZDNEw3VW5tRXk2NkRNOHNNSV9iejhkMHBYekdtMmpQX01Da1dFMGxrUFV1enVYSmVoR1drNXg1TW5YLUJOV09odV9KN2RkVVBjY05nZjg2aXJyc0Ftdm52VDRuNTBncFBpLTc2cXhudlUyLXE0cjRxbENqOE5ZVDhNRlFuY2FGbmlqUEYzV0lNbm8wNlMwdnhqMnJqVmxvNEgtSVBxZFMzMDFCNVkxTk5TSjZqVXdqR1dpLVdFWUN5UQ?oc=5",
+      "time": "27.11.2026 06:03",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Micron Technology: analytici zhoršují hodnocení, což může zvýšit prodejní tlak.",
+      "source": "ad-hoc-news.de"
+    },
+    {
       "company": "Alphabet",
       "title": "Google Faces $146m Lawsuit Over YouTube Gambling, Scam Content",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQa2V1cHJ3aW1KQXd5S1l6eTV0YlhuU1VnOFRxa3JiRHcwTGRUcGwwRXRPLTFFNzBOX3JlMzJLOTE1VUdOcDN2VWk2VVNZQ3lTNUx4T2R4TzM2YVFFamtGandaZXZ6UVQ4c21kbF9TYUJwZ1dxanZ5bERDX2wydVUwM1cyZ3hlLTg0OGE4bGJuREFORnFsU3c4?oc=5",
-      "time": "27.11.2026 06:37",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQSUNiUmdVRjRJbHlrVEFyQlhCdlRfN0ZXQ0NhdTRKeTZXeWtsczhmaWJ2aVFnMy12V1hnU3VqcDdLMEJ1RG1DeDU4dHpZWnZXMVM3MEt2ajBWWnhnTkhIazVGU29McmJUQnc5MWktMlp0czJfLW92cFhSYmVoRWlSMEFIVDBBcnBMelpF?oc=5",
+      "time": "27.11.2026 05:37",
       "direction": "down",
       "impact": "Může vést k poklesu ceny akcie Alphabet: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
-      "source": "Head Topics"
-    },
-    {
-      "company": "SAP",
-      "title": "SAP layoffs 2026: At least 10,000 jobs under threat in Europe's largest tech company; check reason, affec",
-      "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxQWW9razhWdjVNQXlLT2tEME9ha2ZKQTFxNHpOdklEYXlTaWtnSkRJOENydWJiMVJfaFMwdlRLbHBMM2t6OUlrWTlQVUhNVWxjX0NmVU8wRDI5WFM3RjdRaTIzZnVSVlBrbDM0b0dvdWZFaE53NXFVSjhsQXY3aGYwcUFwZ2pkdzM5emhhalNzUHRQd1d0M2lWRW1MRzE3ZXdOMEF5OFJkSGY3ejhQRDhJdVRWQzZ1dVJENWJSTHk0dEttWDVMRnlLT0xzSk5YSjZ6elJtaThSWmptcWhLQWZXbElaTTdhY25oVTF0YUZrTDdCM192S2Frb28xbldYVVFzeTlMX2RWeEVLbXUzTzdKRmJzM1Rvek5pX2dlOGI3bFlfTjctT0HSAasCQVVfeXFMT0dOeEZOQ0JUc0JZT0dQYUZVS2FaQUpQckNtZUpxNFhyeGltRzJBaEZIdGhKa0czbFRsLUpMa1dvb1NPODZYUElIVUlZU0ZfRlVQc3Rib1g4YWdQTzdqdlBFVlhvU2VhcGR6Nm9rbHdqc0dtMlhLbGpTOXpHR0xlSjh4bWQ3Wndpem5OdEFxeVpja3hIU01ZUXIzeW5nNEpiQ01CSUtOZDhqTl92cktaZXJoRWYxWnUtaVZIWmt1amkyNXpBb3FCdHE5dkdCdzZlZmR4SVMxdkVWXzJxdkhjaDZXWWVmSjRSdWJXQThRTGN3d0M1LUNST3ZMUi1XVGlhbzg4b0xjX3A4ZzlYXzJNLUVidlU1eEVNX1pSaFhJNldsVzRoeW5HS0QtU28?oc=5",
-      "time": "27.11.2026 05:31",
-      "direction": "mixed",
-      "impact": "Dopad na cenu akcie SAP je nejednoznačný: propouštění může ušetřit náklady, ale často signalizuje slabší poptávku.",
-      "source": "The Economic Times"
-    },
-    {
-      "company": "SAP",
-      "title": "SAP Layoffs: Europe’s Biggest Software Company May Cut 10,000 Jobs Amid AI Push; Engineering, Sales And Product Teams Under Scrutiny",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNd0ROaENxdE1OUjJ4bWVGc0xxUDJXV1Rlc2FTZDRmZ0N1eHIyT09Odmo3SDZDMnFVR2Uyc3JwNGZNQnFlUG9lbTN2TVlTNHNuS1J6N0U4Y05xUFpKUVIxeGlFZTJJU0VtdE1Wd3RQUUlkamU4TGxsUHcya1g4TnBaTnlibGNTNTBmaHJhcHFuejJxaHhTc05SSVhpcWdwM2tUTjNyUnBSTHNfUk5UTnU1OWdmUDNXUkp1STcyQ2xJV3RIMU9IWDRDZHVPSkdZdWhpNEljYnJ6eHJSSUVBUmlxeUs5QXZQdVE?oc=5",
-      "time": "27.11.2026 05:25",
-      "direction": "mixed",
-      "impact": "Dopad na cenu akcie SAP je nejednoznačný: propouštění může ušetřit náklady, ale často signalizuje slabší poptávku.",
-      "source": "PUNE PULSE"
+      "source": "LEADERSHIP Newspapers"
     },
     {
       "company": "Broadcom",
@@ -16008,15 +16080,6 @@
       "direction": "down",
       "impact": "Může vést k poklesu ceny akcie Broadcom: analytici zhoršují hodnocení, což může zvýšit prodejní tlak.",
       "source": "Insider Monkey"
-    },
-    {
-      "company": "SAP",
-      "title": "SAP eyes 10,000 job cuts as Europe's software giant pivots to AI: Report",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOa0JQMjhFV2FwR2lZZ21CVTAweG44clJLajB0bkZDZE9UTlgyWDVfbndxWDBkc2pLSFM5dWJsLUVZR25xdW8xcXdwRThmRkVqbGRHaHVaYUoyam1zLWJYd2dCQmt0OE9ENVRWQ0lITXliVEo1UkdYd0NSUHNUZEo3MWtrMmZLT0JWS1ROOUdFNjhGdTh4VGVoM3hjYlBOQjBvbGFmelpLbHZZNWs3aFJId1k5OVZ6ekFGQWNEZHlvYmQyS25NaWsw0gHMAUFVX3lxTE44TENpczNsN2JVVEpGV0NxWXFkaVpldHY3RHdhMEVhZTJaQUJTcTNQU0RadGFISWlpekt4MVV6YTdvT2dNUFBxMDNwckNyRFBsQWVjbVlOVmdDUzRpNkdHMmozX1NNbjYyaVRxWXgyaFRMWmFLVEVUQXFLbG5HSnpWX1V0d2tCck85T3V3Vl96bTRNU3pnMWwtVEVjZW9VWkU5RlpUZmcwVnJDekhjdzRZVXdDNElOTXB1YWY4SlVsaGIzeHUzZ2ZfeXU1cQ?oc=5",
-      "time": "27.11.2026 04:37",
-      "direction": "mixed",
-      "impact": "Dopad na cenu akcie SAP je nejednoznačný: propouštění může ušetřit náklady, ale často signalizuje slabší poptávku.",
-      "source": "Moneycontrol.com"
     },
     {
       "company": "Alphabet",
@@ -16037,12 +16100,12 @@
       "source": "Simply Wall St"
     },
     {
-      "company": "NVIDIA",
-      "title": "Trump 'a Little Concerned' by US Stock Plunge; Market Welcomes Nvidia CEO's Return",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1jTVM3LWFUMnhlSTQ2ZFE4MHFMQktUaTNZaDJ1VHozMkFvSXp3R1FPSVhwcXA0enpGb0NtN0tjUm5oa1FRM3dmc1JTZ181cGZYejYzUS1QTWJ6N0NkbVE4bWhKcDQ0LXVBQmtmWDN2dHBYS2Y5OEE?oc=5",
-      "time": "27.11.2026 03:26",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie NVIDIA: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
+      "company": "TSMC",
+      "title": "Taiwan Stock Market Jumps Over 200 Points in Early Trading Despite Thanksgiving U.S. Market Closure; TSMC Touches NT$2,160",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBRalNRQXJscnR0UExUdkVTWHhCWjk2eXYxYXc1LVYwSW8yMy10ci1YMkZBY3FKT2tuUHZWaWtPc2Y3NVE1emZ5eWFLeklCWVVmYW1iVDJTSXZReEtZcWxlT3FCZWNBY25jeWZqRmt6WGlGcGxMTkE?oc=5",
+      "time": "27.11.2026 02:45",
+      "direction": "up",
+      "impact": "Může vést k nárůstu ceny akcie TSMC: prudký růst ukazuje na silný zájem investorů, po rychlém růstu ale může přijít i stahování zisků.",
       "source": "BigGo Finance"
     },
     {
@@ -16082,15 +16145,6 @@
       "source": "Yahoo Finance"
     },
     {
-      "company": "Microsoft",
-      "title": "Hackers exploit Microsoft 365 outage",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5lTDYzSUEzWnpZQkwwU3ppWW5RT3Q3ZDVWTzU0YWxHemRCbHNxLS0zZjl5RjZISTcxMkVyZ3lZZHRLSFNMdHV4VXg4ZnhjeUJueWMxbDZsaDgzT1dGSHB5V1BzUHIzZXE5bk92SW5aNncxcVVQdWdQdmp3?oc=5",
-      "time": "27.11.2026 00:48",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
-      "source": "Daily Tribune"
-    },
-    {
       "company": "Apple",
       "title": "AAPL: Apple defined, key history, primary product lineup",
       "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5YT25nRDV2WDBrbkJNcGEtUTVaMXUwRUZiQjFPWURPanYxM0RaRE9yblZHZFJMbmpWT2FmaXhCanlyWFNwM2ZF?oc=5",
@@ -16118,6 +16172,15 @@
       "source": "Crypto Briefing"
     },
     {
+      "company": "Microsoft",
+      "title": "Tech Stock Sell-Off: Down 13%, Is Microsoft a Buy Now?",
+      "url": "https://www.fool.com/investing/2026/11/26/tech-stock-sell-off-down-13-is-microsoft-a-buy-now/",
+      "time": "26.11.2026 23:20",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Microsoft: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
+      "source": "Motley Fool"
+    },
+    {
       "company": "Intel",
       "title": "Intel (INTC) Faces Lawsuit And AI Selloff As Fair Value Debate Gets Harder",
       "url": "https://finance.yahoo.com/markets/stocks/articles/intel-intc-faces-lawsuit-ai-220908878.html",
@@ -16125,60 +16188,6 @@
       "direction": "down",
       "impact": "Může vést k poklesu ceny akcie Intel: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
       "source": "Simply Wall St."
-    },
-    {
-      "company": "NVIDIA",
-      "title": "House Republicans consider issuing subpoena to Nvidia CEO Jensen Huang",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNV3pZd2VEY016a3NySzVPaWgzeTc4SWJNTXJLLV93SFlZT0I0a0g2dEQ2SkpKUmhqQ1NpUkplNXN2YVFOYVNUZk9QTVhRWjI2TWVTVXFYeVhEdlZOdnBsbWxqZHJSYldVOVZCMG1SdmlmRnhBQnpaOFowRHU5R1drNzJxUWlsT1lXV2c2dG9CZWEwcTJfRWE1Nm8tS29GRjRHMWc4enpQY1NUQdIBrwFBVV95cUxQdWxUWkMzS3RpQ0UzTXRZdEtONHprbng0TnBTRVJLY3pTN09lSWxBc2JYYVQ1Y19xYzhFbndEdDZCM1hkU3Q4bDRQR0NRLTZEMU1IcTE2Rzd2dWwzT3owTDdyQ3ZnbmpFUzRfUDFSZ05IWjRhV1lWTjloV1RoV2JkU2dzakxhT19UVUtJRWtteTBnMlVyYURvMnJEbXJ6UVYxc3dyM05sV1VCd0s2cHhF?oc=5",
-      "time": "26.11.2026 22:20",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie NVIDIA: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
-      "source": "ABC News - Breaking News, Latest News and Videos"
-    },
-    {
-      "company": "SpaceX",
-      "title": "Key Information You Need to Know About SpaceX Stock Lockup Expiry",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQUGJpdFM5OFRlMlc5ck9QY1NmZm9sWENZX2dPU2w4eVNUS1gteC1yaXlsaC1YRzg2U0FaZFVMNW1Ddlo5SXdfNVJMWGhGbFpld3N0TThVelU1UUl0aTlzWk80WTRnMjNmX2VEZ1FleXBLT3ZMS3Q4RUpQVlhNaGNsQWl3UmtyRHFXcnRNNVlkRFJxaXNiTXJhRXZQaGhmNWJLR1Yxb2FjUDEtRGl1ME1mOWlueTBpWHR5bGpBLXVQRlBxZW8?oc=5",
-      "time": "26.11.2026 21:55",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie SpaceX: prodej akcií nebo konec lock-upu zvyšuje nabídku akcií na trhu.",
-      "source": "TradingKey"
-    },
-    {
-      "company": "Intel",
-      "title": "Intel’s latest IT layoffs may have affected hundreds, Tom’s Hardware reports",
-      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBqbG1mdFNndDFCdGJSRGdFeTRKMTVLTFBxNVVEdDZZajFhSF9NM3JQdEZ3MnhoRWJNakhnbHdjdm04WWRz?oc=5",
-      "time": "26.11.2026 21:44",
-      "direction": "mixed",
-      "impact": "Dopad na cenu akcie Intel je nejednoznačný: propouštění může ušetřit náklady, ale často signalizuje slabší poptávku.",
-      "source": "Digg"
-    },
-    {
-      "company": "Broadcom",
-      "title": "UBS’s $425 Target Says Broadcom’s Selloff Went Too Far",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNzFyOUFoWmR4V1F6a3F1N2JhN2VmaGJ1S000TndoQUZuMmpDRVFTRWFhaU5OX1E3UGQ3eDUxQ2hVd19zaWpUMFJCS0g5aGFsZEtvRi1XQ2w5X2kzclhOU083YU9oakM2ZXJsbWUtbHY5VFR0Z0ItNG5aNklYNldobUFodWJhV2tzZS1Gd3BwR2Zldy1P?oc=5",
-      "time": "26.11.2026 20:18",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Broadcom: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
-      "source": "TIKR.com"
-    },
-    {
-      "company": "Oracle",
-      "title": "Bloom Energy Issued Oracle 2.15 Million Shares. Now Oracle’s Credit Is Cracking",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOREs5dWQ3VHdfMFFFam9MUXZ2aE91Qk04Ui1vSVJiUUxuMC11UTlSbHBnVWpnVmxydWcxLXlFd203MDVKZTc5UHo1eEp2eS14NEN5SlQ5cTE5OHY0TW15dzdTY0pEYmJmV29PMmJ4cTZJdHFaVG5CV29SSS1lWDZReWwwODRBbnJXN19FN0ZRQ1VScjd1SlZneDEwcjl5MDBlY0pkbVp3ZTMxaWotRFlDSlVBWXhHNjg?oc=5",
-      "time": "26.11.2026 20:18",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Oracle: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
-      "source": "TIKR.com"
-    },
-    {
-      "company": "TSMC",
-      "title": "Taiwan Semiconductor Stocks Slip 1.96% as Taiwan's Market Sinks 4.8% in Chip Rout",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/taiwan-semiconductor-stocks-slip-1-190319001.html",
-      "time": "26.11.2026 20:03",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie TSMC: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
-      "source": "GuruFocus.com"
     }
   ]
 }
