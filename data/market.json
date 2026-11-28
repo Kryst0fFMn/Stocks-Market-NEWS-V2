@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-28T07:16:31.374248+00:00",
+  "updated_at": "2026-11-28T08:28:22.792945+00:00",
   "stocks": [
     {
       "name": "Microsoft",
@@ -15741,6 +15741,33 @@
   ],
   "news": [
     {
+      "company": "Tesla",
+      "title": "SpaceX Below $135 IPO Price as All-Stock Tesla Merger Talks Advance Ahead of December 3 Meeting",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOUWhhUzFLLTF0R25RaFAtbWlHeU9fQkJUcE1LbHg0LUhOalBHMXBUbFVLb3pHRl96SmdZaXlsNklrUHl1VVo2T2FmZ3NyaEFnMnFnUmdMV3BIcFlzUG8ySllzYmFKUEZ6Y1Qzck41OHpGWm9YSllqYllQOVZ3ZnE0VnBwLUt5cHhTMWUyT1M4N25jUXkwa2FkNGlaTzhjU1B2TXdmd3ExZlV0cnRqUFlMOFZHVEhNT05aRENCR0NLX0duekJxWTBiWmpaQ3otUG9VVkM0?oc=5",
+      "time": "28.11.2026 09:17",
+      "direction": "mixed",
+      "impact": "Dopad na cenu akcie Tesla je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
+      "source": "FXLeaders"
+    },
+    {
+      "company": "Tesla",
+      "title": "Tech Stock Sell-Off: Down 36%, Is SpaceX a Buy Now?",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPUHdrNE5mQlpHNVMxRkQya281ZDVMMlZsZE5mRjBfMW9kYkhjMDBkYk8tcGRNQU9SbVNMS3lKZFp5Z2l3ODZGN2xJWWNoMFJHNGZkZjNqMXYzU1NiemdreXhsaVkwcVpsbnVYQVFOODVqSWdNRFhyQnhIVlZXQ0ZUcnZHMnpDZjFib2MzbW9weTFaRURt?oc=5",
+      "time": "28.11.2026 09:10",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Tesla: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
+      "source": "The Motley Fool"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Key facts: NVIDIA revenue surges; shares fall; rating on negative watch",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOb25UUGZFM1RZY2U0R0IwU0p2Z1lSeG1RX0xXQzlZajZqTHNJaEJXcjdCUWhfdTNMNXJ6Q1NyVi1kM0ozQjVFMjNtMV96bkFEb0NqaWF1NzFSclBBNmpTbTgtQWZuUnBXTmI3cFJtWG93bEhTSjlmbi00Vll0Y3J3RTZvWjNiVzBmcEhRRXRQSkQwQk50OHlJUUg4NWQ3VEhBYW9EV2dUV0pNLU9yY1lidDNMR29BelZzTWcwZU9OR1JnR3YtM2EtUllB?oc=5",
+      "time": "28.11.2026 09:00",
+      "direction": "up",
+      "impact": "Může vést k nárůstu ceny akcie NVIDIA: prudký růst ukazuje na silný zájem investorů, po rychlém růstu ale může přijít i stahování zisků.",
+      "source": "TradingView"
+    },
+    {
       "company": "ASML",
       "title": "ASML Rises 2.2% as Buyback Hits EUR 557 Million and The Hague Plots Its MATCH Act Escape Route",
       "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOODl5eXNFX1hrOTVCWElUWXhZNVp5VUhlZk5NcXZoVlRpUVhJbGU4S1loVjlKNWdUWGtnM2hHMmJTbG16T05BS3pqMWp1YUdYVGdDVktrT3Y3WFlhTDd6cUQyb0ZTRG02aVVTNllXeVVBWUx0aFNPZUJ1X0JyTlNqR011VzMyWm1ROUFHVDM3azYzdkN1X2pZOVVHUkdScGlTSUx4Z1Y3VjRiYVBudWpKMUwzeFMzVmgtdFY5ZVFlTEN3ZWtEcXZ0U0FPV0I0ZGV4UnFSbXotaVJ6VUQ0YlJGWnVvVlhsaUQ4OHlyREloRnE4MTd2QUZtdw?oc=5",
@@ -15840,6 +15867,15 @@
       "source": "Pluang"
     },
     {
+      "company": "Intel",
+      "title": "Securities Lawsuit Alert: Intel Corporation (INTC) – Contact Levi & Korsinsky for Information About Lead Plaintiff Deadline January 12, 2027",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQeGFFdTdFOHdKelFsY1c0NTBnem82X0kwelBqWFZVRWJlQWpYWDV6aDZZX1c1eEdVSlc1OGVLMnRsaVlnMzhyT3h2VnNsa2tyODcyZjlUQkYyc1oycVpYRndaOG9pZkJYcS16TTcxYjNja25XMzZMb215ajhPc3o2V295OUlyeG0yYk9TNEI5NWhUdjNKeDF2cUVuVlB3VktaN1BNeTdLZEVZZUppRHE2R1plWUVWTGthN0N3OHhUeUNMdmNJQ3ByZ2RYS2ZlOXRIc0dEN1lraHMtdWdKLTVRVmd3eHI?oc=5",
+      "time": "28.11.2026 00:45",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Intel: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
+      "source": "ACCESS Newswire"
+    },
+    {
       "company": "NVIDIA",
       "title": "Brooks and Capehart on Trump's new tariffs, Nvidia's future and Democratic leadership",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPY1JVa0lzU2NxbW42a0RGaG0xUmxZcDF5MlhDX2FuREZITWZwN19Fdld1SEhuNjhGNi10aFpBazdzcmk5MnJDdWJMSWQ0SEV5cWtPXzEybjl2b2UwYlVpbGMxSnppdzdyYUx0NG9XMEJDd2JmWVZ5Z1lMWXl6QTN0RlVGYWpPNjh6YUpaLVpXeDF6QUFsdkJPNU5Xajdib0M4MXFIOXVMVnFwd1F5S2tmVVZRUUhnMDA?oc=5",
@@ -15919,42 +15955,6 @@
       "direction": "mixed",
       "impact": "Dopad na cenu akcie Verizon je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
       "source": "BigGo Finance"
-    },
-    {
-      "company": "JPMorgan",
-      "title": "Goodyear stock downgraded by JPMorgan as restructuring plan awaits",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQN2k0M3BPRFhJSURKX2IzUE5aMTV6NXZQX29scHFIMVdIWjV6QlZkMHk2TllhM0ZHUjdQWDcyUGZmUUFlcGkwM2xxMnpiOEU4YVhYMGZtWUwyN3RxUnV5NXl2MzJOWkFfM21LLVBGVFVzSkpua2Q0N2tjVDFFNnRocFljYXhuN1lEZ2g3OGNrUC1Hd3d4NjRuMDFSbHBlUG5fbmVuNnA3SHNzanhpZHFEY3h1bGY0WTEzVmNmQUFlNy11OHZHWXAxQg?oc=5",
-      "time": "27.11.2026 22:33",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie JPMorgan: analytici zhoršují hodnocení, což může zvýšit prodejní tlak.",
-      "source": "ad-hoc-news.de"
-    },
-    {
-      "company": "JPMorgan",
-      "title": "Copart stock gets JPMorgan Overweight rating, USD 36 target",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNU2Q1anRDTEJyRGhuWjdMWTdVaFowRmhkMjRlUVpUdFJaRm5tbGpxQ01QWHZpeE1WbUtEM0hJWUFhV2Vhb1JaRXNmMGtMSlg1Z2ZqSlJVZlZLVzh6ZWRrWkxKX25FMGlSZTY3QTR1MWhRN20wODktSVQwbnJ4WFhMVm9pMXR6czdjRnlnQmdSMXpLVlFtUFBLWWs0UWEzVkh0OUFycXlHU2dRVUE3UzJsdGFndmRfakc0THZyMEx3?oc=5",
-      "time": "27.11.2026 22:33",
-      "direction": "up",
-      "impact": "Může vést k nárůstu ceny akcie JPMorgan: analytici zlepšují hodnocení, což často přitáhne nové kupce.",
-      "source": "ad-hoc-news.de"
-    },
-    {
-      "company": "Anthropic",
-      "title": "Anthropic short interest climbs as IPO lockup expiry nears",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTVFmYXdpNkhHQXJPS1FFcllrZVFSX1IyQjVCZm1ZbVJVMmVqeHAxbElKeGZvUWxVbk9wc2pVazQ4Vi1UZVQ1NjhKNi1BNTM2Tmg1NnVOXzJQWUdER3Y1V2JkNmpVRzN0RjZXaDZlV0d2LUJPTFBjSzFaa01mUVdsZEozYUNwU1pGeE1nSlkwTkFEc0RxMVVhM2VYeGNNYzVqUzU2cExoVndNNTgyelNHMDNORmtkUQ?oc=5",
-      "time": "27.11.2026 22:17",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Anthropic: prodej akcií nebo konec lock-upu zvyšuje nabídku akcií na trhu.",
-      "source": "Investing.com"
-    },
-    {
-      "company": "ASML",
-      "title": "Dutch Premier Takes ASML's Export Fight to Trump as Buyback Continues",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNTEJQc2tDaGUyeEV5RElJTVRCVS1KeXVFT1h3LWpjNXh4Rk51dlFqNzNEVEx0Tkd2YnJ5cHpFM2d6b2tHN081TFJDNkVaa0diZlRoTlhsR0xLS2lKY2RtNy1tSnh1Ny16UmtQVkw5QVlmM0JTWGdQWF9TU3JaNmFoVmZvM19rTXRFTlo5VGJRVE9PU3I1SFNIak1uWUVueDBVVkNzN0lYeUNYcjZGM1pqLUhZdURidDk4eXQ0Mm1oaHNTTmw1cW5rQk1ILV9oT3RMZEkxRmVVd18?oc=5",
-      "time": "27.11.2026 21:52",
-      "direction": "up",
-      "impact": "Může vést k nárůstu ceny akcie ASML: zpětný odkup akcií nebo vyšší dividenda zvyšují hodnotu pro akcionáře.",
-      "source": "ad-hoc-news.de"
     }
   ]
 }
