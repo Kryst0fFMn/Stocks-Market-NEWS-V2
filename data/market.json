@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-28T06:02:57.951178+00:00",
+  "updated_at": "2026-11-28T07:16:31.374248+00:00",
   "stocks": [
     {
       "name": "Microsoft",
@@ -15741,6 +15741,15 @@
   ],
   "news": [
     {
+      "company": "ASML",
+      "title": "ASML Rises 2.2% as Buyback Hits EUR 557 Million and The Hague Plots Its MATCH Act Escape Route",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOODl5eXNFX1hrOTVCWElUWXhZNVp5VUhlZk5NcXZoVlRpUVhJbGU4S1loVjlKNWdUWGtnM2hHMmJTbG16T05BS3pqMWp1YUdYVGdDVktrT3Y3WFlhTDd6cUQyb0ZTRG02aVVTNllXeVVBWUx0aFNPZUJ1X0JyTlNqR011VzMyWm1ROUFHVDM3azYzdkN1X2pZOVVHUkdScGlTSUx4Z1Y3VjRiYVBudWpKMUwzeFMzVmgtdFY5ZVFlTEN3ZWtEcXZ0U0FPV0I0ZGV4UnFSbXotaVJ6VUQ0YlJGWnVvVlhsaUQ4OHlyREloRnE4MTd2QUZtdw?oc=5",
+      "time": "28.11.2026 07:53",
+      "direction": "up",
+      "impact": "Může vést k nárůstu ceny akcie ASML: zpětný odkup akcií nebo vyšší dividenda zvyšují hodnotu pro akcionáře.",
+      "source": "ad-hoc-news.de"
+    },
+    {
       "company": "Meta",
       "title": "Meta Stock Price Jumps 3.13% to $628.96 on Two-Day Rally",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSXlUYnh1WXc3VUVza1dDSm1PejhUUG5aSU5lZDVtcnlYSWhIeU8tTnhYUjhIVThGbzktOFlRMzNqVWdtWFhaSkozS0ZsanRwSXpSX1JCZjNLMWxCUFpNMnNlejd6aHJUYTR1elFfUFVaY0dVSlJmRXNXdmMzX09iUHY1M2pzY01aRXdrNWQweFA?oc=5",
@@ -15768,6 +15777,15 @@
       "source": "MLQ.ai"
     },
     {
+      "company": "JPMorgan",
+      "title": "Allianz Rejects Consumer Group's Green Claims as JPMorgan Lifts Target and Insurer Raises Guidance",
+      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNbFdYU21ZcnBOdmpZclJFWTd4UGFLUzFNU1l3SHBuWVBuTXFKaUVpUWx4SkwtbnVrYVRHMF91X18xY254QlRRcU1DN2hKeXJ3QUZoZlo0ZzFPOFlWa0NkVmp4dC1nS0dyVklxd28wdW1HME1SUVlZV0tQNnZIaFlPa1VwTFNPdkxPcnQtVUZHNHczZ3BlYmlHOVUwa0xqdER6ZmFETlpKSXhhMFFzd3ZDWWxNQlN0RjJ6MW8ycmpNdG5Ua1V0WEt6TU5QZlRGX0hsU2dBOTFhMHVuRmI2Yk11ajZQR2tFMjV6eTVtdGk3NEhtb3NoQ1hiRkFMNnhHZUU?oc=5",
+      "time": "28.11.2026 05:53",
+      "direction": "up",
+      "impact": "Může vést k nárůstu ceny akcie JPMorgan: silnější výsledky nebo vyšší výhled zvyšují očekávání budoucích zisků.",
+      "source": "ad-hoc-news.de"
+    },
+    {
       "company": "Microsoft",
       "title": "Are recent outages bad for software?",
       "url": "https://finance.yahoo.com/technology/articles/recent-outages-bad-software-033947446.html",
@@ -15777,22 +15795,13 @@
       "source": "Investing.com"
     },
     {
-      "company": "Microsoft",
-      "title": "Microsoft outage hits South African businesses, government services and universities",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPendFUktGazBkcURFNFpQUjZEWnVwWWNNb1MwVkxjSFdpejVTOW13VExocHpTaTVRSmRaMnlkLTFDUzNzb2kxNm5oZUlRR185V2laWU5fYVFRbURRdExXUFVfVFBSSHRpYXBqb1NGVTVuMjlfSWRUZmx1U0hseEk0MGRrV0ZIWVU1MER2bVNOSWM2YUJhaVMtdUctdklJU20yQkRpZVIzb19OSDNqVE9uU3Vyb0JpbkcwMzZZdnJYaw?oc=5",
-      "time": "28.11.2026 03:53",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
-      "source": "IOL"
-    },
-    {
-      "company": "Microsoft",
-      "title": "Microsoft outage hits Welsh police reports as NHS and pharmacies warn of delays",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUDNBUl9HM0dUMFUzUzFxYVo0SHUyU3VWSkhfd0JBRUEtR2l5RVNXTm9pRmdGOFZmRE14czUxd2tHdEUtNkVLcDR6T3hWYjF5Z3l2eGFON0duQ3FZeTdjOElOVkVaWnRRdV9jV3pjcElER2hCYUVjN05jQkg5SDBGNWJ3blZZVkRaZGZCOHRjR2RfVWk0WnQ4?oc=5",
-      "time": "28.11.2026 02:52",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
-      "source": "Herald.Wales"
+      "company": "ASML",
+      "title": "ASML Buyback Adds 445,000 Shares as Dutch Diplomacy Targets US Export Bill",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNUGlKZmlmSldFNGxYeUszYzJ0UkpXR3FBX2I1UzNLVlBncFlONS1SWjJ0OWVXR190UHFZdEVXcHdkLUk1UmVNZzlQSHVidHlwZGJLN3BPajdCTUxtaHdyRjJmcjlGXzVjc0VuY0pIZE1TajdEUmJLR3VaWERTOW4wOWt4OEY0R3VLM0Z1VGd2R29KWms2MlpSTW0yTHI0Y0h3d2VqVHNCaDdvOEVlSEdhd1BkS2RERm9Send6QkdqYzZnaHp0RUkxeWJuaFB5OFJsM0M1cnJMcFdORDNmbzZ3?oc=5",
+      "time": "28.11.2026 02:53",
+      "direction": "up",
+      "impact": "Může vést k nárůstu ceny akcie ASML: zpětný odkup akcií nebo vyšší dividenda zvyšují hodnotu pro akcionáře.",
+      "source": "ad-hoc-news.de"
     },
     {
       "company": "Alphabet",
@@ -15804,12 +15813,21 @@
       "source": "NeoTeo"
     },
     {
-      "company": "Apple",
+      "company": "Microsoft",
+      "title": "Microsoft Code Red outage: What the recovery goal means",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQSFJPT0p6SWs0V3loZ1RWZUt6amo1SVJuU1dQTjVGQmowS2ctS3FScmhNSldRTE0wcDVyMk5PYWFaLUg3VUYyY1o2MG1HeUdqQ3NyN0xvNjRwUXlpbWVWOGJMMGQwTVlXa216ZWVLSUFfZXIwOWxVdXlDRkdORnJnSXNDMGgwbmM?oc=5",
+      "time": "28.11.2026 02:22",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
+      "source": "NeoTeo"
+    },
+    {
+      "company": "Microsoft",
       "title": "Vanguard's Growth ETF Has 3 Stocks Making Up More Than a Third of It. Only 1 Has Held Up in the Tech Sell-Off.",
       "url": "https://www.fool.com/investing/2026/11/27/vanguard-s-growth-etf-has-3-stocks-making-up-more-than-a-third-of-it-only-1-has-held-up-in-the-tech-sell-off/",
       "time": "28.11.2026 02:09",
       "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Apple: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
+      "impact": "Může vést k poklesu ceny akcie Microsoft: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
       "source": "Motley Fool"
     },
     {
@@ -15820,15 +15838,6 @@
       "direction": "down",
       "impact": "Může vést k poklesu ceny akcie Alphabet: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
       "source": "Pluang"
-    },
-    {
-      "company": "Intel",
-      "title": "Securities Lawsuit Alert: Intel Corporation (INTC) – Contact Levi & Korsinsky for Information About Lead Plaintiff Deadline January 12, 2027",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPM0pqTDJ0bjFHY2xTQ0RuTUJJU1p5VEQtVURGSk9TY3FDbHhNUGVsaFgzeXJLbUp1dTVqWWZmTnRiT3pzMHpNZXphUU9ONVM2bU15UE1SRjFmdkxCbGdsWnVwOS1abF8wNUhPeXp0NDBzbmlMMEQ0bkRJLTN4V3NYT3lIZ3JZeWM4ZTJoWURBRm5rNnc2QWJmaGE5a1d5aURIaEM2LUgwaFdOT2ZKS2JNU1RMSnhHNVktRkZEUjFQMUJnU0U2MUxTRFpRaDZOQk9Ob1k4QlJieF8xUDRTNlVtbWFDVmk?oc=5",
-      "time": "28.11.2026 00:45",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Intel: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
-      "source": "ACCESS Newswire"
     },
     {
       "company": "NVIDIA",
@@ -15894,6 +15903,15 @@
       "source": "The Motley Fool"
     },
     {
+      "company": "Apple",
+      "title": "AAPL: Apple defined, key history, primary product lineup",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5YT25nRDV2WDBrbkJNcGEtUTVaMXUwRUZiQjFPWURPanYxM0RaRE9yblZHZFJMbmpWT2FmaXhCanlyWFNwM2ZF?oc=5",
+      "time": "27.11.2026 22:41",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Apple: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
+      "source": "9to5Mac"
+    },
+    {
       "company": "Verizon",
       "title": "Verizon in Talks to Acquire Fidium in $6 Billion Fiber Deal",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB2SXRuZFFlRjdoRlJ3MkZCenp4Nnd3enNUR1FGMHdsaVBtTm9BVnE0NzZrUUl3a2hXNjJ1Z3pzWWRxcG4tWnNfdnBQWE1oaHU2ODdkbk1xRUxfTGtMX0NsUndvY29MeE00T3FXTkM2aFc4VGh6Mnc?oc=5",
@@ -15901,6 +15919,24 @@
       "direction": "mixed",
       "impact": "Dopad na cenu akcie Verizon je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
       "source": "BigGo Finance"
+    },
+    {
+      "company": "JPMorgan",
+      "title": "Goodyear stock downgraded by JPMorgan as restructuring plan awaits",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQN2k0M3BPRFhJSURKX2IzUE5aMTV6NXZQX29scHFIMVdIWjV6QlZkMHk2TllhM0ZHUjdQWDcyUGZmUUFlcGkwM2xxMnpiOEU4YVhYMGZtWUwyN3RxUnV5NXl2MzJOWkFfM21LLVBGVFVzSkpua2Q0N2tjVDFFNnRocFljYXhuN1lEZ2g3OGNrUC1Hd3d4NjRuMDFSbHBlUG5fbmVuNnA3SHNzanhpZHFEY3h1bGY0WTEzVmNmQUFlNy11OHZHWXAxQg?oc=5",
+      "time": "27.11.2026 22:33",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie JPMorgan: analytici zhoršují hodnocení, což může zvýšit prodejní tlak.",
+      "source": "ad-hoc-news.de"
+    },
+    {
+      "company": "JPMorgan",
+      "title": "Copart stock gets JPMorgan Overweight rating, USD 36 target",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNU2Q1anRDTEJyRGhuWjdMWTdVaFowRmhkMjRlUVpUdFJaRm5tbGpxQ01QWHZpeE1WbUtEM0hJWUFhV2Vhb1JaRXNmMGtMSlg1Z2ZqSlJVZlZLVzh6ZWRrWkxKX25FMGlSZTY3QTR1MWhRN20wODktSVQwbnJ4WFhMVm9pMXR6czdjRnlnQmdSMXpLVlFtUFBLWWs0UWEzVkh0OUFycXlHU2dRVUE3UzJsdGFndmRfakc0THZyMEx3?oc=5",
+      "time": "27.11.2026 22:33",
+      "direction": "up",
+      "impact": "Může vést k nárůstu ceny akcie JPMorgan: analytici zlepšují hodnocení, což často přitáhne nové kupce.",
+      "source": "ad-hoc-news.de"
     },
     {
       "company": "Anthropic",
@@ -15912,49 +15948,13 @@
       "source": "Investing.com"
     },
     {
-      "company": "Tesla",
-      "title": "Tesla aims to bolster Optimus with newest company acquisition",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTjNKaFFXcmZ1TVJjemZwV3BWMENUQ0FPTVIyZWZCRU04M2d4NDlGZGJ5b1Y1WkJodVNabWRYdlkyN240ZlRuN0VGWW5fMG9EcEJTbFFzQTZCUE1CM08zckN4R2o4cmVYelZwQnR3S01xX2RwU0dLVHdabFJSdTB1Ny14XzY0R09t?oc=5",
-      "time": "27.11.2026 21:46",
-      "direction": "mixed",
-      "impact": "Dopad na cenu akcie Tesla je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
-      "source": "Teslarati"
-    },
-    {
-      "company": "TSMC",
-      "title": "TSMC Stock Price Jumps 3.21% to $353.34 as Tariff Plan Spares Chips",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPRzFUWElhNzNhY1ppZHoxOEFIM1I5VmJVN0FZTl9pcUlIbXpJVm1SaS1BQ19zY3BVZ0lPUFh0eHVWUU11ZzVIYkxxM1h1VTNSTzM1T3VZbG1pOTgxblU4S3FOb2lVeTlQeThaWjhaYmNVUXZOYnJFRkhybGNCRmJsUEJDV0JzbGtWOWFOOUxUZk9xQXd5MVpmZllpYmhoeTg?oc=5",
-      "time": "27.11.2026 21:41",
-      "direction": "mixed",
-      "impact": "Zpráva obsahuje pozitivní i negativní signály, dopad na cenu akcie TSMC je nejasný.",
-      "source": "JournalArta"
-    },
-    {
-      "company": "TSMC",
-      "title": "TSMC Stocks Climb 1.84% as U.S. Tariff Proposal Leaves Chips Off the List",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdEZUMkpzbFlSNEZ3TmlveVBmNG9peUt1T1JLd0ZUenBPU2podW40ekx6V2p6aC1SemJELThkdjJ2TXZPRnFZcnY5MnpRZWFlTXJwNld3VGMxNk5WVjF3b3hoTXZuMklVN19LLWNBWlktZmFzSUZhaHdFTmI4STVBbzFSZDhQTzVsMXd4VjFjMkhldTJ3blBMcko4Mk0yTmU2Y2M0aG1EMTAzZmJB?oc=5",
-      "time": "27.11.2026 21:23",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie TSMC: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
-      "source": "GuruFocus"
-    },
-    {
-      "company": "Micron Technology",
-      "title": "Micron Share Price Surges 7.6% in Afternoon Trading as Memory Stocks Rally",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZ3FkWU1zeTdRd0tBd2xZRFR0Y05vRU14R1RCdVFqNEUxMjUwX0lmZnJJNnlrbkFQSVZ5M1Z5Y2V5VnVvd2loUkZmV2JQblh3NWNMSkxXRGFzcG52OWF6eXd1Zm1waGoyVnZHNE9iREVvOXNZbjRBMUhNck5VYkpXWHFLN05QRVNxZmx1aE1oNzI0RUx2bkZ5eGtRM3FQWkRZOVltT1VyZw?oc=5",
-      "time": "27.11.2026 20:45",
+      "company": "ASML",
+      "title": "Dutch Premier Takes ASML's Export Fight to Trump as Buyback Continues",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNTEJQc2tDaGUyeEV5RElJTVRCVS1KeXVFT1h3LWpjNXh4Rk51dlFqNzNEVEx0Tkd2YnJ5cHpFM2d6b2tHN081TFJDNkVaa0diZlRoTlhsR0xLS2lKY2RtNy1tSnh1Ny16UmtQVkw5QVlmM0JTWGdQWF9TU3JaNmFoVmZvM19rTXRFTlo5VGJRVE9PU3I1SFNIak1uWUVueDBVVkNzN0lYeUNYcjZGM1pqLUhZdURidDk4eXQ0Mm1oaHNTTmw1cW5rQk1ILV9oT3RMZEkxRmVVd18?oc=5",
+      "time": "27.11.2026 21:52",
       "direction": "up",
-      "impact": "Může vést k nárůstu ceny akcie Micron Technology: prudký růst ukazuje na silný zájem investorů, po rychlém růstu ale může přijít i stahování zisků.",
-      "source": "JournalArta"
-    },
-    {
-      "company": "Tesla",
-      "title": "Tesla Stock Rallies Despite Lingering Concerns for Investors",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9hMXVQdjY4ay01bVhkam1vbEY2Vy1tT0Y0WnpMWjRvNEozYVY4S2RONjloLUZib2kxQjdBaVJmbGhfQUZyRFdybXhXUUZqN2V2Nm0teVNNM1FpdnZPVDc5NHRsbS1IQlltUmhWb1RVUWZQT1Ns?oc=5",
-      "time": "27.11.2026 20:43",
-      "direction": "up",
-      "impact": "Může vést k nárůstu ceny akcie Tesla: prudký růst ukazuje na silný zájem investorů, po rychlém růstu ale může přijít i stahování zisků.",
-      "source": "FinanceBuzz"
+      "impact": "Může vést k nárůstu ceny akcie ASML: zpětný odkup akcií nebo vyšší dividenda zvyšují hodnotu pro akcionáře.",
+      "source": "ad-hoc-news.de"
     }
   ]
 }
