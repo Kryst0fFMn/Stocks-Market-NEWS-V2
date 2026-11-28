@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-28T11:35:16.491203+00:00",
+  "updated_at": "2026-11-28T12:38:07.655040+00:00",
   "stocks": [
     {
       "name": "Microsoft",
@@ -15748,6 +15748,33 @@
   ],
   "news": [
     {
+      "company": "Broadcom",
+      "title": "Worldquant Millennium Advisors LLC Acquires 369,827 Shares of Broadcom Inc. $AVGO",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPcVR6b0hidThSYW5MU0FWb0o0M2VJdzdXZERHbldLeE5CM0Z2LTl3MHhocUpYdU4tZFpoaUNZRDdydl9XRXhYZXZ4NTNjdUtUUnVzb0tJTTRKRmd0OTA5YVF4a0NLbWE3Sjd1cGUxWXNZMFJ3X2xacFN6U0hFZ3d3dERuVFgwOVUxTkszRjFXU2UybGJubXdPUC14bEVKN1NVSjBmbl81cWtTNV9JUlFsZm9kdGpHZFhSNGlaa0MzcVhxdnVSUWhrMVN4VGRNaW5Jemg5Rlpn?oc=5",
+      "time": "28.11.2026 13:23",
+      "direction": "mixed",
+      "impact": "Dopad na cenu akcie Broadcom je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
+      "source": "MarketBeat"
+    },
+    {
+      "company": "Meta",
+      "title": "Utah Retirement Systems Acquires 1,059 Shares of Meta Platforms, Inc. $META",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOcVdsRzB0R3ZYdTl3UHNUUklqT0lLYnlvNm91QU42SnlNR1l0LXhFRW0zdDZCV3o4SDA1M1ZrdVp6UkZ5UEo4Smo0NjBDdk8wcTYwQVJiZmpJbUdNMjJyaG1icC02SmJzQ2Jzc2hxM1lUTTNrY3hEdW5HZzQzZl9ZTjJsV2ZOWHh3b250Q05oZ2VzMzV2eDczVkF4UUZRUWlHWDdORTBJcHFEM00zQzBpR3BCaUR2dnVHYTJQSW1qZE1IdzZsMldfVkdrSmo?oc=5",
+      "time": "28.11.2026 12:47",
+      "direction": "mixed",
+      "impact": "Dopad na cenu akcie Meta je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
+      "source": "MarketBeat"
+    },
+    {
+      "company": "Tesla",
+      "title": "Modern Wealth Management LLC Acquires 1,787 Shares of Tesla, Inc. $TSLA",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNUzFwb1Y0dGYtYU9EcXI3QXlJX3VFLWl3LUZjNXRFelh5R1pZSENZc0NLWXpCNG12WHhQUG5KZUdySFlSalVVbjh2T0tXTTJTQXVac3BFMGxPT3FER1djdGVWSFF1YVZIaWh4OGZ5ZVUtYmJwdzlFNHFMVHJ2eVhmamxLQklDc0tqUlcxeXY4NHVLU1dhdnpITWc2UUItQnMwSGduVDE1aGxFWGtjeVpnRDlHUUZfamZlM1BYWXVKUExjanRoZ05J?oc=5",
+      "time": "28.11.2026 12:47",
+      "direction": "mixed",
+      "impact": "Dopad na cenu akcie Tesla je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
+      "source": "MarketBeat"
+    },
+    {
       "company": "Microsoft",
       "title": "Microsoft 365 outage report: cause and recovery",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9VVzVjdnBJa1ZWZXlDWmYtTzVIVm02V00yVWJ2ak80bDZVRUNuNkIzWFRmeFg4YTJ5bmpCWF91VTM4NGJqRlVWUWJuOFpaNnJubFV5VFJkdHpfSEIyMHpRZ041V2FEcHB3dmhPNzlKaER2VjBhVFU2cHZYbFRFb2s?oc=5",
@@ -15764,24 +15791,6 @@
       "direction": "down",
       "impact": "Může vést k poklesu ceny akcie NVIDIA: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
       "source": "Modern Ghana"
-    },
-    {
-      "company": "JPMorgan",
-      "title": "Puma stock: JPMorgan downgrades rating as markets are reshaped",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPcEhBZXV2RXRxS1l2c25yZE10UVJ6YkFsb0w0VklSZUxGcnZhMXJDcGE1cXJmcEVvUkhtVmtIOUxFWElOTHJLMnh6NWswREcwRlVfV180d2E0bFF1ZU8zRmRfcmVtR1VCOGFndjRKYnNnNTZidWRwdml3d0dILXVOaFRCVS0yMTJnYkF2cjdxcnRUN0tLamVJTHpzalpRYmNSWjFGZ3p3U2k1S0lYb3h6X1IwTUpvejlqNFdPM2d0UGltZw?oc=5",
-      "time": "28.11.2026 12:19",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie JPMorgan: analytici zhoršují hodnocení, což může zvýšit prodejní tlak.",
-      "source": "ad-hoc-news.de"
-    },
-    {
-      "company": "JPMorgan",
-      "title": "Nestle stock: JPMorgan keeps Buy rating, CHF100 target",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNa2xrckNtOG9jMG9ZOWk4cXVWb1ZzcjBlOW0zNEVLMkItSzRndWRPRGRmdmlCbkRJQWNIZzlGSnkyV0VOb2p5bUV1RmFnZ1FUeFJybFFVZUdseG8tTDc0TXBJMXdQY0c3M2tpZDlhek1BZkgtOFctblZnQVd5NUsxeHJQcFRoT1E3N2VIYjVjYmNtdmtic1F5QVhueFVkRXNaLU5yZXNDdldkRVo4UXE1cnVmMVA2Zw?oc=5",
-      "time": "28.11.2026 11:55",
-      "direction": "up",
-      "impact": "Může vést k nárůstu ceny akcie JPMorgan: analytici zlepšují hodnocení, což často přitáhne nové kupce.",
-      "source": "ad-hoc-news.de"
     },
     {
       "company": "JPMorgan",
@@ -15839,30 +15848,12 @@
     },
     {
       "company": "Microsoft",
-      "title": "Microsoft outage hits South African businesses, government services and universities",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPendFUktGazBkcURFNFpQUjZEWnVwWWNNb1MwVkxjSFdpejVTOW13VExocHpTaTVRSmRaMnlkLTFDUzNzb2kxNm5oZUlRR185V2laWU5fYVFRbURRdExXUFVfVFBSSHRpYXBqb1NGVTVuMjlfSWRUZmx1U0hseEk0MGRrV0ZIWVU1MER2bVNOSWM2YUJhaVMtdUctdklJU20yQkRpZVIzb19OSDNqVE9uU3Vyb0JpbkcwMzZZdnJYaw?oc=5",
-      "time": "28.11.2026 09:42",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
-      "source": "IOL"
-    },
-    {
-      "company": "Microsoft",
       "title": "Tech layoffs tracker 2026: All the job losses across Disney, Intel, Amazon, Microsoft, Apple, Meta and others",
       "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOc1VXdUV4VHNsYl9ueVBBN0xDWUo4RG1KYXFGNXlWNTlFOVZ5VUdfNnBUVlkxXzFWNV9tZDhrTzdWTW9FVTl3Y2ppWTJXbFhWSzVHeG5JSm9pRjQxZ3ZnMXpCY3FTYVBKcHhOV0hCZjBiZEU4dl9wRHNBQlFMbHVNWkFsbkQzOHBkQ2FadzF2UnZyUWZJeEtseFhLQ1ZQcVBSUmR2dEpwd0J1Zjd1QThyYzJxN2gxUi0xbFhVamVuYUdFaldBQXRUMFRHRTJDa1JiY0VvUmJEZW5WT2ZHdWVsSzdFOXBld1dOTFNNTWtoZ1lQOVp2T2xmUkNPZy1ibXdy?oc=5",
       "time": "28.11.2026 09:41",
       "direction": "mixed",
       "impact": "Dopad na cenu akcie Microsoft je nejednoznačný: propouštění může ušetřit náklady, ale často signalizuje slabší poptávku.",
       "source": "Yahoo Tech"
-    },
-    {
-      "company": "Tesla",
-      "title": "SpaceX Below $135 IPO Price as All-Stock Tesla Merger Talks Advance Ahead of December 3 Meeting",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOUWhhUzFLLTF0R25RaFAtbWlHeU9fQkJUcE1LbHg0LUhOalBHMXBUbFVLb3pHRl96SmdZaXlsNklrUHl1VVo2T2FmZ3NyaEFnMnFnUmdMV3BIcFlzUG8ySllzYmFKUEZ6Y1Qzck41OHpGWm9YSllqYllQOVZ3ZnE0VnBwLUt5cHhTMWUyT1M4N25jUXkwa2FkNGlaTzhjU1B2TXdmd3ExZlV0cnRqUFlMOFZHVEhNT05aRENCR0NLX0duekJxWTBiWmpaQ3otUG9VVkM0?oc=5",
-      "time": "28.11.2026 09:17",
-      "direction": "mixed",
-      "impact": "Dopad na cenu akcie Tesla je nejednoznačný: akvizice může firmu posílit, ale znamená i vysokou cenu a integrační riziko.",
-      "source": "FXLeaders"
     },
     {
       "company": "Intel",
@@ -15901,15 +15892,6 @@
       "source": "TIKR"
     },
     {
-      "company": "Meta",
-      "title": "Meta Stock Price Jumps 3.13% to $628.96 on Two-Day Rally",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSXlUYnh1WXc3VUVza1dDSm1PejhUUG5aSU5lZDVtcnlYSWhIeU8tTnhYUjhIVThGbzktOFlRMzNqVWdtWFhaSkozS0ZsanRwSXpSX1JCZjNLMWxCUFpNMnNlejd6aHJUYTR1elFfUFVaY0dVSlJmRXNXdmMzX09iUHY1M2pzY01aRXdrNWQweFA?oc=5",
-      "time": "28.11.2026 06:30",
-      "direction": "up",
-      "impact": "Může vést k nárůstu ceny akcie Meta: prudký růst ukazuje na silný zájem investorů, po rychlém růstu ale může přijít i stahování zisků.",
-      "source": "JournalArta"
-    },
-    {
       "company": "Tesla",
       "title": "Tesla Stock And Other Tariff Protected Manufacturers Investors Are Watching",
       "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-stock-other-tariff-protected-051504941.html",
@@ -15919,13 +15901,22 @@
       "source": "Simply Wall St."
     },
     {
-      "company": "AMD",
-      "title": "AMD Stock Rises Even as Erste Group Downgrades to Hold; Here’s Why",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOcU5IZ2gyVFNlem51dl9lczhqaVFQSzdhS2wzZTBRNjRPWVRJNkxHTURzOFZNS1ctLU0tWHNxVl9qcUFPY3REOUJqb2lRVXpGVEtva2J3Z1NOd0pMTGRyV2FOZmtYUHhZNTlDU1Z4WmFqdTJIU3RnWXZydzN3NTd3bDdjQ2tvSjAxbUQ1RlRrQUFaZzdwNThUOTlR?oc=5",
-      "time": "28.11.2026 04:30",
+      "company": "Anthropic",
+      "title": "Anthropic jumps 11% to $91.88, ending first full week above $83 IPO price",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOM0FLOUZ0a3FQSnVRb0RHa24zM0dSM3UwbVlPeEtrWVRiZ0RLa3g4RzlmLU5lQno5M1BSN09faWVDUzlIbmN1MXF4Y1FvUFZFeDlzaTZoZkQzeGd6V3d6VWhCTW1qYlh6RTl2dlVVOG1SbnZBNmJOa2U4QVBtMVdCdFd6YTNxQ3JfVFhvWnNSMEZLOWc?oc=5",
+      "time": "28.11.2026 06:05",
+      "direction": "up",
+      "impact": "Může vést k nárůstu ceny akcie Anthropic: prudký růst ukazuje na silný zájem investorů, po rychlém růstu ale může přijít i stahování zisků.",
+      "source": "MLQ.ai"
+    },
+    {
+      "company": "Microsoft",
+      "title": "Are recent outages bad for software?",
+      "url": "https://finance.yahoo.com/technology/articles/recent-outages-bad-software-033947446.html",
+      "time": "28.11.2026 04:39",
       "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie AMD: analytici zhoršují hodnocení, což může zvýšit prodejní tlak.",
-      "source": "TipRanks"
+      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
+      "source": "Investing.com"
     },
     {
       "company": "Alphabet",
@@ -15953,6 +15944,15 @@
       "direction": "down",
       "impact": "Může vést k poklesu ceny akcie Alphabet: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
       "source": "Pluang"
+    },
+    {
+      "company": "Intel",
+      "title": "Securities Lawsuit Alert: Intel Corporation (INTC) – Contact Levi & Korsinsky for Information About Lead Plaintiff Deadline January 12, 2027",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQeGFFdTdFOHdKelFsY1c0NTBnem82X0kwelBqWFZVRWJlQWpYWDV6aDZZX1c1eEdVSlc1OGVLMnRsaVlnMzhyT3h2VnNsa2tyODcyZjlUQkYyc1oycVpYRndaOG9pZkJYcS16TTcxYjNja25XMzZMb215ajhPc3o2V295OUlyeG0yYk9TNEI5NWhUdjNKeDF2cUVuVlB3VktaN1BNeTdLZEVZZUppRHE2R1plWUVWTGthN0N3OHhUeUNMdmNJQ3ByZ2RYS2ZlOXRIc0dEN1lraHMtdWdKLTVRVmd3eHI?oc=5",
+      "time": "28.11.2026 00:45",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Intel: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
+      "source": "ACCESS Newswire"
     },
     {
       "company": "Anthropic",
