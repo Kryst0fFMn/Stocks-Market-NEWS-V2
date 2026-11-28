@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-28T02:57:39.999956+00:00",
+  "updated_at": "2026-11-28T03:59:28.767936+00:00",
   "stocks": [
     {
       "name": "Microsoft",
@@ -15741,6 +15741,15 @@
   ],
   "news": [
     {
+      "company": "Microsoft",
+      "title": "Are recent outages bad for software?",
+      "url": "https://finance.yahoo.com/technology/articles/recent-outages-bad-software-033947446.html",
+      "time": "28.11.2026 04:39",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
+      "source": "Investing.com"
+    },
+    {
       "company": "ASML",
       "title": "ASML Buyback Adds 445,000 Shares as Dutch Diplomacy Targets US Export Bill",
       "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNUGlKZmlmSldFNGxYeUszYzJ0UkpXR3FBX2I1UzNLVlBncFlONS1SWjJ0OWVXR190UHFZdEVXcHdkLUk1UmVNZzlQSHVidHlwZGJLN3BPajdCTUxtaHdyRjJmcjlGXzVjc0VuY0pIZE1TajdEUmJLR3VaWERTOW4wOWt4OEY0R3VLM0Z1VGd2R29KWms2MlpSTW0yTHI0Y0h3d2VqVHNCaDdvOEVlSEdhd1BkS2RERm9Send6QkdqYzZnaHp0RUkxeWJuaFB5OFJsM0M1cnJMcFdORDNmbzZ3?oc=5",
@@ -15784,15 +15793,6 @@
       "direction": "down",
       "impact": "Může vést k poklesu ceny akcie Alphabet: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
       "source": "Pluang"
-    },
-    {
-      "company": "Microsoft",
-      "title": "Microsoft meltdown: Outlook, Teams and Copilot hit by global outage",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPcUdkZE1oOFJNQ3g5REZ2V1gzMXJmZnZla004ci1oelpldnFDYm1FaHREVXNSanRDRUgwTEI0U3NBU0FaNS1sOU1iQUNDZ0JVOW9qRy15UVdNeUQ2LXlLNDlENmJ0bVJjeXVST1l5dFZDUGZhaVRTM3FocU1ZMk1MTGJGQ1VYd3VpSmpQZTFpLUU0dmpIa1NmRE9mZlR0eTVLMlBCRzc0Z3FYaTlhZEoxc3RR?oc=5",
-      "time": "28.11.2026 01:12",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
-      "source": "IOL"
     },
     {
       "company": "NVIDIA",
@@ -15885,6 +15885,15 @@
       "source": "The Motley Fool"
     },
     {
+      "company": "Apple",
+      "title": "AAPL: Apple defined, key history, primary product lineup",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5YT25nRDV2WDBrbkJNcGEtUTVaMXUwRUZiQjFPWURPanYxM0RaRE9yblZHZFJMbmpWT2FmaXhCanlyWFNwM2ZF?oc=5",
+      "time": "27.11.2026 22:40",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Apple: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
+      "source": "9to5Mac"
+    },
+    {
       "company": "Verizon",
       "title": "Verizon in Talks to Acquire Fidium in $6 Billion Fiber Deal",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB2SXRuZFFlRjdoRlJ3MkZCenp4Nnd3enNUR1FGMHdsaVBtTm9BVnE0NzZrUUl3a2hXNjJ1Z3pzWWRxcG4tWnNfdnBQWE1oaHU2ODdkbk1xRUxfTGtMX0NsUndvY29MeE00T3FXTkM2aFc4VGh6Mnc?oc=5",
@@ -15912,13 +15921,22 @@
       "source": "ad-hoc-news.de"
     },
     {
-      "company": "Intel",
-      "title": "Intel Stock Jumps Over 5% to $57.40 as Chipmakers Rally",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOTTB4YmQ1eFYzb19pYjBXVm9wTTNadTlkc2tDM1NWNlVRUVcya3hTRGZGcHRCOFJ6bnAyQXVoR1FfeWxHQVQxTWpkeVBOU1ZVSkZmU05wQ1NuNUQtYWoxTEo1bTVsWFBkTmZwWGM4ZkVub3ZlTGlxcTVKMW1lcEtKa1hsN3I3RDdVYVA3bkZKUF9TTEp5dXJOSzgzYXlpbTItanVUTDc2X3B1Mmt1cVM1VWRn?oc=5",
-      "time": "27.11.2026 21:20",
-      "direction": "up",
-      "impact": "Může vést k nárůstu ceny akcie Intel: prudký růst ukazuje na silný zájem investorů, po rychlém růstu ale může přijít i stahování zisků.",
+      "company": "TSMC",
+      "title": "TSMC Stock Price Jumps 3.21% to $353.34 as Tariff Plan Spares Chips",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPRzFUWElhNzNhY1ppZHoxOEFIM1I5VmJVN0FZTl9pcUlIbXpJVm1SaS1BQ19zY3BVZ0lPUFh0eHVWUU11ZzVIYkxxM1h1VTNSTzM1T3VZbG1pOTgxblU4S3FOb2lVeTlQeThaWjhaYmNVUXZOYnJFRkhybGNCRmJsUEJDV0JzbGtWOWFOOUxUZk9xQXd5MVpmZllpYmhoeTg?oc=5",
+      "time": "27.11.2026 21:41",
+      "direction": "mixed",
+      "impact": "Zpráva obsahuje pozitivní i negativní signály, dopad na cenu akcie TSMC je nejasný.",
       "source": "JournalArta"
+    },
+    {
+      "company": "TSMC",
+      "title": "TSMC Stocks Climb 1.84% as U.S. Tariff Proposal Leaves Chips Off the List",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdEZUMkpzbFlSNEZ3TmlveVBmNG9peUt1T1JLd0ZUenBPU2podW40ekx6V2p6aC1SemJELThkdjJ2TXZPRnFZcnY5MnpRZWFlTXJwNld3VGMxNk5WVjF3b3hoTXZuMklVN19LLWNBWlktZmFzSUZhaHdFTmI4STVBbzFSZDhQTzVsMXd4VjFjMkhldTJ3blBMcko4Mk0yTmU2Y2M0aG1EMTAzZmJB?oc=5",
+      "time": "27.11.2026 21:23",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie TSMC: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
+      "source": "GuruFocus"
     },
     {
       "company": "Anthropic",
@@ -15930,15 +15948,6 @@
       "source": "Stocks Down Under"
     },
     {
-      "company": "TSMC",
-      "title": "TSMC Stocks Climb 1.84% as U.S. Tariff Proposal Leaves Chips Off the List",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/tsmc-stocks-climb-1-84-194609822.html",
-      "time": "27.11.2026 20:46",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie TSMC: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
-      "source": "GuruFocus.com"
-    },
-    {
       "company": "SAP",
       "title": "SAP SE (SAP) Stock: Jumps as Company Eyes 10,000 Job Cuts to Accelerate AI Growth",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQV292aHdUOERfZWlOR213aUwteXNZbUt6aDRfSVg3enFfbkpSNVJPVEd2VHRVTWpVTk0xc05KSzRabXZReXV4NzZuU24wam1JSlF3Nkdwc29xaEE0d2NYNEFCVHI4dmdZWG5JSGZKbW9ISmQ2b2kwUEFJcWxiRDZ3VTNZRFJWZlkzbHlvX25MT2ZhM2I5M1NtVmR4RnFnX2lBSHlJ?oc=5",
@@ -15946,15 +15955,6 @@
       "direction": "up",
       "impact": "Může vést k nárůstu ceny akcie SAP: prudký růst ukazuje na silný zájem investorů, po rychlém růstu ale může přijít i stahování zisků.",
       "source": "Blockonomi"
-    },
-    {
-      "company": "Broadcom",
-      "title": "Broadcom (AVGO) Stock Jumps 3.82% to $312.34 in Afternoon Trading",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPX1IzNG85Z0Utc0w3NkQtYU9sYUUyQXhLQnE5dTJ5ZkhQa25kUTloQi1CY056Uk80cF9QN1RHUGxpYTNaQ29wZHBUcHJJYUhEbl91elRtYUpEclE5U3M4cmtXckl2QVNmM0dvaTdUNWlEbnhtQ0RLbGNjdDdrYUpRbXVkR05SQUYyWHprNEx5cl9TeTY5aGY1TzNLcDNKSk1C?oc=5",
-      "time": "27.11.2026 20:38",
-      "direction": "up",
-      "impact": "Může vést k nárůstu ceny akcie Broadcom: prudký růst ukazuje na silný zájem investorů, po rychlém růstu ale může přijít i stahování zisků.",
-      "source": "JournalArta"
     }
   ]
 }
