@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-28T10:38:12.753378+00:00",
+  "updated_at": "2026-11-28T11:35:16.491203+00:00",
   "stocks": [
     {
       "name": "Microsoft",
@@ -15748,6 +15748,51 @@
   ],
   "news": [
     {
+      "company": "Microsoft",
+      "title": "Microsoft 365 outage report: cause and recovery",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9VVzVjdnBJa1ZWZXlDWmYtTzVIVm02V00yVWJ2ak80bDZVRUNuNkIzWFRmeFg4YTJ5bmpCWF91VTM4NGJqRlVWUWJuOFpaNnJubFV5VFJkdHpfSEIyMHpRZ041V2FEcHB3dmhPNzlKaER2VjBhVFU2cHZYbFRFb2s?oc=5",
+      "time": "28.11.2026 12:32",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
+      "source": "NeoTeo"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "A.I. Outrage: Nvidia CEO Reinstated, Anthropic Goes Public, Service Outages. What You Need to Know",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBTNXpHc253OV9ZbVJKQmhIc21rREowcF91b25lTXZEdlE2S2k3UWpfNUEwZ0x0aDcyVXZLb1VmVy03UFl2dU56RkRjc0NHWC12dTlvaFMxOU5jVjNWYXQ40gFcQVVfeXFMUHlhYk9ORnFna0ZkZXdpSjBlN2xnY0ltY1BZWlg2blFnSTZOUHJuT1FhdGZ1ZTlGM21jUDFWNXlRU1FpOVBhbDdLQUlmcVhTcUxmTmpiTWJYUHFUYnU?oc=5",
+      "time": "28.11.2026 12:20",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie NVIDIA: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
+      "source": "Modern Ghana"
+    },
+    {
+      "company": "JPMorgan",
+      "title": "Puma stock: JPMorgan downgrades rating as markets are reshaped",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPcEhBZXV2RXRxS1l2c25yZE10UVJ6YkFsb0w0VklSZUxGcnZhMXJDcGE1cXJmcEVvUkhtVmtIOUxFWElOTHJLMnh6NWswREcwRlVfV180d2E0bFF1ZU8zRmRfcmVtR1VCOGFndjRKYnNnNTZidWRwdml3d0dILXVOaFRCVS0yMTJnYkF2cjdxcnRUN0tLamVJTHpzalpRYmNSWjFGZ3p3U2k1S0lYb3h6X1IwTUpvejlqNFdPM2d0UGltZw?oc=5",
+      "time": "28.11.2026 12:19",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie JPMorgan: analytici zhoršují hodnocení, což může zvýšit prodejní tlak.",
+      "source": "ad-hoc-news.de"
+    },
+    {
+      "company": "JPMorgan",
+      "title": "Nestle stock: JPMorgan keeps Buy rating, CHF100 target",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNa2xrckNtOG9jMG9ZOWk4cXVWb1ZzcjBlOW0zNEVLMkItSzRndWRPRGRmdmlCbkRJQWNIZzlGSnkyV0VOb2p5bUV1RmFnZ1FUeFJybFFVZUdseG8tTDc0TXBJMXdQY0c3M2tpZDlhek1BZkgtOFctblZnQVd5NUsxeHJQcFRoT1E3N2VIYjVjYmNtdmtic1F5QVhueFVkRXNaLU5yZXNDdldkRVo4UXE1cnVmMVA2Zw?oc=5",
+      "time": "28.11.2026 11:55",
+      "direction": "up",
+      "impact": "Může vést k nárůstu ceny akcie JPMorgan: analytici zlepšují hodnocení, což často přitáhne nové kupce.",
+      "source": "ad-hoc-news.de"
+    },
+    {
+      "company": "JPMorgan",
+      "title": "Henkel stock: JPMorgan keeps Sell rating despite higher target",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNQWRLT3MxUi1MamEwTFhmZ2pLcEVCbThfZmRWWmhCdmdFOUdYS2NBd0owdXB4WmFEYnM5T1gtSG9oX2FZcU1lLUMzbGhEMVlmNVJBUjVGUFV4LWRRTXN0R3dia3lqbExDdHJPdWZPSmVfd0I4NWc4NTFnZ0Joa2liVkxsMFA0Z2ktWXZzQ0E2SGtpcy0tcExiVUxLOENHM0wyeU0xeXVKU0JtM3pYRWNURXhGNGt3dU9xUV94NlNXbzhXdw?oc=5",
+      "time": "28.11.2026 11:53",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie JPMorgan: analytici zhoršují hodnocení, což může zvýšit prodejní tlak.",
+      "source": "ad-hoc-news.de"
+    },
+    {
       "company": "UniCredit",
       "title": "Commerzbank stock slides 10.12% as UniCredit seeks board overhaul",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOUll6cWItT29ZZDd0V2dYNE9GTHNmMHppZ0ZFNXZnZ25sR2l4ZVhkQmVDYXEwTGVjR2FOV19VX1JST0tpa1JWa1hGUFVjVkMxMzZSa01YY3FMZzl1emJZZjhVWWYtdmJSNHBFZ1UzWVlURFNvb0ZrWVlranlyeTh6dC1tVEItYUh0emVMV3hXT09FblVsd0hWSG9WNFM3SHkweHk2cUFhdFp3ZGRHeXBaRW5qWU9nbG51dlFqNU1GSnN3U0I1dGc?oc=5",
@@ -15763,15 +15808,6 @@
       "time": "28.11.2026 11:21",
       "direction": "up",
       "impact": "Může vést k nárůstu ceny akcie Micron Technology: analytici zlepšují hodnocení, což často přitáhne nové kupce.",
-      "source": "ad-hoc-news.de"
-    },
-    {
-      "company": "Alphabet",
-      "title": "Alphabet stock faces $146 million Malaysia lawsuits over YouTube content",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNdXRYUGI5Qld3eDFjU25WUlpnWFVfMU9EZHdoX1pJSS1RWUF4aEdGQ1JTOU1IUkx2VkRBRGxfNG85TTduLTJEdTJKdzVLNmpjRmNBdUgtS1owV3F6UzJCeHFLdUJ2R0hkTWRKcEZxSE9LSERaTUlpVHpqQTFxYkhCYkhHQ293X25jNFg3TEw5aHB4eDdzQU9TWjVLRXBLUlZKOVJYS0o4ZkthNHowSVdJeWVYV2FTR1ZidlNiTXlRZmRWTnlPd2RqMG0xMFRvclk?oc=5",
-      "time": "28.11.2026 11:13",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Alphabet: právní nebo regulační riziko může znamenat pokuty či omezení podnikání.",
       "source": "ad-hoc-news.de"
     },
     {
@@ -15803,21 +15839,21 @@
     },
     {
       "company": "Microsoft",
+      "title": "Microsoft outage hits South African businesses, government services and universities",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPendFUktGazBkcURFNFpQUjZEWnVwWWNNb1MwVkxjSFdpejVTOW13VExocHpTaTVRSmRaMnlkLTFDUzNzb2kxNm5oZUlRR185V2laWU5fYVFRbURRdExXUFVfVFBSSHRpYXBqb1NGVTVuMjlfSWRUZmx1U0hseEk0MGRrV0ZIWVU1MER2bVNOSWM2YUJhaVMtdUctdklJU20yQkRpZVIzb19OSDNqVE9uU3Vyb0JpbkcwMzZZdnJYaw?oc=5",
+      "time": "28.11.2026 09:42",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
+      "source": "IOL"
+    },
+    {
+      "company": "Microsoft",
       "title": "Tech layoffs tracker 2026: All the job losses across Disney, Intel, Amazon, Microsoft, Apple, Meta and others",
       "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOc1VXdUV4VHNsYl9ueVBBN0xDWUo4RG1KYXFGNXlWNTlFOVZ5VUdfNnBUVlkxXzFWNV9tZDhrTzdWTW9FVTl3Y2ppWTJXbFhWSzVHeG5JSm9pRjQxZ3ZnMXpCY3FTYVBKcHhOV0hCZjBiZEU4dl9wRHNBQlFMbHVNWkFsbkQzOHBkQ2FadzF2UnZyUWZJeEtseFhLQ1ZQcVBSUmR2dEpwd0J1Zjd1QThyYzJxN2gxUi0xbFhVamVuYUdFaldBQXRUMFRHRTJDa1JiY0VvUmJEZW5WT2ZHdWVsSzdFOXBld1dOTFNNTWtoZ1lQOVp2T2xmUkNPZy1ibXdy?oc=5",
       "time": "28.11.2026 09:41",
       "direction": "mixed",
       "impact": "Dopad na cenu akcie Microsoft je nejednoznačný: propouštění může ušetřit náklady, ale často signalizuje slabší poptávku.",
       "source": "Yahoo Tech"
-    },
-    {
-      "company": "NVIDIA",
-      "title": "Tech Stock Sell-Off: Down 36%, Is SpaceX a Buy Now?",
-      "url": "https://www.fool.com/investing/2026/11/28/tech-stock-sell-off-down-36-is-spacex-a-buy-now/",
-      "time": "28.11.2026 09:30",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie NVIDIA: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
-      "source": "Motley Fool"
     },
     {
       "company": "Tesla",
@@ -15838,6 +15874,15 @@
       "source": "Investing.com"
     },
     {
+      "company": "Tesla",
+      "title": "Tech Stock Sell-Off: Down 36%, Is SpaceX a Buy Now?",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPUHdrNE5mQlpHNVMxRkQya281ZDVMMlZsZE5mRjBfMW9kYkhjMDBkYk8tcGRNQU9SbVNMS3lKZFp5Z2l3ODZGN2xJWWNoMFJHNGZkZjNqMXYzU1NiemdreXhsaVkwcVpsbnVYQVFOODVqSWdNRFhyQnhIVlZXQ0ZUcnZHMnpDZjFib2MzbW9weTFaRURt?oc=5",
+      "time": "28.11.2026 09:10",
+      "direction": "down",
+      "impact": "Může vést k poklesu ceny akcie Tesla: prudký pokles ukazuje na silný prodejní tlak a nervozitu investorů.",
+      "source": "The Motley Fool"
+    },
+    {
       "company": "NVIDIA",
       "title": "Key facts: NVIDIA revenue surges; shares fall; rating on negative watch",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOb25UUGZFM1RZY2U0R0IwU0p2Z1lSeG1RX0xXQzlZajZqTHNJaEJXcjdCUWhfdTNMNXJ6Q1NyVi1kM0ozQjVFMjNtMV96bkFEb0NqaWF1NzFSclBBNmpTbTgtQWZuUnBXTmI3cFJtWG93bEhTSjlmbi00Vll0Y3J3RTZvWjNiVzBmcEhRRXRQSkQwQk50OHlJUUg4NWQ3VEhBYW9EV2dUV0pNLU9yY1lidDNMR29BelZzTWcwZU9OR1JnR3YtM2EtUllB?oc=5",
@@ -15845,15 +15890,6 @@
       "direction": "up",
       "impact": "Může vést k nárůstu ceny akcie NVIDIA: prudký růst ukazuje na silný zájem investorů, po rychlém růstu ale může přijít i stahování zisků.",
       "source": "TradingView"
-    },
-    {
-      "company": "SpaceX",
-      "title": "SpaceX's Million-Satellite Plan Ignites Rally; Compeq Surges Over 20% in a Week as Foreign Investors Buy Back 12,000 Lots",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBCMk0ycUVObTdJT2k4eHZkZjNFMkdSZVBSRVRLVjZhU05BVTZjSFlVcFlCZlZTM1U2WnJmZ2tJbkk2MkxNMlE2MmhFck5MMUV6dFVpSUpyWE52OTdqWHpCSm1neV93dDlSSnhkclZtZGg0T0gwWWc?oc=5",
-      "time": "28.11.2026 08:55",
-      "direction": "up",
-      "impact": "Může vést k nárůstu ceny akcie SpaceX: prudký růst ukazuje na silný zájem investorů, po rychlém růstu ale může přijít i stahování zisků.",
-      "source": "BigGo Finance"
     },
     {
       "company": "Broadcom",
@@ -15883,40 +15919,13 @@
       "source": "Simply Wall St."
     },
     {
-      "company": "Anthropic",
-      "title": "Anthropic jumps 11% to $91.88, ending first full week above $83 IPO price",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOM0FLOUZ0a3FQSnVRb0RHa24zM0dSM3UwbVlPeEtrWVRiZ0RLa3g4RzlmLU5lQno5M1BSN09faWVDUzlIbmN1MXF4Y1FvUFZFeDlzaTZoZkQzeGd6V3d6VWhCTW1qYlh6RTl2dlVVOG1SbnZBNmJOa2U4QVBtMVdCdFd6YTNxQ3JfVFhvWnNSMEZLOWc?oc=5",
-      "time": "28.11.2026 06:05",
-      "direction": "up",
-      "impact": "Může vést k nárůstu ceny akcie Anthropic: prudký růst ukazuje na silný zájem investorů, po rychlém růstu ale může přijít i stahování zisků.",
-      "source": "MLQ.ai"
-    },
-    {
-      "company": "JPMorgan",
-      "title": "Allianz Rejects Consumer Group's Green Claims as JPMorgan Lifts Target and Insurer Raises Guidance",
-      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNbFdYU21ZcnBOdmpZclJFWTd4UGFLUzFNU1l3SHBuWVBuTXFKaUVpUWx4SkwtbnVrYVRHMF91X18xY254QlRRcU1DN2hKeXJ3QUZoZlo0ZzFPOFlWa0NkVmp4dC1nS0dyVklxd28wdW1HME1SUVlZV0tQNnZIaFlPa1VwTFNPdkxPcnQtVUZHNHczZ3BlYmlHOVUwa0xqdER6ZmFETlpKSXhhMFFzd3ZDWWxNQlN0RjJ6MW8ycmpNdG5Ua1V0WEt6TU5QZlRGX0hsU2dBOTFhMHVuRmI2Yk11ajZQR2tFMjV6eTVtdGk3NEhtb3NoQ1hiRkFMNnhHZUU?oc=5",
-      "time": "28.11.2026 05:53",
-      "direction": "up",
-      "impact": "Může vést k nárůstu ceny akcie JPMorgan: silnější výsledky nebo vyšší výhled zvyšují očekávání budoucích zisků.",
-      "source": "ad-hoc-news.de"
-    },
-    {
-      "company": "Microsoft",
-      "title": "Are recent outages bad for software?",
-      "url": "https://finance.yahoo.com/technology/articles/recent-outages-bad-software-033947446.html",
-      "time": "28.11.2026 04:39",
+      "company": "AMD",
+      "title": "AMD Stock Rises Even as Erste Group Downgrades to Hold; Here’s Why",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOcU5IZ2gyVFNlem51dl9lczhqaVFQSzdhS2wzZTBRNjRPWVRJNkxHTURzOFZNS1ctLU0tWHNxVl9qcUFPY3REOUJqb2lRVXpGVEtva2J3Z1NOd0pMTGRyV2FOZmtYUHhZNTlDU1Z4WmFqdTJIU3RnWXZydzN3NTd3bDdjQ2tvSjAxbUQ1RlRrQUFaZzdwNThUOTlR?oc=5",
+      "time": "28.11.2026 04:30",
       "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
-      "source": "Investing.com"
-    },
-    {
-      "company": "Microsoft",
-      "title": "Microsoft outage hits Welsh police reports as NHS and pharmacies warn of delays",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUDNBUl9HM0dUMFUzUzFxYVo0SHUyU3VWSkhfd0JBRUEtR2l5RVNXTm9pRmdGOFZmRE14czUxd2tHdEUtNkVLcDR6T3hWYjF5Z3l2eGFON0duQ3FZeTdjOElOVkVaWnRRdV9jV3pjcElER2hCYUVjN05jQkg5SDBGNWJ3blZZVkRaZGZCOHRjR2RfVWk0WnQ4?oc=5",
-      "time": "28.11.2026 02:52",
-      "direction": "down",
-      "impact": "Může vést k poklesu ceny akcie Microsoft: výpadek nebo bezpečnostní incident poškozuje důvěru zákazníků a může znamenat ztráty i pokuty.",
-      "source": "Herald.Wales"
+      "impact": "Může vést k poklesu ceny akcie AMD: analytici zhoršují hodnocení, což může zvýšit prodejní tlak.",
+      "source": "TipRanks"
     },
     {
       "company": "Alphabet",
@@ -15946,22 +15955,13 @@
       "source": "Pluang"
     },
     {
-      "company": "Broadcom",
-      "title": "Broadcom (NASDAQ:AVGO) Stock Jumps 3.6% - Here's What Happened",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOWjlfWUNRVmZzYWxic1NKX1pnTkxsQzg2dmNFZ01QOEkwY1hoM1JkNGdQckJYYWRNSXdyLU5TVzkxcWF1UnZJUVd2NGR6QnU3aExKaG5hUDlSM3hGdW5yYkNDcFV6STlac0JiN1UzdVRCN2FsVUZmSi1kb1RjZTVfTF8xZ2V2dDRnMUI4YTZQSVd2M1Voel9leVVEZHRtTHcyQ1JxdEMyR0Nvdjk4OUZmSHFTeHlKQQ?oc=5",
-      "time": "27.11.2026 23:04",
+      "company": "Anthropic",
+      "title": "Anthropic Jumps Nearly 11% in a Day to Reclaim IPO Price, Ekes Out a Gain in First Full Trading Week",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAwRWFqUkE3UG5PV3B6Y0pCUy1SYkFDZUVUUjQ0QmtVMDVpUUY5MVlmSHI1WVpwSEhTd0FiZ3hIXzRYbzNZd25VYW5vanFiZlg2aWk1UFNxaTN3OWs5cS1Xd3Q0ZVdPNjdhR1FQazR0TUZyemxZZ3c?oc=5",
+      "time": "28.11.2026 00:35",
       "direction": "up",
-      "impact": "Může vést k nárůstu ceny akcie Broadcom: prudký růst ukazuje na silný zájem investorů, po rychlém růstu ale může přijít i stahování zisků.",
-      "source": "MarketBeat"
-    },
-    {
-      "company": "Oracle",
-      "title": "Oracle (NYSE:ORCL) Stock Jumps 3.5% - Still a Buy?",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxONFFDV292YlRMaXk0MS1xS0JzemtDU0l3TGdfaVBDWUJ6TTVqVldNVG9KZzZyZFJyck9tNTBGcVZBeGpFSWh1UHF4LUVjdjRFLTBEYTFvODV0WWpLeWVYUjB4LTVYTlZEVUdDSkJiTWdIS19aRE8xR083OXE5dUlMMm9wcUpJd0o1U1VVWUFTdmF6cmxUT3lTSUV3WEVkZ2xRQmp1aWVn?oc=5",
-      "time": "27.11.2026 23:04",
-      "direction": "up",
-      "impact": "Může vést k nárůstu ceny akcie Oracle: prudký růst ukazuje na silný zájem investorů, po rychlém růstu ale může přijít i stahování zisků.",
-      "source": "MarketBeat"
+      "impact": "Může vést k nárůstu ceny akcie Anthropic: prudký růst ukazuje na silný zájem investorů, po rychlém růstu ale může přijít i stahování zisků.",
+      "source": "BigGo Finance"
     }
   ]
 }
